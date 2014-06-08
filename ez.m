@@ -1,22 +1,31 @@
 classdef ez
+    %  
+    % 
     % usage: 
     % add this file to search path of matlab (e.g. put in userpath)
     % import ez.* GetDir()
     % or ez.method without import: ez.GetDir()
     %
     % help method to see more information
-    % error(msg), print(), pprint(), cwd(), csd(), 
-    % parentdir(path), isdirlike(path), isfilelike(path), isdir(path), isfile(path), exists(path)
-    % splitpath(path), joinpath(path1, path2), cd(path)
-    % typeof(sth), str(sth), num(sth), len(sth)
-    % ls(path, regex), fls(path, regex), mkdir(path), rm(path), cp(src, dest), mv(src, dest)
-    % execute(cmd)
-    % Alert(msg), result = Confirm(msg), results = Inputs(values, defaults), 
-    % GetDir(path), GetFile(pattern, multiple), SetFile(defaultFileName)
+    %       error(msg), print(), pprint(), 
     %
-    % # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    %       cwd(), csd(), parentdir(path), 
+    %       isdirlike(path), isfilelike(path), 
+    %       isdir(path), isfile(path), exists(path)
+    %       splitpath(path), joinpath(path1, path2), cd(path)
+    % 
+    %       typeof(sth), str(sth), num(sth), len(sth)
+    %       ls(path, regex), fls(path, regex), 
+    %
+    %       mkdir(path), rm(path), cp(src, dest), mv(src, dest)
+    %       execute(cmd)
+    %
+    %       Alert(msg), result = Confirm(msg), results = Inputs(values, defaults), 
+    %       GetDir(path), GetFile(pattern, multiple), SetFile(defaultFileName)
+    %
+    % # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     % # file save routine
-    % # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    % # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     %
     % create a matrix y, with two rows
     % x = 0:0.1:1;
@@ -74,7 +83,8 @@ classdef ez
         end
 
         function result = parentdir(path)
-            % returns the parent dir of a path (a file or folder), no matter whether it exists or not
+            % returns the parent dir of a path (a file or folder), 
+            % no matter whether it exists or not
             [pathstr, name, ext] = fileparts(path);
             % if folder
             if isempty(ext)
@@ -85,7 +95,8 @@ classdef ez
         end
 
         function result = isdirlike(path)
-            % returns whether the path is a folder or a file, no matter whether it exists or not
+            % returns whether the path is a folder or a file, 
+            % no matter whether it exists or not
             [pathstr, name, ext] = fileparts(path);
             % if folder
             if isempty(ext)
@@ -96,7 +107,8 @@ classdef ez
         end
 
         function result = isfilelike(path)
-            % returns whether the path is a folder or a file, no matter whether it exists or not
+            % returns whether the path is a folder or a file, 
+            % no matter whether it exists or not
             [pathstr, name, ext] = fileparts(path);
             % if folder
             if isempty(ext)
@@ -107,12 +119,14 @@ classdef ez
         end
 
         function result = isfile(path)
-            % returns whether the path is an existing file; doesnot support wildcards
+            % returns whether the path is an existing file; 
+            % doesnot support wildcards
             result = exist(path,'file') == 2;
         end
 
         function varargout = isdir(varargin)
-            % returns whether the path is an existing folder; doesnot support wildcards, a wrapper of isdir()
+            % returns whether the path is an existing folder; 
+            % doesnot support wildcards, a wrapper of isdir()
             [varargout{1:nargout}] = isdir(varargin{:}); 
         end
 
@@ -303,7 +317,8 @@ classdef ez
         % # 
         % # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         function Alert(msg)
-            % msg = {'Message line 1';'Message line 2'}; no-modal dialogue
+            % msg = {'Message line 1';'Message line 2'}
+            % no-modal dialogue. script still continues without waiting for user response.
             warndlg(msg,'Alert!');
         end
 
@@ -317,6 +332,7 @@ classdef ez
                 otherwise
                     result = false;
             end
+            if (~result); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
         function results = Inputs(values, defaults)
@@ -326,10 +342,11 @@ classdef ez
             % use isempty() to  parse results
             if ~exist('defaults','var'); defaults = cell(size(values)); defaults(:)={['']}; end  % defaults(:)={''} also works
             results = inputdlg(values, 'Inputs:', 1, defaults, 'on');
+            if (isempty(results)); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
         function result = GetDir(path)
-            % returns a path or false
+            % returns a path string/char or false
             % path is default path; optional, defaults to current script directory
 
             try
@@ -343,6 +360,7 @@ classdef ez
             if ~exist('path','var'); path = csd; end
             result = uigetdir(path,'Select a folder...');
             if isequal(result, 0); result = false; end
+            if (~result); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
         function result = GetFile(pattern, multiple)
@@ -356,7 +374,7 @@ classdef ez
             %
             % multiple = 1, 0; optional, default 1 allowing multiple selection
             %
-            % returns a nx1 cell with full path to file(s) (no matter how many files selected), or false
+            % returns a nx1 cell with full path to file(s) (no matter how many files selected), or {}
 
             if ~exist('pattern','var')
                 pattern = {'*.*','All Files (*.*)'};
@@ -372,17 +390,20 @@ classdef ez
 
             [fileName,pathName,filterIndex] = uigetfile(pattern,'Select file(s)...', 'MultiSelect', multiple);
             if isequal(fileName, 0)
-                result = false;
+                result = {};
             else
                 if ~iscell(fileName); fileName = {fileName}; end
                 % transpose to nx1 cell from 1xn
                 fileName = fileName .';
                 result = cellfun(@(x) fullfile(pathName,x),fileName, 'UniformOutput', false);
             end
+            if (isempty(result)); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
         function result = SetFile(defaultFileName)
-            % saves a file; returns the fullpath or false; optional defaultFileName = '';
+            % saves a file
+            % returns the fullpath string/char or false
+            % optional defaultFileName = ''
             if ~exist('defaultFileName','var'); defaultFileName = ''; end
             [fileName,pathName,filterIndex] = uiputfile({'*.*','All Files (*.*)'},'Save (as) ...',defaultFileName);
             if isequal(fileName, 0)
@@ -390,6 +411,7 @@ classdef ez
             else
                 result = fullfile(pathName, fileName);
             end
+            if (~result); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
     end
