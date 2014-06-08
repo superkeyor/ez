@@ -1,6 +1,4 @@
 classdef ez
-    %  
-    % 
     % usage: 
     % add this file to search path of matlab (e.g. put in userpath)
     % import ez.* GetDir()
@@ -63,7 +61,7 @@ classdef ez
         
         function pprint(sth)
             % Display a message, supporting formating
-            disp(sprintf(sth)); % or fprintf(sth)
+            fprintf(sth); % or fprintf(sth)
         end
 
         function result = cwd()
