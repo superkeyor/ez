@@ -144,15 +144,17 @@ classdef ez
             %
             % example:
             % file = 'H:\user4\matlab\myfile.txt';
-            % [pathstr,name,ext] = fileparts(file)
+            % [pathstr,name,ext] = splitpath(file)
             % pathstr = H:\user4\matlab
             % name = myfile
             % ext = .txt
             %
-            % [pathstr,name,ext] = fileparts('/home/jsmith/.cshrc')
+            % [pathstr,name,ext] = splitpath('/home/jsmith/.cshrc')
             % pathstr = /home/jsmith
             % name = Empty string: 1-by-0
             % ext = .cshrc
+            %
+            % a wrapper of fileparts()
 
             % http://www.mathworks.com/help/matlab/ref/fileparts.html
             % ref: http://stackoverflow.com/questions/4895556/how-to-wrap-a-function-using-varargin-and-varargout
