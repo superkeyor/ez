@@ -201,6 +201,7 @@ classdef ez
 
         function result = ls(rootdir, expstr, recursive)
             % returns a nx1 cell of files in directory with fullpath
+            % ls(path,regex) regex is case sensitive by default
             switch nargin
                 case 0
                     rootdir = pwd;
@@ -235,6 +236,7 @@ classdef ez
 
         function result = fls(rootdir, expstr, recursive)
             % returns a nx1 cell of files in directory with fullpath recursively
+            % fls(path,regex) regex is case sensitive by default
             switch nargin
                 case 0
                     rootdir = pwd;
@@ -436,7 +438,7 @@ function dirlist = regexpdir(rootdir, expstr, recursive)
 % 
 %    The above example will return any EXE files on the C-drive. 
 % 
-%    By default REGEXPDIR searches case insensitive. To make it case
+%    By default REGEXPDIR searches case insensitive (I changed to case sensitve by default--Jerry). To make it case
 %    senstitive please specify it in the regular expression by adding 
 %    '(?-i)' to it. Ommitting to specify the beginning '^' and ending '$'
 %    of the regular expression may result in unexpected behaviour.
@@ -477,7 +479,7 @@ for h = find([dirtree.isdir]);
 end
 for i = find(~[dirtree.isdir]);
     % if regexpi(strrep(fullfile(rootdir, dirtree(i).name), basedir, ''), expstr);
-    if regexpi(dirtree(i).name, expstr);
+    if regexp(dirtree(i).name, expstr);
         dirlist = [dirlist; fullfile(rootdir, dirtree(i).name)];
     end
 end
