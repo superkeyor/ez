@@ -1,4 +1,5 @@
 classdef ez
+    % author=jerryzhujian9@gmail.com, June 15 2014, 07:59:26 PM CDT
     % usage: 
     % add this file to search path of matlab (e.g. put in userpath)
     % import ez.* GetDir()
