@@ -11,7 +11,7 @@ classdef ez
     %       cwd(), csd(), parentdir(path), 
     %       isdirlike(path), isfilelike(path), 
     %       isdir(path), isfile(path), exists(path)
-    %       splitpath(path), joinpath(path1, path2), cd(path)
+    %       addpath(path), splitpath(path), joinpath(path1, path2), cd(path)
     % 
     %       typeof(sth), str(sth), num(sth), len(sth)
     %       ls(path, regex), fls(path, regex), 
@@ -136,6 +136,12 @@ classdef ez
             else
                 result = false;
             end
+        end
+
+        function varargout = addpath(varargin)
+            % Add a path to matlab search path, a wrapper of addpath()
+            % http://www.mathworks.com/help/matlab/ref/addpath.html
+            [varargout{1:nargout}] = addpath(varargin{:}); 
         end
 
         function varargout = splitpath(varargin)
