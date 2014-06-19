@@ -66,11 +66,13 @@ classdef ez
         end
 
         function result = cwd()
+            % cwd()
             % returns the current working directory
             result  = pwd;
         end
 
         function result = csd()
+            % csd()
             % returns the caller (current caller m script file) 's directory
             try
                 theStacks = dbstack('-completenames');
@@ -82,6 +84,7 @@ classdef ez
         end
 
         function result = parentdir(path)
+            % parentdir(path)
             % returns the parent dir of a path (a file or folder), 
             % no matter whether it exists or not
             [pathstr, name, ext] = fileparts(path);
@@ -94,6 +97,7 @@ classdef ez
         end
 
         function result = isdirlike(path)
+            % isdirlike(path)
             % returns whether the path is a folder or a file, 
             % no matter whether it exists or not
             [pathstr, name, ext] = fileparts(path);
@@ -106,6 +110,7 @@ classdef ez
         end
 
         function result = isfilelike(path)
+            % isfilelike(path)
             % returns whether the path is a folder or a file, 
             % no matter whether it exists or not
             [pathstr, name, ext] = fileparts(path);
@@ -118,18 +123,21 @@ classdef ez
         end
 
         function result = isfile(path)
+            % isfile(path)
             % returns whether the path is an existing file; 
             % doesnot support wildcards
             result = exist(path,'file') == 2;
         end
 
         function varargout = isdir(varargin)
+            % isdir(path)
             % returns whether the path is an existing folder; 
             % doesnot support wildcards, a wrapper of isdir()
             [varargout{1:nargout}] = isdir(varargin{:}); 
         end
 
         function result = exists(path)
+            % exists(path)
             % returns whether a file or folder exits; doesnot support wildcards
             if exist(path,'file')
                 result = true;
@@ -139,6 +147,7 @@ classdef ez
         end
 
         function varargout = addpath(varargin)
+            % addpath(varargin)
             % Add a path to matlab search path, a wrapper of addpath()
             % http://www.mathworks.com/help/matlab/ref/addpath.html
             [varargout{1:nargout}] = addpath(varargin{:}); 
@@ -178,16 +187,19 @@ classdef ez
         end
 
         function varargout = cd(varargin)
+            % cd(varargin)
             % changes directory, the same as cd()
             [varargout{1:nargout}] = cd(varargin{:}); 
         end
 
         function varargout = typeof(varargin)
+            % typeof(varargin)
             % returns the datatype of an input, a wrapper of class()
             [varargout{1:nargout}] = class(varargin{:}); 
         end
 
         function varargout = str(varargin)
+            % str(varargin)
             % converts a number to string, a wrapper of num2str()
             % supports formatting, see:
             % http://www.mathworks.com/help/matlab/ref/num2str.html
@@ -195,6 +207,7 @@ classdef ez
         end
 
         function varargout = num(varargin)
+            % num(varargin)
             % converts a string to number, a wrapper of str2num()
             % '1 23 6 21; 53:56' -> 1 23 6 21 53 54 55 56 
             % http://www.mathworks.com/help/matlab/ref/str2num.html
@@ -202,11 +215,14 @@ classdef ez
         end
 
         function varargout = len(varargin)
+            % len(varargin)
             % returns the len of an array
             [varargout{1:nargout}] = length(varargin{:}); 
         end
 
         function result = ls(rootdir, expstr, recursive)
+            % ls(), ls(regex), ls(path, regex), 
+            % if path is missing, refers to current working directory
             % returns a nx1 cell of files in directory with fullpath
             % ls(path,regex) regex is case sensitive by default
             switch nargin
@@ -242,6 +258,8 @@ classdef ez
         end
 
         function result = fls(rootdir, expstr, recursive)
+            % fls(), fls(regex), fls(path, regex), 
+            % if path is missing, refers to current working directory
             % returns a nx1 cell of files in directory with fullpath recursively
             % fls(path,regex) regex is case sensitive by default
             switch nargin
@@ -276,6 +294,7 @@ classdef ez
         end
 
         function status = mkdir(path)
+            % mkdir(path)
             % makes a new dir, path could be absolute or relative, returns true or false
             % creates all neccessay parent folders (e.g. 'a/b/c', creates a b for c)
             % if folder exits, still creates and returns success
@@ -286,6 +305,7 @@ classdef ez
         end
 
         function rm(path)
+            % rm(path)
             % removes a folder recursively or a file; file supports wildcards
             if isdir(path)
                 rmdir(path, 's');
@@ -297,6 +317,7 @@ classdef ez
         end
 
         function varargout = cp(varargin)
+            % cp(varargin)
             % copys a file or folder to new destination , a wrapper of copyfile()
             % be careful with the trailing fielsep! in the destination
             % example: ('Projects/my*','../newProjects/')
@@ -307,6 +328,7 @@ classdef ez
         end
 
         function varargout = mv(varargin)
+            % mv(varargin)
             % moves a file or folder to new destination , a wrapper of movefile()
             % be careful with the trailing fielsep! in the destination
             % cannot be used to rename a file or folder
@@ -318,6 +340,7 @@ classdef ez
         end
 
         function result = execute(command)
+            % execute(command)
             % execute operating system command and returns output
             [status,result] = system(command,'-echo');
         end
@@ -326,12 +349,14 @@ classdef ez
         % # 
         % # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         function Alert(msg)
+            % Alert(msg)
             % msg = {'Message line 1';'Message line 2'}
             % no-modal dialogue. script still continues without waiting for user response.
             warndlg(msg,'Alert!');
         end
 
         function result = Confirm(msg)
+            % Confirm(msg)
             % msg = {'Message line 1';'Message line 2'}
             % returns true (only when Yes pressed) or false (anything else)
             button = questdlg(msg,'Question?','Yes','No','No');
@@ -345,18 +370,21 @@ classdef ez
         end
 
         function results = Inputs(values, defaults)
+            % Inputs(values, defaults)
             % Inputs({'x=', 'y='})      Inputs({'x=', 'y='},{'2','2'})
             % {'x=', 'y='}, {'0','0'} <- default Answer must be a cell array of strings.
-            % returns a <n x 1 cell array> or {}; defaults is optional
-            % use isempty() to  parse results
+            % returns a <n x 1 cell array>
+            % if the return is {}, raise an error
             if ~exist('defaults','var'); defaults = cell(size(values)); defaults(:)={['']}; end  % defaults(:)={''} also works
             results = inputdlg(values, 'Inputs:', 1, defaults, 'on');
             if (isempty(results)); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
         function result = GetDir(path)
-            % returns a path string/char or false
+            % GetDir(path)
+            % returns a path string/char
             % path is default path; optional, defaults to current script directory
+            % if the return deos not exist, raise an error
 
             try
                 theStacks = dbstack('-completenames');
@@ -373,6 +401,7 @@ classdef ez
         end
 
         function result = GetFile(pattern, multiple)
+            % GetFile(pattern, multiple)
             % pattern = {'*.xls';'*.txt';'*.csv'} or {'*.m'} or '*.*'
             % {'*.m;*.fig;*.mat;*.slx;*.mdl','MATLAB Files (*.m,*.fig,*.mat,*.slx,*.mdl)';
             %  '*.m','Code files (*.m)';
@@ -383,7 +412,8 @@ classdef ez
             %
             % multiple = 1, 0; optional, default 1 allowing multiple selection
             %
-            % returns a nx1 cell with full path to file(s) (no matter how many files selected), or {}
+            % returns a nx1 cell with full path to file(s) (one or more than one files selected)
+            % if the return is {}, raise an error
 
             if ~exist('pattern','var')
                 pattern = {'*.*','All Files (*.*)'};
@@ -410,9 +440,11 @@ classdef ez
         end
 
         function result = SetFile(defaultFileName)
+            % SetFile(defaultFileName)
             % saves a file
-            % returns the fullpath string/char or false
+            % returns the fullpath string/char
             % optional defaultFileName = ''
+            % if the return does not exist, raise an error
             if ~exist('defaultFileName','var'); defaultFileName = ''; end
             [fileName,pathName,filterIndex] = uiputfile({'*.*','All Files (*.*)'},'Save (as) ...',defaultFileName);
             if isequal(fileName, 0)
