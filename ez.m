@@ -6,7 +6,9 @@ classdef ez
     % or ez.method without import: ez.GetDir()
     %
     % help method to see more information
-    %       error(msg), print(), pprint(), 
+    %       error(msg), print(sth), pprint(sth[, color])
+    %
+    %       moment()
     %
     %       cwd(), csd(), parentdir(path), 
     %       isdirlike(path), isfilelike(path), 
@@ -14,13 +16,15 @@ classdef ez
     %       addpath(path), splitpath(path), joinpath(path1, path2), cd(path)
     % 
     %       typeof(sth), str(sth), num(sth), len(sth)
-    %       ls(path, regex), fls(path, regex), 
+    %       ls([path, ]regex), fls([path, ]regex), 
     %
     %       mkdir(path), rm(path), cp(src, dest), mv(src, dest)
     %       execute(cmd)
     %
-    %       Alert(msg), result = Confirm(msg), results = Inputs(values, defaults), 
-    %       GetDir(path), GetFile(pattern, multiple), SetFile(defaultFileName)
+    %       Alert(msg), result = Confirm(msg), results = Inputs(values[, defaults]), 
+    %       GetDir([title, path]), GetFile(pattern[, title, multiple]), SetFile(defaultFileName[, title])
+    %
+    %       cell2csv(csvFile,cellArray)
     %
     % # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     % # file save routine
@@ -54,15 +58,46 @@ classdef ez
             % Display message and abort function, a wrapper of error()
             [varargout{1:nargout}] = error(varargin{:}); 
         end
-        
+
         function varargout = print(varargin)
-            % Display a message or variable, a wrapper of disp()
+            % Display message without formating, start a new line, a wrapper of disp()
             [varargout{1:nargout}] = disp(varargin{:}); 
         end
-        
-        function pprint(sth)
-            % Display a message, supporting formating
-            fprintf(sth); % or fprintf(sth)
+
+        function pprint(sth, color)
+            % print(sth[, color]), color is optional, default to 'purple'
+            % Display a message in the command window, supporting formating and color
+            % color(case-insensitive): 'Black','Cyan','Magenta','Blue','Green','Red','Yellow','White'
+            
+            % Strings are in Purple
+            if ~exist('color','var'); color = 'Strings'; end
+            % cprintf by default does not start a new line
+            sth = [sth '\n'];
+            cprintf(color,sth);
+        end
+
+        function result = moment(format)
+            % moment([format])
+            % returns a char/string representing the current time
+            % format is optional, default to 'yyyy-mm-dd_HH-MM-SS-FFF'
+            %
+            % yyyy, Year in full, 1990
+            % yy, Year in two digits, 02
+            % mmmm, Month using full name, March, December
+            % mmm, Month using first three letters, Mar, Dec
+            % mm, Month in two digits, 03, 12
+            % dddd, Day using full name, Monday, Tuesday
+            % ddd, Day using first three letters, Mon, Tue
+            % dd, Day in two digits, 05, 20
+            % d, Day using capitalized first letter, M, T
+            %
+            % HH, Hour in two digits, (no leading zeros when symbolic identifier AM or PM is used), 05, 5 AM
+            % MM, Minute in two digits, 12, 02
+            % SS, Second in two digits, 07, 59
+            % FFF, Millisecond in three digits, 057
+            % AM or PM, converts from 24 hr to 12 hr, 3:45:02 PM
+            if ~exist('format','var'); format = 'yyyy-mm-dd_HH-MM-SS-FFF'; end
+            result = datestr(now, format);
         end
 
         function result = cwd()
@@ -370,7 +405,7 @@ classdef ez
         end
 
         function results = Inputs(values, defaults)
-            % Inputs(values, defaults)
+            % Inputs(values[, defaults])
             % Inputs({'x=', 'y='})      Inputs({'x=', 'y='},{'2','2'})
             % {'x=', 'y='}, {'0','0'} <- default Answer must be a cell array of strings.
             % returns a <n x 1 cell array>
@@ -380,10 +415,11 @@ classdef ez
             if (isempty(results)); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
-        function result = GetDir(path)
-            % GetDir(path)
+        function result = GetDir(title, path)
+            % GetDir([title,path])
             % returns a path string/char
             % path is default path; optional, defaults to current script directory
+            % title is optional, the title showing on the dialogue
             % if the return deos not exist, raise an error
 
             try
@@ -394,14 +430,15 @@ classdef ez
                 csd = pwd;
             end
 
+            if ~exist('title','var'); title = 'Select a folder...'; end    
             if ~exist('path','var'); path = csd; end
-            result = uigetdir(path,'Select a folder...');
+            result = uigetdir(path,title);
             if isequal(result, 0); result = false; end
             if (~result); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
-        function result = GetFile(pattern, multiple)
-            % GetFile(pattern, multiple)
+        function result = GetFile(pattern, title, multiple)
+            % GetFile(pattern[, title, multiple])
             % pattern = {'*.xls';'*.txt';'*.csv'} or {'*.m'} or '*.*'
             % {'*.m;*.fig;*.mat;*.slx;*.mdl','MATLAB Files (*.m,*.fig,*.mat,*.slx,*.mdl)';
             %  '*.m','Code files (*.m)';
@@ -409,6 +446,8 @@ classdef ez
             %  '*.mat','MAT-files (*.mat)';
             %  '*.mdl;*.slx','Models (*.slx, *.mdl)';
             %  '*.*','All Files (*.*)'}
+            %
+            % title is optional, the title showing on the dialogue
             %
             % multiple = 1, 0; optional, default 1 allowing multiple selection
             %
@@ -427,7 +466,8 @@ classdef ez
                 multiple = 'off';
             end
 
-            [fileName,pathName,filterIndex] = uigetfile(pattern,'Select file(s)...', 'MultiSelect', multiple);
+            if ~exist('title','var'); title = 'Select file(s)...'; end
+            [fileName,pathName,filterIndex] = uigetfile(pattern, title, 'MultiSelect', multiple);
             if isequal(fileName, 0)
                 result = {};
             else
@@ -439,14 +479,16 @@ classdef ez
             if (isempty(result)); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
-        function result = SetFile(defaultFileName)
-            % SetFile(defaultFileName)
+        function result = SetFile(defaultFileName, title)
+            % SetFile(defaultFileName[, title])
             % saves a file
             % returns the fullpath string/char
             % optional defaultFileName = ''
+            % title is optional, the title showing on the dialogue
             % if the return does not exist, raise an error
             if ~exist('defaultFileName','var'); defaultFileName = ''; end
-            [fileName,pathName,filterIndex] = uiputfile({'*.*','All Files (*.*)'},'Save (as) ...',defaultFileName);
+            if ~exist('title','var'); title = 'Save (as) ...'; end
+            [fileName,pathName,filterIndex] = uiputfile({'*.*','All Files (*.*)'},title,defaultFileName);
             if isequal(fileName, 0)
                 result = false;
             else
@@ -455,8 +497,19 @@ classdef ez
             if (~result); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
-    end
-end
+        function cell2csv(csvFile,cellArray)
+            % cell2csv(csvFile,cellArray)
+            % write the content of a cell array to a csv file, comma separated
+            % works with empty cells, numeric, char, string, row vector, and logical cells. 
+            % row vector such as [1 2 3] will be separated by two spaces, that is "1  2  3"
+            % One array can contain all of them, but only one value per cell.
+            cell2csvModified(csvFile,cellArray,',',1997,'.'); %csv,cell,value separator,excel year,decimal point
+        end
+
+    % leave a blank line before this
+    end % end methods
+end % end class
+
 
 % modified from http://www.mathworks.com/matlabcentral/fileexchange/16216-regexpdir
 function dirlist = regexpdir(rootdir, expstr, recursive)
@@ -528,3 +581,755 @@ end
 % 03-09-2007 v1.00 (BCH)  Initial release
 % 20-09-2007 v1.01 (BCH)  Proper solution for persistent variable 'basedir'
 %==========================================================================
+
+
+% credits: http://www.mathworks.com/matlabcentral/fileexchange/24093-cprintf-display-formatted-colored-text-in-the-command-window
+function count = cprintf(style,format,varargin)
+% CPRINTF displays styled formatted text in the Command Window
+%
+% Syntax:
+%    count = cprintf(style,format,...)
+%
+% Description:
+%    CPRINTF processes the specified text using the exact same FORMAT
+%    arguments accepted by the built-in SPRINTF and FPRINTF functions.
+%
+%    CPRINTF then displays the text in the Command Window using the
+%    specified STYLE argument. The accepted styles are those used for
+%    Matlab's syntax highlighting (see: File / Preferences / Colors / 
+%    M-file Syntax Highlighting Colors), and also user-defined colors.
+%
+%    The possible pre-defined STYLE names are:
+%
+%       'Text'                 - default: black
+%       'Keywords'             - default: blue
+%       'Comments'             - default: green
+%       'Strings'              - default: purple
+%       'UnterminatedStrings'  - default: dark red
+%       'SystemCommands'       - default: orange
+%       'Errors'               - default: light red
+%       'Hyperlinks'           - default: underlined blue
+%
+%       'Black','Cyan','Magenta','Blue','Green','Red','Yellow','White'
+%
+%    STYLE beginning with '-' or '_' will be underlined. For example:
+%          '-Blue' is underlined blue, like 'Hyperlinks';
+%          '_Comments' is underlined green etc.
+%
+%    STYLE beginning with '*' will be bold (R2011b+ only). For example:
+%          '*Blue' is bold blue;
+%          '*Comments' is bold green etc.
+%    Note: Matlab does not currently support both bold and underline,
+%          only one of them can be used in a single cprintf command. But of
+%          course bold and underline can be mixed by using separate commands.
+%
+%    STYLE also accepts a regular Matlab RGB vector, that can be underlined
+%    and bolded: -[0,1,1] means underlined cyan, '*[1,0,0]' is bold red.
+%
+%    STYLE is case-insensitive and accepts unique partial strings just
+%    like handle property names.
+%
+%    CPRINTF by itself, without any input parameters, displays a demo
+%
+% Example:
+%    cprintf;   % displays the demo
+%    cprintf('text',   'regular black text');
+%    cprintf('hyper',  'followed %s','by');
+%    cprintf('key',    '%d colored', 4);
+%    cprintf('-comment','& underlined');
+%    cprintf('err',    'elements\n');
+%    cprintf('cyan',   'cyan');
+%    cprintf('_green', 'underlined green');
+%    cprintf(-[1,0,1], 'underlined magenta');
+%    cprintf([1,0.5,0],'and multi-\nline orange\n');
+%    cprintf('*blue',  'and *bold* (R2011b+ only)\n');
+%    cprintf('string');  % same as fprintf('string') and cprintf('text','string')
+%
+% Bugs and suggestions:
+%    Please send to Yair Altman (altmany at gmail dot com)
+%
+% Warning:
+%    This code heavily relies on undocumented and unsupported Matlab
+%    functionality. It works on Matlab 7+, but use at your own risk!
+%
+%    A technical description of the implementation can be found at:
+%    <a href="http://undocumentedmatlab.com/blog/cprintf/">http://UndocumentedMatlab.com/blog/cprintf/</a>
+%
+% Limitations:
+%    1. In R2011a and earlier, a single space char is inserted at the
+%       beginning of each CPRINTF text segment (this is ok in R2011b+).
+%
+%    2. In R2011a and earlier, consecutive differently-colored multi-line
+%       CPRINTFs sometimes display incorrectly on the bottom line.
+%       As far as I could tell this is due to a Matlab bug. Examples:
+%         >> cprintf('-str','under\nline'); cprintf('err','red\n'); % hidden 'red', unhidden '_'
+%         >> cprintf('str','regu\nlar'); cprintf('err','red\n'); % underline red (not purple) 'lar'
+%
+%    3. Sometimes, non newline ('\n')-terminated segments display unstyled
+%       (black) when the command prompt chevron ('>>') regains focus on the
+%       continuation of that line (I can't pinpoint when this happens). 
+%       To fix this, simply newline-terminate all command-prompt messages.
+%
+%    4. In R2011b and later, the above errors appear to be fixed. However,
+%       the last character of an underlined segment is not underlined for
+%       some unknown reason (add an extra space character to make it look better)
+%
+%    5. In old Matlab versions (e.g., Matlab 7.1 R14), multi-line styles
+%       only affect the first line. Single-line styles work as expected.
+%       R14 also appends a single space after underlined segments.
+%
+%    6. Bold style is only supported on R2011b+, and cannot also be underlined.
+%
+% Change log:
+%    2012-08-09: Graceful degradation support for deployed (compiled) and non-desktop applications; minor bug fixes
+%    2012-08-06: Fixes for R2012b; added bold style; accept RGB string (non-numeric) style
+%    2011-11-27: Fixes for R2011b
+%    2011-08-29: Fix by Danilo (FEX comment) for non-default text colors
+%    2011-03-04: Performance improvement
+%    2010-06-27: Fix for R2010a/b; fixed edge case reported by Sharron; CPRINTF with no args runs the demo
+%    2009-09-28: Fixed edge-case problem reported by Swagat K
+%    2009-05-28: corrected nargout behavior sugegsted by Andreas Gäb
+%    2009-05-13: First version posted on <a href="http://www.mathworks.com/matlabcentral/fileexchange/authors/27420">MathWorks File Exchange</a>
+%
+% See also:
+%    sprintf, fprintf
+
+% License to use and modify this code is granted freely to all interested, as long as the original author is
+% referenced and attributed as such. The original author maintains the right to be solely associated with this work.
+
+% Programmed and Copyright by Yair M. Altman: altmany(at)gmail.com
+% $Revision: 1.08 $  $Date: 2012/10/17 21:41:09 $
+
+  persistent majorVersion minorVersion
+  if isempty(majorVersion)
+      %v = version; if str2double(v(1:3)) <= 7.1
+      %majorVersion = str2double(regexprep(version,'^(\d+).*','$1'));
+      %minorVersion = str2double(regexprep(version,'^\d+\.(\d+).*','$1'));
+      %[a,b,c,d,versionIdStrs]=regexp(version,'^(\d+)\.(\d+).*');  %#ok unused
+      v = sscanf(version, '%d.', 2);
+      majorVersion = v(1); %str2double(versionIdStrs{1}{1});
+      minorVersion = v(2); %str2double(versionIdStrs{1}{2});
+  end
+
+  % The following is for debug use only:
+  %global docElement txt el
+  if ~exist('el','var') || isempty(el),  el=handle([]);  end  %#ok mlint short-circuit error ("used before defined")
+  if nargin<1, showDemo(majorVersion,minorVersion); return;  end
+  if isempty(style),  return;  end
+  if all(ishandle(style)) && length(style)~=3
+      dumpElement(style);
+      return;
+  end
+
+  % Process the text string
+  if nargin<2, format = style; style='text';  end
+  %error(nargchk(2, inf, nargin, 'struct'));
+  %str = sprintf(format,varargin{:});
+
+  % In compiled mode
+  try useDesktop = usejava('desktop'); catch, useDesktop = false; end
+  if isdeployed | ~useDesktop %#ok<OR2> - for Matlab 6 compatibility
+      % do not display any formatting - use simple fprintf()
+      % See: http://undocumentedmatlab.com/blog/bold-color-text-in-the-command-window/#comment-103035
+      % Also see: https://mail.google.com/mail/u/0/?ui=2&shva=1#all/1390a26e7ef4aa4d
+      % Also see: https://mail.google.com/mail/u/0/?ui=2&shva=1#all/13a6ed3223333b21
+      count1 = fprintf(format,varargin{:});
+  else
+      % Else (Matlab desktop mode)
+      % Get the normalized style name and underlining flag
+      [underlineFlag, boldFlag, style] = processStyleInfo(style);
+
+      % Set hyperlinking, if so requested
+      if underlineFlag
+          format = ['<a href="">' format '</a>'];
+
+          % Matlab 7.1 R14 (possibly a few newer versions as well?)
+          % have a bug in rendering consecutive hyperlinks
+          % This is fixed by appending a single non-linked space
+          if majorVersion < 7 || (majorVersion==7 && minorVersion <= 1)
+              format(end+1) = ' ';
+          end
+      end
+
+      % Set bold, if requested and supported (R2011b+)
+      if boldFlag
+          if (majorVersion > 7 || minorVersion >= 13)
+              format = ['<strong>' format '</strong>'];
+          else
+              boldFlag = 0;
+          end
+      end
+
+      % Get the current CW position
+      cmdWinDoc = com.mathworks.mde.cmdwin.CmdWinDocument.getInstance;
+      lastPos = cmdWinDoc.getLength;
+
+      % If not beginning of line
+      bolFlag = 0;  %#ok
+      %if docElement.getEndOffset - docElement.getStartOffset > 1
+          % Display a hyperlink element in order to force element separation
+          % (otherwise adjacent elements on the same line will be merged)
+          if majorVersion<7 || (majorVersion==7 && minorVersion<13)
+              if ~underlineFlag
+                  fprintf('<a href=""> </a>');  %fprintf('<a href=""> </a>\b');
+              elseif format(end)~=10  % if no newline at end
+                  fprintf(' ');  %fprintf(' \b');
+              end
+          end
+          %drawnow;
+          bolFlag = 1;
+      %end
+
+      % Get a handle to the Command Window component
+      mde = com.mathworks.mde.desk.MLDesktop.getInstance;
+      cw = mde.getClient('Command Window');
+      xCmdWndView = cw.getComponent(0).getViewport.getComponent(0);
+
+      % Store the CW background color as a special color pref
+      % This way, if the CW bg color changes (via File/Preferences), 
+      % it will also affect existing rendered strs
+      com.mathworks.services.Prefs.setColorPref('CW_BG_Color',xCmdWndView.getBackground);
+
+      % Display the text in the Command Window
+      count1 = fprintf(2,format,varargin{:});
+
+      %awtinvoke(cmdWinDoc,'remove',lastPos,1);   % TODO: find out how to remove the extra '_'
+      drawnow;  % this is necessary for the following to work properly (refer to Evgeny Pr in FEX comment 16/1/2011)
+      docElement = cmdWinDoc.getParagraphElement(lastPos+1);
+      if majorVersion<7 || (majorVersion==7 && minorVersion<13)
+          if bolFlag && ~underlineFlag
+              % Set the leading hyperlink space character ('_') to the bg color, effectively hiding it
+              % Note: old Matlab versions have a bug in hyperlinks that need to be accounted for...
+              %disp(' '); dumpElement(docElement)
+              setElementStyle(docElement,'CW_BG_Color',1+underlineFlag,majorVersion,minorVersion); %+getUrlsFix(docElement));
+              %disp(' '); dumpElement(docElement)
+              el(end+1) = handle(docElement);  %#ok used in debug only
+          end
+
+          % Fix a problem with some hidden hyperlinks becoming unhidden...
+          fixHyperlink(docElement);
+          %dumpElement(docElement);
+      end
+
+      % Get the Document Element(s) corresponding to the latest fprintf operation
+      while docElement.getStartOffset < cmdWinDoc.getLength
+          % Set the element style according to the current style
+          %disp(' '); dumpElement(docElement)
+          specialFlag = underlineFlag | boldFlag;
+          setElementStyle(docElement,style,specialFlag,majorVersion,minorVersion);
+          %disp(' '); dumpElement(docElement)
+          docElement2 = cmdWinDoc.getParagraphElement(docElement.getEndOffset+1);
+          if isequal(docElement,docElement2),  break;  end
+          docElement = docElement2;
+          %disp(' '); dumpElement(docElement)
+      end
+
+      % Force a Command-Window repaint
+      % Note: this is important in case the rendered str was not '\n'-terminated
+      xCmdWndView.repaint;
+
+      % The following is for debug use only:
+      el(end+1) = handle(docElement);  %#ok used in debug only
+      %elementStart  = docElement.getStartOffset;
+      %elementLength = docElement.getEndOffset - elementStart;
+      %txt = cmdWinDoc.getText(elementStart,elementLength);
+  end
+
+  if nargout
+      count = count1;
+  end
+  return;  % debug breakpoint
+end
+
+% Process the requested style information
+function [underlineFlag,boldFlag,style] = processStyleInfo(style)
+  underlineFlag = 0;
+  boldFlag = 0;
+
+  % First, strip out the underline/bold markers
+  if ischar(style)
+      % Styles containing '-' or '_' should be underlined (using a no-target hyperlink hack)
+      %if style(1)=='-'
+      underlineIdx = (style=='-') | (style=='_');
+      if any(underlineIdx)
+          underlineFlag = 1;
+          %style = style(2:end);
+          style = style(~underlineIdx);
+      end
+
+      % Check for bold style (only if not underlined)
+      boldIdx = (style=='*');
+      if any(boldIdx)
+          boldFlag = 1;
+          style = style(~boldIdx);
+      end
+      if underlineFlag && boldFlag
+          warning('YMA:cprintf:BoldUnderline','Matlab does not support both bold & underline')
+      end
+
+      % Check if the remaining style sting is a numeric vector
+      %styleNum = str2num(style); %#ok<ST2NM>  % not good because style='text' is evaled!
+      %if ~isempty(styleNum)
+      if any(style==' ' | style==',' | style==';')
+          style = str2num(style); %#ok<ST2NM>
+      end
+  end
+
+  % Style = valid matlab RGB vector
+  if isnumeric(style) && length(style)==3 && all(style<=1) && all(abs(style)>=0)
+      if any(style<0)
+          underlineFlag = 1;
+          style = abs(style);
+      end
+      style = getColorStyle(style);
+
+  elseif ~ischar(style)
+      error('YMA:cprintf:InvalidStyle','Invalid style - see help section for a list of valid style values')
+
+  % Style name
+  else
+      % Try case-insensitive partial/full match with the accepted style names
+      validStyles = {'Text','Keywords','Comments','Strings','UnterminatedStrings','SystemCommands','Errors', ...
+                     'Black','Cyan','Magenta','Blue','Green','Red','Yellow','White', ...
+                     'Hyperlinks'};
+      matches = find(strncmpi(style,validStyles,length(style)));
+
+      % No match - error
+      if isempty(matches)
+          error('YMA:cprintf:InvalidStyle','Invalid style - see help section for a list of valid style values')
+
+      % Too many matches (ambiguous) - error
+      elseif length(matches) > 1
+          error('YMA:cprintf:AmbigStyle','Ambiguous style name - supply extra characters for uniqueness')
+
+      % Regular text
+      elseif matches == 1
+          style = 'ColorsText';  % fixed by Danilo, 29/8/2011
+
+      % Highlight preference style name
+      elseif matches < 8
+          style = ['Colors_M_' validStyles{matches}];
+
+      % Color name
+      elseif matches < length(validStyles)
+          colors = [0,0,0; 0,1,1; 1,0,1; 0,0,1; 0,1,0; 1,0,0; 1,1,0; 1,1,1];
+          requestedColor = colors(matches-7,:);
+          style = getColorStyle(requestedColor);
+
+      % Hyperlink
+      else
+          style = 'Colors_HTML_HTMLLinks';  % CWLink
+          underlineFlag = 1;
+      end
+  end
+end
+
+% Convert a Matlab RGB vector into a known style name (e.g., '[255,37,0]')
+function styleName = getColorStyle(rgb)
+  intColor = int32(rgb*255);
+  javaColor = java.awt.Color(intColor(1), intColor(2), intColor(3));
+  styleName = sprintf('[%d,%d,%d]',intColor);
+  com.mathworks.services.Prefs.setColorPref(styleName,javaColor);
+end
+
+% Fix a bug in some Matlab versions, where the number of URL segments
+% is larger than the number of style segments in a doc element
+function delta = getUrlsFix(docElement)  %#ok currently unused
+  tokens = docElement.getAttribute('SyntaxTokens');
+  links  = docElement.getAttribute('LinkStartTokens');
+  if length(links) > length(tokens(1))
+      delta = length(links) > length(tokens(1));
+  else
+      delta = 0;
+  end
+end
+
+% fprintf(2,str) causes all previous '_'s in the line to become red - fix this
+function fixHyperlink(docElement)
+  try
+      tokens = docElement.getAttribute('SyntaxTokens');
+      urls   = docElement.getAttribute('HtmlLink');
+      urls   = urls(2);
+      links  = docElement.getAttribute('LinkStartTokens');
+      offsets = tokens(1);
+      styles  = tokens(2);
+      doc = docElement.getDocument;
+
+      % Loop over all segments in this docElement
+      for idx = 1 : length(offsets)-1
+          % If this is a hyperlink with no URL target and starts with ' ' and is collored as an error (red)...
+          if strcmp(styles(idx).char,'Colors_M_Errors')
+              character = char(doc.getText(offsets(idx)+docElement.getStartOffset,1));
+              if strcmp(character,' ')
+                  if isempty(urls(idx)) && links(idx)==0
+                      % Revert the style color to the CW background color (i.e., hide it!)
+                      styles(idx) = java.lang.String('CW_BG_Color');
+                  end
+              end
+          end
+      end
+  catch
+      % never mind...
+  end
+end
+
+% Set an element to a particular style (color)
+function setElementStyle(docElement,style,specialFlag, majorVersion,minorVersion)
+  %global tokens links urls urlTargets  % for debug only
+  global oldStyles
+  if nargin<3,  specialFlag=0;  end
+  % Set the last Element token to the requested style:
+  % Colors:
+  tokens = docElement.getAttribute('SyntaxTokens');
+  try
+      styles = tokens(2);
+      oldStyles{end+1} = styles.cell;
+
+      % Correct edge case problem
+      extraInd = double(majorVersion>7 || (majorVersion==7 && minorVersion>=13));  % =0 for R2011a-, =1 for R2011b+
+      %{
+      if ~strcmp('CWLink',char(styles(end-hyperlinkFlag))) && ...
+          strcmp('CWLink',char(styles(end-hyperlinkFlag-1)))
+         extraInd = 0;%1;
+      end
+      hyperlinkFlag = ~isempty(strmatch('CWLink',tokens(2)));
+      hyperlinkFlag = 0 + any(cellfun(@(c)(~isempty(c)&&strcmp(c,'CWLink')),tokens(2).cell));
+      %}
+
+      styles(end-extraInd) = java.lang.String('');
+      styles(end-extraInd-specialFlag) = java.lang.String(style);  %#ok apparently unused but in reality used by Java
+      if extraInd
+          styles(end-specialFlag) = java.lang.String(style);
+      end
+
+      oldStyles{end} = [oldStyles{end} styles.cell];
+  catch
+      % never mind for now
+  end
+  
+  % Underlines (hyperlinks):
+  %{
+  links = docElement.getAttribute('LinkStartTokens');
+  if isempty(links)
+      %docElement.addAttribute('LinkStartTokens',repmat(int32(-1),length(tokens(2)),1));
+  else
+      %TODO: remove hyperlink by setting the value to -1
+  end
+  %}
+
+  % Correct empty URLs to be un-hyperlinkable (only underlined)
+  urls = docElement.getAttribute('HtmlLink');
+  if ~isempty(urls)
+      urlTargets = urls(2);
+      for urlIdx = 1 : length(urlTargets)
+          try
+              if urlTargets(urlIdx).length < 1
+                  urlTargets(urlIdx) = [];  % '' => []
+              end
+          catch
+              % never mind...
+              a=1;  %#ok used for debug breakpoint...
+          end
+      end
+  end
+  
+  % Bold: (currently unused because we cannot modify this immutable int32 numeric array)
+  %{
+  try
+      %hasBold = docElement.isDefined('BoldStartTokens');
+      bolds = docElement.getAttribute('BoldStartTokens');
+      if ~isempty(bolds)
+          %docElement.addAttribute('BoldStartTokens',repmat(int32(1),length(bolds),1));
+      end
+  catch
+      % never mind - ignore...
+      a=1;  %#ok used for debug breakpoint...
+  end
+  %}
+  
+  return;  % debug breakpoint
+end
+
+% Display information about element(s)
+function dumpElement(docElements)
+  %return;
+  numElements = length(docElements);
+  cmdWinDoc = docElements(1).getDocument;
+  for elementIdx = 1 : numElements
+      if numElements > 1,  fprintf('Element #%d:\n',elementIdx);  end
+      docElement = docElements(elementIdx);
+      if ~isjava(docElement),  docElement = docElement.java;  end
+      %docElement.dump(java.lang.System.out,1)
+      disp(' ');
+      disp(docElement)
+      tokens = docElement.getAttribute('SyntaxTokens');
+      if isempty(tokens),  continue;  end
+      links = docElement.getAttribute('LinkStartTokens');
+      urls  = docElement.getAttribute('HtmlLink');
+      try bolds = docElement.getAttribute('BoldStartTokens'); catch, bolds = []; end
+      txt = {};
+      tokenLengths = tokens(1);
+      for tokenIdx = 1 : length(tokenLengths)-1
+          tokenLength = diff(tokenLengths(tokenIdx+[0,1]));
+          if (tokenLength < 0)
+              tokenLength = docElement.getEndOffset - docElement.getStartOffset - tokenLengths(tokenIdx);
+          end
+          txt{tokenIdx} = cmdWinDoc.getText(docElement.getStartOffset+tokenLengths(tokenIdx),tokenLength).char;  %#ok
+      end
+      lastTokenStartOffset = docElement.getStartOffset + tokenLengths(end);
+      txt{end+1} = cmdWinDoc.getText(lastTokenStartOffset, docElement.getEndOffset-lastTokenStartOffset).char;  %#ok
+      %cmdWinDoc.uiinspect
+      %docElement.uiinspect
+      txt = strrep(txt',sprintf('\n'),'\n');
+      try
+          data = [tokens(2).cell m2c(tokens(1)) m2c(links) m2c(urls(1)) cell(urls(2)) m2c(bolds) txt];
+          if elementIdx==1
+              disp('    SyntaxTokens(2,1) - LinkStartTokens - HtmlLink(1,2) - BoldStartTokens - txt');
+              disp('    ==============================================================================');
+          end
+      catch
+          try
+              data = [tokens(2).cell m2c(tokens(1)) m2c(links) txt];
+          catch
+              disp([tokens(2).cell m2c(tokens(1)) txt]);
+              try
+                  data = [m2c(links) m2c(urls(1)) cell(urls(2))];
+              catch
+                  % Mtlab 7.1 only has urls(1)...
+                  data = [m2c(links) urls.cell];
+              end
+          end
+      end
+      disp(data)
+  end
+end
+
+% Utility function to convert matrix => cell
+function cells = m2c(data)
+  %datasize = size(data);  cells = mat2cell(data,ones(1,datasize(1)),ones(1,datasize(2)));
+  cells = num2cell(data);
+end
+
+% Display the help and demo
+function showDemo(majorVersion,minorVersion)
+  fprintf('cprintf displays formatted text in the Command Window.\n\n');
+  fprintf('Syntax: count = cprintf(style,format,...);  click <a href="matlab:help cprintf">here</a> for details.\n\n');
+  url = 'http://UndocumentedMatlab.com/blog/cprintf/';
+  fprintf(['Technical description: <a href="' url '">' url '</a>\n\n']);
+  fprintf('Demo:\n\n');
+  boldFlag = majorVersion>7 || (majorVersion==7 && minorVersion>=13);
+  s = ['cprintf(''text'',    ''regular black text'');' 10 ...
+       'cprintf(''hyper'',   ''followed %s'',''by'');' 10 ...
+       'cprintf(''key'',     ''%d colored'',' num2str(4+boldFlag) ');' 10 ...
+       'cprintf(''-comment'',''& underlined'');' 10 ...
+       'cprintf(''err'',     ''elements:\n'');' 10 ...
+       'cprintf(''cyan'',    ''cyan'');' 10 ...
+       'cprintf(''_green'',  ''underlined green'');' 10 ...
+       'cprintf(-[1,0,1],  ''underlined magenta'');' 10 ...
+       'cprintf([1,0.5,0], ''and multi-\nline orange\n'');' 10];
+   if boldFlag
+       % In R2011b+ the internal bug that causes the need for an extra space
+       % is apparently fixed, so we must insert the sparator spaces manually...
+       % On the other hand, 2011b enables *bold* format
+       s = [s 'cprintf(''*blue'',   ''and *bold* (R2011b+ only)\n'');' 10];
+       s = strrep(s, ''')',' '')');
+       s = strrep(s, ''',5)',' '',5)');
+       s = strrep(s, '\n ','\n');
+   end
+   disp(s);
+   eval(s);
+end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% TODO %%%%%%%%%%%%%%%%%%%%%%%%%
+% - Fix: Remove leading space char (hidden underline '_')
+% - Fix: Find workaround for multi-line quirks/limitations
+% - Fix: Non-\n-terminated segments are displayed as black
+% - Fix: Check whether the hyperlink fix for 7.1 is also needed on 7.2 etc.
+% - Enh: Add font support
+
+% # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% # 
+% # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% % credits: http://www.mathworks.com/matlabcentral/fileexchange/4400-cell-array-to-csv-file--cell2csv-m-
+% % I modified the original codes a bit
+% function cell2csvModified(fileName, cellArray, separator, excelYear, decimal)
+% % Writes cell array content into a *.csv file.
+% % 
+% % CELL2CSV(fileName, cellArray[, separator, excelYear, decimal])
+% %
+% % fileName     = Name of the file to save. [ e.g. 'text.csv' ]
+% % cellArray    = Name of the Cell Array where the data is in
+% % 
+% % optional:
+% % separator    = sign separating the values (default = ',')
+% % excelYear    = depending on the Excel version, the cells are put into
+% %                quotes before they are written to the file. The separator
+% %                is set to semicolon (;)  (default = 1997)
+% % decimal      = defines the decimal separator (default = '.')
+% %
+% %         by Sylvain Fiedler, KA, 2004
+% % updated by Sylvain Fiedler, Metz, 06
+% % fixed the logical-bug, Kaiserslautern, 06/2008, S.Fiedler
+% % added the choice of decimal separator, 11/2010, S.Fiedler
+
+% %% Checking for optional Variables
+% if ~exist('separator', 'var')
+%     separator = ',';
+% end
+
+% if ~exist('excelYear', 'var')
+%     excelYear = 1997;
+% end
+
+% if ~exist('decimal', 'var')
+%     decimal = '.';
+% end
+
+% %% Setting separator for newer excelYears
+% if excelYear > 2000
+%     separator = ';';
+% end
+
+% %% Write file
+% datei = fopen(fileName, 'w');
+
+% for z=1:size(cellArray, 1)
+%     for s=1:size(cellArray, 2)
+        
+%         var = cellArray{z,s};
+%         % If zero, then empty cell
+%         if isempty(var)
+%             var = '';
+%         end
+%         % If numeric -> String
+%         if isnumeric(var)
+%             var = num2str(var);
+%             % Conversion of decimal separator (4 Europe & South America)
+%             % http://commons.wikimedia.org/wiki/File:DecimalSeparator.svg
+%             if decimal ~= '.'
+%                 var = strrep(var, '.', decimal);
+%             end
+%         end
+%         % If logical -> 'true' or 'false'
+%         if islogical(var)
+%             if var == 1
+%                 var = 'TRUE';
+%             else
+%                 var = 'FALSE';
+%             end
+%         end
+%         % If newer version of Excel -> Quotes 4 Strings
+%         if excelYear > 2000
+%             var = ['"' var '"'];
+%         end
+        
+%         % OUTPUT value
+%         fprintf(datei, '%s', var);
+        
+%         % OUTPUT separator
+%         if s ~= size(cellArray, 2)
+%             fprintf(datei, separator);
+%         end
+%     end
+%     if z ~= size(cellArray, 1) % prevent an empty line at EOF
+%         % OUTPUT newline
+%         fprintf(datei, '\n');
+%     end
+% end %end for
+% % Closing file
+% fclose(datei);
+% end % END function
+% # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% # 
+% # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+% optimized cell2csvModified
+function cell2csvModified(fileName, cellArray, separator, excelYear, decimal)
+% % Writes cell array content into a *.csv file.
+% % 
+% % CELL2CSV(fileName, cellArray[, separator, excelYear, decimal])
+% %
+% % fileName     = Name of the file to save. [ e.g. 'text.csv' ]
+% % cellArray    = Name of the Cell Array where the data is in
+% % 
+% % optional:
+% % separator    = sign separating the values (default = ',')
+% % excelYear    = depending on the Excel version, the cells are put into
+% %                quotes before they are written to the file. The separator
+% %                is set to semicolon (;)  (default = 1997 which does not change separator to semicolon ;)
+% % decimal      = defines the decimal separator (default = '.')
+% %
+% %         by Sylvain Fiedler, KA, 2004
+% % updated by Sylvain Fiedler, Metz, 06
+% % fixed the logical-bug, Kaiserslautern, 06/2008, S.Fiedler
+% % added the choice of decimal separator, 11/2010, S.Fiedler
+% % modfiedy and optimized by Jerry Zhu, June, 2014, jerryzhujian9@gmail.com
+% % now works with empty cells, numeric, char, string, row vector, and logical cells. 
+% % row vector such as [1 2 3] will be separated by two spaces, that is "1  2  3"
+% % One array can contain all of them, but only one value per cell.
+% % 3.4 times faster than Sylvain's codes:
+% % tic;cellArray={'te','tm';5,[1,2];true,{}};cell2csv('a.csv',cellArray);toc;
+
+%% Checking for optional Variables
+if ~exist('separator', 'var')
+    separator = ',';
+end
+
+if ~exist('excelYear', 'var')
+    excelYear = 1997;
+end
+
+if ~exist('decimal', 'var')
+    decimal = '.';
+end
+
+%% Setting separator for newer excelYears
+if excelYear > 2000
+    separator = ';';
+end
+
+% convert cell
+% pass additional arguments: decimal, excelYear as cells, which is required by cellfun()
+% notice cell replication, repmat {decimal},{excelYear}
+cellArray = cellfun(@strElement, cellArray, repmat({decimal},size(cellArray)), repmat({excelYear},size(cellArray)), 'UniformOutput', false);
+
+%% Write file
+datei = fopen(fileName, 'w');
+[nrows,ncols] = size(cellArray);
+for row = 1:nrows
+    fprintf(datei,[sprintf('%s%s',cellArray{row,1:ncols-1},separator) cellArray{row,ncols} '\n']);
+end    
+% Closing file
+fclose(datei);
+
+end % end function
+
+function x = strElement(x, decimal, excelYear)
+    % If zero, then empty cell
+    if isempty(x)
+        x = '';
+    % If numeric -> String
+    elseif isnumeric(x)
+        x = num2str(x);
+        if decimal ~= '.'
+            x = strrep(x, '.', decimal);
+        end
+    % If logical -> 'true' or 'false'
+    elseif islogical(x)
+        if x == 1
+            x = 'TRUE';
+        else
+            x = 'FALSE';
+        end
+    % If matrix array -> a1 a2 a3...
+    elseif isrow(x)
+        x = num2str(x);
+    else
+        x = 'UnsupportedInput';
+    end
+
+    % If newer version of Excel -> Quotes 4 Strings
+    if excelYear > 2000
+        x = ['"' x '"'];
+    end
+end % end function
