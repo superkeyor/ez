@@ -412,7 +412,7 @@ classdef ez
             % if the return is {}, raise an error
             if ~exist('defaults','var'); defaults = cell(size(values)); defaults(:)={['']}; end  % defaults(:)={''} also works
             if ~exist('title','var'); title = 'Inputs:'; end
-            results = inputdlg(values, 'Inputs:', 1, defaults, 'on');
+            results = inputdlg(values, title, 1, defaults, 'on');
             if (isempty(results)); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
