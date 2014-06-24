@@ -21,7 +21,7 @@ classdef ez
     %       mkdir(path), rm(path), cp(src, dest), mv(src, dest)
     %       execute(cmd)
     %
-    %       Alert(msg), result = Confirm(msg), results = Inputs(values[, defaults]), 
+    %       Alert(msg), result = Confirm(msg), results = Inputs(values[, defaults, title]), 
     %       GetDir([title, path]), GetFile(pattern[, title, multiple]), SetFile(defaultFileName[, title])
     %
     %       cell2csv(csvFile,cellArray)
@@ -404,13 +404,14 @@ classdef ez
             if (~result); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
-        function results = Inputs(values, defaults)
-            % Inputs(values[, defaults])
+        function results = Inputs(values, defaults, title)
+            % Inputs(values[, defaults, title])
             % Inputs({'x=', 'y='})      Inputs({'x=', 'y='},{'2','2'})
             % {'x=', 'y='}, {'0','0'} <- default Answer must be a cell array of strings.
             % returns a <n x 1 cell array>
             % if the return is {}, raise an error
             if ~exist('defaults','var'); defaults = cell(size(values)); defaults(:)={['']}; end  % defaults(:)={''} also works
+            if ~exist('title','var'); title = 'Inputs:'; end
             results = inputdlg(values, 'Inputs:', 1, defaults, 'on');
             if (isempty(results)); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
