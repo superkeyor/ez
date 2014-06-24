@@ -1297,7 +1297,7 @@ cellArray = cellfun(@strElement, cellArray, repmat({decimal},size(cellArray)), r
 datei = fopen(fileName, 'w');
 [nrows,ncols] = size(cellArray);
 for row = 1:nrows
-    fprintf(datei,[sprintf('%s%s',cellArray{row,1:ncols-1},separator) cellArray{row,ncols} '\n']);
+    fprintf(datei,[sprintf(['%s' separator],cellArray{row,1:ncols-1}) cellArray{row,ncols} '\n']);
 end    
 % Closing file
 fclose(datei);
@@ -1308,8 +1308,8 @@ function x = strElement(x, decimal, excelYear)
     % If zero, then empty cell
     if isempty(x)
         x = '';
-    % If numeric -> String
-    elseif isnumeric(x)
+    % If numeric -> String, e.g. 1, [1 2]
+    elseif isnumeric(x) && isrow(x)
         x = num2str(x);
         if decimal ~= '.'
             x = strrep(x, '.', decimal);
@@ -1321,9 +1321,11 @@ function x = strElement(x, decimal, excelYear)
         else
             x = 'FALSE';
         end
-    % If matrix array -> a1 a2 a3...
-    elseif isrow(x)
+    % If matrix array -> a1 a2 a3. e.g. [1 2 3]
+    % also catch string or char here
+    elseif isrow(x) && ~iscell(x)
         x = num2str(x);
+    % everthing else, such as [1;2], {1}
     else
         x = 'UnsupportedInput';
     end
