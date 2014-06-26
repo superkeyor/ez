@@ -22,9 +22,10 @@ classdef ez
     %       execute(cmd)
     %
     %       Alert(msg), result = Confirm(msg), results = Inputs(values[, defaults, title]), 
-    %       GetDir([title, path]), GetFile(pattern[, title, multiple]), SetFile(defaultFileName[, title])
+    %       GetDir([title, path]), GetFile([pattern[, title, multiple]]), SetFile([defaultFileName[, title]])
     %
     %       cell2csv(csvFile,cellArray)
+    %       result = csv2cell(csvFile)
     %
     % # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     % # file save routine
@@ -387,6 +388,7 @@ classdef ez
             % Alert(msg)
             % msg = {'Message line 1';'Message line 2'}
             % no-modal dialogue. script still continues without waiting for user response.
+            % if displaying a second alert without closing the first one, both are shown.
             warndlg(msg,'Alert!');
         end
 
@@ -401,7 +403,7 @@ classdef ez
                 otherwise
                     result = false;
             end
-            if (~result); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
+            if (~result); error('MATLAB:UNIQUE:NotEnoughInputs','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
         function results = Inputs(values, defaults, title)
@@ -413,7 +415,7 @@ classdef ez
             if ~exist('defaults','var'); defaults = cell(size(values)); defaults(:)={['']}; end  % defaults(:)={''} also works
             if ~exist('title','var'); title = 'Inputs:'; end
             results = inputdlg(values, title, 1, defaults, 'on');
-            if (isempty(results)); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
+            if (isempty(results)); error('MATLAB:UNIQUE:NotEnoughInputs','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
         function result = GetDir(title, path)
@@ -435,11 +437,13 @@ classdef ez
             if ~exist('path','var'); path = csd; end
             result = uigetdir(path,title);
             if isequal(result, 0); result = false; end
-            if (~result); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
+            if (~result); error('MATLAB:UNIQUE:NotEnoughInputs','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
         function result = GetFile(pattern, title, multiple)
-            % GetFile(pattern[, title, multiple])
+            % GetFile([pattern[, title, multiple]])
+            % 
+            % pattern optional, defaults to "all files"
             % pattern = {'*.xls';'*.txt';'*.csv'} or {'*.m'} or '*.*'
             % {'*.m;*.fig;*.mat;*.slx;*.mdl','MATLAB Files (*.m,*.fig,*.mat,*.slx,*.mdl)';
             %  '*.m','Code files (*.m)';
@@ -459,6 +463,8 @@ classdef ez
                 pattern = {'*.*','All Files (*.*)'};
             end
 
+            if ~exist('title','var'); title = 'Select file(s)...'; end
+
             if ~exist('multiple','var')
                 multiple = 'on';
             elseif isequal(multiple, 1)
@@ -467,7 +473,6 @@ classdef ez
                 multiple = 'off';
             end
 
-            if ~exist('title','var'); title = 'Select file(s)...'; end
             [fileName,pathName,filterIndex] = uigetfile(pattern, title, 'MultiSelect', multiple);
             if isequal(fileName, 0)
                 result = {};
@@ -477,25 +482,43 @@ classdef ez
                 fileName = fileName .';
                 result = cellfun(@(x) fullfile(pathName,x),fileName, 'UniformOutput', false);
             end
-            if (isempty(result)); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
+            if (isempty(result)); error('MATLAB:UNIQUE:NotEnoughInputs','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
         function result = SetFile(defaultFileName, title)
-            % SetFile(defaultFileName[, title])
-            % saves a file
-            % returns the fullpath string/char
-            % optional defaultFileName = ''
+            % SetFile([defaultFileName[, title]])
+            % saves a file, returns the fullpath string/char
+            % defaultFileName, optional, a file name with or without full path
+            %    defaults to '' in current script directory
             % title is optional, the title showing on the dialogue
             % if the return does not exist, raise an error
             if ~exist('defaultFileName','var'); defaultFileName = ''; end
             if ~exist('title','var'); title = 'Save (as) ...'; end
+
+            %csd
+            try
+                theStacks = dbstack('-completenames');
+                theStack = theStacks(2);
+                csd = fileparts(theStack.file);
+            catch
+                csd = pwd;
+            end
+
+            % if fullpath
+            if ~isempty(strfind(defaultFileName, filesep))
+                defaultFileName = defaultFileName;
+            else
+                defaultFileName = fullfile(csd, defaultFileName);
+            end
+            
+
             [fileName,pathName,filterIndex] = uiputfile({'*.*','All Files (*.*)'},title,defaultFileName);
             if isequal(fileName, 0)
                 result = false;
             else
                 result = fullfile(pathName, fileName);
             end
-            if (~result); error('MATLAB:ambiguousSyntax','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
+            if (~result); error('MATLAB:UNIQUE:NotEnoughInputs','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
         function cell2csv(csvFile,cellArray)
@@ -507,6 +530,22 @@ classdef ez
             cell2csvModified(csvFile,cellArray,',',1997,'.'); %csv,cell,value separator,excel year,decimal point
         end
 
+        function result = csv2cell(csvFile)
+            % csv2cell(csvFile)
+            % read csv into a cell
+            % everything defaults to string
+            % however if a cell (excel cell not the matlab cell) is like a num, will try to convert to num
+            % don't care about whether the csv has header or not
+            tempResult = csv2cellModified(csvFile,'fromfile');
+            result = cellfun(@NumX, tempResult, 'UniformOutput', false);
+            function x = NumX(x)
+                if isempty(str2num(x))
+                    x = x;
+                else
+                    x = str2num(x);
+                end % end if
+            end % end sub-function    
+        end
     % leave a blank line before this
     end % end methods
 end % end class
@@ -1147,104 +1186,9 @@ end
 % - Fix: Non-\n-terminated segments are displayed as black
 % - Fix: Check whether the hyperlink fix for 7.1 is also needed on 7.2 etc.
 % - Enh: Add font support
+%%%%%%%%%%%%%%%%%%%%%%%%%% End %%%%%%%%%%%%%%%%%%%%%%%%%
 
-% # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-% # 
-% # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-% % credits: http://www.mathworks.com/matlabcentral/fileexchange/4400-cell-array-to-csv-file--cell2csv-m-
-% % I modified the original codes a bit
-% function cell2csvModified(fileName, cellArray, separator, excelYear, decimal)
-% % Writes cell array content into a *.csv file.
-% % 
-% % CELL2CSV(fileName, cellArray[, separator, excelYear, decimal])
-% %
-% % fileName     = Name of the file to save. [ e.g. 'text.csv' ]
-% % cellArray    = Name of the Cell Array where the data is in
-% % 
-% % optional:
-% % separator    = sign separating the values (default = ',')
-% % excelYear    = depending on the Excel version, the cells are put into
-% %                quotes before they are written to the file. The separator
-% %                is set to semicolon (;)  (default = 1997)
-% % decimal      = defines the decimal separator (default = '.')
-% %
-% %         by Sylvain Fiedler, KA, 2004
-% % updated by Sylvain Fiedler, Metz, 06
-% % fixed the logical-bug, Kaiserslautern, 06/2008, S.Fiedler
-% % added the choice of decimal separator, 11/2010, S.Fiedler
 
-% %% Checking for optional Variables
-% if ~exist('separator', 'var')
-%     separator = ',';
-% end
-
-% if ~exist('excelYear', 'var')
-%     excelYear = 1997;
-% end
-
-% if ~exist('decimal', 'var')
-%     decimal = '.';
-% end
-
-% %% Setting separator for newer excelYears
-% if excelYear > 2000
-%     separator = ';';
-% end
-
-% %% Write file
-% datei = fopen(fileName, 'w');
-
-% for z=1:size(cellArray, 1)
-%     for s=1:size(cellArray, 2)
-        
-%         var = cellArray{z,s};
-%         % If zero, then empty cell
-%         if isempty(var)
-%             var = '';
-%         end
-%         % If numeric -> String
-%         if isnumeric(var)
-%             var = num2str(var);
-%             % Conversion of decimal separator (4 Europe & South America)
-%             % http://commons.wikimedia.org/wiki/File:DecimalSeparator.svg
-%             if decimal ~= '.'
-%                 var = strrep(var, '.', decimal);
-%             end
-%         end
-%         % If logical -> 'true' or 'false'
-%         if islogical(var)
-%             if var == 1
-%                 var = 'TRUE';
-%             else
-%                 var = 'FALSE';
-%             end
-%         end
-%         % If newer version of Excel -> Quotes 4 Strings
-%         if excelYear > 2000
-%             var = ['"' var '"'];
-%         end
-        
-%         % OUTPUT value
-%         fprintf(datei, '%s', var);
-        
-%         % OUTPUT separator
-%         if s ~= size(cellArray, 2)
-%             fprintf(datei, separator);
-%         end
-%     end
-%     if z ~= size(cellArray, 1) % prevent an empty line at EOF
-%         % OUTPUT newline
-%         fprintf(datei, '\n');
-%     end
-% end %end for
-% % Closing file
-% fclose(datei);
-% end % END function
-% # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-% # 
-% # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-% optimized cell2csvModified
 function cell2csvModified(fileName, cellArray, separator, excelYear, decimal)
 % % Writes cell array content into a *.csv file.
 % % 
@@ -1268,8 +1212,8 @@ function cell2csvModified(fileName, cellArray, separator, excelYear, decimal)
 % % now works with empty cells, numeric, char, string, row vector, and logical cells. 
 % % row vector such as [1 2 3] will be separated by two spaces, that is "1  2  3"
 % % One array can contain all of them, but only one value per cell.
-% % 3.4 times faster than Sylvain's codes:
-% % tic;cellArray={'te','tm';5,[1,2];true,{}};cell2csv('a.csv',cellArray);toc;
+% % 2x times faster than Sylvain's codes (8.8s vs. 17.2s):
+% % tic;C={'te','tm';5,[1,2];true,{}};C=repmat(C,[10000,1]);cell2csv([datestr(now,'MMSS') '.csv'],C);toc;
 
 %% Checking for optional Variables
 if ~exist('separator', 'var')
@@ -1290,9 +1234,7 @@ if excelYear > 2000
 end
 
 % convert cell
-% pass additional arguments: decimal, excelYear as cells, which is required by cellfun()
-% notice cell replication, repmat {decimal},{excelYear}
-cellArray = cellfun(@strElement, cellArray, repmat({decimal},size(cellArray)), repmat({excelYear},size(cellArray)), 'UniformOutput', false);
+cellArray = cellfun(@StringX, cellArray, 'UniformOutput', false);
 
 %% Write file
 datei = fopen(fileName, 'w');
@@ -1303,9 +1245,8 @@ end
 % Closing file
 fclose(datei);
 
-end % end function
-
-function x = strElement(x, decimal, excelYear)
+% sub-function
+function x = StringX(x)
     % If zero, then empty cell
     if isempty(x)
         x = '';
@@ -1328,11 +1269,167 @@ function x = strElement(x, decimal, excelYear)
         x = num2str(x);
     % everthing else, such as [1;2], {1}
     else
-        x = 'UnsupportedInput';
+        x = 'NA';
     end
 
     % If newer version of Excel -> Quotes 4 Strings
     if excelYear > 2000
         x = ['"' x '"'];
     end
+end % end sub-function
+end % end function
+
+
+function data = csv2cellModified(varargin)
+% http://www.mathworks.com/matlabcentral/fileexchange/20836-csv2cell
+% CSV2CELL - parses a Windows CSV file into an NxM cell array, where N is
+% the number of lines in the CSV text and M is the number of fields in the
+% longest line of the CSV file. Lines are delimited by carriage returns
+% and/or newlines.
+%
+% A Windows CSV file format allows for commas (,) and double quotes (") to
+% be contained within fields of the CSV file. Regular fields are just text
+% separated by commas (e.g. foo,bar,hello world). Fields containing commas
+% or double quotes are surrounded by double quotes (e.g.
+% foo,bar,"item1,item2,item3",hello world). In the previous example,
+% "item1,item2,item3" is one field in the CSV text. For double quotes to be
+% represented, they are written in pairs in the file, and contained within
+% a quoted field, (e.g. foo,"this field contains ""quotes""",bar). Spaces
+% within fields (even leading and trailing) are preserved.
+%
+% All fields from the CSV file are returned as strings. If the CSV text
+% contains lines with different numbers of fields, then the "missing"
+% fields with appear as empty arrays, [], in the returned data. You can
+% easily convert the data you expect to be numeric using str2num() and
+% num2cell(). 
+%
+% Examples:
+%  >> csv2cell('foo.csv','fromfile') % loads and parses entire file
+%  >> csv2cell(',,,') % returns cell array {'','','',''}
+%  >> csv2cell(',,,','text') % same as above, declaring text input
+%  >> csv2cell(sprintf('%s\r\n%s',...
+%     '"Ten Thousand",10000,,"10,000","""It''s ""10 Grand"", baby",10k',...
+%     ',foo,bar,soo'))
+%  ans = 
+%    'Ten Thousand'    '10000'       ''    '10,000'    [1x22 char]    '10k'
+%                ''    'foo'      'bar'    'soo'                []       []
+%  >> % note the two empty [] cells, because the second line has two fewer
+%  >> % fields than the first. The empty field '' at the beginning of the
+%  >> % second line is due to the leading comma on that line, which is
+%  >> % correct behavior. A trailing comma will do the same to the end of a
+%  >> % line.
+% 
+% Limitations/Exceptions:
+%   * This code is untested on large files. It may take a long time due to
+%   variables growing inside loops (yes, poor practice, but easy coding).
+%   * This code has been minimally tested to work with a variety of weird
+%   Excel files that I have.
+%   * Behavior with improperly formatted CSV files is untested.
+%   * Technically, CSV files from Excel always separate lines with the pair
+%   of characters \r\n. This parser will also separate lines that have only
+%   \r or \n as line terminators. 
+%   * Line separation is the first operation. I don't think the Excel CSV
+%   format has any allowance for newlines or carriage returns within
+%   fields. If it does, then this parser does not support it and would not
+%   return bad output.
+%
+% Copyright 2008 Arthur Hebert
+
+% Process arguments
+if nargin == 1
+    text = varargin{1};
+elseif nargin == 2
+    switch varargin{2}
+        case 'fromfile'
+            filename = varargin{1};
+            fid = fopen(filename);
+            text = char(fread(fid))';
+            fclose(fid);
+        case 'text'
+            text = varargin{1};
+        otherwise
+            error('Invalid 2nd argument %s. Valid options are ''fromfile'' and ''text''',varargin{2})
+    end
+else
+    error('CSV2CELL requires 1 or 2 arguments.')
+end
+
+
+% First split it into lines
+lines = regexp(text,'(\r\n|[\r\n])','split'); % lines should now be a cell array of text split by newlines
+
+% a character is either a delimiter or a field
+inField = true;
+inQuoteField = false;
+% if inField && ~inQuoteField --> then we're in a raw field
+
+skipNext = false;
+data = {};
+field = '';
+for lineNumber = 1:length(lines)
+    nChars = length(lines{lineNumber}); % number of characters in this line
+    fieldNumber = 1;
+    for charNumber = 1:nChars
+        if skipNext
+            skipNext = false;
+            continue
+        end
+        thisChar = lines{lineNumber}(charNumber);
+        if thisChar == ','
+            if inField 
+                if inQuoteField % this comma is part of the field
+                    field(end+1) = thisChar;
+                else % this comma is the delimiter marking the end of the field
+                    data{lineNumber,fieldNumber} = field;
+                    field = '';
+                    fieldNumber = fieldNumber + 1;
+                end
+            else % we are not currently in a field -- this is the start of a new delimiter
+                inField = true;
+            end
+            if charNumber == nChars % this is a hanging comma, indicating the last field is blank
+                data{lineNumber,fieldNumber} = '';
+                field = '';
+                fieldNumber = fieldNumber + 1;
+            end
+        elseif thisChar == '"' 
+            if inField
+                if inQuoteField
+                    if charNumber == nChars % it's the last character, so this must be the closing delimiter?
+                        inField = false;
+                        inQuoteField = false;
+                        data{lineNumber,fieldNumber} = field;
+                        field = '';
+                        fieldNumber = fieldNumber + 1;
+                    else 
+                        if lines{lineNumber}(charNumber+1) == '"' % this is translated to be a double quote in the field
+                            field(end+1) = '"';
+                            skipNext = true;
+                        else % this " is the delimiter ending this field
+                            data{lineNumber,fieldNumber} = field;
+                            field = '';
+                            inField = false;
+                            inQuoteField = false;
+                            fieldNumber = fieldNumber + 1;
+                        end
+                    end
+                else % this is a delimiter and we are in a new quote field
+                    inQuoteField = true;
+                end
+            else % we are not in a field. This must be an opening quote for the first field?
+                inField = true;
+                inQuoteField = true;
+            end
+        else % any other character ought to be added to field
+            field(end+1) = thisChar;
+            if charNumber == nChars
+                data{lineNumber,fieldNumber} = field;
+                field = '';
+                fieldNumber = fieldNumber + 1;
+            elseif charNumber == 1 % we are starting a new raw field
+                inField = true;
+            end
+        end
+    end
+end
 end % end function
