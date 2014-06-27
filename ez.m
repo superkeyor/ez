@@ -396,6 +396,7 @@ classdef ez
             % Confirm(msg)
             % msg = {'Message line 1';'Message line 2'}
             % returns true (only when Yes pressed) or false (anything else)
+            % false does not raise an error (i.e. not like other dlg)
             button = questdlg(msg,'Question?','Yes','No','No');
             switch button
                 case 'Yes'
@@ -403,7 +404,7 @@ classdef ez
                 otherwise
                     result = false;
             end
-            if (~result); error('MATLAB:UNIQUE:NotEnoughInputs','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
+            % if (~result); error('MATLAB:UNIQUE:NotEnoughInputs','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
         function results = Inputs(values, defaults, title)
