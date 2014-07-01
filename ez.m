@@ -27,6 +27,8 @@ classdef ez
     %       cell2csv(csvFile,cellArray)
     %       result = csv2cell(csvFile)
     %
+    %       result = AreTheseToolboxesInstalled({,})
+    %
     % # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     % # file save routine
     % # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -547,8 +549,40 @@ classdef ez
                 end % end if
             end % end sub-function    
         end
+
+        function tf = AreTheseToolboxesInstalled(requiredToolboxes)
+        %ARETHESETOOLBOXESINSTALLED takes a cell array of toolbox names and checks whether they are currently installed
+        % SYNOPSIS tf = AreTheseToolboxesInstalled(requiredToolboxes)
+        %
+        % INPUT requiredToolboxes: cell array with toolbox names to test for. Eg. 
+        %        {'MATLAB','Image Processing Toolbox'}
+        %
+        % OUTPUT tf: true or false if the required toolboxes are installed or not
+        %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+        % get all installed toolbox names
+        v = ver;
+        % collect the names in a cell array
+        [installedToolboxes{1:length(v)}] = deal(v.Name);
+
+        % check 
+        tf = all(ismember(requiredToolboxes,installedToolboxes));
+
+        % print out
+        if tf
+            disp('Congratulations, all required Matlab toolbox(es) installed!');
+        else
+            cprintf('red', 'Oops, at least one of the following requried Matlab toolboxes is not installed:\n')
+            fprintf('-----------------------------------------\n');
+            fprintf('%s\n', requiredToolboxes{:});
+            fprintf('-----------------------------------------\n');
+            disp('You can type ''ver'' to see what you have installed.');
+        end
+
+        end
+
     % leave a blank line before this
-    end % end methods
+    end % end static methods
 end % end class
 
 
