@@ -7,6 +7,7 @@ classdef ez
     %
     % help method to see more information
     %       error(msg), print(sth), pprint(sth[, color])
+    %       setlog(exception[,info,file])
     %
     %       moment()
     %
@@ -60,6 +61,34 @@ classdef ez
         function varargout = error(varargin)
             % Display message and abort function, a wrapper of error()
             [varargout{1:nargout}] = error(varargin{:}); 
+        end
+
+        function setlog(exception,info,file)
+            % setlog(exception[,info,file])
+            % Inputs:
+            %   exception--exception object
+            %   info--optional, additional info, str type, defaults to 'NA'
+            %   file--optional, log file path, defaults to "ErrorLog.txt"
+            % Save an exception to a log file (append) and also display the message on screen
+            % returns nothing, don't stop the script from continuing
+
+            if ~exist('info','var'); info = 'NA'; end
+            if ~exist('file','var'); file = 'ErrorLog.txt'; end
+            fid = fopen(file,'a');
+
+            fprintf(fid,'%s\n',datestr(now,'yyyy-mm-dd_HH-MM-SS-FFF'));
+            fprintf(fid,'%s\n',exception.message);
+            for e=1:length(exception.stack)
+              fprintf(fid,'%s (line %i)\n',exception.stack(e).name,exception.stack(e).line);
+            end
+            fprintf(fid, 'Additional Info: %s\n', info);
+            fprintf(fid, '\n');
+
+            fclose(fid);
+
+            % show on screen
+            cprintf('red', [exception.message '\n']);
+            fprintf('Additional Info: %s\n', info);
         end
 
         function varargout = print(varargin)
@@ -1282,7 +1311,7 @@ fclose(datei);
 
 % sub-function
 function x = StringX(x)
-    % If zero, then empty cell
+    % empty element
     if isempty(x)
         x = '';
     % If numeric -> String, e.g. 1, [1 2]
@@ -1299,6 +1328,7 @@ function x = StringX(x)
             x = 'FALSE';
         end
     % If matrix array -> a1 a2 a3. e.g. [1 2 3]
+    % row vector such as [1 2 3] will be separated by two spaces, that is "1 2 3" 
     % also catch string or char here
     elseif isrow(x) && ~iscell(x)
         x = num2str(x);
