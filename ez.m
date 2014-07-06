@@ -68,12 +68,12 @@ classdef ez
             % Inputs:
             %   exception--exception object
             %   info--optional, additional info, str type, defaults to 'NA'
-            %   file--optional, log file path, defaults to "ErrorLog.txt"
+            %   file--optional, log file path, defaults to "ExceptionLog.txt"
             % Save an exception to a log file (append) and also display the message on screen
             % returns nothing, don't stop the script from continuing
 
             if ~exist('info','var'); info = 'NA'; end
-            if ~exist('file','var'); file = 'ErrorLog.txt'; end
+            if ~exist('file','var'); file = 'ExceptionLog.txt'; end
             fid = fopen(file,'a');
 
             fprintf(fid,'%s\n',datestr(now,'yyyy-mm-dd_HH-MM-SS-FFF'));
