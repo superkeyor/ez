@@ -11,7 +11,7 @@ classdef ez
     %
     %       moment()
     %
-    %       cwd(), csd(), parentdir(path), 
+    %       cwd(), pwd(), csd(), parentdir(path), 
     %       isdirlike(path), isfilelike(path), 
     %       isdir(path), isfile(path), exists(path)
     %       addpath(path), splitpath(path), joinpath(path1, path2), cd(path)
@@ -134,6 +134,12 @@ classdef ez
 
         function result = cwd()
             % cwd()
+            % returns the current working directory
+            result  = pwd;
+        end
+
+        function result = pwd()
+            % pwd()
             % returns the current working directory
             result  = pwd;
         end
