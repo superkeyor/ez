@@ -7,7 +7,7 @@ classdef ez
     %
     % help method to see more information
     %       error(msg), print(sth), pprint(sth[, color])
-    %       setlog(exception[,info,file])
+    %       writelog(line[,file])
     %
     %       moment()
     %
@@ -63,32 +63,23 @@ classdef ez
             [varargout{1:nargout}] = error(varargin{:}); 
         end
 
-        function setlog(exception,info,file)
-            % setlog(exception[,info,file])
+        function writelog(line,file)
+            % writelog(line[,file])
             % Inputs:
-            %   exception--exception object
-            %   info--optional, additional info, str type, defaults to 'NA'
-            %   file--optional, log file path, defaults to "ExceptionLog.txt"
-            % Save an exception to a log file (append) and also display the message on screen
-            % returns nothing, don't stop the script from continuing
+            %   line, a record line in string type
+            %   file--optional, log file path, defaults to "Log.txt" in the current working directory
+            % Append a record line with timestamp to a log file and also display the message on screen
+            % returns nothing
 
-            if ~exist('info','var'); info = 'NA'; end
-            if ~exist('file','var'); file = 'ExceptionLog.txt'; end
+            if ~exist('file','var'), file = 'Log.txt'; end
+            timestamp = datestr(now,'yyyy-mm-dd_HH-MM-SS-FFF');
+
             fid = fopen(file,'a');
-
-            fprintf(fid,'%s\n',datestr(now,'yyyy-mm-dd_HH-MM-SS-FFF'));
-            fprintf(fid,'%s\n',exception.message);
-            for e=1:length(exception.stack)
-              fprintf(fid,'%s (line %i)\n',exception.stack(e).name,exception.stack(e).line);
-            end
-            fprintf(fid, 'Additional Info: %s\n', info);
-            fprintf(fid, '\n');
-
+            fprintf(fid,'%s,%s\n',timestamp,line);
             fclose(fid);
 
             % show on screen
-            cprintf('red', [exception.message '\n']);
-            fprintf('Additional Info: %s\n', info);
+            fprintf('%s,%s\n',timestamp,line);
         end
 
         function varargout = print(varargin)
@@ -613,8 +604,7 @@ classdef ez
             fprintf('-----------------------------------------\n');
             disp('You can type ''ver'' to see what you have installed.');
         end
-
-        end
+        end % end function
 
     % leave a blank line before this
     end % end static methods
@@ -1306,13 +1296,13 @@ end
 % convert cell
 cellArray = cellfun(@StringX, cellArray, 'UniformOutput', false);
 
-%% Write file
+% Write file
 datei = fopen(fileName, 'w');
 [nrows,ncols] = size(cellArray);
 for row = 1:nrows
     fprintf(datei,[sprintf(['%s' separator],cellArray{row,1:ncols-1}) cellArray{row,ncols} '\n']);
 end    
-% Closing file
+% Close file
 fclose(datei);
 
 % sub-function
