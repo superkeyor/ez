@@ -23,7 +23,8 @@ classdef ez
     %       execute(cmd)
     %
     %       Alert(msg), result = Confirm(msg), results = Inputs(values[, defaults, title]), 
-    %       GetDir([title, path]), GetFile([pattern[, title, multiple]]), SetFile([defaultFileName[, title]])
+    %       GetDir([title, path]), 
+    %       [result, pathName] = GetFile([pattern[, title, multiple]]), [result, pathName] = SetFile([defaultFileName[, title]])
     %
     %       cell2csv(csvFile,cellArray)
     %       result = csv2cell(csvFile)
@@ -475,8 +476,8 @@ classdef ez
             if (~result); error('MATLAB:UNIQUE:NotEnoughInputs','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
-        function result = GetFile(pattern, title, multiple)
-            % GetFile([pattern[, title, multiple]])
+        function [result, pathName] = GetFile(pattern, title, multiple)
+            % [result, pathName] = GetFile([pattern[, title, multiple]])
             % 
             % pattern optional, defaults to "all files"
             % pattern = {'*.xls';'*.txt';'*.csv'} or {'*.m'} or '*.*'
@@ -493,6 +494,7 @@ classdef ez
             %
             % returns a nx1 cell with full path to file(s) (one or more than one files selected)
             % if the return is {}, raise an error
+            % also optionally returns pathName
 
             if ~exist('pattern','var')
                 pattern = {'*.*','All Files (*.*)'};
@@ -520,13 +522,14 @@ classdef ez
             if (isempty(result)); error('MATLAB:UNIQUE:NotEnoughInputs','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
-        function result = SetFile(defaultFileName, title)
-            % SetFile([defaultFileName[, title]])
+        function [result, pathName] = SetFile(defaultFileName, title)
+            % [result, pathName] = SetFile([defaultFileName[, title]])
             % saves a file, returns the fullpath string/char
             % defaultFileName, optional, a file name with or without full path
             %    defaults to '' in current script directory
             % title is optional, the title showing on the dialogue
             % if the return does not exist, raise an error
+            % also optionally return pathName
             if ~exist('defaultFileName','var'); defaultFileName = ''; end
             if ~exist('title','var'); title = 'Save (as) ...'; end
 
