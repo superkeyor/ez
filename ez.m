@@ -270,12 +270,18 @@ classdef ez
             [varargout{1:nargout}] = num2str(varargin{:}); 
         end
 
-        function varargout = num(varargin)
-            % num(varargin)
-            % converts a string to number, a wrapper of str2num()
-            % '1 23 6 21; 53:56' -> 1 23 6 21 53 54 55 56 
-            % http://www.mathworks.com/help/matlab/ref/str2num.html
-            [varargout{1:nargout}] = str2num(varargin{:}); 
+        function result = num(sth)
+            % num(sth)
+            % converts a string to number. if input a num, still return that num
+            % '1 23 6 21; 53:56' ->      1    23     6    21
+            %                           53    54    55    56
+            if isnumeric(sth)
+                result = sth;
+            elseif ischar(sth)
+                result = str2num(sth); 
+            else
+                error('Unsupported Input Type');
+            end
         end
 
         function varargout = len(varargin)
