@@ -138,13 +138,27 @@ classdef ez
 
         function result = csd()
             % csd()
-            % returns the caller (current caller m script file) 's directory
+            % returns the caller (current caller m script file)'s directory
+            % see also http://www.mathworks.com/access/helpdesk/help/techdoc/ref/mfilename.html
             try
                 theStacks = dbstack('-completenames');
                 theStack = theStacks(2);
                 result = fileparts(theStack.file);
             catch
                 result = pwd;
+            end
+        end
+
+        function result = csf()
+            % csf()
+            % returns the caller (current caller m script file)'s name only (without filepath and fileext)
+            try
+                theStacks = dbstack('-completenames');
+                theStack = theStacks(2);
+                [folder, name, ext] = fileparts(theStack.file);
+                result = name;
+            catch
+                result = '';
             end
         end
 
@@ -422,9 +436,12 @@ classdef ez
         function Alert(msg)
             % Alert(msg)
             % msg = {'Message line 1';'Message line 2'}
-            % no-modal dialogue. script still continues without waiting for user response.
-            % if displaying a second alert without closing the first one, both are shown.
-            warndlg(msg,'Alert!');
+            % modal, script pauses, waiting for response
+            uiwait(warndlg(msg,'Alert!','modal'));
+
+            % % no-modal dialogue. script still continues without waiting for user response.
+            % % if displaying a second alert without closing the first one, both are shown.
+            % warndlg(msg,'Alert!');
         end
 
         function result = Confirm(msg)
@@ -1277,9 +1294,11 @@ function cell2csvModified(fileName, cellArray, separator, excelYear, decimal)
 % % updated by Sylvain Fiedler, Metz, 06
 % % fixed the logical-bug, Kaiserslautern, 06/2008, S.Fiedler
 % % added the choice of decimal separator, 11/2010, S.Fiedler
+% %
 % % modfiedy and optimized by Jerry Zhu, June, 2014, jerryzhujian9@gmail.com
 % % now works with empty cells, numeric, char, string, row vector, and logical cells. 
 % % row vector such as [1 2 3] will be separated by two spaces, that is "1  2  3"
+% % other types will be converted to the string "NA".
 % % One array can contain all of them, but only one value per cell.
 % % 2x times faster than Sylvain's codes (8.8s vs. 17.2s):
 % % tic;C={'te','tm';5,[1,2];true,{}};C=repmat(C,[10000,1]);cell2csv([datestr(now,'MMSS') '.csv'],C);toc;
