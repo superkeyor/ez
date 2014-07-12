@@ -594,11 +594,11 @@ classdef ez
 
         function result = GetVal(baseVarName)
             % get a variable value from base workspace
-            % if the variable does not exist, return false
+            % if the variable does not exist, return ''
             try
                 result = evalin('base', baseVarName);
             catch
-                result = false;
+                result = '';
             end
         end
 
