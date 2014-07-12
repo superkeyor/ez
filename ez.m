@@ -6,6 +6,8 @@ classdef ez
     % or ez.method without import: ez.GetDir()
     %
     % help method to see more information
+    %       clean()
+    %
     %       error(msg), print(sth), pprint(sth[, color])
     %       writelog(line[,file])
     %
@@ -26,8 +28,12 @@ classdef ez
     %       GetDir([title, path]), 
     %       [result, pathName] = GetFile([pattern[, title, multiple]]), [result, pathName] = SetFile([defaultFileName[, title]])
     %
+    %       GetVal(baseVarName)
+    %
     %       cell2csv(csvFile,cellArray)
     %       result = csv2cell(csvFile)
+    %
+    %       gmail(email, subject, content, sender, user, pass)    
     %
     %       result = AreTheseToolboxesInstalled({,})
     %
@@ -58,6 +64,16 @@ classdef ez
 
 
     methods(Static)
+
+        function clean()
+            % clear command window, all variables. close all figures. show workspace/variables window
+            clc;         % clear command window
+            clear all;   % clear workspace/variables
+            evalin('base','clear all');  % clear base workspace as well
+            close all;   % close all figures
+            % workspace;   % show/activate workspace/variables window
+            commandwindow; % refocus to command window
+        end
 
         function varargout = error(varargin)
             % Display message and abort function, a wrapper of error()
@@ -576,6 +592,16 @@ classdef ez
             if (~result); error('MATLAB:UNIQUE:NotEnoughInputs','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
+        function result = GetVal(baseVarName)
+            % get a variable value from base workspace
+            % if the variable does not exist, return false
+            try
+                result = evalin('base', baseVarName);
+            catch
+                result = false;
+            end
+        end
+
         function cell2csv(csvFile,cellArray)
             % cell2csv(csvFile,cellArray)
             % write the content of a cell array to a csv file, comma separated
@@ -600,6 +626,22 @@ classdef ez
                     x = str2num(x);
                 end % end if
             end % end sub-function    
+        end
+
+        function gmail(email, subject, content, sender, user, pass)
+            % e.g. gmail('a@b.com', 'greetings', ['line1' 10 'line2'], 'Sender Name <c@gmail.com>', 'c@gmail.com', 'password');
+            setpref('Internet','E_mail',sender);
+            setpref('Internet','SMTP_Server','smtp.gmail.com');
+            setpref('Internet','SMTP_Username',user);
+            setpref('Internet','SMTP_Password',pass);
+
+            props = java.lang.System.getProperties;
+            props.setProperty('mail.smtp.auth','true');
+            props.setProperty('mail.smtp.socketFactory.class', ...
+                              'javax.net.ssl.SSLSocketFactory');
+            props.setProperty('mail.smtp.socketFactory.port','465');
+
+            sendmail(email,subject,content);
         end
 
         function tf = AreTheseToolboxesInstalled(requiredToolboxes)
