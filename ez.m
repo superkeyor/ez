@@ -679,12 +679,15 @@ classdef ez
         end
 
         function varargout = export(varargin)
-            % export a figure in matlab to a pdf or tiff (and more)
+            % export a figure in matlab to a file
             % options/examples:
             % -m2.5, -native, -transparent, -q0...100, 101(lossless), -a1...4(min->max, anti-alias), -nocrop, -append(pdf/tiff only)
-            % export(fileName,'-transparent','-q50')
+            % export(fileName,'-a1','-q0'), fileName supports sprintf()
+            % pdf printing requires  http://www.ghostscript.com or http://www.foolabs.com/xpdf
             % detailed help: https://github.com/ojwoodford/export_fig/blob/master/README.md
-            addpath(genpath_exclude(fileparts(mfilename('fullpath')),{'^\.git'})); % add the export_fig folder to path which is in the same folder as ez
+
+            % add the export_fig folder to path which is in the same folder as ez
+            addpath(genpath_exclude(fileparts(mfilename('fullpath')),{'^\.git'})); 
             [varargout{1:nargout}] = export_fig(varargin{:}); 
         end
 
