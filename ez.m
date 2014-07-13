@@ -19,7 +19,7 @@ classdef ez
     %       addpath(path), splitpath(path), joinpath(path1, path2), cd(path)
     % 
     %       typeof(sth), str(sth), num(sth), len(sth)
-    %       ls([path, ]regex), fls([path, ]regex), 
+    %       ls([[path, ]regex]), fls([[path, ]regex]), lsd([[path, ]regex])
     %
     %       mkdir(path), rm(path), cp(src, dest), mv(src, dest)
     %       execute(cmd)
@@ -33,7 +33,9 @@ classdef ez
     %       cell2csv(csvFile,cellArray)
     %       result = csv2cell(csvFile)
     %
-    %       gmail(email, subject, content, sender, user, pass)    
+    %       gmail(email, subject, content, sender, user, pass) 
+    %
+    %       export()
     %
     %       result = AreTheseToolboxesInstalled({,})
     %
@@ -321,8 +323,8 @@ classdef ez
             [varargout{1:nargout}] = length(varargin{:}); 
         end
 
-        function result = ls(rootdir, expstr, recursive)
-            % ls(), ls(regex), ls(path, regex), 
+        function result = ls(rootdir, expstr)
+            % ls(), ls(path), ls(regex), ls(path, regex)
             % if path is missing, refers to current working directory
             % returns a nx1 cell of files in directory with fullpath
             % ls(path,regex) regex is case sensitive by default
@@ -358,8 +360,8 @@ classdef ez
             % end
         end
 
-        function result = fls(rootdir, expstr, recursive)
-            % fls(), fls(regex), fls(path, regex), 
+        function result = fls(rootdir, expstr)
+            % fls(), fls(path), fls(regex), fls(path, regex)
             % if path is missing, refers to current working directory
             % returns a nx1 cell of files in directory with fullpath recursively
             % fls(path,regex) regex is case sensitive by default
@@ -392,6 +394,38 @@ classdef ez
             % catch
             %     result = cell(0,1);
             % end
+        end
+
+        function result = lsd(path,regex)
+            % ls directory, lsd(), lsd(path), lsd(regex), lsd(path, regex)
+            % path defaults to pwd, not recursive; support case-sensitive regex, default .*
+            % returns a nx1 cell with all subfolder's names (only names, sorted ascending), or an empty 0 x 1 cell.
+            switch nargin
+                case 0
+                    path = pwd;
+                    regex = '.*';
+                case 1
+                    % the first arg is tenatively path
+                    % user passed an existing dir
+                    if isdir(path)
+                        path = path;
+                        regex = '.*';
+                    % user passed a regex
+                    else
+                        regex = path;
+                        path = pwd;
+                    end
+                case 2
+                    path = path;
+                    regex = regex;
+            end
+            listing = dir(path);
+            issub = [listing(:).isdir]; % returns logical vector
+            folderNames = {listing(issub).name}';
+            folderNames(ismember(folderNames,{'.','..'})) = []; % get rid of . ..
+            ind = cellfun(@(x)( ~isempty(x) ), regexp(folderNames, regex));
+            result = folderNames(ind);
+            result = sort(result); % ascending order
         end
 
         function status = mkdir(path)
@@ -642,6 +676,16 @@ classdef ez
             props.setProperty('mail.smtp.socketFactory.port','465');
 
             sendmail(email,subject,content);
+        end
+
+        function varargout = export(varargin)
+            % export a figure in matlab to a pdf or tiff (and more)
+            % options/examples:
+            % -m2.5, -native, -transparent, -q0...100, 101(lossless), -a1...4(min->max, anti-alias), -nocrop, -append(pdf/tiff only)
+            % export(fileName,'-transparent','-q50')
+            % detailed help: https://github.com/ojwoodford/export_fig/blob/master/README.md
+            addpath(genpath_exclude(fileparts(mfilename('fullpath')),{'^\.git'})); % add the export_fig folder to path which is in the same folder as ez
+            [varargout{1:nargout}] = export_fig(varargin{:}); 
         end
 
         function tf = AreTheseToolboxesInstalled(requiredToolboxes)
@@ -1563,4 +1607,95 @@ for lineNumber = 1:length(lines)
         end
     end
 end
+end % end function
+
+
+function p = genpath_exclude(d,excludeDirs)
+% http://www.mathworks.com/matlabcentral/fileexchange/22209-genpath-exclude
+% pathStr = genpath_exclude(basePath,ignoreDirs)
+%
+% Extension of Matlab's "genpath" function, except this will exclude
+% directories (and their sub-tree) given by "ignoreDirs". 
+%
+% Example usage:
+% genpath_exclude('C:\myDir',{'CVS'}) %<--- simple usage to ignore CVS direcotries
+% genpath_exclude('C:\myDir',{'\.svn'}) %<--- simple usage to ignore .svn (note that "." must be escaped for proper handling in the regexp)
+% genpath_exclude('C:\myDir',{'CVS','#.*'}) %<----more advanced usage to ignore CVS directories and any directory starting with "#"
+%
+% Inputs:
+%    basePath: string.  The base path for which to generate path string.
+%
+%    excludeDirs: cell-array of strings. all directory names to ignore. Note,
+%                 these strings are passed into regexp surrounded by
+%                 '^'   and '$'.  If your directory name contains special
+%                 characters to regexp, they must be escaped.  For example,
+%                 use '\.svn' to ignore ".svn" directories.  You may also
+%                 use regular expressions to ignore certian patterns. For
+%                 example, use '*._ert_rtw' to ignore all directories ending
+%                 with "_ert_rtw".
+%
+% Outputs:
+%    pathStr: string. semicolon delimited string of paths. (see genpath)
+% 
+% See also genpath
+%
+% ---CVS Keywords----
+% $Author: jhopkin $
+% $Date: 2009/10/27 19:06:19 $
+% $Name:  $
+% $Revision: 1.5 $
+
+% $Log: genpath_exclude.m,v $
+% Revision 1.5  2009/10/27 19:06:19  jhopkin
+% fixed regexp handling.  added more help comments
+%
+% Revision 1.4  2008/11/25 19:04:29  jhopkin
+% minor cleanup.  Made input more robust so that if user enters a string as 'excudeDir' rather than a cell array of strings this function will still work.  (did this by moving the '^' and '$' to surround the entire regexp string, rather than wrapping them around each "excludeDir")
+%
+% Revision 1.3  2008/11/25 18:43:10  jhopkin
+% added help comments
+%
+% Revision 1.1  2008/11/22 00:23:01  jhopkin
+% *** empty log message ***
+%
+    % if the input is a string, then use it as the searchstr
+    if ischar(excludeDirs)
+        excludeStr = excludeDirs;
+    else
+        excludeStr = '';
+        if ~iscellstr(excludeDirs)
+            error('excludeDirs input must be a cell-array of strings');
+        end
+        
+        for i = 1:length(excludeDirs)
+            excludeStr = [excludeStr '|^' excludeDirs{i} '$'];
+        end
+    end
+
+    
+    % Generate path based on given root directory
+    files = dir(d);
+    if isempty(files)
+      return
+    end
+
+    % Add d to the path even if it is empty.
+    p = [d pathsep];
+
+    % set logical vector for subdirectory entries in d
+    isdir = logical(cat(1,files.isdir));
+    %
+    % Recursively descend through directories which are neither
+    % private nor "class" directories.
+    %
+    dirs = files(isdir); % select only directory entries from the current listing
+
+    for i=1:length(dirs)
+        dirname = dirs(i).name;
+        %NOTE: regexp ignores '.', '..', '@.*', and 'private' directories by default. 
+        % if ~any(regexp(dirname,['^\.$|^\.\.$|^\@.*|^private$|' excludeStr ],'start'))
+        if ~any(regexp(dirname,['^\.$|^\.\.$|^\@.*|^\+.*|^private$|' excludeStr ],'start')) 
+          p = [p genpath_exclude(fullfile(d,dirname),excludeStr)]; % recursive calling of this function.
+        end
+    end
 end % end function
