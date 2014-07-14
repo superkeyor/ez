@@ -277,6 +277,7 @@ classdef ez
         function varargout = joinpath(varargin)
             % joinpath(filepart1,...,filepartN)
             % conceptually equivalent to [filepart1 filesep filepart2 filesep ... filesep filepartN]
+            % but this function works regardless whether filepart has a trailing filesep or not (e.g. a/b or a/b/)
 
             % http://www.mathworks.com/help/matlab/ref/fullfile.html
             % ref: http://stackoverflow.com/questions/4895556/how-to-wrap-a-function-using-varargin-and-varargout
