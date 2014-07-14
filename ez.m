@@ -679,15 +679,43 @@ classdef ez
         end
 
         function varargout = export(varargin)
-            % export a figure in matlab to a file
-            % options/examples:
-            % -m2.5, -native, -transparent, -q0...100, 101(lossless), -a1...4(min->max, anti-alias), -nocrop, -append(pdf/tiff only)
-            % export(fileName,'-a1','-q0'), fileName supports sprintf()
-            % pdf printing requires  http://www.ghostscript.com or http://www.foolabs.com/xpdf
+            % export the current(last activated) figure in matlab to a file
+            %
+            % for publication, export as pdf (vector)
+            %       export(), export('Fig'), export('Fig.pdf') --> all export as pdf
+            %       additionally accepts 'append' to export as a single pdf file
+            %       export('Fig.pdf','append') <-- .pdf must be explicitly specified
+            %       requires ghostscript at http://www.ghostscript.com
+            % for viewing, export as jpg
+            %       export('Fig.jpg'), 
+            %       export('Fig.jpg', 'm2.5', 'q50' ,'a1')
+            %       m(magnify relative to the screen dimension), default m1
+            %       q(0...100; 100=highest quality, largest filesize)
+            %       a(1...4; 4=more anti-alias,larger filesize)
+            % filename supports sprintf() if dynamically change names
+            % size: adjust the matlab figure size/dimension manually, then export
+            %
+            % pdf, eps, jpg <-- lossless and lossy compression
+            % png, tiff, jpg, bmp (bitmap)  <--magnify, anti-alias
+            % pdf, eps, png <-- transparent
+            % pdf, tiff <-- append
+            %
             % detailed help: https://github.com/ojwoodford/export_fig/blob/master/README.md
 
             % add the export_fig folder to path which is in the same folder as ez
-            addpath(genpath_exclude(fileparts(mfilename('fullpath')),{'^\.git'})); 
+            addpath(genpath_exclude(fileparts(mfilename('fullpath')),{'^\.git'}));
+
+            if nargin < 1
+                % default filename, default filetype is pdf
+                varargin = {sprintf('Fig_%s.pdf', datestr(now, 'yyyy-mm-dd_HH-MM-SS-FFF'))};
+            elseif nargin == 1
+                % if no (or no supported) filetype, make it pdf
+                if isempty(regexp(varargin{1},'^.*\.(jpg|jpeg|eps|png|tiff|tif|bmp|pdf)$')), varargin{1} = [varargin{1} '.pdf']; end
+            else
+                % prepend - to parameters
+                varargin(2:end) = cellfun(@(x) ['-' x], varargin(2:end), 'UniformOutput', false);
+            end
+            % celldisp(varargin) % debug
             [varargout{1:nargout}] = export_fig(varargin{:}); 
         end
 
