@@ -695,6 +695,7 @@ classdef ez
             %       a(1...4; 4=more anti-alias,larger filesize)
             % filename supports sprintf() if dynamically change names
             % size: adjust the matlab figure size/dimension manually, then export
+            % finally, accepts a figure handle(e.g. 1 2 3 etc), defaut to gcf. export('Fig.jpg', 3)
             %
             % pdf, eps, jpg <-- lossless and lossy compression
             % png, tiff, jpg, bmp (bitmap)  <--magnify, anti-alias
@@ -714,10 +715,14 @@ classdef ez
                 if isempty(regexp(varargin{1},'^.*\.(jpg|jpeg|eps|png|tiff|tif|bmp|pdf)$')), varargin{1} = [varargin{1} '.pdf']; end
             else
                 % prepend - to parameters
-                varargin(2:end) = cellfun(@(x) ['-' x], varargin(2:end), 'UniformOutput', false);
+                varargin(2:end) = cellfun(@(x) parseX(x), varargin(2:end), 'UniformOutput', false);
             end
             % celldisp(varargin) % debug
             [varargout{1:nargout}] = export_fig(varargin{:}); 
+
+            function x = parseX(x)
+                if ischar(x), x = ['-' x]; end
+            end % end subfunction
         end
 
         function tf = AreTheseToolboxesInstalled(requiredToolboxes)
