@@ -696,6 +696,7 @@ classdef ez
             % filename supports sprintf() if dynamically change names
             % size: adjust the matlab figure size/dimension manually, then export
             % finally, accepts a figure handle(e.g. 1 2 3 etc), defaut to gcf. export('Fig.jpg', 3)
+            % if the handle does not exist, use gcf
             %
             % pdf, eps, jpg <-- lossless and lossy compression
             % png, tiff, jpg, bmp (bitmap)  <--magnify, anti-alias
