@@ -706,7 +706,7 @@ classdef ez
             % detailed help: https://github.com/ojwoodford/export_fig/blob/master/README.md
 
             % add the export_fig folder to path which is in the same folder as ez
-            addpath(genpath_exclude(fileparts(mfilename('fullpath')),{'^\.git'}));
+            addpath(genpath_exclude(fileparts(mfilename('fullpath')),{'^\..*'}));
 
             if nargin < 1
                 % default filename, default filetype is pdf
