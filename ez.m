@@ -649,16 +649,23 @@ classdef ez
         function result = csv2cell(csvFile)
             % csv2cell(csvFile)
             % read csv into a cell
-            % everything defaults to string
-            % however if a cell (excel cell not the matlab cell) is like a num, will try to convert to num
+            % basically everything defaults to string,  However there are 2 exceptions:
+            % 1) if a cell (excel cell not the matlab cell) is like a num, will try to convert to num
+            % 2) if a cell (again excel cell) is empty, will be converted to an empty array [], 
+            % because I mainly process numbers. could be convienent to concatenate, say [[113 128], []] instead of [[113 128], '']
+            % [[113 128], []] returns [113 128] as expected, [[113 128], ''] returns 'q', trying 113 only as ascii code
             % don't care about whether the csv has header or not
             tempResult = csv2cellModified(csvFile,'fromfile');
-            result = cellfun(@NumX, tempResult, 'UniformOutput', false);
-            function x = NumX(x)
+            result = cellfun(@Numerize, tempResult, 'UniformOutput', false);
+            function result = Numerize(x)
                 if isempty(str2num(x))
-                    x = x;
+                    if isempty(x), 
+                        result = []; 
+                    else
+                        result = x;
+                    end
                 else
-                    x = str2num(x);
+                    result = str2num(x);
                 end % end if
             end % end sub-function    
         end
@@ -1446,7 +1453,7 @@ if excelYear > 2000
 end
 
 % convert cell
-cellArray = cellfun(@StringX, cellArray, 'UniformOutput', false);
+cellArray = cellfun(@Stringize, cellArray, 'UniformOutput', false);
 
 % Write file
 datei = fopen(fileName, 'w');
@@ -1458,36 +1465,36 @@ end
 fclose(datei);
 
 % sub-function
-function x = StringX(x)
+function result = Stringize(x)
     % empty element
     if isempty(x)
-        x = '';
+        result = '';
     % If numeric -> String, e.g. 1, [1 2]
     elseif isnumeric(x) && isrow(x)
-        x = num2str(x);
+        result = num2str(x);
         if decimal ~= '.'
-            x = strrep(x, '.', decimal);
+            result = strrep(result, '.', decimal);
         end
     % If logical -> 'true' or 'false'
     elseif islogical(x)
         if x == 1
-            x = 'TRUE';
+            result = 'TRUE';
         else
-            x = 'FALSE';
+            result = 'FALSE';
         end
     % If matrix array -> a1 a2 a3. e.g. [1 2 3]
     % row vector such as [1 2 3] will be separated by two spaces, that is "1 2 3" 
     % also catch string or char here
     elseif isrow(x) && ~iscell(x)
-        x = num2str(x);
+        result = num2str(x);
     % everthing else, such as [1;2], {1}
     else
-        x = 'NA';
+        result = 'NA';
     end
 
     % If newer version of Excel -> Quotes 4 Strings
     if excelYear > 2000
-        x = ['"' x '"'];
+        result = ['"' x '"'];
     end
 end % end sub-function
 end % end function
