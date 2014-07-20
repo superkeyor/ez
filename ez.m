@@ -722,14 +722,18 @@ classdef ez
                 % if no (or no supported) filetype, make it pdf
                 if isempty(regexp(varargin{1},'^.*\.(jpg|jpeg|eps|png|tiff|tif|bmp|pdf)$')), varargin{1} = [varargin{1} '.pdf']; end
             else
-                % prepend - to parameters
-                varargin(2:end) = cellfun(@(x) parseX(x), varargin(2:end), 'UniformOutput', false);
+                % prepend '-' to parameters if no -
+                varargin(2:end) = cellfun(@(x) TheParser(x), varargin(2:end), 'UniformOutput', false);
             end
             % celldisp(varargin) % debug
             [varargout{1:nargout}] = export_fig(varargin{:}); 
 
-            function x = parseX(x)
-                if ischar(x), x = ['-' x]; end
+            function y = TheParser(x)
+                if ischar(x) & x(1) ~= '-'
+                    y = ['-' x]; 
+                else
+                    y = x;
+                end
             end % end subfunction
         end
 
