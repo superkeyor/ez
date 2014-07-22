@@ -8,6 +8,8 @@ classdef ez
     % help method to see more information
     %       clean()
     %
+    %       iff(test,s1,s2)
+    %
     %       error(msg), print(sth), pprint(sth[, color])
     %       writelog(line[,file])
     %
@@ -77,6 +79,25 @@ classdef ez
             commandwindow; % refocus to command window
         end
 
+        function result = iff(test,s1,s2)
+            % Usage:
+            %  >> result = iff(test, s1, s2);
+            %
+            % Input:
+            %   test   - logical test with result 0 or 1
+            %   s1     - result if 1
+            %   s2     - result if 0
+            %
+            % Output:
+            %   result    - s1 or s2 depending on the value of the test
+            if test
+                result = s1;
+            else
+                result = s2;
+            end
+            return;
+        end
+            
         function varargout = error(varargin)
             % Display message and abort function, a wrapper of error()
             [varargout{1:nargout}] = error(varargin{:}); 
