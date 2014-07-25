@@ -39,6 +39,8 @@ classdef ez
     %
     %       export()
     %
+    %       backward compatabilities: union, unique, ismember, setdiff, intersect, setxor       
+    %
     %       result = AreTheseToolboxesInstalled({,})
     %
     % # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -756,6 +758,38 @@ classdef ez
                     y = x;
                 end
             end % end subfunction
+        end
+
+        % if matlab version >= 7.14 (2012a), add 'legacy' to the parameters, otherwise not
+        % this way, maintain cross-matlab version compatability
+        function varargout = unique(varargin)
+            varargin = legacize(varargin);
+            [varargout{1:nargout}] = unique(varargin{:}); 
+        end
+
+        function varargout = union(varargin)
+            varargin = legacize(varargin);
+            [varargout{1:nargout}] = union(varargin{:}); 
+        end
+
+        function varargout = ismember(varargin)
+            varargin = legacize(varargin);
+            [varargout{1:nargout}] = ismember(varargin{:}); 
+        end
+
+         function varargout = setdiff(varargin)
+            varargin = legacize(varargin);
+            [varargout{1:nargout}] = setdiff(varargin{:}); 
+        end
+
+        function varargout = intersect(varargin)
+            varargin = legacize(varargin);
+            [varargout{1:nargout}] = intersect(varargin{:}); 
+        end
+
+        function varargout = setxor(varargin)
+            varargin = legacize(varargin);
+            [varargout{1:nargout}] = setxor(varargin{:}); 
         end
 
         function tf = AreTheseToolboxesInstalled(requiredToolboxes)
@@ -1769,3 +1803,21 @@ function p = genpath_exclude(d,excludeDirs)
         end
     end
 end % end function
+
+
+function result = legacize(theArg);
+% if matlab version >= 7.14 (2012a), add 'legacy' to the parameters, otherwise not
+% this way, maintain cross-matlab version compatability
+v = version;
+indp = find(v == '.');
+v = str2num(v(1:indp(2)-1));
+if v > 7.19, v = floor(v) + rem(v,1)/10; end;
+
+result = theArg;
+hasLegacy = any(strcmp('legacy', theArg));
+if ~hasLegacy
+    if v >= 7.14
+        result = {theArg{:}, 'legacy'};
+    end
+end;
+end  % end internal function
