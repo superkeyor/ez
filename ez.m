@@ -478,10 +478,11 @@ classdef ez
         function rm(path)
             % rm(path)
             % removes a folder recursively or a file; file supports wildcards
+            % if a path does not exist, nothing happens.
             if isdir(path)
                 rmdir(path, 's');
                 % disp([path ' removed folder']);
-            else
+            elseif exist(path,'file') == 2
                 delete(path);
                 % disp([path ' removed file']);
             end
