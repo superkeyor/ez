@@ -457,11 +457,22 @@ classdef ez
             % mkdir(path)
             % makes a new dir, path could be absolute or relative, returns true or false
             % creates all neccessay parent folders (e.g. 'a/b/c', creates a b for c)
-            % if folder exits, still creates and returns success
-            warning('off', 'MATLAB:MKDIR:DirectoryExists');
-            status = mkdir(path);
-            disp([path ' created']);
-            warning('on', 'MATLAB:MKDIR:DirectoryExists');
+            % if folder exits, does nothing and returns success/true
+            if isdir(path)
+                status = true;
+            else
+                status = mkdir(path);
+                disp([path ' created']);
+            end
+
+            % % mkdir(path)
+            % % makes a new dir, path could be absolute or relative, returns true or false
+            % % creates all neccessay parent folders (e.g. 'a/b/c', creates a b for c)
+            % % if folder exits, still creates and returns success
+            % warning('off', 'MATLAB:MKDIR:DirectoryExists');
+            % status = mkdir(path);
+            % disp([path ' created']);
+            % warning('on', 'MATLAB:MKDIR:DirectoryExists');
         end
 
         function rm(path)
