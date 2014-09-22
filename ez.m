@@ -35,6 +35,7 @@ classdef ez
     %
     %       cell2csv(csvFile,cellArray)
     %       result = csv2cell(csvFile)
+    %       [raw,num,txt] = xls2cell(xlsFile)
     %
     %       gmail(email, subject, content, sender, user, pass) 
     %
@@ -715,6 +716,28 @@ classdef ez
                     result = str2num(x);
                 end % end if
             end % end sub-function    
+        end
+
+        function [raw,num,txt] = xls2cell(xlsFile)
+            % [raw,num,txt] = xls2cell(xlsFile), read XLS, XLSX, XLSM, XLTX, and XLTM into a cell
+            % only works on Windows platform with/without Microsoft Excel installed
+            %
+            % raw = 
+            %     'First'    'Second'    'Third'
+            %     [    1]    [     2]    [    3]
+            %     [    4]    [     5]    'x'    
+            %     [    7]    [     8]    [    9]
+            %
+            % num =
+            %      1     2     3
+            %      4     5   NaN
+            %      7     8     9
+            %
+            % txt = 
+            %     'First'    'Second'    'Third'
+            %     ''         ''          ''     
+            %     ''         ''          'x'    
+            [num,txt,raw] = xlsread(xlsFile);
         end
 
         function gmail(email, subject, content, sender, user, pass)
