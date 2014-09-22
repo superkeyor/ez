@@ -718,9 +718,13 @@ classdef ez
             end % end sub-function    
         end
 
-        function [raw,num,txt] = xls2cell(xlsFile)
-            % [raw,num,txt] = xls2cell(xlsFile), read XLS, XLSX, XLSM, XLTX, and XLTM into a cell
+        function [raw,num,txt] = xls2cell(varargin)
+            % [raw,num,txt] = xls2cell(varargin), read XLS, XLSX, XLSM, XLTX, and XLTM into a cell
             % only works on Windows platform with/without Microsoft Excel installed
+            % (filename)  % reads data from the first worksheet 
+            % (filename,sheet)  % sheet: string | positive integer
+            % (filename,xlRange) % xlRange: 'B2:C3', 'B:B'
+            % (filename,sheet,xlRange)
             %
             % raw = 
             %     'First'    'Second'    'Third'
