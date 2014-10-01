@@ -741,7 +741,7 @@ classdef ez
             %     'First'    'Second'    'Third'
             %     ''         ''          ''     
             %     ''         ''          'x'    
-            [num,txt,raw] = xlsread(xlsFile);
+            [num,txt,raw] = xlsread(varargin{:});
         end
 
         function gmail(email, subject, content, sender, user, pass)
