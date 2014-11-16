@@ -20,7 +20,7 @@ classdef ez
     %       isdir(path), isfile(path), exists(path)
     %       addpath(path), splitpath(path), joinpath(path1, path2), cd(path)
     % 
-    %       typeof(sth), str(sth), num(sth), len(sth)
+    %       type(sth), str(sth), num(sth), len(sth)
     %       ls([[path, ]regex]), fls([[path, ]regex]), lsd([[path, ]regex])
     %
     %       mkdir(path), rm(path), cp(src, dest), mv(src, dest)
@@ -315,8 +315,8 @@ classdef ez
             [varargout{1:nargout}] = cd(varargin{:}); 
         end
 
-        function varargout = typeof(varargin)
-            % typeof(varargin)
+        function varargout = type(varargin)
+            % type(varargin)
             % returns the datatype of an input, a wrapper of class()
             [varargout{1:nargout}] = class(varargin{:}); 
         end
