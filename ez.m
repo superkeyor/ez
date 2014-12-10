@@ -18,7 +18,7 @@ classdef ez
     %       cwd(), pwd(), csd(), parentdir(path), 
     %       isdirlike(path), isfilelike(path), 
     %       isdir(path), isfile(path), exists(path)
-    %       addpath(path), splitpath(path), joinpath(path1, path2), cd(path)
+    %       addpath(path), splitpath(path), joinpath(path1, path2), trimdir(path), cd(path)
     % 
     %       typeof(sth), type(sth), str(sth), num(sth), len(sth)
     %       ls([[path, ]regex]), fls([[path, ]regex]), lsd([[path, ]regex])
@@ -307,6 +307,19 @@ classdef ez
             % http://www.mathworks.com/help/matlab/ref/fullfile.html
             % ref: http://stackoverflow.com/questions/4895556/how-to-wrap-a-function-using-varargin-and-varargout
             [varargout{1:nargout}] = fullfile(varargin{:}); 
+        end
+
+        function result = trimdir(path)
+            % trimdir(path)
+            % remove leading and trailing white spaces from a dir path, 
+            % and also any non-alphabetic, non-numeric, or non-underscore char (e.g., \ or /) at the dir path end
+            if isempty(path)
+                result=[];
+            else
+                result = strtrim(path);  % remove leading and trailing white spaces
+                % check the last char to see if it is a \w (alphabetic, numeric, or underscore); if it is \, / or other stuff regexp returns []
+                if isempty(regexp(result(end),'\w')), result = result(1:end-1); end
+            end
         end
 
         function varargout = cd(varargin)
