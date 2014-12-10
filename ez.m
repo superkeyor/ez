@@ -209,6 +209,17 @@ classdef ez
             % parentdir(path)
             % returns the parent dir of a path (a file or folder), 
             % no matter whether it exists or not
+            % no matter whether the path has a trailing pathsep / \
+            
+            % trim path first
+            if isempty(path)
+                path=[];
+            else
+                path = strtrim(path);  % remove leading and trailing white spaces
+                % check the last char to see if it is a \w (alphabetic, numeric, or underscore); if it is \, / or other stuff regexp returns []
+                if isempty(regexp(path(end),'\w')), path = path(1:end-1); end
+            end
+            % trim finishes
             [pathstr, name, ext] = fileparts(path);
             % if folder
             if isempty(ext)
@@ -279,7 +290,8 @@ classdef ez
             % pathstr = splitpath(filename)
             % [pathstr,name] = splitpath(filename) 
             % [pathstr,name,ext] = splitpath(filename) 
-            %
+            % no matter whether the path has a trailing pathsep / \
+            
             % example:
             % file = 'H:\user4\matlab\myfile.txt';
             % [pathstr,name,ext] = splitpath(file)
@@ -296,7 +308,17 @@ classdef ez
 
             % http://www.mathworks.com/help/matlab/ref/fileparts.html
             % ref: http://stackoverflow.com/questions/4895556/how-to-wrap-a-function-using-varargin-and-varargout
-            [varargout{1:nargout}] = fileparts(varargin{:}); 
+            path = varargin{:};
+            % trim path first
+            if isempty(path)
+                path=[];
+            else
+                path = strtrim(path);  % remove leading and trailing white spaces
+                % check the last char to see if it is a \w (alphabetic, numeric, or underscore); if it is \, / or other stuff regexp returns []
+                if isempty(regexp(path(end),'\w')), path = path(1:end-1); end
+            end
+            % trim finishes
+            [varargout{1:nargout}] = fileparts(path); 
         end
 
         function varargout = joinpath(varargin)
