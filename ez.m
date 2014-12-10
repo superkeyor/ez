@@ -23,7 +23,7 @@ classdef ez
     %       typeof(sth), type(sth), str(sth), num(sth), len(sth)
     %       ls([[path, ]regex]), fls([[path, ]regex]), lsd([[path, ]regex])
     %
-    %       mkdir(path), rm(path), cp(src, dest), mv(src, dest)
+    %       mkdir(path), rm(path), cp(src, dest), mv(src, dest), rn(src, dest)
     %       execute(cmd)
     %
     %       Alert(msg), result = Confirm(msg), results = Inputs(values[, defaults, title]), 
@@ -209,7 +209,7 @@ classdef ez
             % parentdir(path)
             % returns the parent dir of a path (a file or folder), 
             % no matter whether it exists or not
-            % no matter whether the path has a trailing pathsep / \
+            % no matter whether the path has a trailing filesep / \
             
             % trim path first
             if isempty(path)
@@ -290,7 +290,7 @@ classdef ez
             % pathstr = splitpath(filename)
             % [pathstr,name] = splitpath(filename) 
             % [pathstr,name,ext] = splitpath(filename) 
-            % no matter whether the path has a trailing pathsep / \
+            % no matter whether the path has a trailing filesep / \
             
             % example:
             % file = 'H:\user4\matlab\myfile.txt';
@@ -533,10 +533,15 @@ classdef ez
         function varargout = cp(varargin)
             % cp(varargin)
             % copys a file or folder to new destination , a wrapper of copyfile()
-            % be careful with the trailing fielsep! in the destination
-            % example: ('Projects/my*','../newProjects/')
+            %
             % sources supports wildcards
-            % destination does not have to exist to begin with
+            % example: ('Projects/my*','../newProjects/')  
+            % copy files and folders beginning with 'my'
+            %
+            % trailing filesep in destination folder does not matter
+            % if newProjects folder does not exist, auto create it (but error if /newfolder/newsubfolder both do not exist)
+            % if exists, merge the folders
+            %
             % http://www.mathworks.com/help/matlab/ref/copyfile.html
             [varargout{1:nargout}] = copyfile(varargin{:}); 
         end
@@ -544,11 +549,28 @@ classdef ez
         function varargout = mv(varargin)
             % mv(varargin)
             % moves a file or folder to new destination , a wrapper of movefile()
-            % be careful with the trailing fielsep! in the destination
-            % cannot be used to rename a file or folder
-            % example: ('Projects/my*','../newProjects/')
+            % can also be used to rename (recommend to use rn)
+            %       To rename: specify only one file for source and make destination a different name other than source
+            %       When source and destination have the same location, movefile renames source to destination.
+            %
             % sources supports wildcards
-            % destination does not have to exist to begin with
+            % example: ('Projects/my*','../newProjects/')  
+            % move files and folders beginning with 'my'
+            %
+            % trailing filesep in destination folder does not matter
+            % if newProjects folder does not exist, auto create it (but error if /newfolder/newsubfolder both do not exist)
+            % if exists, merge the folders
+            %
+            % http://www.mathworks.com/help/matlab/ref/movefile.html
+            [varargout{1:nargout}] = movefile(varargin{:}); 
+        end
+
+        function varargout = rn(varargin)
+            % mv(varargin)
+            % moves a file or folder to new destination , a wrapper of movefile()
+            % specify only one file for source and make destination a different name other than source
+            % When source and destination have the same location, movefile renames source to destination.
+            %
             % http://www.mathworks.com/help/matlab/ref/movefile.html
             [varargout{1:nargout}] = movefile(varargin{:}); 
         end
