@@ -549,9 +549,12 @@ classdef ez
         function varargout = mv(varargin)
             % mv(varargin)
             % moves a file or folder to new destination , a wrapper of movefile()
-            % can also be used to rename (recommend to use rn)
+            % can also be used to rename (same as rn)
             %       To rename: specify only one file for source and make destination a different name other than source
             %       When source and destination have the same location, movefile renames source to destination.
+            %       in case destination name exists
+            %               if source is folder, move source to the destination as subfolder
+            %               if source and destination both files, overwrite the destination file with source file
             %
             % sources supports wildcards
             % example: ('Projects/my*','../newProjects/')  
@@ -566,10 +569,13 @@ classdef ez
         end
 
         function varargout = rn(varargin)
-            % mv(varargin)
+            % rn(varargin), alias of mv()
             % moves a file or folder to new destination , a wrapper of movefile()
             % specify only one file for source and make destination a different name other than source
             % When source and destination have the same location, movefile renames source to destination.
+            % in case destination name exists
+            %       if source and destination both folders, move source to the destination as subfolder (i.e., merge)
+            %       if source and destination both files, overwrite the destination file with source file
             %
             % http://www.mathworks.com/help/matlab/ref/movefile.html
             [varargout{1:nargout}] = movefile(varargin{:}); 
