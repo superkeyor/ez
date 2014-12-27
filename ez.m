@@ -21,7 +21,7 @@ classdef ez
     %       addpath(path), splitpath(path), joinpath(path1, path2), trimdir(path), cd(path)
     % 
     %       typeof(sth), type(sth), str(sth), num(sth), len(sth)
-    %       ls([[path, ]regex]), fls([[path, ]regex]), lsd([[path, ]regex])
+    %       ls([[path, ]regex, fullpath]), fls([[path, ]regex]), lsd([[path, ]regex, fullpath])
     %
     %       mkdir(path), rm(path), cp(src, dest), mv(src, dest), rn(src, dest)
     %       execute(cmd)
@@ -293,6 +293,7 @@ classdef ez
             % [pathstr,name] = splitpath(filename) 
             % [pathstr,name,ext] = splitpath(filename) 
             % no matter whether the path has a trailing filesep / \
+            % note: input could be a n*1 cell array, vectorization supported
             
             % example:
             % file = 'H:\user4\matlab\myfile.txt';
@@ -311,6 +312,11 @@ classdef ez
             % http://www.mathworks.com/help/matlab/ref/fileparts.html
             % ref: http://stackoverflow.com/questions/4895556/how-to-wrap-a-function-using-varargin-and-varargout
             path = varargin{:};
+            % vectorization, recursive call using cellfun
+            if strcmp(class(path),'cell')
+                [varargout{1:nargout}] = cellfun(@(e) ez.splitpath(e),path,'UniformOutput',false);
+                return; 
+            end
             % trim path first
             if isempty(path)
                 path=[];
@@ -327,16 +333,52 @@ classdef ez
             % joinpath(filepart1,...,filepartN)
             % conceptually equivalent to [filepart1 filesep filepart2 filesep ... filesep filepartN]
             % but this function works regardless whether filepart has a trailing filesep or not (e.g. a/b or a/b/)
+            % note: input could be a n*1 cell array, vectorization supported
+            % e.g., (pwd,{'a';'b'},{'a1';'b1'})-->{'pwd/a/a1'; 'pwd/b/b1'} in which dimensions of {'a';'b'},{'a1';'b1'} should match
 
             % http://www.mathworks.com/help/matlab/ref/fullfile.html
             % ref: http://stackoverflow.com/questions/4895556/how-to-wrap-a-function-using-varargin-and-varargout
-            [varargout{1:nargout}] = fullfile(varargin{:}); 
+            
+            vectorization = false;
+            % to see whether there is a n*1 cell array input
+            for i = 1:nargin
+                if strcmp(class(varargin{i}),'cell')
+                    vectorization = true;
+                    dim = size(varargin{i});
+                    if dim(2) ~= 1, error('Input only supports n*1 cell array'); end
+                    break;
+                end
+            end
+
+            if vectorization
+                for i = 1:nargin
+                    if ~strcmp(class(varargin{i}),'cell')
+                        varargin{i} = repmat(cellstr(varargin{i}),dim);
+                    end
+                end
+                % reorganize varargin
+                tempParts = [varargin{:}];
+                parts = {};
+                for i = 1:size(tempParts,1)
+                    parts = [parts;{tempParts(i,:)}];
+                end
+                [varargout{1:nargout}] = cellfun(@(e) fullfile(e{:}),parts,'UniformOutput',false);
+            else
+                [varargout{1:nargout}] = fullfile(varargin{:}); 
+            end
         end
 
         function result = trimdir(path)
             % trimdir(path)
             % remove leading and trailing white spaces from a dir path, 
             % and also any non-alphabetic, non-numeric, or non-underscore char (e.g., \ or /) at the dir path end
+            % note: input could be a n*1 cell array, vectorization supported
+
+            % vectorization, recursive call using cellfun
+            if strcmp(class(path),'cell')
+                result = cellfun(@(e) ez.trimdir(e),path,'UniformOutput',false);
+                return; 
+            end
             if isempty(path)
                 result=[];
             else
@@ -392,16 +434,17 @@ classdef ez
             [varargout{1:nargout}] = length(varargin{:}); 
         end
 
-        function result = ls(rootdir, expstr)
-            % ls(), ls(path), ls(regex), ls(path, regex)
+        function result = ls(rootdir, expstr, fullpath)
+            % ls(), ls(path), ls(regex), ls(path, regex), ls(path, regex, fullpath)
             % if path is missing, refers to current working directory
-            % returns a nx1 cell of files in directory with fullpath
+            % returns a nx1 cell of files in directory with fullpath (default fullpath=true)
             % ls(path,regex) regex is case sensitive by default
             switch nargin
                 case 0
                     rootdir = pwd;
                     expstr = '.*';
                     recursive = false;
+                    fullpath = true;
                 case 1
                     % the first arg is tenatively rootdir
                     % user passed an existing dir
@@ -414,19 +457,25 @@ classdef ez
                         rootdir = pwd;
                     end
                     recursive = false;
+                    fullpath = true;
                 case 2
                     rootdir = rootdir;
                     expstr = expstr;
                     recursive = false;
+                    fullpath = true;
+                case 3
+                    rootdir = rootdir;
+                    expstr = expstr;
+                    recursive = false;
+                    fullpath = fullpath;                    
             end
             result = regexpdir(rootdir, expstr, recursive);
-            % try
-            %     % apply an anonymous function ~isdir to each element of the cell. then use logical indexing
-            %     result = result(cellfun(@(x) ~isdir(x),result),1);
-            % % empty result, if after cellfun, cannot indexed
-            % catch
-            %     result = cell(0,1);
-            % end
+
+            if ~fullpath, result = cellfun(@GetFileName,result,'UniformOutput',false); end
+            function result = GetFileName(e)
+                parts = regexp(e,filesep,'split');
+                result = parts{end};
+            end % end sub-function
         end
 
         function result = fls(rootdir, expstr)
@@ -457,22 +506,18 @@ classdef ez
                     recursive = true;
             end
             result = regexpdir(rootdir, expstr, recursive);
-            % try
-            %     % apply an anonymous function ~isdir to each element of the cell. then use logical indexing
-            %     result = result(cellfun(@(x) ~isdir(x),result),1);
-            % catch
-            %     result = cell(0,1);
-            % end
         end
 
-        function result = lsd(path,regex)
-            % ls directory, lsd(), lsd(path), lsd(regex), lsd(path, regex)
+        function result = lsd(path,regex,fullpath)
+            % ls directory, lsd(), lsd(path), lsd(regex), lsd(path, regex), lsd(path, regex, fullpath)
             % path defaults to pwd, not recursive; support case-sensitive regex, default .*
             % returns a nx1 cell with all subfolder's names (only names, sorted ascending), or an empty 0 x 1 cell.
+            % fullpath defaults to false
             switch nargin
                 case 0
                     path = pwd;
                     regex = '.*';
+                    fullpath = false;
                 case 1
                     % the first arg is tenatively path
                     % user passed an existing dir
@@ -484,9 +529,15 @@ classdef ez
                         regex = path;
                         path = pwd;
                     end
+                    fullpath = false;
                 case 2
                     path = path;
                     regex = regex;
+                    fullpath = false;
+                case 3
+                    path = path;
+                    regex = regex;
+                    fullpath = fullpath;
             end
             listing = dir(path);
             issub = [listing(:).isdir]; % returns logical vector
@@ -495,6 +546,8 @@ classdef ez
             ind = cellfun(@(x)( ~isempty(x) ), regexp(folderNames, regex));
             result = folderNames(ind);
             result = sort(result); % ascending order
+
+            if fullpath, result = cellfun(@(e) fullfile(path,e),result,'UniformOutput',false); end
         end
 
         function status = mkdir(path)
@@ -523,6 +576,14 @@ classdef ez
             % rm(path)
             % removes a folder recursively or a file; file supports wildcards
             % if a path does not exist, nothing happens.
+            % note: input could be a n*1 cell array, vectorization supported
+
+            % vectorization, recursive call using cellfun
+            if strcmp(class(path),'cell')
+                cellfun(@(e) ez.rm(e),path,'UniformOutput',false);
+                return; 
+            end
+
             if isdir(path)
                 rmdir(path, 's');
                 % disp([path ' removed folder']);
@@ -535,6 +596,8 @@ classdef ez
         function varargout = cp(varargin)
             % cp(varargin)
             % copys a file or folder to new destination , a wrapper of copyfile()
+            % note: input could be a n*1 cell array, vectorization supported
+            % e.g., ({fileA;fileB;fileC},folder), ({fileA;fileB;fileC},{folderA,folderB,folderC})
             %
             % sources supports wildcards
             % example: ('Projects/my*','../newProjects/')  
@@ -545,7 +608,34 @@ classdef ez
             % if exists, merge the folders
             %
             % http://www.mathworks.com/help/matlab/ref/copyfile.html
-            [varargout{1:nargout}] = copyfile(varargin{:}); 
+
+            vectorization = false;
+            % to see whether there is a n*1 cell array input
+            for i = 1:nargin
+                if strcmp(class(varargin{i}),'cell')
+                    vectorization = true;
+                    dim = size(varargin{i});
+                    if dim(2) ~= 1, error('Input only supports n*1 cell array'); end
+                    break;
+                end
+            end
+
+            if vectorization
+                for i = 1:nargin
+                    if ~strcmp(class(varargin{i}),'cell')
+                        varargin{i} = repmat(cellstr(varargin{i}),dim);
+                    end
+                end
+                % reorganize varargin
+                tempParts = [varargin{:}];
+                parts = {};
+                for i = 1:size(tempParts,1)
+                    parts = [parts;{tempParts(i,:)}];
+                end
+                [varargout{1:nargout}] = cellfun(@(e) copyfile(e{:}),parts,'UniformOutput',false);
+            else
+                [varargout{1:nargout}] = copyfile(varargin{:}); 
+            end
         end
 
         function varargout = mv(varargin)
@@ -557,6 +647,8 @@ classdef ez
             %       in case destination name exists
             %               if source is folder, move source to the destination as subfolder
             %               if source and destination both files, overwrite the destination file with source file
+            % note: input could be a n*1 cell array, vectorization supported
+            % e.g., ({fileA;fileB;fileC},folder), ({fileA;fileB;fileC},{folderA,folderB,folderC})
             %
             % sources supports wildcards
             % example: ('Projects/my*','../newProjects/')  
@@ -567,7 +659,34 @@ classdef ez
             % if exists, merge the folders
             %
             % http://www.mathworks.com/help/matlab/ref/movefile.html
-            [varargout{1:nargout}] = movefile(varargin{:}); 
+
+            vectorization = false;
+            % to see whether there is a n*1 cell array input
+            for i = 1:nargin
+                if strcmp(class(varargin{i}),'cell')
+                    vectorization = true;
+                    dim = size(varargin{i});
+                    if dim(2) ~= 1, error('Input only supports n*1 cell array'); end
+                    break;
+                end
+            end
+
+            if vectorization
+                for i = 1:nargin
+                    if ~strcmp(class(varargin{i}),'cell')
+                        varargin{i} = repmat(cellstr(varargin{i}),dim);
+                    end
+                end
+                % reorganize varargin
+                tempParts = [varargin{:}];
+                parts = {};
+                for i = 1:size(tempParts,1)
+                    parts = [parts;{tempParts(i,:)}];
+                end
+                [varargout{1:nargout}] = cellfun(@(e) movefile(e{:}),parts,'UniformOutput',false);
+            else
+                [varargout{1:nargout}] = movefile(varargin{:}); 
+            end
         end
 
         function varargout = rn(varargin)
@@ -578,9 +697,38 @@ classdef ez
             % in case destination name exists
             %       if source and destination both folders, move source to the destination as subfolder (i.e., merge)
             %       if source and destination both files, overwrite the destination file with source file
+            % note: input could be a n*1 cell array, vectorization supported
+            % e.g., ({fileA;fileB;fileC},{fileC;fileD;fileE})
             %
             % http://www.mathworks.com/help/matlab/ref/movefile.html
-            [varargout{1:nargout}] = movefile(varargin{:}); 
+            
+            vectorization = false;
+            % to see whether there is a n*1 cell array input
+            for i = 1:nargin
+                if strcmp(class(varargin{i}),'cell')
+                    vectorization = true;
+                    dim = size(varargin{i});
+                    if dim(2) ~= 1, error('Input only supports n*1 cell array'); end
+                    break;
+                end
+            end
+
+            if vectorization
+                for i = 1:nargin
+                    if ~strcmp(class(varargin{i}),'cell')
+                        varargin{i} = repmat(cellstr(varargin{i}),dim);
+                    end
+                end
+                % reorganize varargin
+                tempParts = [varargin{:}];
+                parts = {};
+                for i = 1:size(tempParts,1)
+                    parts = [parts;{tempParts(i,:)}];
+                end
+                [varargout{1:nargout}] = cellfun(@(e) movefile(e{:}),parts,'UniformOutput',false);
+            else
+                [varargout{1:nargout}] = movefile(varargin{:}); 
+            end
         end
 
         function result = execute(command)
