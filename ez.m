@@ -215,7 +215,7 @@ classdef ez
             
             % trim path first
             if isempty(path)
-                path=[];
+                path = '';
             else
                 path = strtrim(path);  % remove leading and trailing white spaces
                 % check the last char to see if it is a \w (alphabetic, numeric, or underscore); if it is \, / or other stuff regexp returns []
@@ -229,6 +229,7 @@ classdef ez
             else
                 result = fileparts(pathstr);
             end
+            if isempty(result), result = pwd(); end
         end
 
         function result = isdirlike(path)
@@ -380,7 +381,7 @@ classdef ez
                 return; 
             end
             if isempty(path)
-                result=[];
+                result = '';
             else
                 result = strtrim(path);  % remove leading and trailing white spaces
                 % check the last char to see if it is a \w (alphabetic, numeric, or underscore); if it is \, / or other stuff regexp returns []
@@ -594,18 +595,25 @@ classdef ez
         end
 
         function varargout = cp(varargin)
-            % cp(varargin)
-            % copys a file or folder to new destination , a wrapper of copyfile()
+            % cp(from, to)
+            % copies a file or folder to new destination
+            % to folder does not have to exist already (if exists, merge the folders)
+            % from and to cannot be the same, otherwise error
             % note: input could be a n*1 cell array, vectorization supported
-            % e.g., ({fileA;fileB;fileC},folder), ({fileA;fileB;fileC},{folderA,folderB,folderC})
+            %       trailing filesep in destination folder does not matter
+            %
+            % e.g.,
+            % 1) both works ez.cp('a.txt','folder'), ez.cp('a.txt','folder/b.txt')
+            % the former copy still has the same name 'a.txt', the latter copy new name 'b.txt'
+            % also ez.cp(['a.txt','b.txt'],'folder')
+            % 2) folder works too: ez.cp('a','b')-->get b/a where a can have its own subfodlers and files
+            % 3) regular expression
+            % flist = ls("patha", "^filea.+[.]csv$")
+            % cp(flist, "pathb")
             %
             % sources supports wildcards
             % example: ('Projects/my*','../newProjects/')  
             % copy files and folders beginning with 'my'
-            %
-            % trailing filesep in destination folder does not matter
-            % if newProjects folder does not exist, auto create it (but error if /newfolder/newsubfolder both do not exist)
-            % if exists, merge the folders
             %
             % http://www.mathworks.com/help/matlab/ref/copyfile.html
 
@@ -632,31 +640,39 @@ classdef ez
                 for i = 1:size(tempParts,1)
                     parts = [parts;{tempParts(i,:)}];
                 end
-                [varargout{1:nargout}] = cellfun(@(e) copyfile(e{:}),parts,'UniformOutput',false);
-            else
-                [varargout{1:nargout}] = copyfile(varargin{:}); 
+                [varargout{1:nargout}] = cellfun(@(e) ez.cp(e{:}),parts,'UniformOutput',false);
+                return;
             end
+
+            from = varargin{1}; to = varargin{2};
+            [pathstr, name, ext] = fileparts(to);
+            % if to dirlike
+            if isempty(ext)
+                % if to dir not exist
+                if ~isdir(to), mkdir(to); end
+            else
+                toDir = fileparts(to);
+                if isempty(toDir), toDir = pwd(); end
+                if ~isdir(toDir), mkdir(toDir); end
+            end
+            [varargout{1:nargout}] = copyfile(varargin{:});
         end
 
         function varargout = mv(varargin)
-            % mv(varargin)
-            % moves a file or folder to new destination , a wrapper of movefile()
-            % can also be used to rename (same as rn)
-            %       To rename: specify only one file for source and make destination a different name other than source
-            %       When source and destination have the same location, movefile renames source to destination.
-            %       in case destination name exists
-            %               if source is folder, move source to the destination as subfolder
-            %               if source and destination both files, overwrite the destination file with source file
+            % mv(from, to)
+            % moves a file or folder to new destination
+            % to folder does not have to exist already (if exists, merge the folders)
+            % from and to cannot be the same, otherwise error
             % note: input could be a n*1 cell array, vectorization supported
-            % e.g., ({fileA;fileB;fileC},folder), ({fileA;fileB;fileC},{folderA,folderB,folderC})
+            %       trailing filesep in destination folder does not matter
+            %
+            % e.g.,
+            % ez.mv('a.txt','folder'), ez.mv('a.txt','folder/a.txt'), ez.mv('a.txt','folder/b.txt')
+            % ez.mv('a','b')-->get b/a, b now has a as subfolder
             %
             % sources supports wildcards
             % example: ('Projects/my*','../newProjects/')  
             % move files and folders beginning with 'my'
-            %
-            % trailing filesep in destination folder does not matter
-            % if newProjects folder does not exist, auto create it (but error if /newfolder/newsubfolder both do not exist)
-            % if exists, merge the folders
             %
             % http://www.mathworks.com/help/matlab/ref/movefile.html
 
@@ -683,22 +699,33 @@ classdef ez
                 for i = 1:size(tempParts,1)
                     parts = [parts;{tempParts(i,:)}];
                 end
-                [varargout{1:nargout}] = cellfun(@(e) movefile(e{:}),parts,'UniformOutput',false);
-            else
-                [varargout{1:nargout}] = movefile(varargin{:}); 
+                [varargout{1:nargout}] = cellfun(@(e) ez.mv(e{:}),parts,'UniformOutput',false);
+                return;
             end
+
+            from = varargin{1}; to = varargin{2};
+            [pathstr, name, ext] = fileparts(to);
+            % if to dirlike
+            if isempty(ext)
+                % if to dir not exist
+                if ~isdir(to), mkdir(to); end
+            else
+                toDir = fileparts(to);
+                if isempty(toDir), toDir = pwd(); end
+                if ~isdir(toDir), mkdir(toDir); end
+            end
+            [varargout{1:nargout}] = movefile(varargin{:});
         end
 
         function varargout = rn(varargin)
-            % rn(varargin), alias of mv()
-            % moves a file or folder to new destination , a wrapper of movefile()
-            % specify only one file for source and make destination a different name other than source
-            % When source and destination have the same location, movefile renames source to destination.
-            % in case destination name exists
-            %       if source and destination both folders, move source to the destination as subfolder (i.e., merge)
-            %       if source and destination both files, overwrite the destination file with source file
+            % rn(old, new)
+            % to parent folder must exist already; otherwise error
+            % old and new cannot be the same, otherwise error
             % note: input could be a n*1 cell array, vectorization supported
-            % e.g., ({fileA;fileB;fileC},{fileC;fileD;fileE})
+            % in case new name exists
+            %       if old and new both folders, error
+            %       if old and new both files, overwrite the new file with old file without prompt
+            % ez.rn('a','b')-->rename folder a to folder b
             %
             % http://www.mathworks.com/help/matlab/ref/movefile.html
             
@@ -725,10 +752,30 @@ classdef ez
                 for i = 1:size(tempParts,1)
                     parts = [parts;{tempParts(i,:)}];
                 end
-                [varargout{1:nargout}] = cellfun(@(e) movefile(e{:}),parts,'UniformOutput',false);
-            else
-                [varargout{1:nargout}] = movefile(varargin{:}); 
+                [varargout{1:nargout}] = cellfun(@(e) ez.rn(e{:}),parts,'UniformOutput',false);
+                return;
             end
+
+            old = varargin{1}; new = varargin{2};
+            [pathstr, name, ext] = fileparts(new);
+            % if new dirlike
+            if isempty(ext)
+                % if new dir exist
+                if isdir(new)
+                    error('Cannot rename to exising folder name');
+                else
+                    [varargout{1:nargout}] = movefile(varargin{:});
+                end
+            else
+                newDir = fileparts(new);
+                if isempty(newDir), newDir = pwd(); end
+                if ~isdir(newDir)
+                    error('Destination folder does not exist')
+                else
+                    [varargout{1:nargout}] = movefile(varargin{:});
+                end
+            end
+            
         end
 
         function result = execute(command)
