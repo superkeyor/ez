@@ -6,7 +6,7 @@ classdef ez
     % or ez.method without import: ez.GetDir()
     %
     % help method to see more information
-    %       clean()
+    %       clear(), clean()
     %
     %       iff(test,s1,s2)
     %
@@ -76,6 +76,16 @@ classdef ez
     methods(Static)
 
         function clean()
+            % clear command window, all variables. close all figures. show workspace/variables window
+            clc;         % clear command window
+            clear all;   % clear workspace/variables
+            evalin('base','clear all');  % clear base workspace as well
+            close all;   % close all figures
+            % workspace;   % show/activate workspace/variables window
+            commandwindow; % refocus to command window
+        end
+
+        function clear()
             % clear command window, all variables. close all figures. show workspace/variables window
             clc;         % clear command window
             clear all;   % clear workspace/variables
