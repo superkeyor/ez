@@ -15,7 +15,7 @@ classdef ez
     %
     %       moment()
     %
-    %       cwd(), pwd(), csd(), parentdir(path), 
+    %       cwd(), pwd(), csd(), csf(), parentdir(path), 
     %       isdirlike(path), isfilelike(path), 
     %       isdir(path), isfile(path), exists(path)
     %       addpath(path), splitpath(path), joinpath(path1, path2), trimdir(path), cd(path)
