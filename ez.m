@@ -11,7 +11,7 @@ classdef ez
     %       iff(test,s1,s2)
     %
     %       error(msg), print(sth), pprint(sth[, color])
-    %       writelog(line[,file])
+    %       writelog(line[,file]), log(line[,file])
     %
     %       moment()
     %
@@ -138,6 +138,25 @@ classdef ez
             fprintf('%s,%s\n',timestamp,line);
         end
 
+        function log(line,file)
+            % log(line[,file])
+            % Inputs:
+            %   line, a record line in string type
+            %   file--optional, log file path, defaults to "Log.txt" in the current working directory
+            % Append a record line with timestamp to a log file and also display the message on screen
+            % returns nothing
+
+            if ~exist('file','var'), file = 'Log.txt'; end
+            timestamp = datestr(now,'yyyy-mm-dd_HH-MM-SS-FFF');
+
+            fid = fopen(file,'a');
+            fprintf(fid,'%s,%s\n',timestamp,line);
+            fclose(fid);
+
+            % show on screen
+            fprintf('%s,%s\n',timestamp,line);
+        end
+        
         function varargout = print(varargin)
             % Display message without formating, start a new line, a wrapper of disp()
             [varargout{1:nargout}] = disp(varargin{:}); 
