@@ -635,8 +635,8 @@ classdef ez
             % 1) both works ez.cp('a.txt','folder'), ez.cp('a.txt','folder/b.txt')
             % the former copy still has the same name 'a.txt', the latter copy new name 'b.txt'
             % also ez.cp(['a.txt','b.txt'],'folder')
-            % 2) folder works too: ez.cp('a','b')-->copy a's subfodlers and files to b (i.e., merge and overwrite)
-            % if 'a' is empty, create empty folder 'a' in 'b'
+            % 2) folder: ez.cp('a','b')-->if b not exists, cp contents of a to b; if b exist, a becomes subfolder of b
+            % kinda combines rn and mv
             % 3) regular expression
             % flist = ls("patha", "^filea.+[.]csv$")
             % cp(flist, "pathb")
@@ -675,6 +675,21 @@ classdef ez
             end
 
             from = varargin{1}; to = varargin{2};
+            % if from is dir
+            if isdir(from)
+                % if to exists
+                if isdir(to)
+                    [dummy,folderName] = fileparts(from);
+                    to = fullfile(to,folderName);
+                else
+                    toDir = fileparts(to);
+                    if isempty(toDir), toDir = pwd(); end
+                    if ~isdir(toDir), mkdir(toDir); end
+                end
+                [varargout{1:nargout}] = copyfile(from,to);
+                return;
+            end
+
             [pathstr, name, ext] = fileparts(to);
             % if to dirlike
             if isempty(ext)
@@ -698,7 +713,8 @@ classdef ez
             %
             % e.g.,
             % ez.mv('a.txt','folder'), ez.mv('a.txt','folder/a.txt'), ez.mv('a.txt','folder/b.txt')
-            % ez.mv('a','b')-->get b/a, b now has a as subfolder
+            % ez.mv('a','b')-->regardless of b exists, a becomes subfolder of b
+            %                  use ez.rn('a','b') to change name a->b
             %
             % sources supports wildcards
             % example: ('Projects/my*','../newProjects/')  
