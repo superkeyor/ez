@@ -635,7 +635,8 @@ classdef ez
             % 1) both works ez.cp('a.txt','folder'), ez.cp('a.txt','folder/b.txt')
             % the former copy still has the same name 'a.txt', the latter copy new name 'b.txt'
             % also ez.cp(['a.txt','b.txt'],'folder')
-            % 2) folder works too: ez.cp('a','b')-->get b/a where a can have its own subfodlers and files
+            % 2) folder works too: ez.cp('a','b')-->copy a's subfodlers and files to b (i.e., merge and overwrite)
+            % if 'a' is empty, create empty folder 'a' in 'b'
             % 3) regular expression
             % flist = ls("patha", "^filea.+[.]csv$")
             % cp(flist, "pathb")
