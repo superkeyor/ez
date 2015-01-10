@@ -19,6 +19,7 @@ classdef ez
     %       isdirlike(path), isfilelike(path), 
     %       isdir(path), isfile(path), exists(path)
     %       addpath(path), splitpath(path), joinpath(path1, path2), trimdir(path), cd(path)
+    %       join(sep,string1,string2)
     % 
     %       typeof(sth), type(sth), str(sth), num(sth), len(sth)
     %       ls([[path, ]regex, fullpath]), fls([[path, ]regex]), lsd([[path, ]regex, fullpath])
@@ -311,6 +312,24 @@ classdef ez
             end
         end
 
+        function setdefault(variable,defaultValue)
+            % setdefault(variable,defaultValue)
+            % sets a default value for a variable, does not returns anything
+            % useful for define a function as in the following example:
+            %
+            % function result = funcname(para,varargin)
+            %       setdefault('para',3)
+            %       blabla...
+            % end
+            %
+            % effectively the same as: 
+            % if ~exist('para','var'), para = 3; end
+            varExist = evalin('caller',sprintf('exist(''%s'',''var'')',variable));  % '' to escape
+            if ~varExist
+                assignin('caller',variable,defaultValue);
+            end
+        end
+
         function varargout = addpath(varargin)
             % addpath(varargin)
             % Add a path to matlab search path, a wrapper of addpath()
@@ -395,6 +414,45 @@ classdef ez
                 [varargout{1:nargout}] = cellfun(@(e) fullfile(e{:}),parts,'UniformOutput',false);
             else
                 [varargout{1:nargout}] = fullfile(varargin{:}); 
+            end
+        end
+        
+        function result = join(sep,varargin)
+            % join(sep='',string1,string2,...)
+            % glue together strings with sep
+            
+            if nargin < 2, error('Give me more inputs'); end
+            
+            vectorization = false;
+            % to see whether there is a n*1 cell array input
+            for i = 1:length(varargin)
+                if strcmp(class(varargin{i}),'cell')
+                    vectorization = true;
+                    dim = size(varargin{i});
+                    if dim(2) ~= 1, error('Input only supports n*1 cell array'); end
+                    break;
+                end
+            end
+
+            if vectorization
+                for i = 1:length(varargin)
+                    if ~strcmp(class(varargin{i}),'cell')
+                        varargin{i} = repmat(cellstr(varargin{i}),dim);
+                    end
+                end
+                % reorganize varargin
+                tempParts = [varargin{:}];
+                parts = {};
+                for i = 1:size(tempParts,1)
+                    parts = [parts;{tempParts(i,:)}];
+                end
+                result = cellfun(@(e) ez.join(sep,e{:}),parts,'UniformOutput',false);
+                return;
+            end
+
+            result = varargin{1};
+            for i = 2:length(varargin)
+                result = [result sep varargin{i}];
             end
         end
 
