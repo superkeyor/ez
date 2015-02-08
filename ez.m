@@ -827,7 +827,7 @@ classdef ez
             % old and new cannot be the same, otherwise error
             % note: input could be a n*1 cell array, vectorization supported
             % in case new name exists
-            %       if old and new both folders, error
+            %       if old and new both folders, move old to new as subfolder
             %       if old and new both files, overwrite the new file with old file without prompt
             % ez.rn('a','b')-->rename folder a to folder b
             %
@@ -866,7 +866,8 @@ classdef ez
             if isempty(ext)
                 % if new dir exist
                 if isdir(new)
-                    error('Cannot rename to exising folder name');
+                    % error('Cannot rename to exising folder name');
+                    [varargout{1:nargout}] = ez.mv(varargin{:});
                 else
                     [varargout{1:nargout}] = movefile(varargin{:});
                 end
