@@ -1138,7 +1138,9 @@ classdef ez
             %       export(), export('Fig'), export('Fig.pdf') --> all export as pdf
             %       additionally accepts 'append' to export as a single pdf file
             %       export('Fig.pdf','append') <-- .pdf must be explicitly specified
-            %       requires ghostscript at http://www.ghostscript.com
+            %       requires ghostscript
+            %           windows/linux users: http://ghostscript.com/download/gsdnld.html
+            %           mac users: download at http://pages.uoregon.edu/koch/
             % for viewing, export as jpg
             %       export('Fig.jpg'), 
             %       export('Fig.jpg', 'm2.5', 'q50' ,'a1')
