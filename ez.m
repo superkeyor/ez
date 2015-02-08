@@ -875,7 +875,7 @@ classdef ez
                 newDir = fileparts(new);
                 if isempty(newDir), newDir = pwd(); end
                 if ~isdir(newDir)
-                    error('Destination folder does not exist')
+                    error('Destination parent folder does not exist')
                 else
                     [varargout{1:nargout}] = movefile(varargin{:});
                 end
