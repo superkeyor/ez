@@ -1232,7 +1232,7 @@ classdef ez
         function result = compare(S1, S2)
             % result = compare(S1, S2) returns 0/1
             % compare two structures (ignoring fields order) and print out reports
-            result = structcmp(S1,S2,'report','on','EqualNans','on','IgnoreSorting','on');
+            result = structcmp(S1,S2,'report','on','EqualNans','on','IgnoreSorting','on','IsRecursiveCall','no');
         end
 
         function result = expand(C)
@@ -2380,9 +2380,10 @@ p.addParamValue('IgnoreCase', 'off', @ischar);
 p.addParamValue('IgnoreSorting', 'off', @ischar);
 p.addParamValue('EqualNans', 'off', @ischar);
 p.addParamValue('Report', 'off', @ischar);
+p.addParamValue('IsRecursiveCall', 'no', @ischar);
 % add skip fields option
 p.parse(S1, S2, varargin{:});
-
+IsRecursiveCall = p.Results.IsRecursiveCall;
 if ~isstruct(S1);error('First input argument is not a structure');end
 if ~isstruct(S2);error('Second input argument is not a structure');end
 ntab   = p.Results.Tab;
@@ -2431,11 +2432,13 @@ for kk=1:nfnameS1
         try, RS1 = S1.(sortfnameS1{kk}); catch, if nS1==0, RS1 = 0; end; end
         try, RS2 = S2.(sortfnameS2{kk}); catch, if nS2==0, RS2 = 0; end; end
         if isstruct(RS1) && isstruct(RS2)
+                IsRecursiveCall = 'yes';
                 if strcmpi(p.Results.Report, 'on')
                         fprintf('%sComparing sub-structures "%s" and "%s" : \n', tabstr, sortfnameS1{kk}, sortfnameS2{kk});
                 end % print report
-                Lvalue(kk) = structcmp(RS1, RS2, 'Tab',ntab, 'IgnoreCase', p.Results.IgnoreCase, 'Report', p.Results.Report); % recursive calls in case of substructure
+                Lvalue(kk) = structcmp(RS1, RS2, 'Tab',ntab, 'IgnoreCase', p.Results.IgnoreCase, 'Report', p.Results.Report, 'IsRecursiveCall', IsRecursiveCall); % recursive calls in case of substructure
         elseif ~isstruct(RS1) && ~isstruct(RS2)
+                IsRecursiveCall = 'no';
                 if strcmpi(p.Results.Report, 'on')
                         fprintf('%sComparing contains of fields %s and %s : \n', tabstr, sortfnameS1{kk}, sortfnameS2{kk});
                 end     % print report           
@@ -2445,12 +2448,13 @@ for kk=1:nfnameS1
                         if ~isequalwithequalnans(RS1, RS2);Lvalue(kk) = false;else Lvalue(kk)=true;end
                 end % check equal values (including NaNs)               
         else
+                IsRecursiveCall = 'no';
                 if strcmpi(p.Results.Report, 'on')
                         fprintf('%sComparing %s and %s : \n', tabstr, sortfnameS1{kk}, sortfnameS2{kk});
                 end % print report
                 Lvalue(kk) = false;
         end
-        if strcmpi(p.Results.Report, 'on')
+        if strcmpi(p.Results.Report, 'on') & strcmpi(IsRecursiveCall, 'no')
                 if Lvalue(kk); fprintf('\bSame.\n');else fprintf('\b------>Diff!\n');end % print report
         else
                 if ~Lvalue(kk);break;end
