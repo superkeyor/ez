@@ -2454,8 +2454,10 @@ for kk=1:nfnameS1
                 end % print report
                 Lvalue(kk) = false;
         end
-        if strcmpi(p.Results.Report, 'on') & strcmpi(IsRecursiveCall, 'no')
+        if strcmpi(p.Results.Report, 'on')
+            if strcmpi(IsRecursiveCall, 'no')
                 if Lvalue(kk); fprintf('\bSame.\n');else fprintf('\b------>Diff!\n');end % print report
+            end
         else
                 if ~Lvalue(kk);break;end
         end 
