@@ -19,7 +19,7 @@ classdef ez
     %       isdirlike(path), isfilelike(path), 
     %       isdir(path), isfile(path), exists(path)
     %       addpath(path), splitpath(path), joinpath(path1, path2), trimdir(path), cd(path)
-    %       join(sep,string1,string2)
+    %       join(sep,string1,string2) or join(sep,array)
     % 
     %       typeof(sth), type(sth), str(sth), num(sth), len(sth)
     %       ls([[path, ]regex, fullpath]), fls([[path, ]regex]), lsd([[path, ]regex, fullpath])
@@ -418,42 +418,55 @@ classdef ez
         end
         
         function result = join(sep,varargin)
-            % join(sep='',string1,string2,...)
-            % glue together strings with sep
+            % glue together strings/array with sep
+            % 
+            % 1) join('','string1','string2',...)
+            % 2) Input only supports n*1 cell array
+            %    join('|',{'string1';'string2'},{'string3';'string4'},...) -> {string1|string3;string2|string4}
+            % 3) join(',',{'this','is','a','cell','array'})
+            %    join('_',[1,2,2]) >> 1_2_2
+            %    join('\t',{1,2,2,'string'})
             
-            if nargin < 2, error('Give me more inputs'); end
-            
-            vectorization = false;
-            % to see whether there is a n*1 cell array input
-            for i = 1:length(varargin)
-                if strcmp(class(varargin{i}),'cell')
-                    vectorization = true;
-                    dim = size(varargin{i});
-                    if dim(2) ~= 1, error('Input only supports n*1 cell array'); end
-                    break;
-                end
-            end
-
-            if vectorization
+            % nargin refers to all incoming args, not just the ones in varargin
+            % in the case of (sep), nargin = 1
+            if nargin < 2
+                error('Give me more inputs');
+            elseif nargin == 2
+                result = strjoin(varargin{1},sep);
+                return;
+            else
+                vectorization = false;
+                % to see whether there is a n*1 cell array input
                 for i = 1:length(varargin)
-                    if ~strcmp(class(varargin{i}),'cell')
-                        varargin{i} = repmat(cellstr(varargin{i}),dim);
+                    if strcmp(class(varargin{i}),'cell')
+                        vectorization = true;
+                        dim = size(varargin{i});
+                        if dim(2) ~= 1, error('Input only supports n*1 cell array'); end
+                        break;
                     end
                 end
-                % reorganize varargin
-                tempParts = [varargin{:}];
-                parts = {};
-                for i = 1:size(tempParts,1)
-                    parts = [parts;{tempParts(i,:)}];
-                end
-                result = cellfun(@(e) ez.join(sep,e{:}),parts,'UniformOutput',false);
-                return;
-            end
 
-            result = varargin{1};
-            for i = 2:length(varargin)
-                result = [result sep varargin{i}];
-            end
+                if vectorization
+                    for i = 1:length(varargin)
+                        if ~strcmp(class(varargin{i}),'cell')
+                            varargin{i} = repmat(cellstr(varargin{i}),dim);
+                        end
+                    end
+                    % reorganize varargin
+                    tempParts = [varargin{:}];
+                    parts = {};
+                    for i = 1:size(tempParts,1)
+                        parts = [parts;{tempParts(i,:)}];
+                    end
+                    result = cellfun(@(e) ez.join(sep,e{:}),parts,'UniformOutput',false);
+                    return;
+                end
+
+                result = varargin{1};
+                for i = 2:length(varargin)
+                    result = [result sep varargin{i}];
+                end
+            end % end if nargin
         end
 
         function result = trimdir(path)
@@ -2542,4 +2555,61 @@ for i=1:nsub
         disp(a)
     end
 end
-end % end internal function
+end % end this internal function
+
+
+function output = strjoin(input, separator)
+%STRJOIN Concatenate an array into a single string.
+%
+%     S = strjoin(C)
+%     S = strjoin(C, separator)
+%
+% Description
+%
+% S = strjoin(C) takes an array C and returns a string S which concatenates
+% array elements with comma. C can be a cell array of strings, a character
+% array, a numeric array, or a logical array. If C is a matrix, it is first
+% flattened to get an array and concateneted. S = strjoin(C, separator) also
+% specifies separator for string concatenation. The default separator is comma.
+%
+% Examples
+%
+%     >> str = strjoin({'this','is','a','cell','array'})
+%     str =
+%     this,is,a,cell,array
+%
+%     >> str = strjoin([1,2,2],'_')
+%     str =
+%     1_2_2
+%
+%     >> str = strjoin({1,2,2,'string'},'\t')
+%     str =
+%     1 2 2 string
+%
+
+  if nargin < 2, separator = ','; end
+  assert(ischar(separator), 'Invalid separator input: %s', class(separator));
+  separator = strrep(separator, '%', '%%');
+
+  output = '';
+  if ~isempty(input)
+    if ischar(input)
+      input = cellstr(input);
+    end
+    if isnumeric(input) || islogical(input)
+      output = [repmat(sprintf(['%.15g', separator], input(1:end-1)), ...
+                       1, ~isscalar(input)), ...
+                sprintf('%.15g', input(end))];
+    elseif iscellstr(input)
+      output = [repmat(sprintf(['%s', separator], input{1:end-1}), ...
+                       1, ~isscalar(input)), ...
+                sprintf('%s', input{end})];
+    elseif iscell(input)
+      output = strjoin(cellfun(@(x)strjoin(x, separator), input, ...
+                               'UniformOutput', false), ...
+                       separator);
+    else
+      error('strjoin:invalidInput', 'Unsupported input: %s', class(input));
+    end
+  end
+end % end this internal function
