@@ -2428,8 +2428,8 @@ for kk=1:nfnameS1
                 Fcall = dbstack;callnames = {Fcall.name};
                 tabstr = blanks(ntab*sum(ismember(callnames, {'structcmp'}))-1);
         end % check number of recursive calls
-        RS1 = S1.(sortfnameS1{kk});
-        RS2 = S2.(sortfnameS2{kk});
+        try, RS1 = S1.(sortfnameS1{kk}); catch, if nS1==0, RS1 = 0; end; end
+        try, RS2 = S2.(sortfnameS2{kk}); catch, if nS2==0, RS2 = 0; end; end
         if isstruct(RS1) && isstruct(RS2)
                 if strcmpi(p.Results.Report, 'on')
                         fprintf('%sComparing sub-structures "%s" and "%s" : \n', tabstr, sortfnameS1{kk}, sortfnameS2{kk});
