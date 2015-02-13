@@ -1200,31 +1200,37 @@ classdef ez
         % if matlab version >= 7.14 (2012a), add 'legacy' to the parameters, otherwise not
         % this way, maintain cross-matlab version compatability
         function varargout = unique(varargin)
+            % backward compatibility: unique, union, ismember, setdiff, intersect, setxor
             varargin = legacize(varargin);
             [varargout{1:nargout}] = unique(varargin{:}); 
         end
 
         function varargout = union(varargin)
+            % backward compatibility: unique, union, ismember, setdiff, intersect, setxor
             varargin = legacize(varargin);
             [varargout{1:nargout}] = union(varargin{:}); 
         end
 
         function varargout = ismember(varargin)
+            % backward compatibility: unique, union, ismember, setdiff, intersect, setxor
             varargin = legacize(varargin);
             [varargout{1:nargout}] = ismember(varargin{:}); 
         end
 
          function varargout = setdiff(varargin)
+            % backward compatibility: unique, union, ismember, setdiff, intersect, setxor
             varargin = legacize(varargin);
             [varargout{1:nargout}] = setdiff(varargin{:}); 
         end
 
         function varargout = intersect(varargin)
+            % backward compatibility: unique, union, ismember, setdiff, intersect, setxor
             varargin = legacize(varargin);
             [varargout{1:nargout}] = intersect(varargin{:}); 
         end
 
         function varargout = setxor(varargin)
+            % backward compatibility: unique, union, ismember, setdiff, intersect, setxor
             varargin = legacize(varargin);
             [varargout{1:nargout}] = setxor(varargin{:}); 
         end
