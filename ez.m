@@ -1201,36 +1201,60 @@ classdef ez
         % this way, maintain cross-matlab version compatability
         function varargout = unique(varargin)
             % backward compatibility: unique, union, ismember, setdiff, intersect, setxor
+            % all results with no repetitions, result sorted
+            % setdiff(a,b) returns items in a but not in b
+            % setxor(a,b) returns items  not in intersect(a,b)
+            % ismember returns an array of 0/1, see more "help ismember"
             varargin = legacize(varargin);
             [varargout{1:nargout}] = unique(varargin{:}); 
         end
 
         function varargout = union(varargin)
             % backward compatibility: unique, union, ismember, setdiff, intersect, setxor
+            % all results with no repetitions, result sorted
+            % setdiff(a,b) returns items in a but not in b
+            % setxor(a,b) returns items  not in intersect(a,b)
+            % ismember returns an array of 0/1, see more "help ismember"
             varargin = legacize(varargin);
             [varargout{1:nargout}] = union(varargin{:}); 
         end
 
         function varargout = ismember(varargin)
             % backward compatibility: unique, union, ismember, setdiff, intersect, setxor
+            % all results with no repetitions, result sorted
+            % setdiff(a,b) returns items in a but not in b
+            % setxor(a,b) returns items  not in intersect(a,b)
+            % ismember returns an array of 0/1, see more "help ismember"            
             varargin = legacize(varargin);
             [varargout{1:nargout}] = ismember(varargin{:}); 
         end
 
          function varargout = setdiff(varargin)
             % backward compatibility: unique, union, ismember, setdiff, intersect, setxor
+            % all results with no repetitions, result sorted
+            % setdiff(a,b) returns items in a but not in b
+            % setxor(a,b) returns items  not in intersect(a,b)
+            % ismember returns an array of 0/1, see more "help ismember"            
             varargin = legacize(varargin);
             [varargout{1:nargout}] = setdiff(varargin{:}); 
         end
 
         function varargout = intersect(varargin)
             % backward compatibility: unique, union, ismember, setdiff, intersect, setxor
+            % all results with no repetitions, result sorted
+            % setdiff(a,b) returns items in a but not in b
+            % setxor(a,b) returns items  not in intersect(a,b)
+            % ismember returns an array of 0/1, see more "help ismember"            
             varargin = legacize(varargin);
             [varargout{1:nargout}] = intersect(varargin{:}); 
         end
 
         function varargout = setxor(varargin)
             % backward compatibility: unique, union, ismember, setdiff, intersect, setxor
+            % all results with no repetitions, result sorted
+            % setdiff(a,b) returns items in a but not in b
+            % setxor(a,b) returns items  not in intersect(a,b)
+            % ismember returns an array of 0/1, see more "help ismember"            
             varargin = legacize(varargin);
             [varargout{1:nargout}] = setxor(varargin{:}); 
         end
