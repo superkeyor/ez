@@ -1368,8 +1368,10 @@ classdef ez
 
         function result = compare(S1, S2)
             % result = compare(S1, S2) returns 0/1
-            % compare two structures (ignoring fields order) and print out reports
-            result = structcmp(S1,S2,'report','on','EqualNans','on','IgnoreSorting','on','IsRecursiveCall','no');
+            % compare two structures and print out reports
+            % notice: the compare will treat value of '' [] (though both empty) as different
+            %         The order in which the fields of each structure were created will also be compared
+            result = structcmp(S1,S2,'report','on','EqualNans','on','IgnoreSorting','off','IsRecursiveCall','no');
         end
 
         function result = expand(C)
@@ -2566,8 +2568,8 @@ for kk=1:nfnameS1
                 Fcall = dbstack;callnames = {Fcall.name};
                 tabstr = blanks(ntab*sum(ismember(callnames, {'structcmp'}))-1);
         end % check number of recursive calls
-        try, RS1 = S1.(sortfnameS1{kk}); catch, if nS1==0, RS1 = 0; end; end
-        try, RS2 = S2.(sortfnameS2{kk}); catch, if nS2==0, RS2 = 0; end; end
+        try, RS1 = S1.(sortfnameS1{kk}); catch, if nS1==0, RS1 = 'Attention:EmptyStruct'; end; end
+        try, RS2 = S2.(sortfnameS2{kk}); catch, if nS2==0, RS2 = 'Attention:EmptyStruct'; end; end
         if isstruct(RS1) && isstruct(RS2)
                 IsRecursiveCall = 'yes';
                 if strcmpi(p.Results.Report, 'on')
@@ -2580,9 +2582,9 @@ for kk=1:nfnameS1
                         fprintf('%sComparing contains of fields %s and %s : \n', tabstr, sortfnameS1{kk}, sortfnameS2{kk});
                 end     % print report           
                 if strcmpi(p.Results.EqualNans, 'off')
-                        if ~isequal(RS1, RS2);Lvalue(kk)=false;else Lvalue(kk)=true; end
+                        if ~isequal(RS1, RS2) | ~strcmp(class(RS1),class(RS2));Lvalue(kk)=false;else Lvalue(kk)=true; end
                 else                        
-                        if ~isequalwithequalnans(RS1, RS2);Lvalue(kk) = false;else Lvalue(kk)=true;end
+                        if ~isequalwithequalnans(RS1, RS2) | ~strcmp(class(RS1),class(RS2));Lvalue(kk) = false;else Lvalue(kk)=true;end
                 end % check equal values (including NaNs)               
         else
                 IsRecursiveCall = 'no';
