@@ -21,10 +21,12 @@ classdef ez
     %       isdirlike(path), isfilelike(path), 
     %       isdir(path), isfile(path), exists(path)
     %       addpath(path), splitpath(path), joinpath(path1, path2), trimdir(path), cd(path)
-    %       join(sep,string1,string2) or join(sep,array)
     % 
     %       typeof(sth), type(sth), str(sth), num(sth), len(sth)
     %       ls([[path, ]regex, fullpath]), fls([[path, ]regex]), lsd([[path, ]regex, fullpath])
+    %
+    %       join(sep,string1,string2) or join(sep,array)
+    %       replace(cellArray, item, replacement)
     %
     %       mkdir(path), rm(path), cp(src, dest), mv(src, dest), rn(src, dest)
     %       execute(cmd)
@@ -477,6 +479,99 @@ classdef ez
                     result = [result sep varargin{i}];
                 end
             end % end if nargin
+        end
+
+        function result = replace(cellArray, item, replacement)
+            % (cellArray, item, replacement)
+            % replace all occurance of item in cellArray with replacement
+            % 
+            % input cell array could be an array (any dimensions) of numbers, or strings or mixed
+            % item could be a number, e.g., 3, or an (anonymous) function
+            % Be careful with comparing char with number 'cat'>3 returns [1 1 1]
+            % 
+            % Returns the changed cell array and the passed-in array is also changed.
+            % input cell array could be any dimensions, but always returns n*1 cell array
+            % 
+            % e.g., 
+            % replace({0,-1,1},@(x) x~=0,0)         % recommended for both string and number
+            % replace({'c','a','cat'},'cat','tom')  % strcmp(string), same as replace({'c','a','cat'},@(x) strcmp(x,'cat'),'tom')
+            % replace({0,-1,1},-1,0)                % equal number
+
+            array = cellArray(:);
+            % check if item is function handle
+            % http://stackoverflow.com/questions/7867247/how-to-test-a-variable-is-a-function-handle-or-not-in-matlab
+            if isa(item, 'function_handle')
+                for i = 1:length(array)
+                    if item(array{i})
+                        array{i} = replacement;
+                    end
+                end
+            else
+                if ~strcmp(class(item),'char')  % equal numbers
+                    for i = 1:length(array)
+                        if array{i} == item
+                            array{i} = replacement;
+                        end
+                    end 
+                else
+                    for i = 1:length(array)     % equal strings
+                        if strcmp(array{i}, item)
+                            array{i} = replacement;
+                        end
+                    end 
+                end
+            end
+            result = array;
+        end
+        
+        function result = remove(cellArray, item)
+            % (cellArray, item)
+            % remove all occurance of item in cellArray
+            % 
+            % input cell array could be an array (any dimensions) of numbers, or strings or mixed
+            % item could be a number, e.g., 3, or an (anonymous) function
+            % Be careful with comparing char with number 'cat'>3 returns [1 1 1]
+            % 
+            % Returns the changed cell array, but the passed-in array does not change.
+            % input cell array could be any dimensions, but always returns n*1 cell array
+            % 
+            % e.g., 
+            % remove({0,-1,1},@(x) x~=0)         % recommended for both string and number
+            % remove({'c','a','cat'},'cat')      % strcmp(string), same as remove({'c','a','cat'},@(x) strcmp(x,'cat'))
+            % remove({0,-1,1},-1)                % equal number
+
+            array = cellArray(:);
+            % check if item is function handle
+            % http://stackoverflow.com/questions/7867247/how-to-test-a-variable-is-a-function-handle-or-not-in-matlab
+            if isa(item, 'function_handle')
+                for i = 1:length(array)
+                    if item(array{i})
+                        array{i} = '!!!';
+                    end
+                end
+            else
+                if ~strcmp(class(item),'char')  % equal numbers
+                    for i = 1:length(array)
+                        if array{i} == item
+                            array{i} = '!!!';
+                        end
+                    end 
+                else
+                    for i = 1:length(array)     % equal strings
+                        if strcmp(array{i}, item)
+                            array{i} = '!!!';
+                        end
+                    end 
+                end
+            end
+            % delete '!!!' by selective copying to a new array
+            newArray = {};
+            for i = 1:length(array)
+                if ~strcmp(array{i}, '!!!')
+                    newArray = [newArray; array{i}];
+                end
+            end 
+            result = newArray;
         end
 
         function result = trimdir(path)
