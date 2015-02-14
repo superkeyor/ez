@@ -10,6 +10,8 @@ classdef ez
     %
     %       iff(test,s1,s2)
     %
+    %       sleep([seconds])
+    %
     %       error(msg), print(sth), pprint(sth[, color])
     %       writelog(line[,file]), log(line[,file])
     %
@@ -118,6 +120,14 @@ classdef ez
         function varargout = error(varargin)
             % Display message and abort function, a wrapper of error()
             [varargout{1:nargout}] = error(varargin{:}); 
+        end
+
+        function varargout = sleep(varargin)
+            % sleep([seconds])
+            % seconds could be fraction, e.g., sleep(0.01) 10ms
+            % if no para, sleep(), pause and wait user to strike any key before continuing
+            % a wrapper of pause()
+            [varargout{1:nargout}] = pause(varargin{:}); 
         end
 
         function writelog(line,file)
