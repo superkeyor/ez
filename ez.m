@@ -1370,8 +1370,8 @@ classdef ez
             % result = compare(S1, S2) returns 0/1
             % compare two structures and print out reports
             % notice: the compare will treat value of '' [] (though both empty) as different
-            %         The order in which the fields of each structure were created will also be compared
-            result = structcmp(S1,S2,'report','on','EqualNans','on','IgnoreSorting','off','IsRecursiveCall','no');
+            %         The order in which the fields of each structure were created will be ignored
+            result = structcmp(S1,S2,'report','on','EqualNans','on','IgnoreSorting','on','IsRecursiveCall','no');
         end
 
         function result = expand(C)
