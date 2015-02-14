@@ -496,6 +496,7 @@ classdef ez
             % replace({0,-1,1},@(x) x~=0,0)         % recommended for both string and number
             % replace({'c','a','cat'},'cat','tom')  % strcmp(string), same as replace({'c','a','cat'},@(x) strcmp(x,'cat'),'tom')
             % replace({0,-1,1},-1,0)                % equal number
+            % replace({'cat','bat','sit'},@(x) isempty(regexp(x,'[bc]at')), 'tom')  % returns cat bat tom
 
             array = cellArray(:);
             % check if item is function handle
@@ -539,6 +540,7 @@ classdef ez
             % remove({0,-1,1},@(x) x~=0)         % recommended for both string and number
             % remove({'c','a','cat'},'cat')      % strcmp(string), same as remove({'c','a','cat'},@(x) strcmp(x,'cat'))
             % remove({0,-1,1},-1)                % equal number
+            % remove(files,@(x) isempty(regexp(x,'VR')))
 
             array = cellArray(:);
             % check if item is function handle
