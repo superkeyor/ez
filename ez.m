@@ -489,7 +489,7 @@ classdef ez
             % item could be a number, e.g., 3, or an (anonymous) function
             % Be careful with comparing char with number 'cat'>3 returns [1 1 1]
             % 
-            % Returns the changed cell array and the passed-in array is also changed.
+            % Returns the changed cell array but the passed-in array is NOT changed.
             % input cell array could be any dimensions, but always returns n*1 cell array
             % 
             % e.g., 
@@ -533,7 +533,7 @@ classdef ez
             % item could be a number, e.g., 3, or an (anonymous) function
             % Be careful with comparing char with number 'cat'>3 returns [1 1 1]
             % 
-            % Returns the changed cell array, but the passed-in array does not change.
+            % Returns the changed cell array but the passed-in array is NOT changed.
             % input cell array could be any dimensions, but always returns n*1 cell array
             % 
             % e.g., 
