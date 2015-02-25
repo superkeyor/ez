@@ -44,7 +44,7 @@ classdef ez
     %
     %       gmail(email, subject, content, sender, user, pass) 
     %
-    %       export()
+    %       export(), capture()
     %
     %       backward compatabilities: union, unique, ismember, setdiff, intersect, setxor       
     %
@@ -1302,6 +1302,12 @@ classdef ez
                     y = x;
                 end
             end % end subfunction
+        end
+
+        function varargout = capture(varargin)
+            % launch FastStone Capture (the last freeware version (v5.3)), Windows OS only
+            % & = background running, matlab continues processing
+            system([fileparts(mfilename('fullpath')) '\fscapture\FSCapture.exe &']);
         end
 
         % if matlab version >= 7.14 (2012a), add 'legacy' to the parameters, otherwise not
