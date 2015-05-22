@@ -29,7 +29,7 @@ classdef ez
     %       replace(cellArray, item, replacement)
     %
     %       mkdir(path), rm(path), cp(src, dest), mv(src, dest), rn(src, dest)
-    %       execute(cmd)
+    %       execute(cmd), open(path)
     %
     %       Alert(msg), result = Confirm(msg), results = Inputs(values[, defaults, title]), 
     %       GetDir([title, path]), 
@@ -1007,6 +1007,19 @@ classdef ez
             % execute(command)
             % execute operating system command and returns output
             [status,result] = system(command,'-echo');
+        end
+
+        function open(path)
+            % Opens a file or directory outside matlab with default external program
+            % works for both mac and windows (under windows, a wrapper of winopen())
+            % open(path)
+            if(ispc)
+                winopen(path);
+            elseif(ismac)
+                system(['open ', path]);
+            else
+                error('unknown operating system to call open()');
+            end
         end
 
         % # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
