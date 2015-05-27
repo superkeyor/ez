@@ -1,0 +1,251 @@
+﻿res\themes\firecrystal\theme.txt
+res\themes\firecrystal\
+100
+clWindow
+clBtnFace
+clBtnFace
+$00669999
+clWindowText
+18
+21
+1
+0
+[language]
+en.txt
+
+[close graphic wrapper when job ends]
+1
+
+[console binaries interface]
+2
+
+[PeaZip's main interface]
+1
+
+[Clipboard mode]
+0
+
+[Initial dir for file/archive browser]
+Computer's root
+
+[default archiving format]
+14
+
+[last used archiving format]
+13
+
+[default PEA compression level]
+1
+
+[default PEA object level control algorithm]
+6
+
+[default PEA volume level control algorithm]
+2
+
+[default PEA stream level control algorithm]
+0
+
+[default integrity check algorithm for file split]
+6
+
+[show information level popup]
+0
+
+[show hints popup]
+1
+
+[show password field in clear]
+0
+
+[ask for password on extract/list/test operations from system's menus]
+1
+
+[archive browser style]
+0
+
+[use multiselect instead of rangeselect in archive browser]
+1
+
+[action to take on extract and run or preview in archive browser]
+3
+
+[action to take on doubleclick in archive browser]
+1
+
+[ask output path for archiving jobs]
+0
+
+[default output path for archiving jobs]
+<>
+
+[default output path for extraction jobs]
+<>
+
+[ignore archived path structure when performing extract and run or preview jobs]
+1
+
+[ignore archived path structure when performing extraction of displayed objects]
+0
+
+[ignore archived path structure when performing extraction of selected objects]
+0
+
+[pre-browse archive to give statistical information about all content]
+1
+
+[don't pre-browse archives over this size]
+4
+
+[always extract to new folder]
+0
+
+[overwrite / skip policy using 7z binary]
+0
+
+[overwrite / skip policy using arc binary]
+2
+
+[save history of recent archives]
+1
+
+
+
+
+
+
+
+
+
+[recently used custom executables]
+
+
+
+
+
+
+
+
+
+0
+
+0
+
+[save program's windows status]
+1
+
+[maximized status]
+0
+
+[left]
+32
+
+[top]
+16
+
+[width]
+800
+
+[height]
+512
+
+[archive formats to show in favourite popup menu]
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+[default 7z compression level]
+3
+
+[default 7z compression method]
+LZMA
+
+[default ARC compression level]
+4
+
+[default ARC solid mode]
+1
+
+[use recovery records in ARC]
+1
+
+[encryption algorithm for ARC 0 AES 1 Serpent 2 Twofish 3 Blowfish]
+0
+
+[default bzip2 compression level]
+2
+
+[default gz compression level]
+2
+
+[default lpaq compression level]
+6
+
+[default paq compression level]
+5
+
+[default quad/balz compression level]
+0
+
+[default upx compression level]
+10
+
+[default zip compression level]
+3
+
+[default zip compression method]
+Deflate
+
+[archive files open for writing (from 7z binary)]
+0
+
+[checksum/hash file options: display format, use all algorithms, single algorithms to be used]
+0
+0
+1
+1
+1
+1
+1
+1
+0
+1
+1
+1
+0
+1
+0
+0
+0
+
+[erase file options: security level]
+1
+
+[desktop path]
+E:\Documents and Settings\Utente1\Desktop\
+
+[Job definition encoding]
+1
+
+[Archived object's name encoding]
+1
+
+[Last output path]
+
+
+[Height of the navigation's splitter]
+128
+
+[Last used navigation's bar]
+0

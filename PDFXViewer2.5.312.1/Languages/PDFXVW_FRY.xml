@@ -1,0 +1,2305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+	<Product id="PXCView" version="1.0" productVersion="2.0.0041.0002"/>
+	<language eName="Frisian" lName="Frysk" lcid="0x0462" prefFont=""/>
+	<commands>
+		<item id="32316" title="Foarige" tooltip="Foarige" status="" short=""/>
+		<item id="32317" title="Folgjende" tooltip="Folgjende" status="" short=""/>
+		<item id="32609" title="Fergrút&amp;glês" tooltip="Fergrútglês" status="Fergrútglês" short=""/>
+		<item id="32610" title="Zoom &amp;yn" tooltip="Zoom yn" status="Zoom yn" short="Zoom yn"/>
+		<item id="32611" title="Zoom út" tooltip="Zoom út" status="Zoom út" short="Zoom út"/>
+		<item id="32613" title="&amp;Hân ark" tooltip="Hân ark" status="Hân ark" short=""/>
+		<item id="32614" title="&amp;Momintopname" tooltip="Momintopname meitsje" status="Momintopname meitsje" short=""/>
+		<item id="32620" title="Se&amp;leksje" tooltip="Tekst of objekten selektearje" status="Tekst of objekten selektearje" short=""/>
+		<item id="32884" title="&amp;Gean nei" tooltip="" status="" short=""/>
+		<item id="32885" title="&amp;Earste side" tooltip="Gean nei de earste side" status="Gean nei de earste side" short=""/>
+		<item id="32886" title="F&amp;oarige side" tooltip="Gean nei de foarige side" status="Gean nei de foarige side" short=""/>
+		<item id="32887" title="Fo&amp;ljende side" tooltip="Gean nei de folgjende side" status="Gean nei de folgjende side" short=""/>
+		<item id="32888" title="&amp;Lêste side" tooltip="Gean nei de lêste side" status="Gean nei de lêste side" short=""/>
+		<item id="32889" title="S&amp;ide..." tooltip="" status="" short=""/>
+		<item id="32890" title="Foarige werjefte" tooltip="Gean nei de foarige werjefte" status="" short=""/>
+		<item id="32891" title="Folgjende werjefte" tooltip="Gean nei de folgjende werjefte" status="" short=""/>
+		<item id="32892" title="Foarich dokumint" tooltip="" status="" short=""/>
+		<item id="32893" title="Folgjend dokumint" tooltip="" status="" short=""/>
+		<item id="32895" title="&amp;Inkele side" tooltip="Inkele side" status="" short=""/>
+		<item id="32896" title="T&amp;rochrinnend" tooltip="&amp;rochrinnend" status="" short=""/>
+		<item id="32897" title="&amp;Neistlizzend" tooltip="Neistlizzend" status="" short=""/>
+		<item id="32898" title="Tro&amp;chrinnend neistlizzend" tooltip="Trochrinnend neistlizzend" status="" short=""/>
+		<item id="32899" title="Zoomen" tooltip="It zoomnivo foar it aktive dokumint selektearje" status="It zoomnivo foar it aktive dokumint selektearje" short=""/>
+		<item id="32900" title="Wiere &amp;grutte" tooltip="Wiere sidegrutte sjen litte (100%)" status="Wiere sidegrutte sjen litte (100%)" short=""/>
+		<item id="32901" title="&amp;Passende side" tooltip="De grutte fan de side oanpasse oan de ôfmjittings fan it dokumintfinster" status="De grutte fan de side oanpasse oan de ôfmjittings fan it dokumintfinster" short=""/>
+		<item id="32902" title="&amp;Finsterbreedte" tooltip="De grutte fan de side oanpasse oan de breedte fan it dokumintfinster" status="De grutte fan de side oanpasse oan de breedte fan it dokumintfinster" short=""/>
+		<item id="32903" title="&amp;Sichtber passend" tooltip="Side oan sichtbere ynhâld  oanpasse" status="Side oan sichtbere ynhâld  oanpasse" short=""/>
+		<item id="32904" title="Zoom yn" tooltip="Zoom yn" status="Zoom yn" short=""/>
+		<item id="32905" title="Zoom út" tooltip="Zoom út" status="Zoom út" short=""/>
+		<item id="32906" title="&amp;Foarkar..." tooltip="De foarkarynstellings foar de programma werjaan en/of feroarje" status="De voorkeursinstellingen weergeven en/of wijzigen" short=""/>
+		<item id="32907" title="" tooltip="It tal siden yn it dokumint werjaan" status="" short=""/>
+		<item id="32908" title="&amp;Triembalke" tooltip="De triembalke sjen litte of ferbergje" status="De arkbalke Triem werjaan of ferbergje" short=""/>
+		<item id="32909" title="" tooltip="Side" status="" short="Side:"/>
+		<item id="32910" title="&amp;Blêdwizers" tooltip="It blêdwizersfinster sjen litte" status="It blêdwizersfinster sjen litte" short=""/>
+		<item id="32912" title="Miniatuerwerjeften" tooltip="It miniatuurwerjeftefinster sjen litte of ferbergje" status="It miniatuurwerjeftefinster sjen litte of ferbergje" short=""/>
+		<item id="32924" title="&amp;Standertbalke" tooltip="De standertbalke sjen litte of ferbergje" status="De standertarkbalke sjen litte of ferbergje" short=""/>
+		<item id="32925" title="&amp;Zoomarkbalke" tooltip="De zoombalke sjen litte of ferbergje" status="De zoomarkbalke sjen litte of ferbergje" short=""/>
+		<item id="32929" title="&amp;Rotearbalke" tooltip="De rotearbalke sjen litte of ferbergje" status="De rotearbalke sjen litte of ferbergje" short=""/>
+		<item id="32936" title="Alle ljeppers sjen litte" tooltip="Alle ljeppers sjen litte" status="" short=""/>
+		<item id="32937" title="Aktive ljepper slute" tooltip="Aktive ljepper slute" status="" short=""/>
+		<item id="32938" title="Alle miniateuren fan  ljeppers sjen litte" tooltip="Alle miniateuren fan  ljeppers sjen litte" status="" short=""/>
+		<item id="32940" title="&amp;Navigaasjeljeppers" tooltip="De navigaasjeljepper sjen lite of fertopje" status="De navigaasjeljepper sjen lite of fertopje" short=""/>
+		<item id="32942" title="Alle dokuminten s&amp;lute" tooltip="" status="" short=""/>
+		<item id="32944" title="As ôfbylding eksportearje..." tooltip="" status="" short=""/>
+		<item id="32945" title="As ôfbylding eksportearje..." tooltip="It aktive dokumint as ôfbylding eksportearje" status="It aktive dokumint as ôfbylding eksportearje" short=""/>
+		<item id="32946" title="Dokumintnamme" tooltip="" status="" short=""/>
+		<item id="32947" title="Dokumint nûmer" tooltip="" status="" short=""/>
+		<item id="32948" title="Dokumint titel" tooltip="" status="" short=""/>
+		<item id="32949" title="Sidenûmer" tooltip="" status="" short=""/>
+		<item id="32950" title="SIDE" tooltip="" status="" short=""/>
+		<item id="32951" title="SIDEN" tooltip="" status="" short=""/>
+		<item id="32952" title="Triemnamme" tooltip="" status="" short=""/>
+		<item id="32953" title="Datum (MM-DD-JJJJ)" tooltip="" status="" short=""/>
+		<item id="32954" title="Jier" tooltip="" status="" short=""/>
+		<item id="32955" title="Moanne" tooltip="" status="" short=""/>
+		<item id="32956" title="Dei" tooltip="" status="" short=""/>
+		<item id="32957" title="Tiid (OO-MM-SS" tooltip="" status="" short=""/>
+		<item id="32958" title="Oere" tooltip="" status="" short=""/>
+		<item id="32959" title="Minút" tooltip="" status="" short=""/>
+		<item id="32960" title="Sekonde" tooltip="" status="" short=""/>
+		<item id="32961" title="Automatysk nûmerje" tooltip="" status="" short=""/>
+		<item id="32987" title="A&amp;vansearre sykje" tooltip="It sykfinster mei avansearre sykopsjes iepenje" status="It sykfinster mei avansearre sykopsjes iepenje" short=""/>
+		<item id="32990" title="" tooltip="Sykje om de oantsjutte tekst" status="" short="Sykje:"/>
+		<item id="32991" title="Foarige sykje" tooltip="Sykje om de foarige oerienkomst" status="Sykje om de foarige oerienkomst" short=""/>
+		<item id="32992" title="Sykje fierder" tooltip="Sykje om de folgjende oerienkomst" status="Sykje om de folgjende oerienkomst" short=""/>
+		<item id="32993" title="Sykopsjes" tooltip="Sykopsjes" status="Sykopsjes" short=""/>
+		<item id="32994" title="Allinne hiele wurden" tooltip="Allinne hiele wurden" status="Sykje allinne om oerienkomsten fan it hiele wurd dat jo ynfierd ha" short=""/>
+		<item id="32995" title="Haadletters/lytse letters" tooltip="Hoofdletters/kleine letters" status="Allinne sykje om wurden dy deselde haad-/lytseletters hawwe as it wurd dat jo ynfiere" short=""/>
+		<item id="32996" title="Sykje yn reaksjes" tooltip="De tekst fan reaksjes trochsykje" status="De tekst fan reaksjes trochsykje" short=""/>
+		<item id="32997" title="Sykje yn blêdwizers" tooltip="De tekst fan blêdwizers trochsykje" status="De tekst fan blêdwizerspaniel trochsykje" short=""/>
+		<item id="33000" title="Sykbalke" tooltip="De sykbalke sjen litte of ferbergje" status="De zoomarkbalke sjen litte of ferbergje" short=""/>
+		<item id="33006" title="&amp;Lagen" tooltip="Laachfinster sjen litte of ferbergje" status="Laachfinster sjen litte of ferbergje" short=""/>
+		<item id="33008" title="Fj&amp;ilden" tooltip="Fjildfinster sjen litte of ferbergje" status="Fjildfinster sjen litte of ferbergje" short=""/>
+		<item id="33009" title="&amp;Menubalke" tooltip="Menubalke sjen litte of ferbergje" status="Menubalke sjen litte of ferbergje" short=""/>
+		<item id="33014" title="F&amp;olslein skerm" tooltip="Finster maksimalisearje nei folslein skerm" status="Finster maksimalisearje nei folslein skerm" short=""/>
+		<item id="33015" title="Alle balken sjen litte of ferbergje" tooltip="Alle balken sjen litte of ferbergje" status="Alle balken sjen litte of ferbergje" short="Wikselje balken"/>
+		<item id="33016" title="Alle arkbalken sjen litte/ferbergje" tooltip="Alle arkbalken sjen litte/ferbergje" status="Alle arkbalken sjen litte/ferbergje" short="Wikselje alle arkbalken"/>
+		<item id="33018" title="Alle formulierfjilden markearje" tooltip="Dit dokumint befettet formulieren; Klik hjir om alle formulierfjilden te markearje" status="Dit dokumint befettet formulieren; Klik hjir om alle formulierfjilden te markearje" short="Fjilden markearje"/>
+		<item id="33020" title="F&amp;olslein skerm ferlitte" tooltip="Hellet finster út folslein skerm modus" status="Hellet finster út folslein skerm modus" short=""/>
+		<item id="33032" title="Sentimeters" tooltip="Sentimeters" status="" short=""/>
+		<item id="33033" title="Tommen" tooltip="Tommen" status="" short=""/>
+		<item id="33034" title="Millimeters" tooltip="Millimeters" status="" short=""/>
+		<item id="33035" title="Picas" tooltip="Picas" status="" short=""/>
+		<item id="33036" title="Punten" tooltip="Punten" status="" short=""/>
+		<item id="33038" title="Alles slute" tooltip="Alle iepensteande dokuminte slute" status="Alle iepensteande dokuminte slute" short=""/>
+		<item id="33054" title="6400%" tooltip="" status="" short=""/>
+		<item id="33055" title="3200%" tooltip="" status="" short=""/>
+		<item id="33056" title="2400%" tooltip="" status="" short=""/>
+		<item id="33057" title="1200%" tooltip="" status="" short=""/>
+		<item id="33058" title="800%" tooltip="" status="" short=""/>
+		<item id="33059" title="400%" tooltip="" status="" short=""/>
+		<item id="33060" title="200%" tooltip="" status="" short=""/>
+		<item id="33061" title="150%" tooltip="" status="" short=""/>
+		<item id="33062" title="100%" tooltip="" status="" short=""/>
+		<item id="33063" title="75%" tooltip="" status="" short=""/>
+		<item id="33064" title="50%" tooltip="" status="" short=""/>
+		<item id="33065" title="25%" tooltip="" status="" short=""/>
+		<item id="33073" title="Gegevens ek&amp;sportearje út formulier..." tooltip="" status="" short=""/>
+		<item id="33074" title="Gegevens ym&amp;portearje nei formulier..." tooltip="" status="" short=""/>
+		<item id="33075" title="We&amp;rjefte rotearje" tooltip="" status="" short=""/>
+		<item id="33078" title="Mei de &amp;klok mei" tooltip="De werjefte rotearje mei de klok mei" status="De werjefte rotearje mei de klok mei" short=""/>
+		<item id="33079" title="Tsjin de klok &amp;yn" tooltip="De werjefte rotearje tsjin de klok yn" status="De werjefte rotearje tsjin de klok yn" short=""/>
+		<item id="33080" title="Siden &amp; rotearje..." tooltip="" status="" short=""/>
+		<item id="33081" title="&amp;Siden wiskje..." tooltip="" status="" short=""/>
+		<item id="33082" title="Siden &amp;bysnije..." tooltip="" status="" short=""/>
+		<item id="33103" title="Pannen en zoomen" tooltip="Pannen en zoomen" status="Pannen en zoomen" short="Pannen&amp;zoomen"/>
+		<item id="33104" title="Fet" tooltip="Fet" status="" short=""/>
+		<item id="33105" title="Skeanprinte" tooltip="Skeanprinte" status="" short=""/>
+		<item id="33106" title="Understreekje" tooltip="Understreekje" status="" short=""/>
+		<item id="33107" title="Trochstreekje" tooltip="Trochstreekje" status="" short=""/>
+		<item id="33108" title="Lofts rjochtsje" tooltip="Lofts rjochtsje" status="" short=""/>
+		<item id="33109" title="Sintraal rjochtsje" tooltip="Sintraal rjochtsje" status="" short=""/>
+		<item id="33110" title="Rjochts rjochtsje" tooltip="Rjochts rjochtsje" status="" short=""/>
+		<item id="33115" title="&amp;Line omkeare" tooltip="Line omkeare" status="" short=""/>
+		<item id="33116" title="&amp;eigenskippen..." tooltip="Mear eigenskippen" status="" short=""/>
+		<item id="33118" title="Akti&amp;ve eigenskippen as standertynstelling bewarje" tooltip="Aktive eigenskippen as standertynstelling bewarje" status="" short=""/>
+		<item id="33121" title="&amp;De posysje fan de pop-up finster weromsette nei de âlde wearde" tooltip="De posysje fan de pop-up finster weromsette nei de âlde wearde" status="" short=""/>
+		<item id="33122" title="&amp;Pop-up notysje iepenje" tooltip="Pop-up notysje iepenje" status="" short=""/>
+		<item id="33123" title="Pyl&amp;k tekenje" tooltip="Pylk tekenje" status="" short="Pylk"/>
+		<item id="33124" title="&amp;Line tekenje" tooltip="Line tekenje" status="" short="Line"/>
+		<item id="33125" title="&amp;Rjochthoek tekenje" tooltip="Rjochthoek tekenje" status="" short="Rjochthoek"/>
+		<item id="33126" title="&amp;Ovaal tekenje" tooltip="Ovaal tekenje" status="" short="Ovaal"/>
+		<item id="33127" title="Pol&amp;ygoon tekenje" tooltip="Polygoon tekenje" status="" short="Polygoon"/>
+		<item id="33128" title="Polyl&amp;ine tekenje" tooltip="Polyline tekenje" status="" short="Polyline"/>
+		<item id="33129" title="&amp;Frije foarm tekenje" tooltip="Frije foarm tekenje" status="" short="Frij foarm"/>
+		<item id="33130" title="&amp;Wolk tekenje" tooltip="Wolk tekenje" status="" short="Wolk"/>
+		<item id="33131" title="&amp;Stempel taheakje" tooltip="Stempel taheakje" status="" short="Stimpel:"/>
+		<item id="33132" title="&amp;Notysje taheakje" tooltip="Notysje taheakje" status="" short="Notysje"/>
+		<item id="33133" title="&amp;Foarbyld sjen litte" tooltip="Foarbyld sjen litte" status="" short=""/>
+		<item id="33134" title="Stan&amp;dert eigenskippen tapasse" tooltip="Standert eigenskippen tapasse" status="" short=""/>
+		<item id="33135" title="Notysje taheakje" tooltip="Notysje taheakje" status="" short=""/>
+		<item id="33136" title="&amp;Wiskje" tooltip="De aktive seleksje wiskje" status="De aktive seleksje wiskje" short=""/>
+		<item id="33138" title="Be&amp;wurkbalke" tooltip="De bewurkbalke sjen lite of ferbergje" status="De bewurkbalke sjen lite of ferbergje" short=""/>
+		<item id="33139" title="Ofbrekke" tooltip="Ofbrekke" status="" short=""/>
+		<item id="33140" title="Foltôgje" tooltip="Foltôgje" status="" short=""/>
+		<item id="33141" title="&amp;Thúsblêd" tooltip="" status="" short=""/>
+		<item id="33145" title="&amp;Ynhâld" tooltip="" status="" short=""/>
+		<item id="33146" title="In brek &amp;raportearje" tooltip="" status="" short=""/>
+		<item id="33147" title="&amp;Stipe foarum" tooltip="" status="" short=""/>
+		<item id="33168" title="Tekst opmaak wiskje" tooltip="Tekst opmaak wiskje" status="" short=""/>
+		<item id="33170" title="Superscript" tooltip="Superscript" status="" short=""/>
+		<item id="33171" title="Subscript" tooltip="Subscript" status="" short=""/>
+		<item id="33174" title="Antwurd taheak&amp;je" tooltip="Antwurd taheakje" status="" short=""/>
+		<item id="33176" title="&amp;Antwurd wiskje" tooltip="Antwurd wiskje" status="" short=""/>
+		<item id="33179" title="Kontrolearje op fernijings" tooltip="" status="" short=""/>
+		<item id="33182" title="As net opma&amp;kke tekst kopiearje" tooltip="As net opmakke tekst kopiearje" status="" short=""/>
+		<item id="33183" title="As opmakke tekst kopiearje" tooltip="As opmakke tekst kopiearje" status="" short=""/>
+		<item id="33184" title="As rich tekst kopiearje" tooltip="As rich tekst kopiearje" status="" short=""/>
+		<item id="33187" title="&amp;java skript konsole" tooltip="Java skript konsole sjen litte og ferbergje" status="Java skript konsole sjen litte og ferbergje" short=""/>
+		<item id="33197" title="Yn sub-mappen sjen" tooltip="" status="" short=""/>
+		<item id="33201" title="&amp;Reaksje taheakje" tooltip="Reaksje taheakje" status="" short="Reaksje"/>
+		<item id="33202" title="Tekst&amp;fak taheakje" tooltip="Tekstfak taheakje" status="" short="Tekstfak"/>
+		<item id="33204" title="Ta&amp;ljochtings" tooltip="Reaksjesfinster sjen lite of ferbergje" status="Reaksjesfinster sjen lite of ferbergje" short=""/>
+		<item id="33206" title="Tekst m&amp;arkearje" tooltip="Tekst markearje" status="" short=""/>
+		<item id="33207" title="&amp;Notysje oan tekst taheakje" tooltip="Notysje oan tekst taheakje" status="" short=""/>
+		<item id="33208" title="Tekst ûnderstreek&amp;je" tooltip="Tekst ûnderstreekje" status="" short=""/>
+		<item id="33209" title="Tek&amp;st trochstreekje" tooltip="Tekst trochstreekje" status="" short=""/>
+		<item id="33210" title="&amp;Tekst ferfange" tooltip="Tekst ferfange" status="" short=""/>
+		<item id="33221" title="Tekst markearje" tooltip="Markearje de selektearre tekst" status="Markearje de selektearre tekst" short="Tekst markearje"/>
+		<item id="33222" title="Tekst understreekje" tooltip="De selektearre tekst understreekje" status="De selektearre tekst understreekje" short="Understreekje"/>
+		<item id="33223" title="Tekst trochstreekje" tooltip="De selektearre tekst trochstreekje" status="De selektearre tekst trochstreekje" short="trochstreekje"/>
+		<item id="33225" title="E&amp;igenskipbalke" tooltip="De eigenskipbalke sjen litte of ferbergje" status="De eigenskipbalke sjen litte of ferbergje" short=""/>
+		<item id="33226" title="Tek&amp;st taheakje" tooltip="Tekst taheakje" status="" short="Tekst"/>
+		<item id="33228" title="&amp;Stempel palet sjen litte" tooltip="" status="" short=""/>
+		<item id="33229" title="Ark net útsette" tooltip="Ark net útsette" status="" short=""/>
+		<item id="33231" title="Lettertype grutte" tooltip="Lettergrutte" status="" short="Lettergrutte"/>
+		<item id="33232" title="&amp;Side" tooltip="De reaksjes neffens side groepearje" status="" short=""/>
+		<item id="33233" title=" &amp;Type" tooltip="De reaksjes neffens type groepearje" status="" short=""/>
+		<item id="33234" title="S&amp;kriuwer" tooltip="De reaksjes neffens skriuwer groepearje" status="" short=""/>
+		<item id="33235" title="&amp;Datum" tooltip="De reaksjes neffens datum groepearje" status="" short=""/>
+		<item id="33236" title="Neffens &amp;kleur" tooltip="Reaksjes neffens kleur groepearje" status="" short=""/>
+		<item id="33238" title="Folgjend" tooltip="Folgjende reaksje" status="" short=""/>
+		<item id="33239" title="Foarige" tooltip="foarige reaksje" status="" short=""/>
+		<item id="33240" title="Wiskje" tooltip="Reaksje wiskje" status="" short=""/>
+		<item id="33241" title="Alles ynfâldzje" tooltip="Alle reaksjes ynfâldzje" status="" short=""/>
+		<item id="33242" title="Alles útfâldzje" tooltip="Alle reaksjes útfâldzje" status="" short=""/>
+		<item id="33243" title="Groepearje neffens" tooltip="Groepearje neffens" status="" short=""/>
+		<item id="33244" title="Eigenskippen..." tooltip="Komentaar eigenskippen..." status="" short=""/>
+		<item id="33245" title="Antwurd taheakje" tooltip="Antwurd oan reaksjes taheakje" status="" short=""/>
+		<item id="33248" title="Ne&amp;at selektearje" tooltip="Neat selektearje" status="" short=""/>
+		<item id="33255" title="Alle oare ljeppers slute" tooltip="Alle oare ljeppers slute" status="" short=""/>
+		<item id="33256" title="Dizze ljepper slute" tooltip="Dizze ljepper slute" status="" short=""/>
+		<item id="33257" title="Folsleine triem&amp;namme kopiearje" tooltip="It folsleine triempaad fan it aktive dokumint nei it klamboerd kopiearje" status="It folsleine triempaad fan it aktive dokumint nei it klamboerd kopiearje" short=""/>
+		<item id="33258" title="&amp;Map openen..." tooltip="De map iepenje wêryn it aktive dokumint bewarre is" status="De map iepenje wêryn it aktive dokumint bewarre is" short=""/>
+		<item id="33259" title="Aktive tekstopmaak as standert sette" tooltip="Aktive tekstopmaak as standert sette" status="" short=""/>
+		<item id="33260" title="Standert tekstopmaak tapasse" tooltip="Standert tekstopmaak tapasse" status="" short=""/>
+		<item id="33261" title="Tekstkleur" tooltip="Kleur fan de tekst" status="" short="Kleur:"/>
+		<item id="33262" title="Dokumint&amp;opsjebalke" tooltip="De dokumintopsjebalke sjen lite of ferbergje" status="De dokumintopsjebalke sjen lite of ferbergje" short=""/>
+		<item id="33263" title="&amp;Navigaasjebalke" tooltip="De navigaasjebalke sjen lite of fertopje" status="De navigaasjebalke sjen lite of fertopje" short=""/>
+		<item id="33264" title="Sidewer&amp;jeftebalke" tooltip="Sidewerjeftebalke sjen litte of ferbergje" status="Sidewerjeftebalke sjen litte of ferbergje" short=""/>
+		<item id="33265" title="Utein&amp;setbalke" tooltip="De programma úteinsetbalke sjen litte of ferbergje" status="De programma úteinsetbalke sjen litte of ferbergje" short=""/>
+		<item id="33267" title="&amp;Triem" tooltip="" status="" short=""/>
+		<item id="33268" title="Koartl&amp;yn brûkte triemmen" tooltip="" status="" short=""/>
+		<item id="33269" title="Fo&amp;rmuliergegevens" tooltip="" status="" short=""/>
+		<item id="33270" title="Documint&amp;eigenskippen..." tooltip="De eigenskippen fan it aktive dokumint sjen litte" status="De eigenskippen fan it aktive dokumint sjen litte" short=""/>
+		<item id="33272" title="Fan &amp;Url-adres iepenje" tooltip="Dokumint fan Url-adres iepenje..." status="Dokumint fan Url-adres iepenje" short=""/>
+		<item id="33280" title="Be&amp;wurkje" tooltip="" status="" short=""/>
+		<item id="33290" title="By&amp;ld" tooltip="" status="" short=""/>
+		<item id="33291" title="A&amp;rkbalken" tooltip="" status="" short=""/>
+		<item id="33292" title="Oare finsers" tooltip="" status="" short=""/>
+		<item id="33293" title="Side &amp;omskot" tooltip="" status="" short=""/>
+		<item id="33300" title="&amp;Dokumint" tooltip="" status="" short=""/>
+		<item id="33310" title="&amp;Ark" tooltip="" status="" short=""/>
+		<item id="33311" title="&amp;Basis ark" tooltip="" status="" short=""/>
+		<item id="33313" title="&amp;Zoom" tooltip="" status="" short=""/>
+		<item id="33314" title="Be&amp;wurkark" tooltip="" status="" short=""/>
+		<item id="33316" title="&amp;Mjitark" tooltip="" status="" short=""/>
+		<item id="33317" title="&amp;Keppelingark" tooltip="" status="" short=""/>
+		<item id="33339" title="Bewurkbalke sjen litte" tooltip="" status="" short=""/>
+		<item id="33340" title="Reaksjeslist sjen litte" tooltip="De reaksjeslist sjen litte of ferbergje" status="De reaksjeslist sjen litte of ferbergje" short=""/>
+		<item id="33350" title="&amp;Finster" tooltip="" status="" short=""/>
+		<item id="33369" title="Brutsen ynformaasje sjen litte" tooltip="Dit dokumint hat swierrigens; Klik hjir foar mear details" status="Dit dokumint hat swierrigens; Klik hjir foar mear details" short="Brutsen ynfo"/>
+		<item id="33370" title="Dokumint opsjes" tooltip="Opsjes ynstelle foar it werjaan, bewurkje... fan dit dokumint" status="Opsjes ynstelle foar it werjaan, bewurkje... fan dit dokumint" short="Opsjes"/>
+		<item id="33371" title="Laachfinster sjen litte" tooltip="Dit dokumint befettet lagen; Klik hjir om de laachfinster sjen te litten of te ferbergjen" status="Dit dokumint befettet lagen; Klik hjir om de laachfinster sjen te litten of te ferbergjen" short="Lagen sjen litte"/>
+		<item id="33372" title="Fjildfinster sjen litte" tooltip="Dit dokumint befettet it formulier; Klik hjir om de formulierfjildfinsters sjen te litten of te ferbergjen" status="Dit dokumint befettet it formulier; Klik hjir om de formulierfjildfinsters sjen te litten of te ferbergjen" short="Fjilden sjen litte"/>
+		<item id="33373" title="Gjin eigenskippen" tooltip="Gjin eigenskippen beskikber" status="Gjin eigenskippen beskikber" short=""/>
+		<item id="33374" title="Folkleur" tooltip="Folkleur" status="" short=""/>
+		<item id="33375" title="Penkleur" tooltip="Penkleur" status="" short=""/>
+		<item id="33376" title="Linestyl" tooltip="Linestyl" status="" short=""/>
+		<item id="33377" title="Linedikte" tooltip="Linedikte" status="" short=""/>
+		<item id="33378" title="Pylk styl" tooltip="Pylk styl" status="" short=""/>
+		<item id="33379" title="Dekking" tooltip="Dekking" status="" short="Dekking:"/>
+		<item id="33380" title="Byldkaike" tooltip="Byldkaike styl" status="" short=""/>
+		<item id="33381" title="Kleur" tooltip="Kleur" status="" short=""/>
+		<item id="33382" title="Tekstopmaakbalke sjen litte of ferbergje" tooltip="Tekstopmaakbalke sjen litte of ferbergje" status="" short=""/>
+		<item id="33383" title="Side seleksje kopiearje" tooltip="Side seleksje kopiearje" status="" short=""/>
+		<item id="33384" title="Totale side selektearje" tooltip="Totale side selektearje" status="" short=""/>
+		<item id="33410" title="Tal&amp;jochting" tooltip="Reaksje" status="" short=""/>
+		<item id="33411" title="Tekst opmaak" tooltip="Tekst opmaak" status="" short=""/>
+		<item id="33412" title="Momintopname meitsje" tooltip="Momintopname meitsje" status="" short=""/>
+		<item id="33413" title="Zoom yn" tooltip="Fergrutsje miniatueren" status="Fergrutsje miniatueren" short=""/>
+		<item id="33414" title="Zoom út" tooltip="Ferlytsje miniatueren" status="Ferlytsje miniatueren" short=""/>
+		<item id="33416" title="Blêdwizer taheakje" tooltip="" status="" short=""/>
+		<item id="33420" title="Keppe&amp;lling taheakje" tooltip="" status="" short=""/>
+		<item id="33421" title="Lofter rânen rjochtsje" tooltip="Lofter rânen rjochtsje" status="" short=""/>
+		<item id="33422" title="Rjochter rânen rjochtsje" tooltip="Rjochter rânen rjochtsje" status="" short=""/>
+		<item id="33423" title="Top rânen rjochtsje" tooltip="Top rânen rjochtsje" status="" short=""/>
+		<item id="33424" title="Under rânen rjochtsje" tooltip="Under rânen rjochtsje" status="" short=""/>
+		<item id="33425" title="Horizontaal midden rjochtsje" tooltip="Horizontaal midden rjochtsje" status="" short=""/>
+		<item id="33426" title="Fertikaal midden rjochtsje" tooltip="Fertikaal midden rjochtsje" status="" short=""/>
+		<item id="33427" title="Horizontaal útfolje" tooltip="Horizontaal útfolje" status="" short=""/>
+		<item id="33428" title="Fertikaal útfolje" tooltip="Fertikaal útfolje" status="" short=""/>
+		<item id="33429" title="Selde breedte oanhâlde" tooltip="Selde breedte oanhâlde" status="" short=""/>
+		<item id="33430" title="Selde highte oanhâlde" tooltip="Selde highte oanhâlde" status="" short=""/>
+		<item id="33431" title="Selde grutte oanhâlde" tooltip="Selde grutte oanhâlde" status="" short=""/>
+		<item id="33432" title="Aktyf uterlik as standert ynstelle" tooltip="Aktyf uterlik as standert ynstelle" status="Aktyf uterlik as standert ynstelle" short=""/>
+		<item id="33433" title="Standert uterlik tapasse" tooltip="Standert uterlik foar selektearre keppelings tapasse" status="Standert uterlik foar selektearre keppelings tapasse" short=""/>
+		<item id="33800" title="Byskrift pleatsing weromsette" tooltip="Byskrift pleatsing weromsette" status="" short=""/>
+		<item id="33801" title="Label wiskje" tooltip="Label wiskje" status="" short=""/>
+		<item id="33802" title="Label bewurkje" tooltip="Label bewurkje" status="" short=""/>
+		<item id="33805" title="Skaalgrutte feroarje" tooltip="Skaalgrutte feroarje" status="" short=""/>
+		<item id="33806" title="Opmaak label feroarje" tooltip="Opmaak label feroarje" status="" short=""/>
+		<item id="33807" title="Mjitynfo finster sjen litte" tooltip="Mjitynfo finster sjen litte" status="" short=""/>
+		<item id="33808" title="Ortho oan" tooltip="Ortho oan" status="" short=""/>
+		<item id="33809" title="Mjitting ôfbrekke" tooltip="Mjitting ôfbrekke" status="" short=""/>
+		<item id="33810" title="Mjitting foltôgje" tooltip="Mjitting foltôgje" status="" short=""/>
+		<item id="33811" title="Mjitgegevens nei CSV-triem eksportearje" tooltip="Mjitgegevens nei CSV-triem eksportearje" status="" short=""/>
+		<item id="36000" title="Oanpasse..." tooltip="De menu&apos;s en arkbalken oanpasse" status="De menu&apos;s en arkbalken oanpasse" short=""/>
+		<item id="36001" title="Beskoattele" tooltip="Beskoattele" status="" short=""/>
+		<item id="36004" title="Zoom yn" tooltip="Blêdwizers fergrutsje" status="Blêdwizers fergrutsje" short=""/>
+		<item id="36005" title="Zoom út" tooltip="Blêdwizers ferlytsje" status="Blêdwizers ferlytsje" short=""/>
+		<item id="36006" title="Blêdwizers wiskje" tooltip="Selektearre blêdwizers wiskje" status="Selektearre blêdwizers wiskje" short="Wiskje"/>
+		<item id="36007" title="Blêdwizer eiegenskippen" tooltip="Fan selektearre blêdwizers de eigenskippen sjen litte" status="Fan selektearre blêdwizers de eigenskippen sjen litte" short="Bewurkje"/>
+		<item id="36008" title="Nije blêdwizer" tooltip="In nije blêdwizers oanmeitsje" status="In nije blêdwizers oanmeitsje" short="Nij"/>
+		<item id="36009" title="De sichtberens fan de oerienkommende blêdwizer fersekerje" tooltip="De sichtberens fan de oerienkommende blêdwizer fersekerje" status="De sichtberens fan de oerienkommende blêdwizer fersekerje" short=""/>
+		<item id="36010" title="Gean nei blêdwizer" tooltip="Gean nei blêdwizer" status="De blêdwizer yn de siden werjefte sichtber meitsje" short=""/>
+		<item id="36011" title="De blêdwizer beamstruktear ferfarskje" tooltip="De blêdwizer beamstruktear ferfarskje" status="De blêdwizer beamstruktear ferfarskje" short=""/>
+		<item id="36012" title="Taheakje..." tooltip="It skerm om nije aksjes ta te heakjen sjen litte..." status="It skerm om nije aksjes ta te heakjen sjen litte..." short=""/>
+		<item id="36013" title="Wiskje..." tooltip="Selektearre aksje wiskje" status="Selektearre aksje wiskje" short=""/>
+		<item id="36014" title="Omheech" tooltip="Ferpleats de selektearre items omheech yn de útfier oarder" status="Ferpleats de selektearre items omheech yn de útfier oarder" short=""/>
+		<item id="36015" title="Omleech" tooltip="Ferpleats de selektearre items omleech yn de útfier oarder" status="Ferpleats de selektearre items omleech yn de útfier oarder" short=""/>
+		<item id="36016" title="Bewurkje..." tooltip="De eigenskipen fan de selekteare aksje bewurkje..." status="De eigenskipen fan de selekteare aksje bewurkje..." short=""/>
+		<item id="36017" title="Selektearre besykje" tooltip="Selektearre aksje besykje" status="Besykje de selektearre aksje..." short=""/>
+		<item id="36018" title="Alles besykje" tooltip="Alle aksjes besykje..." status="Besykje alle aksje..." short=""/>
+		<item id="36019" title="Weromsette" tooltip="De list mei aksjes en ferlerne wizigings weromsette nei it âlde" status="De list mei aksjes en ferlerne wizigings weromsette nei it âlde" short=""/>
+		<item id="36023" title="&amp;Omneame" tooltip="De selekteare blêdwizer omneame" status="De selekteare blêdwizer omneame" short=""/>
+		<item id="36024" title="It aktive uterlik as standert sette" tooltip="It aktive uterlik as standert sette" status="It aktive uterlik as standert sette" short=""/>
+		<item id="36025" title="Lange blêdwizertitel omslaan" tooltip="Lange blêdwizertitel omslaan" status="Lange blêdwizertitel omslaan" short=""/>
+		<item id="36026" title="Standert uterlik tapasse" tooltip="Standert uterlik tapasse foar selekteare blêdwizers" status="Standert uterlik tapasse foar selekteare blêdwizers" short=""/>
+		<item id="36027" title="Utfiere" tooltip="Skript útfeire" status="" short=""/>
+		<item id="36028" title="Opskjinje" tooltip="Konsole útfier opskjinje" status="" short=""/>
+		<item id="36035" title="Gean nei rigel..." tooltip="" status="" short=""/>
+		<item id="36036" title="Javascript opsjes" tooltip="Javascript opsjes sjen litte" status="Javascript opsjes werjaan" short=""/>
+		<item id="36037" title="Siden &amp;ynfoegje..." tooltip="" status="" short=""/>
+		<item id="36038" title="Siden útpakk&amp;e..." tooltip="" status="" short=""/>
+		<item id="36039" title="Siden fe&amp;rfange..." tooltip="" status="" short=""/>
+		<item id="36040" title="S&amp;ide oergong..." tooltip="" status="" short=""/>
+		<item id="36048" title="Best&amp;imming ynstelle" tooltip="Bestimmimg ynstelle" status="De no foarsteande werjefte as bestimming brûke" short=""/>
+		<item id="36049" title="" tooltip="Lettertype" status="" short="Lettertype:"/>
+		<item id="36250" title="" tooltip="Markearstyl" status="" short="Markearring:"/>
+		<item id="36252" title="Allinne hiele wurden " tooltip="Allinne sykje om hiele wurden" status="Siket allinne om de hiele wurden dy&apos;t ynfierd binne yn it tekstfak" short=""/>
+		<item id="36253" title="Haadlettergefoelich" tooltip="Haadlettergefoelich sykje" status="Sykje om wurden dy&apos;t oerien komme mei de haadlettergefoeligheid dy&apos;t jo foar eagen ha" short=""/>
+		<item id="36254" title="Ynklusyf reaksjes" tooltip="Siket troch de tekst fan de reaksjes dy&apos;t oan de PDF taheakke binne" status="Siket troch de tekst fan de reaksjes dy&apos;t oan de PDF taheakke binne, lykas te sjen is yn it reaksjespaniel" short=""/>
+		<item id="36255" title="Ynklusyf blêdwizers" tooltip="Siket troch de tekst fan de blêdwizers" status="Siket troch de tekst fan de blêdwizers, lykas it te sjen is yn it blêdwizerspaniel" short=""/>
+		<item id="36260" title="1600%" tooltip="" status="" short=""/>
+		<item id="36262" title="12,5%" tooltip="" status="" short=""/>
+		<item id="36263" title="8,33%" tooltip="" status="" short=""/>
+		<item id="36264" title="" tooltip="" status="" short="Zoom:"/>
+		<item id="36273" title="" tooltip="Folkleur" status="" short="Folkleur:"/>
+		<item id="36274" title="" tooltip="Steek kleur" status="" short="Steek kleur:"/>
+		<item id="36276" title="" tooltip="Notysje byldkaike" status="" short="Byldkaike:"/>
+		<item id="36279" title="" tooltip="Rânestyl" status="" short="Râne:"/>
+		<item id="36281" title="" tooltip="Breedte fan râne" status="" short="Breedte"/>
+		<item id="36287" title="" tooltip="Line einstyl" status="" short="Line ein:"/>
+		<item id="36289" title="" tooltip="Line startstyl" status="" short="Line start:"/>
+		<item id="36291" title="Ynzoome" tooltip="Miniatueren fergrutsje" status="Miniatueren fergrutsje" short=""/>
+		<item id="36292" title="Utzoome" tooltip="Miniatueren ferlytsje" status="Miniatueren ferlytsje" short=""/>
+		<item id="36293" title="Fan klamboerd oanmeitsje" tooltip="Stimpel fan klamboerd ôfbylding oanmeitsje" status="Stimpel fan klamboerd ôfbylding oanmeitsje" short="Fan klamboerd"/>
+		<item id="36294" title="Stimpel wiskje" tooltip="Selektearre stimpel wiskje" status="Selektearre stimpel wiskje" short="Wiskje"/>
+		<item id="36295" title="Stimpel ynfoegje..." tooltip="Stimpel ynfoegje..." status="Stimpel ynfoegje..." short=""/>
+		<item id="36296" title="Kolleksje wiskje" tooltip="Selektearre kolleksje wiskje" status="Selektearre kolleksje wiskje" short="Wiskje"/>
+		<item id="36297" title="Nije kolleksje oanmeitsje..." tooltip="Nije stimpelkolleksje oanmeitsje..." status="Nije stimpelkolleksje oanmeitsje..." short="Nij..."/>
+		<item id="36298" title="Stimpel bewurkje..." tooltip="Selektearre stimpel bewurkje..." status="Selektearre stimpel bewurkje..." short="Bewurkje..."/>
+		<item id="36299" title="Kolleksje bewurkje..." tooltip="Selektearre kolleksje bewurkje..." status="Selektearre kolleksje bewurkje..." short="Bewurkje..."/>
+		<item id="36300" title="Wisker ark" tooltip="Wisker ark" status="Wisker ark" short="Wiskjer"/>
+		<item id="36301" title="Diameter" tooltip="Diameter wisker" status="" short="Diameter:"/>
+		<item id="36303" title="Fan PDF oanmeitsje..." tooltip="Stimpel fan PDF dokumint oanmeitsje..." status="Stimpel fan PDF dokumint oanmeitsje..." short=""/>
+		<item id="36304" title="Fan ôfbylding oanmeitsje..." tooltip="Stimpel fan ôfbyldingstriem oanmeitsje..." status="Stimpel fan ôfbyldingstriem oanmeitsje..." short=""/>
+		<item id="36305" title="Lege siden ynfoegje..." tooltip="" status="" short=""/>
+		<item id="36306" title="Alles blêdwizers útfâldzje" tooltip="Alle blêdwizers útfâldzje" status="" short="Alles útfâldzje"/>
+		<item id="36307" title="Alles blêdwizers ynfâldzje" tooltip="Alle blêdwizers ynfâldzje" status="" short="Alles ynfâldzje"/>
+		<item id="36308" title="Tekst eigenskippen..." tooltip="Tekst eigenskippen sjen litte..." status="It dialooch mei de eigenskippen fan de selektearre tekst sjen litte" short="Tekst eigenskippen..."/>
+		<item id="36309" title="Dizze arkbalke weromsette" tooltip="Dizze arkbalke weromsette nei standert" status="Dizze arkbalke weromsette nei standert" short="Dizze arkbalke weromsette"/>
+		<item id="36313" title="" tooltip="Fluchtoets weromsette" status="" short=""/>
+		<item id="36314" title="" tooltip="Fluchtoets skjinje" status="" short=""/>
+		<item id="36315" title="Menubalke weromsette" tooltip="Dizze menubalke weromsette nei standert" status="Dizze menubalke weromsette nei standert" short="Menubalke weromsette"/>
+		<item id="36316" title="Popup-menu weromsette" tooltip="Dit popup-menu weromsette nei standert" status="Dit popup-menu weromsette nei standert" short="Popup-menu weromsette"/>
+		<item id="36324" title="Ofbylding kieze" tooltip="" status="" short=""/>
+		<item id="36326" title="Weromsette" tooltip="" status="" short=""/>
+		<item id="36327" title="Wiskje" tooltip="" status="" short=""/>
+		<item id="36328" title="Standert styl" tooltip="" status="" short=""/>
+		<item id="36329" title="Ofbylding sjen litte" tooltip="" status="" short=""/>
+		<item id="36330" title="Tekst sjen litte" tooltip="" status="" short=""/>
+		<item id="36331" title="Skieder ynfoegje foar" tooltip="" status="" short=""/>
+		<item id="36332" title="Skieder ynfoegje nei" tooltip="" status="" short=""/>
+		<item id="36333" title="Eigenskippen...." tooltip="" status="" short=""/>
+		<item id="36334" title="Foarbyld sjen litte" tooltip="" status="" short=""/>
+		<item id="36335" title="Underwerpen sjen litte" tooltip="Underwerpen fan reaksje sjen litte" status="Underwerpen fan reaksje sjen litte" short=""/>
+		<item id="36336" title="Skriuwers sjen litte" tooltip="Skriuwers fan Reaksje sjen litte" status="Skriuwers fan reaksjes sjen litte" short=""/>
+		<item id="36337" title="Datums sjen litte" tooltip="Oanpasdatums fan reaksjes sjen litte" status="Oanpasdatums fan reaksjes sjen litte" short=""/>
+		<item id="36338" title="Tekst sjen litte" tooltip="Tekst fan reaksje sjen litte" status="Tekst fan reaksje sjen litte" short=""/>
+		<item id="36339" title="Kleuren sjen litte" tooltip="Kleur fan reaksje sjen litte" status="Kleur fan reaksje sjen litte" short=""/>
+		<item id="36340" title="Annotaasjes ôfflakje..." tooltip="" status="" short=""/>
+		<item id="36341" title="Syklist opskjinje" tooltip="Syklist opskjinje" status="" short="Syklist opskjinje"/>
+		<item id="36342" title="&amp;Keppeling bewurkbalke" tooltip="&amp;Keppeling bewurkbalke ferbergje/sjen litte" status="&amp;Keppeling bewurkbalke ferbergje/sjen litte" short=""/>
+		<item id="36343" title="Rjochthoek keppeling ark" tooltip="Rjochthoek keppeling ark" status="" short="Keppeling"/>
+		<item id="36344" title="&amp;Fjouwer siden keppelingsark" tooltip="Fjouwer siden keppelingsark" status="" short="Keppeling"/>
+		<item id="36345" title="&amp;Mjitbalke" tooltip="Mjitbalke ferbergje/sjen litte" status="Mjitbalke ferbergje/sjen litte" short=""/>
+		<item id="36346" title="&amp;Ofstân ark" tooltip="Stik ark om de ôfstân tusken twa punten te mjitten" status="" short="Ofstân"/>
+		<item id="36347" title="&amp;Perimeter ark" tooltip="Stik ark om de perimeter fan in objekt te mjitten" status="" short="Perimeter"/>
+		<item id="36348" title="&amp;Gebiet ark" tooltip="Stik ark om it gebiet fan in objekt te mjitten" status="" short="Gebiet"/>
+		<item id="36349" title="&amp;Reaksjes" tooltip="" status="" short=""/>
+		<item id="36350" title="Reaksjes &amp;gearfetsje" tooltip="" status="" short=""/>
+		<item id="36351" title="Reaksjes eksportearje nei gegevenstriem..." tooltip="" status="" short=""/>
+		<item id="36352" title="Lit romte tusken siden sjen" tooltip="Romte sjen litte" status="" short=""/>
+		<item id="36353" title="Foarplaat yn trochrinnende modus sjen litte" tooltip="Foarplaat sjen litte" status="" short=""/>
+		<item id="36355" title="Ferhâldingswearde (Fan)" tooltip="Ferhâldingswearde (Fan)" status="" short="Fan:"/>
+		<item id="36356" title="Ferhâldingswearde (Nei)" tooltip="Ferhâldingswearde (Nei)" status="" short="Nei:"/>
+		<item id="36357" title="Ferhâldingsienheid (Fan)" tooltip="Ferhâldingsienheid (Fan)" status="" short="Fan:"/>
+		<item id="36359" title="Ferhâldingsienheid (Nei)" tooltip="Ferhâldingsienheid (Nei)" status="" short="Oan:"/>
+		<item id="36362" title="&quot;Gean nei in side yn dit dokumint&quot; Taheakje..." tooltip="&quot;Gean nei in side yn dit dokumint&quot; Taheakje..." status="&quot;Gean nei in side yn dit dokumint&quot; Taheakje..." short=""/>
+		<item id="36363" title="&quot;Iepenje in webkeppeling&quot; taheakje..." tooltip="&quot;Iepenje in webkeppeling&quot; taheakje..." status="&quot;Iepenje in webkeppeling&quot; taheakje..." short=""/>
+		<item id="36364" title="Fan lege side..." tooltip="Fan lege side..." status="Nij PDF-dokumint oanmeitsje mei lege side(n)..." short=""/>
+		<item id="36365" title="Fan teksttriem..." tooltip="Fan teksttriem..." status="Nij PDF-dokumint fan besteande teksttriem(men) oanmeitsje..." short=""/>
+		<item id="36366" title="&amp;Ungedien meitsje" tooltip="" status="" short=""/>
+		<item id="36367" title="&amp;Op &apos;e nij dwaan" tooltip="" status="" short=""/>
+		<item id="36368" title="Kn&amp;ippe" tooltip="" status="" short=""/>
+		<item id="36369" title="&amp;Kopiearje" tooltip="" status="" short=""/>
+		<item id="36370" title="&amp;Plakke" tooltip="" status="" short=""/>
+		<item id="36371" title="&amp;Wiskje" tooltip="" status="" short=""/>
+		<item id="36372" title="&amp;Alles selektearje" tooltip="" status="" short=""/>
+		<item id="36373" title="Alle balken beskoattelje/ûntskoattelje" tooltip="Alle balken beskoattelje/ûntskoattelje" status="Alle balken beskoattelje/ûntskoattelje: oanpasse en ferpleatse net mooglik" short="Balken beskoattelje"/>
+		<item id="36374" title="Alle ynstellings nei de standert sette" tooltip="Alle programma ynstellings nei de standert sette..." status="Alle programma ynstellings nei de standert sette..." short=""/>
+		<item id="36375" title="Fan ôfbyldingstriem..." tooltip="Fan ôfbyldingstriem..." status="Nij PDF-dokumint fan besteande ôfbyldingstriem(men) oanmeitsje..." short=""/>
+		<item id="36408" title="Alle ynstellings út gegevenstriem ymportearje..." tooltip="Alle programma ynstellings út gegevenstriem ymportearje..." status="Alle programma ynstellings út in ekstern gegevenstriem ymportearje..." short=""/>
+		<item id="36409" title="Alle ynstellings nei gegevenstriem eksportearje..." tooltip="Alle programma ynstellings nei gegevenstriem eksportearje..." status="Alle programma ynstellings nei ekstern gegevenstriem eksportearje..." short=""/>
+		<item id="36415" title="Sjen litte" tooltip="" status="" short=""/>
+		<item id="36416" title="It hoe en het" tooltip="" status="" short=""/>
+		<item id="36417" title="Utgong" tooltip="" status="" short=""/>
+		<item id="36420" title="Reaksje styl palet sjen litte" tooltip="" status="" short=""/>
+		<item id="36434" title="Reaksje werjefte" tooltip="" status="" short=""/>
+		<item id="36435" title="Alle reaksjes ferbergje" tooltip="" status="" short=""/>
+		<item id="36436" title="Alle reaksjes sjen litte" tooltip="" status="" short=""/>
+		<item id="36437" title="Neffens type sjen litte" tooltip="" status="" short=""/>
+		<item id="36438" title="Alle pop-ups iepenje" tooltip="" status="" short=""/>
+		<item id="36439" title="Alle pop-ups slute" tooltip="" status="" short=""/>
+		<item id="36440" title="Alle typen" tooltip="" status="" short=""/>
+		<item id="36441" title="Notysjes" tooltip="" status="" short=""/>
+		<item id="36442" title="" tooltip="" status="" short=""/>
+		<item id="36443" title="" tooltip="" status="" short=""/>
+		<item id="36444" title="Stimpels" tooltip="" status="" short=""/>
+		<item id="36445" title="Taheakke" tooltip="" status="" short=""/>
+		<item id="36462" title="Fan skenner..." tooltip="Fan skenner..." status="Meitjse in nij PDF dokumint fan skenner..." short=""/>
+		<item id="36463" title="" tooltip="" status="" short=""/>
+		<item id="36483" title="Line dikte" tooltip="Lit de linedikte 1 piksel wêze ûnôfhinklik wat it zoom nivo is" status="Lit de linedikte 1 piksel wêzeûnôfhinklik wat it zoom nivo is" short=""/>
+		<item id="36494" title="Ofbrekke" tooltip="De operaasje ôfbrekke" status="De operaasje ôfbrekke" short=""/>
+		<item id="57600" title="&amp;Nij dokumint..." tooltip="" status="" short=""/>
+		<item id="57601" title="&amp;Iepenje" tooltip="Iepenje in bestean dokumint..." status="Iepenje in bestean dokumint" short=""/>
+		<item id="57602" title="Sl&amp;ute" tooltip="It aktive dokumint slute" status="It aktive dokumint slute" short=""/>
+		<item id="57603" title="&amp;Bewarje" tooltip="It aktive dokumint bewarje..." status="It aktive dokumint bewarje" short=""/>
+		<item id="57604" title="Bewarje &amp;as" tooltip="It aktive dokumint mij in oare namme bewarje" status="It aktive dokumint mij in oare namme bewarje" short=""/>
+		<item id="57607" title="&amp;Printsje..." tooltip="It aktive dokumint printsje" status="It aktive dokumint printsje" short=""/>
+		<item id="57611" title="Ko&amp;py bewarje as" tooltip="It aktive dokumint nij in nij triem bewarje" status="It aktive dokumint nij in nij triem bewarje" short=""/>
+		<item id="57612" title="Mei &amp;e-post stjoere" tooltip="It aktive dokumint oan in nij e-berjocht heakje" status="It aktive dokumint oan in nij e-berjocht heakje" short=""/>
+		<item id="57632" title="Opskj&amp;inje" tooltip="De seleksje oplosse" status="De seleksje oplosse" short=""/>
+		<item id="57634" title="&amp;Kopiearje" tooltip="De aktive seleksje nei it klamboerd kopiearje" status="De aktive seleksje nei it klamboerd kopiearje" short=""/>
+		<item id="57635" title="K&amp;nippen" tooltip="De aktive seleksje út it dokumint wiskje en op it klamboerd sette&#10;" status="De aktive seleksje út it dokumint wiskje en op it klamboerd sette&#10;" short=""/>
+		<item id="57636" title="&amp;Sykje" tooltip="Om de oantsjutte teskt sykje" status="Om de oantsjutte teskt sykje" short=""/>
+		<item id="57637" title="&amp;Plakke" tooltip="De ynhâld fan it klamboerd ynfoegje" status="De ynhâld fan it klamboerd ynfoegje" short=""/>
+		<item id="57642" title="Alles se&amp;lektearje" tooltip="Alles selektearje" status="" short=""/>
+		<item id="57643" title="&amp;Ungedien meitsje" tooltip="De foarige bewurking ûngedien meitsje" status="De foarige bewurking ûngedien meitsje" short=""/>
+		<item id="57644" title="Op &apos;e nij dwaan" tooltip="De lêst ûngedien makke bewurking op &apos;e nij útfiere" status="De lêst ûngedien makke bewurking op &apos;e nij útfiere" short=""/>
+		<item id="57649" title="Byldka&amp;ikes oarderje" tooltip="Byldkaikes op de ûnderkant oarderje&#10;" status="Byldkaikes op de ûnderkant oarderje" short=""/>
+		<item id="57650" title="&amp;Trepfoarm" tooltip="De iepene finster yn in trepfoar oer elkoar sette" status="De iepene finster yn in trepfoar oer elkoar sette" short=""/>
+		<item id="57651" title="&amp;Under elkoar" tooltip="De iepene finsters ûnder elkoar sette" status="De iepene finsters ûnder elkoar sette" short=""/>
+		<item id="57652" title="&amp;Neist elkoar" tooltip="De iepene finsters neist elkoar sette" status="De iepene finsters ûnder elkoar sette" short=""/>
+		<item id="57653" title="&amp;Spjalte" tooltip="It aktive finster yn dielfinsters spjalte" status="It aktive finster yn dielfinsters spjalte" short=""/>
+		<item id="57664" title="PDF-&amp;XChange Viewer, it hoe en het..." tooltip="Lit programma ynformaasje, ferzje nûmer en Copyright sjen" status="Lit programma ynformaasje, ferzje nûmer en Copyright sjen" short=""/>
+		<item id="57665" title="Utgon&amp;g" tooltip="It programma ferlitte en jo wizigings bewarje" status="It programma ferlitte en jo wizigings bewarje" short=""/>
+		<item id="57670" title="&amp;Help" tooltip="" status="" short=""/>
+		<item id="57718" title="Skow lofts" tooltip="Nei lofts skowe" status="" short=""/>
+		<item id="57719" title="Skow rjochts" tooltip="Nei rjochts skowe" status="" short=""/>
+		<item id="59393" title="Ta&amp;stânbalke" tooltip="De tastânbalke sjen litte of ferbergje" status="De tastânbalke sjen litte of ferbergje" short=""/>
+	</commands>
+	<dialogs>
+		<dialog id="203" text="Foarkar">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="3" text="Tapasse" tooltip=""/>
+		</dialog>
+		<dialog id="204" text="">
+			<item id="1004" text="Utfierynstellings ha foarrang op kleurromtes" tooltip=""/>
+			<item id="1008" text="Brû&amp;k swarte punt kompensaasje" tooltip=""/>
+			<item id="1038" text="&amp;Kleur ynstelling" tooltip=""/>
+			<item id="1039" text="&amp;RGB" tooltip=""/>
+			<item id="1040" text="&amp;CMYK" tooltip=""/>
+			<item id="1041" text="&amp;Griiswearden" tooltip=""/>
+			<item id="1042" text="Mo&amp;ter" tooltip=""/>
+			<item id="1200" text="Wurkromte" tooltip=""/>
+			<item id="1201" text="Oerset opsjes" tooltip=""/>
+		</dialog>
+		<dialog id="207" text="">
+			<item id="4" text="Blêdzje..." tooltip=""/>
+			<item id="5" text="Blêdzje..." tooltip=""/>
+			<item id="1009" text="Maksimum tal dokuminten in de list mei koartlyn iepene dokuminten" tooltip=""/>
+			<item id="1014" text="Begjinskerm sjen litte" tooltip=""/>
+			<item id="1015" text="Meardere momenten fan dit programma tastean" tooltip=""/>
+			<item id="1016" text="Minimalisearje nei systeemfak" tooltip=""/>
+			<item id="1032" text="Dokuminten yn ljeppers" tooltip=""/>
+			<item id="1033" text="&amp;Meardere dokuminten" tooltip=""/>
+			<item id="1035" text="Slútknop foar eltse ljepper sjen litte" tooltip=""/>
+			<item id="1036" text="&amp;Inkel dokumint" tooltip=""/>
+			<item id="1038" text="Metoade foar it bewarjen:" tooltip=""/>
+			<item id="1039" text="Bestimmingsmap foar ynladen dokuminten:" tooltip=""/>
+			<item id="1040" text="Bestimming foar &quot;Bewarje as&quot; dokuminten kieze:" tooltip=""/>
+			<item id="1198" text="Uteinset opsjes" tooltip=""/>
+			<item id="1199" text="Programma" tooltip=""/>
+			<item id="1200" text="Dokumint omskot" tooltip=""/>
+			<item id="1201" text="Dokuminten iepenje" tooltip=""/>
+			<item id="1202" text="Ynstellings foar it bewarjen fan dokuminten" tooltip=""/>
+			<item id="1227" text="List opskjinje" tooltip=""/>
+		</dialog>
+		<dialog id="212" text="Dokumintwachtwurd ynfiere">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1039" text="Fier foar it dokumint in jildich brûker of eigner wachtwurd yn:" tooltip=""/>
+		</dialog>
+		<dialog id="213" text="Dokumint eigenskippen">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="3" text="Tapasse" tooltip=""/>
+		</dialog>
+		<dialog id="214" text="">
+			<item id="1038" text="Triemnamme:" tooltip=""/>
+			<item id="1039" text="Lokaasje:" tooltip=""/>
+			<item id="1040" text="Makke op:" tooltip=""/>
+			<item id="1041" text="Feroare op:" tooltip=""/>
+			<item id="1042" text="Triemgrutte:" tooltip=""/>
+			<item id="1043" text="&amp;Titel:" tooltip=""/>
+			<item id="1044" text="&amp;Skriuwer:" tooltip=""/>
+			<item id="1200" text="&amp;Triem ynformaasje" tooltip=""/>
+			<item id="1201" text="&amp;Dokumint ynformaasje" tooltip=""/>
+			<item id="1203" text="&amp;Underwerp:" tooltip=""/>
+			<item id="1204" text="S&amp;tekwurden:" tooltip=""/>
+			<item id="1205" text="Makke mei:" tooltip=""/>
+			<item id="1206" text="Programma:" tooltip=""/>
+			<item id="1207" text="PDF ferzje:" tooltip=""/>
+			<item id="1208" text="Oantal siden:" tooltip=""/>
+			<item id="1209" text="Ekstra &amp;Metagegevens..." tooltip=""/>
+		</dialog>
+		<dialog id="220" text="">
+			<item id="1038" text="Printsjen:" tooltip=""/>
+			<item id="1039" text="Dokumint feroarje:" tooltip=""/>
+			<item id="1040" text="Ynhâld kopiearje of útnimme:" tooltip=""/>
+			<item id="1041" text="Reaksje en formulierfjilden taheakje:" tooltip=""/>
+			<item id="1042" text="Formulierfjilden ynfolje of ûndertekenje:" tooltip=""/>
+			<item id="1043" text="Ynhâld tagongklik meitsje:" tooltip=""/>
+			<item id="1044" text="Dokumint gearstolle:" tooltip=""/>
+			<item id="1200" text="Dokumint feiligens" tooltip=""/>
+			<item id="1201" text="Machtigings foar it documint" tooltip=""/>
+			<item id="1203" text="De feiligens metoade fan it dokumint beheind wat jo mei it dokumint dwaan kinne." tooltip=""/>
+			<item id="1204" text="Feiligens &amp;metoade:" tooltip=""/>
+			<item id="1205" text="Fersifernivo:" tooltip=""/>
+			<item id="1206" text="Wachtwurd om it te iepenjen:" tooltip=""/>
+			<item id="1207" text="Wachtwurd om de machtigings te feroarjen:" tooltip=""/>
+			<item id="1210" text="&amp;Ynstellings feroarje..." tooltip=""/>
+		</dialog>
+		<dialog id="221" text="As ôfbylding eksportearje">
+			<item id="1" text="E&amp;ksportearje..." tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="4" text="Blêdzje..." tooltip=""/>
+			<item id="6" text="Ma&amp;cro&apos;s" tooltip=""/>
+			<item id="7" text="Opsjes..." tooltip=""/>
+			<item id="1038" text="Sidenûmers en/of -beriken, skieden troch komma&apos;s, bygelyks 1, 3, 5-12" tooltip=""/>
+			<item id="1039" text="&amp;Subset:" tooltip=""/>
+			<item id="1040" text="Bestimmings&amp;map:" tooltip=""/>
+			<item id="1041" text="T&amp;riemnamme:" tooltip=""/>
+			<item id="1042" text="Triem&amp;type:" tooltip=""/>
+			<item id="1043" text="Eksportmo&amp;dus:" tooltip=""/>
+			<item id="1044" text="Resolúsje:" tooltip=""/>
+			<item id="1045" text="&amp;Alle siden" tooltip=""/>
+			<item id="1046" text="A&amp;ktive siden" tooltip=""/>
+			<item id="1047" text="Se&amp;lektearre siden" tooltip=""/>
+			<item id="1048" text="Aktive &amp;werjefte" tooltip=""/>
+			<item id="1049" text="Side&amp;n:" tooltip=""/>
+			<item id="1050" text="Selektearre ôf&amp;bylding" tooltip=""/>
+			<item id="1060" text="&amp;Trochsichtich" tooltip=""/>
+			<item id="1061" text="&amp;Effen kleur:" tooltip=""/>
+			<item id="1088" text="Sideoarder om&amp;keren" tooltip=""/>
+			<item id="1200" text="Sideberik" tooltip=""/>
+			<item id="1201" text="Bewarje as" tooltip=""/>
+			<item id="1202" text="Ofbyldings" tooltip=""/>
+			<item id="1203" text="Eftergrûn fan side:" tooltip=""/>
+			<item id="1204" text="dpi" tooltip=""/>
+			<item id="1206" text="Side zoom:" tooltip=""/>
+			<item id="1330" text="&amp;Alles" tooltip=""/>
+			<item id="1331" text="&amp;Selektearre siden" tooltip=""/>
+			<item id="1332" text="Ak&amp;tive side" tooltip=""/>
+			<item id="1333" text="S&amp;iden:" tooltip=""/>
+			<item id="1335" text="Subset:" tooltip=""/>
+			<item id="1339" text="Aktive &amp;werjefte" tooltip=""/>
+			<item id="1340" text="Selektearre ô&amp;fbylding" tooltip=""/>
+			<item id="1341" text="Omkearde oarder" tooltip=""/>
+			<item id="1387" text="Fier sidenûmer en/of sideberik yn, skieden troch komma&apos;s begjinnend fanôf it begjin fan it dokumint. Bygelyks: 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="222" text="Opsjes foar it bewarjen fan ôfbyldings">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+		</dialog>
+		<dialog id="223" text="">
+			<item id="1071" text="Ofbrekke" tooltip=""/>
+			<item id="1072" text="Oerslaan" tooltip=""/>
+		</dialog>
+		<dialog id="224" text="">
+			<item id="1038" text="Standert&amp;werjefte:" tooltip=""/>
+			<item id="1039" text="Standert side-&amp;yndieling:" tooltip=""/>
+			<item id="1040" text="Standert &amp;zoompersintaazje:" tooltip=""/>
+			<item id="1041" text="&amp;Resolúsje:" tooltip=""/>
+			<item id="1042" text="Byldpunten de tomme" tooltip=""/>
+			<item id="1073" text="Ramt foar oerfloeien &amp;&amp; bysnije sjen litte" tooltip=""/>
+			<item id="1074" text="Trochsichtich roaster werjaan" tooltip=""/>
+			<item id="1076" text="Tekst floeiend meitsje" tooltip=""/>
+			<item id="1077" text="Linen floeiend meitsje" tooltip=""/>
+			<item id="1078" text="Ofbyldings floeiend meitsje" tooltip=""/>
+			<item id="1079" text="URL-adressen nei hyperlinks oersette" tooltip=""/>
+			<item id="1083" text="Grute ôfbyldings werjaan" tooltip=""/>
+			<item id="1126" text="Koartlyn brûkte werjefte (oanpaste yndieling en ynstellings foar dielfinsters) werstelle by it iepenjen fan dokumint" tooltip=""/>
+			<item id="1200" text="Sidewerjefte" tooltip=""/>
+			<item id="1201" text="Ynstellings" tooltip=""/>
+			<item id="1202" text="By iepenjen fan dokumint" tooltip=""/>
+			<item id="1228" text="Koartlyn brûkte yndieling en zoompersintaazje werstelle by it iepenjen fan dokumint út de list mei koartlyn brûkte dokuminten" tooltip=""/>
+		</dialog>
+		<dialog id="227" text="Ferfangen fan triem befêstigje">
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="6" text="Jawis" tooltip=""/>
+			<item id="7" text="Nee" tooltip=""/>
+			<item id="100" text="Jawis op alles" tooltip=""/>
+			<item id="101" text="Nee op alles" tooltip=""/>
+			<item id="102" text="Automatysk" tooltip=""/>
+			<item id="103" text="Bewarje as..." tooltip=""/>
+			<item id="1040" text="Wolle jo de triem ferfange?" tooltip=""/>
+			<item id="1041" text="Jo kinne it programma automatysk in unieke triemnamme oanmeitsje litte:" tooltip=""/>
+		</dialog>
+		<dialog id="228" text="Flater ûnder it skriuwen fan de triem">
+			<item id="3" text="Ofbrekke" tooltip=""/>
+			<item id="4" text="Op &apos;e nij" tooltip=""/>
+			<item id="5" text="Negearje" tooltip=""/>
+			<item id="103" text="Bewarje as..." tooltip=""/>
+		</dialog>
+		<dialog id="229" text="Printsje">
+			<item id="1" text="Printsje..." tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Oantal kopieën:" tooltip=""/>
+			<item id="1039" text="Sidenûmers en/of -beriken, skieden troch komma&apos;s, bygelyks 1, 3, 5-12" tooltip=""/>
+			<item id="1040" text="&amp;Subset:" tooltip=""/>
+			<item id="1041" text="Metoade:" tooltip=""/>
+			<item id="1042" text="Blêd:" tooltip=""/>
+			<item id="1043" text="&amp;Namme:" tooltip=""/>
+			<item id="1044" text="Tastân:" tooltip=""/>
+			<item id="1045" text="&amp;Alle siden" tooltip=""/>
+			<item id="1046" text="Aktiv&amp;e siden" tooltip=""/>
+			<item id="1047" text="Se&amp;llektearre siden" tooltip=""/>
+			<item id="1048" text="Aktive &amp;werjefte" tooltip=""/>
+			<item id="1049" text="Side&amp;n:" tooltip=""/>
+			<item id="1050" text="Selektearre ôf&amp;bylding" tooltip=""/>
+			<item id="1086" text="&amp;Eigenskippen..." tooltip=""/>
+			<item id="1087" text="Nei triem printsje" tooltip=""/>
+			<item id="1088" text="Sideoarder omkeare" tooltip=""/>
+			<item id="1094" text="Sortearje" tooltip=""/>
+			<item id="1096" text="Yn griiswearden printsje" tooltip=""/>
+			<item id="1097" text="As ôfbyldings printsje" tooltip=""/>
+			<item id="1099" text="Opsjes..." tooltip=""/>
+			<item id="1127" text="Siden skale" tooltip=""/>
+			<item id="1200" text="Printer" tooltip=""/>
+			<item id="1201" text="Print berik" tooltip=""/>
+			<item id="1202" text="Avansearre printopsjes" tooltip=""/>
+			<item id="1203" text="Type:" tooltip=""/>
+			<item id="1204" text="Print opsjes" tooltip=""/>
+			<item id="1205" text="Te printsjen ûnderdielen:" tooltip=""/>
+			<item id="1206" text="Printsje:" tooltip=""/>
+			<item id="1207" text="Skaal:" tooltip=""/>
+			<item id="1330" text="&amp;Alles" tooltip=""/>
+			<item id="1331" text="&amp;Selektearre siden" tooltip=""/>
+			<item id="1332" text="Ak&amp;tive side" tooltip=""/>
+			<item id="1333" text="S&amp;iden:" tooltip=""/>
+			<item id="1335" text="Subset:" tooltip=""/>
+			<item id="1339" text="Aktive &amp;werjefte" tooltip=""/>
+			<item id="1340" text="Selektearre ô&amp;fbylding" tooltip=""/>
+			<item id="1341" text="Omkearde oarder" tooltip=""/>
+			<item id="1343" text="Avansearre..." tooltip=""/>
+			<item id="1387" text="Fier sidenûmer en/of sideberik yn, skieden troch komma&apos;s begjinnend fanôf it begjin fan it dokumint. Bygelyks: 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="230" text="">
+			<item id="1038" text="Side zoom:" tooltip=""/>
+			<item id="1116" text="Papierboarne kieze ôfhinklik fan sideformaat fan pdf-dokumint" tooltip=""/>
+			<item id="1120" text="Automatysk rotearje" tooltip=""/>
+			<item id="1121" text="Automatysk sintraal sette" tooltip=""/>
+		</dialog>
+		<dialog id="231" text="">
+			<item id="1038" text="Siden de blêd" tooltip=""/>
+			<item id="1039" text="Sideoarder:" tooltip=""/>
+			<item id="1108" text="Siderâne printsje" tooltip=""/>
+			<item id="1120" text="Siden autom. rotearje" tooltip=""/>
+			<item id="1121" text="Side automatysk sentrearje yn sell" tooltip=""/>
+			<item id="1128" text="by" tooltip=""/>
+		</dialog>
+		<dialog id="232" text="">
+			<item id="1038" text="Skale:" tooltip=""/>
+			<item id="1039" text="%" tooltip=""/>
+			<item id="1040" text="Oerlappe:" tooltip=""/>
+			<item id="1041" text="pt" tooltip=""/>
+			<item id="1042" text="Snijtekens: " tooltip=""/>
+			<item id="1110" text="Op blêd snij markearrings sjen litte" tooltip=""/>
+			<item id="1118" text="Kaartjes" tooltip=""/>
+			<item id="1120" text="Yn kompositie blêd automatysk rotearje" tooltip=""/>
+			<item id="1121" text="Side automatysk sentrearje yn kompositie" tooltip=""/>
+		</dialog>
+		<dialog id="236" text="Gean nei side">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Fier it sidenûmer yn:" tooltip=""/>
+		</dialog>
+		<dialog id="237" text="Yn-/útzoomen">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Zoompersintaazje:" tooltip=""/>
+		</dialog>
+		<dialog id="244" text="">
+			<item id="1038" text="Om hokker wurd of wurdgroep wolle jo sykje?" tooltip=""/>
+			<item id="1039" text="Wêr wolle jo sykje?" tooltip=""/>
+			<item id="1040" text="Sortearje op:" tooltip=""/>
+			<item id="1099" text="Opsjes" tooltip=""/>
+			<item id="1139" text="No sykje" tooltip=""/>
+			<item id="1142" text="Wiskje" tooltip=""/>
+		</dialog>
+		<dialog id="245" text="Opsjes foar it sykjen">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Berik brûke:" tooltip=""/>
+			<item id="1126" text="Oerienkommende haad-/lytseletters" tooltip=""/>
+			<item id="1128" text="Sykje yn reaksjes" tooltip=""/>
+			<item id="1129" text="Sykje yn blêdwizers" tooltip=""/>
+			<item id="1130" text="Sykje yn submappen" tooltip=""/>
+			<item id="1131" text="Sykje yn taheakings" tooltip=""/>
+			<item id="1145" text="Allinne dizze wurden" tooltip=""/>
+			<item id="1193" text="Tichstebei" tooltip=""/>
+			<item id="1194" text="Yn side" tooltip=""/>
+			<item id="1195" text="Yn dokumint" tooltip=""/>
+			<item id="1200" text="Brûk dizze oanfoljende sykkritearia:" tooltip=""/>
+		</dialog>
+		<dialog id="246" text="Avansearre sykjen">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="mei al dizze wurden:" tooltip=""/>
+			<item id="1039" text="mei eksakt dizze zin:" tooltip=""/>
+			<item id="1040" text="mei ien fan dizze wurden:" tooltip=""/>
+			<item id="1041" text="sûnder dizze wurden:" tooltip=""/>
+			<item id="1200" text="Kritearia foar avansearre sykopdracht" tooltip=""/>
+		</dialog>
+		<dialog id="247" text="">
+			<item id="1038" text="It te brûken systeemûnthâld yn persintaazje:" tooltip=""/>
+			<item id="1039" text="Maksimum tal trieden foar it opbouwen fan siden:" tooltip=""/>
+			<item id="1040" text="Maksimum tal trieden foar it opbouwen fan sidenminiatueren:" tooltip=""/>
+			<item id="1041" text="Maksimum tal trieden foar it opbouwen fan bewurkings:" tooltip=""/>
+			<item id="1200" text="Unthâld gebrûk" tooltip=""/>
+			<item id="1201" text="CPU gebrûk" tooltip=""/>
+		</dialog>
+		<dialog id="257" text="Siden rotearje">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Ro&amp;tearje:" tooltip=""/>
+			<item id="1039" text="Fier sidenûmer en/of sideberik yn, skieden troch komma&apos;s begjinnend fanôf it begjin fan it dokumint. Bygelyks: 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="&amp;Rjochting:" tooltip=""/>
+			<item id="1164" text="&amp;Alles" tooltip=""/>
+			<item id="1165" text="Se&amp;llektearre siden" tooltip=""/>
+			<item id="1166" text="Akti&amp;ve side" tooltip=""/>
+			<item id="1167" text="S&amp;iden:" tooltip=""/>
+			<item id="1200" text="Sideberik" tooltip=""/>
+		</dialog>
+		<dialog id="258" text="Siden wiskje">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="&amp;Wiskje:" tooltip=""/>
+			<item id="1039" text="Fier sidenûmer en/of sideberik yn, skieden troch komma&apos;s begjinnend fanôf it begjin fan it dokumint. Bygelyks: 1, 3, 5-12" tooltip=""/>
+			<item id="1165" text="Se&amp;llektearre siden" tooltip=""/>
+			<item id="1166" text="Akti&amp;ve side" tooltip=""/>
+			<item id="1167" text="S&amp;iden:" tooltip=""/>
+			<item id="1200" text="Sideberik" tooltip=""/>
+		</dialog>
+		<dialog id="265" text="Eigenskippen">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="3" text="Tapasse" tooltip=""/>
+			<item id="1180" text="&amp;Avansearre" tooltip=""/>
+		</dialog>
+		<dialog id="266" text="">
+			<item id="1038" text="Begjin:" tooltip=""/>
+			<item id="1039" text="Ein:" tooltip=""/>
+			<item id="1040" text="Styl:" tooltip=""/>
+			<item id="1041" text="Dikte:" tooltip=""/>
+			<item id="1042" text="Kleur:" tooltip=""/>
+			<item id="1043" text="Folkleur:" tooltip=""/>
+			<item id="1044" text="Trochsichtigens:" tooltip=""/>
+			<item id="1200" text="Einstylen" tooltip=""/>
+			<item id="1201" text="Râne" tooltip=""/>
+		</dialog>
+		<dialog id="268" text="">
+			<item id="1038" text="Skriuwer:" tooltip=""/>
+			<item id="1039" text="Underwerp:" tooltip=""/>
+			<item id="1040" text="Makke op:" tooltip=""/>
+			<item id="1041" text="Feroare op:" tooltip=""/>
+		</dialog>
+		<dialog id="272" text="">
+			<item id="1038" text="Styl:" tooltip=""/>
+			<item id="1039" text="Dikte:" tooltip=""/>
+			<item id="1040" text="Kleur:" tooltip=""/>
+			<item id="1041" text="Folkleur:" tooltip=""/>
+			<item id="1042" text="Trochsichtigens:" tooltip=""/>
+			<item id="1200" text="Râne" tooltip=""/>
+		</dialog>
+		<dialog id="273" text="">
+			<item id="1038" text="Dikte:" tooltip=""/>
+			<item id="1039" text="Kleur:" tooltip=""/>
+			<item id="1040" text="Trochsichtigens:" tooltip=""/>
+			<item id="1200" text="Râne" tooltip=""/>
+		</dialog>
+		<dialog id="274" text="">
+			<item id="1038" text="De keazen maatienheid wurdt troch it hiele programma as standertienheid brûkt foar it werjaan fan side ôfmjitting, helplinen, it roaster, ensfh..." tooltip=""/>
+			<item id="1200" text="Maatienheden" tooltip=""/>
+		</dialog>
+		<dialog id="278" text="Swierrigens rapportearje...">
+			<item id="1" text="&amp;Folgjende..." tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="4" text="B&amp;lêdzje..." tooltip=""/>
+			<item id="1038" text="Jo berjocht wurdt mei de e-post stjoerd. Jo kinne it berjocht bewurkje foardat jo it stjoere." tooltip=""/>
+			<item id="1039" text="Wa&amp;t foar swierrigens ha jo:" tooltip=""/>
+			<item id="1040" text="&amp;Beskriuwing fan de swierrigens:" tooltip=""/>
+			<item id="1041" text="Wolle jo de pdf-triem as taheaksel oan it berjocht taheakje?" tooltip=""/>
+			<item id="1126" text="Ynformaasje taheakje oer de ynstallearre lettertypen en &amp;kleureprofilen" tooltip=""/>
+			<item id="1127" text="Yn&amp;formaasje taheakje oer de ynstallearre printers en har ynstellings" tooltip=""/>
+			<item id="1128" text="Ynformaasje taheakje oer it ynstallearre bestjoerringssysteem" tooltip=""/>
+			<item id="1183" text="Ynformaasje taheakje oer de &amp;programmaferzje en ynstellings fan de werjouwer" tooltip=""/>
+		</dialog>
+		<dialog id="279" text="">
+			<item id="1038" text="Byldkaike:" tooltip=""/>
+			<item id="1039" text="Kleur:" tooltip=""/>
+			<item id="1040" text="Trochsichtigens:" tooltip=""/>
+			<item id="1200" text="Uterlik" tooltip=""/>
+		</dialog>
+		<dialog id="282" text="JavaSkript-konsole">
+			<item id="1" text="&amp;Utfiere" tooltip=""/>
+			<item id="2" text="Slute" tooltip=""/>
+			<item id="1200" text="Skript" tooltip=""/>
+			<item id="1201" text="Utfier" tooltip=""/>
+		</dialog>
+		<dialog id="283" text="">
+			<item id="1038" text="Ein van line:" tooltip=""/>
+			<item id="1039" text="Styl:" tooltip=""/>
+			<item id="1040" text="Dikte:" tooltip=""/>
+			<item id="1041" text="Streekkleur:" tooltip=""/>
+			<item id="1042" text="Folkleur:" tooltip=""/>
+			<item id="1043" text="Trochsichtigens:" tooltip=""/>
+			<item id="1200" text="Einstylen" tooltip=""/>
+			<item id="1201" text="Râne" tooltip=""/>
+		</dialog>
+		<dialog id="284" text="">
+			<item id="1038" text="Kleur:" tooltip=""/>
+			<item id="1039" text="Trochsichtigens:" tooltip=""/>
+			<item id="1200" text="Uterlik" tooltip=""/>
+		</dialog>
+		<dialog id="290" text="Stempels">
+		</dialog>
+		<dialog id="291" text="">
+			<item id="1038" text="PDF-XChange Viewer as standert werjouwer fan pdf-triemmen ynstelle" tooltip=""/>
+			<item id="1039" text="Foarige programma wer as standertwerjouwer foar pdf-triemen ynstelle:" tooltip=""/>
+			<item id="1127" text="PDF-triemmen yn de blêder werjaan" tooltip=""/>
+			<item id="1162" text="As standertwerjouwer ynstelle" tooltip=""/>
+			<item id="1197" text="Triemkeppelings wersette" tooltip=""/>
+			<item id="1200" text="Triemkeppelings" tooltip=""/>
+		</dialog>
+		<dialog id="292" text="">
+			<item id="1038" text="Trochsichtigens:" tooltip=""/>
+			<item id="1200" text="Uterlik" tooltip=""/>
+		</dialog>
+		<dialog id="295" text="">
+			<item id="1038" text="Brû&amp;kersnamme:" tooltip=""/>
+			<item id="1039" text="&amp;Namme:" tooltip=""/>
+			<item id="1040" text="&amp;Funksje:" tooltip=""/>
+			<item id="1041" text="&amp;Bedriuw:" tooltip=""/>
+			<item id="1042" text="Of&amp;dieling:" tooltip=""/>
+			<item id="1043" text="&amp;E-postadres:" tooltip=""/>
+			<item id="1044" text="Jo persoanlike gegevens kinne yn reaksjes, revisies en digitale hântekenings brûkt wurde.&#10;De ynformaasje dy jo hjir ynfiere,  wurdt allinne troch dit programma brûkt en wurdt ûnder gjin betingst oan tredden meidield, of jo moatte der ekslisiet tastimming foar jûn ha." tooltip=""/>
+			<item id="1200" text="Persoanlike gegevens" tooltip=""/>
+		</dialog>
+		<dialog id="296" text="">
+			<item id="1038" text="Kies in taal foar de omjouwing fan it programma:" tooltip=""/>
+			<item id="1200" text="Talen" tooltip=""/>
+			<item id="1219" text="Lokale landynstellings brûke" tooltip=""/>
+			<item id="1220" text="Oanpaste taal ynstelle" tooltip=""/>
+			<item id="1221" text="Standert programma brûke" tooltip=""/>
+		</dialog>
+		<dialog id="297" text="URL-adres iepenje">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Fier it URL-adres yn fan it dokumint:" tooltip=""/>
+		</dialog>
+		<dialog id="298" text="Oanpasse">
+			<item id="1" text="Slute" tooltip=""/>
+			<item id="1230" text="Fluchtoetsen..." tooltip=""/>
+			<item id="1316" text="Alles weromsette" tooltip=""/>
+		</dialog>
+		<dialog id="299" text="">
+			<item id="1039" text="Arkbalken:" tooltip=""/>
+			<item id="1234" text="Standert" tooltip=""/>
+			<item id="1235" text="Omneame" tooltip=""/>
+			<item id="1237" text="Nij..." tooltip=""/>
+			<item id="1250" text="Wiskje" tooltip=""/>
+		</dialog>
+		<dialog id="300" text="">
+			<item id="1038" text="Om in kommando ta te heakjen, sleep it kommando út it komandolist en set it kommando op de arkbalke of menu fan jo kar." tooltip=""/>
+			<item id="1039" text="Kategoriën:" tooltip=""/>
+			<item id="1040" text="Kommando&apos;s: " tooltip=""/>
+			<item id="1314" text="Beheinde &apos;PRO&apos; kommando&apos;s yn kommandolist, menu en arkbalken sjen litte" tooltip=""/>
+			<item id="1320" text="Nij..." tooltip=""/>
+			<item id="1321" text="Eigenskippen" tooltip=""/>
+		</dialog>
+		<dialog id="301" text="">
+			<item id="1233" text="Skermtips op arkbalken sjen litte" tooltip=""/>
+			<item id="1234" text="Fluchtoetsen yn skermtips werjaan" tooltip=""/>
+			<item id="1235" text="Fluchtoetsen yn menu&apos;s sjen litte" tooltip=""/>
+		</dialog>
+		<dialog id="302" text="">
+			<item id="1038" text="Eftergrûn fan side:" tooltip=""/>
+			<item id="1039" text="Folkleur:" tooltip=""/>
+			<item id="1040" text="Rânekleur:" tooltip=""/>
+			<item id="1126" text="Tekstkleur:" tooltip=""/>
+			<item id="1127" text="Linetekeningen:" tooltip=""/>
+			<item id="1128" text="Allinne kleur fan swarte tekst of linetekeningen feroarje" tooltip=""/>
+			<item id="1200" text="Kleurynstellings foar dokumint" tooltip=""/>
+			<item id="1220" text="&amp;Oanpaste kleurenskema brûke:" tooltip=""/>
+			<item id="1235" text="Kleurenskema fan &amp;Windows brûke" tooltip=""/>
+			<item id="1236" text="Foarôf oantsjutte kleurenskema mei &amp;heech kontrast brûke:" tooltip=""/>
+			<item id="1240" text="Kleuren yn documint negearje" tooltip=""/>
+			<item id="1241" text="Kleur fan linetekeningen en tekst feroarje" tooltip=""/>
+		</dialog>
+		<dialog id="303" text="">
+			<item id="1038" text="&amp;Eftergrûnkleur:" tooltip=""/>
+			<item id="1200" text="Ynstellings foar folsleinskerm" tooltip=""/>
+			<item id="1239" text="&amp;Mûsoanwizer:" tooltip=""/>
+		</dialog>
+		<dialog id="304" text="">
+			<item id="1038" text="&amp;Resolúsje:" tooltip=""/>
+			<item id="1039" text="dpi" tooltip=""/>
+			<item id="1096" text="Ofbyldings nei griisweardern oersette" tooltip=""/>
+			<item id="1200" text="Ynstellings foar momintopnames" tooltip=""/>
+			<item id="1201" text="Lûdsynstellings" tooltip=""/>
+			<item id="1242" text="&amp;Fêste resolúsje brûke foar momintopnames:" tooltip=""/>
+			<item id="1244" text="Gjin lûd werjaan by it meitsje fan momintopnames" tooltip=""/>
+		</dialog>
+		<dialog id="305" text="">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+		</dialog>
+		<dialog id="306" text="">
+			<item id="1038" text="Titel tekst:" tooltip=""/>
+			<item id="1039" text="Styl:" tooltip=""/>
+			<item id="1040" text="Kleur:" tooltip=""/>
+		</dialog>
+		<dialog id="307" text="">
+			<item id="1038" text="Jo mije nije aksjes taheakje of in besteande list bewurkje. Jo mije ek de folchoarder fan aksjes mei help fan slepe&amp;droppe feroarje." tooltip=""/>
+		</dialog>
+		<dialog id="308" text="">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="4" text="Blêdzje..." tooltip=""/>
+			<item id="1038" text="Jo meie in nije bestimming oantsjutte troch op de knop &quot;Brûk aktive werjefte&quot; ûnderoan te klikken:" tooltip=""/>
+			<item id="1039" text="Triemnamme:" tooltip=""/>
+			<item id="1040" text="Side:" tooltip=""/>
+			<item id="1041" text="X:" tooltip=""/>
+			<item id="1042" text="Y:" tooltip=""/>
+			<item id="1043" text="Breedte:" tooltip=""/>
+			<item id="1044" text="Hichte:" tooltip=""/>
+			<item id="1045" text="&amp;Iepenje yn:" tooltip=""/>
+			<item id="1066" text="Foarbyld" tooltip=""/>
+			<item id="1067" text="Reparaasje" tooltip=""/>
+			<item id="1126" text="Beërf" tooltip=""/>
+			<item id="1127" text="Beërf" tooltip=""/>
+			<item id="1200" text="Eigenskippen fan de bestimming" tooltip=""/>
+			<item id="1252" text="Brûk zoom nivo:" tooltip=""/>
+			<item id="1253" text="Brûk rjochthoek:" tooltip=""/>
+			<item id="1261" text="Bestimming dokumint" tooltip=""/>
+			<item id="1271" text="Yn" tooltip=""/>
+			<item id="1272" text="Ut" tooltip=""/>
+			<item id="1275" text="Brûk aktive werjefte" tooltip=""/>
+			<item id="1435" text="Brûk sidenûmer" tooltip=""/>
+			<item id="1436" text="Brûk neamde bestimming" tooltip=""/>
+		</dialog>
+		<dialog id="309" text="">
+			<item id="1039" text="&amp;Namme:" tooltip=""/>
+			<item id="1041" text="&amp;Organisaasje:" tooltip=""/>
+			<item id="1043" text="&amp;E-postadres:" tooltip=""/>
+			<item id="1045" text="&amp;Registraasje kaai:" tooltip=""/>
+			<item id="1200" text="Registraasje ynfo" tooltip=""/>
+			<item id="1274" text="Fertopje yn de fergese ferzje de funskjes dy foar de PRO ferzje bedoele binne" tooltip=""/>
+			<item id="1282" text="Reklamebalke ferbergje" tooltip=""/>
+		</dialog>
+		<dialog id="310" text="">
+			<item id="1038" text="&amp;Lettertype:" tooltip=""/>
+			<item id="1044" text="Teken&amp;grutte:" tooltip=""/>
+			<item id="1200" text="JavaSkript" tooltip=""/>
+			<item id="1201" text="JavaSkript konsole" tooltip=""/>
+			<item id="1276" text="&amp;Javascript aksjes ynskeakelje" tooltip=""/>
+			<item id="1277" text="JavaSkript ynteraktive &amp;konsole ynskeakelje" tooltip=""/>
+			<item id="1278" text="By flat&amp;ers en berjochten konsole sjen litte" tooltip=""/>
+			<item id="1279" text="In warskôging sjen litte as in JavaSkript aksje útfierd wurdt" tooltip=""/>
+		</dialog>
+		<dialog id="311" text="Gean nei rigel">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Rigelnûmer:" tooltip=""/>
+		</dialog>
+		<dialog id="312" text="Siden bysnije">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Tapas&amp;se op" tooltip=""/>
+			<item id="1039" text="Fier sidenûmer en/of sideberik yn, skieden troch komma&apos;s begjinnend fanôf it begjin fan it dokumint. Bygelyks: 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="Fa&amp;k:" tooltip=""/>
+			<item id="1042" text="&amp;Lofts:" tooltip=""/>
+			<item id="1043" text="R&amp;jochts:" tooltip=""/>
+			<item id="1044" text="&amp;Boppe:" tooltip=""/>
+			<item id="1045" text="&amp;Under:" tooltip=""/>
+			<item id="1046" text="&amp;ienheden:" tooltip=""/>
+			<item id="1126" text="Wite marzjes brûke" tooltip=""/>
+			<item id="1127" text="&amp;Wytromtes fuortsmite" tooltip=""/>
+			<item id="1129" text="Ferhâlding behâlde" tooltip=""/>
+			<item id="1164" text="&amp;Alles" tooltip=""/>
+			<item id="1165" text="&amp;Selektearre siden" tooltip=""/>
+			<item id="1166" text="A&amp;ktive side" tooltip=""/>
+			<item id="1167" text="S&amp;iden:" tooltip=""/>
+			<item id="1200" text="Sideberik" tooltip=""/>
+			<item id="1201" text="Marzjes bysnije" tooltip=""/>
+			<item id="1202" text="Marzje bestjoering" tooltip=""/>
+			<item id="1285" text="Alle &amp;fakken sjen litte" tooltip=""/>
+			<item id="1290" text="Op &amp;nul sette" tooltip=""/>
+			<item id="1291" text="Nei &amp;orizjineel weromsette" tooltip=""/>
+		</dialog>
+		<dialog id="313" text="Siden ynfoegje">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="4" text="Blêdzje..." tooltip=""/>
+			<item id="1038" text="Yngoegje:" tooltip=""/>
+			<item id="1039" text="Fier sidenûmer en/of sideberik yn, skieden troch komma&apos;s begjinnend fanôf it begjin fan it dokumint. Bygelyks: 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="Triem:" tooltip=""/>
+			<item id="1042" text="Lokaasje:" tooltip=""/>
+			<item id="1164" text="&amp;Alles" tooltip=""/>
+			<item id="1167" text="S&amp;iden:" tooltip=""/>
+			<item id="1200" text="De sideberik fan de boarne" tooltip=""/>
+			<item id="1201" text="Boarne" tooltip=""/>
+			<item id="1202" text="Bestimming" tooltip=""/>
+			<item id="1292" text="Ut triem" tooltip=""/>
+			<item id="1293" text="Ut al iepensteand dokumint" tooltip=""/>
+			<item id="1295" text="Earste side" tooltip=""/>
+			<item id="1296" text="Lêste side" tooltip=""/>
+			<item id="1297" text="Side:" tooltip=""/>
+		</dialog>
+		<dialog id="314" text="Siden útpakke">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="4" text="Blêd&amp;zje..." tooltip=""/>
+			<item id="6" text="Ma&amp;cro&apos;s" tooltip=""/>
+			<item id="1038" text="Tapasse op:" tooltip=""/>
+			<item id="1039" text="Fier sidenûmer en/of sideberik yn, skieden troch komma&apos;s begjinnend fanôf it begjin fan it dokumint. Bygelyks: 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="Triem&amp;namme:" tooltip=""/>
+			<item id="1043" text="Bestimmings&amp;map:" tooltip=""/>
+			<item id="1126" text="Siden útnimme as apart&amp;e triemmen" tooltip=""/>
+			<item id="1164" text="&amp;Alles" tooltip=""/>
+			<item id="1165" text="&amp;Selektearre siden" tooltip=""/>
+			<item id="1166" text="A&amp;ktive siden" tooltip=""/>
+			<item id="1167" text="S&amp;iden:" tooltip=""/>
+			<item id="1200" text="Sideberik" tooltip=""/>
+			<item id="1201" text="Opsjes" tooltip=""/>
+			<item id="1202" text="Bewarje as" tooltip=""/>
+			<item id="1299" text="Nei it &amp;útnimmen de siden wiskje" tooltip=""/>
+		</dialog>
+		<dialog id="315" text="">
+			<item id="1200" text="Opsjes foar reaksjes oanmeitsjen" tooltip=""/>
+			<item id="1201" text="Besjoch reaksje opsjes" tooltip=""/>
+			<item id="1234" text="Loftbûl ynskeakelje" tooltip=""/>
+			<item id="1302" text="&amp;Omsirkele tekst kopiearje nei de popups foar tekening reaksjes" tooltip=""/>
+			<item id="1303" text="Omsirkele tekst kopiearje nei de popups foar markearring, trochstreekje en ûnderstreekje reaksjes" tooltip=""/>
+			<item id="1354" text="Tekst oantsjutter sjen litte" tooltip=""/>
+		</dialog>
+		<dialog id="316" text="Lege siden ynfoegje">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1039" text="Oriïntaasje:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="Teller:" tooltip=""/>
+			<item id="1042" text="Lokaasje:" tooltip=""/>
+			<item id="1200" text="Siden" tooltip=""/>
+			<item id="1202" text="Bestimming" tooltip=""/>
+			<item id="1292" text="Standert:" tooltip=""/>
+			<item id="1293" text="Oanpast:" tooltip=""/>
+			<item id="1295" text="Earste side" tooltip=""/>
+			<item id="1296" text="Lêste side" tooltip=""/>
+			<item id="1297" text="Side:" tooltip=""/>
+			<item id="1304" text="Steande print" tooltip=""/>
+			<item id="1305" text="Lizzende print" tooltip=""/>
+		</dialog>
+		<dialog id="317" text="Stimpel omneame">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Fier in namme foar de stimpel yn." tooltip=""/>
+		</dialog>
+		<dialog id="318" text="Stimpel ynfoegje">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="4" text="&amp;Blêdzje..." tooltip=""/>
+			<item id="1039" text="&amp;Triem:" tooltip=""/>
+			<item id="1041" text="&amp;Side:" tooltip=""/>
+			<item id="1042" text="&amp;Titel" tooltip=""/>
+			<item id="1200" text="Boarne" tooltip=""/>
+			<item id="1201" text="Stimpel ynformaasje" tooltip=""/>
+		</dialog>
+		<dialog id="321" text="Tekst eigenskippen">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="3" text="Tapasse" tooltip=""/>
+		</dialog>
+		<dialog id="322" text="">
+			<item id="1313" text="Nei klamboerd kopiearje" tooltip=""/>
+		</dialog>
+		<dialog id="324" text="Kommando eigenskippen">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Ofbylding:" tooltip=""/>
+			<item id="1039" text="Titel:" tooltip=""/>
+			<item id="1040" text="Arktip:" tooltip=""/>
+			<item id="1041" text="Tastântekst:" tooltip=""/>
+			<item id="1042" text="Koarte titel:" tooltip=""/>
+			<item id="1043" text="ID:" tooltip=""/>
+			<item id="1044" text="Namme:" tooltip=""/>
+			<item id="1126" text="Kontrolearje troch javaSkript:" tooltip=""/>
+			<item id="1127" text="Ynskeakelje troch JavaSkript:" tooltip=""/>
+			<item id="1198" text="Kommando aksje:" tooltip=""/>
+			<item id="1200" text="Identifikaasjes:" tooltip=""/>
+			<item id="1201" text="Fluchtoets:" tooltip=""/>
+			<item id="1202" text="Steat ûntdekking:" tooltip=""/>
+			<item id="1203" text="Adobe (c) namme:" tooltip=""/>
+			<item id="1204" text="Toetsen:" tooltip=""/>
+			<item id="1205" text="Brûke:" tooltip=""/>
+			<item id="1206" text="Troch:" tooltip=""/>
+			<item id="1261" text="Uterlik:" tooltip=""/>
+			<item id="1292" text="Foarynstelde aksje:" tooltip=""/>
+			<item id="1293" text="In JavaSkript útfiere:" tooltip=""/>
+			<item id="1324" text="Bewurkje..." tooltip=""/>
+			<item id="1325" text="Bewurkje..." tooltip=""/>
+			<item id="1326" text="Bewurkje..." tooltip=""/>
+		</dialog>
+		<dialog id="325" text="">
+			<item id="1039" text="Tekst &amp;gamma:" tooltip=""/>
+			<item id="1076" text="Glêde tekst" tooltip=""/>
+			<item id="1077" text="Glêde lijn kunst" tooltip=""/>
+			<item id="1078" text="Glêde ôfbyldings" tooltip=""/>
+			<item id="1200" text="Tekst rendering" tooltip=""/>
+			<item id="1202" text="Glêde" tooltip=""/>
+		</dialog>
+		<dialog id="326" text="Nije arkbalke">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Titel fan de arkbalke:" tooltip=""/>
+		</dialog>
+		<dialog id="327" text="Annotaasje ôfflakje">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Tapasse op:" tooltip=""/>
+			<item id="1039" text="Fier sidenûmer en/of sideberik yn, skieden troch komma&apos;s begjinnend fanôf it begjin fan it dokumint. Bygelyks: 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="Net-te-printsjen:" tooltip=""/>
+			<item id="1042" text="Formulierfjilden:" tooltip=""/>
+			<item id="1164" text="&amp;Alles" tooltip=""/>
+			<item id="1165" text="&amp;Selektearre siden" tooltip=""/>
+			<item id="1166" text="Ak&amp;tive siden" tooltip=""/>
+			<item id="1167" text="S&amp;iden:" tooltip=""/>
+			<item id="1200" text="Side berik" tooltip=""/>
+			<item id="1201" text="Opsjes" tooltip=""/>
+		</dialog>
+		<dialog id="328" text="Reaksjes gearfetsje">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Groepearje neffens:" tooltip=""/>
+			<item id="1040" text="Sortearje neffens:" tooltip=""/>
+			<item id="1041" text="Type:" tooltip=""/>
+			<item id="1126" text="Utsûndere antwurden" tooltip=""/>
+			<item id="1200" text="Side berik" tooltip=""/>
+			<item id="1201" text="Utfier" tooltip=""/>
+			<item id="1202" text="Opsjes" tooltip=""/>
+			<item id="1261" text="Algemien" tooltip=""/>
+			<item id="1330" text="&amp;Alles" tooltip=""/>
+			<item id="1331" text="&amp;Selektearre siden" tooltip=""/>
+			<item id="1332" text="Ak&amp;tive side" tooltip=""/>
+			<item id="1333" text="S&amp;iden:" tooltip=""/>
+			<item id="1335" text="Subset:" tooltip=""/>
+			<item id="1341" text="Ynklusyf net sichtbere reaksjes" tooltip=""/>
+			<item id="1356" text="Besjoch nij dokumint nei it oanmeitsjen" tooltip=""/>
+			<item id="1387" text="Fier sidenûmer en/of sideberik yn, skieden troch komma&apos;s begjinnend fanôf it begjin fan it dokumint. Bygelyks: 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="329" text="">
+			<item id="1038" text="Opmaak:" tooltip=""/>
+			<item id="1039" text="Papier:" tooltip=""/>
+			<item id="1343" text="Avansearre" tooltip=""/>
+			<item id="1351" text="Eltse groep op in aparte siden pleatse" tooltip=""/>
+			<item id="1352" text="Siden sûnder reaksje oerslaan" tooltip=""/>
+		</dialog>
+		<dialog id="332" text="">
+			<item id="4" text="Blêdzje..." tooltip=""/>
+			<item id="6" text="Makro&apos;s" tooltip=""/>
+			<item id="1038" text="Bestimmingsmapnamme" tooltip=""/>
+			<item id="1039" text="Triemnamme:" tooltip=""/>
+		</dialog>
+		<dialog id="333" text="">
+			<item id="4" text="Blêdzje..." tooltip=""/>
+			<item id="6" text="Makro&apos;s" tooltip=""/>
+			<item id="1038" text="Bestimmingsmapnamme" tooltip=""/>
+			<item id="1039" text="Triemnamme:" tooltip=""/>
+			<item id="1041" text="Papier:" tooltip=""/>
+			<item id="1351" text="Eltse groep op in aparte siden pleatse" tooltip=""/>
+		</dialog>
+		<dialog id="334" text="">
+			<item id="4" text="Blêdzje..." tooltip=""/>
+			<item id="6" text="Makro&apos;s" tooltip=""/>
+			<item id="1038" text="Bestimmingsmapnamme" tooltip=""/>
+			<item id="1039" text="Triemnamme:" tooltip=""/>
+			<item id="1261" text="Tekst kodearring" tooltip=""/>
+			<item id="1292" text="Unykoade" tooltip=""/>
+			<item id="1293" text="MS-DOS" tooltip=""/>
+			<item id="1294" text="Windows" tooltip=""/>
+			<item id="1355" text="Oare:" tooltip=""/>
+		</dialog>
+		<dialog id="335" text="">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1180" text="&amp;Avansearre" tooltip=""/>
+		</dialog>
+		<dialog id="336" text="">
+			<item id="1038" text="Rânestyl:" tooltip=""/>
+			<item id="1039" text="Rânedikte:" tooltip=""/>
+			<item id="1040" text="Rânekleur:" tooltip=""/>
+			<item id="1041" text="Markearmodus:" tooltip=""/>
+		</dialog>
+		<dialog id="337" text="Mjitlabel">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Mjit opmaak label:" tooltip=""/>
+		</dialog>
+		<dialog id="341" text="Nij leech dokumint">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1039" text="Oriïntaasje:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="Teller:" tooltip=""/>
+			<item id="1200" text="Siden" tooltip=""/>
+			<item id="1292" text="Standert:" tooltip=""/>
+			<item id="1293" text="Oanpast:" tooltip=""/>
+			<item id="1304" text="Steande print" tooltip=""/>
+			<item id="1305" text="Lizzende print" tooltip=""/>
+		</dialog>
+		<dialog id="342" text="">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Fier it URL-adres yn:" tooltip=""/>
+		</dialog>
+		<dialog id="343" text="">
+			<item id="1039" text="Oantal kolommen" tooltip=""/>
+			<item id="1040" text="Ofstân tusken kolommen" tooltip=""/>
+			<item id="1041" text="Ienheden:" tooltip=""/>
+			<item id="1042" text="Styl:" tooltip=""/>
+			<item id="1043" text="Dikte:" tooltip=""/>
+			<item id="1044" text="Kleur:" tooltip=""/>
+			<item id="1367" text="Line tusken kolommen" tooltip=""/>
+		</dialog>
+		<dialog id="344" text="Avansearre">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+		</dialog>
+		<dialog id="345" text="Nij dokunint fan tekst">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1039" text="Oriïntaasje:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="Nije aliniea modus:" tooltip=""/>
+			<item id="1042" text="&amp;Lofts:" tooltip=""/>
+			<item id="1043" text="R&amp;jochts:" tooltip=""/>
+			<item id="1044" text="&amp;Boppe:" tooltip=""/>
+			<item id="1045" text="&amp;Under:" tooltip=""/>
+			<item id="1046" text="Nije alinea modus:" tooltip=""/>
+			<item id="1075" text="Besjen..." tooltip=""/>
+			<item id="1099" text="Opsjes..." tooltip=""/>
+			<item id="1198" text="Marzjes" tooltip=""/>
+			<item id="1200" text="Side grutte" tooltip=""/>
+			<item id="1202" text="Baorne teksttriemmen" tooltip=""/>
+			<item id="1203" text="Tekst kodearring:" tooltip=""/>
+			<item id="1292" text="Standert:" tooltip=""/>
+			<item id="1293" text="Oanpast:" tooltip=""/>
+			<item id="1304" text="Steande print" tooltip=""/>
+			<item id="1305" text="Lizzende print" tooltip=""/>
+			<item id="1343" text="Avansearre..." tooltip=""/>
+			<item id="1376" text="Triemmen taheakje..." tooltip=""/>
+			<item id="1377" text="Map taheakje..." tooltip=""/>
+			<item id="1378" text="Fuortsmite" tooltip=""/>
+			<item id="1379" text="Omheech" tooltip=""/>
+			<item id="1380" text="Omleech" tooltip=""/>
+		</dialog>
+		<dialog id="346" text="">
+			<item id="1038" text="Begjin:" tooltip=""/>
+			<item id="1039" text="Ein:" tooltip=""/>
+			<item id="1040" text="Styl:" tooltip=""/>
+			<item id="1041" text="Dikte:" tooltip=""/>
+			<item id="1042" text="Kleur:" tooltip=""/>
+			<item id="1043" text="Folkleur:" tooltip=""/>
+			<item id="1044" text="Trochsichtigens:" tooltip=""/>
+			<item id="1045" text="Lingte:" tooltip=""/>
+			<item id="1046" text="Ofstân:" tooltip=""/>
+			<item id="1047" text="Taheakke:" tooltip=""/>
+			<item id="1200" text="Einstylen" tooltip=""/>
+			<item id="1201" text="Râne" tooltip=""/>
+			<item id="1202" text="Haadline" tooltip=""/>
+			<item id="1203" text="Tekst" tooltip=""/>
+			<item id="1362" text="Tekst yn line sjen litte" tooltip=""/>
+		</dialog>
+		<dialog id="347" text="Alles weromsette">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Binne jo wis dat jo alle ynstellings fan de it programma weromsette wolle?" tooltip=""/>
+			<item id="1126" text="Hâld bekende side list: Hâld jo kar foar bekende siden." tooltip=""/>
+			<item id="1128" text="Hâld doalooch list: Hâld jo kar foar wat warskôgings,  befêstigings en opkom finsters" tooltip=""/>
+			<item id="1129" text="Hâld UI-taal" tooltip=""/>
+			<item id="1373" text="Hâld koartlyn list: Hâld alle koartlyn brûkte dokuminten." tooltip=""/>
+		</dialog>
+		<dialog id="348" text="Dokumint metagegevens">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+		</dialog>
+		<dialog id="351" text="">
+			<item id="6" text="Ma&amp;cro&apos;s" tooltip=""/>
+			<item id="1039" text="Plakmodus" tooltip=""/>
+			<item id="1040" text="Styl:" tooltip=""/>
+			<item id="1041" text="Dikte:" tooltip=""/>
+			<item id="1042" text="Kleur:" tooltip=""/>
+			<item id="1044" text="Eftergrûnkleur:" tooltip=""/>
+			<item id="1128" text="Plak line boppe kop" tooltip=""/>
+			<item id="1200" text="Triemkop" tooltip=""/>
+			<item id="1381" text="Teken line" tooltip=""/>
+			<item id="1385" text="Brûk koptitel" tooltip=""/>
+			<item id="1388" text="Opmaak..." tooltip=""/>
+		</dialog>
+		<dialog id="352" text="Nij dokumint fan ôfbyldings">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1039" text="Oriïntaasje:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1042" text="&amp;Lofts:" tooltip=""/>
+			<item id="1043" text="R&amp;jochts:" tooltip=""/>
+			<item id="1044" text="&amp;Boppe:" tooltip=""/>
+			<item id="1045" text="&amp;Under:" tooltip=""/>
+			<item id="1099" text="Opsjes..." tooltip=""/>
+			<item id="1198" text="Marzjes" tooltip=""/>
+			<item id="1200" text="Side grutte" tooltip=""/>
+			<item id="1202" text="Boarne fan ôfbylding triemmen" tooltip=""/>
+			<item id="1251" text="Bewurkje..." tooltip=""/>
+			<item id="1292" text="Standert:" tooltip=""/>
+			<item id="1293" text="Oanpast:" tooltip=""/>
+			<item id="1304" text="Steande print" tooltip=""/>
+			<item id="1305" text="Lizzende print" tooltip=""/>
+			<item id="1343" text="Avansearre..." tooltip=""/>
+			<item id="1376" text="Triemmen taheakje..." tooltip=""/>
+			<item id="1377" text="Map taheakje..." tooltip=""/>
+			<item id="1378" text="Fuortsmite" tooltip=""/>
+			<item id="1379" text="Omheech" tooltip=""/>
+			<item id="1380" text="Omleech" tooltip=""/>
+			<item id="1406" text="Ymportearje..." tooltip=""/>
+		</dialog>
+		<dialog id="353" text="Avansearre">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+		</dialog>
+		<dialog id="354" text="">
+			<item id="1039" text="Horizontale teller" tooltip=""/>
+			<item id="1040" text="Fertikale teller" tooltip=""/>
+			<item id="1041" text="Horizontale ôfstân" tooltip=""/>
+			<item id="1042" text="Fertikale ôfstân" tooltip=""/>
+			<item id="1043" text="Horizontaal rjochtsje:" tooltip=""/>
+			<item id="1044" text="Fertikaal rjochtsje:" tooltip=""/>
+			<item id="1200" text="Opmaak regels" tooltip=""/>
+			<item id="1201" text="Ofbyldings rjochtsje" tooltip=""/>
+		</dialog>
+		<dialog id="355" text="">
+			<item id="1039" text="foar ôfbyldings hjirboppe:" tooltip=""/>
+			<item id="1040" text="Byldpunten de tomme" tooltip=""/>
+			<item id="1041" text="Byldpunten de tomme" tooltip=""/>
+			<item id="1042" text="foar ôfbyldings hjirboppe" tooltip=""/>
+			<item id="1043" text="Byldpunten de tomme" tooltip=""/>
+			<item id="1044" text="Byldpunten de tomme" tooltip=""/>
+			<item id="1126" text="Brûk dithering" tooltip=""/>
+			<item id="1200" text="Hege kleur/griiswearden ôfbyldings" tooltip=""/>
+			<item id="1201" text="Yndekste ôfbyldings" tooltip=""/>
+			<item id="1202" text="Monogroom ôfbyldings" tooltip=""/>
+			<item id="1203" text="foar ôfbyldings hjirboppe" tooltip=""/>
+			<item id="1204" text="Byldpunten de tomme" tooltip=""/>
+			<item id="1205" text="Byldpunten de tomme" tooltip=""/>
+			<item id="1206" text="Grinswearde:" tooltip=""/>
+			<item id="1401" text="Brûk dithering" tooltip=""/>
+		</dialog>
+		<dialog id="362" text="">
+			<item id="6" text="Makro&apos;s" tooltip=""/>
+			<item id="1039" text="Eftergrûnkleur:" tooltip=""/>
+			<item id="1128" text="Label boppe ôfbylding plakke" tooltip=""/>
+			<item id="1200" text="Ofbyldinglabel" tooltip=""/>
+			<item id="1388" text="Opmaak..." tooltip=""/>
+			<item id="1407" text="Brûk labels" tooltip=""/>
+		</dialog>
+		<dialog id="363" text="Ofbylding bewurkje">
+		</dialog>
+		<dialog id="364" text="">
+			<item id="1038" text="Side(n):" tooltip=""/>
+			<item id="1039" text="Goate:" tooltip=""/>
+			<item id="1040" text="Blêden yn hântekening" tooltip=""/>
+			<item id="1041" text="Type:" tooltip=""/>
+			<item id="1120" text="Siden autom. rotearje" tooltip=""/>
+			<item id="1121" text="Side automatysk sentrearje yn sell" tooltip=""/>
+			<item id="1414" text="Rjochts bine" tooltip=""/>
+		</dialog>
+		<dialog id="365" text="Avansearre print opset">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1038" text="Maksimum resolúsje by it printsjen as ôfbylding:" tooltip=""/>
+			<item id="1039" text="Resolúsje foar ferrin follings:" tooltip=""/>
+			<item id="1040" text="Tekst printsje as bôgen" tooltip=""/>
+			<item id="1041" text="Popup trochsichtens:" tooltip=""/>
+			<item id="1416" text="Notysjes en popups printsje" tooltip=""/>
+		</dialog>
+		<dialog id="366" text="Dokumint wahctwurd ynfiere">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+		</dialog>
+		<dialog id="369" text="Eigenskippen">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1180" text="&amp;Avansearre" tooltip=""/>
+		</dialog>
+		<dialog id="371" text="">
+			<item id="1038" text="Skriuwer:" tooltip=""/>
+			<item id="1039" text="Underwerp:" tooltip=""/>
+			<item id="1040" text="Makke op:" tooltip=""/>
+			<item id="1041" text="Feroare op:" tooltip=""/>
+		</dialog>
+		<dialog id="372" text="">
+			<item id="1045" text="Lingte:" tooltip=""/>
+			<item id="1046" text="Ofstân:" tooltip=""/>
+			<item id="1047" text="Taheakke:" tooltip=""/>
+			<item id="1362" text="Tekst yn line sjen litte" tooltip=""/>
+		</dialog>
+		<dialog id="373" text="Nij dokumint fan sken daliks">
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="1039" text="Selektearje skenner om ôfbyldings te krijen:" tooltip=""/>
+			<item id="1423" text="Skenne..." tooltip=""/>
+			<item id="1424" text="Ferfarskje" tooltip=""/>
+		</dialog>
+		<dialog id="374" text="">
+			<item id="1038" text="Folkleur:" tooltip=""/>
+			<item id="1039" text="Rânekleur:" tooltip=""/>
+			<item id="1126" text="Brûk algemiene markear modus foar formulierfjilden by iepen dokuminten:" tooltip=""/>
+			<item id="1128" text="Markearje alle formulierfjilden" tooltip=""/>
+			<item id="1129" text="Kombofakken" tooltip=""/>
+			<item id="1130" text="Oanfinkfakken" tooltip=""/>
+			<item id="1131" text="Utklaplisten" tooltip=""/>
+			<item id="1132" text="Drukknoppen" tooltip=""/>
+			<item id="1133" text="Karrûntsje" tooltip=""/>
+			<item id="1134" text="Tekstfjilden" tooltip=""/>
+			<item id="1135" text="Hântekenings" tooltip=""/>
+			<item id="1136" text="Markearje fereaske fjilden allinne" tooltip=""/>
+			<item id="1200" text="Algemien" tooltip=""/>
+			<item id="1201" text="Formulierfjilden markearje" tooltip=""/>
+			<item id="1425" text="Formulierfjilden automatysk berekenje" tooltip=""/>
+			<item id="1426" text="Rjochthoek fokus sjen litte" tooltip=""/>
+		</dialog>
+		<dialog id="376" text="">
+			<item id="1039" text="x" tooltip=""/>
+			<item id="1040" text="Oriëntaasje:" tooltip=""/>
+			<item id="1041" text="Lofts:" tooltip=""/>
+			<item id="1042" text="Boppe:" tooltip=""/>
+			<item id="1043" text="Rjochts:" tooltip=""/>
+			<item id="1044" text="Under:" tooltip=""/>
+			<item id="1200" text="Marzjes" tooltip=""/>
+			<item id="1292" text="Standert:" tooltip=""/>
+			<item id="1293" text="Oanpast" tooltip=""/>
+			<item id="1304" text="Steand" tooltip=""/>
+			<item id="1305" text="Lizzend" tooltip=""/>
+		</dialog>
+		<dialog id="377" text="">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+		</dialog>
+		<dialog id="378" text="">
+			<item id="1" text="Okee" tooltip=""/>
+			<item id="2" text="Ofbrekke" tooltip=""/>
+			<item id="4" text="B&amp;lêdzje..." tooltip=""/>
+			<item id="5" text="Blêd&amp;zje..." tooltip=""/>
+			<item id="1039" text="Iepenje &amp;yn:" tooltip=""/>
+			<item id="1040" text="&amp;Operaasje:" tooltip=""/>
+			<item id="1043" text="&amp;Triem:" tooltip=""/>
+			<item id="1044" text="&amp;Triemtafel:" tooltip=""/>
+			<item id="1045" text="&amp;Parameters:" tooltip=""/>
+			<item id="1201" text="Bestimming" tooltip=""/>
+			<item id="1202" text="Opsjes" tooltip=""/>
+		</dialog>
+	</dialogs>
+	<strings count="869">
+		<item id="0" text="90° nei rjochts"/>
+		<item id="1" text="90° nei lofts"/>
+		<item id="2" text="180°"/>
+		<item id="3" text="Alle siden"/>
+		<item id="4" text="Allinne even siden"/>
+		<item id="5" text="Allinne oneven siden"/>
+		<item id="6" text="Alle siden ûnacht oriëntaasje"/>
+		<item id="7" text="Steande siden"/>
+		<item id="8" text="Lizzende siden"/>
+		<item id="9" text="Standertnamme"/>
+		<item id="10" text="Rânestyl:"/>
+		<item id="11" text="Algemien"/>
+		<item id="12" text="Algemiene opsjes"/>
+		<item id="13" text="Kleurbehear"/>
+		<item id="14" text="Ynstellings foar kleurbeheer"/>
+		<item id="15" text="Sidewerjefte"/>
+		<item id="16" text="Werjefte opsjes"/>
+		<item id="17" text="Prestaasjes"/>
+		<item id="18" text="Ynstellings foar ûnthâldgebrûk"/>
+		<item id="19" text="Ienheden"/>
+		<item id="20" text="Ienheden"/>
+		<item id="21" text="Brûkersynformaasje"/>
+		<item id="22" text="Brûkersynformaasje"/>
+		<item id="23" text="Talen"/>
+		<item id="24" text="Ynterfacetaal kieze"/>
+		<item id="25" text="Triemkepelings"/>
+		<item id="26" text="Triemkepelings"/>
+		<item id="27" text="Kategorieën"/>
+		<item id="28" text="Foarkar..."/>
+		<item id="29" text="Eigenskippen fan dokumint"/>
+		<item id="30" text="Eigenskippen fan notysje"/>
+		<item id="31" text="Folslein bewarje, of inkreminteel by digitaal ûndertekene dokuminten"/>
+		<item id="32" text="Altyd folslein bewarje"/>
+		<item id="33" text="Altyd inkreminteel bewarje"/>
+		<item id="34" text="Bewarje foar flugge webwerjefte"/>
+		<item id="35" text="Automatysk"/>
+		<item id="36" text="Allinne siden"/>
+		<item id="37" text="Finster mei blêdwizers en siden"/>
+		<item id="38" text="Finster mei miniatuearen en siden"/>
+		<item id="39" text="Lêst brûkte werjefte"/>
+		<item id="40" text="Ien side"/>
+		<item id="41" text="Trochrinnend"/>
+		<item id="42" text="Neistlizzend"/>
+		<item id="43" text="Trochrinnend - Neistlizzend"/>
+		<item id="44" text="Wiere grutte"/>
+		<item id="45" text="Oanpasse oan side"/>
+		<item id="46" text="Oanpasse oan breedte"/>
+		<item id="47" text="Oanpasse oan sichtbere finster"/>
+		<item id="48" text="Te brûken RAM-ûnthâld: %2 fan %1"/>
+		<item id="49" text="Beskikber RAM-ûnthâld: %1"/>
+		<item id="50" text="Dit systeem befettet %1 CPU(s)"/>
+		<item id="51" text="sm"/>
+		<item id="52" text="sentimeter"/>
+		<item id="53" text="sentimeters"/>
+		<item id="54" text="tm"/>
+		<item id="55" text="Tomme"/>
+		<item id="56" text="Tommen"/>
+		<item id="57" text="mm"/>
+		<item id="58" text="millimeter"/>
+		<item id="59" text="millimeters"/>
+		<item id="60" text="p"/>
+		<item id="61" text="pica"/>
+		<item id="62" text="pica&apos;s"/>
+		<item id="63" text="pt"/>
+		<item id="64" text="punt"/>
+		<item id="65" text="punten"/>
+		<item id="66" text="&apos;%1&apos; úteinsette"/>
+		<item id="67" text="Gjin oare pdf-werjouwer beskikber"/>
+		<item id="68" text="(%1 siden yn totaall)"/>
+		<item id="69" text="It dokumint &quot;%1&quot; is mei in wachtwurd befeilige."/>
+		<item id="70" text="Alle siden yn berik"/>
+		<item id="71" text="Even siden"/>
+		<item id="72" text="Oneven siden"/>
+		<item id="73" text="Net skale"/>
+		<item id="74" text="Oanpasse oan printermarzjes"/>
+		<item id="75" text="Grutte siden skalen oan printermarzjes"/>
+		<item id="76" text="Grutte siden spriede"/>
+		<item id="77" text="Alle siden spriede"/>
+		<item id="78" text="Meardere siden de blêd"/>
+		<item id="79" text="Alle siden yn ien multyside triem bewarje"/>
+		<item id="80" text="Eltse sideberik as aparte triem bewarje"/>
+		<item id="81" text="Eltse side as aparte triem bewarje"/>
+		<item id="82" text="De map &quot;%1&quot; befettet al in triem mei de namme &quot;%2&quot;"/>
+		<item id="83" text="Grutte: %1&#10;Wizige: %2"/>
+		<item id="84" text="Koe de triem &quot;%1&quot; net bewarje:"/>
+		<item id="85" text="Okee"/>
+		<item id="86" text="Ofbrekke"/>
+		<item id="87" text="Jawis"/>
+		<item id="88" text="Nee"/>
+		<item id="89" text="Ofbrekke"/>
+		<item id="90" text="Opnij"/>
+		<item id="91" text="Negearje"/>
+		<item id="92" text="Besykje"/>
+		<item id="93" text="Trochgean"/>
+		<item id="94" text="Jawis op alles"/>
+		<item id="95" text="Nee op alles"/>
+		<item id="96" text="Koe de bestimmingsmap &quot;%1&quot; net oanmeitsje."/>
+		<item id="97" text="It dokumint &quot;%1&quot; is wizige.&#10;&#10;Wolle jo de wizigings yn it dokumint bewarje?"/>
+		<item id="98" text="It dokumint &quot;%1&quot; befettet in digitale hântekening.&#10;Wannear jo it folsleine dokumint bewarret, giet dizze hântekening ferlern.&#10;&#10;Jo kinne it dokumint inkreminteel bewarje, sadat de digitale hântekening behâlden bliuwt, mar dan wurdt it dokumint wol grutter.&#10;Wolle jo it dokumint inkreminteel bewarje?"/>
+		<item id="99" text="Gearfetting: %1 fan %2 siden selektearje"/>
+		<item id="100" text="Flater ûnder it printsjen fan dokumint &quot;%1&quot; :&#10;%2."/>
+		<item id="101" text="Namme"/>
+		<item id="102" text="Net beskikber"/>
+		<item id="103" text="Ree"/>
+		<item id="104" text="Sûnder ferbining"/>
+		<item id="105" text="Dwaande mei iepenjen..."/>
+		<item id="106" text="Papier : %1"/>
+		<item id="107" text="Blêd: %1"/>
+		<item id="108" text="Side: %1"/>
+		<item id="109" text="siden: %1, %2, ..."/>
+		<item id="110" text="&lt;In aktyf dokumint (%1)&gt;"/>
+		<item id="111" text="&lt;Blêdzje...&gt;"/>
+		<item id="112" text="&lt;Avansearre...&gt;"/>
+		<item id="113" text="Stopje"/>
+		<item id="114" text="Nu sykje"/>
+		<item id="115" text="Dwaande mei bewarjen fan ôfbylding nei de triem &quot;%1&quot;..."/>
+		<item id="116" text="Dwaande mei oanmeitsjen fan ôfbylding..."/>
+		<item id="117" text="Dwaande mei eksportearjen..."/>
+		<item id="118" text="Dwaande mei ferwurkjen fan side #%1..."/>
+		<item id="119" text="Dwaande mei printsjen..."/>
+		<item id="120" text="Dwaande mei printsjen fan blêd #%1..."/>
+		<item id="121" text="Dwaande mei printsjen fan side #%1..."/>
+		<item id="122" text="Dwaande mei ôfbrekken..."/>
+		<item id="123" text="Dwaande mei tarieden..."/>
+		<item id="124" text="Sykje om &quot;%1&quot;..."/>
+		<item id="125" text="Sykresultaat: %1 dokumint(en), %2 yngongen"/>
+		<item id="126" text="ofbrutsen"/>
+		<item id="127" text="&quot;%1&quot;: Dwaande mei iepenjen"/>
+		<item id="128" text="&quot;%1&quot;: side #%2..."/>
+		<item id="129" text="Side #%1..."/>
+		<item id="130" text="Koe gjin systeemboarnen ophelje foar it iepene dokumint &quot;%1&quot;:&#10;TE FOLLE BRÛKERS/GDI-objekten yn brûkens troch oare programma&apos;s!&#10;&#10;Graach inkele programma&apos;s (of iepene dokuminten)&#10;te sluten om systeemboarnen frije te meitsjen en besykje it nochris..."/>
+		<item id="131" text="Flater ûnder it bewarjen fan dokuminten nei &quot;%1&quot;:&#10;%2"/>
+		<item id="132" text="Flater ûnder it iepenjen fan dokumint &quot;%1&quot;:&#10;%2"/>
+		<item id="133" text="Flater ûnder it iepenjen fan dokumint:&#10;%1"/>
+		<item id="134" text="Wolle jo grif %1 reaksje(s) wiskje?"/>
+		<item id="135" text="%1: Reaksjes wiskje"/>
+		<item id="136" text="Net mear om befêstiging freegje by it wiskjen fan reaksjes"/>
+		<item id="137" text="Dizze programma as it standertprogramma foar it iepenjen fan PDF-triemmen sette?"/>
+		<item id="138" text="Dizze programma as it standertprogramma foar it iepenjen fan PDF-triemmen sette en tastean dat pdf-triemmen iepene wurde yn jo blêder?"/>
+		<item id="139" text="Wolle jo tastean dat pdf-dokuminten rjochtstreeks mei dizze programma yn jo blêder werjaan wurde?"/>
+		<item id="140" text="Dit berjocht net mear werjaan?"/>
+		<item id="141" text="Koe &quot;%1&quot; net iepenje:&#10;%2"/>
+		<item id="142" text="It paad bestiet net."/>
+		<item id="143" text="Koe de aksje &quot;%1&quot; net útfiere foar &quot;%2&quot;:&#10;%3"/>
+		<item id="144" text="De programma besiket de folgjende side te iepenjen:&#10;&quot;%1&quot;&#10;&#10;Is dizze side te fertrouwen?"/>
+		<item id="145" text="%1: Warskôging foar iepenjen fan side"/>
+		<item id="146" text="Omhâld myn kar foar dizze side"/>
+		<item id="147" text="De programma &quot;%1&quot; is as standertprogramma setten om dizze pdf-triem te iepenjen.&#10;Dizze triem kin programma&apos;s, firussen of macro&apos;s befetsje dy jo systeem beskeadige kinne.&#10;Iepenje dit dokumint allinne as jo wis binne dat it feilich is.&#10;&#10;Klik allinne op iepenje as it dokumint fan in fetroude persoan of webstek ôfkomstich is!"/>
+		<item id="148" text="Uteinsette: %1"/>
+		<item id="149" text="Dit berjocht net mear werjaan"/>
+		<item id="150" text="Side %1"/>
+		<item id="151" text="Menu"/>
+		<item id="152" text="Triem"/>
+		<item id="153" text="Standert"/>
+		<item id="154" text="Zoomen"/>
+		<item id="155" text="Werjefte rotearje"/>
+		<item id="156" text="Sykje"/>
+		<item id="157" text="Reaksje"/>
+		<item id="158" text="Eigenskippen"/>
+		<item id="159" text="Eigenskippen fan pylk"/>
+		<item id="160" text="Eigenskippen fan line"/>
+		<item id="161" text="Eigenskippen fan rjochthoek"/>
+		<item id="162" text="Eigenskippen fan ovaal"/>
+		<item id="163" text="Eigenskippen fan polygoon"/>
+		<item id="164" text="Eigenskippen fan polyline"/>
+		<item id="165" text="Eigenskippen fan frijfoarm"/>
+		<item id="166" text="Eigenskippen fan wolk"/>
+		<item id="167" text="Eigenskippen fan stempel"/>
+		<item id="168" text="Eigenskippen fan tekst"/>
+		<item id="169" text="Eigenskippen fan tekstfak"/>
+		<item id="170" text="Eigenskippen fan reaksjes"/>
+		<item id="171" text="Eigenskippen fan notysje"/>
+		<item id="172" text="Eigenskippen fan ark tekst markearje"/>
+		<item id="173" text="Eigenskippen fan ark Tekst ûnderstreekje"/>
+		<item id="174" text="Eigenskippen fan ark Tekst trochstreekje"/>
+		<item id="175" text="Eigenskippen fan nije tekst"/>
+		<item id="176" text="Eigenskippen fan pylk"/>
+		<item id="177" text="Eigenskippen fan line"/>
+		<item id="178" text="Eigenskippen fan rjochthoek"/>
+		<item id="179" text="Eigenskippen fan ovaal"/>
+		<item id="180" text="Eigenskippen fan polygoon"/>
+		<item id="181" text="Eigenskippen fan polyline"/>
+		<item id="182" text="Eigenskippen fan frijfoarm"/>
+		<item id="183" text="Eigenskippen fan wolk"/>
+		<item id="184" text="Eigenskippen fan stempel"/>
+		<item id="185" text="Eigenskippen fan tekst"/>
+		<item id="186" text="Eigenskippen fan tekstfak"/>
+		<item id="187" text="Eigenskippen fan reaksjes"/>
+		<item id="188" text="Eigenskippen fan notysje"/>
+		<item id="189" text="Eigenskippen fan markearre tekst"/>
+		<item id="190" text="Eigenskippen fan ûnderstreeke tekst"/>
+		<item id="191" text="Eigenskippen fan trochstreeke tekst"/>
+		<item id="192" text="Eigenskippen fan nije tekst"/>
+		<item id="193" text="Pylk"/>
+		<item id="194" text="Line"/>
+		<item id="195" text="Rjochthoek"/>
+		<item id="196" text="Ovaal"/>
+		<item id="197" text="Polygoon"/>
+		<item id="198" text="Polyline"/>
+		<item id="199" text="Potlead"/>
+		<item id="200" text="Wolk"/>
+		<item id="201" text="Stempel"/>
+		<item id="202" text="Caret"/>
+		<item id="203" text="Tekstfak"/>
+		<item id="204" text="Notysje"/>
+		<item id="205" text="Markearje"/>
+		<item id="206" text="Understreekje"/>
+		<item id="207" text="Trochstreekje"/>
+		<item id="208" text="Triem taheaksel"/>
+		<item id="209" text="Lûd"/>
+		<item id="210" text="Tekstopmaak"/>
+		<item id="211" text="Gjin folkleur"/>
+		<item id="212" text="Gjin rânekleur"/>
+		<item id="213" text="Mear kleuren..."/>
+		<item id="214" text="Net beskaat"/>
+		<item id="215" text="Net oantsjutte"/>
+		<item id="216" text="Kleur"/>
+		<item id="217" text="Eigenskippen..."/>
+		<item id="218" text="Net werkend"/>
+		<item id="219" text="Unbekend"/>
+		<item id="220" text="Gjin"/>
+		<item id="221" text="Nammeleas"/>
+		<item id="222" text="Uterlik"/>
+		<item id="223" text="Ynstellings foar úterlik"/>
+		<item id="224" text="Algemien"/>
+		<item id="225" text="Algemiene ynformaasje"/>
+		<item id="226" text="Lettertypen"/>
+		<item id="227" text="Brûkte lettertypen yn dit dokumint"/>
+		<item id="228" text="Feiligens"/>
+		<item id="229" text="Beheining en befeiligingsynstellings foar dokumint"/>
+		<item id="230" text="Wachtwurdbefeiliging"/>
+		<item id="231" text="Net tastean"/>
+		<item id="232" text="Lege resolúsje"/>
+		<item id="233" text="Hege resolúsje"/>
+		<item id="234" text="Tastean"/>
+		<item id="235" text="Dwaande mei it laden fan boarnen..."/>
+		<item id="236" text="Dwaande mei inisjonalisearjen..."/>
+		<item id="237" text="Gjin"/>
+		<item id="238" text="Fjouwerkant"/>
+		<item id="239" text="Sirkel"/>
+		<item id="240" text="Rút"/>
+		<item id="241" text="Iepen pylk"/>
+		<item id="242" text="Sluten pylk"/>
+		<item id="243" text="Streepke"/>
+		<item id="244" text="Omkeard iepen pylk"/>
+		<item id="245" text="Omkeard sluten pylk"/>
+		<item id="246" text="Slash"/>
+		<item id="247" text="Blêdwizers"/>
+		<item id="248" text="Siden"/>
+		<item id="249" text="Fjilden"/>
+		<item id="250" text="Lagen"/>
+		<item id="251" text="Reaksjes"/>
+		<item id="252" text="Dizze ljepper slute"/>
+		<item id="253" text="%1 lettertypen fûn"/>
+		<item id="254" text="fan %1"/>
+		<item id="255" text="%1&#10;Titel: %2&#10;Skriuwer: %3&#10;Underwerp: %4&#10;Stekwurden: %5&#10;Siden: %6"/>
+		<item id="256" text="Side #%1"/>
+		<item id="257" text="Side #%1: &#10;%2"/>
+		<item id="258" text="Sykje yn PDF"/>
+		<item id="259" text="Dokumint"/>
+		<item id="260" text="Dokumint en annotaasjes"/>
+		<item id="261" text="Dokumint en stempels"/>
+		<item id="262" text="Allinne gegevensfjilden"/>
+		<item id="263" text="Pannen en zoomen"/>
+		<item id="264" text="Fergrutglês"/>
+		<item id="265" text="Wizigings bewarje?"/>
+		<item id="266" text="Wizigings inkreminteel bewarje?"/>
+		<item id="267" text="Triemynfo"/>
+		<item id="268" text="Namme:"/>
+		<item id="269" text="Type:"/>
+		<item id="270" text="Map:"/>
+		<item id="271" text="Paad:"/>
+		<item id="272" text="Triemgruitte:"/>
+		<item id="273" text="%1 bytes"/>
+		<item id="274" text="Wizige:"/>
+		<item id="275" text="Dokumintgegevens"/>
+		<item id="276" text="PDF-ferzje:"/>
+		<item id="277" text="Siden:"/>
+		<item id="278" text="Titel:"/>
+		<item id="279" text="Underwerp:"/>
+		<item id="280" text="Skriuwer:"/>
+		<item id="281" text="Stekwurden:"/>
+		<item id="282" text="Makke mei:"/>
+		<item id="283" text="Programma:"/>
+		<item id="284" text="Fersifergegevens"/>
+		<item id="285" text="%1-bits AES"/>
+		<item id="286" text="%1-bits RC4"/>
+		<item id="287" text="Nivo"/>
+		<item id="288" text="Folslein tastean"/>
+		<item id="289" text="Printsjen"/>
+		<item id="290" text="Dokumint feroarje"/>
+		<item id="291" text="Siden kopiearje of útnimme"/>
+		<item id="292" text="Reaksjes en formulierfjilden taheakje"/>
+		<item id="293" text="Formulierfjilden ynfolje en ûndertekeneje"/>
+		<item id="294" text="Ynhâld tagonglik meitsje"/>
+		<item id="295" text="Dokumint gearstolle"/>
+		<item id="296" text="Dwaande mei it iepenjen fan dokumint..."/>
+		<item id="297" text="Dwaande mei it iepenjen fan &quot;%1&quot;..."/>
+		<item id="298" text="Dwaande mei it ynladen fan &quot;%1&quot;..."/>
+		<item id="299" text="%1 fan %2 triemmen yanladen"/>
+		<item id="300" text="Dwaande mei bewarjen fan dokumint..."/>
+		<item id="301" text="Dwaande mei bewarjen nei &quot;%1&quot;..."/>
+		<item id="302" text="Dwaande mei tapasse fan wizigings..."/>
+		<item id="303" text="Dwaande me tarieden fan bewarjen fan dokumint..."/>
+		<item id="304" text="Dwaande me bewarjen fan dokumint..."/>
+		<item id="305" text="Dwaande me opheljen fan siden..."/>
+		<item id="306" text="Dwaande me opheljen fan side-ynformaasje..."/>
+		<item id="307" text="Dwaande me opheljen fan annotaasjes..."/>
+		<item id="308" text="Selektearje in bestimmmingmap foar de  ôfbylding(s):"/>
+		<item id="309" text="Selektearje in bestimmingsmap foar ynladen triemmen:"/>
+		<item id="310" text="Selektearje in map wêryn jo sykjen wolle:"/>
+		<item id="311" text="Grafyk"/>
+		<item id="312" text="Paperclip"/>
+		<item id="313" text="Taheaksels"/>
+		<item id="314" text="Tag"/>
+		<item id="315" text="Ear"/>
+		<item id="316" text="Mikrofoan"/>
+		<item id="317" text="Lûd"/>
+		<item id="318" text="Fink"/>
+		<item id="319" text="Sirkel"/>
+		<item id="320" text="Reaksje"/>
+		<item id="321" text="Krús"/>
+		<item id="322" text="Help"/>
+		<item id="323" text="Tekst ynfoegje"/>
+		<item id="324" text="Kaai"/>
+		<item id="325" text="Nije alinea"/>
+		<item id="326" text="Notysje"/>
+		<item id="327" text="Alinea"/>
+		<item id="328" text="Pylk-rjochts"/>
+		<item id="329" text="Pointer-Rjochts"/>
+		<item id="330" text="Gebiet mjitting"/>
+		<item id="331" text="Pylk-omheech"/>
+		<item id="332" text="Pylk-lofts-omheech"/>
+		<item id="333" text="Notysje"/>
+		<item id="334" text="Markearje"/>
+		<item id="335" text="Reaksjes by de tekst"/>
+		<item id="336" text="Understreekje"/>
+		<item id="337" text="Trochstreekje"/>
+		<item id="338" text="Nije tekst"/>
+		<item id="339" text="Reaksjes"/>
+		<item id="340" text="Brûker"/>
+		<item id="341" text="Typemasine"/>
+		<item id="342" text="Pylk"/>
+		<item id="343" text="Line"/>
+		<item id="344" text="Rjochthoek"/>
+		<item id="345" text="Ovaal"/>
+		<item id="346" text="Wolk"/>
+		<item id="347" text="Polyline"/>
+		<item id="348" text="Polygoon"/>
+		<item id="349" text="Potlead"/>
+		<item id="350" text="Siden: %1 fan %2"/>
+		<item id="351" text="Zoompersintaazje: %1"/>
+		<item id="352" text="Wolle jo grif de list mei koartlyn iepene dokuminten wiskje?"/>
+		<item id="353" text="BEFEILIGE"/>
+		<item id="354" text="Iepenje"/>
+		<item id="355" text="Bewarje"/>
+		<item id="356" text="Bewarje as"/>
+		<item id="357" text="Kopy bewarje as"/>
+		<item id="358" text="Printsje nei triem"/>
+		<item id="359" text="Tangongklikens"/>
+		<item id="360" text="Tangongklikensopsjes"/>
+		<item id="361" text="Griene tekst op swarte eftergrûn"/>
+		<item id="362" text="Giele tekst op swarte eftergrûn"/>
+		<item id="363" text="Witte tekst op swarte eftergrûn"/>
+		<item id="364" text="Swarte tekst op witte eftergrûn"/>
+		<item id="365" text="Skermfoljende modus"/>
+		<item id="366" text="Opsjes foar skermfoljende modus"/>
+		<item id="367" text="Nei in beskiede tiid ferbergje"/>
+		<item id="368" text="Altyd werjaan"/>
+		<item id="369" text="Altyd ferbergje"/>
+		<item id="370" text="Momintopname"/>
+		<item id="371" text="Opsjes foar momintopname"/>
+		<item id="372" text="It dokumint &quot;%1&quot; is beskeadige.&#10;&#10;It programma hat de folgjende flaters fûn yn it dokumint:&#10;%2&#10;&#10;Wy riede jo oan it dokumint op &apos;e nij te bewarjen."/>
+		<item id="373" text="Koe ien of mear eksterne ferwizigings net fine."/>
+		<item id="374" text="XREF-tabel befettet flaters."/>
+		<item id="375" text="Ferwizing nei objekt is in gjin inkel XREF-fragmint oantroffen."/>
+		<item id="376" text="Flater ûnder it laden fan objekt: ûnjildich objektstruktuer."/>
+		<item id="377" text="Flater ûnder it laden fan objekt:objekt is net just rjochte."/>
+		<item id="378" text="Unjildich objekt stream."/>
+		<item id="379" text="Fereaske wearden net fûn."/>
+		<item id="380" text="Fereaske wearden net fûn."/>
+		<item id="381" text="Objekt is net oantroffen yn it aktive fragment of yn eardere fragminten, mar yn de beskriuwing dy yn de folgjende fragminten wurde fûn (fan programma foar liniearde triemmen)."/>
+		<item id="382" text="It dokumint &quot;%1&quot; is beskeadige.&#10;It programma kin dit dokumint net inkreminteel bewarje.&#10;Wolle jo it dokumint net-inkreminteel bewarje? Warskôging: as it dokumint in digitale&#10;hântekening befetsje, giet dizze ferlern."/>
+		<item id="383" text="Net merke"/>
+		<item id="384" text="Anonym"/>
+		<item id="385" text="&lt;Unbekende skriuwer&gt; (%1)"/>
+		<item id="386" text="&lt;Unbekende datum&gt; (%1)"/>
+		<item id="387" text=" Side %1 (%2)"/>
+		<item id="388" text="%1 (%2)"/>
+		<item id="389" text="Unjildige wearde: moat grutter wêze dan of gelyk oan %s."/>
+		<item id="390" text="Unjildige wearde: moat gruter wêze dan of gelyk oan %s en minder dan of gelyk oan %s."/>
+		<item id="391" text="Unjildige wearde: moat minder wêze dan of gelyk oan %s."/>
+		<item id="392" text="** Unjildich **"/>
+		<item id="393" text="Unjildige datum/tiid: wês der wis fan dat datum/tiid bestiet. Fjild %field%  soe oerienkomme moatte mei de opmaak  %format%."/>
+		<item id="394" text="De ynfierde wearde komt net oerien mei de opmaak fan it fjild %s."/>
+		<item id="395" text="am"/>
+		<item id="396" text="pm"/>
+		<item id="397" text="Wole jo %1 blêdwizer(s) en alle bêrn fan de blêdwizers wiskje?"/>
+		<item id="398" text="Wolle jo %1 blêdwizer(s) wiskje?"/>
+		<item id="399" text="Blêdwizer(s) wiske: %1"/>
+		<item id="400" text="Yn de takomst sûnder befêstiging wiskje"/>
+		<item id="401" text="Blêdwizer eigenskippen"/>
+		<item id="402" text="Multy blêdwizer eigenskippen"/>
+		<item id="403" text="Aksjes"/>
+		<item id="404" text="Aksjelist"/>
+		<item id="405" text="Normaal"/>
+		<item id="406" text="Fet"/>
+		<item id="407" text="Skeanprinte"/>
+		<item id="408" text="Fet en skeanprinte"/>
+		<item id="409" text="Unbekende akjse"/>
+		<item id="410" text="Gean nei in side yn dit dokumint"/>
+		<item id="411" text="Gean nei in side yn in oar dokumint"/>
+		<item id="412" text="Gean nei in side yn it ynsletten dokumint"/>
+		<item id="413" text="In triem iepenjen"/>
+		<item id="414" text="In artikel lêse"/>
+		<item id="415" text="In webkeppeling iepenje"/>
+		<item id="416" text="In lûd ôfspylje"/>
+		<item id="417" text="In film ôfspylje"/>
+		<item id="418" text="Wikselje fjilden en reaksjes"/>
+		<item id="419" text="In beneamde kommando útfiere"/>
+		<item id="420" text="In formulier ynstjoere"/>
+		<item id="421" text="In formulier weromsette"/>
+		<item id="422" text="Formuliergegevens ymportearje"/>
+		<item id="423" text="In javaSkript útfiere"/>
+		<item id="424" text="Laach sichtberens ynstelle"/>
+		<item id="425" text="Multymedia kontrôle"/>
+		<item id="426" text="Side bywurk en oergong"/>
+		<item id="427" text="Nei 3D werjefte gean"/>
+		<item id="428" text="Zoom"/>
+		<item id="429" text="Beërf"/>
+		<item id="430" text="Breedte"/>
+		<item id="431" text="Hichte"/>
+		<item id="432" text="oanpasse oan hichte"/>
+		<item id="433" text="Oanpasse oan sichtbere breedte"/>
+		<item id="434" text="Oanpasse oan sichtbere hichte"/>
+		<item id="435" text="Triem"/>
+		<item id="436" text="Operaasje"/>
+		<item id="437" text="Parameters"/>
+		<item id="438" text="Jo kinne gjin siden fan dit dokumint wiskje. Der moat yn elts gefal ien side oerbliuwe."/>
+		<item id="439" text="Wolle jo %1 side(n) fan dit dokumint wiskje?"/>
+		<item id="440" text="Sider(n) wiske: %1"/>
+		<item id="441" text="Nije aksje"/>
+		<item id="442" text="Aksje bewurkje"/>
+		<item id="443" text="Wolle jo %1 aksje(s) wiskje?"/>
+		<item id="444" text="Aksje(s) wiske: %1"/>
+		<item id="445" text="Yn de takomst sûnder befêstiging wiskje"/>
+		<item id="446" text="JavaSkript"/>
+		<item id="447" text="JavaSkript opsjes"/>
+		<item id="448" text="Registraasje"/>
+		<item id="449" text="Registraasje parameters"/>
+		<item id="450" text="Ln: %1"/>
+		<item id="451" text="Ln: %2"/>
+		<item id="452" text="INS"/>
+		<item id="453" text="OVR"/>
+		<item id="454" text="Dit dokumint befettet JavaSkript. Wolle jo alle JavaSkript akjses yn dit dokumint aktivearje?&#10;It dokumint kin wolles net just wurkje at se út stean."/>
+		<item id="455" text="Underdruk dit berjocht - oant it dokumint wer iepene wurdt"/>
+		<item id="456" text="JavaSkript: %1"/>
+		<item id="457" text="Funksje fan de PRO ferzje - fereasket in lisinsje - sjoch Help"/>
+		<item id="458" text="Oanpaste maat"/>
+		<item id="459" text="&apos;PRO&apos; Funksje warskôging"/>
+		<item id="460" text="Dit is in funksje fan de PDF-Xchange viewer PRO.&#10;Jo kinne it brûke yn de fergese ferzje -  mar dan komme der wol in DEMO(!) kaartsjes op jo PDF siden as jo de triem bewarje.&#10;Om dit faor te kommen - opwurdearje nei in &apos;PRO&apos; lisinsje - Sjoch yn de help triem of gean nei ús webstek ta foar mear ynfomaasje.&#10;&#10;Wolle jo dizze funksje brûke?"/>
+		<item id="461" text="Wolle jo %1 side(n) ferpleatse?"/>
+		<item id="462" text="%1: Side(n) wurde ferpleatst"/>
+		<item id="463" text="Eigenskippen foar meardere annotaasjes"/>
+		<item id="464" text="Bewurkje"/>
+		<item id="465" text="Byld"/>
+		<item id="466" text="Dokumint"/>
+		<item id="467" text="Ark"/>
+		<item id="468" text="Finster"/>
+		<item id="469" text="Help"/>
+		<item id="470" text="Brûker"/>
+		<item id="471" text="Fak bysnije"/>
+		<item id="472" text="Bloed fak"/>
+		<item id="473" text="Snij fak"/>
+		<item id="474" text="Kunstfak"/>
+		<item id="475" text="Bysniene side grutte: %1"/>
+		<item id="476" text="Bleed fakgrutte:%1"/>
+		<item id="477" text="Trim fakgrutte: %1"/>
+		<item id="478" text="Kunstfakgrutte: %1"/>
+		<item id="479" text="Unjildige foarbyld"/>
+		<item id="480" text="Foarbyld ynfo wurd laden, in amerijke..."/>
+		<item id="481" text="Fersifere"/>
+		<item id="482" text="Dokumint &quot;%1&quot; is beskerme. Jo hawwe gjin permisje om it foar de hanneling te brûken."/>
+		<item id="483" text="%1: Siden ynfoegje"/>
+		<item id="484" text="Dit dokumint oan de Lêste dokumint list heakje (negearje wiskjen fan item as totale items mear as fêststelt is)"/>
+		<item id="485" text="Dit dokumint fan de Lêste dokumint list helje (it wiskjen fan item as totale items mear as fêststelt is tastean)"/>
+		<item id="486" text="Lêste brûkte lettertypen"/>
+		<item id="487" text="Alle lettertypen"/>
+		<item id="488" text="Zoom nivo&apos;s"/>
+		<item id="489" text="Zoom modus"/>
+		<item id="490" text="Foarôf"/>
+		<item id="491" text="Nei de tiid"/>
+		<item id="492" text="Standert kleuren"/>
+		<item id="493" text="Oapaste kleuren"/>
+		<item id="494" text="Swart"/>
+		<item id="495" text="Brún"/>
+		<item id="497" text="Donkergrien"/>
+		<item id="503" text="Oranje"/>
+		<item id="505" text="Grien"/>
+		<item id="507" text="Blau"/>
+		<item id="508" text="Blau-griis"/>
+		<item id="509" text="Griis - 40%"/>
+		<item id="510" text="Read"/>
+		<item id="511" text="Ljocht oranje"/>
+		<item id="512" text="Lime grien"/>
+		<item id="513" text="See grien"/>
+		<item id="514" text="Wetter blau"/>
+		<item id="515" text="Ljocht blau"/>
+		<item id="517" text="Griis - 50%"/>
+		<item id="518" text="Pears"/>
+		<item id="519" text="Goud"/>
+		<item id="520" text="Giel"/>
+		<item id="521" text="Helder grien"/>
+		<item id="526" text="Rôse"/>
+		<item id="528" text="Ljocht giel"/>
+		<item id="533" text="Wyt"/>
+		<item id="534" text="Reaksje"/>
+		<item id="535" text="Opsjes foar reaksjes"/>
+		<item id="536" text="Siden wiskje, in amerijke"/>
+		<item id="537" text="Siden ferpleatse, in amerijke"/>
+		<item id="538" text="Siden ynfoegje, in amerijke"/>
+		<item id="539" text="Siden útpakke, in amerijke"/>
+		<item id="540" text="Wolle jo %1 side(n) kopiearje?"/>
+		<item id="541" text="%1: Side(n) wurde kopiearre"/>
+		<item id="542" text="Wisker eigenskippen"/>
+		<item id="543" text="Stimpel palet"/>
+		<item id="544" text="Nije stimpel"/>
+		<item id="545" text="Nije koleksje"/>
+		<item id="546" text="De kolleksje befettet noch altyd stimpels. Wolle jo it noch steeds wiskje?"/>
+		<item id="547" text="%1: Stimpelkolleksje wurde wiske"/>
+		<item id="548" text="Koartlyn brûkte list wiskje"/>
+		<item id="549" text="Wolle jo alle items fan de koartlyn brûkte dokumint list wiiskje?"/>
+		<item id="550" text="Jawis oan allen"/>
+		<item id="551" text="Tekst eigenskippen"/>
+		<item id="552" text="Ynhâld"/>
+		<item id="553" text="Tekst ynhâne: Platte tekst"/>
+		<item id="554" text="Opmakke"/>
+		<item id="555" text="Tekst opmaak: Lettertype, skaal, styl, enfh."/>
+		<item id="556" text="Lettertype"/>
+		<item id="557" text="Lettertypegrutte"/>
+		<item id="558" text="Horintale skaal"/>
+		<item id="559" text="Ofstân fan ûnderline"/>
+		<item id="560" text="Warskôging foar objekt laden: objekt skansearre."/>
+		<item id="561" text="Arkbalken"/>
+		<item id="562" text="Kommando&apos;s"/>
+		<item id="563" text="Opsjes"/>
+		<item id="564" text="Opmaak"/>
+		<item id="565" text="Algemien"/>
+		<item id="566" text="Dokumint"/>
+		<item id="567" text="Side werjefte"/>
+		<item id="568" text="Miniatuer werjefte"/>
+		<item id="569" text="BlÊdwizer werjefte"/>
+		<item id="570" text="Taljcohtings werjefte"/>
+		<item id="571" text="Laach werjefte"/>
+		<item id="572" text="Fjild werjefte"/>
+		<item id="573" text="Taheaksel werjefte"/>
+		<item id="574" text="Tekst ferwurker"/>
+		<item id="575" text="Stempelpalet"/>
+		<item id="576" text="Sykwerjefte"/>
+		<item id="577" text="Java Skript"/>
+		<item id="578" text="Fergrutglês finster"/>
+		<item id="579" text="Pan en Zoom finster"/>
+		<item id="580" text="Standert"/>
+		<item id="581" text="Gjin fluchtoets."/>
+		<item id="582" text="Dizze fluchtoets is beskikber."/>
+		<item id="583" text="Dizze fluchtoets wurdt al brûkt by in oar kommando."/>
+		<item id="584" text="Dizze fluchtoets wurdt al brûkt by %1 kommando."/>
+		<item id="585" text="Rendearring"/>
+		<item id="586" text="Rendearring opsjes"/>
+		<item id="587" text="Oanpast"/>
+		<item id="588" text="Fier de tekst yn..."/>
+		<item id="589" text="Net-kritike flaters ûntdútsen yn de XREF tabel."/>
+		<item id="590" text="Offlakje/fuortsmite annotaasjes, in amerijke..."/>
+		<item id="591" text="Plat meitsje"/>
+		<item id="592" text="Litte sa it is"/>
+		<item id="593" text="Fuortsmite"/>
+		<item id="594" text="Bine jo wis dat jo de anotaasjes yn it dokumint ôfflakje/fuortsmite wolle?"/>
+		<item id="595" text="%1: Offlakje/fuortsmite annotaasjes"/>
+		<item id="596" text="Wolle jo alle oanpaste arkbalken/menu&apos;s wiskje en weromsette nei har begjin posysje? klik &apos;Nee&apos; om har te hâlden"/>
+		<item id="597" text="%1: Wiskjen fan oanpaste arkbalken"/>
+		<item id="598" text="Flater ûnder it útpakken fan siden út &quot;%1:&#10;%2"/>
+		<item id="599" text="%1: Siden útpakke"/>
+		<item id="600" text="Flater ûnder it flakjen fan annotaasjes yn &quot;%1&quot;:&#10;%2"/>
+		<item id="601" text="Flater ûnder it ynfoegjen fan siden yn &quot;%1&quot;:&#10;%2"/>
+		<item id="602" text="Flater ûnder it wiskjen fan siden út &quot;%1&quot;:&#10;%2"/>
+		<item id="603" text="Gegevens it de stream helje..."/>
+		<item id="604" text="%1 wurdt laden"/>
+		<item id="605" text="Triemmen út stream iepenje..."/>
+		<item id="606" text="Dokuminten nei stream bewarjhe..."/>
+		<item id="607" text="%1 fan %2 bewarre"/>
+		<item id="608" text="Iepenje dokumint..."/>
+		<item id="609" text="Net wer freegje"/>
+		<item id="610" text="Binne jo wis dat jo %1 side(n) kopiearje wolle fan &quot;%2&quot; nei &quot;%3&quot;"/>
+		<item id="611" text="Binne jo wis dat jo %1 side(n) ferpleatse wolle fan &quot;%2&quot; nei &quot;%3&quot;"/>
+		<item id="612" text="Keppelings"/>
+		<item id="613" text="Mjitte"/>
+		<item id="614" text="Ôfstanark eigenskippen"/>
+		<item id="615" text="Perimeter ark eigenskippen"/>
+		<item id="616" text="Gebiet ark eigenskippenm"/>
+		<item id="617" text="Omtrek line eigenskippen"/>
+		<item id="618" text="Omtrek polyline eigenskippen"/>
+		<item id="619" text="Omtrek polygon eigenskippen"/>
+		<item id="620" text="Keppelings bewurkerark eigenskippen"/>
+		<item id="621" text="Keppeling(s) eigenskippen"/>
+		<item id="622" text="Gjint"/>
+		<item id="623" text="Omdraaie"/>
+		<item id="624" text="ütline"/>
+		<item id="625" text="Ynset"/>
+		<item id="626" text="Reaksjes"/>
+		<item id="627" text="%1: Reaksjes gearfetsje"/>
+		<item id="628" text="Flater ûnder it gearfetsjen fan reaksjes fan &quot;%1&quot;:&#10;%2"/>
+		<item id="629" text="Reaksjes wurde gearfette, in amerijke..."/>
+		<item id="630" text="Reaksjes wurde eksportearre, in amerijke..."/>
+		<item id="631" text="%1: Reaksjes eksportearje"/>
+		<item id="632" text="Flater ûnder it eksportearjen fan reaksjes út &quot;%1&quot;:&#10;%2"/>
+		<item id="633" text="Reaksjes eksportearje"/>
+		<item id="634" text="Adobe XFDF Files (*.xfdf)"/>
+		<item id="635" text="Side"/>
+		<item id="636" text="Type"/>
+		<item id="637" text="Skriuwer"/>
+		<item id="638" text="Datum"/>
+		<item id="639" text="Oarder"/>
+		<item id="640" text="PDF dokumint (*.pdf)"/>
+		<item id="641" text="Rich Tekst opmaak (*.rtf)"/>
+		<item id="642" text="Platte tekst (*.txt)"/>
+		<item id="643" text="Webside, kompleet (*.html)"/>
+		<item id="644" text="Allinne reaksjes"/>
+		<item id="645" text="Dokumint en reaksjes mei ferbinings linen op inkele side"/>
+		<item id="646" text="Dokumint en reaksjes mei opfolgjende nûmers op inkele side"/>
+		<item id="647" text="Dokumint en reaksjes op inkele side"/>
+		<item id="648" text="Dokumint en reaksjes mei ferbinings linen op aparte siden"/>
+		<item id="649" text="Dokumint en reaksjes mei opfolgjende nûmers op aparte siden"/>
+		<item id="650" text="Dokumint en reaksjes op aparte siden"/>
+		<item id="651" text="Selektearje de bestimmingsmap foar nije triem(en):"/>
+		<item id="652" text="Reaksjes wurde sortearre..."/>
+		<item id="653" text="Nij dokumint wurdt bouwe..."/>
+		<item id="654" text="Kopiearje siden fan orzjineel dokumint"/>
+		<item id="655" text="Nije webstee bouwe"/>
+		<item id="656" text="Arkbalke omneame"/>
+		<item id="657" text="Ofstân mjitting"/>
+		<item id="658" text="Perimeter mjitting"/>
+		<item id="659" text="Gebiet mjitting"/>
+		<item id="660" text="Wolle jo selektearre keppelings wiskje?"/>
+		<item id="661" text="%1: Keppeling(s) wurde wiske"/>
+		<item id="662" text="%1: Lege siden  ynfoegje"/>
+		<item id="663" text="Auto"/>
+		<item id="664" text="Ofstân"/>
+		<item id="665" text="Perimeter:"/>
+		<item id="666" text="Gebiet:"/>
+		<item id="667" text="Hoek:"/>
+		<item id="668" text="∆X:"/>
+		<item id="669" text="∆Y:"/>
+		<item id="670" text="Skaal ferhâlding:"/>
+		<item id="671" text="Ofstan ynfo"/>
+		<item id="672" text="Perimeter ynfo"/>
+		<item id="673" text="Gebiet ynfo"/>
+		<item id="674" text="Understreekje"/>
+		<item id="675" text="Keppeling eigenskippen"/>
+		<item id="676" text="Meardere keppeling eigenskippen"/>
+		<item id="677" text="ft"/>
+		<item id="678" text="yd"/>
+		<item id="679" text="m"/>
+		<item id="680" text="km"/>
+		<item id="681" text="mi"/>
+		<item id="682" text="oanpst"/>
+		<item id="683" text="cm²"/>
+		<item id="684" text="in²"/>
+		<item id="685" text="mm²"/>
+		<item id="686" text="p²"/>
+		<item id="687" text="pt²"/>
+		<item id="688" text="ft²"/>
+		<item id="689" text="yd²"/>
+		<item id="690" text="m²"/>
+		<item id="691" text="km²"/>
+		<item id="692" text="mi²"/>
+		<item id="693" text="Mjittings wurde eksportearre, in amerijke"/>
+		<item id="694" text="%1: Mjittings eksportearje"/>
+		<item id="695" text="Flater ûnder it eksportearje fan mjittings út &quot;%1&quot;:&#10;%2"/>
+		<item id="696" text="Mjitopmaak eksportearje"/>
+		<item id="697" text="In aksje(s) tyaheakje"/>
+		<item id="698" text="It oanmeitsjen fan in nij dokumint"/>
+		<item id="699" text="Nij dokumint wurdt oanmakke, in amerijke..."/>
+		<item id="700" text="Eltse nije rigel karakter begjint in alinea"/>
+		<item id="701" text="Eltse dûbele nijrigel karakter begjint in alinea, inkele wurde negearre"/>
+		<item id="702" text="Eltse dûbele nijrigel karakter begjint in alinea, inkele wurde oersetten nei spaasjes"/>
+		<item id="703" text="Underwerk"/>
+		<item id="704" text="Dokumint opsjes"/>
+		<item id="705" text="Side navigaasje"/>
+		<item id="706" text="Opmaak fan siden"/>
+		<item id="707" text="Dokumint útfiere"/>
+		<item id="708" text="Titel"/>
+		<item id="709" text="Taheaksel"/>
+		<item id="710" text="Lokaasje"/>
+		<item id="711" text="Grutte"/>
+		<item id="712" text="Oanpast"/>
+		<item id="713" text="Nij dokumint oanmeitsje..."/>
+		<item id="714" text="Map mei boarne triem(men) selektearje..."/>
+		<item id="715" text="Yn sub-mappen sjen"/>
+		<item id="716" text="Avansearre"/>
+		<item id="717" text="Kolommen"/>
+		<item id="718" text="Kolommen ynstellings"/>
+		<item id="719" text="Triem opsjes"/>
+		<item id="720" text="Triem opsjes"/>
+		<item id="721" text="Fanôf nije alinea"/>
+		<item id="722" text="Fanôf nije side"/>
+		<item id="723" text="Avansearre"/>
+		<item id="724" text="Opmaak"/>
+		<item id="725" text="Ofbydling opmaak opsjes"/>
+		<item id="726" text="Downsampling/Omsetting"/>
+		<item id="727" text="Opsjes foar ôfbylding Downsampling/omsetting"/>
+		<item id="728" text="Boppe oan"/>
+		<item id="729" text="Underoan"/>
+		<item id="730" text="Lofts"/>
+		<item id="731" text="Rjochts"/>
+		<item id="732" text="Sintraal"/>
+		<item id="733" text="Net delbringe"/>
+		<item id="734" text="Linêr delbringe nei"/>
+		<item id="735" text="Bilinêr delbringe nei"/>
+		<item id="736" text="Bikubik delbringe nei"/>
+		<item id="737" text="Net omsette"/>
+		<item id="738" text="Nei griiswearde omsette"/>
+		<item id="739" text="Nei monochroom omsette"/>
+		<item id="740" text="Nei swart/wyt omsette"/>
+		<item id="741" text="Passend"/>
+		<item id="742" text="Dokumint metagegevens"/>
+		<item id="743" text="Avansearre"/>
+		<item id="744" text="Documint metagegevens struktuer"/>
+		<item id="745" text="Composite[%2]: papier &apos;%1&apos;"/>
+		<item id="746" text="pk"/>
+		<item id="747" text="Skenne..."/>
+		<item id="748" text="Skende ôfbylding %1"/>
+		<item id="749" text="Ynfo"/>
+		<item id="750" text="Kodearring"/>
+		<item id="751" text="Type: %1"/>
+		<item id="752" text="Ofbylding: %1"/>
+		<item id="753" text="Siden: %1"/>
+		<item id="754" text="Blêden: %1, %2 totaal"/>
+		<item id="755" text="Totaal %1 triemmen"/>
+		<item id="756" text="Normale werjefte"/>
+		<item id="757" text="Komposite werjefte"/>
+		<item id="758" text="Labels"/>
+		<item id="759" text="Ofbylding label opsjes"/>
+		<item id="760" text="Papier: &apos;%1&apos;"/>
+		<item id="761" text="Side: %1 (tegel %2 fan %3)"/>
+		<item id="762" text="Horizontaal"/>
+		<item id="763" text="Horizontaal omdraaid"/>
+		<item id="764" text="Fertikaal"/>
+		<item id="765" text="Fertikaal omdraaid"/>
+		<item id="766" text="Oanpast"/>
+		<item id="767" text="steand  (%1° CCW)"/>
+		<item id="768" text="Alles negearje"/>
+		<item id="769" text="Brosjuere"/>
+		<item id="770" text="Boek"/>
+		<item id="771" text="Beide"/>
+		<item id="772" text="Foarkant"/>
+		<item id="773" text="Efetkant"/>
+		<item id="774" text="Boekfoarm"/>
+		<item id="775" text="Gjin siden selektearre"/>
+		<item id="776" text="Flater ûnder it pleatsen fan ôfbylding út &quot;%1&quot;:&#10;%2"/>
+		<item id="777" text="Flater ûnder it pleatsen fan tekst út &quot;%1&quot;:&#10;%2"/>
+		<item id="778" text="dpi"/>
+		<item id="779" text="Resolúsje: %1 dpi"/>
+		<item id="780" text="Altyd"/>
+		<item id="781" text="Foar ynsletten lettertypen"/>
+		<item id="782" text="Auto ûntdekke"/>
+		<item id="783" text="(%1 totaal, %2 selektearre)"/>
+		<item id="784" text="Side #%1"/>
+		<item id="785" text="Lêst brûkte map"/>
+		<item id="786" text="Orizjinele map fan it dokumint"/>
+		<item id="787" text="Selektearje de bestimmingsmap foar &apos;Bewarje as&apos; fan dokumint(en):"/>
+		<item id="788" text="Wolle jo alle programma ynstellings weromsette nei de standert?"/>
+		<item id="789" text="Wikselje nei brûker"/>
+		<item id="790" text="Wikselje nei eigner"/>
+		<item id="791" text="Flater ûnder it wikseljen fan brûker foar &quot;%1&quot;:&#10;%2"/>
+		<item id="792" text="Flater ûnder it wikseljen fan eigner foar &quot;%1&quot;:&#10;%2"/>
+		<item id="793" text="Fier in jildich eigner wachtwurd yn om folslein tagong te krijen:"/>
+		<item id="794" text="Fier in jildich brûkerswachtwurd yn om nei it tastiene diel te gean:"/>
+		<item id="795" text="Alle ynstellings ymportearje"/>
+		<item id="796" text="Alle ynstellings eksportearje"/>
+		<item id="797" text="Flater ûnder it iepenjen fan de ynstellings opslach fan triem &quot;%1&quot;. dizze triem befettet net de juste ynstellings opslach: %2"/>
+		<item id="798" text="Flater ûnder it bewarjen fan alle apllikaasje ynstellings nei triem &quot;%1&quot;:&#10;%2"/>
+		<item id="799" text="Wolle jo nije ynstellings foar it programma opsette? Jo aktive ynstellings sille ferfongen wurde en ferlern gean"/>
+		<item id="800" text="De %1 rint noch stees."/>
+		<item id="801" text="Om it finster fan it programma te sjen, klik op de %1 ikoan."/>
+		<item id="802" text="Standert styl"/>
+		<item id="803" text="Nije styl"/>
+		<item id="804" text="%1 kopy"/>
+		<item id="805" text="Dûbelje"/>
+		<item id="806" text="Selektearre styl dûbelje"/>
+		<item id="807" text="Weromsette"/>
+		<item id="808" text="Selektearre styl nei standert weromsette"/>
+		<item id="809" text="Wiskje"/>
+		<item id="810" text="Selektearre styl wiskje"/>
+		<item id="812" text="Rjochte ûnderstreek"/>
+		<item id="813" text="Squiggly ûnderstreek"/>
+		<item id="814" text="Ofbylding wurdt ferwurke..."/>
+		<item id="815" text="Eigenskippen foar meardere annotaasjes"/>
+		<item id="816" text="Rânestyl:"/>
+		<item id="817" text="Rânebreedte:"/>
+		<item id="818" text="Begjin linestyl:"/>
+		<item id="819" text="Ein linestyl:"/>
+		<item id="820" text="Streek kleur:"/>
+		<item id="821" text="Fol kleur:"/>
+		<item id="822" text="Trochsichtigens:"/>
+		<item id="823" text="Notysje ikoan:"/>
+		<item id="824" text="Understreek styl:"/>
+		<item id="825" text="Markear styl:"/>
+		<item id="826" text="Lieder line"/>
+		<item id="827" text="Lieder line opsjes"/>
+		<item id="828" text="Makker:"/>
+		<item id="829" text="Type:"/>
+		<item id="833" text="Formulieren"/>
+		<item id="834" text="Formulier opsjes"/>
+		<item id="835" text="Antwurd eigenskippen"/>
+		<item id="836" text="It ûntsiferjen fan ôfbydling tariede, in amerijke"/>
+		<item id="837" text="Ofbydling wurdt ûntsifere..."/>
+		<item id="838" text="Rjochthoek"/>
+		<item id="839" text="Poly line"/>
+		<item id="840" text="Ofstân"/>
+		<item id="841" text="Typmasine"/>
+		<item id="842" text="Utroppe"/>
+		<item id="843" text="Perimeter"/>
+		<item id="844" text="Gebiet"/>
+		<item id="845" text="Bewolkt"/>
+		<item id="846" text="Ferfange"/>
+		<item id="847" text="Papier"/>
+		<item id="848" text="Papier opsjes"/>
+		<item id="849" text="Stylpalet fan reaksjes"/>
+		<item id="850" text="Formuliergegevens eksportearje as"/>
+		<item id="851" text="Adobe FDF triemmen (*.fdf)"/>
+		<item id="852" text="Text triemmen (*.txt)"/>
+		<item id="859" text="Dokuminten"/>
+		<item id="860" text="Oaren"/>
+		<item id="861" text="Gjin windows"/>
+		<item id="862" text="Selektearje de triem dy&apos;t formuliergegevens befettet"/>
+		<item id="863" text="Bestimmingsnamme"/>
+		<item id="864" text="Finster ynstelt troch de foarkar fan brûker"/>
+		<item id="865" text="Besteand finster"/>
+		<item id="866" text="Nij finster"/>
+		<item id="867" text="Alle triemmen (*.*)"/>
+		<item id="868" text="Selektearje de standertmap foar de aksje &quot;In triem iepenje&quot;:"/>
+	</strings>
+</Localization>

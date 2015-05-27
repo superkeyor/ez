@@ -1,0 +1,1259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+	<Product id="PXCView" version="1.0" productVersion="2.0.0041.0000"/>
+	<language eName="Farsi" lName="فارسي (FA)" lcid="0x0429" prefFont=""/>
+	<commands>
+		<item id="32316" title="عقب" tooltip="عقب" status="" short=""/>
+		<item id="32317" title="جلو" tooltip="جلو" status="" short=""/>
+		<item id="32884" title="&amp;برو به" tooltip="" status="" short=""/>
+		<item id="32890" title="نماي قبل" tooltip="برو به نماي قبل" status="" short=""/>
+		<item id="32891" title="نماي بعد" tooltip="برو به نماي بعد" status="" short=""/>
+		<item id="32892" title="متن قبل" tooltip="" status="" short=""/>
+		<item id="32893" title="متن بعد" tooltip="" status="" short=""/>
+		<item id="32895" title="ت&amp;ک صفحه" tooltip="تک صفحه" status="" short=""/>
+		<item id="32896" title="&amp;پيوسته" tooltip="پيوسته" status="" short=""/>
+		<item id="32897" title="&amp;رو در رو" tooltip="رو در رو" status="" short=""/>
+		<item id="32898" title="پيو&amp;سته و رو در رو" tooltip="پيوسته و رو در رو" status="" short=""/>
+		<item id="32906" title="تن&amp;ظيمات" tooltip="تنظيمات برنامه را نشان بده" status="تنظيمات برنامه را نشان بده" short=""/>
+		<item id="32908" title="نوار ابزار فاي&amp;ل" tooltip="نوار ابزار را نشان بده/پنهان کن" status="نوار ابزار را نشان بده/پنهان کن" short=""/>
+		<item id="32910" title="" tooltip="نوار ابزار توضيحات را نشان بده/پنهان کن" status="" short=""/>
+		<item id="32912" title="" tooltip="نوار ابزار توضيحات را نشان بده/پنهان کن" status="" short=""/>
+		<item id="32924" title="نوار ابزار ا&amp;ستاندارد" tooltip="نوار ابزار استاندارد را نشان بده/پنهان کن" status="نوار ابزار استاندارد را نشان بده/پنهان کن" short=""/>
+		<item id="32925" title="نوار ابزار بزر&amp;گنمايي" tooltip="نوار ابزار بزرگنمايي را نشان بده/پنهان کن" status="نوار ابزار بزرگنمايي را نشان بده/پنهان کن" short=""/>
+		<item id="32929" title="نوار ابزار چر&amp;خاندن نما" tooltip=" نوار ابزار چرخاندن نما را نشان بده/پنهان کن" status=" نوار ابزار چرخاندن نما را نشان بده/پنهان کن" short=""/>
+		<item id="32940" title="" tooltip="نوار ابزار توضيحات را نشان بده/پنهان کن" status="" short=""/>
+		<item id="32944" title="&amp;صادر کردن" tooltip="" status="" short=""/>
+		<item id="32945" title="&amp;صدور به تصوير..." tooltip="صادر کردن صفحه ها به صورت تصوير..." status="صادر کردن صفحه ها به صورت تصوير..." short=""/>
+		<item id="32987" title="&amp;جستجو" tooltip="جعبه جستجوي کامل را نشان بده/پنهان کن" status="جعبه جستجوي کامل را نشان بده/پنهان کن" short=""/>
+		<item id="33000" title="نوار ابزار &amp;جستجو" tooltip="نوار ابزار جستجو را نشان بده/پنهان کن" status=" نوار ابزار جستجو را نشان بده/پنهان کن" short=""/>
+		<item id="33006" title="" tooltip="نوار ابزار توضيحات را نشان بده/پنهان کن" status="" short=""/>
+		<item id="33008" title="" tooltip="نوار ابزار توضيحات را نشان بده/پنهان کن" status="" short=""/>
+		<item id="33009" title="نوار &amp;منو" tooltip="نوار منو را نشان بده/پنهان کن" status="نوار منو را نشان بده/پنهان کن" short=""/>
+		<item id="33038" title="بستن &amp;همه" tooltip="همه متن هاي باز را ببند" status="همه متن هاي باز را ببند" short=""/>
+		<item id="33073" title="صدور داده ها از فر&amp;م..." tooltip="" status="" short=""/>
+		<item id="33074" title="ورود &amp;داده به فرم" tooltip="" status="" short=""/>
+		<item id="33136" title="&amp;حذف کردن" tooltip="نوشته انتخاب شده را حذف کن" status="نوشته انتخاب شده را حذف کن" short=""/>
+		<item id="33138" title="نوار ابزار تو&amp;ضيحات و مارک گذاري" tooltip="نوار ابزار توضيحات و مارک گذاري را نشان بده/پنهان کن" status="نوار ابزار توضيحات و مارک گذاري را نشان بده/پنهان کن" short=""/>
+		<item id="33204" title="&amp;توضيحات" tooltip="نوار ابزار توضيحات را نشان بده/پنهان کن" status="" short=""/>
+		<item id="33225" title="نوار ابزار م&amp;شخصات" tooltip="نوار ابزار مشخصات را نشان بده/پنهان کن" status="نوار ابزار مشخصات را نشان بده/پنهان کن" short=""/>
+		<item id="33248" title="انتخا&amp;ب هيچکدام" tooltip=" هيچکدام را انتخاب نکن" status="" short=""/>
+		<item id="33257" title="&amp;کپي نام کامل فايل" tooltip="نام کامل متن فعال را در کليپبورد کپي کن" status="نام کامل متن فعال را در کليپبورد کپي کن" short=""/>
+		<item id="33258" title="باز کردن &amp;پوشه حاوي اين فايل..." tooltip="پوشه مربوط به متن فعال را باز کن" status="پوشه مربوط به متن فعال را باز کن" short=""/>
+		<item id="33262" title="نوار ابزار تن&amp;ظيمات متن" tooltip="نوار ابزار تنظيمات را نشان بده/پنهان کن" status="نوار ابزار تنظيمات را نشان بده/پنهان کن" short=""/>
+		<item id="33263" title="" tooltip="نوار ابزار توضيحات را نشان بده/پنهان کن" status="" short=""/>
+		<item id="33264" title="" tooltip="نوار ابزار توضيحات را نشان بده/پنهان کن" status="" short=""/>
+		<item id="33265" title="" tooltip="نوار ابزار توضيحات را نشان بده/پنهان کن" status="" short=""/>
+		<item id="33267" title="&amp;فايل" tooltip="" status="" short=""/>
+		<item id="33268" title="فايل هاي ا&amp;خير" tooltip="" status="" short=""/>
+		<item id="33269" title="داده هاي &amp;فرم" tooltip="" status="" short=""/>
+		<item id="33270" title="مش&amp;خصات متن..." tooltip="مشخصات متن فعال را نشان بده" status="مشخصات متن فعال را نشان بده" short=""/>
+		<item id="33272" title="باز کردن از URL&amp;..." tooltip="باز کردن متن از URL..." status="باز کردن متن از URL" short=""/>
+		<item id="33280" title="&amp;ويرايش" tooltip="" status="" short=""/>
+		<item id="33290" title="&amp;نمايش" tooltip="" status="" short=""/>
+		<item id="33291" title="&amp;نوار ابزارها" tooltip="" status="" short=""/>
+		<item id="33293" title="ص&amp;فحه آرايى" tooltip="" status="" short=""/>
+		<item id="33300" title="&amp;متن" tooltip="" status="" short=""/>
+		<item id="33310" title="&amp;ابزار ها" tooltip="" status="" short=""/>
+		<item id="33350" title="&amp;پنجره" tooltip="" status="" short=""/>
+		<item id="36340" title="&amp;مسطح کردن توضيحات" tooltip="" status="" short=""/>
+		<item id="36342" title="" tooltip="نوار ابزار توضيحات را نشان بده/پنهان کن" status="" short=""/>
+		<item id="36345" title="" tooltip="نوار ابزار توضيحات را نشان بده/پنهان کن" status="" short=""/>
+		<item id="36349" title="&amp;توضيحات" tooltip="" status="" short=""/>
+		<item id="36364" title="از صفحه خالي..." tooltip="از صفحه خالي..." status="يک متن PDF جديد با صفحه (ها)ي خالي ايجاد کن..." short=""/>
+		<item id="36365" title="از فايل متن ..." tooltip="از فايل متن ..." status="يک متن PDF جديد از فايل (ها)ي متني موجود ايجاد کن..." short=""/>
+		<item id="36375" title="از فايل تصويري ..." tooltip="از فايل تصويري ..." status="يک متن PDF جديد از فايل (ها)ي تصويري موجود ايجاد کن..." short=""/>
+		<item id="36415" title="نمايش" tooltip="" status="" short=""/>
+		<item id="36416" title="درباره" tooltip="" status="" short=""/>
+		<item id="36417" title="خروج" tooltip="" status="" short=""/>
+		<item id="36441" title="نت ها" tooltip="" status="" short=""/>
+		<item id="36444" title="تمبر ها" tooltip="" status="" short=""/>
+		<item id="36462" title="از اسکنر..." tooltip="از اسکنر..." status="يک متن PDF جديد از اسکنر ايجاد کن..." short=""/>
+		<item id="57600" title="متن &amp;جديد..." tooltip="" status="" short=""/>
+		<item id="57601" title="&amp;باز کردن..." tooltip="يک متن موجود را باز کن..." status="يک متن موجود را باز کن" short=""/>
+		<item id="57602" title="ب&amp;ستن" tooltip="متن فعال را ببند" status="متن فعال را ببند" short=""/>
+		<item id="57603" title="&amp;ذخيره" tooltip="متن فعال را ذخيره کن" status="متن فعال را ذخيره کن" short=""/>
+		<item id="57604" title="ذ&amp;خيره به عنوان" tooltip="متن فعال را با يک نام جديد ذخيره کن" status="متن فعال را با يک نام جديد ذخيره کن" short=""/>
+		<item id="57607" title="&amp;چاپ..." tooltip="چاپ متن فعال" status="چاپ متن فعال" short=""/>
+		<item id="57611" title="ذخيره &amp;کپي به عنوان" tooltip="متن فعال را در يک فايل جديد ذخيره کن" status="متن فعال را در يک فايل جديد ذخيره کن" short=""/>
+		<item id="57612" title="ارسال از طريق &amp;ايميل" tooltip="الصاق کردن متن فعال را به يک ايميل جديد" status="الصاق کردن متن فعال را به يک ايميل جديد" short=""/>
+		<item id="57632" title="&amp;پاک کردن" tooltip="نوشته انتخاب شده را پاک کن" status="نوشته انتخاب شده را پاک کن" short=""/>
+		<item id="57634" title="&amp;کپي" tooltip="نوشته انتخاب شده را در کليپبورد کپي کن" status="نوشته انتخاب شده را در کليپبورد کپي کن" short=""/>
+		<item id="57635" title="&amp;برش" tooltip="نوشته انتخاب شده را ببر و در کليپبورد بريز" status="نوشته انتخاب شده را ببر و در کليپبورد بريز" short=""/>
+		<item id="57636" title="&amp;يافتن" tooltip="متن تعيين شده را بياب" status="متن تعيين شده را بياب" short=""/>
+		<item id="57637" title="&amp;درج" tooltip="محتويات کليپبورد را درج کن" status="محتويات کليپبورد را درج کن" short=""/>
+		<item id="57642" title="انت&amp;خاب همه" tooltip="همه را انتخاب کن" status="" short=""/>
+		<item id="57643" title="حالت &amp;قبل (Undo)" tooltip="آخرين اکشن را خنثي کن" status="آخرين اکشن را خنثي کن" short=""/>
+		<item id="57644" title="حالت &amp;بعد" tooltip="دوباره اکشني را که قبلا خنثي شده بود انجام بده" status="دوباره اکشني را که قبلا خنثي شده بود انجام بده" short=""/>
+		<item id="57665" title="&amp;خروج" tooltip="قبل از خروج در مورد اعمال تغييرات روي متن هاي باز سئوال کن" status="قبل از خروج در مورد اعمال تغييرات روي متن هاي باز سئوال کن" short=""/>
+		<item id="57670" title="&amp;کمک" tooltip="" status="" short=""/>
+		<item id="59393" title="" tooltip="نوار ابزار توضيحات را نشان بده/پنهان کن" status="" short=""/>
+	</commands>
+	<dialogs>
+		<dialog id="203" text="تنظيمات">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="3" text="اعمال کن" tooltip=""/>
+		</dialog>
+		<dialog id="204" text="">
+			<item id="1004" text="رنگ هاي خروجي بر حيطه کاري ارجحيت دارند" tooltip=""/>
+			<item id="1008" text="استفاده از روش جايگزيني نقطه هاي سياه" tooltip=""/>
+			<item id="1038" text="تنظيمات رنگ:" tooltip=""/>
+			<item id="1039" text="(RGB) قرمز-سبز-آبي" tooltip=""/>
+			<item id="1040" text="CMYK:" tooltip=""/>
+			<item id="1041" text="ميزان خاکسترى  بودن:" tooltip=""/>
+			<item id="1042" text="موتور تبديل:" tooltip=""/>
+			<item id="1200" text="حيطه کاري" tooltip=""/>
+			<item id="1201" text="تنظيمات مربوط به تبديل" tooltip=""/>
+		</dialog>
+		<dialog id="207" text="">
+			<item id="4" text="...بگرد" tooltip=""/>
+			<item id="5" text="...بگرد" tooltip=""/>
+			<item id="1009" text="ماکسيمم متن هايي اخيرا باز شده:" tooltip=""/>
+			<item id="1014" text="صفحه بارگذاري را نشان بده" tooltip=""/>
+			<item id="1015" text="اجازه بده چندين نسخه از برنامه باز شود" tooltip=""/>
+			<item id="1016" text="با زدن دکمه - برنامه را در داخل تري سيستم کوچک کن" tooltip=""/>
+			<item id="1032" text="نمايش با استفاده از تب" tooltip=""/>
+			<item id="1033" text="چند متني" tooltip=""/>
+			<item id="1035" text="دکمه &quot;بستن&quot; را بر روي هر تب نشان بده" tooltip=""/>
+			<item id="1036" text="تک متني" tooltip=""/>
+			<item id="1038" text="روش ذخيره متن" tooltip=""/>
+			<item id="1039" text=":پوشه مقصد براي دانلود ها" tooltip=""/>
+			<item id="1040" text="پوشه مقصد براي &quot;ذخيره به عنوان&quot;" tooltip=""/>
+			<item id="1199" text="برنامه" tooltip=""/>
+			<item id="1200" text="نحوه نمايش متن" tooltip=""/>
+			<item id="1201" text="باز کردن متن ها" tooltip=""/>
+			<item id="1202" text="ذخيره کردن متن ها" tooltip=""/>
+			<item id="1227" text="ليست را پاک کن" tooltip=""/>
+		</dialog>
+		<dialog id="212" text="کلمه رمز متن">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1039" text=":لطفا کلمه رمز معتبر براي متن را وارد کنيد" tooltip=""/>
+		</dialog>
+		<dialog id="213" text="مشخصات متن">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="3" text="اعمال" tooltip=""/>
+		</dialog>
+		<dialog id="214" text="">
+			<item id="1038" text=":نام فايل" tooltip=""/>
+			<item id="1039" text=":مسير" tooltip=""/>
+			<item id="1040" text=":تاريخ ايجاد" tooltip=""/>
+			<item id="1041" text=":تاريخ تغيير دادن" tooltip=""/>
+			<item id="1042" text=":اندازه فايل" tooltip=""/>
+			<item id="1043" text=":عنوان" tooltip=""/>
+			<item id="1044" text=":نويسنده" tooltip=""/>
+			<item id="1200" text="اطلاعات فايل" tooltip=""/>
+			<item id="1201" text=":اطلاعات متن" tooltip=""/>
+			<item id="1203" text=":موضوع" tooltip=""/>
+			<item id="1204" text=":کلمات کليدي" tooltip=""/>
+			<item id="1205" text=":PDF توليد کننده" tooltip=""/>
+			<item id="1206" text=":برنامه" tooltip=""/>
+			<item id="1207" text=":PDF ورژن" tooltip=""/>
+			<item id="1208" text=":تعداد صفحات" tooltip=""/>
+			<item id="1209" text=":متاداده هاي بيشتر" tooltip=""/>
+		</dialog>
+		<dialog id="220" text="">
+			<item id="1038" text=":پرينت کردن" tooltip=""/>
+			<item id="1039" text=":تغيير دادن متن" tooltip=""/>
+			<item id="1040" text=":کپي يا استخراج محتوا" tooltip=""/>
+			<item id="1041" text=":ايجاد کامنت ها و فيلدهاي فرم" tooltip=""/>
+			<item id="1042" text=":پر يا امضا کردن فيلدهاي فرم" tooltip=""/>
+			<item id="1043" text=":دسترسي به محتوا مجاز است" tooltip=""/>
+			<item id="1044" text=":سرهمبندي متن" tooltip=""/>
+			<item id="1200" text="امنيت متن" tooltip=""/>
+			<item id="1201" text="جزئيات دسترسي هاي متن" tooltip=""/>
+			<item id="1203" text="&quot;روش امنيتي متن&quot; معين ميکند که (در صورت امکان) چه تغييراتي مجاز است." tooltip=""/>
+			<item id="1204" text=":روش امنيتي" tooltip=""/>
+			<item id="1205" text=":سطح رمزنگاري" tooltip=""/>
+			<item id="1206" text=":گشودن کلمه عبور" tooltip=""/>
+			<item id="1207" text=":رمزعبور دسترسي" tooltip=""/>
+			<item id="1210" text="...تغيير تنظيمات" tooltip=""/>
+		</dialog>
+		<dialog id="221" text="خروجي به تصوير">
+			<item id="1" text="...خروجي را توليد کن" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="4" text="...بگرد" tooltip=""/>
+			<item id="6" text="ماکروها" tooltip=""/>
+			<item id="7" text="...انتخاب ها" tooltip=""/>
+			<item id="1040" text=":پوشه مقصد" tooltip=""/>
+			<item id="1041" text=":نام فايل" tooltip=""/>
+			<item id="1042" text=":نوع تصوير" tooltip=""/>
+			<item id="1043" text=":نوع خروجي" tooltip=""/>
+			<item id="1044" text=":وضوح تصوير" tooltip=""/>
+			<item id="1201" text="ذخيره به عنوان" tooltip=""/>
+			<item id="1202" text="گرافيک" tooltip=""/>
+			<item id="1203" text=":پشت زمينه صفحه" tooltip=""/>
+			<item id="1204" text="بازه صفحات" tooltip=""/>
+			<item id="1206" text=":بزرگنمايي صفحه" tooltip=""/>
+			<item id="1330" text="همه" tooltip=""/>
+			<item id="1331" text=":صفحه هاي انتخاب شده" tooltip=""/>
+			<item id="1332" text="صفحه جاري" tooltip=""/>
+			<item id="1333" text=":صفحه هاي" tooltip=""/>
+			<item id="1335" text=":زيرمجموعه" tooltip=""/>
+			<item id="1339" text="نمايش جاري" tooltip=""/>
+			<item id="1340" text=":گرافيک انتخاب شده" tooltip=""/>
+			<item id="1341" text="ترتيب برعکس" tooltip=""/>
+			<item id="1387" text="شماره صفحه ها و/يا بازه صفحات مربوط را به صورتي که با ويرگول جدا شده اند وارد کنيد (با شمارش از ابتداي متن). به عنوان مثال، 1، 3، 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="222" text="تنظيمات">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+		</dialog>
+		<dialog id="223" text="">
+			<item id="1071" text="لغو" tooltip=""/>
+			<item id="1072" text="بگذر" tooltip=""/>
+		</dialog>
+		<dialog id="224" text="">
+			<item id="1038" text="جلوه  پيش فرض" tooltip=""/>
+			<item id="1039" text="طرح بندى پيش فرض صفحه" tooltip=""/>
+			<item id="1040" text="بزرگنمايي پيش فرض صفحه" tooltip=""/>
+			<item id="1041" text="وضوح مورد استفاده" tooltip=""/>
+			<item id="1042" text="پيکسل در اينچ" tooltip=""/>
+			<item id="1073" text="نمايش اثر هنري، تزئينات و جعبه هاي خون (bleed boxes)" tooltip=""/>
+			<item id="1074" text="نمايش شبکه بندي شفاف" tooltip=""/>
+			<item id="1079" text="ها URL ايجاد لينک براي " tooltip=""/>
+			<item id="1083" text="نمايش تصويرهاي بزرگ" tooltip=""/>
+			<item id="1126" text="در هنگام اجرا شدن، از نحوه نمايش قبلي استفاده کن (طرح بندي دلخواه و نمايش جعبه ابزارهاي متن)" tooltip=""/>
+			<item id="1200" text="نمايش صفحه" tooltip=""/>
+			<item id="1201" text="نمايش اوليه" tooltip=""/>
+			<item id="1202" text="جلوه اوليه" tooltip=""/>
+			<item id="1228" text="در هنگام اجرا شدن، از تنظيمات بزرگنمايي و طرحبندي قبلي براي متن هايي که در ليست اخير هستند استفاده کن." tooltip=""/>
+		</dialog>
+		<dialog id="227" text="تأييد ريپليس کردن فايل">
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="6" text="آري" tooltip=""/>
+			<item id="7" text="خير" tooltip=""/>
+			<item id="100" text="آري براي همه" tooltip=""/>
+			<item id="101" text="خير براي همه" tooltip=""/>
+			<item id="102" text="خودکار" tooltip=""/>
+			<item id="103" text="ذخيره به عنوان..." tooltip=""/>
+			<item id="1040" text="روي همين فايل نوشته شود؟" tooltip=""/>
+			<item id="1041" text="شما ميتوانيد از نامگذاري خودکار فايل ها براي ايجاد نامي يکتا براي فايل مقصد استفاده کنيد:" tooltip=""/>
+		</dialog>
+		<dialog id="228" text="خطا در نوشتن فايل">
+			<item id="3" text="خروج" tooltip=""/>
+			<item id="4" text="سعي دوباره" tooltip=""/>
+			<item id="5" text="صرف نظر" tooltip=""/>
+			<item id="103" text="ذخيره به عنوان..." tooltip=""/>
+		</dialog>
+		<dialog id="229" text="چاپ">
+			<item id="1" text="چاپ..." tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="تعداد:" tooltip=""/>
+			<item id="1041" text="نوع معيار" tooltip=""/>
+			<item id="1043" text="&amp;نام:" tooltip=""/>
+			<item id="1044" text="وضعيت:" tooltip=""/>
+			<item id="1086" text="&amp;مشخصات..." tooltip=""/>
+			<item id="1087" text="چاپ به فايل" tooltip=""/>
+			<item id="1094" text="تلفيق" tooltip=""/>
+			<item id="1096" text="چاپ خاکستري" tooltip=""/>
+			<item id="1097" text="چاپ به صورت تصوير:" tooltip=""/>
+			<item id="1127" text="معيار صفحه" tooltip=""/>
+			<item id="1200" text="چاپگر" tooltip=""/>
+			<item id="1201" text="بازه صفحه ها" tooltip=""/>
+			<item id="1203" text="نوع" tooltip=""/>
+			<item id="1204" text="تنظيمات چاپ" tooltip=""/>
+			<item id="1206" text="چاپ:" tooltip=""/>
+			<item id="1207" text="چاپ برگه ها:" tooltip=""/>
+			<item id="1330" text="&amp;همه" tooltip=""/>
+			<item id="1331" text="صفحه هاي &amp;انتخاب شده:" tooltip=""/>
+			<item id="1332" text="صفحه &amp;جاري" tooltip=""/>
+			<item id="1333" text="&amp;صفحه ها:" tooltip=""/>
+			<item id="1335" text="زير مجموعه:" tooltip=""/>
+			<item id="1339" text="جل&amp;وه جاري" tooltip=""/>
+			<item id="1340" text="&amp;گرافيک انتخاب شده" tooltip=""/>
+			<item id="1341" text="ترتيب معکوس" tooltip=""/>
+			<item id="1343" text="پيشرفته..." tooltip=""/>
+			<item id="1387" text="شماره و/يا بازه صفحه ها را تايپ کنيد (با شروع از اول متن) و براي جدا کردن چند مورد از ويرگول استفاده کنيد. به عنوان مثال: 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="230" text="">
+			<item id="1038" text="بزرگنمايي صفحه:" tooltip=""/>
+			<item id="1116" text="منبع صفحه را از روي اندازه صفحه PDF مشخص کن" tooltip=""/>
+			<item id="1120" text="به صورت خودکار صفحات را بچرخان" tooltip=""/>
+			<item id="1121" text="به صورت خودکار صفحات را در مرکز قرار بده" tooltip=""/>
+		</dialog>
+		<dialog id="231" text="">
+			<item id="1038" text="صفحه در هر برگه" tooltip=""/>
+			<item id="1039" text="ترتيب صفحه ها:" tooltip=""/>
+			<item id="1108" text="نمايش حاشيه هاي صفحه" tooltip=""/>
+			<item id="1120" text="به صورت خودکار صفحات هر سلول را بچرخان" tooltip=""/>
+			<item id="1121" text="به صورت خودکار صفحات هر سلول را در مرکز قرار بده" tooltip=""/>
+			<item id="1128" text="در" tooltip=""/>
+		</dialog>
+		<dialog id="232" text="">
+			<item id="1038" text="بزرگنمايي صفحه:" tooltip=""/>
+			<item id="1040" text="همپوشاني:" tooltip=""/>
+			<item id="1110" text="نمايش نشانه هاي بريدگي روي برگه ها" tooltip=""/>
+			<item id="1118" text="نمايش برچسپ روي برگه ها" tooltip=""/>
+			<item id="1120" text="به صورت خودکار برگه ها را در هنگام ايجاد متن بچرخان" tooltip=""/>
+			<item id="1121" text="به صورت خودکار برگه ها را در هنگام ايجاد متن در مرکز قرار بده" tooltip=""/>
+		</dialog>
+		<dialog id="236" text="برو به صفحه...">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="شماره صفحه:" tooltip=""/>
+		</dialog>
+		<dialog id="237" text="بزرگنمايي">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="ميزان بزرگنمايي:" tooltip=""/>
+		</dialog>
+		<dialog id="244" text="">
+			<item id="1038" text="به دنبال چه کلمه يا عبارتي هستيد؟" tooltip=""/>
+			<item id="1039" text="مايليد جستجو را در کجا انجام دهيد؟" tooltip=""/>
+			<item id="1040" text="مرتب کردن بر اساس:" tooltip=""/>
+			<item id="1099" text="تنظيمات" tooltip=""/>
+			<item id="1139" text="جستجو" tooltip=""/>
+			<item id="1142" text="پاک کن" tooltip=""/>
+		</dialog>
+		<dialog id="245" text="تنظيمات جستجو">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="مجاورت مورد استفاده:" tooltip=""/>
+			<item id="1126" text="حساس به بزرگ يا کوچک بودن حرف" tooltip=""/>
+			<item id="1128" text="توضيحات را اضافه کن" tooltip=""/>
+			<item id="1129" text="بوکمارک ها را اضافه کن" tooltip=""/>
+			<item id="1130" text="زير پوشه ها را هم جستجو کن" tooltip=""/>
+			<item id="1131" text="الصاق ها را اضافه کن" tooltip=""/>
+			<item id="1145" text="فقط کل کلمه" tooltip=""/>
+			<item id="1193" text="نزديکترين" tooltip=""/>
+			<item id="1194" text="در صفحه" tooltip=""/>
+			<item id="1195" text="در متن" tooltip=""/>
+			<item id="1200" text="معيارهاي بيشتر مورد استفاده:" tooltip=""/>
+		</dialog>
+		<dialog id="246" text="جستجوي پيشرفته">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="همه کلمه هاي زير:" tooltip=""/>
+			<item id="1039" text="عين عبارت زير:" tooltip=""/>
+			<item id="1040" text="هر يک از کلمه هاي زير:" tooltip=""/>
+			<item id="1041" text="هيچ يک از کلمه هاي زير:" tooltip=""/>
+			<item id="1200" text="نتايج جستجو بايستي اين ها را در بر بگيرد:" tooltip=""/>
+		</dialog>
+		<dialog id="247" text="">
+			<item id="1038" text="حافظه سيستم به درصد:" tooltip=""/>
+			<item id="1039" text="تعداد ماکسيمم نخ ها براي رندر کردن صفحه ها:" tooltip=""/>
+			<item id="1040" text="تعداد ماکسيمم نخ ها براي ايجاد تامبنيل ها:" tooltip=""/>
+			<item id="1041" text="تعداد ماکسيمم نخ هاي در حال کار که مجاز است:" tooltip=""/>
+			<item id="1200" text="حافظه مورد استفاده" tooltip=""/>
+			<item id="1201" text="نخ هاي مورد استفاده" tooltip=""/>
+		</dialog>
+		<dialog id="257" text="چرخاندن صفحه ها">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="&amp;چرخش:" tooltip=""/>
+			<item id="1039" text="شماره و/يا بازه صفحه ها را تايپ کنيد (با شروع از اول متن) و براي جدا کردن چند مورد از ويرگول استفاده کنيد. به عنوان مثال: 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="&amp;جهت" tooltip=""/>
+			<item id="1164" text="&amp;همه" tooltip=""/>
+			<item id="1165" text="&amp;صفحه هاي انتخاب شده" tooltip=""/>
+			<item id="1166" text="صفحه &amp;جاري" tooltip=""/>
+			<item id="1167" text="ص&amp;فحه ها:" tooltip=""/>
+			<item id="1200" text="بازه صفحه ها" tooltip=""/>
+		</dialog>
+		<dialog id="258" text="حذف کردن صفحه ها">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="&amp;حذف:" tooltip=""/>
+			<item id="1039" text="شماره و/يا بازه صفحه ها را تايپ کنيد (با شروع از اول متن) و براي جدا کردن چند مورد از ويرگول استفاده کنيد. به عنوان مثال: 1, 3, 5-12" tooltip=""/>
+			<item id="1165" text="&amp;صفحه هاي انتخاب شده" tooltip=""/>
+			<item id="1166" text="صفحه &amp;جاري" tooltip=""/>
+			<item id="1167" text="ص&amp;فحه ها:" tooltip=""/>
+			<item id="1200" text="بازه صفحه ها" tooltip=""/>
+		</dialog>
+		<dialog id="265" text="مشخصات">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="3" text="اعمال" tooltip=""/>
+			<item id="1180" text="پيشرفته" tooltip=""/>
+		</dialog>
+		<dialog id="266" text="">
+			<item id="1038" text="شروع:" tooltip=""/>
+			<item id="1039" text="پايان:" tooltip=""/>
+			<item id="1040" text=":سبک" tooltip=""/>
+			<item id="1041" text="ضخامت:" tooltip=""/>
+			<item id="1042" text="رنگ:" tooltip=""/>
+			<item id="1043" text="رنگ داخل:" tooltip=""/>
+			<item id="1044" text="تيرگي:" tooltip=""/>
+			<item id="1200" text="سبک (استايل) هاي پاياني" tooltip=""/>
+			<item id="1201" text="حاشيه" tooltip=""/>
+		</dialog>
+		<dialog id="268" text="">
+			<item id="1038" text="نويسنده:" tooltip=""/>
+			<item id="1039" text="موضوع:" tooltip=""/>
+			<item id="1040" text="زمان ايجاد:" tooltip=""/>
+			<item id="1041" text="زمان تغيير:" tooltip=""/>
+		</dialog>
+		<dialog id="272" text="">
+			<item id="1038" text="سبک:" tooltip=""/>
+			<item id="1039" text="ضخامت:" tooltip=""/>
+			<item id="1040" text="رنگ:" tooltip=""/>
+			<item id="1041" text="رنگ داخل:" tooltip=""/>
+			<item id="1042" text="تيرگي:" tooltip=""/>
+			<item id="1200" text="حاشيه" tooltip=""/>
+		</dialog>
+		<dialog id="273" text="">
+			<item id="1038" text="ضخامت:" tooltip=""/>
+			<item id="1039" text="رنگ:" tooltip=""/>
+			<item id="1040" text="تيرگي:" tooltip=""/>
+			<item id="1200" text="حاشيه" tooltip=""/>
+		</dialog>
+		<dialog id="274" text="">
+			<item id="1038" text="از واحد هاي مشخص شده به صورت عمومي براي نمايش خطکش هاي صفحه، اندازه صفحه، شبکه بندي، راهنما ها و غيره استفاده مي شود:" tooltip=""/>
+			<item id="1200" text="واحد ها" tooltip=""/>
+		</dialog>
+		<dialog id="278" text="گزارش يک مشکل...">
+			<item id="1" text="بعدي" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="4" text="ب&amp;گرد..." tooltip=""/>
+			<item id="1038" text="پيام شما به صورت ايميل ارسال خواهد شد - شما مي توانيد قبل از ارسال آن را ويرايش کنيد." tooltip=""/>
+			<item id="1039" text="لطفا عنوان م&amp;شکل را انتخاب کنيد:" tooltip=""/>
+			<item id="1040" text="&amp;توضيح (توضيح مختصري از مسئله را تايپ کنيد):" tooltip=""/>
+			<item id="1041" text="يک فايل (متن PDF) به پيام الصاق مي کنيد؟" tooltip=""/>
+			<item id="1126" text="اطلاعات فونت و رنگ انتخابي شما را نيز شامل شود (توصيه شده)" tooltip=""/>
+			<item id="1127" text="اطلاعات و تنظيمات چاپگر شما را نيز شامل شود (توصيه شده)" tooltip=""/>
+			<item id="1128" text="اطلاعات نسخه ويندوز شما را نيز شامل شود (توصيه شده)" tooltip=""/>
+			<item id="1183" text="اطلاعات نسخه نمايشگر را نيز شامل شود (توصيه شده)" tooltip=""/>
+		</dialog>
+		<dialog id="279" text="">
+			<item id="1038" text="آيکون:" tooltip=""/>
+			<item id="1039" text="رنگ:" tooltip=""/>
+			<item id="1040" text="تيرگي:" tooltip=""/>
+			<item id="1200" text="ظاهر" tooltip=""/>
+		</dialog>
+		<dialog id="282" text="کنسول جاوا اسکريپت">
+			<item id="1" text="&amp;اجرا" tooltip=""/>
+			<item id="2" text="بستن" tooltip=""/>
+			<item id="1200" text="اسکريپت" tooltip=""/>
+			<item id="1201" text="خروجي" tooltip=""/>
+		</dialog>
+		<dialog id="283" text="">
+			<item id="1038" text="پايان خط:" tooltip=""/>
+			<item id="1039" text="سبک:" tooltip=""/>
+			<item id="1040" text="ضخامت:" tooltip=""/>
+			<item id="1041" text="رنگ قلم:" tooltip=""/>
+			<item id="1042" text="رنگ داخل:" tooltip=""/>
+			<item id="1043" text="تيرگي:" tooltip=""/>
+			<item id="1200" text="سبک (استايل) هاي پاياني" tooltip=""/>
+			<item id="1201" text="حاشيه" tooltip=""/>
+		</dialog>
+		<dialog id="284" text="">
+			<item id="1038" text="رنگ:" tooltip=""/>
+			<item id="1039" text="تيرگي:" tooltip=""/>
+			<item id="1200" text="ظاهر" tooltip=""/>
+		</dialog>
+		<dialog id="290" text="تمبر ها">
+		</dialog>
+		<dialog id="291" text="">
+			<item id="1038" text="PDF-XChange را  نمايشگر پيش فرض متن هاي PDF کن:" tooltip=""/>
+			<item id="1039" text="انتساب هاي فايل را به برنامه قبلي برگردان (در صورتي که هنوز نصب هست)" tooltip=""/>
+			<item id="1127" text="PDF را در مرورگر ها نمايش بده" tooltip=""/>
+			<item id="1162" text="نمايشگر پيش فرض براي PDF" tooltip=""/>
+			<item id="1197" text="به حالت قبل برگردان" tooltip=""/>
+			<item id="1200" text="انتساب فايل" tooltip=""/>
+		</dialog>
+		<dialog id="292" text="">
+			<item id="1038" text="تيرگي:" tooltip=""/>
+			<item id="1200" text="ظاهر" tooltip=""/>
+		</dialog>
+		<dialog id="295" text="">
+			<item id="1038" text="نام &amp;وروردي:" tooltip=""/>
+			<item id="1039" text="&amp;نام:" tooltip=""/>
+			<item id="1040" text="&amp;عنوان:" tooltip=""/>
+			<item id="1041" text="نام &amp;سازمان:" tooltip=""/>
+			<item id="1042" text="وا&amp;حد سازماني:" tooltip=""/>
+			<item id="1043" text="آدرس &amp;ايميل:" tooltip=""/>
+			<item id="1044" text="اطلاعات شناسه شما ممکن است در توضيحات، مرور ها و بازنگري ها، و امضاهاي ديجيتال استفاده شود. اطلاعاتي که اينجا وارد مي شود صرفا توسط برنامه استفاده شده و به هيچ عنوان بدون اطلاع شما به ديگران منتقل نخواهد شد." tooltip=""/>
+			<item id="1200" text="شناسه" tooltip=""/>
+		</dialog>
+		<dialog id="296" text="">
+			<item id="1038" text="لطفا براي رابط کاربري، زباني را که ترجيح مي دهيد را انتخاب کنيد:" tooltip=""/>
+			<item id="1200" text="زبان ها:" tooltip=""/>
+			<item id="1219" text="از تنظيمات منطقه اي پيش فرض کاربر استفاده کن." tooltip=""/>
+			<item id="1220" text="زبان دلخواه خود را انتخاب کنيد:" tooltip=""/>
+			<item id="1221" text="از زبان پيش فرض خود برنامه استفاده کن (انگليسي)" tooltip=""/>
+		</dialog>
+		<dialog id="297" text="باز کردن متن از URL">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="URL متن را تايپ کن:" tooltip=""/>
+		</dialog>
+		<dialog id="298" text="ايجاد تغييرات دلخواه">
+			<item id="1" text="بستن" tooltip=""/>
+			<item id="1316" text="همه: حالت اوليه" tooltip=""/>
+		</dialog>
+		<dialog id="299" text="">
+			<item id="1039" text="نوار ابزارها:" tooltip=""/>
+			<item id="1234" text="به حالت اوليه برگردان" tooltip=""/>
+			<item id="1235" text="تغيير نام" tooltip=""/>
+			<item id="1237" text="جديد..." tooltip=""/>
+			<item id="1250" text="حذف" tooltip=""/>
+		</dialog>
+		<dialog id="300" text="">
+			<item id="1038" text="براي اضافه کردن يک دستور، دستوري را از &quot;ليست دستورات&quot; برداشته و روي منو يا نوار ابزار موردنظر رها کنيد." tooltip=""/>
+			<item id="1039" text="گروه ها:" tooltip=""/>
+			<item id="1040" text="دستورات:" tooltip=""/>
+			<item id="1314" text="دستورات مخصوص نسخه حرفه اي را در ليست دستورات، منو و نوار ابزار ها نشان بده" tooltip=""/>
+			<item id="1320" text="جديد..." tooltip=""/>
+			<item id="1321" text="مشخصات" tooltip=""/>
+		</dialog>
+		<dialog id="301" text="">
+			<item id="1233" text="براي نوار ابزار ها راهنما نشان بده" tooltip=""/>
+			<item id="1234" text="کليدهاي ميانبر را در اين راهنما ها ذکر کن" tooltip=""/>
+			<item id="1235" text="کليدهاي ميانبر را در منو ها نشان بده" tooltip=""/>
+		</dialog>
+		<dialog id="302" text="">
+			<item id="1038" text="پس زمينه صفحه:" tooltip=""/>
+			<item id="1039" text="رنگ داخل:" tooltip=""/>
+			<item id="1040" text="رنگ قلم:" tooltip=""/>
+			<item id="1126" text="رنگ نوشته:" tooltip=""/>
+			<item id="1127" text="خط زيباکننده:" tooltip=""/>
+			<item id="1128" text="فقط رنگ نوشته هاي سياه يا خط زيباکننده را تغيير بده" tooltip=""/>
+			<item id="1200" text="تنظيمات رنگ متن" tooltip=""/>
+			<item id="1220" text="از طرح رنگ &amp;دلخواه استفاده کن:" tooltip=""/>
+			<item id="1235" text="از &amp;طرح رنگ ويندوز استفاده کن" tooltip=""/>
+			<item id="1236" text="از طرح رنگ با کنتراست بالا که &amp;پيش تعريف است استفاده کن:" tooltip=""/>
+			<item id="1240" text="رنگ هاي متن را override کن" tooltip=""/>
+			<item id="1241" text="هم رنگ نوشته و هم رنگ خطوط زيباکننده را را تغيير بده" tooltip=""/>
+		</dialog>
+		<dialog id="303" text="">
+			<item id="1038" text=" رنگ &amp;پس زمينه:" tooltip=""/>
+			<item id="1200" text="ظاهر تمام صفحه" tooltip=""/>
+			<item id="1239" text="علامت &amp;موس:" tooltip=""/>
+		</dialog>
+		<dialog id="304" text="">
+			<item id="1038" text="وضوح تصوير&amp;" tooltip=""/>
+			<item id="1039" text="نقطه در اينچ" tooltip=""/>
+			<item id="1096" text="تصوير هاي فوري را خاکستري کن" tooltip=""/>
+			<item id="1200" text="تنظيمات تصوير هاي فوري (Snapshot)" tooltip=""/>
+			<item id="1201" text="آهنگ هاي تصوير فوري" tooltip=""/>
+			<item id="1242" text="از وضوح &amp;ثابتي براي تصوير هاي فوري استفاده کن" tooltip=""/>
+			<item id="1244" text="آهنگ مخصوص تصوير فوري گرفتن را پخش نکن" tooltip=""/>
+		</dialog>
+		<dialog id="305" text="">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+		</dialog>
+		<dialog id="306" text="">
+			<item id="1038" text="نوشته عنوان:" tooltip=""/>
+			<item id="1039" text="سبک:" tooltip=""/>
+			<item id="1040" text="رنگ:" tooltip=""/>
+		</dialog>
+		<dialog id="307" text="">
+			<item id="1038" text="شما مي توانيد يک اکشن جديد ايجاد يا ليست اکشن هاي موجود را ويرايش کنيد. همچنين با برداشتن و رها کردن مي توانيد آنها را مرتب کنيد." tooltip=""/>
+		</dialog>
+		<dialog id="308" text="">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="4" text="بگرد..." tooltip=""/>
+			<item id="1038" text="شما مي توانيد با استفاده از دکمه &apos;از نماي جاري استفاده کن&apos; يک مقصد جديد انتخاب کنيد" tooltip=""/>
+			<item id="1039" text="نام فايل:" tooltip=""/>
+			<item id="1040" text="صفحه:" tooltip=""/>
+			<item id="1041" text="X:" tooltip=""/>
+			<item id="1042" text="Y:" tooltip=""/>
+			<item id="1043" text="عرض:" tooltip=""/>
+			<item id="1044" text="ارتفاع:" tooltip=""/>
+			<item id="1066" text="پيش نمايش" tooltip=""/>
+			<item id="1067" text="تثبيت کن" tooltip=""/>
+			<item id="1126" text="ارث بري" tooltip=""/>
+			<item id="1127" text="ارث بري" tooltip=""/>
+			<item id="1200" text="مشخصات مقصد:" tooltip=""/>
+			<item id="1252" text="از بزرگنمايي استفاده کن:" tooltip=""/>
+			<item id="1253" text="از مستطيل استفاده کن:" tooltip=""/>
+			<item id="1261" text="متن مقصد" tooltip=""/>
+			<item id="1271" text="داخل" tooltip=""/>
+			<item id="1272" text="خارج" tooltip=""/>
+			<item id="1275" text="از نماي جاري استفاده کن" tooltip=""/>
+		</dialog>
+		<dialog id="309" text="">
+			<item id="1039" text="&amp;نام:" tooltip=""/>
+			<item id="1041" text="نام &amp;سازمان:" tooltip=""/>
+			<item id="1043" text="آدرس &amp;ايميل:" tooltip=""/>
+			<item id="1045" text="&amp;کليد ثبت:" tooltip=""/>
+			<item id="1200" text="اطلاعات ثبت" tooltip=""/>
+			<item id="1274" text="قابليت هاي مخصوص نسخه حرفه اي را در نمايشگر رايگان پنهان کن" tooltip=""/>
+			<item id="1282" text="نوار تبليغاتي را پنهان کن" tooltip=""/>
+		</dialog>
+		<dialog id="310" text="">
+			<item id="1038" text="&amp;فونت:" tooltip=""/>
+			<item id="1044" text="&amp;اندازه فونت:" tooltip=""/>
+			<item id="1200" text="جاوا اسکريپت" tooltip=""/>
+			<item id="1201" text="&amp;کنسول جاوا اسکريپت" tooltip=""/>
+			<item id="1276" text="اکشن هاي &amp;جاوا اسکريپت را فعال کن" tooltip=""/>
+			<item id="1277" text="کنسول &amp;محاوره اي جاوا اسکريپت را فعال کن" tooltip=""/>
+			<item id="1278" text="کنسول را در &quot;خطاها و پيام ها&quot; &amp;نشان بده" tooltip=""/>
+			<item id="1279" text="وقتي اکشن هاي جاوا اسکريپت اجرا مي شوند &amp;هشدار بده" tooltip=""/>
+		</dialog>
+		<dialog id="311" text="برو به خط...">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="شماره خط:" tooltip=""/>
+		</dialog>
+		<dialog id="312" text="قيچي کردن صفحه ها">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="اعما&amp;ل بر روي:" tooltip=""/>
+			<item id="1039" text="شماره صفحه ها و/يا بازه صفحات مربوط را به صورتي که با ويرگول جدا شده اند وارد کنيد (با شمارش از ابتداي متن). به عنوان مثال، 1، 3، 5-12" tooltip=""/>
+			<item id="1041" text="ج&amp;عبه:" tooltip=""/>
+			<item id="1042" text="&amp;چپ:" tooltip=""/>
+			<item id="1043" text="&amp;راست:" tooltip=""/>
+			<item id="1044" text="&amp;بالا:" tooltip=""/>
+			<item id="1045" text="&amp;پايين:" tooltip=""/>
+			<item id="1046" text="&amp;واحد ها:" tooltip=""/>
+			<item id="1126" text="کناره هاي &amp;سفيد را قيچي کن" tooltip=""/>
+			<item id="1127" text="فضاهاي سفيد را ح&amp;ذف کن" tooltip=""/>
+			<item id="1129" text="مشخصات محدود کننده" tooltip=""/>
+			<item id="1164" text="&amp;همه" tooltip=""/>
+			<item id="1165" text="صفحه هاي انت&amp;خاب شده" tooltip=""/>
+			<item id="1166" text="ص&amp;فحه جاري" tooltip=""/>
+			<item id="1167" text="صف&amp;حه ها:" tooltip=""/>
+			<item id="1200" text="بازه صفحه" tooltip=""/>
+			<item id="1201" text="قيچي کردن کناره ها" tooltip=""/>
+			<item id="1202" text="کنترل هاي کناره ها" tooltip=""/>
+			<item id="1285" text="همه &amp;جعبه ها را نشان بده" tooltip=""/>
+			<item id="1290" text="&amp;صفر کن" tooltip=""/>
+			<item id="1291" text="به &amp;اصلي برگردان" tooltip=""/>
+		</dialog>
+		<dialog id="313" text="اضافه کردن صفحه ها">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="4" text="بگرد..." tooltip=""/>
+			<item id="1038" text="افزودن:" tooltip=""/>
+			<item id="1039" text="شماره صفحه ها و/يا بازه صفحات مربوط را به صورتي که با ويرگول جدا شده اند وارد کنيد (با شمارش از ابتداي متن). به عنوان مثال، 1، 3، 5-12" tooltip=""/>
+			<item id="1042" text="موقعيت:" tooltip=""/>
+			<item id="1164" text="&amp;همه" tooltip=""/>
+			<item id="1167" text="&amp;صفحه ها:" tooltip=""/>
+			<item id="1200" text="بازه صفحه منبع" tooltip=""/>
+			<item id="1201" text="منبع" tooltip=""/>
+			<item id="1202" text="مقصد" tooltip=""/>
+			<item id="1292" text="از فايل" tooltip=""/>
+			<item id="1293" text="از متن هايي که باز هستند" tooltip=""/>
+			<item id="1295" text="صفحه اول" tooltip=""/>
+			<item id="1296" text="صفحه آخر" tooltip=""/>
+			<item id="1297" text="صفحه:" tooltip=""/>
+		</dialog>
+		<dialog id="314" text="استخراج صفحه ها">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="4" text="ب&amp;گرد..." tooltip=""/>
+			<item id="6" text="&amp;ماکروها" tooltip=""/>
+			<item id="1038" text="اعما&amp;ل بر روي:" tooltip=""/>
+			<item id="1039" text="شماره صفحه ها و/يا بازه صفحات مربوط را به صورتي که با ويرگول جدا شده اند وارد کنيد (با شمارش از ابتداي متن). به عنوان مثال، 1، 3، 5-12" tooltip=""/>
+			<item id="1041" text="&amp;نام فايل:" tooltip=""/>
+			<item id="1043" text="&amp;پوشه مقصد:" tooltip=""/>
+			<item id="1126" text="صفحه ها را به صورت فايل هاي م&amp;جزا استخراج کن" tooltip=""/>
+			<item id="1164" text="&amp;همه" tooltip=""/>
+			<item id="1165" text="صفحه هاي انت&amp;خاب شده" tooltip=""/>
+			<item id="1166" text="ص&amp;فحه جاري" tooltip=""/>
+			<item id="1167" text="صف&amp;حه ها:" tooltip=""/>
+			<item id="1200" text="بازه صفحه" tooltip=""/>
+			<item id="1201" text="تنظيمات" tooltip=""/>
+			<item id="1202" text="ذخيره به عنوان" tooltip=""/>
+			<item id="1299" text="بعد از استخراج صفحه ها را ح&amp;ذف کن" tooltip=""/>
+		</dialog>
+		<dialog id="315" text="">
+			<item id="1200" text="تنظيمات ايجاد توضيح ها" tooltip=""/>
+			<item id="1201" text="تنظيمات نمايش توضيح ها" tooltip=""/>
+			<item id="1234" text="راهنماها را فعال کن" tooltip=""/>
+			<item id="1302" text="هنگام رسم شکل ها، متن احاطه شده را به عنوان توضيحات کپي کن." tooltip=""/>
+			<item id="1303" text="متن انتخاب شده توسط پررنگ کردن، رو و يا زيرخط کشيدن را کپي کن." tooltip=""/>
+			<item id="1354" text="شاخص هاي نوشته را نشان بده" tooltip=""/>
+		</dialog>
+		<dialog id="316" text="اضافه کردن صفحه هاي خالي">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1039" text="جهت:" tooltip=""/>
+			<item id="1040" text="در" tooltip=""/>
+			<item id="1041" text="تعداد:" tooltip=""/>
+			<item id="1042" text="موقعيت:" tooltip=""/>
+			<item id="1200" text="صفحه ها" tooltip=""/>
+			<item id="1202" text="مقصد" tooltip=""/>
+			<item id="1292" text="استاندارد:" tooltip=""/>
+			<item id="1293" text="دلخواه:" tooltip=""/>
+			<item id="1295" text="صفحه اول" tooltip=""/>
+			<item id="1296" text="صفحه آخر" tooltip=""/>
+			<item id="1297" text="صفحه:" tooltip=""/>
+			<item id="1304" text="طولي" tooltip=""/>
+			<item id="1305" text="عرضي" tooltip=""/>
+		</dialog>
+		<dialog id="317" text="تغيير نام تمبر">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="لطفا نام جديدي براي تمبر وارد کنيد." tooltip=""/>
+		</dialog>
+		<dialog id="318" text="اضافه کردن تمبر">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="4" text="ب&amp;گرد..." tooltip=""/>
+			<item id="1039" text="&amp;فايل:" tooltip=""/>
+			<item id="1041" text="&amp;صفحه:" tooltip=""/>
+			<item id="1042" text="&amp;عنوان:" tooltip=""/>
+			<item id="1200" text="منبع" tooltip=""/>
+			<item id="1201" text="اطلاعات تمبر" tooltip=""/>
+		</dialog>
+		<dialog id="321" text="مشخصات نوشته">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="3" text="اعمال" tooltip=""/>
+		</dialog>
+		<dialog id="322" text="">
+			<item id="1313" text="کپي به کليپ بورد" tooltip=""/>
+		</dialog>
+		<dialog id="324" text="مشخصات دستور ها">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="تصوير:" tooltip=""/>
+			<item id="1039" text="عنوان:" tooltip=""/>
+			<item id="1040" text="راهنما:" tooltip=""/>
+			<item id="1041" text="متن وضعيت:" tooltip=""/>
+			<item id="1042" text="عنوان کوتاه:" tooltip=""/>
+			<item id="1043" text="شناسه:" tooltip=""/>
+			<item id="1044" text="نام:" tooltip=""/>
+			<item id="1126" text="بررسي توسط جاوا اسکريپت:" tooltip=""/>
+			<item id="1127" text="فعال سازي توسط جاوا اسکريپت:" tooltip=""/>
+			<item id="1198" text="اکشن مربوط به دستور:" tooltip=""/>
+			<item id="1200" text="شناسايى:" tooltip=""/>
+			<item id="1201" text="ميانبر:" tooltip=""/>
+			<item id="1202" text="تعيين وضعيت:" tooltip=""/>
+			<item id="1203" text="نام Adobe:" tooltip=""/>
+			<item id="1204" text="کليد ها:" tooltip=""/>
+			<item id="1205" text="استفاده در:" tooltip=""/>
+			<item id="1206" text="استفاده توسط:" tooltip=""/>
+			<item id="1261" text="ظاهر:" tooltip=""/>
+			<item id="1292" text="اکشن پيش تعريف:" tooltip=""/>
+			<item id="1293" text="يک جاوا اسکريپت اجرا کن:" tooltip=""/>
+			<item id="1324" text="ويرايش..." tooltip=""/>
+			<item id="1325" text="ويرايش..." tooltip=""/>
+			<item id="1326" text="ويرايش..." tooltip=""/>
+		</dialog>
+		<dialog id="325" text="">
+			<item id="1039" text="&amp;گاماي متن:" tooltip=""/>
+			<item id="1076" text="نوشته نرم" tooltip=""/>
+			<item id="1077" text="خط زيباي نرم" tooltip=""/>
+			<item id="1078" text="تصوير هاي نرم" tooltip=""/>
+			<item id="1200" text="رندر کردن متن" tooltip=""/>
+			<item id="1202" text="صاف (نرم) کردن" tooltip=""/>
+		</dialog>
+		<dialog id="326" text="نوار ابزار جديد">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="عنوان نوار ابزار:" tooltip=""/>
+		</dialog>
+		<dialog id="327" text="مسطح کردن ملاحظات (Annotations)">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="اعمال بر روي:" tooltip=""/>
+			<item id="1039" text="شماره صفحه ها و/يا بازه صفحات مربوط را به صورتي که با ويرگول جدا شده اند وارد کنيد (با شمارش از ابتداي متن). به عنوان مثال، 1، 3، 5-12" tooltip=""/>
+			<item id="1041" text="غير قابل چاپ:" tooltip=""/>
+			<item id="1042" text="از فيلد ها:" tooltip=""/>
+			<item id="1164" text="&amp;همه" tooltip=""/>
+			<item id="1165" text="صفحه هاي انت&amp;خاب شده" tooltip=""/>
+			<item id="1166" text="ص&amp;فحه جاري" tooltip=""/>
+			<item id="1167" text="&amp;صفحه ها:" tooltip=""/>
+			<item id="1200" text="بازه صفحه" tooltip=""/>
+			<item id="1201" text="تنظيمات" tooltip=""/>
+		</dialog>
+		<dialog id="328" text="خلاصه نمودن توضيح هه">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="گروه بندي بر حسب:" tooltip=""/>
+			<item id="1040" text="ترتيب بر حسب:" tooltip=""/>
+			<item id="1041" text="نوع:" tooltip=""/>
+			<item id="1126" text="جواب ها را شامل نشود" tooltip=""/>
+			<item id="1200" text="بازه صفحه" tooltip=""/>
+			<item id="1201" text="خروجي" tooltip=""/>
+			<item id="1202" text="تنظيمات" tooltip=""/>
+			<item id="1261" text="عمومي" tooltip=""/>
+			<item id="1330" text="&amp;همه" tooltip=""/>
+			<item id="1331" text="صفحه هاي انت&amp;خاب شده" tooltip=""/>
+			<item id="1332" text="ص&amp;فحه جاري" tooltip=""/>
+			<item id="1333" text="&amp;صفحه ها:" tooltip=""/>
+			<item id="1335" text="زيرمجموعه:" tooltip=""/>
+			<item id="1341" text="توضيح هاي مخفي را هم شامل شود" tooltip=""/>
+			<item id="1356" text="متن جديد را بعد از ايجاد نمايش بده" tooltip=""/>
+			<item id="1387" text="شماره صفحه ها و/يا بازه صفحات مربوط را به صورتي که با ويرگول جدا شده اند وارد کنيد (با شمارش از ابتداي متن). به عنوان مثال، 1، 3، 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="329" text="">
+			<item id="1038" text="صفحه آرايى:" tooltip=""/>
+			<item id="1039" text="کاغذ:" tooltip=""/>
+			<item id="1343" text="پيشرفته" tooltip=""/>
+			<item id="1351" text="هر گروه را در صفحه مجزا قرار بده" tooltip=""/>
+			<item id="1352" text="از صفحه هاي بدون توضيح بگذر" tooltip=""/>
+		</dialog>
+		<dialog id="332" text="">
+			<item id="4" text="بگرد..." tooltip=""/>
+			<item id="6" text="ماکروها" tooltip=""/>
+			<item id="1038" text="نام پوشه مقصد:" tooltip=""/>
+			<item id="1039" text="نام فايل:" tooltip=""/>
+		</dialog>
+		<dialog id="333" text="">
+			<item id="4" text="بگرد..." tooltip=""/>
+			<item id="6" text="ماکروها" tooltip=""/>
+			<item id="1038" text="نام پوشه مقصد:" tooltip=""/>
+			<item id="1039" text="نام فايل:" tooltip=""/>
+			<item id="1041" text="کاغذ:" tooltip=""/>
+			<item id="1351" text="هر گروه را در صفحه مجزا قرار بده" tooltip=""/>
+		</dialog>
+		<dialog id="334" text="">
+			<item id="4" text="بگرد..." tooltip=""/>
+			<item id="6" text="ماکروها" tooltip=""/>
+			<item id="1038" text="نام پوشه مقصد:" tooltip=""/>
+			<item id="1039" text="نام فايل:" tooltip=""/>
+			<item id="1261" text="کدگذاري نوشته" tooltip=""/>
+			<item id="1292" text="يونيکد" tooltip=""/>
+			<item id="1293" text="داس" tooltip=""/>
+			<item id="1294" text="ويندوز" tooltip=""/>
+			<item id="1355" text="ديگر:" tooltip=""/>
+		</dialog>
+		<dialog id="335" text="">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1180" text="پيشرفته" tooltip=""/>
+		</dialog>
+		<dialog id="336" text="">
+			<item id="1038" text="سبک حاشيه:" tooltip=""/>
+			<item id="1039" text="ضخامت حاشيه:" tooltip=""/>
+			<item id="1040" text="رنگ حاشيه:" tooltip=""/>
+			<item id="1041" text="طرز پررنگ کردن:" tooltip=""/>
+		</dialog>
+		<dialog id="337" text="برچسب مقياس">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="برچسب تعيين کننده مقياس" tooltip=""/>
+		</dialog>
+		<dialog id="341" text="متن خالي جديد">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1039" text="جهت:" tooltip=""/>
+			<item id="1040" text="در" tooltip=""/>
+			<item id="1041" text="تعداد" tooltip=""/>
+			<item id="1200" text="صفحه ها" tooltip=""/>
+			<item id="1292" text="استاندارد:" tooltip=""/>
+			<item id="1293" text="دلخواه:" tooltip=""/>
+			<item id="1304" text="طولي" tooltip=""/>
+			<item id="1305" text="عرضي" tooltip=""/>
+		</dialog>
+		<dialog id="342" text="">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="URL را تايپ کن:" tooltip=""/>
+		</dialog>
+		<dialog id="343" text="">
+			<item id="1039" text="تعداد ستون ها:" tooltip=""/>
+			<item id="1040" text="فاصله بين ستون ها:" tooltip=""/>
+			<item id="1041" text="واحد ها:" tooltip=""/>
+			<item id="1042" text="سبک:" tooltip=""/>
+			<item id="1043" text="ضخامت:" tooltip=""/>
+			<item id="1044" text="رنگ:" tooltip=""/>
+			<item id="1367" text="خط بين ستون ها" tooltip=""/>
+		</dialog>
+		<dialog id="344" text="تنظيمات">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+		</dialog>
+		<dialog id="345" text="ايجاد متن جديد از نوشته">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1040" text="کدگذاري نوشته:" tooltip=""/>
+			<item id="1041" text="مد پاراگراف جديد:" tooltip=""/>
+			<item id="1042" text="مد قرار دادن فايل:" tooltip=""/>
+			<item id="1075" text="نما..." tooltip=""/>
+			<item id="1099" text="تنظيمات..." tooltip=""/>
+			<item id="1202" text="فايل هاي نوشته منبع" tooltip=""/>
+			<item id="1376" text="افزودن فايل..." tooltip=""/>
+			<item id="1377" text="افزودن پوشه..." tooltip=""/>
+			<item id="1378" text="حذف" tooltip=""/>
+			<item id="1379" text="بالا" tooltip=""/>
+			<item id="1380" text="پايين" tooltip=""/>
+			<item id="-1" text="تنظيمات فايل انتخاب شده" tooltip=""/>
+		</dialog>
+		<dialog id="346" text="">
+			<item id="1038" text="شروع:" tooltip=""/>
+			<item id="1039" text="پايان:" tooltip=""/>
+			<item id="1040" text="سبک:" tooltip=""/>
+			<item id="1041" text="ضخامت:" tooltip=""/>
+			<item id="1042" text="رنگ:" tooltip=""/>
+			<item id="1043" text="رنگ داخل:" tooltip=""/>
+			<item id="1044" text="تيرگي:" tooltip=""/>
+			<item id="1045" text="طول:" tooltip=""/>
+			<item id="1046" text="نقطه شروع:" tooltip=""/>
+			<item id="1047" text="کشش:" tooltip=""/>
+			<item id="1200" text="سبک (استايل) هاي پاياني" tooltip=""/>
+			<item id="1201" text="حاشيه" tooltip=""/>
+			<item id="1202" text="خط اول" tooltip=""/>
+			<item id="1203" text="متن" tooltip=""/>
+			<item id="1362" text="&quot;متن در خط&quot; را نشان بده" tooltip=""/>
+		</dialog>
+		<dialog id="347" text="به حالت اوليه برگرداندن همه تنظيمات">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="واقعا مي خواهيد همه تنظيمات برنامه به حالت پيشفرض برگردد؟" tooltip=""/>
+			<item id="1126" text="ليست سايت هاي شناخته شده من را نگه دار." tooltip=""/>
+			<item id="1128" text="ليست پيام هاي اخطار، تأييد و ديالوگ هاي پرسشي (prompt) را نگه دار." tooltip=""/>
+			<item id="1129" text="زبان واسط کاربري را حفظ کن." tooltip=""/>
+			<item id="1373" text="ليست همه متن هاي اخير باز شده را نگه دار." tooltip=""/>
+		</dialog>
+		<dialog id="348" text="فرا داده هاي متن">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+		</dialog>
+		<dialog id="351" text="">
+			<item id="6" text="&amp;ماکروها" tooltip=""/>
+			<item id="1040" text="سبک:" tooltip=""/>
+			<item id="1041" text="ضخامت:" tooltip=""/>
+			<item id="1042" text="رنگ:" tooltip=""/>
+			<item id="1044" text="رنگ سياه:" tooltip=""/>
+			<item id="1128" text="يک خط بالاي هدر قرار بده" tooltip=""/>
+			<item id="1381" text="رسم خط" tooltip=""/>
+			<item id="1385" text="از هدر عنوان استفاده کن" tooltip=""/>
+			<item id="1388" text="فرمت..." tooltip=""/>
+		</dialog>
+		<dialog id="352" text="ايجاد متن جديد از تصويرها">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1099" text="تنظيمات..." tooltip=""/>
+			<item id="1202" text="فايل هاي تصويري منبع" tooltip=""/>
+			<item id="1251" text="ويرايش..." tooltip=""/>
+			<item id="1376" text="افزودن فايل..." tooltip=""/>
+			<item id="1377" text="افزودن پوشه..." tooltip=""/>
+			<item id="1378" text="حذف" tooltip=""/>
+			<item id="1379" text="بالا" tooltip=""/>
+			<item id="1380" text="پايين" tooltip=""/>
+			<item id="1406" text="وارد کردن..." tooltip=""/>
+		</dialog>
+		<dialog id="353" text="تنظيمات">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+		</dialog>
+		<dialog id="354" text="">
+			<item id="1039" text="تعداد افقي:" tooltip=""/>
+			<item id="1040" text="تعداد عمودي:" tooltip=""/>
+			<item id="1041" text="فاصله افقي:" tooltip=""/>
+			<item id="1042" text="فاصله عمودي:" tooltip=""/>
+			<item id="1043" text="ميزان کردن افقي:" tooltip=""/>
+			<item id="1044" text="ميزان کردن عمودي:" tooltip=""/>
+			<item id="1200" text="قواعد صفحه آرايى" tooltip=""/>
+			<item id="1201" text="ميزان  کردن تصوير ها" tooltip=""/>
+		</dialog>
+		<dialog id="355" text="">
+			<item id="1039" text="براي تصويرهاي بالا:" tooltip=""/>
+			<item id="1040" text="پيکسل در اينچ" tooltip=""/>
+			<item id="1041" text="پيکسل در اينچ" tooltip=""/>
+			<item id="1042" text="براي تصويرهاي بالا:" tooltip=""/>
+			<item id="1043" text="پيکسل در اينچ" tooltip=""/>
+			<item id="1044" text="پيکسل در اينچ" tooltip=""/>
+			<item id="1126" text="از dither کردن استفاده کن" tooltip=""/>
+			<item id="1200" text="تصوير هاي پر رنگ/خاکستري" tooltip=""/>
+			<item id="1201" text="تصوير هاي انديس گذاري شده" tooltip=""/>
+			<item id="1202" text="تصوير هاي تک رنگ" tooltip=""/>
+			<item id="1203" text="براي تصويرهاي بالا:" tooltip=""/>
+			<item id="1204" text="پيکسل در اينچ" tooltip=""/>
+			<item id="1205" text="پيکسل در اينچ" tooltip=""/>
+			<item id="1206" text="آستانه (threshold)" tooltip=""/>
+			<item id="1401" text="از dither کردن استفاده کن" tooltip=""/>
+		</dialog>
+		<dialog id="362" text="">
+			<item id="6" text="ماکروها" tooltip=""/>
+			<item id="1039" text="رنگ زيرين:" tooltip=""/>
+			<item id="1128" text="برچسب را بالاي تصوير قرار بده" tooltip=""/>
+			<item id="1200" text="برچسب تصوير" tooltip=""/>
+			<item id="1388" text="فرمت..." tooltip=""/>
+			<item id="1407" text="براي هر تصوير از يک برچسب مخصوص استفاده کن" tooltip=""/>
+		</dialog>
+		<dialog id="363" text="ويرايش تصوير">
+		</dialog>
+		<dialog id="364" text="">
+			<item id="1038" text="جنب ها:" tooltip=""/>
+			<item id="1039" text="قطره:" tooltip=""/>
+			<item id="1040" text="صفحات امضادار:" tooltip=""/>
+			<item id="1041" text="نوع:" tooltip=""/>
+			<item id="1120" text="به صورت خودکار صفحات هر سلول را بچرخان" tooltip=""/>
+			<item id="1121" text="به صورت خودکار صفحات هر سلول را در مرکز قرار بده" tooltip=""/>
+			<item id="1414" text="اتصال از راست" tooltip=""/>
+		</dialog>
+		<dialog id="365" text="تنظيمات پيشرفته ي پرينت">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1038" text="بيشترين وضوح تصوير براي پرينت به صورت تصوير:" tooltip=""/>
+			<item id="1039" text="وضوح تصوير براي گريدينت فيلها:" tooltip=""/>
+			<item id="1040" text="متن را به صورت منحني پرينت کن:" tooltip=""/>
+			<item id="1041" text="کدر بودن پاپ آپ ها:" tooltip=""/>
+			<item id="1416" text="نت ها و پاپ آپ ها را پرينت کن" tooltip=""/>
+		</dialog>
+		<dialog id="366" text="رمز عبور مدرک را وارد کنيد">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+		</dialog>
+		<dialog id="369" text="مشخصات">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1180" text="&amp;پيشرفته" tooltip=""/>
+		</dialog>
+		<dialog id="371" text="">
+			<item id="1038" text="نويسنده:" tooltip=""/>
+			<item id="1039" text="موضوع:" tooltip=""/>
+			<item id="1040" text="زمان ايجاد:" tooltip=""/>
+			<item id="1041" text="زمان تغيير:" tooltip=""/>
+		</dialog>
+		<dialog id="372" text="">
+			<item id="1045" text="طول:" tooltip=""/>
+			<item id="1046" text="نقطه شروع:" tooltip=""/>
+			<item id="1047" text="کشش:" tooltip=""/>
+			<item id="1362" text="&quot;نوشته در خط&quot; را نشان بده" tooltip=""/>
+		</dialog>
+		<dialog id="373" text="متن جديد براي اسکن">
+			<item id="2" text="لغو" tooltip=""/>
+			<item id="1039" text=" انتخاب اسکنر ورودي تصوير ها:" tooltip=""/>
+			<item id="1423" text="اسکن..." tooltip=""/>
+			<item id="1424" text="به روز کن (رفرش)" tooltip=""/>
+		</dialog>
+		<dialog id="374" text="">
+			<item id="1038" text="رنگ داخل:" tooltip=""/>
+			<item id="1039" text="رنگ حاشيه:" tooltip=""/>
+			<item id="1126" text="در هنگام باز کردن متن، براي فرم هاي فيلد از مد پررنگ کردن اوليه استفاده کن:" tooltip=""/>
+			<item id="1128" text="همه فيلدهاي فرم را پررنگ کن" tooltip=""/>
+			<item id="1129" text="کامبو باکس ها" tooltip=""/>
+			<item id="1130" text="چک باکس ها" tooltip=""/>
+			<item id="1131" text="ليست باکس ها" tooltip=""/>
+			<item id="1132" text="دکمه ها" tooltip=""/>
+			<item id="1133" text="راديو باتن ها" tooltip=""/>
+			<item id="1134" text="تکست باکس ها" tooltip=""/>
+			<item id="1135" text="امضا ها" tooltip=""/>
+			<item id="1136" text="فقط فيلدهاي ضروري را پررنگ کن" tooltip=""/>
+			<item id="1200" text="عمومي" tooltip=""/>
+			<item id="1201" text="از روي فيلدها پررنگ کن" tooltip=""/>
+			<item id="1425" text="به صورت خودکار از روي فيلدها محاسبه کن" tooltip=""/>
+			<item id="1426" text="مستطيل فوکوس را نشان بده" tooltip=""/>
+		</dialog>
+		<dialog id="376" text="">
+			<item id="1039" text="در" tooltip=""/>
+			<item id="1040" text="جهت:" tooltip=""/>
+			<item id="1041" text="چپ:" tooltip=""/>
+			<item id="1042" text="بالا:" tooltip=""/>
+			<item id="1043" text="راست:" tooltip=""/>
+			<item id="1044" text="پايين:" tooltip=""/>
+			<item id="1200" text="کناره ها" tooltip=""/>
+			<item id="1292" text="استاندارد:" tooltip=""/>
+			<item id="1293" text="دلخواه:" tooltip=""/>
+			<item id="1304" text="طولي" tooltip=""/>
+			<item id="1305" text="عرضي" tooltip=""/>
+		</dialog>
+		<dialog id="377" text="">
+			<item id="1" text="تأييد" tooltip=""/>
+			<item id="2" text="لغو" tooltip=""/>
+		</dialog>
+	</dialogs>
+	<strings count="828">
+		<item id="9" text="نام استاندارد"/>
+		<item id="10" text="نام محلي"/>
+		<item id="11" text="عمومي"/>
+		<item id="12" text="خط زير"/>
+		<item id="13" text="مديريت رنگ"/>
+		<item id="14" text="تنظيمات مديريت رنگ"/>
+		<item id="15" text="نمايش صفحه"/>
+		<item id="16" text="تنظيمات نمايش صفحه"/>
+		<item id="17" text="کارايي"/>
+		<item id="18" text="تنظيمات کارايي"/>
+		<item id="19" text="اندازه گيري"/>
+		<item id="20" text="تنظيمات واحد ها، شبکه بندي ها، خطکش ها"/>
+		<item id="21" text="موجوديت"/>
+		<item id="22" text="تنظيمات موجوديت"/>
+		<item id="23" text="زبان ها"/>
+		<item id="24" text="انتخاب زبان واسط کاربري"/>
+		<item id="25" text="انتساب هاي فايل"/>
+		<item id="26" text="تنظيم انتساب هاي فايل"/>
+		<item id="27" text="دسته ها"/>
+		<item id="28" text="تنظيمات..."/>
+		<item id="29" text="مشخصات پرونده..."/>
+		<item id="30" text="مشخصات برگه نت..."/>
+		<item id="66" text="&apos;%1&apos; باز کردن"/>
+		<item id="67" text="هيچ نمايشگر PDF ديگري موجود نيست"/>
+		<item id="68" text="مجموعاً 1% صفحه"/>
+		<item id="69" text="پرونده &quot;%1&quot; با رمزعبور محافظت شده است."/>
+		<item id="85" text="تأييد"/>
+		<item id="86" text="لغو"/>
+		<item id="87" text="آري"/>
+		<item id="88" text="خير"/>
+		<item id="89" text="خروج"/>
+		<item id="90" text="سعي دوباره"/>
+		<item id="91" text="صرفنظر کردن"/>
+		<item id="92" text="سعي کن"/>
+		<item id="93" text="ادامه بده"/>
+		<item id="94" text="آري براي همه"/>
+		<item id="95" text="خير براي همه"/>
+		<item id="99" text="خلاصه: 1% از 2% صفحه انتخاب شده است"/>
+		<item id="101" text="نام"/>
+		<item id="102" text="موجود نيست"/>
+		<item id="103" text="آماده"/>
+		<item id="104" text="برون خطى (آفلاين)"/>
+		<item id="105" text="باز کردن..."/>
+		<item id="106" text="کاغذ: &apos;%1&apos;"/>
+		<item id="107" text="برگه: &apos;%1&apos;"/>
+		<item id="108" text="صفحه: &apos;%1&apos;"/>
+		<item id="109" text="صفحه ها: %1, %2, ..."/>
+		<item id="110" text="&lt;در پرونده هاي فعال (1%)...&gt;"/>
+		<item id="111" text="&lt;گشتن...&gt;"/>
+		<item id="112" text="&lt;پيشرفته...&gt;"/>
+		<item id="113" text="جستجو را متوقف کن"/>
+		<item id="114" text="جستجو کن"/>
+		<item id="125" text="خلاصه جستجو: 1% پرونده، 2% مدخل"/>
+		<item id="126" text="خاتمه يافته غير عادى"/>
+		<item id="127" text="&quot;%1&quot;: باز کردن..."/>
+		<item id="128" text="&quot;%1&quot;: صفحه 2%..."/>
+		<item id="129" text="صفحه شماره 1%"/>
+		<item id="151" text="منو"/>
+		<item id="152" text="فايل"/>
+		<item id="153" text="استاندارد"/>
+		<item id="154" text="بزرگنمايي"/>
+		<item id="155" text="نماي دوران داده"/>
+		<item id="156" text="يافتن"/>
+		<item id="157" text="توضيح و شمايل (مارک آپ)"/>
+		<item id="158" text="مشخصات"/>
+		<item id="159" text="مشخصات ابزار پيکان"/>
+		<item id="160" text="مشخصات ابزار خط"/>
+		<item id="161" text="مشخصات ابزار مستطيل"/>
+		<item id="162" text="مشخصات ابزار بيضي"/>
+		<item id="163" text="مشخصات ابزار چندضلعي"/>
+		<item id="164" text="مشخصات ابزار چندخطي"/>
+		<item id="165" text="مشخصات ابزار مداد"/>
+		<item id="166" text="مشخصات ابزار ابر"/>
+		<item id="167" text="مشخصات ابزار تمبر"/>
+		<item id="168" text="مشخصات ابزار ماشين تحرير"/>
+		<item id="169" text="مشخصات ابزار جعبه متن"/>
+		<item id="170" text="مشخصات ابزار نوشته راهنما"/>
+		<item id="171" text="مشخصات ابزار برگه نت"/>
+		<item id="172" text="مشخصات ابزار پررنگ کردن نوشته"/>
+		<item id="173" text="مشخصات ابزار زير نوشته خط کشيدن"/>
+		<item id="174" text="مشخصات ابزار روي نوشته خط زدن"/>
+		<item id="175" text="مشخصات ابزار جايگزيني نوشته"/>
+		<item id="176" text="مشخصات پيکان"/>
+		<item id="177" text="مشخصات خط"/>
+		<item id="178" text="مشخصات مستطيل"/>
+		<item id="179" text="مشخصات بيضي"/>
+		<item id="180" text="مشخصات چندضلعي"/>
+		<item id="181" text="مشخصات چندخطي"/>
+		<item id="182" text="مشخصات مداد"/>
+		<item id="183" text="مشخصات ابر"/>
+		<item id="184" text="مشخصات تمبر"/>
+		<item id="185" text="مشخصات ماشين تحرير"/>
+		<item id="186" text="مشخصات جعبه متن"/>
+		<item id="187" text="مشخصات نوشته راهنما"/>
+		<item id="188" text="مشخصات برگه نت"/>
+		<item id="189" text="مشخصات پررنگ کردن نوشته"/>
+		<item id="190" text="مشخصات زير نوشته خط کشيدن"/>
+		<item id="191" text="مشخصات روي نوشته خط زدن"/>
+		<item id="192" text="مشخصات جايگزيني نوشته"/>
+		<item id="193" text="پيکان"/>
+		<item id="194" text="خط"/>
+		<item id="195" text="مستطيل"/>
+		<item id="196" text="بيضي"/>
+		<item id="197" text="چندضلعي"/>
+		<item id="198" text="خط چندضلعي"/>
+		<item id="199" text="مداد"/>
+		<item id="200" text="ابر"/>
+		<item id="201" text="تمبر"/>
+		<item id="202" text="ابرو"/>
+		<item id="203" text="جعبه متن"/>
+		<item id="204" text="برگه نت"/>
+		<item id="205" text="پررنگ کردن"/>
+		<item id="206" text="خط زير"/>
+		<item id="207" text="خط زدن"/>
+		<item id="208" text="الصاق فايل"/>
+		<item id="209" text="صدا"/>
+		<item id="210" text="فرمت نوشته"/>
+		<item id="311" text="برگه نت"/>
+		<item id="312" text="گيره کاغذ"/>
+		<item id="313" text="ضميمه"/>
+		<item id="314" text="بر چسب"/>
+		<item id="315" text="خط زدن"/>
+		<item id="316" text="ميکروفون"/>
+		<item id="317" text="صدا"/>
+		<item id="318" text="تيک"/>
+		<item id="319" text="دايره"/>
+		<item id="320" text="توضيح"/>
+		<item id="321" text="ضربدر"/>
+		<item id="322" text="کمک"/>
+		<item id="323" text="افزودن متن"/>
+		<item id="324" text="کليد"/>
+		<item id="325" text="بند جديد"/>
+		<item id="326" text="نت متن"/>
+		<item id="327" text="بند"/>
+		<item id="328" text="کليد راست"/>
+		<item id="329" text="اشاره گر راست"/>
+		<item id="330" text="ستاره"/>
+		<item id="331" text="پيکان بالا"/>
+		<item id="332" text="پيکان بالا-چپ"/>
+		<item id="333" text="برگه نت"/>
+		<item id="334" text="پر رنگ کردن"/>
+		<item id="335" text="توضيح روي متن"/>
+		<item id="336" text="خط زير"/>
+		<item id="337" text="خط زدن"/>
+		<item id="338" text="متن جايگزين"/>
+		<item id="339" text="نوشته راهنما"/>
+		<item id="340" text="جعبه متن"/>
+		<item id="341" text="ماشين تحرير"/>
+		<item id="342" text="پيکان"/>
+		<item id="343" text="خط"/>
+		<item id="344" text="مستطيل"/>
+		<item id="345" text="بيضي"/>
+		<item id="346" text="ابر"/>
+		<item id="347" text="خط چندضلعي"/>
+		<item id="348" text="چندضلعي"/>
+		<item id="349" text="مداد"/>
+		<item id="389" text="مقدار غير معتبر: بايد بيشتر از يا مساوي %s باشد."/>
+		<item id="390" text="مقدار غير معتبر: بايد بيشتر از يا مساوي %s و کمتر از يا مساوي با %s باشد."/>
+		<item id="391" text="مقدار غير معتبر: بايد کمتر از يا مساوي با %s باشد."/>
+		<item id="392" text="** غير معتبر **"/>
+		<item id="393" text="تاريخ/زمان غير معتبر: لطفا مطمئن شويد تاريخ/زمان وجود دارد. فيلد %field% بايد فرمت %format% را داشته باشد."/>
+		<item id="394" text="مقدار وارد شده با فرمت فيلد %s همخواني ندارد."/>
+		<item id="395" text="قبل از ظهر"/>
+		<item id="396" text="بعد از ظهر"/>
+		<item id="463" text="فايل"/>
+		<item id="464" text="ويرايش"/>
+		<item id="465" text="نمايش"/>
+		<item id="466" text="متن"/>
+		<item id="467" text="ابزارها"/>
+		<item id="468" text="پنجره"/>
+		<item id="469" text="کمک"/>
+		<item id="470" text="کاربر"/>
+		<item id="564" text="فرمت"/>
+		<item id="565" text="سراسري"/>
+		<item id="566" text="پرونده"/>
+		<item id="567" text="نماي صفحه اي"/>
+		<item id="568" text="نماي بند انگشتي"/>
+		<item id="569" text="نماي بوکمارک ها"/>
+		<item id="570" text="نماي توضيحات"/>
+		<item id="571" text="نماي لايه ها"/>
+		<item id="572" text="نماي فيلد ها"/>
+		<item id="573" text="نماي ضميمه ها"/>
+		<item id="574" text="ويرايشگر متن"/>
+		<item id="575" text="لوح تمبر ها"/>
+		<item id="576" text="نماي جستجو"/>
+		<item id="577" text="کنسول جاوا اسکريپت"/>
+		<item id="578" text="لنز بزرگنمايي"/>
+		<item id="579" text="پنجره جابجا کردن و بزرگنمايي متن"/>
+		<item id="626" text="توضيحات"/>
+		<item id="635" text="صفحه"/>
+		<item id="636" text="نوع"/>
+		<item id="637" text="نويسنده"/>
+		<item id="638" text="تاريخ"/>
+		<item id="639" text="ترتيب"/>
+		<item id="657" text="اندازه گيري فاصله"/>
+		<item id="658" text="اندازه گيري محيط"/>
+		<item id="659" text="اندازه گيري مساحت"/>
+		<item id="703" text="موضوع"/>
+		<item id="815" text="مشخصات چندين حاشيه نويسي ها"/>
+		<item id="816" text="سبک هاي حاشيه"/>
+		<item id="817" text="عرض حاشيه"/>
+		<item id="818" text="سبک هاي ابتداي خط"/>
+		<item id="819" text="سبک هاي انتهاي خط"/>
+		<item id="820" text="رنگ قلم:"/>
+		<item id="821" text="رنگ داخل:"/>
+		<item id="822" text="تيرگي:"/>
+		<item id="823" text="آيکون نت"/>
+		<item id="824" text="نحوه زيرخط کشيدن"/>
+		<item id="825" text="مد پررنگ کردن"/>
+		<item id="826" text="خط مقدم"/>
+		<item id="827" text="تنظيمات خط مقدم"/>
+	</strings>
+</Localization>

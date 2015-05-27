@@ -1,0 +1,3114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+	<Product id="PXCView" version="1.0" productVersion="2.5.0201.0000" order""/>
+	<language eName="Korean" lName="한국어" lcid="0x0412" prefFont=""/>
+	<commands>
+		<item id="32316" title="뒤로" tooltip="뒤로" status="" short=""/>
+		<item id="32317" title="앞으로" tooltip="앞으로" status="" short=""/>
+		<item id="32609" title="루뻬 도구(&amp;L)" tooltip="루뻬 도구" status="루뻬 도구" short=""/>
+		<item id="32610" title="확대 도구(&amp;I)" tooltip="확대 도구" status="확대 도구" short="확대"/>
+		<item id="32611" title="축소 도구(&amp;O)" tooltip="축소 도구" status="축소 도구" short="축소"/>
+		<item id="32613" title="손 도구(&amp;H)" tooltip="손 도구" status="손 도구" short=""/>
+		<item id="32614" title="스냅샷 도구(&amp;S)" tooltip="스냅샷 도구" status="스냅샷 도구" short=""/>
+		<item id="32620" title="선택 도구(&amp;L)" tooltip="텍스트/객체 선택 도구" status="텍스트/객체 선택 도구" short=""/>
+		<item id="32884" title="이동(&amp;G)" tooltip="" status="" short=""/>
+		<item id="32885" title="첫 페이지(&amp;F)" tooltip="첫 페이지로 이동" status="첫 페이지로 이동" short=""/>
+		<item id="32886" title="이전 페이지(&amp;P)" tooltip="이전 페이지로 이동" status="이전 페이지로 이동" short=""/>
+		<item id="32887" title="다음 페이지(&amp;N)" tooltip="다음 페이지로 이동" status="다음 페이지로 이동" short=""/>
+		<item id="32888" title="끝 페이지(&amp;L)" tooltip="끝 페이지로 이동" status="끝 페이지로 이동" short=""/>
+		<item id="32889" title="페이지(&amp;G)..." tooltip="" status="" short=""/>
+		<item id="32890" title="이전 보기" tooltip="이전 보기로 이동" status="" short=""/>
+		<item id="32891" title="다음 보기" tooltip="다음 보기로 이동" status="" short=""/>
+		<item id="32892" title="이전 문서" tooltip="" status="" short=""/>
+		<item id="32893" title="다음 문서" tooltip="" status="" short=""/>
+		<item id="32895" title="단면(&amp;S)" tooltip="단면" status="" short=""/>
+		<item id="32896" title="연속(&amp;C)" tooltip="연속" status="" short=""/>
+		<item id="32897" title="양면(&amp;F)" tooltip="양면" status="" short=""/>
+		<item id="32898" title="연속 - 양면(&amp;O)" tooltip="연속 - 양면" status="" short=""/>
+		<item id="32899" title="배율..." tooltip="현재 문서의 확대/축소 수준 선택" status="현재 문서의 확대/축소 수준 선택" short=""/>
+		<item id="32900" title="실제 크기(&amp;A)" tooltip="실제 페이지 크기로 표시 (100%)" status="실제 페이지 크기로 표시 (100%)" short=""/>
+		<item id="32901" title="페이지 맞춤(&amp;P)" tooltip="현재 보기에 페이지를 맞춤" status="현재 보기에 페이지를 맞춤" short=""/>
+		<item id="32902" title="폭 맞춤(&amp;W)" tooltip="현재 보기에 페이지 폭을 맞춤" status="현재 보기에 페이지 폭을 맞춤" short=""/>
+		<item id="32903" title="보기 맞춤(&amp;V)" tooltip="보이는 내용에 페이지를 맞춤" status="보이는 내용에 페이지를 맞춤" short=""/>
+		<item id="32904" title="확대" tooltip="확대" status="확대" short=""/>
+		<item id="32905" title="축소" tooltip="축소" status="축소" short=""/>
+		<item id="32906" title="설정(&amp;N)..." tooltip="응용 프로그램 설정 표시..." status="응용 프로그램 설정 표시..." short=""/>
+		<item id="32907" title="" tooltip="이 문서의 페이지 수 표시" status="" short=""/>
+		<item id="32908" title="파일 도구 모음(&amp;F)" tooltip="파일 도구 모음 표시/숨김" status="파일 도구 모음 표시/숨김" short=""/>
+		<item id="32909" title="" tooltip="현재 페이지 번호 표시" status="" short="페이지:"/>
+		<item id="32910" title="북마크(&amp;B)" tooltip="북마크 패널 표시/숨김" status="북마크 패널 표시/숨김" short=""/>
+		<item id="32912" title="페이지 썸네일(&amp;T)" tooltip="페이지 썸네일 패널 표시/숨김" status="페이지 썸네일 패널 표시/숨김" short=""/>
+		<item id="32924" title="표준 도구 모음(&amp;S)" tooltip="표준 도구 모음 표시/숨김" status="표준 도구 모음 표시/숨김" short=""/>
+		<item id="32925" title="배율 도구 모음(&amp;Z)" tooltip="배율 도구 모음 표시/숨김" status="배율 도구 모음 표시/숨김" short=""/>
+		<item id="32929" title="보기 회전 도구 모음(&amp;R)" tooltip="보기 회전 도구 모음 표시/숨김" status="보기 회전 도구 모음 표시/숨김" short=""/>
+		<item id="32936" title="모든 탭 표시" tooltip="모든 탭 표시" status="" short=""/>
+		<item id="32937" title="현재 탭 닫기" tooltip="현재 탭 닫기" status="" short=""/>
+		<item id="32938" title="모든 탭 썸네일 표시" tooltip="모든 탭 썸네일 표시" status="" short=""/>
+		<item id="32940" title="항해 탭(&amp;N)" tooltip="항해 탭 표시/숨김" status="항해 탭 표시/숨김" short=""/>
+		<item id="32942" title="모든 문서 닫기(&amp;L)" tooltip="" status="" short=""/>
+		<item id="32944" title="내보내기(&amp;R)" tooltip="" status="" short=""/>
+		<item id="32945" title="이미지로 내보내기..." tooltip="이미지로 페이지 내보내기..." status="현재 문서를 이미지로 내보내기..." short=""/>
+		<item id="32946" title="문서 이름" tooltip="" status="" short=""/>
+		<item id="32947" title="문서 번호" tooltip="" status="" short=""/>
+		<item id="32948" title="문서 제목" tooltip="" status="" short=""/>
+		<item id="32949" title="페이지 번호" tooltip="" status="" short=""/>
+		<item id="32950" title="페이지" tooltip="" status="" short=""/>
+		<item id="32951" title="페이지" tooltip="" status="" short=""/>
+		<item id="32952" title="파일 이름" tooltip="" status="" short=""/>
+		<item id="32953" title="날짜 (MM-DD-YYYY)" tooltip="" status="" short=""/>
+		<item id="32954" title="년" tooltip="" status="" short=""/>
+		<item id="32955" title="월" tooltip="" status="" short=""/>
+		<item id="32956" title="일" tooltip="" status="" short=""/>
+		<item id="32957" title="시간 (HH-MM-SS)" tooltip="" status="" short=""/>
+		<item id="32958" title="시" tooltip="" status="" short=""/>
+		<item id="32959" title="분" tooltip="" status="" short=""/>
+		<item id="32960" title="초" tooltip="" status="" short=""/>
+		<item id="32961" title="자동 번호" tooltip="" status="" short=""/>
+		<item id="32974" title="전체 검색 시작/중지" tooltip="전체 검색 시작/중지" status="" short=""/>
+		<item id="32975" title="전체 검색 옵션" tooltip="전체 검색 옵션" status="전체 검색 옵션" short="옵션"/>
+		<item id="32976" title="전체 검색 중지" tooltip="" status="" short=""/>
+		<item id="32977" title="전체 검색 시작" tooltip="" status="" short=""/>
+		<item id="32978" title="이전 검색 결과로 이동" tooltip="이전 검색 결과로 이동" status="이전 검색 결과로 이동" short=""/>
+		<item id="32979" title="다음 검색 결과로 이동" tooltip="다음 검색 결과로 이동" status="다음 검색 결과로 이동" short=""/>
+		<item id="32987" title="검색(&amp;S)" tooltip="전체 검색 패널 표시/숨김" status="전체 검색 패널 표시/숨김" short=""/>
+		<item id="32990" title="" tooltip="지정한 텍스트 찾기" status="" short="찾기:"/>
+		<item id="32991" title="이전 찾기" tooltip="이전 일치 찾기" status="이전 일치 찾기" short=""/>
+		<item id="32992" title="다음 찾기" tooltip="다음 일치 찾기" status="다음 일치 찾기" short=""/>
+		<item id="32993" title="찾기 옵션" tooltip="찾기 옵션" status="찾기 옵션" short=""/>
+		<item id="32994" title="전체 단어만" tooltip="단어 단위로 찾기" status="텍스트 박스에 입력한 완전한 단어만 찾기" short=""/>
+		<item id="32995" title="대소문자 구분" tooltip="대소문자 구분하여 찾기" status="대소문자 구분하여 일치하는 단어만 찾기" short=""/>
+		<item id="32996" title="주석 포함" tooltip="PDF에 추가된 주석에서 텍스트 검색" status="주석 패널에서 볼 수 있는, PDF에 추가된 주석에서 텍스트 검색" short=""/>
+		<item id="32997" title="북마크 포함" tooltip="북마크의 텍스트 검색" status="북마크 패널에서 볼 수 있는, 북마크의 텍스트 검색" short=""/>
+		<item id="32998" title="선택된 텍스트 검색" tooltip="선택된 텍스트 전체 검색 패널 표시/숨김" status="선택된 텍스트 전체 검색 패널 표시/숨김" short=""/>
+		<item id="33000" title="찾기 도구 모음(&amp;D)" tooltip="찾기 도구 모음 표시/숨김" status="찾기 도구 모음 표시/숨김" short=""/>
+		<item id="33003" title="페이지 속성..." tooltip="선택된 페이지 속성 표시" status="선택된 페이지 속성 표시" short="편집"/>
+		<item id="33006" title="레이어(&amp;L)" tooltip="레이어 패널 표시/숨김" status="레이어 패널 표시/숨김" short=""/>
+		<item id="33008" title="필드(&amp;I)" tooltip="필드 패널 표시/숨김" status="필드 패널 표시/숨김" short=""/>
+		<item id="33009" title="메뉴 모음(&amp;M)" tooltip="메뉴 모음 표시/숨김" status="메뉴 모음 표시/숨김" short=""/>
+		<item id="33014" title="전체 화면(&amp;U)" tooltip="창을 전체 화면으로 최대화" status="창을 전체 화면으로 최대화" short=""/>
+		<item id="33015" title="모든 바 표시/숨김" tooltip="모든 바 표시/숨김" status="모든 바 표시/숨김" short="모든 바 토글"/>
+		<item id="33016" title="모든 도구 모음 표시/숨김" tooltip="모든 도구 모음 표시/숨김" status="모든 도구 모음 표시/숨김" short="모든 도구 모음 토글"/>
+		<item id="33018" title="양식 필드 강조" tooltip="문서에 양식이 있습니다; 필터로 양식 필드를 강조하려면 여기를 클릭하세요." status="문서에 양식이 있습니다, 필터로 양식 필드를 강조하려면 여기를 클릭하세요." short="필드 강조"/>
+		<item id="33020" title="전체 화면 끝내기(&amp;U)" tooltip="전체 화면을 끝내고 창을 복원" status="전체 화면을 끝내고 창을 복원" short=""/>
+		<item id="33032" title="센티미터" tooltip="센티미터" status="" short=""/>
+		<item id="33033" title="인치" tooltip="인치" status="" short=""/>
+		<item id="33034" title="밀리미터" tooltip="밀리미터" status="" short=""/>
+		<item id="33035" title="파이카" tooltip="파이카" status="" short=""/>
+		<item id="33036" title="포인트" tooltip="포인트" status="" short=""/>
+		<item id="33038" title="모두 닫기" tooltip="열려있는 모든 문서 닫기" status="열려있는 모든 문서 닫기" short=""/>
+		<item id="33054" title="6400%" tooltip="" status="" short=""/>
+		<item id="33055" title="3200%" tooltip="" status="" short=""/>
+		<item id="33056" title="2400%" tooltip="" status="" short=""/>
+		<item id="33057" title="1200%" tooltip="" status="" short=""/>
+		<item id="33058" title="800%" tooltip="" status="" short=""/>
+		<item id="33059" title="400%" tooltip="" status="" short=""/>
+		<item id="33060" title="200%" tooltip="" status="" short=""/>
+		<item id="33061" title="150%" tooltip="" status="" short=""/>
+		<item id="33062" title="100%" tooltip="" status="" short=""/>
+		<item id="33063" title="75%" tooltip="" status="" short=""/>
+		<item id="33064" title="50%" tooltip="" status="" short=""/>
+		<item id="33065" title="25%" tooltip="" status="" short=""/>
+		<item id="33073" title="양식에서 데이터 내보내기(&amp;X)..." tooltip="" status="" short=""/>
+		<item id="33074" title="양식으로 데이터 가져오기(&amp;D)..." tooltip="" status="" short=""/>
+		<item id="33075" title="보기 회전(&amp;R)" tooltip="" status="" short=""/>
+		<item id="33078" title="시계 방향(&amp;C)" tooltip="보기를 시계 방향으로 회전&#10;주의: 이 기능은 페이지를 임시로 회전하고 회전이 저장되지는 않습니다!" status="보기 시계 방향 회전" short=""/>
+		<item id="33079" title="반시계 방향(&amp;W)" tooltip="보기를 반시계 방향으로 회전&#10;주의: 이 기능은 페이지를 임시로 회전하고 회전이 저장되지는 않습니다!" status="보기 반시계 방향 회전" short=""/>
+		<item id="33080" title="페이지 회전(&amp;R)..." tooltip="" status="" short=""/>
+		<item id="33081" title="페이지 삭제(&amp;D)..." tooltip="" status="" short=""/>
+		<item id="33082" title="페이지 크롭(&amp;C)..." tooltip="" status="" short=""/>
+		<item id="33103" title="팬과 줌 도구(&amp;P)" tooltip="팬과 줌 도구" status="팬과 줌 도구" short="팬과 줌"/>
+		<item id="33104" title="두껍게" tooltip="두껍게" status="" short=""/>
+		<item id="33105" title="기울임" tooltip="기울임" status="" short=""/>
+		<item id="33106" title="밑줄" tooltip="밑줄" status="" short=""/>
+		<item id="33107" title="취소선" tooltip="취소선" status="" short=""/>
+		<item id="33108" title="왼쪽 정렬" tooltip="왼쪽 정렬" status="" short=""/>
+		<item id="33109" title="가운데 정렬" tooltip="가운데 정렬" status="" short=""/>
+		<item id="33110" title="오른쪽 정렬" tooltip="오른쪽 정렬" status="" short=""/>
+		<item id="33115" title="선 뒤집기(&amp;F)" tooltip="선 뒤집기" status="" short=""/>
+		<item id="33116" title="속성(&amp;P)..." tooltip="속성..." status="" short=""/>
+		<item id="33118" title="현재 모양을 기본값으로 설정" tooltip="현재 주석 스타일에 대한 모양(색, 테두리 스타일, 투명도 등)을 저장합니다.&#10;저장된 모양은 현재 주석 스타일을 기본값으로 각 새 주석에 사용됩니다." status="" short=""/>
+		<item id="33121" title="팝업 노트 위치 리셋(&amp;R)" tooltip="팝업 노트 위치 리셋" status="" short=""/>
+		<item id="33122" title="팝업 노트 열기(&amp;O)" tooltip="팝업 노트 열기" status="" short=""/>
+		<item id="33123" title="화살표 도구(&amp;A)" tooltip="화살표 도구" status="" short="화살표"/>
+		<item id="33124" title="선 도구(&amp;L)" tooltip="선 도구" status="" short="선"/>
+		<item id="33125" title="직사각형 도구(&amp;R)" tooltip="직사각형 도구" status="" short="직사각형"/>
+		<item id="33126" title="타원 도구(&amp;O)" tooltip="타원 도구" status="" short="타원"/>
+		<item id="33127" title="다각형 도구(&amp;Y)" tooltip="다각형 도구" status="" short="다각형"/>
+		<item id="33128" title="다각선 도구(&amp;G)" tooltip="다각선 도구" status="" short="다각선"/>
+		<item id="33129" title="연필 도구(&amp;P)" tooltip="연필 도구" status="" short="연필"/>
+		<item id="33130" title="구름 도구(&amp;C)" tooltip="구름 도구" status="" short="구름"/>
+		<item id="33131" title="스탬프 도구(&amp;S)" tooltip="스탬프 도구" status="" short="스탬프"/>
+		<item id="33132" title="접착 노트 도구(&amp;N)" tooltip="접착 노트 도구" status="" short="접착 노트"/>
+		<item id="33133" title="미리보기(&amp;P)" tooltip="미리보기" status="" short=""/>
+		<item id="33134" title="기본 모양 적용" tooltip="현재 주석 스타일에 저장된 모양(색, 테두리 스타일, 불투명도 등) 적용" status="" short=""/>
+		<item id="33135" title="노트 추가" tooltip="노트 추가" status="" short=""/>
+		<item id="33136" title="삭제(&amp;D)" tooltip="선택 삭제" status="선택 삭제" short=""/>
+		<item id="33138" title="주석과 조판지시 도구 모음(&amp;C)" tooltip="주석과 조판지시 도구 모음 표시/숨김" status="주석과 조판지시 도구 모음 표시/숨김" short=""/>
+		<item id="33139" title="취소" tooltip="취소" status="" short=""/>
+		<item id="33140" title="완료" tooltip="완료" status="" short=""/>
+		<item id="33141" title="홈 페이지(&amp;H)" tooltip="" status="" short=""/>
+		<item id="33145" title="내용(&amp;C)" tooltip="" status="" short=""/>
+		<item id="33146" title="문제점 보고(&amp;R)..." tooltip="" status="" short=""/>
+		<item id="33147" title="지원 포럼(&amp;S)" tooltip="" status="" short=""/>
+		<item id="33168" title="텍스트 서식 지우기" tooltip="텍스트 서식 지우기" status="" short=""/>
+		<item id="33170" title="위첨자" tooltip="위첨자" status="" short=""/>
+		<item id="33171" title="아래첨자" tooltip="아래첨자" status="" short=""/>
+		<item id="33174" title="댓글 추가(&amp;Y)" tooltip="댓글 추가" status="" short=""/>
+		<item id="33176" title="댓글 삭제(&amp;D)" tooltip="댓글 삭제" status="" short=""/>
+		<item id="33179" title="업데이트 검사..." tooltip="" status="" short=""/>
+		<item id="33182" title="일반 텍스트로 복사(&amp;C)" tooltip="일반 텍스트로 복사" status="" short=""/>
+		<item id="33183" title="서식 텍스트로 복사" tooltip="서식 텍스트로 복사" status="" short=""/>
+		<item id="33184" title="리치 컨텐츠로 복사" tooltip="리치 컨텐츠로 복사" status="" short=""/>
+		<item id="33187" title="자바스크립트 콘솔(&amp;J)" tooltip="자바스크립트 콘솔 표시/숨김" status="자바스크립트 콘솔 표시/숨김" short=""/>
+		<item id="33197" title="서브 폴더 둘러보기" tooltip="" status="" short=""/>
+		<item id="33201" title="콜아웃 도구(&amp;T)" tooltip="콜아웃 도구" status="" short="콜아웃"/>
+		<item id="33202" title="텍스트 박스 도구(&amp;X)" tooltip="텍스트 박스 도구" status="" short="텍스트 박스"/>
+		<item id="33204" title="주석(&amp;C)" tooltip="주석 패널 표시/숨김" status="주석 패널 표시/숨김" short=""/>
+		<item id="33205" title="첨부(&amp;A)" tooltip="첨부 패널 표시/숨김" status="첨부 패널 표시/숨김" short=""/>
+		<item id="33206" title="텍스트 강조(&amp;H)" tooltip="텍스트 강조" status="" short=""/>
+		<item id="33207" title="텍스트에 노트 추가(&amp;N)" tooltip="텍스트에 노트 추가" status="" short=""/>
+		<item id="33208" title="텍스트 밑줄(&amp;U)" tooltip="텍스트 밑줄" status="" short=""/>
+		<item id="33209" title="텍스트 취소선(&amp;C)" tooltip="텍스트 취소선" status="" short=""/>
+		<item id="33210" title="텍스트 바꾸기(&amp;R)" tooltip="텍스트 바꾸기" status="" short=""/>
+		<item id="33221" title="텍스트 강조 도구" tooltip="선택된 텍스트 강조" status="선택된 텍스트 강조" short="텍스트 강조"/>
+		<item id="33222" title="텍스트 밑줄 도구" tooltip="선택된 텍스트 밑줄" status="선택된 텍스트 밑줄" short="텍스트 밑줄"/>
+		<item id="33223" title="텍스트 취소선 도구" tooltip="선택된 텍스트 취소선" status="선택된 텍스트 취소선" short="텍스트 취소선"/>
+		<item id="33224" title="파일 첨부 도구" tooltip="파일을 주석으로 첨부&#10;페이지의 그 위치에 파일을 첨부하려면 페이지를 클릭" status="" short="첨부"/>
+		<item id="33225" title="속성 도구 모음(&amp;P)" tooltip="속성 도구 모음 표시/숨김" status="속성 도구 모음 표시/숨김" short=""/>
+		<item id="33226" title="타자기 도구(&amp;W)" tooltip="타자기 도구" status="" short="타자기"/>
+		<item id="33228" title="스탬프 팔레트 표시(&amp;S)" tooltip="" status="" short=""/>
+		<item id="33229" title="도구 선택 유지" tooltip="도구 선택 유지" status="" short=""/>
+		<item id="33231" title="글골 크기" tooltip="글꼴 크기" status="" short="글꼴 크기:"/>
+		<item id="33232" title="페이지별(&amp;P)" tooltip="페이지별 주석 그룹" status="" short=""/>
+		<item id="33233" title="종류별(&amp;T)" tooltip="종류별 주석 그룹" status="" short=""/>
+		<item id="33234" title="저자별(&amp;A)" tooltip="저자별 주석 그룹" status="" short=""/>
+		<item id="33235" title="수정일별(&amp;M)" tooltip="수정일별 주석 그룹" status="" short=""/>
+		<item id="33236" title="색깔별(&amp;C)" tooltip="색깔별 주석 그룹" status="" short=""/>
+		<item id="33237" title="생성일별(&amp;C)" tooltip="생성일별 주석 그룹" status="" short=""/>
+		<item id="33238" title="다음" tooltip="다음 주석" status="" short=""/>
+		<item id="33239" title="이전" tooltip="이전 주석" status="" short=""/>
+		<item id="33240" title="삭제" tooltip="주석 삭제" status="" short=""/>
+		<item id="33241" title="전부 접기" tooltip="모든 주석 접기" status="" short=""/>
+		<item id="33242" title="전부 확장" tooltip="모든 주석 확장" status="" short=""/>
+		<item id="33243" title="그룹" tooltip="그룹" status="" short=""/>
+		<item id="33244" title="속성..." tooltip="주석 속성..." status="" short=""/>
+		<item id="33245" title="댓글 추가" tooltip="주석에 댓글 추가" status="" short=""/>
+		<item id="33246" title="주제별(&amp;S)" tooltip="주제별 주석 그룹" status="" short=""/>
+		<item id="33248" title="모두 선택 해제(&amp;E)" tooltip="모두 해제" status="" short=""/>
+		<item id="33255" title="다른 모든 탭 닫기" tooltip="다른 모든 탭 닫기" status="" short=""/>
+		<item id="33256" title="이 탭 닫기" tooltip="이 탭 닫기" status="" short=""/>
+		<item id="33257" title="전체 파일 이름 복사(&amp;N)" tooltip="현재 문서의 전체 파일 이름을 클립보드로 복사" status="현재 문서의 전체 파일 이름을 클립보드로 복사" short=""/>
+		<item id="33258" title="문서 폴더 열기(&amp;L)..." tooltip="현재 문서의 원본 폴더를 열기" status="현재 문서의 원본 폴더를 열기" short=""/>
+		<item id="33259" title="현재 문서 서식을 기본값으로 설정" tooltip="선택된 텍스트의 형식(글꼴, 글꼴 크기, 색, 정렬 등)을 주석 스타일에 저장. 저장된 텍스트 형식은 이 주석 스타일의 새 주석에 대한 기본값으로 사용됩니다." status="" short="기본값으로 설정"/>
+		<item id="33260" title="기본 텍스트 서식 적용" tooltip="현재 주석 스타일에서 저장된 텍스트 서식 (글꼴, 글꼴 크기, 색, 정렬 등) 적용" status="" short=""/>
+		<item id="33261" title="텍스트 색" tooltip="텍스트 색" status="" short="색:"/>
+		<item id="33262" title="문서 옵션 도구 모음(&amp;O)" tooltip="문서 옵션 도구 모음 표시/숨김" status="문서 옵션 도구 모음 표시/숨김" short=""/>
+		<item id="33263" title="페이지 항해 도구 모음(&amp;N)" tooltip="페이지 항해 도구 모음 표시/숨김" status="페이지 항해 도구 모음 표시/숨김" short=""/>
+		<item id="33264" title="페이지 레이아웃 도구 모음(&amp;L)" tooltip="페이지 레이아웃 도구 모음 표시/숨김" status="페이지 레이아웃 도구 모음 표시/숨김" short=""/>
+		<item id="33265" title="실행 도구 모음(&amp;A)" tooltip="응용 프로그램 실행 도구 모음 표시/숨김" status="응용 프로그램 실행 도구 모음 표시/숨김" short=""/>
+		<item id="33267" title="파일(&amp;F)" tooltip="" status="" short=""/>
+		<item id="33268" title="최근 파일(&amp;F)" tooltip="" status="" short=""/>
+		<item id="33269" title="양식 데이터(&amp;M)" tooltip="" status="" short=""/>
+		<item id="33270" title="문서 속성(&amp;D)..." tooltip="현재 문서 속성 표시" status="현재 문서 속성 표시" short="속성..."/>
+		<item id="33272" title="URL 문서 열기(&amp;U)..." tooltip="URL에서 문서 열기..." status="URL에서 문서 열기" short=""/>
+		<item id="33274" title="ZIP 파일로 이메일 보내기(&amp;E)..." tooltip="현재 문서를 새 이메일 메시지에 첨부" status="현재 문서를 새 이메일 메시지에 첨부" short=""/>
+		<item id="33280" title="편집(&amp;E)" tooltip="" status="" short=""/>
+		<item id="33290" title="보기(&amp;V)" tooltip="" status="" short=""/>
+		<item id="33291" title="도구 모음(&amp;T)" tooltip="" status="" short=""/>
+		<item id="33292" title="다른 패널" tooltip="" status="" short=""/>
+		<item id="33293" title="페이지 레이아웃(&amp;L)" tooltip="" status="" short=""/>
+		<item id="33300" title="문서(&amp;D)" tooltip="" status="" short=""/>
+		<item id="33310" title="도구(&amp;T)" tooltip="" status="" short=""/>
+		<item id="33311" title="기본 도구(&amp;B)" tooltip="" status="" short=""/>
+		<item id="33313" title="배율 도구(&amp;Z)" tooltip="" status="" short=""/>
+		<item id="33314" title="주석과 조판지시 도구(&amp;C)" tooltip="" status="" short=""/>
+		<item id="33316" title="측정 도구(&amp;M)" tooltip="" status="" short=""/>
+		<item id="33317" title="링크 도구(&amp;L)" tooltip="" status="" short=""/>
+		<item id="33339" title="주석과 조판지시 도구 모음 표시" tooltip="" status="" short=""/>
+		<item id="33340" title="주석 목록 표시" tooltip="주석 목록 표시/숨김" status="주석 목록 표시/숨김" short=""/>
+		<item id="33350" title="창(&amp;W)" tooltip="" status="" short=""/>
+		<item id="33369" title="깨진 정보 표시" tooltip="이 문서는 깨졌습니다; 자세히 보려면 여기를 클릭하세요." status="이 문서는 깨졌습니다; 자세히 보려면 여기를 클릭하세요." short="깨진 정보"/>
+		<item id="33370" title="문서 옵션" tooltip="보기, 편집, 조작 등을 포함. 이 문서에 대한 옵션" status="보기, 편집, 조작 등을 포함. 이 문서에 대한 옵션" short="옵션"/>
+		<item id="33371" title="레이어 패널 표시" tooltip="이 문서에는 레이어가 있습니다; 여기를 클릭하여 레이어 패널을 표시/숨김" status="이 문서에는 레이어가 있습니다; 클릭하여 레이어 패널을 표시/숨김" short="레이어 표시"/>
+		<item id="33372" title="필드 패널 표시" tooltip="이 문서에는 양식이 있습니다; 여기를 클릭하여 양식 필드 패널을 표시/숨김" status="이 문서에는 양식이 있습니다; 클릭하여 양식 필드 패널을 표시/숨김" short="필드 표시"/>
+		<item id="33373" title="속성 없음" tooltip="현재 선택된 객체에는 속성을 가진 객체가 없습니다." status="현재 선택된 객체에는 속성을 가진 객체가 없습니다." short=""/>
+		<item id="33374" title="PDF/A 정보 표시" tooltip="이 문서는 PDF/A 준수 파일입니다;&#10;자세히 보려면 여기를 클릭하세요." status="이 문서는 PDF/A 준수 파일입니다;&#10;자세히 보려면 여기를 클릭하세요." short="PDF/A 정보"/>
+		<item id="33375" title="XFA 정보 표시" tooltip="이 문서는 XFA 형식을 포함합니다; 자세히 보려면 여기를 클릭하세요." status="이 문서는 XFA 형식을 포함합니다." short="XFA 정보"/>
+		<item id="33379" title="불투명도" tooltip="불투명도 수준" status="" short="불투명도:"/>
+		<item id="33382" title="텍스트 서식 도구 모음 표시/숨김" tooltip="텍스트 서식 도구 모음 표시/숨김" status="" short=""/>
+		<item id="33383" title="페이지 선택 복사" tooltip="페이지 선택 복사" status="" short=""/>
+		<item id="33384" title="전체 페이지 선택" tooltip="전체 페이지 선택" status="" short=""/>
+		<item id="33410" title="주석(&amp;M)" tooltip="주석" status="" short=""/>
+		<item id="33411" title="텍스트 서식" tooltip="텍스트 서식" status="" short=""/>
+		<item id="33412" title="스냅샷 찍기" tooltip="스냅샷 찍기" status="" short=""/>
+		<item id="33413" title="썸네일 확대" tooltip="썸네일 확대" status="썸네일 확대" short=""/>
+		<item id="33414" title="썸네일 축소" tooltip="썸네일 축소" status="썸네일 축소" short=""/>
+		<item id="33416" title="북마크 추가(&amp;B)" tooltip="" status="" short=""/>
+		<item id="33420" title="링크 추가(&amp;L)" tooltip="" status="" short=""/>
+		<item id="33421" title="왼쪽 정렬" tooltip="왼쪽 정렬" status="" short=""/>
+		<item id="33422" title="오른쪽 정렬" tooltip="오른쪽 정렬" status="" short=""/>
+		<item id="33423" title="위쪽 정렬" tooltip="위쪽 정렬" status="" short=""/>
+		<item id="33424" title="아래쪽 정렬" tooltip="아래쪽 정렬" status="" short=""/>
+		<item id="33425" title="가로 가운데 정렬" tooltip="가로 가운데 정렬" status="" short=""/>
+		<item id="33426" title="세로 가운데 정렬" tooltip="세로 가운데 정렬" status="" short=""/>
+		<item id="33427" title="가로 분배" tooltip="가로 분배" status="" short=""/>
+		<item id="33428" title="세로 분배" tooltip="세로 분배" status="" short=""/>
+		<item id="33429" title="같은 폭" tooltip="같은 폭" status="" short=""/>
+		<item id="33430" title="같은 높이" tooltip="같은 높이" status="" short=""/>
+		<item id="33431" title="같은 크기" tooltip="같은 크기" status="" short=""/>
+		<item id="33432" title="현재 링크 모양을 기본으로 설정" tooltip="현재 링크 모양을 기본으로 설정" status="현재 링크 모양을 기본으로 설정" short=""/>
+		<item id="33433" title="기본 모양 적용" tooltip="선택된 링크에 기본 모양을 적용" status="선택된 링크에 기본 모양을 적용" short=""/>
+		<item id="33438" title="사용자 인터페이스 설정..." tooltip="사용자 인터페이스 모양을 설정하는 대화 상자 표시 (색, 글꼴, 배경)..." status="사용자 인터페이스 모양을 설정하는 대화 상자 표시 (색, 글꼴, 배경)..." short="UI 설정..."/>
+		<item id="33800" title="캡션 위치 복원" tooltip="캡션 위치 복원" status="" short=""/>
+		<item id="33801" title="레이블 삭제" tooltip="레이블 삭제" status="" short=""/>
+		<item id="33802" title="레이블 편집" tooltip="레이블 편집" status="" short=""/>
+		<item id="33805" title="배율 변경" tooltip="배율 변경" status="" short=""/>
+		<item id="33806" title="조판지시 레이블 변경" tooltip="조판지시 레이블 변경" status="" short=""/>
+		<item id="33807" title="측정 정보 창 표시" tooltip="측정 정보 창 표시" status="" short=""/>
+		<item id="33811" title="측정을 CSV 파일로 내보내기" tooltip="측정 내보내기" status="" short=""/>
+		<item id="33812" title="내장 파일 열기(&amp;O)..." tooltip="내장 파일 열기" status="내장 파일 열기" short="열기..."/>
+		<item id="33813" title="내장 파일을 디스크에 저장(&amp;S)..." tooltip="내장 파일을 디스크에 저장" status="내장 파일을 디스크에 저장" short="저장..."/>
+		<item id="33814" title="설명 편집(&amp;E)..." tooltip="설명 편집" status="내장 파일의 설명을 편집" short="설명 편집"/>
+		<item id="33815" title="파일 첨부(&amp;F),,," tooltip="파일 첨부" status="외부 파일을 문서에 첨부" short="파일 첨부..."/>
+		<item id="33816" title="선택한 페이지 90° 회전" tooltip="" status="" short="90° 회전"/>
+		<item id="33817" title="선택한 페이지 180° 회전" tooltip="" status="" short="180° 회전"/>
+		<item id="33818" title="선택한 페이지 270° 회전" tooltip="" status="" short="270° 회전"/>
+		<item id="33819" title="선택한 페이지 삭제(&amp;S)" tooltip="" status="" short=""/>
+		<item id="33820" title="공백 제거" tooltip="공백 제거" status="문서의 페이지에 있는 공백을 제거" short="공백 제거"/>
+		<item id="36000" title="도구 모음 설정..." tooltip="도구 모음을 설정하는 대화 상자 표시" status="도구 모음을 설정하는 대화 상자 표시" short=""/>
+		<item id="36001" title="잠김" tooltip="잠김" status="" short=""/>
+		<item id="36004" title="북마크 확대" tooltip="북마크 확대" status="북마크 확대" short=""/>
+		<item id="36005" title="북마크 축소" tooltip="북마크 축소" status="북마크 축소" short=""/>
+		<item id="36006" title="북마크 삭제" tooltip="선택한 북마크 삭제" status="선택한 북마크 삭제" short="삭제"/>
+		<item id="36007" title="북마크 속성..." tooltip="선택한 북마크의 속성 표시" status="선택한 북마크의 속성 표시" short="편집"/>
+		<item id="36008" title="새 북마크" tooltip="새 북마크 만들기" status="새 북마크 만들기" short="새로"/>
+		<item id="36009" title="해당 북마크 가시성 보장" tooltip="해당 북마크 가시성 보장" status="해당 북마크 가시성 보장" short=""/>
+		<item id="36010" title="북마크로 이동" tooltip="북마크로 이동" status="페이지 보기에 북마크 보이기" short=""/>
+		<item id="36012" title="추가" tooltip="새 동작 추가..." status="새 동작 추가..." short=""/>
+		<item id="36013" title="삭제" tooltip="선택한 동작 삭제" status="선택한 동작 삭제" short=""/>
+		<item id="36014" title="위로" tooltip="선택한 항목을 실시간 순서에 위로 이동" status="선택한 항목을 실기간 순서에 위로 이동" short=""/>
+		<item id="36015" title="아래로" tooltip="선택한 항목을 실시간 순서에 아래로 이동" status="선택한 항목을 실시간 순서에 아래로 이동" short=""/>
+		<item id="36016" title="편집..." tooltip="선택한 동작의 속성 편집..." status="선택한 동작의 속성을 편집..." short=""/>
+		<item id="36017" title="선택 시험" tooltip="선택한 동작을 시험..." status="선택한 동작을 시험하려면 누름..." short=""/>
+		<item id="36018" title="모두 시험" tooltip="모든 동작 시험..." status="모든 동작을 시험하려면 누름..." short=""/>
+		<item id="36019" title="리셋" tooltip="동작 목록 리셋하고 변경을 버림" status="동작 목록을 리셋하고 변경을 버림" short=""/>
+		<item id="36023" title="이름 바꾸기(&amp;R)" tooltip="선택한 북마크 이름 바꾸기" status="선택한 북마크 이름 바꾸기" short=""/>
+		<item id="36024" title="현재 모양을 기본으로 설정" tooltip="현재 모양을 기본으로 설정" status="현재 모양을 기본으로 설정" short=""/>
+		<item id="36025" title="긴 북마크 제목을 요약" tooltip="긴 북마크 제목을 요약" status="긴 북마크 제목을 요약" short=""/>
+		<item id="36026" title="기본 모양 적용" tooltip="선택한 북마크에 기본 모양 적용" status="선택한 북마크에 기본 모양 적용" short=""/>
+		<item id="36027" title="실행" tooltip="스크립트 실행" status="" short=""/>
+		<item id="36028" title="지우기" tooltip="콘솔 출력 지우기" status="" short=""/>
+		<item id="36035" title="행으로 이동..." tooltip="" status="" short=""/>
+		<item id="36036" title="자바스크립트 옵션" tooltip="자바스크립트 옵션 표시" status="자바스크립트 옵션 표시..." short=""/>
+		<item id="36037" title="페이지 삽입(&amp;I)..." tooltip="" status="" short=""/>
+		<item id="36038" title="페이지 추출(&amp;E)..." tooltip="" status="" short=""/>
+		<item id="36039" title="페이지 바꾸기(&amp;R)..." tooltip="" status="" short=""/>
+		<item id="36040" title="페이지 전이(&amp;T)..." tooltip="" status="" short=""/>
+		<item id="36048" title="대상 설정(&amp;A)" tooltip="대상 설정" status="현재 보기를 대상으로 설정" short=""/>
+		<item id="36049" title="" tooltip="글꼴" status="" short="글꼴"/>
+		<item id="36250" title="강조 스타일" tooltip="강조 스타일" status="" short="강조:"/>
+		<item id="36252" title="단어 단위로" tooltip="단어 단위로 찾기" status="단어 단위로 완전히 일치하는 단어만 찾기" short=""/>
+		<item id="36253" title="대소문자 구분" tooltip="대소문자 구분 검색" status="대소문자를 구분하여 찾기" short=""/>
+		<item id="36254" title="주석 포함" tooltip="PDF에 추가된 모든 주석의 텍스트 검색" status="PDF에 추가된 모든 주석의 텍스트 검색, 주석 패널에 보이는 대로" short=""/>
+		<item id="36255" title="북마크 포함" tooltip="모든 북마크의 텍스트 검색" status="모든 북마크의 텍스트 검색, 북마크 패널에서 보이는 대로" short=""/>
+		<item id="36256" title="북마크 아이콘 표시" tooltip="북마크 아이콘 표시/숨김" status="북마크 아이콘 표시/숨김" short=""/>
+		<item id="36257" title="주제 편집..." tooltip="선택된 주석 스타일의 초기 주제 편집" status="" short=""/>
+		<item id="36258" title="검색 결과 지우기" tooltip="검색 결과 지우기" status="" short="결과 지우기"/>
+		<item id="36260" title="1600%" tooltip="" status="" short=""/>
+		<item id="36262" title="12.5%" tooltip="" status="" short=""/>
+		<item id="36263" title="8.33%" tooltip="" status="" short=""/>
+		<item id="36264" title="배율" tooltip="" status="" short="배율:"/>
+		<item id="36273" title="채우기 색" tooltip="채우기 색" status="" short="채우기 색:"/>
+		<item id="36274" title="외곽선 색" tooltip="외곽선 색" status="" short="외곽선 색:"/>
+		<item id="36276" title="노트 아이콘" tooltip="노트 아이콘" status="" short="아이콘:"/>
+		<item id="36277" title="배율" tooltip="배율" status="" short="배율:"/>
+		<item id="36279" title="테두리 스타일" tooltip="테두리 스타일" status="" short="테두리:"/>
+		<item id="36281" title="테두리 폭" tooltip="테두리 폭" status="" short="폭:"/>
+		<item id="36287" title="선 끝 스타일" tooltip="선 끝 스타일" status="" short="선 끝:"/>
+		<item id="36289" title="선 시작 스타일" tooltip="선 시작 스타일" status="" short="선 시작:"/>
+		<item id="36291" title="확대" tooltip="썸네일 확대" status="썸네일 확대" short=""/>
+		<item id="36292" title="축소" tooltip="썸네일 축소" status="썸네일 축소" short=""/>
+		<item id="36293" title="클립보드로부터 만들기" tooltip="클립보드 이미지에서 스탬프 만들기" status="클립보드 이미지에서 스탬프 만들기" short="클립보드에서"/>
+		<item id="36294" title="스탬프 삭제" tooltip="선택한 스탬프 삭제" status="선택한 스탬프 삭제" short="삭제"/>
+		<item id="36296" title="집합 삭제" tooltip="선택한 집합 삭제" status="선택한 집합 삭제" short="삭제"/>
+		<item id="36297" title="새 집합 만들기..." tooltip="새 스탬프 집합 만들기..." status="새 스탬프 집합 만들기..." short="새로..."/>
+		<item id="36298" title="스탬프 이름 바꾸기..." tooltip="선택한 스탬프 이름 바꾸기..." status="선택한 스탬프 이름 바꾸기..." short="이름 바꾸기..."/>
+		<item id="36299" title="집합 이름 바꾸기..." tooltip="선택한 집합 이름 바꾸기..." status="선택한 집합 이름 바꾸기..." short="이름 바꾸기..."/>
+		<item id="36300" title="지우개 도구" tooltip="지우개 도구는 연필 도구로 그린 부분만 지웁니다." status="지우개 도구는 연필 도구로 그린 부분만 지웁니다." short="지우개"/>
+		<item id="36301" title="지름" tooltip="지우개 지름" status="" short="지름:"/>
+		<item id="36303" title="PDF에서 만들기..." tooltip="PDF 문서에서 스탬프 만들기" status="PDF 문서에서 스탬프 만들기..." short="PDF에서..."/>
+		<item id="36304" title="이미지에서 만들기..." tooltip="이미지 파일에서 스탬프 만들기..." status="이미지 파일에서 스탬프 만들기..." short="이미지에서..."/>
+		<item id="36305" title="빈 페이지 삽입..." tooltip="" status="" short=""/>
+		<item id="36306" title="모든 북마크 펴기" tooltip="모든 북마크 펴기" status="" short="모두 펴기"/>
+		<item id="36307" title="모든 북마크 접기" tooltip="모든 북마크 접기" status="" short="모두 접기"/>
+		<item id="36308" title="텍스트 속성..." tooltip="텍스트 속성 표시..." status="선택한 텍스트 속성 대화 상자 표시" short="텍스트 속성..."/>
+		<item id="36309" title="이 도구 모음을 리셋" tooltip="이 도구 모음을 기본값으로 리셋" status="이 도구 모음을 기본값으로 리셋" short="이 도구 모음 리셋"/>
+		<item id="36313" title="" tooltip="단축키 리셋" status="" short=""/>
+		<item id="36314" title="" tooltip="단축기 지우기" status="" short=""/>
+		<item id="36315" title="메뉴 바 리셋" tooltip="메뉴 바를 깁본값으로 리셋" status="메뉴 바를 기본값으로 리셋" short="메뉴 바 리셋"/>
+		<item id="36316" title="이 팝업 메뉴 리셋" tooltip="이 팝업 메뉴를 기본값으로 리셋" status="이 팝업 메뉴를 기본값으로 리셋" short="이 팝업 메뉴 리셋"/>
+		<item id="36324" title="이미지 선택" tooltip="" status="" short=""/>
+		<item id="36326" title="리셋" tooltip="" status="" short=""/>
+		<item id="36327" title="삭제" tooltip="" status="" short=""/>
+		<item id="36328" title="기본 스타일" tooltip="" status="" short=""/>
+		<item id="36329" title="이미지 표시" tooltip="" status="" short=""/>
+		<item id="36330" title="텍스트 표시" tooltip="" status="" short=""/>
+		<item id="36331" title="앞에 구분선 삽입" tooltip="" status="" short=""/>
+		<item id="36332" title="뒤에 구분선 삽입" tooltip="" status="" short=""/>
+		<item id="36333" title="속성..." tooltip="" status="" short=""/>
+		<item id="36334" title="미리보기 표시" tooltip="" status="" short=""/>
+		<item id="36335" title="주제 표시" tooltip="주석의 주제 표시" status="주석의 주제 표시" short=""/>
+		<item id="36336" title="저자 표시" tooltip="주석의 저자 표시" status="주석의 저자 표시" short=""/>
+		<item id="36337" title="날짜 표시" tooltip="주석의 수정 날짜 표시" status="주석의 수정 날짜 표시" short=""/>
+		<item id="36338" title="텍스트 표시" tooltip="주석의 텍스트 표시" status="주석의 텍스트 표시" short=""/>
+		<item id="36339" title="색 표시" tooltip="주석의 색 표시" status="주석의 색 표시" short=""/>
+		<item id="36340" title="주석 붙이기(&amp;F)..." tooltip="" status="" short=""/>
+		<item id="36341" title="찾기 목록 지우기" tooltip="찾기 목록 지우기" status="" short="찾기 목록 지우기"/>
+		<item id="36342" title="링크 편집기 도구 모음(&amp;L)" tooltip="링크 편집기 도구 모음 표시/숨김" status="링크 편집기 도구 모음 표시/숨김" short=""/>
+		<item id="36343" title="직사각형 링크 도구(&amp;R)" tooltip="직사각형 링크 도구" status="" short="링크"/>
+		<item id="36344" title="사변형 링크 도구(&amp;Q)" tooltip="사변형 링크 도구" status="" short="링크"/>
+		<item id="36345" title="측정 도구 모음(&amp;M)" tooltip="측정 도구 모음 표시/숨김" status="측정 도구 모음 표시/숨김" short=""/>
+		<item id="36346" title="거리 도구(&amp;D)" tooltip="두 점 간의 거리를 측정하는 거리 도구" status="" short="거리"/>
+		<item id="36347" title="둘레 도구(&amp;P)" tooltip="객체의 둘레를 측정하는 둘레 도구" status="" short="둘레"/>
+		<item id="36348" title="면적 도구(&amp;A)" tooltip="객체의 면적을 측정하는 면적 도구" status="" short="면적"/>
+		<item id="36349" title="주석(&amp;C)" tooltip="" status="" short=""/>
+		<item id="36350" title="주석 요약(&amp;S)..." tooltip="" status="" short=""/>
+		<item id="36351" title="데이터 파일로 주석 내보내기(&amp;E)..." tooltip="" status="" short=""/>
+		<item id="36352" title="페이지 간격 표시" tooltip="페이지 사이의 간격 표시" status="" short="간격 표시"/>
+		<item id="36353" title="두 페이지 모드에서 표지 페이지 표시" tooltip="양면 모드에서 표지 페이지 표시" status="" short="표지 페이지 표시"/>
+		<item id="36355" title="비율 값 (부터)" tooltip="비율 값 (부터)" status="" short="부터:"/>
+		<item id="36356" title="비율 값 (까지)" tooltip="비율 값 (까지)" status="" short="까지:"/>
+		<item id="36357" title="비율 단위 (부터)" tooltip="비율 단위 (부터)" status="" short="부터:"/>
+		<item id="36359" title="비율 단위 (까지)" tooltip="비율 단위 (까지)" status="" short="까지:"/>
+		<item id="36362" title="&quot;이 문서내 페이지로 이동&quot; 추가..." tooltip="&quot;이 문서내 페이지로 이동&quot; 추가..." status="&quot;이 문서내 페이지로 이동&quot; 추가, 새 동작을 추가하는 대화 상자 표시..." short=""/>
+		<item id="36363" title="&quot;웹 링크 열기&quot; 추가..." tooltip="&quot;웹 링크 열기&quot; 추가..." status="&quot;웹 링크 열기&quot; 추가, 새 동작을 추가하는 대화 상자 표시" short=""/>
+		<item id="36364" title="빈 페이지에서..." tooltip="빈 페이지에서..." status="빈 페이지를 가진 새 PDF 문서 만들기..." short=""/>
+		<item id="36365" title="텍스트 파일에서..." tooltip="텍스트 파일에서..." status="기존 텍스트 파일에서 새 PDF 문서 만들기..." short=""/>
+		<item id="36366" title="실행 취소(&amp;U)" tooltip="" status="" short=""/>
+		<item id="36367" title="다시 실행(&amp;R)" tooltip="" status="" short=""/>
+		<item id="36368" title="잘라내기(&amp;T)" tooltip="" status="" short=""/>
+		<item id="36369" title="복사(&amp;C)" tooltip="" status="" short=""/>
+		<item id="36370" title="붙여넣기(&amp;P)" tooltip="" status="" short=""/>
+		<item id="36371" title="삭제(&amp;D)" tooltip="" status="" short=""/>
+		<item id="36372" title="모두 선택(&amp;A)" tooltip="" status="" short=""/>
+		<item id="36373" title="모든 명령 모음 잠금/해제" tooltip="모든 명령 모음 잠금/해제" status="모든 명령 모음 잠금/해제: 설정과 이동 거부" short="바 잠금"/>
+		<item id="36374" title="모든 설정 기본값으로 리셋..." tooltip="프로그램의 모든 설정을 기본값으로 리셋..." status="프로그램의 모든 설정을 기본값으로 리셋..." short=""/>
+		<item id="36375" title="이미지 파일에서..." tooltip="이미지 파일에서..." status="기존 이미지 파일에서 새 PDF 문서 만들기..." short=""/>
+		<item id="36408" title="데이터 파일에서 모든 설정 가져오기..." tooltip="데이터 파일에서 프로그램의 모든 설정을 가져오기..." status="외부 데이터 파일에서 프로그램의 모든 설정을 가져오기..." short=""/>
+		<item id="36409" title="데이터 파일로 모든 설정 내보내기..." tooltip="프로그램의 모든 설정을 데이터 파일로 내보내기..." status="프로그램의 모든 설정을 외부 데이터 파일로 내보내기..." short=""/>
+		<item id="36415" title="표시" tooltip="" status="" short=""/>
+		<item id="36416" title="등록정보" tooltip="" status="" short=""/>
+		<item id="36417" title="끝내기" tooltip="" status="" short=""/>
+		<item id="36418" title="주석 스타일 표시..." tooltip="" status="" short=""/>
+		<item id="36420" title="주석 스타일 팔레트 표시" tooltip="" status="" short=""/>
+		<item id="36434" title="주석 표시" tooltip="" status="" short=""/>
+		<item id="36435" title="모든 주석 숨김" tooltip="" status="" short=""/>
+		<item id="36436" title="모든 주석 표시" tooltip="" status="" short=""/>
+		<item id="36437" title="종류별 표시" tooltip="" status="" short=""/>
+		<item id="36438" title="모든 팝업 열기" tooltip="" status="" short=""/>
+		<item id="36439" title="모든 팝업 닫기" tooltip="" status="" short=""/>
+		<item id="36440" title="모든 종류" tooltip="" status="" short=""/>
+		<item id="36441" title="노트" tooltip="" status="" short=""/>
+		<item id="36442" title="드로잉 조판지시" tooltip="" status="" short=""/>
+		<item id="36443" title="텍스트 편집 조판지시" tooltip="" status="" short=""/>
+		<item id="36444" title="스탬프" tooltip="" status="" short=""/>
+		<item id="36445" title="첨부" tooltip="" status="" short=""/>
+		<item id="36446" title="캐릭터 &lt;-&gt; 16진 코드" tooltip="캐릭터 &lt;-&gt; 16진 코드 변환" status="" short=""/>
+		<item id="36447" title="캐릭터 &lt;-&gt; 글리프 인덱스" tooltip="캐릭터 &lt;-&gt; 글리프 인덱스 변환" status="" short=""/>
+		<item id="36457" title="밑줄 스타일" tooltip="밑줄 스타일" status="" short="스타일:"/>
+		<item id="36459" title="현재 모양을 기본값으로 설정" tooltip="이 모양(색, 테두리 스타일, 불투명도 등)을 현재 주석 스타일에 저장.&#10;저장된 모양은 현재 주석 스타일에 대한 기본값으로 새 주석에 사용됩니다." status="" short=""/>
+		<item id="36460" title="기본 모양 적용" tooltip="현재 주석 스타일에서 저장된 모양(색, 테두리 스타일, 불투명도 등)을 적용" status="" short=""/>
+		<item id="36461" title="잠김" tooltip="잠김" status="" short=""/>
+		<item id="36462" title="스캐너에서..." tooltip="스캐너에서..." status="스캐너에서 새 PDF 문서 만들기..." short=""/>
+		<item id="36463" title="모든 필드" tooltip="모든 양식 필드를 강조하려면 여기를 클릭" status="모든 양식 필드를 강조하려면 클릭" short=""/>
+		<item id="36464" title="콤보 박스" tooltip="모든 콤보 박스를 강조하려면 여기를 클릭" status="모든 콤보 박스를 강조하려면 클릭" short=""/>
+		<item id="36465" title="체크 박스" tooltip="모든 체크 박스를 강조하려면 여기를 클릭" status="모든 체크 박스를 강조하려면 클릭" short=""/>
+		<item id="36466" title="리스트 박스" tooltip="모든 리스트 박스를 강조하려면 여기를 클릭" status="모든 리스트 박스를 강조하려면 클릭" short=""/>
+		<item id="36467" title="푸시 버튼" tooltip="모든 푸시 버튼을 강조하려면 여기를 클릭" status="모든 푸시 버튼을 강조하려면 클릭" short=""/>
+		<item id="36468" title="라디오 버튼" tooltip="모든 라디오 버튼을 강조하려면 여기를 클릭" status="모든 라디오 버튼을 강조하려면 클릭" short=""/>
+		<item id="36469" title="텍스트 박스" tooltip="모든 텍스트 박스를 강조하려면 여기를 클릭" status="모든 텍스트 박스를 강조하려면 클릭" short=""/>
+		<item id="36470" title="서명 필드" tooltip="모든 서명 필드를 강조하려면 여기를 클릭" status="모든 서명 필드를 강조하려면 클릭" short=""/>
+		<item id="36471" title="필수 필드만" tooltip="필수 필드만 강조하려면 여기를 클릭" status="필수 필드만 강조하려면 클릭" short=""/>
+		<item id="36472" title="확대" tooltip="확대" status="" short=""/>
+		<item id="36473" title="축소" tooltip="축소" status="" short=""/>
+		<item id="36474" title="세로 뒤집기" tooltip="세로 뒤집기" status="" short=""/>
+		<item id="36475" title="가로 뒤집기" tooltip="가로 뒤집기" status="" short=""/>
+		<item id="36476" title="맞춤" tooltip="맞춤" status="" short=""/>
+		<item id="36477" title="반시계 방향으로 90° 회전" tooltip="90° 회전 (반시계)" status="" short=""/>
+		<item id="36478" title="시계 방향으로 90° 회전" tooltip="90° 회전 (시계)" status="" short=""/>
+		<item id="36479" title="180° 회전" tooltip="180° 회전" status="" short=""/>
+		<item id="36481" title="링크 위치 복사(&amp;C)" tooltip="링크 위치 복사" status="" short=""/>
+		<item id="36482" title="브라우저로 URL 열기(&amp;O)" tooltip="브라우저로 URL 열기" status="" short=""/>
+		<item id="36483" title="선 두께" tooltip="배율 수준에 관계없이 한 픽셀 폭으로 모든 선 표시" status="배율 수준에 관계없이 한 픽셀 폭으로 모든 선 표시" short=""/>
+		<item id="36485" title="주석 리셋" tooltip="선택한 주석 리셋.&#10;선택한 주석 종류의 모든 사용자 스타일은 지워지고 기본 스타일만 남게됩니다." status="" short="리셋"/>
+		<item id="36486" title="주석 스타일 복제" tooltip="선택한 주석 스타일 복제" status="" short="복제"/>
+		<item id="36487" title="주석 스타일 삭제" tooltip="선택한 주석 스타일 삭제" status="" short="삭제"/>
+		<item id="36488" title="주석 스타일 리셋" tooltip="선택한 주석 스타일 리셋" status="" short="리셋"/>
+		<item id="36489" title="주석 스타일 이름 바꾸기" tooltip="선택한 주석 스타일 이름 바꾸기" status="" short="이름 바꾸기"/>
+		<item id="36493" title="RTF 파일에서..." tooltip="리치 텍스트 포맷(RTF) 파일에서..." status="기존 파일에서 새 PDF 문서 만들기..." short=""/>
+		<item id="36496" title="&quot;다른 문서의 페이지로 이동&quot; 추가..." tooltip="&quot;다른 문서의 페이지로 이동&quot; 추가..." status="&quot;다른 문서의 페이지로 이동&quot; 추가, 새 동작 추가에 대한 대화 상자 표시" short=""/>
+		<item id="36497" title="&quot;파일 열기&quot; 추가..." tooltip="&quot;파일 열기&quot; 추가..." status="&quot;파일 열기&quot; 추가, 새 동작에 대한 대화 상자 표시..." short=""/>
+		<item id="36498" title="문서 색 덮어쓰기" tooltip="문서 색 덮어쓰기 옵션 토글" status="문서 색 덮어쓰기 옵션 토글" short=""/>
+		<item id="36500" title="최근 목록 관리..." tooltip="최근 목록 관리..." status="" short=""/>
+		<item id="36501" title="새 브라우저 탭에서 URL 열기" tooltip="새 브라우저 탭에서 URL 열기" status="" short=""/>
+		<item id="36502" title="새 브라우저 창에서 URL 열기" tooltip="새 브라우저 창에서 URL 열기" status="" short=""/>
+		<item id="36503" title="주석 가져오기..." tooltip="" status="" short=""/>
+		<item id="36511" title="검색 공급자로 검색" tooltip="검색 공급자 검색" status="선택한 텍스트를 인터넷 검색 공급자를 사용하여 검색" short=""/>
+		<item id="36513" title="검색 공급자 관리..." tooltip="검색 공급자 관리..." status="" short=""/>
+		<item id="36514" title="온라인 검색" tooltip="인터넷 검색 공급자를 사용하여 지정한 텍스트 검색" status="인터넷 검색 공급자를 사용하여 지정한 텍스트 검색" short=""/>
+		<item id="36515" title="서명(&amp;S)" tooltip="" status="" short=""/>
+		<item id="36516" title="문서 서명(&amp;S)" tooltip="문서 디지털 서명" status="문서 디지털 서명" short="서명"/>
+		<item id="36517" title="서명 넣기(&amp;P)" tooltip="서명 넣기" status="문서에 서명 넣기" short="사인 넣기"/>
+		<item id="36518" title="모든 서명 인가(&amp;V)" tooltip="모든 서명 인가" status="문서에 모든 서명 인가" short="서명 인가"/>
+		<item id="36519" title="탭 썸네일 표시(&amp;T)" tooltip="탭 썸네일 표시" status="탭 미리보기 표시 켜기/끄기" short=""/>
+		<item id="36520" title="격자선 표시" tooltip="" status="" short=""/>
+		<item id="36521" title="안내선 표시" tooltip="" status="" short=""/>
+		<item id="36522" title="눈금자 표시" tooltip="" status="" short=""/>
+		<item id="36523" title="새 페이지 안내선 추가..." tooltip="새 페이지 안내선 추가..." status="" short=""/>
+		<item id="36524" title="현재 페이지 안내선 삭제" tooltip="현재 페이지 안내선 삭제" status="" short=""/>
+		<item id="36525" title="모든 페이지 안내선 삭제" tooltip="모든 페이지 안내선 삭제" status="" short=""/>
+		<item id="36527" title="측정 설정..." tooltip="측정 설정..." status="" short=""/>
+		<item id="36529" title="격자선에 붙기" tooltip="" status="" short=""/>
+		<item id="36530" title="안내선에 붙기" tooltip="" status="" short=""/>
+		<item id="36531" title="객체에 붙기" tooltip="" status="" short=""/>
+		<item id="36532" title="자석효과" tooltip="자석효과 켜기/끄기" status="" short=""/>
+		<item id="36533" title="열기" tooltip="선택한 첨부 열기" status="" short=""/>
+		<item id="36534" title="저장..." tooltip="선택한 첨부를 외부 파일로 저장..." status="" short=""/>
+		<item id="36535" title="새로 추가..." tooltip="새 첨부 추가..." status="" short=""/>
+		<item id="36536" title="삭제" tooltip="선택한 첨부 삭제" status="" short=""/>
+		<item id="36537" title="설명 편집..." tooltip="설명 편집..." status="" short=""/>
+		<item id="36538" title="첨부 패널 표시" tooltip="문서에 첨부 파일이 포함되어 있습니다; 여기를 클릭하여 첨부 패널을 표시/숨김" status="문서에 첨부 파일이 포함되어 있습니다; 클릭하여 첨부 패널을 표시/숨김" short="첨부 표시"/>
+		<item id="36539" title="모든 열린 문서의 썸네일 표시" tooltip="모든 열린 문서를 썸네일로 보기" status="" short="문서 표시"/>
+		<item id="36542" title="혼합 모드" tooltip="혼합 모드" status="" short="혼합 모드:"/>
+		<item id="36543" title="앞으로(&amp;F)" tooltip="앞으로 이동" status="" short=""/>
+		<item id="36544" title="뒤로(&amp;B)" tooltip="뒤로 이동" status="" short=""/>
+		<item id="36545" title="하나 앞으로(&amp;O)" tooltip="하나 앞으로" status="" short=""/>
+		<item id="36546" title="하나 뒤로(&amp;N)" tooltip="하나 뒤로" status="" short=""/>
+		<item id="36547" title="순서(&amp;D)" tooltip="" status="" short=""/>
+		<item id="36548" title="보이는 영역 강조" tooltip="현재 페이지의 보이는 영역 강조" status="썸네일에 현재 페이지의 보이는 영역 강조" short=""/>
+		<item id="36549" title="대화형 강조 영역" tooltip="강조된 영역의 상호 대화 켜기/끄기" status="썸네일의 강조된 영역의 상호 대화 켜기/끄기" short=""/>
+		<item id="36551" title="초기 배율 설정..." tooltip="새로운  &quot;문서내 페이지로 이동&quot; 동작에 대한 초기 배율 설정" status="새로운 &quot;문서내 페이지 이동&quot;에 대한 초기 배율 설정" short="초기 배율 설정..."/>
+		<item id="36552" title="페이지 내용 포함" tooltip="모든 페이지의 텍스트 검색" status="모든 페이지의 텍스트 검색" short=""/>
+		<item id="36553" title="페이지 내용 포함" tooltip="모든 페이지의 텍스트 검색" status="포든 페이지의 텍스트 검색" short=""/>
+		<item id="36554" title="문서 정보 포함" tooltip="문서 정보(제목, 주제, 저자, 키워드 등)의 텍스트 검색" status="문서 정보(제목, 주제, 저자, 키워드 등)의 텍스트 검색" short=""/>
+		<item id="36556" title="모든 바 표시" tooltip="모든 바를 사용자 설정에서 표시" status="모든 바를 사용자 설정에서 표기" short=""/>
+		<item id="36557" title="모든 바 숨김" tooltip="모든 바를 사용자 설정에서 숨김" status="모든 바를 사용자 설정에서 숨김" short=""/>
+		<item id="36558" title="저자별 표시" tooltip="" status="" short=""/>
+		<item id="36559" title="모든 저자" tooltip="" status="" short=""/>
+		<item id="36560" title="저자 선택..." tooltip="" status="" short=""/>
+		<item id="36562" title="마지막 세션 복원..." tooltip="이전 세션으로부터 모든 문서 다시 열기..." status="이전 세션으로부터 모든 문서 다시 열기..." short=""/>
+		<item id="36563" title="그룹 팝업 열기" tooltip="그룹의 모든 팝업 열기" status="" short=""/>
+		<item id="36564" title="그룹 팝업 닫기" tooltip="그룹의 모든 팝업 닫기" status="" short=""/>
+		<item id="36569" title="시리얼 키 입력..." tooltip="" status="" short=""/>
+		<item id="36570" title="페이지 OCR..." tooltip="OCR을 사용하여 페이지의 텍스트 인식..." status="OCR을 사용하여 페이지의 텍스트 인식..." short="OCR"/>
+		<item id="57600" title="새 문서(&amp;N)..." tooltip="" status="" short=""/>
+		<item id="57601" title="열기(&amp;O)..." tooltip="기존 문서 열기..." status="기존 문서 열기" short=""/>
+		<item id="57602" title="닫기(&amp;C)" tooltip="현재 문서 닫기" status="현재 문서 닫기" short=""/>
+		<item id="57603" title="저장(&amp;S)" tooltip="현재 문서 저장" status="현재 문서 저장" short=""/>
+		<item id="57604" title="다른 이름으로 저장(&amp;A)..." tooltip="새 이름으로 현재 문서 저장" status="새 이름으로 현재 문서 저장" short=""/>
+		<item id="57607" title="인쇄(&amp;P)..." tooltip="현재 문서 인쇄" status="현재 문서 인쇄" short=""/>
+		<item id="57611" title="다른 이름으로 복사(&amp;Y)..." tooltip="현재 문서를 새 파일에 저장" status="현재 문서를 새 파일에 저장" short=""/>
+		<item id="57612" title="이메일로 보내기(&amp;E)..." tooltip="현재 문서를 새 이메일 메시지에 첨부" status="현재 문서를 새 이메일 메시지에 첨부" short=""/>
+		<item id="57632" title="지우기(&amp;E)" tooltip="선택 지우기" status="선택 지우기" short=""/>
+		<item id="57634" title="복사(&amp;C)" tooltip="선택을 클립보드로 복사" status="선택을 클립보드로 복사" short=""/>
+		<item id="57635" title="잘라내기(&amp;T)" tooltip="선택을 잘라내 클립보드로 이동" status="선택을 잘라내 클립보드로 이동" short=""/>
+		<item id="57636" title="찾기(&amp;F)" tooltip="지정된 텍스트 찾기" status="지정된 텍스트 찾기" short=""/>
+		<item id="57637" title="붙여넣기(&amp;P)" tooltip="클립보드 내용 삽입" status="클립보드 내용 삽입" short=""/>
+		<item id="57642" title="모두 선택(&amp;L)" tooltip="모두 선택" status="" short=""/>
+		<item id="57643" title="실행 취소(&amp;U)" tooltip="마지막 동작 실행 취소" status="마지막 동작 실행 취소" short=""/>
+		<item id="57644" title="다시 실행(&amp;R)" tooltip="이전에 취소된 동작 다시 실행" status="이전에 취소된 동작 다시 실행" short=""/>
+		<item id="57649" title="아이콘 정렬(&amp;I)" tooltip="창 아래에 아이콘 정렬" status="창 아래에 아이콘 정렬" short=""/>
+		<item id="57650" title="계단식(&amp;C)" tooltip="창을 겹치게 정렬" status="창을 겹치게 정렬" short=""/>
+		<item id="57651" title="가로 바둑판식(&amp;H)" tooltip="창을 겹치지 않게 정렬" status="창을 겹치지 않게 정렬" short=""/>
+		<item id="57652" title="세로 바둑판식(&amp;V)" tooltip="창을 겹치지 않게 정렬" status="창을 겹치지 않게 정렬" short=""/>
+		<item id="57653" title="분할(&amp;S)" tooltip="현재 창을 패널로 분할" status="현재 창을 패널로 분할" short=""/>
+		<item id="57664" title="PDF-XChange 뷰어 등록정보(&amp;A)..." tooltip="프로그램 정보, 버전 번호, 저작권을 표시" status="프로그램 정보, 버전 번호, 저작권을 표시" short=""/>
+		<item id="57665" title="끝내기(&amp;X)" tooltip="변경된 문서를 저장할 지 물어보고 끝내기" status="변경된 문서를 저장할 지 물어보고 끝내기" short=""/>
+		<item id="57670" title="도움말(&amp;H)" tooltip="" status="" short=""/>
+		<item id="57718" title="왼쪽 스크롤" tooltip="왼쪽 스크롤" status="" short=""/>
+		<item id="57719" title="오른쪽 스크롤" tooltip="오른쪽 스크롤" status="" short=""/>
+		<item id="59393" title="상태 표시줄(&amp;S)" tooltip="상태 표시줄 표시/숨김" status="상태 표시줄 표시/숨김" short=""/>
+	</commands>
+	<dialogs>
+		<dialog id="203" text="설정">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="3" text="적용" tooltip=""/>
+		</dialog>
+		<dialog id="204" text="">
+			<item id="1004" text="출력 의도가 작업 공간보다 우선" tooltip=""/>
+			<item id="1008" text="검은 점 보상 사용(&amp;U)" tooltip=""/>
+			<item id="1038" text="색 설정(&amp;S):" tooltip=""/>
+			<item id="1039" text="RGB (&amp;R):" tooltip=""/>
+			<item id="1040" text="CMYK (&amp;C):" tooltip=""/>
+			<item id="1041" text="회색조(&amp;G):" tooltip=""/>
+			<item id="1042" text="엔진(&amp;E):" tooltip=""/>
+			<item id="1200" text="작업 공간" tooltip=""/>
+			<item id="1201" text="변환 옵션" tooltip=""/>
+		</dialog>
+		<dialog id="207" text="">
+			<item id="4" text="찾아보기(&amp;W)..." tooltip=""/>
+			<item id="5" text="찾아보기(&amp;W)..." tooltip=""/>
+			<item id="1009" text="최근 파일에 최대 문서 수(&amp;X)" tooltip=""/>
+			<item id="1014" text="스플래시 화면 표시(&amp;P)" tooltip=""/>
+			<item id="1015" text="다중 인스턴스 허용(&amp;I)" tooltip=""/>
+			<item id="1016" text="시스템 트레이로 최소화(&amp;N)" tooltip=""/>
+			<item id="1017" text="시스템 트레이로 닫기(&amp;L)" tooltip=""/>
+			<item id="1032" text="탭 문서(&amp;T)" tooltip=""/>
+			<item id="1033" text="다중 문서(&amp;M)" tooltip=""/>
+			<item id="1035" text="각 탭에 닫기 버튼 표시(&amp;C)" tooltip=""/>
+			<item id="1036" text="단일 문서(&amp;S)" tooltip=""/>
+			<item id="1037" text="문서가 하나면 탭 숨김(&amp;B)" tooltip=""/>
+			<item id="1038" text="문서 저장 방법 설정(&amp;S):" tooltip=""/>
+			<item id="1039" text="URL에서 다운로드 대상 폴더(&amp;D):" tooltip=""/>
+			<item id="1040" text="&apos;다른 이름으로 저장&apos; 대상 폴더(&amp;H):" tooltip=""/>
+			<item id="1199" text="응용 프로그램" tooltip=""/>
+			<item id="1200" text="문서 레이아웃" tooltip=""/>
+			<item id="1201" text="문서 열기" tooltip=""/>
+			<item id="1202" text="문서 저장" tooltip=""/>
+			<item id="1228" text="관리(&amp;G)..." tooltip=""/>
+			<item id="1450" text="프로그램 시작할 때 마지막 세션 복원(&amp;R)" tooltip=""/>
+			<item id="1451" text="사용 후 다운로드 파일 삭제" tooltip=""/>
+		</dialog>
+		<dialog id="212" text="문서 암호 입력">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1039" text="이 문서의 유효한 사용자나 소유자를 입력하세요:" tooltip=""/>
+		</dialog>
+		<dialog id="213" text="문서 속성">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+		</dialog>
+		<dialog id="214" text="">
+			<item id="1038" text="파일 이름:" tooltip=""/>
+			<item id="1039" text="위치:" tooltip=""/>
+			<item id="1040" text="생성:" tooltip=""/>
+			<item id="1041" text="수정:" tooltip=""/>
+			<item id="1042" text="파일 크기:" tooltip=""/>
+			<item id="1043" text="제목(&amp;T):" tooltip=""/>
+			<item id="1044" text="저자(&amp;A):" tooltip=""/>
+			<item id="1200" text="파일 정보(&amp;F)" tooltip=""/>
+			<item id="1201" text="문서 정보(&amp;D)" tooltip=""/>
+			<item id="1203" text="주제(&amp;S):" tooltip=""/>
+			<item id="1204" text="키워드(&amp;K):" tooltip=""/>
+			<item id="1205" text="PDF 제작자:" tooltip=""/>
+			<item id="1206" text="응용 프로그램:" tooltip=""/>
+			<item id="1207" text="PDF 버전:" tooltip=""/>
+			<item id="1208" text="페이지 수:" tooltip=""/>
+			<item id="1209" text="부가 메타데이터(&amp;M)..." tooltip=""/>
+			<item id="1210" text="PDF 뷰어:" tooltip=""/>
+		</dialog>
+		<dialog id="220" text="">
+			<item id="1038" text="인쇄:" tooltip=""/>
+			<item id="1039" text="문서 변경:" tooltip=""/>
+			<item id="1040" text="내용 복사:" tooltip=""/>
+			<item id="1041" text="주석 달기:" tooltip=""/>
+			<item id="1042" text="양식 필드 채우기:" tooltip=""/>
+			<item id="1043" text="접근성을 위한 내용 복사:" tooltip=""/>
+			<item id="1044" text="문서 어셈블리:" tooltip=""/>
+			<item id="1045" text="페이지 추출:" tooltip=""/>
+			<item id="1047" text="서명:" tooltip=""/>
+			<item id="1049" text="템플릿 페이지 생성:" tooltip=""/>
+			<item id="1200" text="문서 보안" tooltip=""/>
+			<item id="1201" text="자세한 문서 권한" tooltip=""/>
+			<item id="1203" text="문서 보안 방법은 어떠한 변경이 가능한지 결정합니다:" tooltip=""/>
+			<item id="1204" text="보안 방법(&amp;M):" tooltip=""/>
+			<item id="1205" text="암호화 방법:" tooltip=""/>
+			<item id="1210" text="설정 변경(&amp;C)..." tooltip=""/>
+			<item id="1212" text="자세히 보기..." tooltip=""/>
+		</dialog>
+		<dialog id="221" text="이미지로 내보내기">
+			<item id="1" text="내보내기(&amp;X)..." tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="4" text="찾아보기..." tooltip=""/>
+			<item id="6" text="매크로" tooltip=""/>
+			<item id="7" text="옵션..." tooltip=""/>
+			<item id="1040" text="대상 폴더:" tooltip=""/>
+			<item id="1041" text="파일 이름:" tooltip=""/>
+			<item id="1042" text="이미지 종류:" tooltip=""/>
+			<item id="1043" text="내보내기 모드:" tooltip=""/>
+			<item id="1044" text="해상도:" tooltip=""/>
+			<item id="1201" text="다른 이름으로 저장" tooltip=""/>
+			<item id="1202" text="그래픽" tooltip=""/>
+			<item id="1203" text="페이지 배경:" tooltip=""/>
+			<item id="1204" text="페이지 범위" tooltip=""/>
+			<item id="1206" text="페이지 배율:" tooltip=""/>
+			<item id="1330" text="모두(&amp;A)" tooltip=""/>
+			<item id="1331" text="선택된 페이지(&amp;S)" tooltip=""/>
+			<item id="1332" text="현재 페이지(&amp;R)" tooltip=""/>
+			<item id="1333" text="페이지(&amp;G):" tooltip=""/>
+			<item id="1335" text="부분 집합:" tooltip=""/>
+			<item id="1339" text="현재 보기(&amp;V)" tooltip=""/>
+			<item id="1340" text="선택한 그래픽(&amp;G)" tooltip=""/>
+			<item id="1341" text="역순" tooltip=""/>
+			<item id="1387" text="쉼표로 구분하여 페이지 번호나 범위를 입력할 수 있습니다.&#10;예: 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="222" text="이미지 저장 옵션">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+		</dialog>
+		<dialog id="223" text="">
+			<item id="1071" text="취소" tooltip=""/>
+			<item id="1072" text="건너뛰기" tooltip=""/>
+		</dialog>
+		<dialog id="224" text="">
+			<item id="1038" text="기본 보기(&amp;V):" tooltip=""/>
+			<item id="1039" text="기본 페이지 레이아웃(&amp;L):" tooltip=""/>
+			<item id="1040" text="기본 페이지 배율(&amp;Z):" tooltip=""/>
+			<item id="1041" text="해상도 사용(&amp;R):" tooltip=""/>
+			<item id="1042" text="픽셀/인치" tooltip=""/>
+			<item id="1073" text="아트박스, 트림박스, 블리드박스 표시" tooltip=""/>
+			<item id="1074" text="투명한 격자선 표시" tooltip=""/>
+			<item id="1079" text="URL에 링크 만들기" tooltip=""/>
+			<item id="1080" text="프로토콜 없는 URL 링크 무시&#10;(HTTP:// 없는 주소)" tooltip=""/>
+			<item id="1083" text="큰 이미지 표시" tooltip=""/>
+			<item id="1126" text="열 때 문서의 마지막 사용된 보기 복원 (사용자 레이아웃, 패널 표시)" tooltip=""/>
+			<item id="1200" text="페이지 표시" tooltip=""/>
+			<item id="1201" text="초기 표시" tooltip=""/>
+			<item id="1202" text="초기 보기" tooltip=""/>
+			<item id="1228" text="열 때 최근 목록에서 마지막 사용된 레이아웃과 배율 설정을 복원" tooltip=""/>
+			<item id="1523" text="&quot;이동&apos; 동작을 실행하는 동안 현재 배율 변경 금지&#10;(북마크, 하이퍼링크, 자바스크립트로 이동할 때)" tooltip=""/>
+		</dialog>
+		<dialog id="227" text="파일 덮어쓰기 확인">
+			<item id="2" text="취소" tooltip=""/>
+			<item id="6" text="예" tooltip=""/>
+			<item id="7" text="아니오" tooltip=""/>
+			<item id="100" text="모두 예" tooltip=""/>
+			<item id="101" text="모두 아니오" tooltip=""/>
+			<item id="102" text="자동" tooltip=""/>
+			<item id="103" text="다른 이름으로..." tooltip=""/>
+			<item id="1040" text="이 파일을 덮어쓰시겠습니까?" tooltip=""/>
+			<item id="1041" text="유일한 대상 파일 이름을 생성하기 위해&#10;자동 파일 이름을 사용할 수 있습니다:" tooltip=""/>
+		</dialog>
+		<dialog id="228" text="">
+			<item id="2" text="취소" tooltip=""/>
+			<item id="4" text="재시도" tooltip=""/>
+			<item id="103" text="다른 이름으로..." tooltip=""/>
+		</dialog>
+		<dialog id="229" text="인쇄">
+			<item id="1" text="인쇄" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="매수:" tooltip=""/>
+			<item id="1041" text="배율 종류:" tooltip=""/>
+			<item id="1043" text="이름(&amp;N):" tooltip=""/>
+			<item id="1044" text="상태:" tooltip=""/>
+			<item id="1086" text="속성(&amp;P)..." tooltip=""/>
+			<item id="1087" text="파일로 인쇄" tooltip=""/>
+			<item id="1088" text="양면 인쇄 모드" tooltip=""/>
+			<item id="1094" text="한 부씩 인쇄" tooltip=""/>
+			<item id="1096" text="회색조로 인쇄" tooltip=""/>
+			<item id="1097" text="이미지로 인쇄" tooltip=""/>
+			<item id="1127" text="페이지 배율" tooltip=""/>
+			<item id="1200" text="프린터" tooltip=""/>
+			<item id="1201" text="페이지 범위" tooltip=""/>
+			<item id="1203" text="종류:" tooltip=""/>
+			<item id="1204" text="인쇄 옵션" tooltip=""/>
+			<item id="1206" text="인쇄:" tooltip=""/>
+			<item id="1207" text="인쇄 용지:" tooltip=""/>
+			<item id="1330" text="모두(&amp;A)" tooltip=""/>
+			<item id="1331" text="선택된 페이지(&amp;S)" tooltip=""/>
+			<item id="1332" text="현재 페이지(&amp;R)" tooltip=""/>
+			<item id="1333" text="페이지(&amp;G):" tooltip=""/>
+			<item id="1335" text="부분 집합:" tooltip=""/>
+			<item id="1339" text="현재 보기(&amp;V)" tooltip=""/>
+			<item id="1340" text="선택된 그래픽(&amp;G)" tooltip=""/>
+			<item id="1341" text="역순으로" tooltip=""/>
+			<item id="1343" text="고급..." tooltip=""/>
+			<item id="1387" text="쉼표로 구분하여 페이지 번호나 범위를 입력할 수 있습니다.&#10;예: 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="230" text="">
+			<item id="1038" text="페이지 배율:" tooltip=""/>
+			<item id="1116" text="PDF 페이지 크기로 용지 선택" tooltip=""/>
+			<item id="1120" text="자동 용지 회전" tooltip=""/>
+			<item id="1121" text="자동으로 페이지를 용지의 가운데로" tooltip=""/>
+		</dialog>
+		<dialog id="231" text="">
+			<item id="1038" text="용지당 페이지:" tooltip=""/>
+			<item id="1039" text="페이지 순서:" tooltip=""/>
+			<item id="1108" text="페이지 테두리 표시" tooltip=""/>
+			<item id="1120" text="자동 페이지 회전" tooltip=""/>
+			<item id="1121" text="자동 페이지 가운데" tooltip=""/>
+			<item id="1128" text="x" tooltip=""/>
+		</dialog>
+		<dialog id="232" text="">
+			<item id="1038" text="페이지 배율:" tooltip=""/>
+			<item id="1040" text="중첩:" tooltip=""/>
+			<item id="1110" text="용지에 자르기 마크 표시" tooltip=""/>
+			<item id="1118" text="용지에 레이블 표시" tooltip=""/>
+			<item id="1120" text="구도에 따라 자동 용지 회전" tooltip=""/>
+			<item id="1121" text="구도에 따라 자동 페이지 가운데" tooltip=""/>
+		</dialog>
+		<dialog id="236" text="페이지 이동">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="페이지 번호 입력:" tooltip=""/>
+		</dialog>
+		<dialog id="237" text="배율 지정">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="배율을 입력하세요:" tooltip=""/>
+		</dialog>
+		<dialog id="244" text="">
+			<item id="1038" text="어떤 단어나 문장을 찾으시겠습니까?" tooltip=""/>
+			<item id="1039" text="어디서 찾으시겠습니까?" tooltip=""/>
+			<item id="1040" text="정렬 순서:" tooltip=""/>
+			<item id="1099" text="옵션" tooltip=""/>
+			<item id="1139" text="지금 검색" tooltip=""/>
+			<item id="1142" text="지우기" tooltip=""/>
+		</dialog>
+		<dialog id="245" text="검색 옵션">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="근접 사용:" tooltip=""/>
+			<item id="1126" text="대소문자 구분" tooltip=""/>
+			<item id="1128" text="주석 포함" tooltip=""/>
+			<item id="1129" text="북마크 포함" tooltip=""/>
+			<item id="1130" text="서브 폴더 들르기" tooltip=""/>
+			<item id="1131" text="첨부 포함" tooltip=""/>
+			<item id="1145" text="단어 단위로" tooltip=""/>
+			<item id="1193" text="가까움" tooltip=""/>
+			<item id="1194" text="페이지에서" tooltip=""/>
+			<item id="1195" text="문서에서" tooltip=""/>
+			<item id="1200" text="다음 별도 기준을 사용:" tooltip=""/>
+		</dialog>
+		<dialog id="246" text="고급 검색">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="단어 전부:" tooltip=""/>
+			<item id="1039" text="정확한 문구:" tooltip=""/>
+			<item id="1040" text="단어들 중 하나:" tooltip=""/>
+			<item id="1041" text="배제 단어:" tooltip=""/>
+			<item id="1200" text="검색 결과에 포함될 것:" tooltip=""/>
+		</dialog>
+		<dialog id="247" text="">
+			<item id="1038" text="시스템 메모리 사용(%):" tooltip=""/>
+			<item id="1039" text="페이지 렌더링에 사용할 최대 쓰레드 수:" tooltip=""/>
+			<item id="1040" text="페이지 썸네일 생성에 사용할 최대 쓰레드 수:" tooltip=""/>
+			<item id="1041" text="작업에 허용하는 최대 쓰레드 수:" tooltip=""/>
+			<item id="1200" text="메모리 사용" tooltip=""/>
+			<item id="1201" text="쓰레드 사용" tooltip=""/>
+			<item id="1525" text="페이지 렌더링에 동기화 모드 사용 (느려질 수 있음)" tooltip=""/>
+			<item id="1553" text="시스템 메모리 사용(MB):" tooltip=""/>
+		</dialog>
+		<dialog id="257" text="페이지 회전">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="회전(&amp;T):" tooltip=""/>
+			<item id="1039" text="쉼표로 구분하여 페이지 번호나 범위를 입력할 수 있습니다.&#10;예: 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="방향(&amp;D):" tooltip=""/>
+			<item id="1164" text="모두(&amp;A)" tooltip=""/>
+			<item id="1165" text="선택된 페이지(&amp;S)" tooltip=""/>
+			<item id="1166" text="현재 페이지(&amp;R)" tooltip=""/>
+			<item id="1167" text="페이지(&amp;G):" tooltip=""/>
+			<item id="1200" text="페이지 범위" tooltip=""/>
+		</dialog>
+		<dialog id="258" text="페이지 삭제">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="삭제(&amp;L):" tooltip=""/>
+			<item id="1039" text="쉼표로 구분하여 페이지 번호나 범위를 입력할 수 있습니다.&#10;예: 1, 3, 5-12" tooltip=""/>
+			<item id="1165" text="선택된 페이지(&amp;S)" tooltip=""/>
+			<item id="1166" text="현재 페이지(&amp;R)" tooltip=""/>
+			<item id="1167" text="페이지(&amp;G):" tooltip=""/>
+			<item id="1200" text="페이지 범위" tooltip=""/>
+		</dialog>
+		<dialog id="265" text="속성">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="3" text="적용" tooltip=""/>
+			<item id="1180" text="고급(&amp;A)" tooltip=""/>
+		</dialog>
+		<dialog id="266" text="">
+			<item id="1038" text="시작:" tooltip=""/>
+			<item id="1039" text="끝:" tooltip=""/>
+			<item id="1040" text="스타일:" tooltip=""/>
+			<item id="1041" text="두께:" tooltip=""/>
+			<item id="1042" text="색:" tooltip=""/>
+			<item id="1043" text="채우기 색:" tooltip=""/>
+			<item id="1044" text="불투명도:" tooltip=""/>
+			<item id="1200" text="끝 스타일" tooltip=""/>
+			<item id="1201" text="테두리" tooltip=""/>
+		</dialog>
+		<dialog id="268" text="">
+			<item id="1038" text="저자:" tooltip=""/>
+			<item id="1039" text="주제:" tooltip=""/>
+			<item id="1040" text="생성:" tooltip=""/>
+			<item id="1041" text="수정:" tooltip=""/>
+		</dialog>
+		<dialog id="272" text="">
+			<item id="1038" text="스타일" tooltip=""/>
+			<item id="1039" text="두께:" tooltip=""/>
+			<item id="1040" text="색:" tooltip=""/>
+			<item id="1041" text="채우기 색:" tooltip=""/>
+			<item id="1042" text="불투명도:" tooltip=""/>
+			<item id="1200" text="테두리" tooltip=""/>
+		</dialog>
+		<dialog id="273" text="">
+			<item id="1038" text="두께:" tooltip=""/>
+			<item id="1039" text="색:" tooltip=""/>
+			<item id="1040" text="불투명도:" tooltip=""/>
+			<item id="1200" text="테두리" tooltip=""/>
+		</dialog>
+		<dialog id="274" text="">
+			<item id="1038" text="지정된 단위는 눈금자, 페이지 크기, 격자선, 안내선 등에 전역으로 사용됩니다:" tooltip=""/>
+			<item id="1039" text="격자선 간격 폭(&amp;W):" tooltip=""/>
+			<item id="1040" text="격자선 간격 높이(&amp;H):" tooltip=""/>
+			<item id="1041" text="격자선 왼쪽 오프셋(&amp;L):" tooltip=""/>
+			<item id="1042" text="격자선 위쪽 오프셋(&amp;T):" tooltip=""/>
+			<item id="1043" text="격자선 분할(&amp;S):" tooltip=""/>
+			<item id="1045" text="격자선 스타일(&amp;G):" tooltip=""/>
+			<item id="1046" text="안내선 스타일(&amp;U):" tooltip=""/>
+			<item id="1047" text="눈금 분할(&amp;D):" tooltip=""/>
+			<item id="1200" text="단위와 눈금자" tooltip=""/>
+			<item id="1201" text="격자선과 안내선" tooltip=""/>
+			<item id="1483" text="격자선 표시" tooltip=""/>
+			<item id="1484" text="안내선 표시" tooltip=""/>
+			<item id="1490" text="눈금자 표시(&amp;R)" tooltip=""/>
+			<item id="1491" text="분수 표시(&amp;F)" tooltip=""/>
+			<item id="1499" text="설정..." tooltip=""/>
+			<item id="1502" text="자석효과 사용( 격자선, 안내선, 객체)" tooltip=""/>
+		</dialog>
+		<dialog id="278" text="문제점 보고...">
+			<item id="1" text="다음(&amp;X)..." tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="4" text="찾아보기(&amp;B)..." tooltip=""/>
+			<item id="1038" text="메시지는 이메일로 보내집니다. - 보내기 전에 편집할 수 있습니다." tooltip=""/>
+			<item id="1039" text="문제의 제목을 선택하세요(&amp;H):" tooltip=""/>
+			<item id="1040" text="설명(&amp;D) (문제에 대한 짧은 설명을 입력하세요.)" tooltip=""/>
+			<item id="1041" text="메시지에 파일(PDF 문서)을 첨부하시겠습니까?" tooltip=""/>
+			<item id="1126" text="글꼴과 색 정보 포함 (추천)" tooltip=""/>
+			<item id="1127" text="프린터와 설정 정보 포함 (추천)" tooltip=""/>
+			<item id="1128" text="윈도우즈 버전 정보 포함 (추천)" tooltip=""/>
+			<item id="1183" text="PDF-XChange 뷰어 버전 정보 포함 (추천)" tooltip=""/>
+			<item id="1524" text="이 과정에 사용된 모든 적재된 모듈(DLL 등) 목록 포함 (추천)" tooltip=""/>
+		</dialog>
+		<dialog id="279" text="">
+			<item id="1038" text="아이콘:" tooltip=""/>
+			<item id="1039" text="색:" tooltip=""/>
+			<item id="1040" text="불투명도:" tooltip=""/>
+			<item id="1200" text="모양" tooltip=""/>
+		</dialog>
+		<dialog id="282" text="자바스크립트 콘솔">
+			<item id="1" text="실행(&amp;R)" tooltip=""/>
+			<item id="2" text="닫기" tooltip=""/>
+			<item id="1200" text="스크립트" tooltip=""/>
+			<item id="1201" text="출력" tooltip=""/>
+		</dialog>
+		<dialog id="283" text="">
+			<item id="1038" text="선 끝:" tooltip=""/>
+			<item id="1039" text="스타일:" tooltip=""/>
+			<item id="1040" text="두께:" tooltip=""/>
+			<item id="1041" text="외곽선 색:" tooltip=""/>
+			<item id="1042" text="채우기 색:" tooltip=""/>
+			<item id="1043" text="불투명도:" tooltip=""/>
+			<item id="1200" text="끝 스타일" tooltip=""/>
+			<item id="1201" text="테두리" tooltip=""/>
+		</dialog>
+		<dialog id="284" text="">
+			<item id="1038" text="색:" tooltip=""/>
+			<item id="1039" text="불투명도:" tooltip=""/>
+			<item id="1200" text="모양" tooltip=""/>
+		</dialog>
+		<dialog id="290" text="스탬프">
+		</dialog>
+		<dialog id="291" text="">
+			<item id="1038" text="PDF-XChange 를 기본 PDF 뷰어로 만들기:" tooltip=""/>
+			<item id="1039" text="이전에 연결된 프로그램을 기본 PDF 뷰어로 복원 (아직 설치되어 있으면):" tooltip=""/>
+			<item id="1127" text="브라우저에서 PDF 표시" tooltip=""/>
+			<item id="1162" text="기본 PDF 뷰어로 설정" tooltip=""/>
+			<item id="1197" text="파일 연결 복원" tooltip=""/>
+			<item id="1200" text="파일 연결" tooltip=""/>
+		</dialog>
+		<dialog id="292" text="">
+			<item id="1038" text="불투명도:" tooltip=""/>
+			<item id="1200" text="모양" tooltip=""/>
+		</dialog>
+		<dialog id="295" text="">
+			<item id="1038" text="로그인 이름(&amp;L):" tooltip=""/>
+			<item id="1039" text="이름(&amp;N):" tooltip=""/>
+			<item id="1040" text="제목(&amp;T):" tooltip=""/>
+			<item id="1041" text="조직(&amp;O):" tooltip=""/>
+			<item id="1042" text="부서(&amp;U):" tooltip=""/>
+			<item id="1043" text="이메일 주소(&amp;E):" tooltip=""/>
+			<item id="1044" text="신원 정보는 주석, 리보기, 디지털 서명에 사용됩니다. 여기 입력한 정보는 프로그램에 의해서만 사용되며 사용자가 모르게 다른 곳에 전달되지 않습니다." tooltip=""/>
+			<item id="1200" text="신원" tooltip=""/>
+		</dialog>
+		<dialog id="296" text="">
+			<item id="1038" text="원하는 인터페이스 언어를 선택해주세요:" tooltip=""/>
+			<item id="1200" text="언어" tooltip=""/>
+			<item id="1219" text="사용자의 기본 지역 설정을 사용" tooltip=""/>
+			<item id="1220" text="사용자 지정 언어 선택" tooltip=""/>
+			<item id="1221" text="PDF-XChange 뷰어의 기본 언어를 사용 (영어)" tooltip=""/>
+		</dialog>
+		<dialog id="297" text="URL로 문서 열기">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="문서 URL을 입력하세요:" tooltip=""/>
+		</dialog>
+		<dialog id="298" text="도구 모음 설정">
+			<item id="1" text="닫기(&amp;L)" tooltip=""/>
+			<item id="1316" text="모두 리셋(&amp;S)" tooltip=""/>
+		</dialog>
+		<dialog id="299" text="">
+			<item id="1039" text="도구 모음(&amp;T):" tooltip=""/>
+			<item id="1234" text="리셋(&amp;E)" tooltip=""/>
+			<item id="1235" text="이름 바꾸기(&amp;R)" tooltip=""/>
+			<item id="1237" text="새로(&amp;N)..." tooltip=""/>
+			<item id="1250" text="삭제(&amp;D)" tooltip=""/>
+		</dialog>
+		<dialog id="300" text="">
+			<item id="1038" text="명령을 추가하려면, 명령어 목록에서 끌어서 대상 도구 모음이나 메뉴에 놓습니다." tooltip=""/>
+			<item id="1039" text="범주(&amp;C):" tooltip=""/>
+			<item id="1040" text="명령(&amp;O):" tooltip=""/>
+			<item id="1314" text="제한된 &apos;PRO&apos; 명령 표시(&amp;S) (명령어 목록, 메뉴, 도구 모음에서)" tooltip=""/>
+			<item id="1320" text="새로(&amp;N)..." tooltip=""/>
+			<item id="1321" text="속성(&amp;P)" tooltip=""/>
+		</dialog>
+		<dialog id="301" text="">
+			<item id="1038" text="사용자 인터페이스 모양(글꼴, 색, 배경)을 바꾸려면 프로그램 설정 대화 상자에서 &quot;사용자 인터페이스&quot; 범주를 선택하세요." tooltip=""/>
+			<item id="1233" text="도구 모음에 도구 설명 표시(&amp;S)" tooltip=""/>
+			<item id="1234" text="도구 설명에 단축키 표시(&amp;H)" tooltip=""/>
+			<item id="1235" text="메뉴에 단축키 표시(&amp;O)" tooltip=""/>
+			<item id="1236" text="도구 모음 3D효과 켜기(&amp;E)" tooltip=""/>
+			<item id="1237" text="도구 모음 사이에 별도의 구분선 표시(&amp;W)" tooltip=""/>
+		</dialog>
+		<dialog id="302" text="">
+			<item id="1038" text="페이지 배경:" tooltip=""/>
+			<item id="1039" text="채우기 색:" tooltip=""/>
+			<item id="1040" text="외곽선 색:" tooltip=""/>
+			<item id="1126" text="텍스트 색:" tooltip=""/>
+			<item id="1127" text="선 그림:" tooltip=""/>
+			<item id="1128" text="검은 텍스트나 검은 선 그림만 변경" tooltip=""/>
+			<item id="1200" text="문서 색 옵션:" tooltip=""/>
+			<item id="1220" text="사용자 배색 사용(&amp;C):" tooltip=""/>
+			<item id="1235" text="윈도우즈 배색 사용(&amp;W)" tooltip=""/>
+			<item id="1236" text="미리 정의된 고대비 배색 사용(&amp;H):" tooltip=""/>
+			<item id="1240" text="문서의 색보다 우선" tooltip=""/>
+			<item id="1241" text="텍스트뿐만 아니라 선 그림의 색도 변경" tooltip=""/>
+		</dialog>
+		<dialog id="303" text="">
+			<item id="1038" text="배경색(&amp;B):" tooltip=""/>
+			<item id="1200" text="전체 화면 모양" tooltip=""/>
+			<item id="1239" text="마우스 커서(&amp;C):" tooltip=""/>
+			<item id="1530" text="프리젠테이션 모드 켜기:&#10;- 마우스 좌클릭: 다음 페이지, &lt;Ctrl&gt; + 좌클릭: 이전 페이지&#10;- &lt;B&gt;키: 전체화면 검게, &lt;W&gt;키: 전체화면 하얗게&#10;- 모든 편집 기능은 꺼집니다. (주석 달기, 양식 채우기 등) " tooltip=""/>
+			<item id="1540" text="주 배경 표시" tooltip=""/>
+			<item id="1551" text="항해 바 표시" tooltip=""/>
+			<item id="1552" text="현재 페이지 보기 유지 (페이지 레이아웃, 배율, 시야)" tooltip=""/>
+		</dialog>
+		<dialog id="304" text="">
+			<item id="1038" text="해상도(&amp;R):" tooltip=""/>
+			<item id="1039" text="dpi" tooltip=""/>
+			<item id="1096" text="스냅샷 이미지를 회색조로 강제" tooltip=""/>
+			<item id="1200" text="스냅샷 이미지 옵션" tooltip=""/>
+			<item id="1201" text="스냅샷 소리" tooltip=""/>
+			<item id="1242" text="스냅샷 이미지에 고정된 해상도 사용(&amp;F):" tooltip=""/>
+			<item id="1244" text="스냅샷 소리 끄기" tooltip=""/>
+		</dialog>
+		<dialog id="305" text="">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+		</dialog>
+		<dialog id="306" text="">
+			<item id="1038" text="제목 텍스트:" tooltip=""/>
+			<item id="1039" text="스타일:" tooltip=""/>
+			<item id="1040" text="색:" tooltip=""/>
+		</dialog>
+		<dialog id="307" text="">
+			<item id="1038" text="새 동작을 추가하거나 기존 동작 목록을 편집할 수 있습니다. 또한 끌어다 놓아서 동작의 순서를 바꿀 수 있습니다." tooltip=""/>
+			<item id="1039" text="트리거 선택(&amp;T):" tooltip=""/>
+		</dialog>
+		<dialog id="308" text="">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="3" text="현재 보기 추가" tooltip=""/>
+			<item id="4" text="..." tooltip=""/>
+			<item id="5" text="삭제" tooltip=""/>
+			<item id="1038" text="아래의 &apos;현재 보기 사용&apos; 버튼을 선택하여 새로운 대상을 지정할 수 있습니다:" tooltip=""/>
+			<item id="1039" text="파일 이름:" tooltip=""/>
+			<item id="1040" text="페이지:" tooltip=""/>
+			<item id="1041" text="X:" tooltip=""/>
+			<item id="1042" text="Y:" tooltip=""/>
+			<item id="1043" text="폭:" tooltip=""/>
+			<item id="1044" text="높이:" tooltip=""/>
+			<item id="1045" text="열기(&amp;O):" tooltip=""/>
+			<item id="1066" text="미리보기" tooltip=""/>
+			<item id="1067" text="수리" tooltip=""/>
+			<item id="1126" text="상속" tooltip=""/>
+			<item id="1127" text="상속" tooltip=""/>
+			<item id="1200" text="대상 속성" tooltip=""/>
+			<item id="1252" text="배율 수준 사용:" tooltip=""/>
+			<item id="1253" text="직사각형 사용:" tooltip=""/>
+			<item id="1261" text="대상 문서" tooltip=""/>
+			<item id="1271" text="확대" tooltip=""/>
+			<item id="1272" text="축소" tooltip=""/>
+			<item id="1275" text="현재 보기 사용" tooltip=""/>
+			<item id="1435" text="페이지 번호 사용:" tooltip=""/>
+			<item id="1436" text="이름있는 목적지:" tooltip=""/>
+		</dialog>
+		<dialog id="309" text="">
+			<item id="1039" text="이름(&amp;N):" tooltip=""/>
+			<item id="1041" text="조직(&amp;O):" tooltip=""/>
+			<item id="1043" text="이메일 주소(&amp;E):" tooltip=""/>
+			<item id="1045" text="시리얼 키(&amp;S):" tooltip=""/>
+			<item id="1200" text="등록 정보" tooltip=""/>
+			<item id="1274" text="무료 버전에서 제한된 &apos;PRO&apos; 기능을 숨김" tooltip=""/>
+			<item id="1282" text="광고 바 숨김" tooltip=""/>
+		</dialog>
+		<dialog id="310" text="">
+			<item id="1038" text="글꼴(&amp;F):" tooltip=""/>
+			<item id="1044" text="글꼴 크기(&amp;S):" tooltip=""/>
+			<item id="1200" text="자바스크립트" tooltip=""/>
+			<item id="1201" text="자바스크립트 콘솔" tooltip=""/>
+			<item id="1276" text="자바스크립트 동작 켜기(&amp;J)" tooltip=""/>
+			<item id="1277" text="자바스크립트 대화형 콘솔 켜기(&amp;C)" tooltip=""/>
+			<item id="1278" text="에러나 메시지에 콘솔 표시(&amp;E)" tooltip=""/>
+			<item id="1279" text="자바스크립트 동작이 실행될 때 경고 표시(&amp;W)" tooltip=""/>
+		</dialog>
+		<dialog id="311" text="행으로 이동">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="행 번호:" tooltip=""/>
+		</dialog>
+		<dialog id="312" text="페이지 크롭">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="적용 대상(&amp;Y):" tooltip=""/>
+			<item id="1039" text="쉼표로 구분하여 페이지 번호나 범위를 입력할 수 있습니다.&#10;예: 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="박스(&amp;B):" tooltip=""/>
+			<item id="1042" text="왼쪽(&amp;L):" tooltip=""/>
+			<item id="1043" text="오른쪽(&amp;H):" tooltip=""/>
+			<item id="1044" text="위쪽(&amp;T):" tooltip=""/>
+			<item id="1045" text="아래쪽(&amp;M):" tooltip=""/>
+			<item id="1046" text="단위(&amp;U):" tooltip=""/>
+			<item id="1126" text="하얀 마진으로 설정(&amp;W)" tooltip=""/>
+			<item id="1127" text="공백 제거(&amp;V)" tooltip=""/>
+			<item id="1129" text="비율 억제" tooltip=""/>
+			<item id="1164" text="모두(&amp;A)" tooltip=""/>
+			<item id="1165" text="선택된 페이지(&amp;S)" tooltip=""/>
+			<item id="1166" text="현재 페이지(&amp;R)" tooltip=""/>
+			<item id="1167" text="페이지(&amp;G):" tooltip=""/>
+			<item id="1200" text="페이지 범위" tooltip=""/>
+			<item id="1201" text="가장자리 크롭" tooltip=""/>
+			<item id="1202" text="가장자리 제어" tooltip=""/>
+			<item id="1285" text="모든 박스 표시(&amp;X)" tooltip=""/>
+			<item id="1290" text="0 으로 설정(&amp;Z)" tooltip=""/>
+			<item id="1291" text="원래 값으로 복귀(&amp;O)" tooltip=""/>
+		</dialog>
+		<dialog id="313" text="페이지 삽입">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="4" text="찾아보기..." tooltip=""/>
+			<item id="1038" text="삽입:" tooltip=""/>
+			<item id="1039" text="쉼표로 구분하여 페이지 번호나 범위를 입력할 수 있습니다.&#10;예: 1, 3, 5-12" tooltip=""/>
+			<item id="1042" text="위치:" tooltip=""/>
+			<item id="1164" text="모두(&amp;A)" tooltip=""/>
+			<item id="1167" text="페이지(&amp;G):" tooltip=""/>
+			<item id="1200" text="원본 페이지 범위" tooltip=""/>
+			<item id="1201" text="원본" tooltip=""/>
+			<item id="1202" text="대상" tooltip=""/>
+			<item id="1292" text="파일에서" tooltip=""/>
+			<item id="1293" text="이미 열린 문서에서" tooltip=""/>
+			<item id="1295" text="첫 페이지" tooltip=""/>
+			<item id="1296" text="끝 페이지" tooltip=""/>
+			<item id="1297" text="페이지:" tooltip=""/>
+		</dialog>
+		<dialog id="314" text="페이지 추출">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="4" text="찾아보기(&amp;W)..." tooltip=""/>
+			<item id="6" text="매크로(&amp;M)" tooltip=""/>
+			<item id="1038" text="적용 대상:" tooltip=""/>
+			<item id="1039" text="쉼표로 구분하여 페이지 번호나 범위를 입력할 수 있습니다.&#10;예: 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="파일 이름(&amp;N):" tooltip=""/>
+			<item id="1043" text="대상 폴더(&amp;F):" tooltip=""/>
+			<item id="1126" text="페이지를 분리된 파일들로 추출(&amp;E)" tooltip=""/>
+			<item id="1127" text="추출한 페이지를 새 파일에 저장(&amp;P)" tooltip=""/>
+			<item id="1164" text="모두(&amp;A)" tooltip=""/>
+			<item id="1165" text="선택된 페이지(&amp;S)" tooltip=""/>
+			<item id="1166" text="현재 페이지(&amp;R)" tooltip=""/>
+			<item id="1167" text="페이지(&amp;G):" tooltip=""/>
+			<item id="1200" text="페이지 범위" tooltip=""/>
+			<item id="1201" text="옵션" tooltip=""/>
+			<item id="1202" text="다른 이름으로 저장" tooltip=""/>
+			<item id="1299" text="추출 후 페이지 삭제(&amp;D)" tooltip=""/>
+		</dialog>
+		<dialog id="315" text="">
+			<item id="1200" text="주석 만들기 옵션" tooltip=""/>
+			<item id="1201" text="주석 보기 옵션" tooltip=""/>
+			<item id="1234" text="도구 설명 켜기" tooltip=""/>
+			<item id="1235" text="주석 팝업에 주제 레이블 표시" tooltip=""/>
+			<item id="1236" text="주석 팝업과 도구 설명에 저자 레이블 표시" tooltip=""/>
+			<item id="1237" text="주석 팝업에 수정일 표시" tooltip=""/>
+			<item id="1302" text="둘러싸인 텍스트를 드로잉 주석 팝업에 복사(&amp;Y)" tooltip=""/>
+			<item id="1303" text="선택된 텍스트를 강조, 취소선, 밑줄 주석 팝업에 복사(&amp;X)" tooltip=""/>
+			<item id="1304" text="주석을 마우스 위치에 붙여넣기(&amp;P)" tooltip=""/>
+			<item id="1354" text="텍스트 지시자 표시" tooltip=""/>
+			<item id="1507" text="간단한 포커스 모양" tooltip=""/>
+			<item id="1538" text="주석 도구에 배타적 모드 켜기:&#10;- SHIFT 키를 사용하지 않는 마우스 접근 막기" tooltip=""/>
+			<item id="1548" text="비주석 도구(손, 확대/축소, 선택 등)에 배타적 모드 켜기:&#10;- SHIFT 키를 사용하지 않는 마우스 접근 막기" tooltip=""/>
+		</dialog>
+		<dialog id="316" text="빈 페이지 삽입">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1039" text="방향:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="매수:" tooltip=""/>
+			<item id="1042" text="위치:" tooltip=""/>
+			<item id="1200" text="페이지" tooltip=""/>
+			<item id="1202" text="대상" tooltip=""/>
+			<item id="1292" text="표준:" tooltip=""/>
+			<item id="1293" text="설정:" tooltip=""/>
+			<item id="1295" text="첫 페이지" tooltip=""/>
+			<item id="1296" text="끝 페이지" tooltip=""/>
+			<item id="1297" text="페이지:" tooltip=""/>
+			<item id="1304" text="세로" tooltip=""/>
+			<item id="1305" text="가로" tooltip=""/>
+		</dialog>
+		<dialog id="317" text="스탬프 이름 바꾸기">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="스탬프의 새로운 이름을 입력하세요:" tooltip=""/>
+		</dialog>
+		<dialog id="318" text="스탬프 삽입">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="4" text="찾아보기(&amp;B)..." tooltip=""/>
+			<item id="1039" text="파일(&amp;F):" tooltip=""/>
+			<item id="1041" text="페이지(&amp;P):" tooltip=""/>
+			<item id="1042" text="제목(&amp;T):" tooltip=""/>
+			<item id="1200" text="원본" tooltip=""/>
+			<item id="1201" text="스탬프 정보" tooltip=""/>
+		</dialog>
+		<dialog id="321" text="텍스트 속성">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="3" text="적용" tooltip=""/>
+		</dialog>
+		<dialog id="322" text="">
+			<item id="1313" text="클립보드로 복사" tooltip=""/>
+		</dialog>
+		<dialog id="324" text="명령 속성">
+			<item id="1" text="확인(&amp;O)" tooltip=""/>
+			<item id="2" text="취소(&amp;C)" tooltip=""/>
+			<item id="1038" text="이미지(&amp;I):" tooltip=""/>
+			<item id="1039" text="제목(&amp;T):" tooltip=""/>
+			<item id="1040" text="도구 설명(&amp;O):" tooltip=""/>
+			<item id="1041" text="상태 표시줄(&amp;X):" tooltip=""/>
+			<item id="1042" text="짧은 제목(&amp;H):" tooltip=""/>
+			<item id="1043" text="아이디(&amp;D):" tooltip=""/>
+			<item id="1044" text="이름(&amp;N):" tooltip=""/>
+			<item id="1126" text="자바스크립트로 검사:" tooltip=""/>
+			<item id="1127" text="자바스크립트로 켜기:" tooltip=""/>
+			<item id="1198" text="명령 동작:" tooltip=""/>
+			<item id="1200" text="신원(&amp;D):" tooltip=""/>
+			<item id="1201" text="단축키(&amp;S):" tooltip=""/>
+			<item id="1202" text="상태 결정:" tooltip=""/>
+			<item id="1203" text="어도비 이름(&amp;A):" tooltip=""/>
+			<item id="1204" text="키(&amp;K):" tooltip=""/>
+			<item id="1261" text="모양:" tooltip=""/>
+			<item id="1292" text="미리정의된 동작:" tooltip=""/>
+			<item id="1293" text="자바스크립트 실행:" tooltip=""/>
+			<item id="1324" text="편집..." tooltip=""/>
+			<item id="1325" text="편집..." tooltip=""/>
+			<item id="1326" text="편집..." tooltip=""/>
+		</dialog>
+		<dialog id="325" text="">
+			<item id="1039" text="텍스트 감마(&amp;G):" tooltip=""/>
+			<item id="1076" text="텍스트 부드럽게" tooltip=""/>
+			<item id="1077" text="선그림 부드럽게" tooltip=""/>
+			<item id="1078" text="이미지 부드럽게" tooltip=""/>
+			<item id="1200" text="텍스트 렌더링" tooltip=""/>
+			<item id="1202" text="부드럽게" tooltip=""/>
+		</dialog>
+		<dialog id="326" text="새 도구 모음">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="도구 모음 제목:" tooltip=""/>
+		</dialog>
+		<dialog id="327" text="주석 찍기">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="적용 대상:" tooltip=""/>
+			<item id="1039" text="쉼표로 구분하여 페이지 번호나 범위를 입력할 수 있습니다.&#10;예: 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="인쇄 불가:" tooltip=""/>
+			<item id="1042" text="양식 필드:" tooltip=""/>
+			<item id="1164" text="모두(&amp;A)" tooltip=""/>
+			<item id="1165" text="선택된 페이지(&amp;S)" tooltip=""/>
+			<item id="1166" text="현재 페이지(&amp;R)" tooltip=""/>
+			<item id="1167" text="페이지(&amp;G):" tooltip=""/>
+			<item id="1200" text="페이지 범위" tooltip=""/>
+			<item id="1201" text="옵션" tooltip=""/>
+		</dialog>
+		<dialog id="328" text="주석 요약">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="그룹:" tooltip=""/>
+			<item id="1040" text="정렬:" tooltip=""/>
+			<item id="1041" text="종류:" tooltip=""/>
+			<item id="1126" text="댓글 배제:" tooltip=""/>
+			<item id="1200" text="페이지 범위" tooltip=""/>
+			<item id="1201" text="출력" tooltip=""/>
+			<item id="1202" text="옵션" tooltip=""/>
+			<item id="1261" text="일반" tooltip=""/>
+			<item id="1330" text="모두(&amp;A)" tooltip=""/>
+			<item id="1331" text="선택된 페이지(&amp;S)" tooltip=""/>
+			<item id="1332" text="현재 페이지(&amp;R)" tooltip=""/>
+			<item id="1333" text="페이지(&amp;G):" tooltip=""/>
+			<item id="1335" text="부분 집합:" tooltip=""/>
+			<item id="1341" text="안보이는 주석 포함" tooltip=""/>
+			<item id="1356" text="생성 후 새 문서 보기" tooltip=""/>
+			<item id="1387" text="쉼표로 구분하여 페이지 번호나 범위를 입력할 수 있습니다.&#10;예: 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="329" text="">
+			<item id="1038" text="레이아웃:" tooltip=""/>
+			<item id="1039" text="종이:" tooltip=""/>
+			<item id="1343" text="고급:" tooltip=""/>
+			<item id="1351" text="각 그룹을 분리된 페이지에 놓기" tooltip=""/>
+			<item id="1352" text="주석없이 페이지 건너뛰기" tooltip=""/>
+		</dialog>
+		<dialog id="332" text="">
+			<item id="4" text="찾아보기..." tooltip=""/>
+			<item id="6" text="매크로" tooltip=""/>
+			<item id="1038" text="대상 폴더 이름:" tooltip=""/>
+			<item id="1039" text="파일 이름:" tooltip=""/>
+		</dialog>
+		<dialog id="333" text="">
+			<item id="4" text="찾아보기..." tooltip=""/>
+			<item id="6" text="매크로" tooltip=""/>
+			<item id="1038" text="대상 폴더 이름:" tooltip=""/>
+			<item id="1039" text="파일 이름:" tooltip=""/>
+			<item id="1041" text="종이:" tooltip=""/>
+			<item id="1351" text="각 그룹을 분리된 페이지에 놓기" tooltip=""/>
+		</dialog>
+		<dialog id="334" text="">
+			<item id="4" text="찾아보기..." tooltip=""/>
+			<item id="6" text="매크로" tooltip=""/>
+			<item id="1038" text="대상 폴더 이름:" tooltip=""/>
+			<item id="1039" text="파일 이름:" tooltip=""/>
+			<item id="1261" text="텍스트 인코딩" tooltip=""/>
+			<item id="1292" text="유니코드" tooltip=""/>
+			<item id="1293" text="MS-DOS" tooltip=""/>
+			<item id="1294" text="윈도우즈" tooltip=""/>
+			<item id="1355" text="기타:" tooltip=""/>
+		</dialog>
+		<dialog id="335" text="">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1180" text="고급(&amp;A)" tooltip=""/>
+		</dialog>
+		<dialog id="336" text="">
+			<item id="1038" text="테두리 스타일:" tooltip=""/>
+			<item id="1039" text="테두리 두께:" tooltip=""/>
+			<item id="1040" text="테두리 색:" tooltip=""/>
+			<item id="1041" text="강조 모드:" tooltip=""/>
+		</dialog>
+		<dialog id="337" text="레이블 측정">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="측정 조판지시 레이블:" tooltip=""/>
+		</dialog>
+		<dialog id="341" text="새 빈 문서">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1039" text="방향:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="갯수:" tooltip=""/>
+			<item id="1200" text="페이지" tooltip=""/>
+			<item id="1292" text="표준:" tooltip=""/>
+			<item id="1293" text="설정:" tooltip=""/>
+			<item id="1304" text="세로" tooltip=""/>
+			<item id="1305" text="가로" tooltip=""/>
+		</dialog>
+		<dialog id="342" text="">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="URL 입력:" tooltip=""/>
+		</dialog>
+		<dialog id="343" text="">
+			<item id="1039" text="단 갯수:" tooltip=""/>
+			<item id="1040" text="단 사이 공백:" tooltip=""/>
+			<item id="1041" text="단위:" tooltip=""/>
+			<item id="1042" text="스타일" tooltip=""/>
+			<item id="1043" text="두께:" tooltip=""/>
+			<item id="1044" text="색:" tooltip=""/>
+			<item id="1367" text="단 사이 선" tooltip=""/>
+		</dialog>
+		<dialog id="344" text="옵션">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+		</dialog>
+		<dialog id="345" text="텍스트에서 새 문서">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1040" text="텍스트 인코딩:" tooltip=""/>
+			<item id="1041" text="새 문단 모드:" tooltip=""/>
+			<item id="1042" text="파일 넣기 모드:" tooltip=""/>
+			<item id="1075" text="보기..." tooltip=""/>
+			<item id="1099" text="옵션..." tooltip=""/>
+			<item id="1200" text="선택된 파일 옵션" tooltip=""/>
+			<item id="1202" text="원본 텍스트 파일" tooltip=""/>
+			<item id="1376" text="파일 추가..." tooltip=""/>
+			<item id="1377" text="폴더 추가..." tooltip=""/>
+			<item id="1378" text="제거" tooltip=""/>
+			<item id="1379" text="위로" tooltip=""/>
+			<item id="1380" text="아래로" tooltip=""/>
+		</dialog>
+		<dialog id="346" text="">
+			<item id="1038" text="시작:" tooltip=""/>
+			<item id="1039" text="끝:" tooltip=""/>
+			<item id="1040" text="스타일:" tooltip=""/>
+			<item id="1041" text="두께:" tooltip=""/>
+			<item id="1042" text="색:" tooltip=""/>
+			<item id="1043" text="채우기 색:" tooltip=""/>
+			<item id="1044" text="불투명도:" tooltip=""/>
+			<item id="1045" text="길이:" tooltip=""/>
+			<item id="1046" text="오프셋:" tooltip=""/>
+			<item id="1047" text="확장:" tooltip=""/>
+			<item id="1200" text="끝 스타일" tooltip=""/>
+			<item id="1201" text="테두리" tooltip=""/>
+			<item id="1202" text="대표 선" tooltip=""/>
+			<item id="1203" text="텍스트" tooltip=""/>
+			<item id="1362" text="선에 텍스트 표시" tooltip=""/>
+		</dialog>
+		<dialog id="347" text="모든 설정 리셋">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="모든 프로그램 설정을 기본값으로 리셋하시겠습니까?" tooltip=""/>
+			<item id="1126" text="아는 사이트 목록 유지: 모든 아는 사이트로 고른 선택 유지" tooltip=""/>
+			<item id="1128" text="프롬프트 목록 유지: 몇가지 경고, 확인, 프롬프트 대화 상자에 대한 설정 유지" tooltip=""/>
+			<item id="1129" text="UI 언어 유지" tooltip=""/>
+			<item id="1373" text="최근 목록 유지: 모든 최근 문서 유지." tooltip=""/>
+		</dialog>
+		<dialog id="348" text="문서 메타 데이터">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+		</dialog>
+		<dialog id="351" text="">
+			<item id="6" text="매크로(&amp;M)" tooltip=""/>
+			<item id="1040" text="스타일:" tooltip=""/>
+			<item id="1041" text="두께:" tooltip=""/>
+			<item id="1042" text="색:" tooltip=""/>
+			<item id="1044" text="배경 색:" tooltip=""/>
+			<item id="1128" text="헤더 위에 선 넣기" tooltip=""/>
+			<item id="1381" text="선 그리기" tooltip=""/>
+			<item id="1385" text="제목 헤더 사용" tooltip=""/>
+			<item id="1388" text="형식..." tooltip=""/>
+		</dialog>
+		<dialog id="352" text="이미지에서 새 문서">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1099" text="옵션" tooltip=""/>
+			<item id="1202" text="원본 이미지 파일" tooltip=""/>
+			<item id="1251" text="편집..." tooltip=""/>
+			<item id="1376" text="파일 추가..." tooltip=""/>
+			<item id="1377" text="폴더 추가..." tooltip=""/>
+			<item id="1378" text="제거" tooltip=""/>
+			<item id="1379" text="위로" tooltip=""/>
+			<item id="1380" text="아래로" tooltip=""/>
+			<item id="1406" text="가져오기..." tooltip=""/>
+		</dialog>
+		<dialog id="353" text="옵션">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+		</dialog>
+		<dialog id="354" text="">
+			<item id="1039" text="가로 갯수:" tooltip=""/>
+			<item id="1040" text="세로 갯수:" tooltip=""/>
+			<item id="1041" text="가로 공백:" tooltip=""/>
+			<item id="1042" text="세로 공백:" tooltip=""/>
+			<item id="1043" text="가로 정렬:" tooltip=""/>
+			<item id="1044" text="세로 정렬:" tooltip=""/>
+			<item id="1200" text="레이아웃 규칙" tooltip=""/>
+			<item id="1201" text="이미지 정렬" tooltip=""/>
+		</dialog>
+		<dialog id="355" text="">
+			<item id="1039" text="대상 이미지 &gt;=" tooltip=""/>
+			<item id="1040" text="픽셀/인치" tooltip=""/>
+			<item id="1041" text="픽셀/인치" tooltip=""/>
+			<item id="1042" text="대상 이미지 &gt;=" tooltip=""/>
+			<item id="1043" text="픽셀/인치" tooltip=""/>
+			<item id="1044" text="픽셀/인치" tooltip=""/>
+			<item id="1126" text="디더링 사용" tooltip=""/>
+			<item id="1200" text="하이컬러/회색조 이미지" tooltip=""/>
+			<item id="1201" text="인덱스 이미지" tooltip=""/>
+			<item id="1202" text="모노크롬 이미지" tooltip=""/>
+			<item id="1203" text="대상 이미지 &gt;=" tooltip=""/>
+			<item id="1204" text="픽셀/인치" tooltip=""/>
+			<item id="1205" text="픽셀/인치" tooltip=""/>
+			<item id="1206" text="문턱값:" tooltip=""/>
+			<item id="1401" text="디더링 사용" tooltip=""/>
+		</dialog>
+		<dialog id="362" text="">
+			<item id="6" text="매크로" tooltip=""/>
+			<item id="1039" text="배경 색:" tooltip=""/>
+			<item id="1128" text="이미지 위에 레이블 넣기" tooltip=""/>
+			<item id="1200" text="이미지 레이블" tooltip=""/>
+			<item id="1388" text="형식..." tooltip=""/>
+			<item id="1407" text="각 이미지에 특별한 텍스트 레이블 사용" tooltip=""/>
+		</dialog>
+		<dialog id="363" text="이미지 편집">
+		</dialog>
+		<dialog id="364" text="">
+			<item id="1038" text="면:" tooltip=""/>
+			<item id="1039" text="거터:" tooltip=""/>
+			<item id="1040" text="접지의 용지수:" tooltip=""/>
+			<item id="1041" text="종류:" tooltip=""/>
+			<item id="1120" text="셀내 페이지 자동 회전" tooltip=""/>
+			<item id="1121" text="설내 페이지 자동 중앙" tooltip=""/>
+			<item id="1414" text="오른쪽 바인딩" tooltip=""/>
+		</dialog>
+		<dialog id="365" text="고급 인쇄 설정">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="이미지로 인쇄할 때 최대 해상도:" tooltip=""/>
+			<item id="1039" text="그레이디언트 채우기 해상도:" tooltip=""/>
+			<item id="1040" text="곡선으로 텍스트 인쇄:" tooltip=""/>
+			<item id="1041" text="팝업 불투명도:" tooltip=""/>
+			<item id="1416" text="노트와 팝업 인쇄" tooltip=""/>
+		</dialog>
+		<dialog id="366" text="문서 암호 입력">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+		</dialog>
+		<dialog id="369" text="속성">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1180" text="고급(&amp;A)" tooltip=""/>
+		</dialog>
+		<dialog id="371" text="">
+			<item id="1038" text="저자:" tooltip=""/>
+			<item id="1039" text="주제:" tooltip=""/>
+			<item id="1040" text="생성:" tooltip=""/>
+			<item id="1041" text="수정:" tooltip=""/>
+		</dialog>
+		<dialog id="372" text="">
+			<item id="1045" text="길이:" tooltip=""/>
+			<item id="1046" text="오프셋:" tooltip=""/>
+			<item id="1047" text="확장:" tooltip=""/>
+			<item id="1362" text="선위에 텍스트 표시" tooltip=""/>
+		</dialog>
+		<dialog id="373" text="스캔해서 새 문서">
+			<item id="2" text="취소(&amp;C)" tooltip=""/>
+			<item id="1039" text="이미지를 얻을 스캐너 선택:" tooltip=""/>
+			<item id="1423" text="스캔(&amp;S)..." tooltip=""/>
+			<item id="1424" text="새로고침(&amp;R)" tooltip=""/>
+		</dialog>
+		<dialog id="374" text="">
+			<item id="1038" text="채우기 색:" tooltip=""/>
+			<item id="1039" text="테두리 색:" tooltip=""/>
+			<item id="1126" text="문서를 열 때 양식 필드에 초기 강조 모드 사용:" tooltip=""/>
+			<item id="1128" text="모든 양식 필드 강조" tooltip=""/>
+			<item id="1129" text="콤보 박스" tooltip=""/>
+			<item id="1130" text="체크 박스" tooltip=""/>
+			<item id="1131" text="리스트 박스" tooltip=""/>
+			<item id="1132" text="푸시 버튼" tooltip=""/>
+			<item id="1133" text="라디오 버튼" tooltip=""/>
+			<item id="1134" text="텍스트 박스" tooltip=""/>
+			<item id="1135" text="서명" tooltip=""/>
+			<item id="1136" text="필수 필드만 강조" tooltip=""/>
+			<item id="1200" text="일반" tooltip=""/>
+			<item id="1201" text="양식 필드 강조" tooltip=""/>
+			<item id="1425" text="양식 필드 자동 계산" tooltip=""/>
+			<item id="1426" text="포커스 직사각형 표시" tooltip=""/>
+		</dialog>
+		<dialog id="376" text="">
+			<item id="1039" text="x" tooltip=""/>
+			<item id="1040" text="방향:" tooltip=""/>
+			<item id="1041" text="왼쪽:" tooltip=""/>
+			<item id="1042" text="위쪽:" tooltip=""/>
+			<item id="1043" text="오른쪽:" tooltip=""/>
+			<item id="1044" text="아래쪽:" tooltip=""/>
+			<item id="1200" text="가장자리" tooltip=""/>
+			<item id="1292" text="표준:" tooltip=""/>
+			<item id="1293" text="설정:" tooltip=""/>
+			<item id="1304" text="세로" tooltip=""/>
+			<item id="1305" text="가로" tooltip=""/>
+		</dialog>
+		<dialog id="377" text="">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+		</dialog>
+		<dialog id="378" text="">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="4" text="찾아보기(&amp;R)..." tooltip=""/>
+			<item id="5" text="찾아보기(&amp;W)..." tooltip=""/>
+			<item id="1039" text="열기(&amp;I):" tooltip=""/>
+			<item id="1040" text="동작(&amp;O):" tooltip=""/>
+			<item id="1043" text="파일(&amp;F):" tooltip=""/>
+			<item id="1044" text="디렉터리(&amp;D):" tooltip=""/>
+			<item id="1045" text="안자(&amp;P):" tooltip=""/>
+			<item id="1201" text="대상" tooltip=""/>
+			<item id="1202" text="옵션" tooltip=""/>
+		</dialog>
+		<dialog id="380" text="">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+		</dialog>
+		<dialog id="381" text="">
+			<item id="1200" text="페이지 항목 탭순서 선택" tooltip=""/>
+			<item id="1441" text="지정되지 않음(&amp;U)" tooltip=""/>
+			<item id="1442" text="행 순서 사용(&amp;R)" tooltip=""/>
+			<item id="1443" text="열 순서 사용(&amp;C)" tooltip=""/>
+			<item id="1444" text="문서 구조 사용(&amp;S)" tooltip=""/>
+		</dialog>
+		<dialog id="382" text="">
+			<item id="1038" text="항해 보기(&amp;N):" tooltip=""/>
+			<item id="1039" text="페이지 레이아웃(&amp;L):" tooltip=""/>
+			<item id="1040" text="확대/축소(&amp;N):" tooltip=""/>
+			<item id="1041" text="여는 페이지(&amp;P):" tooltip=""/>
+			<item id="1043" text="제목에 표시(&amp;S):" tooltip=""/>
+			<item id="1200" text="레이아웃과 확대/축소" tooltip=""/>
+			<item id="1201" text="창 옵션" tooltip=""/>
+			<item id="1202" text="사용자 인터페이스 옵션" tooltip=""/>
+			<item id="36507" text="전체 화면 모드로 열기(&amp;F)" tooltip=""/>
+			<item id="36508" text="메뉴 바 숨김(&amp;E)" tooltip=""/>
+			<item id="36509" text="도구 모음 숨김(&amp;T)" tooltip=""/>
+			<item id="36510" text="윈도우 컨트롤 숨김(&amp;W)" tooltip=""/>
+		</dialog>
+		<dialog id="383" text="">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+		</dialog>
+		<dialog id="384" text="단축키 충돌">
+			<item id="2" text="닫기" tooltip=""/>
+		</dialog>
+		<dialog id="389" text="">
+			<item id="1038" text="다음 검색 공급자가 설치되어 있습니다:" tooltip=""/>
+			<item id="1443" text="위로 이동" tooltip=""/>
+			<item id="1444" text="아래로 이동" tooltip=""/>
+			<item id="1445" text="제거..." tooltip=""/>
+			<item id="1446" text="새로 추가..." tooltip=""/>
+			<item id="1509" text="검색 공급자의 아이콘을 얻기 위해 뷰어의 인터넷 접근 허용" tooltip=""/>
+			<item id="1510" text="모든 검색 공급자 끄기" tooltip=""/>
+		</dialog>
+		<dialog id="390" text="새 검색 공급자 추가">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1017" text="새 검색 공급자 추가" tooltip=""/>
+			<item id="1040" text="다음 단계로 새로운 검색 공급자를 추가합니다:" tooltip=""/>
+			<item id="1041" text="1. 브라우저로 원하는 검색 엔진에 방문" tooltip=""/>
+			<item id="1042" text="2. TEST (대문자로) 검색" tooltip=""/>
+			<item id="1043" text="3. 검색 결과의 주소창 내용을 URL 필드에 복사" tooltip=""/>
+			<item id="1044" text="4. 다른 필드를 채우고 확인을 클릭" tooltip=""/>
+			<item id="1200" text="공급자 정보" tooltip=""/>
+			<item id="1203" text="URL(&amp;U):" tooltip=""/>
+			<item id="1204" text="이름(&amp;N):" tooltip=""/>
+			<item id="1205" text="설명(&amp;D):" tooltip=""/>
+			<item id="1206" text="인코딩(&amp;E):" tooltip=""/>
+		</dialog>
+		<dialog id="391" text="대화 상자">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+		</dialog>
+		<dialog id="392" text="암호 보안 - 설정">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="컴포넌트:" tooltip=""/>
+			<item id="1041" text="권한 암호 변경:" tooltip=""/>
+			<item id="1042" text="호환성:" tooltip=""/>
+			<item id="1043" text="암호화 수준:" tooltip=""/>
+			<item id="1045" text="인쇄 허용(&amp;P):" tooltip=""/>
+			<item id="1046" text="변경 허용(&amp;H):" tooltip=""/>
+			<item id="1050" text="권한 암호 변경 확인:" tooltip=""/>
+			<item id="1126" text="문서의 권한을 바꾸는데 암호 필요:" tooltip=""/>
+			<item id="1200" text="암호화할 문서 컴포넌트 선택" tooltip=""/>
+			<item id="1201" text="암호와 권한" tooltip=""/>
+			<item id="1450" text="시작장애인을 위해 화면 리더 장치가 텍스트에 접근 가능(&amp;V)" tooltip=""/>
+			<item id="1451" text="문서를 여는데 암호 필요(&amp;O):" tooltip=""/>
+		</dialog>
+		<dialog id="393" text="문서 보안">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="1038" text="인쇄:" tooltip=""/>
+			<item id="1039" text="문서 변경:" tooltip=""/>
+			<item id="1040" text="주석 달기:" tooltip=""/>
+			<item id="1041" text="내용 복사:" tooltip=""/>
+			<item id="1042" text="양식 필드 채우기/서명:" tooltip=""/>
+			<item id="1043" text="내용 접근성 가능:" tooltip=""/>
+			<item id="1044" text="문서 어셈블리:" tooltip=""/>
+			<item id="1045" text="보안 방법:" tooltip=""/>
+			<item id="1046" text="문서 열기 암호:" tooltip=""/>
+			<item id="1047" text="권한 암호:" tooltip=""/>
+			<item id="1048" text="암호화 수준:" tooltip=""/>
+			<item id="1049" text="페이지 추출:" tooltip=""/>
+		</dialog>
+		<dialog id="394" text="문서 서명">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="4" text="찾아보기(&amp;B)..." tooltip=""/>
+			<item id="1038" text="발급자(&amp;U):" tooltip=""/>
+			<item id="1039" text="파일 이름(&amp;N):" tooltip=""/>
+			<item id="1040" text="서명 이유(&amp;A):" tooltip=""/>
+			<item id="1041" text="위치(&amp;L):" tooltip=""/>
+			<item id="1042" text="연락 정보(&amp;I):" tooltip=""/>
+			<item id="1043" text="템플릿 서명(&amp;T):" tooltip=""/>
+			<item id="1044" text="** 위의 미리보기를 클릭하여 디지털 서명의 모양을 바꿀 수 있습니다." tooltip=""/>
+			<item id="1132" text="관리(&amp;M)..." tooltip=""/>
+			<item id="1200" text="1. 인증서 (디지털 ID) 선택" tooltip=""/>
+			<item id="1201" text="2. 자세한 설정과 서명 모양:" tooltip=""/>
+			<item id="1452" text="시스템 저장공간 인증서 사용(&amp;S):" tooltip=""/>
+			<item id="1453" text="파일에서 인증서 사용(&amp;F):" tooltip=""/>
+			<item id="1456" text="찾아보기(&amp;W)..." tooltip=""/>
+			<item id="1457" text="인증서 보기(&amp;V)..." tooltip=""/>
+			<item id="1458" text="인증서 만들기(&amp;C)..." tooltip=""/>
+			<item id="1513" text="관리(&amp;M)..." tooltip=""/>
+			<item id="1514" text="타임스탬프 서버 사용(&amp;U):" tooltip=""/>
+		</dialog>
+		<dialog id="395" text="디지털 서명 모양 템플릿">
+			<item id="1" text="닫기(&amp;L)" tooltip=""/>
+			<item id="1234" text="리셋(&amp;R)" tooltip=""/>
+			<item id="1250" text="삭제(&amp;D)" tooltip=""/>
+			<item id="1251" text="편집(&amp;E)..." tooltip=""/>
+			<item id="1374" text="아래의 양식 목록을 더블 클릭하여 디지털 서명의 템플릿을 선택할 수 있습니다:" tooltip=""/>
+			<item id="1459" text="복제(&amp;C)" tooltip=""/>
+		</dialog>
+		<dialog id="396" text="디지털 서명 템플릿 편집">
+			<item id="1" text="확인(&amp;O)" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1039" text="템플릿 이름(&amp;N):" tooltip=""/>
+			<item id="1040" text="텍스트 방향(&amp;X):" tooltip=""/>
+			<item id="1126" text="이유(&amp;R)" tooltip=""/>
+			<item id="1127" text="이름(&amp;M)" tooltip=""/>
+			<item id="1128" text="날짜(&amp;T)" tooltip=""/>
+			<item id="1129" text="고유 이름(&amp;I)" tooltip=""/>
+			<item id="1130" text="레이블(&amp;B)" tooltip=""/>
+			<item id="1131" text="주제(&amp;S)" tooltip=""/>
+			<item id="1201" text="그림 표시:" tooltip=""/>
+			<item id="1202" text="글자 표시:" tooltip=""/>
+			<item id="1462" text="아이콘 없음(&amp;O)" tooltip=""/>
+			<item id="1463" text="이름을 아이콘으로(&amp;A)" tooltip=""/>
+			<item id="1464" text="사용자 아이콘(&amp;C):" tooltip=""/>
+			<item id="1466" text="위치(&amp;T)" tooltip=""/>
+			<item id="1468" text="로고 표시(&amp;D)" tooltip=""/>
+			<item id="1469" text="선택(&amp;H)..." tooltip=""/>
+		</dialog>
+		<dialog id="397" text="스스로 서명된 디지털 ID 만들기">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="스스로 서명된 디지털 ID 만들기는 비용이 발생하지 않는 PDF 문서 디지털 서명 방법입니다. 하지만 이것은 제삼자 확인이 필요한 상황에는 적합하지 않습니다." tooltip=""/>
+			<item id="1040" text="이름(&amp;N):" tooltip=""/>
+			<item id="1041" text="부서(&amp;U):" tooltip=""/>
+			<item id="1042" text="조직(&amp;O):" tooltip=""/>
+			<item id="1043" text="이메일 주소(&amp;E):" tooltip=""/>
+			<item id="1044" text="국가/지역(&amp;C):" tooltip=""/>
+			<item id="1045" text="디지털 ID는 윈도우즈 인증서 저장공간에 저장됩니다. 이곳은 다른 윈도우즈 응용 프로그램도 사용할 수 있습니다. 디지털 ID는 윈도우즈 로그인으로 보호됩니다." tooltip=""/>
+			<item id="1046" text="새 암호로 보호되는 디지털 ID 파일을 만듭니다. 이것은 표준 PKCS#12 형식을 사용합니다. 이 일반 디지털 ID 파일 형식은 주요 웹 브라우저를 포함한 대부분의 보안 프로그램에서 제공됩니다. PKCS#12 파일은 .pfx 또는 .p12 파일 확장자를 가집니다." tooltip=""/>
+			<item id="1200" text="디지털 ID 속성:" tooltip=""/>
+			<item id="1201" text="스스로 서명된 디지털 ID를 어디에 저장하시겠습니까?" tooltip=""/>
+			<item id="1203" text="키 알고리즘(&amp;A):" tooltip=""/>
+			<item id="1205" text="암호(&amp;P):" tooltip=""/>
+			<item id="1206" text="암호 확인(&amp;O):" tooltip=""/>
+			<item id="1208" text="ASCII" tooltip=""/>
+			<item id="1292" text="유니코드" tooltip=""/>
+			<item id="1476" text="윈도우즈 인증서 저장공간(&amp;W)" tooltip=""/>
+			<item id="1477" text="새 PKCS#12 디지털 ID 파일(&amp;F)" tooltip=""/>
+		</dialog>
+		<dialog id="398" text="암호 입력">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="암호를 입력하세요:" tooltip=""/>
+		</dialog>
+		<dialog id="399" text="">
+			<item id="1038" text="서명자:" tooltip=""/>
+			<item id="1039" text="이유:" tooltip=""/>
+			<item id="1040" text="위치:" tooltip=""/>
+			<item id="1041" text="날짜:" tooltip=""/>
+			<item id="1042" text="연락 정보:" tooltip=""/>
+			<item id="1043" text="생성자:" tooltip=""/>
+			<item id="1200" text="서명 정보" tooltip=""/>
+			<item id="1201" text="유효성 요약" tooltip=""/>
+			<item id="1481" text="인증서 보기(&amp;V)..." tooltip=""/>
+		</dialog>
+		<dialog id="400" text="서명 속성">
+			<item id="1" text="닫기(&amp;C)" tooltip=""/>
+		</dialog>
+		<dialog id="401" text="페이지 안내선 추가">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="페이지내 위치:" tooltip=""/>
+			<item id="1039" text="페이지당 개수:" tooltip=""/>
+			<item id="1040" text="사이 간격:" tooltip=""/>
+			<item id="1200" text="페이지 범위" tooltip=""/>
+			<item id="1201" text="페이지 안내선" tooltip=""/>
+			<item id="1330" text="모두(&amp;A)" tooltip=""/>
+			<item id="1331" text="선택된 페이지(&amp;S)" tooltip=""/>
+			<item id="1332" text="현재 페이지(&amp;R)" tooltip=""/>
+			<item id="1333" text="페이지(&amp;G):" tooltip=""/>
+			<item id="1335" text="부분 집합:" tooltip=""/>
+			<item id="1387" text="쉼표로 구분하여 페이지 번호나 범위를 입력할 수 있습니다.&#10;예: 1, 3, 5-12" tooltip=""/>
+			<item id="1492" text="가로" tooltip=""/>
+			<item id="1493" text="세로" tooltip=""/>
+		</dialog>
+		<dialog id="402" text="자석효과 설정">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="문턱값(&amp;T):" tooltip=""/>
+			<item id="1039" text="문턱값(&amp;H):" tooltip=""/>
+			<item id="1040" text="문턱값(&amp;R):" tooltip=""/>
+			<item id="1041" text="붙을 대상(&amp;N):" tooltip=""/>
+			<item id="1127" text="객체에 붙기(&amp;O)" tooltip=""/>
+			<item id="1200" text="안내선" tooltip=""/>
+			<item id="1201" text="객체" tooltip=""/>
+			<item id="1261" text="격자선" tooltip=""/>
+			<item id="1485" text="격자선에 붙기(&amp;G)" tooltip=""/>
+			<item id="1486" text="안내선에 붙기(&amp;U)" tooltip=""/>
+			<item id="1501" text="붙는 위치 표시(&amp;M)" tooltip=""/>
+			<item id="1504" text="모두 선택(&amp;S)" tooltip=""/>
+			<item id="1505" text="모두 해제(&amp;D)" tooltip=""/>
+			<item id="1506" text="주석에만 붙기" tooltip=""/>
+		</dialog>
+		<dialog id="403" text="첨부 설명 편집">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="설명:" tooltip=""/>
+		</dialog>
+		<dialog id="404" text="최근 목록 관리">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1009" text="목록의 최대 항목 수:" tooltip=""/>
+			<item id="1126" text="끝낼 때 목록을 완전히 지우기" tooltip=""/>
+			<item id="1127" text="확장 도구 설명 표시" tooltip=""/>
+			<item id="1227" text="지우기..." tooltip=""/>
+			<item id="1510" text="모든 핀 항목을 목록의 위로 이동" tooltip=""/>
+			<item id="1512" text="목록에서 항목을 제거하기 전에 묻기" tooltip=""/>
+		</dialog>
+		<dialog id="405" text="">
+			<item id="1038" text="새 문서 생성에 PDF-명세 버전을 지정합니다:" tooltip=""/>
+			<item id="1200" text="PDF-명세" tooltip=""/>
+		</dialog>
+		<dialog id="406" text="">
+			<item id="1" text="확인" tooltip=""/>
+		</dialog>
+		<dialog id="407" text="">
+			<item id="1038" text="실행 동작 허용:" tooltip=""/>
+			<item id="1039" text="첨부 파일 열기 허용:" tooltip=""/>
+			<item id="1200" text="타임스탬프" tooltip=""/>
+			<item id="1201" text="파일 열기와 프로그램 실행 옵션" tooltip=""/>
+			<item id="1513" text="관리(&amp;M)..." tooltip=""/>
+			<item id="1514" text="타임스탬프 서버 사용(&amp;U):" tooltip=""/>
+			<item id="1552" text="확인 없이 문서 URL 열기" tooltip=""/>
+		</dialog>
+		<dialog id="408" text="타임스탬프 서버">
+			<item id="1" text="닫기" tooltip=""/>
+			<item id="1247" text="추가..." tooltip=""/>
+			<item id="1251" text="편집..." tooltip=""/>
+			<item id="1445" text="제거" tooltip=""/>
+		</dialog>
+		<dialog id="409" text="">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="이름(&amp;N):" tooltip=""/>
+			<item id="1039" text="서버 URL(&amp;U):" tooltip=""/>
+			<item id="1040" text="사용자 이름(&amp;U):" tooltip=""/>
+			<item id="1041" text="암호(&amp;P):" tooltip=""/>
+			<item id="1261" text="서버 설정:" tooltip=""/>
+			<item id="1517" text="인증이 필요한 서버(&amp;A)" tooltip=""/>
+		</dialog>
+		<dialog id="410" text="주석 스타일의 초기 주제 편집">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1038" text="이 스타일로 만들어질 수 있는 모든 새 주석에 초기 주제를 설정합니다:" tooltip=""/>
+			<item id="1293" text="사용자 주제 사용:" tooltip=""/>
+			<item id="1520" text="일반 주제 사용:" tooltip=""/>
+		</dialog>
+		<dialog id="411" text="초기 배율 설정">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+		</dialog>
+		<dialog id="413" text="">
+			<item id="1" text="닫기(&amp;C)" tooltip=""/>
+			<item id="1531" text="보고서 보내기(&amp;R)..." tooltip=""/>
+		</dialog>
+		<dialog id="414" text="주석 저자">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1039" text="필터를 켜고 목록에서 보고 싶은 주석의 한 명 이상의 저자를 선택하세요. 다른 모든 주석은 숨겨집니다.&#10;&#10;이 보이는 상태는 문서에 저장되지 않습니다." tooltip=""/>
+			<item id="1261" text="필터 설정" tooltip=""/>
+			<item id="1532" text="모두 선택(&amp;S)" tooltip=""/>
+			<item id="1533" text="모두 지우기(&amp;C)" tooltip=""/>
+			<item id="1534" text="아래 주석만 표시:" tooltip=""/>
+		</dialog>
+		<dialog id="422" text="">
+			<item id="2" text="취소(&amp;C)" tooltip=""/>
+			<item id="3" text="독점 열기 시도(&amp;X)" tooltip=""/>
+			<item id="4" text="다시 열기 시도(&amp;T)" tooltip=""/>
+			<item id="1038" text="&quot;%1&quot; 파일을 논블럭킹 모드로 열 수 없습니다:&#10;%2&#10;&#10;어떻게 하시겠습니까?" tooltip=""/>
+		</dialog>
+		<dialog id="509" text="">
+			<item id="1038" text="메뉴와 도구 모음 글꼴:" tooltip=""/>
+			<item id="1039" text="공통 UI 글꼴 (모든 보기와 대화 상자에 사용):" tooltip=""/>
+			<item id="1040" text="면:" tooltip=""/>
+			<item id="1041" text="선택:" tooltip=""/>
+			<item id="1042" text="강조:" tooltip=""/>
+			<item id="1043" text="텍스트:" tooltip=""/>
+			<item id="1044" text="창:" tooltip=""/>
+			<item id="1200" text="색" tooltip=""/>
+			<item id="1201" text="주 배경 스타일" tooltip=""/>
+			<item id="1203" text="배경 색:" tooltip=""/>
+			<item id="1261" text="글꼴" tooltip=""/>
+			<item id="1541" text="기본값으로 리셋" tooltip=""/>
+			<item id="1549" text="그림자 그레이디언트 표시" tooltip=""/>
+		</dialog>
+		<dialog id="510" text="페이지 OCR">
+			<item id="1" text="확인" tooltip=""/>
+			<item id="2" text="취소" tooltip=""/>
+			<item id="1041" text="기본 언어(&amp;L):" tooltip=""/>
+			<item id="1042" text="다른 언어..." tooltip=""/>
+			<item id="1043" text="이미지 품질(&amp;Q):" tooltip=""/>
+			<item id="1044" text="dpi" tooltip=""/>
+			<item id="1045" text="정밀도(&amp;C):" tooltip=""/>
+			<item id="1200" text="페이지 범위" tooltip=""/>
+			<item id="1202" text="출력(&amp;O)" tooltip=""/>
+			<item id="1203" text="PDF 출력 종류(&amp;T):" tooltip=""/>
+			<item id="1204" text="인식" tooltip=""/>
+			<item id="1330" text="모두(&amp;A)" tooltip=""/>
+			<item id="1331" text="선택된 페이지(&amp;S)" tooltip=""/>
+			<item id="1332" text="현재 페이지(&amp;R)" tooltip=""/>
+			<item id="1333" text="페이지(&amp;G):" tooltip=""/>
+			<item id="1387" text="쉼표로 구분하여 페이지 번호나 범위를 입력할 수 있습니다.&#10;예: 1, 3, 5-12" tooltip=""/>
+		</dialog>
+	</dialogs>
+	<strings count="1241">
+		<item id="0" text="시계 방향 90도"/>
+		<item id="1" text="반시계 방향 90도"/>
+		<item id="2" text="180도"/>
+		<item id="3" text="모든 페이지"/>
+		<item id="4" text="짝수 페이지만"/>
+		<item id="5" text="홀수 페이지만"/>
+		<item id="6" text="가로 및 세로 페이지"/>
+		<item id="7" text="세로 페이지"/>
+		<item id="8" text="가로 페이지"/>
+		<item id="9" text="표준 이름"/>
+		<item id="10" text="지역 이름"/>
+		<item id="11" text="일반"/>
+		<item id="12" text="일반 옵션"/>
+		<item id="13" text="색 관리"/>
+		<item id="14" text="색 관리 설정"/>
+		<item id="15" text="페이지 표시"/>
+		<item id="16" text="페이지 표시 옵션"/>
+		<item id="17" text="성능"/>
+		<item id="18" text="성능 옵션"/>
+		<item id="19" text="측정"/>
+		<item id="20" text="단위, 격자선, 눈금자 옵션"/>
+		<item id="21" text="신원"/>
+		<item id="22" text="신원 옵션"/>
+		<item id="23" text="언어"/>
+		<item id="24" text="인터페이스 언어 선택"/>
+		<item id="25" text="파일 연결"/>
+		<item id="26" text="파일 연결 설정"/>
+		<item id="27" text="범주"/>
+		<item id="28" text="설정..."/>
+		<item id="29" text="문서 속성..."/>
+		<item id="30" text="접착 노트 속성"/>
+		<item id="31" text="전체 저장 또는 디지털 서명 문서는 추가 저장"/>
+		<item id="32" text="항상 전체 저장"/>
+		<item id="33" text="항상 추가 저장"/>
+		<item id="34" text="빠른 웹 보기용 저장"/>
+		<item id="35" text="자동"/>
+		<item id="36" text="페이지만"/>
+		<item id="37" text="북마크 패널과 페이지"/>
+		<item id="38" text="썸네일 패널과 페이지"/>
+		<item id="39" text="마지막 사용된 보기"/>
+		<item id="40" text="단면"/>
+		<item id="41" text="연속"/>
+		<item id="42" text="양면"/>
+		<item id="43" text="연속 - 양면"/>
+		<item id="44" text="실제 크기"/>
+		<item id="45" text="페이지 맞춤"/>
+		<item id="46" text="폭 맞춤"/>
+		<item id="47" text="보기 맞춤"/>
+		<item id="48" text="물리적 메모리 (RAM): 전체 %1 ; 최대 %2 사용할 수 있습니다."/>
+		<item id="49" text="물리적 메모리 (RAM): 전체 %1"/>
+		<item id="50" text="시스템에 %1 CPU가 있습니다."/>
+		<item id="51" text="cm"/>
+		<item id="52" text="센티미터"/>
+		<item id="53" text="센티미터"/>
+		<item id="54" text="in"/>
+		<item id="55" text="인치"/>
+		<item id="56" text="인치"/>
+		<item id="57" text="mm"/>
+		<item id="58" text="밀리미터"/>
+		<item id="59" text="밀리미터"/>
+		<item id="60" text="p"/>
+		<item id="61" text="파이카"/>
+		<item id="62" text="파이카"/>
+		<item id="63" text="pt"/>
+		<item id="64" text="포인트"/>
+		<item id="65" text="포인트"/>
+		<item id="66" text="&apos;%1&apos; 시작"/>
+		<item id="67" text="대체 PDF 뷰어가 없습니다."/>
+		<item id="68" text="(전체 %1 페이지)"/>
+		<item id="69" text="&quot;%1&quot; 문서는 암호로 보호됩니다."/>
+		<item id="70" text="모든 페이지"/>
+		<item id="71" text="홀수 페이지"/>
+		<item id="72" text="짝수 페이지"/>
+		<item id="73" text="없음"/>
+		<item id="74" text="프린터 여백에 맞추기"/>
+		<item id="75" text="프린터 여백으로 축소"/>
+		<item id="76" text="큰 페이지 바둑판식 배열"/>
+		<item id="77" text="모든 페이지 바둑판식 배열"/>
+		<item id="78" text="용지 한 장에 여러 페이지"/>
+		<item id="79" text="모든 페이지를 하나의 다중 페이지 이미지 파일로 저장"/>
+		<item id="80" text="각 페이지 범위를 분리된 다중 페이지 이미지 파일로 저장"/>
+		<item id="81" text="각 페이지를 분리된 단일 페이지 이미지 파일로 저장"/>
+		<item id="82" text="&quot;%1&quot; 폴더에 이미 &quot;%2&quot; 파일이 있습니다."/>
+		<item id="83" text="크기: %1&#10;수정: %2"/>
+		<item id="84" text="&quot;%1&quot; 파일을 쓸 수 없습니다:"/>
+		<item id="85" text="확인(&amp;O)"/>
+		<item id="86" text="취소"/>
+		<item id="87" text="예(&amp;Y)"/>
+		<item id="88" text="아니오(&amp;N)"/>
+		<item id="89" text="중단(&amp;A)"/>
+		<item id="90" text="재시도(&amp;R)"/>
+		<item id="91" text="무시(&amp;I)"/>
+		<item id="92" text="시도(&amp;T)"/>
+		<item id="93" text="계속(&amp;C)"/>
+		<item id="94" text="모두 예(&amp;E)"/>
+		<item id="95" text="모두 아니오(&amp;L)"/>
+		<item id="96" text="&quot;%1&quot; 대상 폴더를 만들 수 없습니다:"/>
+		<item id="97" text="&quot;%1&quot; 문서가 변경되었습니다.&#10;&#10;닫기 전에 변경 내용을 저장하시겠습니까?"/>
+		<item id="98" text="&quot;%1&quot; 문서에 디지털 서명이 들어 있습니다.&#10;문서를 다시 저장하면 디지털 서명이 사라집니다.&#10;증가 저장을 사용하여 디지털 서명을 유지할 수 있습니다. 하지만 파일 크기가 커집니다.&#10;&#10;증가 저장을 사용하시겠습니까?"/>
+		<item id="99" text="요약: %1 선택됨, 전체 %2 페이지"/>
+		<item id="100" text="&quot;%1&quot; 문서 인쇄 오류:&#10;%2"/>
+		<item id="101" text="이름"/>
+		<item id="102" text="사용할 수 없음"/>
+		<item id="103" text="준비"/>
+		<item id="104" text="오프라인"/>
+		<item id="105" text="여는 중..."/>
+		<item id="106" text="종이: &apos;%1&apos;"/>
+		<item id="107" text="용지: %1"/>
+		<item id="108" text="페이지: %1"/>
+		<item id="109" text="페이지: %1, %2,..."/>
+		<item id="110" text="&lt;현재 문서 (%1)&gt;"/>
+		<item id="111" text="&lt;찾아보기...&gt;"/>
+		<item id="112" text="&lt;고급...&gt;"/>
+		<item id="113" text="검색 중지"/>
+		<item id="114" text="지금 검색"/>
+		<item id="115" text="이미지를 &quot;%1&quot; 파일에 저장..."/>
+		<item id="116" text="이미지 만들기..."/>
+		<item id="117" text="이미지로 내보내기..."/>
+		<item id="118" text="페이지 #%1 처리..."/>
+		<item id="119" text="인쇄..."/>
+		<item id="120" text="인쇄 용지 #%1..."/>
+		<item id="121" text="인쇄 페이지 #%1..."/>
+		<item id="122" text="중지..."/>
+		<item id="123" text="준비..."/>
+		<item id="124" text="찾기 &quot;%1&quot;..."/>
+		<item id="125" text="검색 요약: %1 문서, %2 전체"/>
+		<item id="126" text="중단됨"/>
+		<item id="127" text="&quot;%1&quot;: 열기..."/>
+		<item id="128" text="&quot;%1&quot;: 페이지 #%2..."/>
+		<item id="129" text="페이지 #%1..."/>
+		<item id="130" text="&quot;%1&quot; 문서를 여는데 충분한 시스템 자원을 얻을 수 없습니다:&#10;너무 많은 USER/GDI 객체를 다른 프로그램이 사용하고 있습니다!&#10;&#10;프로그램(또는 열려있는 문서)을 닫고 시스템 자원을 해제한 뒤 다시 시도해 보십시요..."/>
+		<item id="131" text="문서를 &quot;%1&quot; 파일에 저장 실패:&#10;%2"/>
+		<item id="132" text="&quot;%1&quot; 문서 열기 실패:&#10;%2"/>
+		<item id="133" text="문서 열기 실패:&#10;%1"/>
+		<item id="134" text="정말로 %1 주석을 삭제하시겠습니까?"/>
+		<item id="135" text="%1: 주석 삭제"/>
+		<item id="136" text="다음부터 확인없이 삭제"/>
+		<item id="137" text="이 프로그램을 기본 PDF 뷰어로 만드시겠습니까?"/>
+		<item id="138" text="이 프로그램을 기본 PDF 뷰어로 만들고 PDF가 브라우저에서 열리도록 하시겠습니까?"/>
+		<item id="139" text="사용하는 브라우저가 PDF 파일을 표시하는데 이 프로그램을 사용하도록 하시겠습니까?"/>
+		<item id="140" text="다음부터 표시하지 않음"/>
+		<item id="141" text="&quot;%1&quot;을 열 수 없습니다:&#10;%2"/>
+		<item id="142" text="경로가 존재하지 않습니다."/>
+		<item id="143" text="&quot;%2&quot;에 대한 &quot;%1&quot; 액션을 실행할 수 없습니다:&#10;%3"/>
+		<item id="144" text="사이트를 열려고 합니다:&#10;&quot;%1&quot;&#10;&#10;이 사이트를 신뢰하십니까?"/>
+		<item id="145" text="%1: 사이트 열기 경고"/>
+		<item id="146" text="이 사이트에 대한 선택을 기억합니다."/>
+		<item id="147" text="경고 - 잠재적 보안 이슈!&#10;&#10;현재 파일이 PDF-XChange 뷰어에게 &quot;%1&quot; 프로그램을 실행할 것을 요청했습니다. -&#10;이것은 잠재적으로 안전하지 않거나 악성 내용을 실행할 수 있습니다. 그것은 시스템을 해칠 수 있습니다.&#10;&#10;내용이 안전하다는 확신이 있을 때만 계속하십시오!&#10;"/>
+		<item id="148" text="실행: &quot;%1&quot;"/>
+		<item id="149" text="이 메시지를 다시 보지 않습니다."/>
+		<item id="150" text="페이지 %1"/>
+		<item id="151" text="메뉴"/>
+		<item id="152" text="파일"/>
+		<item id="153" text="표준"/>
+		<item id="154" text="배율"/>
+		<item id="155" text="보기 회전"/>
+		<item id="156" text="찾기"/>
+		<item id="157" text="주석과 조판지시"/>
+		<item id="158" text="속성"/>
+		<item id="159" text="화살표 도구 속성"/>
+		<item id="160" text="선 도구 속성"/>
+		<item id="161" text="직사각형 도구 속성"/>
+		<item id="162" text="타원 도구 속성"/>
+		<item id="163" text="다각형 도구 속성"/>
+		<item id="164" text="다각선 도구 속성"/>
+		<item id="165" text="연필 도구 속성"/>
+		<item id="166" text="구름 도구 속성"/>
+		<item id="167" text="스탬프 도구 속성"/>
+		<item id="168" text="타자기 도구 속성"/>
+		<item id="169" text="텍스트 박스 도구 속성"/>
+		<item id="170" text="콜아웃 도구 속성"/>
+		<item id="171" text="접착 노트 도구 속성"/>
+		<item id="172" text="텍스트 강조 도구 속성"/>
+		<item id="173" text="텍스트 밑줄 도구 속성"/>
+		<item id="174" text="텍스트 취소선 도구 속성"/>
+		<item id="175" text="텍스트 바꾸기 도구 속성"/>
+		<item id="176" text="화살표 속성"/>
+		<item id="177" text="선 속성"/>
+		<item id="178" text="직사각형 속성"/>
+		<item id="179" text="타원 속성"/>
+		<item id="180" text="다각형 속성"/>
+		<item id="181" text="다각선 속성"/>
+		<item id="182" text="연필 속성"/>
+		<item id="183" text="구름 속성"/>
+		<item id="184" text="스탬프 속성"/>
+		<item id="185" text="타자기 속성"/>
+		<item id="186" text="텍스트 박스 속성"/>
+		<item id="187" text="콜아웃 속성"/>
+		<item id="188" text="접착 노트 속성"/>
+		<item id="189" text="텍스트 강조 속성"/>
+		<item id="190" text="텍스트 밑줄 속성"/>
+		<item id="191" text="텍스트 취소선 속성"/>
+		<item id="192" text="텍스트 바꾸기 속성"/>
+		<item id="193" text="화살표"/>
+		<item id="194" text="선"/>
+		<item id="195" text="직사각형"/>
+		<item id="196" text="타원"/>
+		<item id="197" text="다각형"/>
+		<item id="198" text="다각선"/>
+		<item id="199" text="연필"/>
+		<item id="200" text="구름"/>
+		<item id="201" text="스탬프"/>
+		<item id="202" text="캐럿"/>
+		<item id="203" text="텍스트 박스"/>
+		<item id="204" text="접착 노트"/>
+		<item id="205" text="강조"/>
+		<item id="206" text="밑줄"/>
+		<item id="207" text="취소선"/>
+		<item id="208" text="파일 첨부"/>
+		<item id="209" text="소리"/>
+		<item id="210" text="텍스트 서식"/>
+		<item id="211" text="채우기 없음"/>
+		<item id="212" text="외곽선 없음"/>
+		<item id="213" text="다른 색..."/>
+		<item id="214" text="불확실한"/>
+		<item id="215" text="정의되지 않음"/>
+		<item id="216" text="색"/>
+		<item id="217" text="속성..."/>
+		<item id="218" text="인식되지 않음"/>
+		<item id="219" text="알 수 없음"/>
+		<item id="220" text="없음"/>
+		<item id="221" text="제목 없음"/>
+		<item id="222" text="모양"/>
+		<item id="223" text="모양 옵션"/>
+		<item id="224" text="설명"/>
+		<item id="225" text="설명 정보"/>
+		<item id="226" text="글꼴"/>
+		<item id="227" text="이 문서에 사용된 글꼴"/>
+		<item id="228" text="보안"/>
+		<item id="229" text="문서 보안과 제한"/>
+		<item id="230" text="암호 보안"/>
+		<item id="231" text="허용되지 않음"/>
+		<item id="232" text="저해상도"/>
+		<item id="233" text="고해상도"/>
+		<item id="234" text="허용됨"/>
+		<item id="235" text="리소스 로딩..."/>
+		<item id="236" text="초기화,,,"/>
+		<item id="237" text="없음"/>
+		<item id="238" text="정사각형"/>
+		<item id="239" text="원"/>
+		<item id="240" text="마름모"/>
+		<item id="241" text="열린 화살표"/>
+		<item id="242" text="닫힌 화살표"/>
+		<item id="243" text="밑동"/>
+		<item id="244" text="열린 화살표 (뒤집힘)"/>
+		<item id="245" text="닫힌 화살표 (뒤집힘)"/>
+		<item id="246" text="감소"/>
+		<item id="247" text="북마크"/>
+		<item id="248" text="페이지"/>
+		<item id="249" text="필드"/>
+		<item id="250" text="레이어"/>
+		<item id="251" text="주석"/>
+		<item id="252" text="이 탭 닫기"/>
+		<item id="253" text="%1 개의 글꼴을 찾았습니다."/>
+		<item id="254" text="/ %1"/>
+		<item id="255" text="%1&#10;제목: %2&#10;저자: %3&#10;주제: %4&#10;키워드: %5&#10;페이지: %6"/>
+		<item id="256" text="페이지 #%1"/>
+		<item id="257" text="페이지 #%1: &#10;%2"/>
+		<item id="258" text="PDF 검색"/>
+		<item id="259" text="문서"/>
+		<item id="260" text="문서와 조판지시"/>
+		<item id="261" text="문서와 스탬프"/>
+		<item id="262" text="양식 필드 데이터만"/>
+		<item id="263" text="팬과 줌"/>
+		<item id="264" text="루뻬"/>
+		<item id="265" text="문서 저장 확인"/>
+		<item id="266" text="문서 증가 저장 확인"/>
+		<item id="267" text="일반 정보"/>
+		<item id="268" text="이름"/>
+		<item id="269" text="종류"/>
+		<item id="270" text="폴더"/>
+		<item id="271" text="경로"/>
+		<item id="272" text="파일 크기"/>
+		<item id="273" text="%1 바이트"/>
+		<item id="274" text="수정 날짜"/>
+		<item id="275" text="PDF 정보"/>
+		<item id="276" text="PDF 버전"/>
+		<item id="277" text="페이지"/>
+		<item id="278" text="제목"/>
+		<item id="279" text="주제"/>
+		<item id="280" text="저자"/>
+		<item id="281" text="키워드"/>
+		<item id="282" text="창작자"/>
+		<item id="283" text="제작자"/>
+		<item id="284" text="암호화 정보"/>
+		<item id="285" text="%1 비트 AES"/>
+		<item id="286" text="%1 비트 RC4"/>
+		<item id="287" text="수준"/>
+		<item id="288" text="완전히 허용"/>
+		<item id="289" text="인쇄"/>
+		<item id="290" text="문서변경"/>
+		<item id="291" text="내용 복사나 추출"/>
+		<item id="292" text="주석/양식 저작"/>
+		<item id="293" text="양식 채우기나 서명"/>
+		<item id="294" text="내용 어셈블리 가능"/>
+		<item id="295" text="문서 어셈블리"/>
+		<item id="296" text="문서 여는 중, 기다려 주세요..."/>
+		<item id="297" text="&quot;%1&quot; 열기..."/>
+		<item id="298" text="&quot;%1&quot; 다운로드..."/>
+		<item id="299" text="다운로드 %1 / %2"/>
+		<item id="300" text="문서 저장 중, 기다려 주세요..."/>
+		<item id="301" text="&quot;%1&quot;에 저장..."/>
+		<item id="302" text="변경 적용..."/>
+		<item id="303" text="문서 저장 준비..."/>
+		<item id="304" text="문서 쓰기..."/>
+		<item id="305" text="페이지 얻기..."/>
+		<item id="306" text="페이지 정보 수집..."/>
+		<item id="307" text="주석 수집..."/>
+		<item id="308" text="새 이미지의 대상 폴더 선택:"/>
+		<item id="309" text="다운로드 파일의 대상 폴더 선택:"/>
+		<item id="310" text="문서를 검색할 폴더 선택:"/>
+		<item id="311" text="그래프"/>
+		<item id="312" text="종이집게"/>
+		<item id="313" text="첨부"/>
+		<item id="314" text="태그"/>
+		<item id="315" text="귀"/>
+		<item id="316" text="마이크"/>
+		<item id="317" text="소리"/>
+		<item id="318" text="체크마크"/>
+		<item id="319" text="원"/>
+		<item id="320" text="주석"/>
+		<item id="321" text="십자가"/>
+		<item id="322" text="도움말"/>
+		<item id="323" text="텍스트 삽입"/>
+		<item id="324" text="키"/>
+		<item id="325" text="다음 문단"/>
+		<item id="326" text="텍스트 노트"/>
+		<item id="327" text="문단"/>
+		<item id="328" text="오른쪽 화살표"/>
+		<item id="329" text="오른쪽 포인터"/>
+		<item id="330" text="별"/>
+		<item id="331" text="위쪽 화살표"/>
+		<item id="332" text="좌상 화살표"/>
+		<item id="333" text="접착 노트"/>
+		<item id="334" text="강조"/>
+		<item id="335" text="텍스트에 주석"/>
+		<item id="336" text="밑줄"/>
+		<item id="337" text="취소선"/>
+		<item id="338" text="텍스트 바꾸기"/>
+		<item id="339" text="콜아웃"/>
+		<item id="340" text="텍스트 박스"/>
+		<item id="341" text="타자기"/>
+		<item id="342" text="화살표"/>
+		<item id="343" text="선"/>
+		<item id="344" text="직사각형"/>
+		<item id="345" text="타원"/>
+		<item id="346" text="구름"/>
+		<item id="347" text="다각선"/>
+		<item id="348" text="다각형"/>
+		<item id="349" text="연필"/>
+		<item id="350" text="페이지: %1 / %2"/>
+		<item id="351" text="배율: %1"/>
+		<item id="352" text="최근 문서 목록을 지우시겠습니까?"/>
+		<item id="353" text="안전함"/>
+		<item id="354" text="열기"/>
+		<item id="355" text="저장"/>
+		<item id="356" text="다른 이름으로 저장"/>
+		<item id="357" text="다른 이름으로 복사"/>
+		<item id="358" text="파일에 인쇄"/>
+		<item id="359" text="접근성"/>
+		<item id="360" text="접근성 옵션"/>
+		<item id="361" text="검은 바탕에 녹색 글씨"/>
+		<item id="362" text="검은 바탕에 노란 글씨"/>
+		<item id="363" text="검은 바탕에 하얀 글씨"/>
+		<item id="364" text="하얀 바탕에 검은 글씨"/>
+		<item id="365" text="전체 화면"/>
+		<item id="366" text="전체 화면 옵션"/>
+		<item id="367" text="잠시 뒤 숨김"/>
+		<item id="368" text="항상 표시"/>
+		<item id="369" text="항상 숨김"/>
+		<item id="370" text="스냅샷 도구"/>
+		<item id="371" text="스냅샷 도구 옵션"/>
+		<item id="372" text="&quot;%1&quot; 문서에 오류가 있습니다.&#10;&#10;프로그램은 몇가지 문제점을 감지했습니다:&#10;%2&#10;&#10;이 문서를 다시 저장할 것을 추천합니다."/>
+		<item id="373" text="하나 이상의 XREF 청크를 찾지 못했습니다."/>
+		<item id="374" text="XREF 테이블에서 오류가 감지되었습니다."/>
+		<item id="375" text="객체에 대한 참조가 어떤 XREF 청크에도 기술되어있지 않습니다."/>
+		<item id="376" text="객체 로드 오류: 객체 구조가 올바르지 않습니다."/>
+		<item id="377" text="객체 로드 오류: 잘못 정렬된 객체."/>
+		<item id="378" text="올바르지 않은 ObjStream."/>
+		<item id="379" text="마지막 트레일러에 필요한 값을 찾을 수 없습니다."/>
+		<item id="380" text="트레이러에 필요한 값을 찾을 수 없습니다."/>
+		<item id="381" text=" 현재 또는 이전 청크에 객체가 설명되지 않았습니다. 하지만 다음 청크에서 설명을 찾았습니다. (선형화된 파일에서는 유효합니다.)"/>
+		<item id="382" text="원본 문서 &quot;%1&quot;에 오류가 있고 PDF-XChange는 저장할 때 이것을 교정할 것입니다. 하지만 비증가 저장 옵션을 사용해야만 합니다. 계속하시겠습니까? (경고: 모든 디지털 서명을 잃습니다.)"/>
+		<item id="383" text="태그 없음"/>
+		<item id="384" text="익명"/>
+		<item id="385" text="&lt;알 수 없는 저자&gt; (%1)"/>
+		<item id="386" text="&lt;알 수 없는 날짜&gt; (%1)"/>
+		<item id="387" text="페이지 %1 (%2)"/>
+		<item id="388" text="%1 (%2)"/>
+		<item id="389" text="잘못된 값: %s 보다 크거나 같아야 합니다."/>
+		<item id="390" text="잘못된 값: %s 보다 크거나 같고 %s 보다 작거나 같아야 합니다."/>
+		<item id="391" text="잘못된 값: %s 보다 작거나 같아야 합니다."/>
+		<item id="392" text="잘못된 월 숫자."/>
+		<item id="393" text="잘못된 날짜/시간: 그 날짜/시간이 존재하는 지 확인하세요. %field% 필드는 %format% 포맷에 맞아야 합니다."/>
+		<item id="394" text="입력된 값이 %s 필드의 포맷에 맞지 않습니다."/>
+		<item id="395" text="오전"/>
+		<item id="396" text="오후"/>
+		<item id="397" text="%1 북마크와 그 자식 북마크를 삭제하시겠습니까?"/>
+		<item id="398" text="정말로 %1 북마크를 삭제하시겠습니까?"/>
+		<item id="399" text="%1: 북마크 삭제"/>
+		<item id="400" text="다음부터 확인 없이 삭제"/>
+		<item id="401" text="북마크 속성:"/>
+		<item id="402" text="다중 북마크 속성"/>
+		<item id="403" text="동작"/>
+		<item id="404" text="동작 목록"/>
+		<item id="405" text="보통"/>
+		<item id="406" text="두껍게"/>
+		<item id="407" text="기울임"/>
+		<item id="408" text="두껍게 기울임"/>
+		<item id="409" text="알 수 없는 동작"/>
+		<item id="410" text="이 문서내 페이지로 이동"/>
+		<item id="411" text="다른 문서의 페이지로 이동"/>
+		<item id="412" text="내장 문서의 페이지로 이동"/>
+		<item id="413" text="파일 열기"/>
+		<item id="414" text="기사 읽기"/>
+		<item id="415" text="웹 링크 열기"/>
+		<item id="416" text="소리 내기"/>
+		<item id="417" text="영상 재생"/>
+		<item id="418" text="주석 필드 보기/숨김"/>
+		<item id="419" text="지정된 명령 실행"/>
+		<item id="420" text="양식 제출"/>
+		<item id="421" text="양식 리셋"/>
+		<item id="422" text="양식 데이터 가져오기"/>
+		<item id="423" text="자바스크립트 실행"/>
+		<item id="424" text="레이어 가시성 설정"/>
+		<item id="425" text="멀티미디어 제어"/>
+		<item id="426" text="페이지 갱신과 전이"/>
+		<item id="427" text="3D 보기로 이동"/>
+		<item id="428" text="배율"/>
+		<item id="429" text="상속"/>
+		<item id="430" text="폭"/>
+		<item id="431" text="높이"/>
+		<item id="432" text="높이 맞춤"/>
+		<item id="433" text="보이는 폭에 맞춤"/>
+		<item id="434" text="보이는 높이에 맞춤"/>
+		<item id="435" text="파일"/>
+		<item id="436" text="동작"/>
+		<item id="437" text="인자"/>
+		<item id="438" text="이 문서의 모든 페이지를 삭제할 수 없습니다. 적어도 한 페이지는 남겨야 합니다."/>
+		<item id="439" text="문서에서 %1 페이지를 삭제하시겠습니까?"/>
+		<item id="440" text="%1: 페이지 삭제"/>
+		<item id="441" text="새 액션"/>
+		<item id="442" text="액션 편집"/>
+		<item id="443" text="%1 액션을 삭제하시겠습니까?"/>
+		<item id="444" text="%1: 액션 삭제"/>
+		<item id="445" text="다음부터 확인 없이 삭제"/>
+		<item id="446" text="자바스크립트"/>
+		<item id="447" text="자바스크립트 옵션"/>
+		<item id="448" text="등록"/>
+		<item id="449" text="등록 인자"/>
+		<item id="450" text="행: %1"/>
+		<item id="451" text="행: %2"/>
+		<item id="452" text="삽입"/>
+		<item id="453" text="수정"/>
+		<item id="454" text="이 문서에는 자바스크립트가 들어있습니다. 이 문서의 모든 자바스크립트 액션을 켜시겠습니까?&#10;이 기능이 꺼져있으면 문서는 올바로 동작하지 않습니다."/>
+		<item id="455" text="이 문서가 다시 열릴 때까지 이 메시지 표시 안함"/>
+		<item id="456" text="자바스크립트: %1"/>
+		<item id="457" text="뷰어 PRO 기능 - 라이선스 키가 필요 - 도움말 참고"/>
+		<item id="458" text="사용자 배율"/>
+		<item id="459" text="&apos;PRO&apos; 기능 경고"/>
+		<item id="460" text="이것은 PDF-XChange 뷰어 PRO 기능입니다.&#10;무료 버전에서도 사용할 수 있습니다만 파일을 저장하면 PDF 페이지에 DEMO 레이블이 표시됩니다.&#10;이것이 표시되지 않게하려면 정식 &apos;PRO&apos; 버전으로 업그레이드 해야 합니다. 도움말 파일이나 웹사이트에서 더 자세한 정보를 보실 수 있습니다.&#10;&#10;이 기능을 사용하시겠습니까?"/>
+		<item id="461" text="%1 페이지를 이동하시겠습니까?"/>
+		<item id="462" text="%1: 페이지 이동"/>
+		<item id="463" text="파일"/>
+		<item id="464" text="편집"/>
+		<item id="465" text="보기"/>
+		<item id="466" text="문서"/>
+		<item id="467" text="도구"/>
+		<item id="468" text="창"/>
+		<item id="469" text="도움말"/>
+		<item id="470" text="사용자"/>
+		<item id="471" text="크롭 박스"/>
+		<item id="472" text="블리드 박스"/>
+		<item id="473" text="트림 박스"/>
+		<item id="474" text="아트 박스"/>
+		<item id="475" text="크롭된 페이지 크기: %1"/>
+		<item id="476" text="블리드 박스 크기: %1"/>
+		<item id="477" text="트림 박스 크기: %1"/>
+		<item id="478" text="아트 박스 크기: %1"/>
+		<item id="479" text="미리보기 안됨"/>
+		<item id="480" text="미리보기 정보 여는 중, 기다려 주세요..."/>
+		<item id="481" text="암호화"/>
+		<item id="482" text="&quot;%1&quot; 문서는 보호되어 있습니다. 이 동작을 사용할 권한이 없습니다."/>
+		<item id="483" text="%1: 페이지 삽입"/>
+		<item id="484" text="이 문서를 최근 문서 목록에 핀꼽기 (전체 항목 개수가 제한을 초과할 때 아이템 삭제 거부)"/>
+		<item id="485" text="이 문서를 최근 문서 목록에서 핀뽑기 (전체 항목 개수가 제한을 초과할 때 항목 제거 허용)"/>
+		<item id="486" text="최근에 사용된 글꼴"/>
+		<item id="487" text="모든 글꼴"/>
+		<item id="488" text="배율 수준"/>
+		<item id="489" text="배율 모드"/>
+		<item id="490" text="전"/>
+		<item id="491" text="후"/>
+		<item id="492" text="표준 색"/>
+		<item id="493" text="사용자 색"/>
+		<item id="494" text="검정"/>
+		<item id="495" text="갈색"/>
+		<item id="496" text="어두운 초록"/>
+		<item id="497" text="탁한 초록"/>
+		<item id="498" text="어두운 청록"/>
+		<item id="499" text="어두운 파랑"/>
+		<item id="500" text="남색"/>
+		<item id="501" text="어두운 회색"/>
+		<item id="502" text="탁한 빨강"/>
+		<item id="503" text="주황"/>
+		<item id="504" text="흐린 황갈색"/>
+		<item id="505" text="초록"/>
+		<item id="506" text="탁한 청록"/>
+		<item id="507" text="파랑"/>
+		<item id="508" text="청회색"/>
+		<item id="509" text="회색 - 40%"/>
+		<item id="510" text="빨강"/>
+		<item id="511" text="연한 주황"/>
+		<item id="512" text="흐린 연두"/>
+		<item id="513" text="연두"/>
+		<item id="514" text="밝은 회청록"/>
+		<item id="515" text="흐린 파랑"/>
+		<item id="516" text="어두운 보라"/>
+		<item id="517" text="회색 - 50%"/>
+		<item id="518" text="분홍"/>
+		<item id="519" text="흐린 노랑"/>
+		<item id="520" text="노랑"/>
+		<item id="521" text="밝은 초록"/>
+		<item id="522" text="연한 청록"/>
+		<item id="523" text="흐린 파랑"/>
+		<item id="524" text="어두운 보라"/>
+		<item id="525" text="밝은 회색"/>
+		<item id="526" text="진한 빨강"/>
+		<item id="527" text="갈회색"/>
+		<item id="528" text="연한 노랑"/>
+		<item id="529" text="밝은 회녹색"/>
+		<item id="530" text="옅은 청록"/>
+		<item id="531" text="밝은 회청색"/>
+		<item id="532" text="연한 보라"/>
+		<item id="533" text="하양"/>
+		<item id="534" text="주석 달기"/>
+		<item id="535" text="주석 달기 옵션"/>
+		<item id="536" text="페이지 삭제 중, 기다려 주세요..."/>
+		<item id="537" text="페이지 이동 중, 기다려 주세요..."/>
+		<item id="538" text="페이지 삽입 중, 기다려 주세요..."/>
+		<item id="539" text="페이지 추출 중, 기다려 주세요..."/>
+		<item id="540" text="%1 페이지를 복사하시겠습니까?"/>
+		<item id="541" text="%1: 페이지 복사"/>
+		<item id="542" text="지우개 도구 속성"/>
+		<item id="543" text="스탬프 팔레트"/>
+		<item id="544" text="새 스탬프"/>
+		<item id="545" text="새 집합"/>
+		<item id="546" text="이 집합은 아직 스탬프를 포함합니다.&#10;정말로 삭제하시겠습니까?"/>
+		<item id="547" text="%1: 스탬프 집합 삭제"/>
+		<item id="548" text="최근 목록 지우기"/>
+		<item id="549" text="최근 문서 목록에서 항목을 제거하시겠습니까?"/>
+		<item id="550" text="핀없는 것은 모두 예"/>
+		<item id="551" text="텍스트 속성"/>
+		<item id="552" text="내용"/>
+		<item id="553" text="텍스트 내용: 일반 텍스트"/>
+		<item id="554" text="서식"/>
+		<item id="555" text="텍스트 서식: 글꼴, 배율, 스타일 등"/>
+		<item id="556" text="글꼴"/>
+		<item id="557" text="글꼴 크기"/>
+		<item id="558" text="가로 배율"/>
+		<item id="559" text="기준선 오프셋"/>
+		<item id="560" text="객체 로드 경고: 객체가 손상되었습니다."/>
+		<item id="561" text="도구 모음"/>
+		<item id="562" text="명령"/>
+		<item id="563" text="옵션"/>
+		<item id="564" text="형식"/>
+		<item id="565" text="전역"/>
+		<item id="566" text="문서"/>
+		<item id="567" text="페이지 보기"/>
+		<item id="568" text="썸네일 보기"/>
+		<item id="569" text="북마크 보기"/>
+		<item id="570" text="주석 보기"/>
+		<item id="571" text="레이어 보기"/>
+		<item id="572" text="양식 필드 보기"/>
+		<item id="573" text="첨부 보기"/>
+		<item id="574" text="텍스트 편집기"/>
+		<item id="575" text="스탬프 팔레트"/>
+		<item id="576" text="검색 보기"/>
+		<item id="577" text="자바스크립트 콘솔"/>
+		<item id="578" text="루뻬 창"/>
+		<item id="579" text="팬과 줌 창"/>
+		<item id="580" text="기본값"/>
+		<item id="581" text="단축키 없음"/>
+		<item id="582" text="이 단축키는 쓸 수 있습니다."/>
+		<item id="583" text="이 단축키는 이미 다른 명령이 사용하고 있습니다."/>
+		<item id="584" text="이 단축키는 이미 %1 명령이 사용하고 있습니다."/>
+		<item id="585" text="렌더링"/>
+		<item id="586" text="렌더링 옵션"/>
+		<item id="587" text="사용자"/>
+		<item id="588" text="여기 검색어를 입력하세요..."/>
+		<item id="589" text="XREF 테이블에 덜 치명적인 오류가 감지되었습니다."/>
+		<item id="590" text="주석 찍기/삭제 중, 기다려 주세요..."/>
+		<item id="591" text="찍기"/>
+		<item id="592" text="그대로 두기"/>
+		<item id="593" text="제거"/>
+		<item id="594" text="문서의 주석을 찍기/삭제 하시겠습니까?"/>
+		<item id="595" text="%1: 주석 찍기/삭제"/>
+		<item id="596" text="리셋 동작에 모든 사용자 도구모음/메뉴를 삭제하시겠습니끼? &apos;아니오&apos;를 클릭하면 유지합니다."/>
+		<item id="597" text="%1: 사용자 도구 모음 삭제"/>
+		<item id="598" text="&quot;%1&quot;에서 페이지 추출 오류:&#10;%2"/>
+		<item id="599" text="%1: 페이지 추출"/>
+		<item id="600" text="&quot;%1&quot;의 주석 붙이기 오류:&#10;%2"/>
+		<item id="601" text="&quot;%1&quot;에 페이지 삽입 오류:&#10;%2"/>
+		<item id="602" text="&quot;%1&quot;에서 페이지 삭제 오류:&#10;%2"/>
+		<item id="603" text="스트림에서 데이터 로드..."/>
+		<item id="604" text="%1 로드"/>
+		<item id="605" text="스트림에서 문서 열기"/>
+		<item id="606" text="스트림에 문서 저장..."/>
+		<item id="607" text="저장 %1 / %2"/>
+		<item id="608" text="문서 열기..."/>
+		<item id="609" text="다음부터 묻지 않음"/>
+		<item id="610" text="%1 페이지를 &quot;%2&quot;에서 &quot;%3&quot;으로 복사하시겠습니까?"/>
+		<item id="611" text="%1 페이지를 &quot;%2&quot;에서 &quot;%3&quot;으로 이동하시겠습니까?"/>
+		<item id="612" text="링크"/>
+		<item id="613" text="측정"/>
+		<item id="614" text="거리 도구 속성"/>
+		<item id="615" text="둘레 도구 속성"/>
+		<item id="616" text="면적 도구 속성"/>
+		<item id="617" text="거리 속성"/>
+		<item id="618" text="둘레 속성"/>
+		<item id="619" text="면적 속성"/>
+		<item id="620" text="링크 편집기 도구 속성"/>
+		<item id="621" text="링크 속성"/>
+		<item id="622" text="없음"/>
+		<item id="623" text="뒤집기"/>
+		<item id="624" text="윤곽"/>
+		<item id="625" text="삽입물"/>
+		<item id="626" text="주석"/>
+		<item id="627" text="%1: 주석 요약"/>
+		<item id="628" text="&quot;%1&quot;에서 주석을 요약하는데 오류:&#10;%2"/>
+		<item id="629" text="주석 요약중, 기다려 주세요..."/>
+		<item id="630" text="주석 내보내는 중, 기다려 주세요..."/>
+		<item id="631" text="%1: 주석 내보내기"/>
+		<item id="632" text="&quot;%1&quot;에서 주석 내보내기 오류:&#10;%2"/>
+		<item id="633" text="주석 내보내기"/>
+		<item id="634" text="어도비 XFDF 파일 (*.xfdf)"/>
+		<item id="635" text="페이지"/>
+		<item id="636" text="종류"/>
+		<item id="637" text="저자"/>
+		<item id="638" text="날짜"/>
+		<item id="639" text="순서"/>
+		<item id="640" text="PDF 문서 (*.pdf)"/>
+		<item id="641" text="리치 텍스트 포맷 (*.rtf)"/>
+		<item id="642" text="일반 텍스트 (*.txt)"/>
+		<item id="643" text="웹 페이지 (*.html)"/>
+		<item id="644" text="주석만"/>
+		<item id="645" text="한 페이지에 커넥터 선이 있는 문서와 주석"/>
+		<item id="646" text="한 페이지에 순번이 있는 문서와 주석"/>
+		<item id="647" text="한 페이지에 문서와 주석"/>
+		<item id="648" text="별도 페이지에 커넥터 선이 있는 문서와 주석"/>
+		<item id="649" text="별도 페이지에 커넥터 선이 있는 문서와 주석"/>
+		<item id="650" text="별도 페이지에 문서와 주석"/>
+		<item id="651" text="새 파일 대상 폴더 선택:"/>
+		<item id="652" text="주석 분류..."/>
+		<item id="653" text="새 문서 만들기..."/>
+		<item id="654" text="원래 문서에서 페이지 복사..."/>
+		<item id="655" text="새 웹 페이지 만들기..."/>
+		<item id="656" text="도구 모음 이름 바꾸기"/>
+		<item id="657" text="거리 측정"/>
+		<item id="658" text="둘레 측정"/>
+		<item id="659" text="면적 측정"/>
+		<item id="660" text="선택된 링크를 삭제하시겠습니까?"/>
+		<item id="661" text="%1: 링크 삭제"/>
+		<item id="662" text="%1: 빈 페이지 삽입"/>
+		<item id="663" text="자동"/>
+		<item id="664" text="거리:"/>
+		<item id="665" text="둘레:"/>
+		<item id="666" text="영역:"/>
+		<item id="667" text="각도:"/>
+		<item id="668" text="∆X:"/>
+		<item id="669" text="∆Y:"/>
+		<item id="670" text="배율:"/>
+		<item id="671" text="거리 정보"/>
+		<item id="672" text="둘레 정보"/>
+		<item id="673" text="면적 정보"/>
+		<item id="674" text="밑줄"/>
+		<item id="675" text="링크 속성"/>
+		<item id="676" text="두중 링크 속성"/>
+		<item id="677" text="ft"/>
+		<item id="678" text="yd"/>
+		<item id="679" text="m"/>
+		<item id="680" text="km"/>
+		<item id="681" text="mi"/>
+		<item id="682" text="사용자"/>
+		<item id="683" text="cm²"/>
+		<item id="684" text="in²"/>
+		<item id="685" text="mm²"/>
+		<item id="686" text="p²"/>
+		<item id="687" text="pt²"/>
+		<item id="688" text="ft²"/>
+		<item id="689" text="yd²"/>
+		<item id="690" text="m²"/>
+		<item id="691" text="km²"/>
+		<item id="692" text="mi²"/>
+		<item id="693" text="측정 내보내기 중, 기다려 주세요..."/>
+		<item id="694" text="%1: 측정 내보내기"/>
+		<item id="695" text="&quot;%1&quot;에서 측정 내보내기 오류:&#10;%2"/>
+		<item id="696" text="측정 조판지시 내보내기"/>
+		<item id="697" text="동작을 추가해 주세요..."/>
+		<item id="698" text="새 문서 생성"/>
+		<item id="699" text="새 문서 만드는 중, 기다려 주세요..."/>
+		<item id="700" text="각 줄바꿈 캐릭터는 새 문단을 시작합니다."/>
+		<item id="701" text="줄바꿈 캐릭터 두 개는 새 문단을 시작합니다. 하나는 무시합니다."/>
+		<item id="702" text="줄바꿈 캐릭터 두 개는 새 문단을 시작합니다. 하나는 공백으로 변환합니다."/>
+		<item id="703" text="주제"/>
+		<item id="704" text="문서 옵션"/>
+		<item id="705" text="페이지 항해"/>
+		<item id="706" text="페이지 레이아웃"/>
+		<item id="707" text="문서 시작"/>
+		<item id="708" text="제목"/>
+		<item id="709" text="확장"/>
+		<item id="710" text="위치"/>
+		<item id="711" text="크기"/>
+		<item id="712" text="수정"/>
+		<item id="713" text="새 문서 만들기..."/>
+		<item id="714" text="원본 파일의 폴더 선택:"/>
+		<item id="715" text="서브 폴더 순회?"/>
+		<item id="716" text="옵션"/>
+		<item id="717" text="단"/>
+		<item id="718" text="단 설정"/>
+		<item id="719" text="파일 헤더"/>
+		<item id="720" text="파일 헤더 옵션"/>
+		<item id="721" text="각 파일은 새 문단에서 시작"/>
+		<item id="722" text="각 파일은 새 페이지에서 시작"/>
+		<item id="723" text="옵션"/>
+		<item id="724" text="레이아웃"/>
+		<item id="725" text="이미지 레이아웃 옵션"/>
+		<item id="726" text="다운샘플링/변환"/>
+		<item id="727" text="이미지 다운샘플링/변환 옵션"/>
+		<item id="728" text="위쪽"/>
+		<item id="729" text="아래쪽"/>
+		<item id="730" text="왼쪽"/>
+		<item id="731" text="오른쪽"/>
+		<item id="732" text="가운데"/>
+		<item id="733" text="다운샘플링 없음"/>
+		<item id="734" text="선형 다운샘플링"/>
+		<item id="735" text="이중선형 다운샘플링"/>
+		<item id="736" text="이중큐빅 다운샘플링"/>
+		<item id="737" text="변환 없음"/>
+		<item id="738" text="회색조로 변환"/>
+		<item id="739" text="단색으로 변환"/>
+		<item id="740" text="흑백으로 변환"/>
+		<item id="741" text="맞춤"/>
+		<item id="742" text="문서 메타데이터"/>
+		<item id="743" text="고급"/>
+		<item id="744" text="문서의 메타데이터 구조"/>
+		<item id="745" text="복합[%2]: 종이 &apos;%1&apos;"/>
+		<item id="746" text="px"/>
+		<item id="747" text="스캐닝..."/>
+		<item id="748" text="스캔 이미지 %1"/>
+		<item id="749" text="정보"/>
+		<item id="750" text="인코딩"/>
+		<item id="751" text="종류: %1"/>
+		<item id="752" text="이미지: %1"/>
+		<item id="753" text="페이지: %1"/>
+		<item id="754" text="용지: %1, %2 전체"/>
+		<item id="755" text="전체 %1 파일"/>
+		<item id="756" text="일반 보기"/>
+		<item id="757" text="복합 보기"/>
+		<item id="758" text="레이블"/>
+		<item id="759" text="이미지 레이블 옵션"/>
+		<item id="760" text="용지: &apos;%1&apos;"/>
+		<item id="761" text="페이지: %1 (타일 %2 / %3)"/>
+		<item id="762" text="가로"/>
+		<item id="763" text="가로 거꾸로"/>
+		<item id="764" text="세로"/>
+		<item id="765" text="세로 거꾸로"/>
+		<item id="766" text="사용자"/>
+		<item id="767" text="가로 (%1° 반시계)"/>
+		<item id="768" text="모두 무시"/>
+		<item id="769" text="소책자"/>
+		<item id="770" text="서적"/>
+		<item id="771" text="양면"/>
+		<item id="772" text="앞면"/>
+		<item id="773" text="뒷면"/>
+		<item id="774" text="소책자"/>
+		<item id="775" text="선택된 페이지 없음"/>
+		<item id="776" text="&quot;%1&quot;에서 이미지 넣기 오류:&#10;%2"/>
+		<item id="777" text="&quot;%1&quot;에서 텍스트 넣기 오류:&#10;%2"/>
+		<item id="778" text="dpi"/>
+		<item id="779" text="해상도: %1 dpi"/>
+		<item id="780" text="항상"/>
+		<item id="781" text="내장 글꼴"/>
+		<item id="782" text="자동 감지"/>
+		<item id="783" text="(전체 %1, 선택 %2)"/>
+		<item id="784" text="페이지 #%1"/>
+		<item id="785" text="마지막 사용한 폴더"/>
+		<item id="786" text="문서의 원래 폴더"/>
+		<item id="787" text="문서를 &apos;다른 이름으로 저장&apos;할 대상 폴더 선택:"/>
+		<item id="788" text="모든 프로그램 설정을 기본값으로 리셋하시겠습니까?"/>
+		<item id="789" text="사용자로 전환"/>
+		<item id="790" text="소유자로 전환"/>
+		<item id="791" text="&quot;%1&quot;의 사용자 전환 오류:&#10;%2"/>
+		<item id="792" text="&quot;%1&quot;의 소유자 전환 오류:&#10;%2"/>
+		<item id="793" text="전체 접근 모드로 들어가는 유효한 소유자 암호를 입력하세요:"/>
+		<item id="794" text="허가된 모드로 들어가는 유효한 사용자 암호를 입력하세요:"/>
+		<item id="795" text="모든 설정 가져오기"/>
+		<item id="796" text="모든 설정 내보내기"/>
+		<item id="797" text="&quot;%1&quot; 파일에서 설정 열기 오류, 이 파일은 올바른 설정을 포함하지 않습니다:&#10;%2"/>
+		<item id="798" text="&quot;%1&quot; 파일로 모든 프로그램 설정 저장 오류:&#10;%2"/>
+		<item id="799" text="프로그램의 새로운 설정을 하시겠습니까? 현재 설정은 덮어써지고 없어집니다."/>
+		<item id="800" text="%1는 아직 실행중입니다."/>
+		<item id="801" text="프로그램 창을 보려면, %1 아이콘을 클릭하세요."/>
+		<item id="802" text="기본 스타일"/>
+		<item id="803" text="새 스타일"/>
+		<item id="804" text="%1 복사"/>
+		<item id="805" text="복제"/>
+		<item id="806" text="선택된 스타일 복제"/>
+		<item id="807" text="리셋"/>
+		<item id="808" text="선택된 스타일을 기본으로 리셋"/>
+		<item id="809" text="삭제"/>
+		<item id="810" text="선택된 스타일 삭제"/>
+		<item id="811" text="몇가지 옵션은 올바르지 않거나 모순됩니다. 검사하고, 고치고, 다시 시도하세요."/>
+		<item id="812" text="직선 밑줄"/>
+		<item id="813" text="구불구불한 밑줄"/>
+		<item id="814" text="이미지 처리..."/>
+		<item id="815" text="다중 주석 속성"/>
+		<item id="816" text="테두리 스타일:"/>
+		<item id="817" text="테두리 폭:"/>
+		<item id="818" text="선 시작 스타일:"/>
+		<item id="819" text="선 끝 스타일:"/>
+		<item id="820" text="외곽선 색:"/>
+		<item id="821" text="채우기 색:"/>
+		<item id="822" text="불투명도:"/>
+		<item id="823" text="노트 아이콘:"/>
+		<item id="824" text="밑줄 스타일:"/>
+		<item id="825" text="강조 모드:"/>
+		<item id="826" text="대표 선"/>
+		<item id="827" text="대표 선 옵션"/>
+		<item id="828" text="제조자:"/>
+		<item id="829" text="종류:"/>
+		<item id="830" text="스캐너에서 새 문서를 만들 수 없습니다:&#10;%1"/>
+		<item id="831" text="이미지에서 새 문서를 만들 수 없습니다:&#10;%1"/>
+		<item id="832" text="텍스트에서 새 문서를 만들 수 없습니다:&#10;%1"/>
+		<item id="833" text="양식"/>
+		<item id="834" text="양식 옵션"/>
+		<item id="835" text="댓글 속성"/>
+		<item id="836" text="이미지 디코딩 준비, 기다려 주세요..."/>
+		<item id="837" text="이미지 디코딩..."/>
+		<item id="838" text="직사각형"/>
+		<item id="839" text="다각선"/>
+		<item id="840" text="거리"/>
+		<item id="841" text="타자기"/>
+		<item id="842" text="콜아웃"/>
+		<item id="843" text="둘레"/>
+		<item id="844" text="면적"/>
+		<item id="845" text="구름"/>
+		<item id="846" text="바꾸기"/>
+		<item id="847" text="용지"/>
+		<item id="848" text="용지 옵션"/>
+		<item id="849" text="주석 스타일 팔레트"/>
+		<item id="850" text="양식 데이터를 다른 이름으로 내보내기"/>
+		<item id="851" text="어도비 FDF 파일 (*.fdf)"/>
+		<item id="852" text="텍스트 파일 (*.txt)"/>
+		<item id="853" text="새 주석 스타일을 만들 수 없습니다: 너무 많은 주석 스타일.&#10;먼저 사용되지 않는 주석 스타일을 제거해 주세요."/>
+		<item id="854" text="주석 스타일 이름 바꾸기"/>
+		<item id="855" text="주석 스타일의 새 이름을 입력해 주세요:"/>
+		<item id="856" text="선택된 주석 스타일을 지우시겠습니까?"/>
+		<item id="857" text="정말로 선택된 주석 스타일을 리셋하시겠습니까?"/>
+		<item id="858" text="선택된 주석을 리셋하시겠습니까?&#10;선택된 주석 종류에 대한 모든 사용자 스타일은 제거되고 기본 스타일만 남게 됩니다."/>
+		<item id="859" text="문서"/>
+		<item id="860" text="다른 것"/>
+		<item id="861" text="창 없음"/>
+		<item id="862" text="양식 데이터를 가진 파일 선택"/>
+		<item id="863" text="대상 이름"/>
+		<item id="864" text="사용자 설정에 의한 창"/>
+		<item id="865" text="기존 창"/>
+		<item id="866" text="새 창"/>
+		<item id="867" text="모든 파일 (*.*)"/>
+		<item id="868" text="&apos;파일 열기&apos; 동작에 대한 기본 폴더 선택"/>
+		<item id="869" text="외부 기억 장치에 문서 저장 오류.&#10;&quot;%1&quot;"/>
+		<item id="870" text="주석 처리 중..."/>
+		<item id="871" text="스탬프 이름 바꾸기"/>
+		<item id="872" text="스탬프의 새 이름을 입력하세요:"/>
+		<item id="873" text="선택된 스탬프를 삭제하시겠습니까?"/>
+		<item id="874" text="열려있는 모든 문서를 닫으시겠습니까?"/>
+		<item id="875" text="%1 / %2"/>
+		<item id="876" text="알 수 없는 동작"/>
+		<item id="877" text="복합 동작"/>
+		<item id="878" text="수정"/>
+		<item id="879" text="주석 수정"/>
+		<item id="880" text="주석 수정"/>
+		<item id="881" text="북마크 수정"/>
+		<item id="882" text="북마크 수정"/>
+		<item id="883" text="주석 삭제"/>
+		<item id="884" text="북마크 삭제"/>
+		<item id="885" text="텍스트 삽입"/>
+		<item id="886" text="텍스트 삭제"/>
+		<item id="887" text="텍스트 붙여넣기"/>
+		<item id="888" text="텍스트 포맷 수정"/>
+		<item id="889" text="텍스트 글꼴 수정"/>
+		<item id="890" text="텍스트 크기 수정"/>
+		<item id="891" text="텍스트 색깔 수정"/>
+		<item id="892" text="문단 포맷 수정"/>
+		<item id="893" text="문단 정렬 수정"/>
+		<item id="894" text="텍스트와 문단 포맷 설정"/>
+		<item id="895" text="텍스트와 문단 포맷 지우기"/>
+		<item id="896" text="기본 텍스트와 문단 포맷 적용"/>
+		<item id="897" text="동작 없음"/>
+		<item id="898" text="주석 가져오기"/>
+		<item id="899" text="%1: 주석 가져오기"/>
+		<item id="900" text="&quot;%1&quot;에서 주석 가져오기 오류:&#10;%2"/>
+		<item id="901" text="예"/>
+		<item id="902" text="아니오"/>
+		<item id="903" text="자바스크립트 콘솔"/>
+		<item id="904" text="주석 스타일 팔레트"/>
+		<item id="905" text="개발"/>
+		<item id="906" text="경고: 이 명령의 단축키는 다른 명령의 단축키와 충돌합니다.&#10;이 단축키를 주어진 명령의 단축키로 사용하시겠습니까? (충돌하는 다른 단축키는 지워집니다.)"/>
+		<item id="907" text="충돌이 감지되었습니다.&#10;자세히 보려면 여기를 클릭하세요."/>
+		<item id="908" text="충돌이 감지되지 않았습니다."/>
+		<item id="909" text="주석 설정 대화 상자"/>
+		<item id="910" text="주석 스타일 팔레트"/>
+		<item id="911" text="도구"/>
+		<item id="912" text="페이지 속성..."/>
+		<item id="913" text="페이지 속성..."/>
+		<item id="914" text="탭 순서"/>
+		<item id="915" text="페이지 탭 순서"/>
+		<item id="916" text="마우스 입장"/>
+		<item id="917" text="마우스 퇴장"/>
+		<item id="918" text="마우스 아래"/>
+		<item id="919" text="마우스 위"/>
+		<item id="920" text="선명하게"/>
+		<item id="921" text="흐리게"/>
+		<item id="922" text="페이지 열림"/>
+		<item id="923" text="페이지 닫힘"/>
+		<item id="924" text="페이지 보임"/>
+		<item id="925" text="페이지 안보임"/>
+		<item id="926" text="페이지 열기"/>
+		<item id="927" text="페이지 닫기"/>
+		<item id="928" text="키스트로크"/>
+		<item id="929" text="포맷 필드"/>
+		<item id="930" text="확인 필드"/>
+		<item id="931" text="계산 필드"/>
+		<item id="932" text="닫기 전"/>
+		<item id="933" text="닫은 후"/>
+		<item id="934" text="저장 후"/>
+		<item id="935" text="인쇄 전"/>
+		<item id="936" text="인쇄 후"/>
+		<item id="937" text="초기 보기"/>
+		<item id="938" text="문서의 초기 보기"/>
+		<item id="939" text="하나의 충돌을 찾았습니다:&#10;%1"/>
+		<item id="940" text="첨부 패널과 페이지"/>
+		<item id="941" text="레이어 패널과 페이지"/>
+		<item id="942" text="파일 이름"/>
+		<item id="943" text="문서 제목"/>
+		<item id="944" text="주석 삭제"/>
+		<item id="945" text="문서 속성 수정"/>
+		<item id="946" text="새 주석 추가"/>
+		<item id="947" text="검색 공급자"/>
+		<item id="948" text="검색 공급자 관리"/>
+		<item id="949" text="새 주석 추가"/>
+		<item id="950" text="검색 공급자를 추가할 수 없습니다.&#10;검색 결과 URL은 반드시 TEST 라는 단어를 포함해야 합니다. URL을 검사하세요.&#10;이 도구는 그 검색 엔진에 대한 쿼리를 빌드하는데는 사용될 수 없을 수 있습니다."/>
+		<item id="951" text="검색 공급자를 추가할 수 없습니다.&#10;새 검색 공급자 정의를 가진 파일을 저장할 수 없습니다."/>
+		<item id="952" text="이 검색 공급자의 정의를 삭제하시겠습니까? 이 동작은 되돌릴 수 없습니다."/>
+		<item id="953" text="검색 공급자"/>
+		<item id="954" text="댓글 추가"/>
+		<item id="955" text="양식 필드 수정"/>
+		<item id="956" text="양식 수정"/>
+		<item id="957" text="양식 리셋"/>
+		<item id="958" text="보안 없음"/>
+		<item id="959" text="문서의 유효한 사용자나 소유자를 입력하세요:"/>
+		<item id="960" text="문서의 유효한 소유자를 입력하세요:"/>
+		<item id="961" text="내장 파일의 유효한 암호를 입력하세요:"/>
+		<item id="962" text="링크 수정"/>
+		<item id="963" text="링크 수정"/>
+		<item id="964" text="새 링크 추가"/>
+		<item id="965" text="새 링크 추가"/>
+		<item id="966" text="링크 삭제"/>
+		<item id="967" text="링크 삭제"/>
+		<item id="968" text="댓글 수정"/>
+		<item id="969" text="아크로뱃 %1 이상"/>
+		<item id="970" text="모든 문서 내용"/>
+		<item id="971" text="메타데이터 제외한 모든 문서 내용"/>
+		<item id="972" text="파일 첨부만"/>
+		<item id="973" text="40 비트 RC4"/>
+		<item id="974" text="128 비트 RC4"/>
+		<item id="975" text="128 비트 AES"/>
+		<item id="976" text="256 비트 AES"/>
+		<item id="977" text="문서의 모든 내용은 암호화되고 검색 엔진은 문서의 메타데이터에 접근할 수 없게 합니다."/>
+		<item id="978" text="문서의 모든 내용은 암호화되고 검색 엔진은 여전히 문서의 메타데이터에 접근할 수 있게 합니다."/>
+		<item id="979" text="이 문서에 저장된 동안 첨부 파일만 암호화합니다. 문서의 나머지는 암호화되지 않고 남겨집니다."/>
+		<item id="980" text="첨부 파일 열기 암호(&amp;S):"/>
+		<item id="981" text="문서 열기 암호:"/>
+		<item id="982" text="첨부 파일을 열려면 암호 필요(&amp;O)"/>
+		<item id="983" text="문서를 열려면 암호 필요(&amp;O)"/>
+		<item id="984" text="시각장애인을 위한 텍스트, 이미지, 다른 내용 복사 가능"/>
+		<item id="985" text="텍스트, 이미지, 다른 내용 복사 가능"/>
+		<item id="986" text="주석 달기, 양식 필드 채우기, 기존 서명 필드에 서명"/>
+		<item id="987" text="페이지 레이아웃, 양식 필드  채우기, 기존 서명 필드에 서명"/>
+		<item id="988" text="추출을 제외한 아무 페이지"/>
+		<item id="989" text="페이지 삽입, 삭제, 회전"/>
+		<item id="990" text="양식 필드 채우기와 기존 서명 필드에 서명"/>
+		<item id="991" text="이 문서에서 보안을 제거하시겠습니까?"/>
+		<item id="992" text="이 문서의 보안을 변경하시겠습니까?"/>
+		<item id="993" text="문서 열기 암호나 권한 암호가 지정되어야 합니다.&#10;&#10;암호 보안을 제거하려면 암호 보안 설정 대화 상자에서 취소를 클릭하고 보안 방법을 보안 없음으로 설정하세요."/>
+		<item id="994" text="&apos;문서를 여는데 암호가 필요&apos; 옵션의 체크를 해제하거나 암호를 입력하세요."/>
+		<item id="995" text="&apos;문서의 권한을 변경하려면 암호 필요&apos; 옵션의 체크를 해제하거나 암호를 입력하세요."/>
+		<item id="996" text="문서 열기와 권한 암호는 같을 수 없습니다. 하나의 암호 필드에 다른 암호를 입력하세요."/>
+		<item id="997" text="파일 첨부 열기 암호를 입력하세요."/>
+		<item id="998" text="새 접착 노트 추가"/>
+		<item id="999" text="북마크 삭제"/>
+		<item id="1000" text="새 북마크 추가"/>
+		<item id="1001" text="북마크 이동"/>
+		<item id="1002" text="북마크 이동"/>
+		<item id="1003" text="여기를 더블 클릭하여 기존 문서를 열 수 있습니다..."/>
+		<item id="1004" text="모든 설정을 &quot;%1&quot; 파일로 저장할 수 없습니다."/>
+		<item id="1005" text="문서를 이메일로 보낼 수 없습니다.&#10;&#10;%1"/>
+		<item id="1006" text="&quot;%1&quot; 사용한 텍스트 검색"/>
+		<item id="1007" text="온라인으로 검색할 텍스트를 입력해 주세요."/>
+		<item id="1008" text="일부 문서 열리기 대기 중..."/>
+		<item id="1009" text="클립보드에서 주석 붙여넣기"/>
+		<item id="1010" text="클립보드에서 주석 붙여넣기"/>
+		<item id="1011" text="새 북마크 추가"/>
+		<item id="1012" text="클립보드에서 북마크 붙여넣기"/>
+		<item id="1013" text="클립보드에서 북마크 붙여넣기"/>
+		<item id="1014" text="이 문서에 어떤 &apos;PRO&apos; 기능을 사용했습니다,&#10;하지만 사용하는 PDF-XChanger 뷰어는 무료 버전입니다, 따라서 저장 동작은 문서의 각 페이지에 DEMO 레이블을 넣습니다.&#10;레이블 없이 저장하려면 프로그램을 정식 &apos;PRO&apos; 버전으로 업그레이드 해야 합니다. 더 자세한 정보는 도움말 파일이나 웹사이트를 보세요.&#10;&#10;페이지에 DEMO 레이블을 넣고 이 문서를 저장하시겠습니까?"/>
+		<item id="1015" text="미리보기를 기다려 주세요..."/>
+		<item id="1016" text="&lt;없음&gt;"/>
+		<item id="1017" text="나는 이 문서의 저자입니다."/>
+		<item id="1018" text="나는 이 문서의 특정 부분에 동의합니다."/>
+		<item id="1019" text="나는 이 문서를 검토했습니다."/>
+		<item id="1020" text="나는 이 문서를 승인합니다."/>
+		<item id="1021" text="나는 이 문서의 정확성과 온전성을 증명합니다."/>
+		<item id="1022" text="나는 이 문서에 내 서명의 위치에 정의된 항목에 동의합니다."/>
+		<item id="1023" text="자동"/>
+		<item id="1024" text="왼쪽에서 오른쪽 (LTR)"/>
+		<item id="1025" text="오른쪽에서 왼쪽 (RTL)"/>
+		<item id="1026" text="1024 비트 RSA"/>
+		<item id="1027" text="2048 비트 RSA"/>
+		<item id="1028" text="부적절한 암호.&#10;최소 6자리 이상의 암호를 입력해 주세요."/>
+		<item id="1029" text="암호가 일치하지 않습니다.&#10;암호를 다시 입력해 주세요."/>
+		<item id="1030" text="정말로 %1 서명 모양 템플릿을 지우시겠습니까?"/>
+		<item id="1031" text="%1: 서명 모양 템플릿 삭제"/>
+		<item id="1032" text="이 문서에는 하나 이상의 서명되지 않은 서명 필드가 있습니다. 서명 과정을 시작하려면, 서명할 서명 필드를 클릭하세요."/>
+		<item id="1033" text="문서 서명"/>
+		<item id="1034" text="&quot;%1&quot; 문서 서명 오류:&#10;%2&#10;&#10;문서는 서명되지 않은 채 남아있습니다."/>
+		<item id="1035" text="서명되지 않은 서명 필드 (클릭하여 서명)"/>
+		<item id="1036" text="서명이 아직 검증되지 않음"/>
+		<item id="1037" text="서명 무효"/>
+		<item id="1038" text="유효한 서명"/>
+		<item id="1039" text="유효한 서명"/>
+		<item id="1040" text="스스로 서명된 디지털 ID를 만드려면 이름이 필요합니다."/>
+		<item id="1041" text="스스로 서명된 디지털 ID를 만드려면 유니코드 이름이 필요합니다."/>
+		<item id="1042" text="스스로 서명된 디지털 ID를 만드려면 이메일 주소가 필요합니다."/>
+		<item id="1043" text="올바른 이메일 주소를 입력해 주세요. (예: john@mail.com)"/>
+		<item id="1044" text="&apos;%1&apos; 필드는 ASCII 캐릭터로 제한됩니다.&#10;다음의 캐릭터만 사용할 수 있습니다: 공백 a-z A-Z 0-9 &apos; ( ) + , - . / : = ?"/>
+		<item id="1045" text="서명 속성"/>
+		<item id="1046" text="요약"/>
+		<item id="1047" text="서명 요약"/>
+		<item id="1048" text="사용할 수 없음"/>
+		<item id="1049" text="이 서명이 적용된 이후 문서는 수정되지 않았습니다."/>
+		<item id="1050" text="이 서명이 적용되는 문서의 개정판은 변경되지 않았습니다. 하지만 문서에 그 후의 변경이 있습니다."/>
+		<item id="1051" text="문서는 서명이 적용된 이후 변경되거나 깨졌습니다."/>
+		<item id="1052" text="서명 유효성을 알 수 없음."/>
+		<item id="1053" text="서명은 유효. 서명자: %1."/>
+		<item id="1054" text="서명은 무효."/>
+		<item id="1055" text="핀 없는 것만"/>
+		<item id="1056" text="깨진 것만"/>
+		<item id="1057" text="모두"/>
+		<item id="1058" text="페이지 안내선 삭제"/>
+		<item id="1059" text="페이지 안내선 삭제"/>
+		<item id="1060" text="페이지 안내선 수정"/>
+		<item id="1061" text="새 페이지 안내선 추가"/>
+		<item id="1062" text="새 페이지 안내선 추가"/>
+		<item id="1063" text="페이지 전체 안내선 채우기"/>
+		<item id="1064" text="파일 첨부"/>
+		<item id="1065" text="파일 첨부 도구 속성"/>
+		<item id="1066" text="파일 첨부 속성"/>
+		<item id="1067" text="낮음"/>
+		<item id="1068" text="중간"/>
+		<item id="1069" text="높음"/>
+		<item id="1070" text="끝 점"/>
+		<item id="1071" text="모서리"/>
+		<item id="1072" text="중점"/>
+		<item id="1073" text="중심"/>
+		<item id="1074" text="교차"/>
+		<item id="1075" text="첨부"/>
+		<item id="1076" text="첨부 목록"/>
+		<item id="1077" text="설명"/>
+		<item id="1078" text="수정됨"/>
+		<item id="1079" text="크기"/>
+		<item id="1080" text="압축된 크기"/>
+		<item id="1081" text="위치"/>
+		<item id="1082" text="파일 첨부"/>
+		<item id="1083" text="첨부 설명 바꾸기"/>
+		<item id="1084" text="첨부 추가"/>
+		<item id="1085" text="첨부 저장"/>
+		<item id="1086" text="&quot;%1&quot; 에서 첨부 파일을 추출하는데 오류:&#10;%2"/>
+		<item id="1087" text="%1: 첨부 저장"/>
+		<item id="1088" text="%1: 첨부 열기"/>
+		<item id="1089" text="첨부가 손상된 것으로 보입니다. - 추출된 파일의 &quot;체크섬&quot; 값이 원래 것과 다릅니다.&#10;&#10;정말로 계속하시겠습니다?"/>
+		<item id="1090" text="첨부 삭제"/>
+		<item id="1091" text="첨부 삭제"/>
+		<item id="1092" text="정말로 %1 첨부를 삭제하시겠습니까?"/>
+		<item id="1093" text="%1: 파일 첨부 삭제"/>
+		<item id="1094" text="다음을 실행하기 전에 이 문서를 닫으시겠습니까?&#10;&apos;%1&apos;"/>
+		<item id="1095" text="다음부터 확인없이 문서 닫기"/>
+		<item id="1096" text="편집 상자 찾기"/>
+		<item id="1097" text="최근 문서 목록에서 이 항목 삭제"/>
+		<item id="1098" text="최근 문서 목록에서 &quot;%1&quot; 항목을 제거하시겠습니까?"/>
+		<item id="1099" text="다음부터 확인 없이 제거"/>
+		<item id="1100" text="최근 항목 없음"/>
+		<item id="1101" text="&quot;%1&quot; 파일에서 &quot;%2&quot; 문서는 더는 사용할 수 없고 닫힐 것입니다.&#10;&#10;네트워크 연결과 연결된 데이터 기억장치를 검사하세요."/>
+		<item id="1102" text="XFA 구조"/>
+		<item id="1103" text="보통"/>
+		<item id="1104" text="곱하기"/>
+		<item id="1105" text="스크린"/>
+		<item id="1106" text="오버레이"/>
+		<item id="1107" text="어둡게 하기"/>
+		<item id="1108" text="밝게 하기"/>
+		<item id="1109" text="색상 닷지"/>
+		<item id="1110" text="색상 번"/>
+		<item id="1111" text="하드 라이트"/>
+		<item id="1112" text="소프트 라이트"/>
+		<item id="1113" text="차이"/>
+		<item id="1114" text="제외"/>
+		<item id="1115" text="색조"/>
+		<item id="1116" text="채도"/>
+		<item id="1117" text="색상"/>
+		<item id="1118" text="광도"/>
+		<item id="1119" text="구분 가능"/>
+		<item id="1120" text="구분 불가 (HSL)"/>
+		<item id="1121" text="혼합 모드:"/>
+		<item id="1122" text="새 문서"/>
+		<item id="1123" text="새 문서 만들기 옵션"/>
+		<item id="1124" text="RTF에서 새 문서를 만들 수 없습니다:&#10;%1"/>
+		<item id="1125" text="&lt;모든 열린 문서 (%1)&gt;"/>
+		<item id="1126" text="주석 순서 바꾸기"/>
+		<item id="1127" text="여기 서명"/>
+		<item id="1128" text="저자"/>
+		<item id="1129" text="주제"/>
+		<item id="1130" text="페이지"/>
+		<item id="1131" text="날짜"/>
+		<item id="1132" text="종류"/>
+		<item id="1133" text="번호"/>
+		<item id="1134" text="&lt;없음&gt;"/>
+		<item id="1135" text="&lt;정의되지 않음&gt;"/>
+		<item id="1136" text="%1 주석 요약"/>
+		<item id="1137" text="다시 열기"/>
+		<item id="1138" text="조판지시만"/>
+		<item id="1139" text="북마크에서 찾기..."/>
+		<item id="1140" text="다음에 대한 문서 검색을 끝냈습니다:&#10;&quot;%1&quot;&#10;&#10;일치를 찾지 못했습니다."/>
+		<item id="1141" text="보안"/>
+		<item id="1142" text="보안 옵션"/>
+		<item id="1143" text="URL"/>
+		<item id="1144" text="새 타임스탬프 서버 추가"/>
+		<item id="1145" text="타임스탬프 서버 편집"/>
+		<item id="1146" text="읽기 전용"/>
+		<item id="1147" text="첨부 파일 열기 암호 확인(&amp;S):"/>
+		<item id="1148" text="문서 열기 암호 확인:"/>
+		<item id="1149" text="암호가 일치하지 않습니다. 처음부터 다시 암호를 입력해 주세요."/>
+		<item id="1150" text="캐럿"/>
+		<item id="1151" text="소리"/>
+		<item id="1152" text="기본 주제 사용: &quot;%1&quot;"/>
+		<item id="1153" text="새 이름 대상"/>
+		<item id="1154" text="새 대상에 고유한 이름을 입력하세요:"/>
+		<item id="1155" text="선택된 &quot;%1&quot; 지정된 대상을 삭제하시겠습니까?&#10;이 삭제는 되돌릴 수 없습니다."/>
+		<item id="1156" text="지정된 &quot;%1&quot; 대상이 이미 있습니다.&#10;새로운 대상의 고유한 이름을 입력해 주세요."/>
+		<item id="1157" text="&quot;%1&quot; 문서는 프로그램 외부에서 수정되었습니다."/>
+		<item id="1158" text="다시 로드하시겠습니까?"/>
+		<item id="1159" text="변경 내용을 버리고 다시 로드 하시겠습니까?"/>
+		<item id="1160" text="이 문서에 대한 선택을 기억"/>
+		<item id="1161" text="&quot;%1&quot;&#10;문서는 PDF/A를 준수합니다.&#10;&#10;이 파일에 변경을 저장하면 지원되지 않는 내용이 추가될 수 있습니다. -  더는 PDF/A 준수가 안됨"/>
+		<item id="1162" text="&quot;%1&quot;&#10;문서는 XFA 양식을 포함합니다.&#10;&#10;XFA 양식은 PDF 표준의 선택적인 서브포맷이고 PDF-XChange 뷰어에서 현재는 부분적으로만 지원됩니다. XFA 양식의 완전한 지원은 2010년 동안 PDF-XChange 뷰어 3 버전에서 도입될 것입니다."/>
+		<item id="1163" text="&quot;%1&quot;&#10;문서는 PDF/A를 준수합니다.&#10;&#10;이 파일에 변경을 저장하면 지원되지 않는 내용이 추가될 수 있습니다. -  더는 PDF/A 준수가 안됨&#10;&#10;이 문서를 저장하시겠습니까?"/>
+		<item id="1164" text="현재"/>
+		<item id="1165" text="모든 새 &quot;문서내 페이지로 이동&quot; 동작(북마크와 링크 생성에서 사용될 수 있는)에 대한 초기 배율을 지정하세요:"/>
+		<item id="1166" text="잘못된 검색 옵션.&#10;&#10;검색 옵션 메뉴를 살펴보고 하나 이상의 검색 영역(즉, 페이지 내용, 북마크, 주석 등)을 포함하세요."/>
+		<item id="1167" text="세부사항 보기"/>
+		<item id="1168" text="세부사항 숨김"/>
+		<item id="1169" text="실행할 파일:"/>
+		<item id="1170" text="실행 인자:"/>
+		<item id="1171" text="PDF 문서만"/>
+		<item id="1172" text="PDF가 아닌 문서는 항상 물어봄 (안전, 추천함)"/>
+		<item id="1173" text="모든 타입 (안전하지 않음, 비추천)"/>
+		<item id="1174" text="불가"/>
+		<item id="1175" text="주의: 원본의 형식이 PDF가 아닙니다."/>
+		<item id="1176" text="HTML 문서 같습니다."/>
+		<item id="1177" text="전체 도움말 파일 다운로드 중, 기다려 주세요..."/>
+		<item id="1178" text="주의: 이 기능은 이 작업 세션에서만 페이지를 회전합니다. - 원래 파일에 변경이 저장되지 않습니다, 선택을 영구 저장하려면, &apos;문서&apos; 메뉴 아래 &apos;페이지 회전&apos; 기능을 사용하세요."/>
+		<item id="1179" text="%1로 데이터 보내기"/>
+		<item id="1180" text="&lt;주제 없음&gt; (%1)"/>
+		<item id="1181" text="%1: 양식 제출"/>
+		<item id="1182" text="양식을 제출하는 동안 오류가 발생했습니다:&#10;&#10;%2"/>
+		<item id="1183" text="양식 되돌아옴: %1"/>
+		<item id="1184" text="양식이 돌아옴: %1&#10;&#10;첨부된 파일은 작성된 양식입니다. 데이터를 검토하려면 열어주세요."/>
+		<item id="1185" text="모든 명령어 모음(메뉴와 도구 모음)은 지난 세션에서 감춰졌습니다.&#10;모음을 지금 복원하시겠습니까?"/>
+		<item id="1186" text="주의: %1 누르면 모든 명령어 모음이 복원됩니다."/>
+		<item id="1187" text="다음에 대한 문서 검색이 끝났습니다:&#10;&quot;%1&quot;&#10;&#10;더는 일치를 찾을 수 없습니다."/>
+		<item id="1188" text="서명된 이 후 문서가 갱신되었습니다."/>
+		<item id="1189" text="선택한 파일 형식은 투명한 배경을 지원하지 않습니다."/>
+		<item id="1190" text="이 파일 형식에 설정한 옵션은 투명한 배경을 지원하지 않습니다.&#10;&#10;투명한 배경을 가진 이미지를 만들기 위한 일부 옵션 자동 변경을 원하십니까?"/>
+		<item id="1191" text="어떤 단어나 구절을 검색하시겠습니까?"/>
+		<item id="1192" text="어디에서 검색하시겠습니까?"/>
+		<item id="1193" text="찾기 목록 지우기"/>
+		<item id="1194" text="준비"/>
+		<item id="1195" text="사용자 인터페이스"/>
+		<item id="1196" text="사용자 인터페이스 설정"/>
+		<item id="1197" text="XFA 형식"/>
+		<item id="1198" text="정적"/>
+		<item id="1199" text="동적"/>
+		<item id="1200" text="자동"/>
+		<item id="1201" text="자동 (그늘 색)"/>
+		<item id="1202" text="단색"/>
+		<item id="1203" text="기본 배경"/>
+		<item id="1204" text="세로 줄무늬"/>
+		<item id="1205" text="점"/>
+		<item id="1206" text="도넛"/>
+		<item id="1207" text="작은 사각형"/>
+		<item id="1208" text="물결 사각형"/>
+		<item id="1209" text="불규칙한 지그재그"/>
+		<item id="1210" text="체스-2"/>
+		<item id="1211" text="체스-4"/>
+		<item id="1212" text="이 문서는 정적 XFA 형식을 포함합니다.&#10;&#10;XFA 형식은 어도비 XML 형식 설계에 기반합니다, 그리고 현재로는 그러한 형식은 매우 제한된 숫자의 PDF 응용 프로그램만이 지원합니다."/>
+		<item id="1213" text="이 문서는 동적 XFA 형식을 포함합니다.&#10;&#10;XFA 형식은 어도비 XML 형식 설계에 기반합니다, 그리고 현재로는 그런 형식은 매우 제한된 숫자의 PDF 응용 프로그램만이 지원합니다. 동적 XFA의 특성 때문에 이 문서의 대부분의 동작(주석 달기, 페이지 다루기 등)은 불가합니다."/>
+		<item id="1214" text="이 문서는 어떤 XFA 형식도 포함하지 않습니다.&#10;&#10;이 문서를 어도비 라이브 사이클 제품으로 여시겠습니까?"/>
+		<item id="1215" text="이 문서는 어도비® 리더의 확장 기능을 사용하기 위한 몇가지 동작을 제한합니다."/>
+		<item id="1216" text="문서가 서명되거나 인증되었기 때문에 이 문서의 보안을 변경할 수 없습니다."/>
+		<item id="1217" text="XML 파일 (*.xml)"/>
+		<item id="1218" text="XML 데이터 패키지 파일 (*.xdp)"/>
+		<item id="1219" text="MB"/>
+		<item id="1220" text="문서는 저장될 수 없습니다. 파일은 읽기 전용이거나 다른 프로그램/사용자가 열고 있을 수 있습니다. 문서를 다른 이름으로나 다른 폴더에 저장할 수 있습니다."/>
+		<item id="1221" text="다른 이름으로 저장(&amp;S)..."/>
+		<item id="1222" text="경고: 주석 붙이기는 주석을 더는 선택하거나 편집할 수 없게 만듭니다."/>
+		<item id="1223" text="일부 페이지가 인쇄 가능 영역 바깥에 있어서 일부 페이지는 완전하게 인쇄되지 않습니다.&#10;팁:"/>
+		<item id="1224" text="계속 인쇄하시겠습니까?"/>
+		<item id="1225" text="인쇄 전에 &quot;%1&quot; 옵션을 설정 시도"/>
+		<item id="1226" text="또는/그리고 &quot;%1&quot; 옵션을 설정"/>
+		<item id="1227" text="프린터 설정에서 페이지를 인쇄하는데 더 적합한 다른 종이 크기 선택"/>
+		<item id="1228" text="블럭되지 않음"/>
+		<item id="1229" text="원래 내용 보존 &amp; 텍스트 레이어 추가"/>
+		<item id="1230" text="페이지 내용을 이미지로만 변환 - 레이어 처럼 텍스트 추가"/>
+		<item id="1231" text="낮음"/>
+		<item id="1232" text="중간"/>
+		<item id="1233" text="높음"/>
+		<item id="1234" text="%1: OCR 페이지"/>
+		<item id="1235" text="OCR 에러 페이지 &quot;%1&quot;:&#10;%2"/>
+		<item id="1236" text="페이지 처리 중, 기다려 주세요..."/>
+		<item id="1237" text="페이지 처리: %1 / %2: 래스터화..."/>
+		<item id="1238" text="페이지 처리: %1 / %2: 인식..."/>
+		<item id="1239" text="펭이지 처리: %1 / %2: 생성..."/>
+		<item id="1240" text="이 파일은 외부 프로그램에서 열려 있고 별도의 변경이 적용될 수 있습니다.&#10;&#10;경고: PDF 파일 내장 과정에서 외부 프로그램이 파일을 수정할 수 있습니다. - 계속하시겠습니까?"/>
+	</strings>
+</Localization>

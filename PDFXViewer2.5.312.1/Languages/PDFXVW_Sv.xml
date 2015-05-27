@@ -1,0 +1,3114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+	<Product id="PXCView" version="1.0" productVersion="2.5.0201.0000" order=""/>
+	<language eName="Swedish" lName="Svenska" lcid="0x041d" prefFont=""/>
+	<commands>
+		<item id="32316" title="Bakåt" tooltip="Bakåt" status="" short=""/>
+		<item id="32317" title="Framåt" tooltip="Framåt" status="" short=""/>
+		<item id="32609" title="Lupp" tooltip="Lupp" status="Lupp" short=""/>
+		<item id="32610" title="Zooma in" tooltip="Zooma in" status="Zooma in" short="Zooma in"/>
+		<item id="32611" title="Zooma ut" tooltip="Zooma in" status="Zooma in" short="Zooma in"/>
+		<item id="32613" title="Handverktyg" tooltip="Handverktyget" status="Handverktyget" short=""/>
+		<item id="32614" title="Ögonblicksbild" tooltip="Ögonblicksbild" status="Ögonblicksbild" short=""/>
+		<item id="32620" title="Markeringsverktyg" tooltip="Markeringsverktyg" status="Markeringsverktyg" short=""/>
+		<item id="32884" title="&amp;Gå till" tooltip="" status="" short=""/>
+		<item id="32885" title="&amp;Första sidan" tooltip="Gå till första sidan" status="Gå till första sidan" short=""/>
+		<item id="32886" title="Föregående sida" tooltip="Gå till föregående sida" status="Gå till föregående sida" short=""/>
+		<item id="32887" title="Nästa sida" tooltip="Gå till nästa sida" status="Gå till nästa sida" short=""/>
+		<item id="32888" title="Sista sidan" tooltip="Gå till sista sidan" status="Gå till sista sidan" short=""/>
+		<item id="32889" title="Sida" tooltip="" status="" short=""/>
+		<item id="32890" title="Föregående vy" tooltip="Gå till nästa vy" status="" short=""/>
+		<item id="32891" title="Nästa vy" tooltip="Gå till nästa vy" status="" short=""/>
+		<item id="32892" title="Föregående dokument" tooltip="" status="" short=""/>
+		<item id="32893" title="Nästa dokument" tooltip="" status="" short=""/>
+		<item id="32895" title="Enstaka sida" tooltip="Enstaka sida" status="" short=""/>
+		<item id="32896" title="Löpande" tooltip="Löpande" status="" short=""/>
+		<item id="32897" title="Uppslag" tooltip="Uppslag" status="" short=""/>
+		<item id="32898" title="Uppslag löpande" tooltip="Löpande uppslag" status="" short=""/>
+		<item id="32899" title="Zooma till..." tooltip="Förstoringsgrad för aktivt dokument" status="Förstoringsgrad för aktivt dokument" short=""/>
+		<item id="32900" title="Verklig storlek" tooltip="Visa verklig sidstorlek (100%)" status="Visa verklig sidstorlek (100%)" short=""/>
+		<item id="32901" title="Anpassa till sida" tooltip="Anpassa sida till nuvarande vy" status="Anpassa sida till nuvarande vy" short=""/>
+		<item id="32902" title="Anpassa till sidbredd" tooltip="Anpassa sidbredd till nuvarande vy" status="Anpassa sidbredd till nuvarande vy" short=""/>
+		<item id="32903" title="Synligt" tooltip="Anpassa till synligt" status="Anpassa till synligt" short=""/>
+		<item id="32904" title="Zooma in" tooltip="Zooma in" status="Zooma in" short=""/>
+		<item id="32905" title="Zooma ut" tooltip="Zooma ut" status="Zooma ut" short=""/>
+		<item id="32906" title="&amp;Inställningar..." tooltip="Visa programmets inställningar..." status="Visa programmets inställningar..." short=""/>
+		<item id="32907" title="" tooltip="Visar totalt antal sidor i detta dokument" status="" short=""/>
+		<item id="32908" title="&amp;Filer" tooltip="Visa/Dölj fil verktygsfältet" status="Visa/Dölj fil verktygsfältet" short=""/>
+		<item id="32909" title="" tooltip="Sida" status="" short="Sida:"/>
+		<item id="32910" title="Bokmärken" tooltip="Visa/Dölj bokmärkes verktygsfältet" status="Visa/Dölj bokmärkes verktygsfältet" short=""/>
+		<item id="32912" title="Sidtumnaglar" tooltip="Visa/Dölj sidtumnagels verktygsfältet" status="Visa/Dölj sidtumnagels verktygsfältet" short=""/>
+		<item id="32924" title="&amp;Standard" tooltip="Visa/Dölj standard verktygsfältet" status="Visa/Dölj standard verktygsfältet" short=""/>
+		<item id="32925" title="&amp;Zoom" tooltip="Visa/Dölj zoom verktygsfältet" status="Visa/Dölj zoom verktygsfältet" short=""/>
+		<item id="32929" title="&amp;Rotera" tooltip="Visa/Dölj rotera verktygsfältet" status="Visa/Dölj rotera verktygsfältet" short=""/>
+		<item id="32936" title="Visa alla flikar" tooltip="Visa alla flikar" status="" short=""/>
+		<item id="32937" title="Stäng aktiv flik" tooltip="Stäng aktiv flik" status="" short=""/>
+		<item id="32938" title="Visa tumnaglar för alla flikar" tooltip="Visa tumnaglar för alla flikar" status="" short=""/>
+		<item id="32940" title="Navigering" tooltip="Visa/Dölj navigations verktygsfältet" status="Visa/Dölj navigations verktygsfältet" short=""/>
+		<item id="32942" title="Stäng alla dokumnet" tooltip="" status="" short=""/>
+		<item id="32944" title="Exporte&amp;ra" tooltip="" status="" short=""/>
+		<item id="32945" title="Exportera till bild..." tooltip="Exportera sidor till bild(er)" status="Exportera det aktivta dokumentet till bild(er)" short=""/>
+		<item id="32946" title="Dokument namn" tooltip="" status="" short=""/>
+		<item id="32947" title="Dokument nummer" tooltip="" status="" short=""/>
+		<item id="32948" title="Dokument titel" tooltip="" status="" short=""/>
+		<item id="32949" title="Sidnummer" tooltip="" status="" short=""/>
+		<item id="32950" title="SIDA" tooltip="" status="" short=""/>
+		<item id="32951" title="SIDOR" tooltip="" status="" short=""/>
+		<item id="32952" title="Filnamn" tooltip="" status="" short=""/>
+		<item id="32953" title="Datum (YYYY-MM-DD)" tooltip="" status="" short=""/>
+		<item id="32954" title="År" tooltip="" status="" short=""/>
+		<item id="32955" title="Månad" tooltip="" status="" short=""/>
+		<item id="32956" title="Dag" tooltip="" status="" short=""/>
+		<item id="32957" title="Tid (HH-MM-SS)" tooltip="" status="" short=""/>
+		<item id="32958" title="Timme" tooltip="" status="" short=""/>
+		<item id="32959" title="Minut" tooltip="" status="" short=""/>
+		<item id="32960" title="Sekund" tooltip="" status="" short=""/>
+		<item id="32961" title="Autonummerera" tooltip="" status="" short=""/>
+		<item id="32974" title="Starta/Stoppa fullständig sökning" tooltip="Starta/Stoppa fullständig sökning" status="" short=""/>
+		<item id="32975" title="Inställningar fullständig sökning" tooltip="Inställningar fullständig sökning" status="Inställningar fullständig sökning" short="Inställningar"/>
+		<item id="32976" title="Stoppa fullständig sökning" tooltip="Stoppa fullständig sökning" status="Stoppa fullständig sökning" short=""/>
+		<item id="32977" title="Starta fullständig sökning" tooltip="Starta fullständig sökning" status="Starta fullständig sökning" short=""/>
+		<item id="32978" title="Gå till föregående sökträff" tooltip="Gå till föregående sökträff" status="Gå till föregående sökträff" short=""/>
+		<item id="32979" title="Gå till nästa sökträff" tooltip="Gå till nästa sökträff" status="Gå till nästa sökträff" short=""/>
+		<item id="32987" title="&amp;Sök" tooltip="Visa/Dölj sökpanelen" status="Visa/Dölj sökpanelen" short=""/>
+		<item id="32990" title="" tooltip="Hitta angiven text" status="" short="Hitta:"/>
+		<item id="32991" title="Hitta föregående" tooltip="Hitta föregående förekomst" status="Hitta föregående förekomst" short=""/>
+		<item id="32992" title="Hitta nästa" tooltip="Hitta nästa förekomst" status="Hitta nästa förekomst" short=""/>
+		<item id="32993" title="Alternativ för sökning" tooltip="Alternativ för sökning" status="Alternativ för sökning" short=""/>
+		<item id="32994" title="Enbart hela ord" tooltip="Sök bara hela ord" status="Sök bara förekomster av hela ord inskrivna i textrutan." short=""/>
+		<item id="32995" title="Matcha gemener/VERSALER" tooltip="Sökning anpassad till gemener/VERSALER" status="Sök bara förekomster av ord som matchar det skriftläge som du använt" short=""/>
+		<item id="32996" title="Ta med kommentarer" tooltip="Söker igenom texten i alla kommentarer som lagts till PDF:en" status="Söker igenom texten i alla kommentarer som lagts till PDF:en som syns i kommentarspanelen" short=""/>
+		<item id="32997" title="Ta med bokmärken" tooltip="Söker igenom texten i alla bokmärken" status="Söker igenom texten i alla bokmärken, som syns i bokmärkesfältet" short=""/>
+		<item id="32998" title="Sök markerad text" tooltip="Visa/dölj fullständig sökruta för markerad text" status="Visa/dölj fullständig sökruta för markerad text" short=""/>
+		<item id="33000" title="&amp;Sök" tooltip="Visa/Dölj sök verktygsfältet" status="Visa/Dölj sök verktygsfältet" short=""/>
+		<item id="33003" title="Sidegenskaper" tooltip="Visa egenskaper för markerade sidor" status="Visa egenskaper för markerade sidor" short="Redigera"/>
+		<item id="33006" title="Lager" tooltip="Visa/Dölj lager verktygsfältet" status="Visa/Dölj lager verktygsfältet" short=""/>
+		<item id="33008" title="Fält" tooltip="Visa/Dölj fält verktygsfältet" status="Visa/Dölj fält verktygsfältet" short=""/>
+		<item id="33009" title="&amp;Meny" tooltip="Visa/Dölj menyraden" status="Visa/Dölj menyraden" short=""/>
+		<item id="33014" title="Helskärm" tooltip="Förstorar fönstret till helskärm" status="Förstorar fönstret till helskärm" short=""/>
+		<item id="33015" title="Visa/dölj alla verktygsfält" tooltip="Visa/dölj alla verktygsfält" status="Visa/dölj alla verktygsfält" short="Visa/dölj alla verktygsfält"/>
+		<item id="33016" title="Visa/dölj alla verktygsrader" tooltip="Visa/dölj alla verktygsrader" status="Visa/dölj alla verktygsrader" short="Visa/dölj alla verktygsrader"/>
+		<item id="33018" title="Färgmarkera formulärfält" tooltip="Detta fokument innehåller formulär, Klicka här för att färgmarkera filtrerade fält" status="Detta fokument innehåller formulär, Klicka här för att färgmarkera filtrerade fält" short="Färgmarkera fält"/>
+		<item id="33020" title="Avsluta helskärm" tooltip="Återställer fönstret från helskärm" status="Återställer fönstret från helskärm" short=""/>
+		<item id="33032" title="Centimeter" tooltip="Centimeter" status="" short=""/>
+		<item id="33033" title="Tum" tooltip="Tum" status="" short=""/>
+		<item id="33034" title="Millimeter" tooltip="Millimeter" status="" short=""/>
+		<item id="33035" title="Pica" tooltip="Pica" status="" short=""/>
+		<item id="33036" title="Punkter" tooltip="Punkter" status="" short=""/>
+		<item id="33038" title="Stäng alla" tooltip="Stäng alla öppna dokument" status="Stäng alla öppna dokument" short=""/>
+		<item id="33054" title="6400%" tooltip="" status="" short=""/>
+		<item id="33055" title="3200%" tooltip="" status="" short=""/>
+		<item id="33056" title="2400%" tooltip="" status="" short=""/>
+		<item id="33057" title="1200%" tooltip="" status="" short=""/>
+		<item id="33058" title="800%" tooltip="" status="" short=""/>
+		<item id="33059" title="400%" tooltip="" status="" short=""/>
+		<item id="33060" title="200%" tooltip="" status="" short=""/>
+		<item id="33061" title="150%" tooltip="" status="" short=""/>
+		<item id="33062" title="100%" tooltip="" status="" short=""/>
+		<item id="33063" title="75%" tooltip="" status="" short=""/>
+		<item id="33064" title="50%" tooltip="" status="" short=""/>
+		<item id="33065" title="25%" tooltip="" status="" short=""/>
+		<item id="33073" title="E&amp;xportera data från formulär" tooltip="" status="" short=""/>
+		<item id="33074" title="Importera &amp;Data till formulär..." tooltip="" status="" short=""/>
+		<item id="33075" title="Rotera vy" tooltip="" status="" short=""/>
+		<item id="33078" title="Medurs" tooltip="Rotera vyn medurs" status="Rotera vyn medurs" short=""/>
+		<item id="33079" title="Moturs" tooltip="Rotera vyn moturs" status="Rotera vyn moturs" short=""/>
+		<item id="33080" title="Rotera sidor..." tooltip="" status="" short=""/>
+		<item id="33081" title="Radera sidor..." tooltip="" status="" short=""/>
+		<item id="33082" title="Beskär sidor..." tooltip="" status="" short=""/>
+		<item id="33103" title="Zooma och panorera" tooltip="Zooma och panorera" status="Zooma och panorera" short="Zooma och panorera"/>
+		<item id="33104" title="Fet" tooltip="Fet" status="" short=""/>
+		<item id="33105" title="Kursiv" tooltip="Kursiv" status="" short=""/>
+		<item id="33106" title="Understruken" tooltip="Understruken" status="" short=""/>
+		<item id="33107" title="Överstruken" tooltip="Överstruken" status="" short=""/>
+		<item id="33108" title="Vänsterjusterad" tooltip="Vänsterjusterad" status="" short=""/>
+		<item id="33109" title="Centrerad" tooltip="Centrerad" status="" short=""/>
+		<item id="33110" title="Högerjusterad" tooltip="Högerjusterad" status="" short=""/>
+		<item id="33115" title="Vänd linje" tooltip="Vänd linje" status="" short=""/>
+		<item id="33116" title="Egenskaper..." tooltip="Flera egenskaper..." status="" short=""/>
+		<item id="33118" title="Sätt nuvarande utseende till standard" tooltip="Spara detta utseende (färg, kantlinje, transparens, etc.) till aktuell kommenteringsstil.&#10;Sparat utseende kommer att användas till varje ny kommentar som standard för aktuell kommentarsstil." status="" short=""/>
+		<item id="33121" title="Återställ placering av anteckning" tooltip="Återställ placering av anteckning" status="" short=""/>
+		<item id="33122" title="Öppna anteckning" tooltip="Öppna anteckning" status="" short=""/>
+		<item id="33123" title="Pilverktyg" tooltip="Pilverktyg" status="" short="Pil"/>
+		<item id="33124" title="Linjeverktyg" tooltip="Linjeverktyg" status="" short="Linje"/>
+		<item id="33125" title="Rektangelverktyg" tooltip="Rektangelverktyg" status="" short="Rektangel"/>
+		<item id="33126" title="Ovalverktyg" tooltip="Ovalverktyg" status="" short="Oval"/>
+		<item id="33127" title="Polygonverktyg" tooltip="Polygonverktyg" status="" short="Polygon"/>
+		<item id="33128" title="Polygonlinjeverktyg" tooltip="Polygonlinjeverktyg" status="" short="Polygonlinje"/>
+		<item id="33129" title="Pennverktyg" tooltip="Pennverktyg" status="" short="Penna"/>
+		<item id="33130" title="Molnverktyg" tooltip="Molnverktyg" status="" short="Moln"/>
+		<item id="33131" title="Stämpelverktyg" tooltip="Stämpelverktyg" status="" short="Stämpel"/>
+		<item id="33132" title="Anteckningsverktyg" tooltip="Anteckningsverktyg" status="" short="Anteckning"/>
+		<item id="33133" title="Förhandsgranska" tooltip="Förhandsgranska" status="" short=""/>
+		<item id="33134" title="Tilldela standard utseende" tooltip="Tilldela sparat utseende (färg, kantlinje, transparens, etc.) från aktuell kommenteringsstil." status="" short=""/>
+		<item id="33135" title="Lägg till anteckning" tooltip="Lägg till anteckning" status="" short=""/>
+		<item id="33136" title="&amp;Radera" tooltip="Radera markering" status="Radera markering" short=""/>
+		<item id="33138" title="Kommentera och markera" tooltip="Visa/Dölj  verktygsfältet" status="Visa/Dölj fil verktygsfältet" short=""/>
+		<item id="33139" title="Avbryt" tooltip="Avbryt" status="" short=""/>
+		<item id="33140" title="Slutför" tooltip="Slutför" status="" short=""/>
+		<item id="33141" title="Hemsida" tooltip="" status="" short=""/>
+		<item id="33145" title="Innehåll" tooltip="" status="" short=""/>
+		<item id="33146" title="Rapportera ett problem..." tooltip="" status="" short=""/>
+		<item id="33147" title="Support forum" tooltip="" status="" short=""/>
+		<item id="33168" title="Rensa teckenformatering" tooltip="Rensa teckenformatering" status="" short=""/>
+		<item id="33170" title="Öpphöjd" tooltip="Öpphöjd" status="" short=""/>
+		<item id="33171" title="Graverad" tooltip="Graverad" status="" short=""/>
+		<item id="33174" title="Lägg till svar" tooltip="Lägg till svar" status="" short=""/>
+		<item id="33176" title="Radera svar" tooltip="Radera svar" status="" short=""/>
+		<item id="33179" title="Sök efter uppdateringar..." tooltip="" status="" short=""/>
+		<item id="33182" title="Kopiera som ren text" tooltip="Kopiera som ren text" status="" short=""/>
+		<item id="33183" title="Koiera som formaterad text" tooltip="Koiera som formaterad text" status="" short=""/>
+		<item id="33184" title="Kopiera som RTF innehåll" tooltip="Kopiera som RTF innehåll" status="" short=""/>
+		<item id="33187" title="Javaskrift konsol" tooltip="Visa/dölj Javaskrift konsol" status="Visa/dölj Javaskrift konsol" short=""/>
+		<item id="33197" title="Leta i undermappar" tooltip="" status="" short=""/>
+		<item id="33201" title="Anmärkningsverktyget" tooltip="Anmärkningsverktyget" status="" short="Anmärkning"/>
+		<item id="33202" title="Textruteverktyg" tooltip="Textruteverktyg" status="" short="Textruta"/>
+		<item id="33204" title="Kommentarer" tooltip="Visa/Dölj kommentars verktygsfältet" status="Visa/Dölj kommentars verktygsfältet" short=""/>
+		<item id="33205" title="Bilagor" tooltip="Visa/dölj bilage verktygsfältet" status="Visa/dölj bilage verktygsfältet" short=""/>
+		<item id="33206" title="Färgmarkera text" tooltip="Färgmarkera text" status="" short=""/>
+		<item id="33207" title="Lägg till anteckning till text" tooltip="Lägg till anteckning till text" status="" short=""/>
+		<item id="33208" title="Stryk under text" tooltip="Stryk under text" status="" short=""/>
+		<item id="33209" title="Stryk över text" tooltip="Stryk över text" status="" short=""/>
+		<item id="33210" title="Ersätt text" tooltip="Ersätt text" status="" short=""/>
+		<item id="33221" title="Teckenbakgrundsverktyg" tooltip="Byt bakgrund på markerad text" status="Byt bakgrund på markerad text" short="Byt bakgrund på markerad text"/>
+		<item id="33222" title="Understrykningsverktyg" tooltip="Understrykningsverktyg" status="Understrykningsverktyg" short="Stryk under text"/>
+		<item id="33223" title="Överstrykningsverktyg" tooltip="Överstrykningsverktyg" status="Överstrykningsverktyg" short="Stryk över text"/>
+		<item id="33224" title="Bifogningsverktyg" tooltip="Bifoga en fil som kommentar.&#10;Klicka på sidan för att fästa en bifogad fil till platsen på sidan." status="" short="Bifoga"/>
+		<item id="33225" title="&amp;Egenskaper" tooltip="Visa/Dölj egenskaps verktygsfältet" status="Visa/Dölj egenskaps verktygsfältet" short=""/>
+		<item id="33226" title="Textverktyg" tooltip="Textverktyg" status="" short="Text"/>
+		<item id="33228" title="Visa stämpelpaletten" tooltip="" status="" short=""/>
+		<item id="33229" title="Behåll verktyget aktivt" tooltip="Behåll verktyget aktivt" status="" short=""/>
+		<item id="33231" title="Typsnittsstorlek" tooltip="Typsnittsstorlek" status="" short="Typsnittsstorlek:"/>
+		<item id="33232" title="Efter sida" tooltip="Gruppera sidvis" status="" short=""/>
+		<item id="33233" title="Efter typ" tooltip="Gruppera efter typ" status="" short=""/>
+		<item id="33234" title="Efter författare" tooltip="Gruppera efter författare" status="" short=""/>
+		<item id="33235" title="Efter datum" tooltip="Gruppera efter datum" status="" short=""/>
+		<item id="33236" title="Efter färg" tooltip="Gruppera efter färg" status="" short=""/>
+		<item id="33237" title="Efter skapat datum" tooltip="Gruppera efter skapat datum" status="" short=""/>
+		<item id="33238" title="Nästa" tooltip="Nästa kommentar" status="" short=""/>
+		<item id="33239" title="Föregående" tooltip="Föregående kommentar" status="" short=""/>
+		<item id="33240" title="Radera" tooltip="Radera kommentar" status="" short=""/>
+		<item id="33241" title="Dölj alla" tooltip="Dölj alla kommentarer" status="" short=""/>
+		<item id="33242" title="Utöka alla" tooltip="Visa alla kommentarer" status="" short=""/>
+		<item id="33243" title="Gruppera" tooltip="Gruppera" status="" short=""/>
+		<item id="33244" title="Egenskaper..." tooltip="Kommenstaregenskaper..." status="" short=""/>
+		<item id="33245" title="Lägg till svar" tooltip="Lägg till svar till kommentar" status="" short=""/>
+		<item id="33246" title="Efter ämne" tooltip="Gruppera efter ämne" status="" short=""/>
+		<item id="33248" title="&amp;Avmarkera allt" tooltip="Avmarkera allt" status="" short=""/>
+		<item id="33255" title="Stäng alla flikar utom denna" tooltip="Stäng alla flikar utom denna" status="" short=""/>
+		<item id="33256" title="Stäng denna flik" tooltip="Stäng denna flik" status="" short=""/>
+		<item id="33257" title="Kopiera fullständiga filnamnet" tooltip="Kopiera det fullständiga filnamnet av aktuellt dokument till klippbordet" status="Kopiera det fullständiga filnamnet av aktuellt dokument till klippbordet" short=""/>
+		<item id="33258" title="Öppna aktuella dokumentets mapp" tooltip="Öpnna det aktuella dokumentets mapp" status="Öpnna det aktuella dokumentets mapp" short=""/>
+		<item id="33259" title="Ange nuvarande teckenformatering som standard" tooltip="Spara denna textformatering (typsnitt, storlek, färg, justering, mm.) till den nuvarande kommenteringsstilen.&#10;Sparad textformatering kommer att användas till alla nya kommentarer som standard." status="" short="Gör till standard"/>
+		<item id="33260" title="Tilldela standard teckenformatering" tooltip="Tilldela denna textformatering (typsnitt, storlek, färg, justering, mm.) från den nuvarande kommenteringsstilen." status="" short=""/>
+		<item id="33261" title="Textfärg" tooltip="Textfärg" status="" short="Färg:"/>
+		<item id="33262" title="Dokumentegenskaper" tooltip="Visa/Dölj dokumentegenskaps verktygsfältet" status="Visa/Dölj dokumentegenskaps verktygsfältet" short=""/>
+		<item id="33263" title="Sidnavigering" tooltip="Visa/Dölj sidnavigerings verktygsfältet" status="Visa/Dölj sidnavigerings verktygsfältet" short=""/>
+		<item id="33264" title="Sidlayout" tooltip="Visa/Dölj sidlayout verktygsfältet" status="Visa/Dölj sidlayout verktygsfältet" short=""/>
+		<item id="33265" title="Starta" tooltip="Visa/Dölj start verktygsfältet" status="Visa/Dölj start verktygsfältet" short=""/>
+		<item id="33267" title="&amp;Arkiv" tooltip="&amp;Arkiv" status="" short=""/>
+		<item id="33268" title="Senaste dok&amp;ument" tooltip="" status="" short=""/>
+		<item id="33269" title="For&amp;mulärdata" tooltip="" status="" short=""/>
+		<item id="33270" title="Dokument&amp;egenskaper" tooltip="Visa det aktiva dokumentets egenskaper" status="Visa det aktiva dokumentets egenskaper" short="Egenskaper..."/>
+		<item id="33272" title="Öppna från &amp;Url..." tooltip="Öppna dokument från URL..." status="Öppna dokument från URL" short=""/>
+		<item id="33274" title="Skicka med &amp;E-post som ZIP..." tooltip="Bifoga det aktiva dokumentet (zippat) till ett nytt E-brev" status="Bifoga det aktiva dokumentet (zippat) till ett nytt E-brev" short=""/>
+		<item id="33280" title="&amp;Redigera" tooltip="" status="" short=""/>
+		<item id="33290" title="Vi&amp;sa" tooltip="" status="" short=""/>
+		<item id="33291" title="&amp;Verktygsrader" tooltip="" status="" short=""/>
+		<item id="33292" title="Övriga" tooltip="" status="" short=""/>
+		<item id="33293" title="Sidlayout" tooltip="" status="" short=""/>
+		<item id="33300" title="Dokument" tooltip="" status="" short=""/>
+		<item id="33310" title="Verktyg" tooltip="" status="" short=""/>
+		<item id="33311" title="Basverktyg" tooltip="" status="" short=""/>
+		<item id="33313" title="Zoomverktyg" tooltip="" status="" short=""/>
+		<item id="33314" title="Kommentera och märk upp" tooltip="" status="" short=""/>
+		<item id="33316" title="Mätverktyg" tooltip="" status="" short=""/>
+		<item id="33317" title="Länkvertyg" tooltip="" status="" short=""/>
+		<item id="33339" title="Visa kommentar och verktyg" tooltip="" status="" short=""/>
+		<item id="33340" title="Visa/dölj kommentarslistan" tooltip="Visa/dölj kommentarslistan" status="Visa/dölj kommentarslistan" short=""/>
+		<item id="33350" title="Fönster" tooltip="" status="" short=""/>
+		<item id="33369" title="Visa information om fel" tooltip="Detta dokument är felaktigt, klicka här för att visa detaljer" status="Detta dokument är felaktigt, klicka här för att visa detaljer" short="Information om fel"/>
+		<item id="33370" title="Dokument alternativ" tooltip="Innehåller visning, redigering, anpassning, m.m. Alternativ för detta dokument" status="Innehåller visning, redigering, anpassning, m.m. Alternativ för detta dokument" short="Alternativ"/>
+		<item id="33371" title="Visa lagerpanelen" tooltip="Detta dokument innehåller lager, klicka här för att visa/dölja lagerpanelen" status="Detta dokument innehåller lager, klicka här för att visa/dölja lagerpanelen" short="Visa lager"/>
+		<item id="33372" title="Visa formulärpanelen" tooltip="Detta dokument innehåller formulär, klicka här för att visa/dölja formulärpanelen" status="Detta dokument innehåller formulär, klicka här för att visa/dölja formulärpanelen" short="Visa fält"/>
+		<item id="33373" title="Inga egenskaper" tooltip="Inga objekt med egenskaper är markerade" status="Inga objekt med egenskaper är markerade" short=""/>
+		<item id="33374" title="Visa PDF/A Info" tooltip="Detta dokument är en PDF/A kompatibel fil, Klicka här för att visa detaljer" status="Detta dokument är en PDF/A kompatibel fil, Klicka här för att visa detaljer" short="PDF/A Info"/>
+		<item id="33375" title="Visa XFA Info" tooltip="Detta dokument innehåller ett XFA formulär, Klicka här för att visa detaljer" status="Detta dokument innehåller ett XFA formulär, Klicka här för att visa detaljer" short="XFA Info"/>
+		<item id="33379" title="Transparens" tooltip="Transparensnivå" status="" short="Transparens:"/>
+		<item id="33382" title="Visa/dölj teckeformaterings verktygsfältet" tooltip="Visa/dölj teckeformaterings verktygsfältet" status="" short=""/>
+		<item id="33383" title="Kopiera valda sidor" tooltip="Kopiera valda sidor" status="" short=""/>
+		<item id="33384" title="Markera hela sidan" tooltip="Markera hela sidan" status="" short=""/>
+		<item id="33410" title="Kommentar" tooltip="Kommentar" status="" short=""/>
+		<item id="33411" title="Teckenformatering" tooltip="Teckenformatering" status="" short=""/>
+		<item id="33412" title="Ta en ögonblicksbild" tooltip="Ta en ögonblicksbild" status="" short=""/>
+		<item id="33413" title="Zooma in tumnaglar" tooltip="Förstora tumnaglar" status="Förstora tumnaglar" short=""/>
+		<item id="33414" title="Zooma ut tumnaglar" tooltip="Förminska tumnaglar" status="Förminska tumnaglar" short=""/>
+		<item id="33416" title="Lägg till bokmärke" tooltip="" status="" short=""/>
+		<item id="33420" title="Lägg till länk" tooltip="" status="" short=""/>
+		<item id="33421" title="Linjera i vänsterkant" tooltip="Linjera i vänsterkant" status="" short=""/>
+		<item id="33422" title="Linjera i högerkant" tooltip="Linjera i högerkant" status="" short=""/>
+		<item id="33423" title="Linjera i överkant" tooltip="Linjera i överkant" status="" short=""/>
+		<item id="33424" title="Linjera i underkant" tooltip="Linjera i underkant" status="" short=""/>
+		<item id="33425" title="Linjera horisontellt i centrum" tooltip="Linjera horisontellt i centrum" status="" short=""/>
+		<item id="33426" title="Linjera vertikalt i centrum" tooltip="Linjera vertikalt i centrum" status="" short=""/>
+		<item id="33427" title="Justera horisontellt" tooltip="Justera horisontellt" status="" short=""/>
+		<item id="33428" title="Justera vertikalt" tooltip="Justera vertikalt" status="" short=""/>
+		<item id="33429" title="Gör alla till samma bredd" tooltip="Gör alla till samma bredd" status="" short=""/>
+		<item id="33430" title="Gör alla till samma höjd" tooltip="Gör alla till samma höjd" status="" short=""/>
+		<item id="33431" title="Gör alla till samma storlek" tooltip="Gör alla till samma storlek" status="" short=""/>
+		<item id="33432" title="Sätt nuvarande länkutseende till standard" tooltip="Sätt nuvarande länkutseende till standard" status="Sätt nuvarande länkutseende till standard" short=""/>
+		<item id="33433" title="Ange standard utseende" tooltip="Ange standard utseende för markerade länkar" status="Ange standard utseende för markerade länkar" short=""/>
+		<item id="33438" title="Anpassa användargränssnittet..." tooltip="Display Dialog som gör det möjligt att anpassa utseendet på användargränssnitt (färger, teckensnitt, huvudbakgrund) ..." status="Display Dialog som gör det möjligt att anpassa utseendet på användargränssnitt (färger, teckensnitt, huvudbakgrund) ..." short="Anpassa UI..."/>
+		<item id="33800" title="Återställ rubrikplacering" tooltip="Återställ rubrikplacering" status="" short=""/>
+		<item id="33801" title="Radera etikett" tooltip="Radera etikett" status="" short=""/>
+		<item id="33802" title="Redigera etikett" tooltip="Redigera etikett" status="" short=""/>
+		<item id="33805" title="Ändra skalfaktor" tooltip="Ändra skalfaktor" status="" short=""/>
+		<item id="33806" title="Ändra mätetikett" tooltip="Ändra mätetikett" status="" short=""/>
+		<item id="33807" title="Visa fönstret med mätningsinformation" tooltip="Visa fönstret med mätningsinformation" status="" short=""/>
+		<item id="33811" title="Exportera mätningar till en CSV-fil" tooltip="Exportera mätningar" status="" short=""/>
+		<item id="33812" title="Öppna inbäddad fil..." tooltip="Öppna inbäddad fil" status="Öppna inbäddad fil" short="Öppna..."/>
+		<item id="33813" title="Spara inbäddad fil till disk..." tooltip="Spara inbäddad fil till disk" status="Spara inbäddad fil till disk" short="Spara..."/>
+		<item id="33814" title="Redigera beskrivning" tooltip="Redigera beskrivning" status="Redigera beskrivning av inbäddad fil" short="Redigera beskrivning"/>
+		<item id="33815" title="Bifoga en fil..." tooltip="Bifoga en fil" status="Bifoga en externs fil till detta dokument" short="Bifoga en fil..."/>
+		<item id="33816" title="Rotera markerade sidor 90°" tooltip="" status="" short="Rotera 90°"/>
+		<item id="33817" title="Rotera markerade sidor 180°" tooltip="" status="" short="Rotera 180°"/>
+		<item id="33818" title="Rotera markerade sidor 270°" tooltip="" status="" short="Rotera 270°"/>
+		<item id="33819" title="Rdera markerade sidor" tooltip="" status="" short=""/>
+		<item id="33820" title="Ta bort marginaler" tooltip="Ta bort marginaler" status="Ta bort marginaler på dokumentets sidor" short="Ta bort marginaler"/>
+		<item id="36000" title="Anpassa..." tooltip="Visa dialogrutan för anpassning av verktygsfält" status="Visa dialogrutan för anpassning av verktygsfält" short=""/>
+		<item id="36001" title="Låst" tooltip="Låst" status="" short=""/>
+		<item id="36004" title="Zooma in bokmärken" tooltip="Förstora bokmärken" status="Förstora bokmärken" short=""/>
+		<item id="36005" title="Zooma ut bokmärken" tooltip="Förminska bokmärken" status="Förminska bokmärken" short=""/>
+		<item id="36006" title="Radera bokmärken" tooltip="Radera markerade bokmärken" status="Radera markerade bokmärken" short="Radera"/>
+		<item id="36007" title="Bokmärkesegenskaper..." tooltip="Visa egenskaperna för markerade bokmärken" status="Visa egenskaperna för markerade bokmärken" short="Redigera"/>
+		<item id="36008" title="Nytt bokmärke" tooltip="Skapa ett nytt bokmärke" status="Skapa ett nytt bokmärke" short="Nytt"/>
+		<item id="36009" title="Garantera synligheten för motsavarande bokmärke" tooltip="Garantera synligheten för motsavarande bokmärke" status="Garantera synligheten för motsavarande bokmärke" short=""/>
+		<item id="36010" title="Gå till bokmärke" tooltip="Gå till bokmärke" status="Synliggör bokmärken i sidvyn" short=""/>
+		<item id="36012" title="Lägg till" tooltip="Lägg till en ny händelse..." status="Lägg till en ny händelse..." short=""/>
+		<item id="36013" title="Radera" tooltip="Radera markerade händelser" status="Radera markerade händelser" short=""/>
+		<item id="36014" title="Upp" tooltip="Flytta upp markerade objekt körordningslistan" status="Flytta upp markerade objekt körordningslistan" short=""/>
+		<item id="36015" title="Ner" tooltip="Flytta ner markerade objekt körordningslistan" status="Flytta ner markerade objekt körordningslistan" short=""/>
+		<item id="36016" title="Redigera..." tooltip="Redigera egenskaperna för markerad händelse..." status="Redigera egenskaperna för markerad händelse..." short=""/>
+		<item id="36017" title="Testa markerad" tooltip="Testa markerade händelser..." status="Klicka för att testa markerade händelser..." short=""/>
+		<item id="36018" title="Testa alla" tooltip="Testa alla händelser..." status="Klicka för att testa alla händelser..." short=""/>
+		<item id="36019" title="Återställ" tooltip="Återställ listan över händelser och förlorade ändringar" status="Återställ listan över händelser och förlorade ändringar" short=""/>
+		<item id="36023" title="Byt namn" tooltip="Byt namn på markerade bokmärken" status="Byt namn på markerade bokmärken" short=""/>
+		<item id="36024" title="Sätt nuvarande utseende som standard" tooltip="Sätt nuvarande utseende som standard" status="Sätt nuvarande utseende som standard" short=""/>
+		<item id="36025" title="Radbryt långa bokmärkesnamn" tooltip="Radbryt långa bokmärkesnamn" status="Radbryt långa bokmärkesnamn" short=""/>
+		<item id="36026" title="Återställ till standard utseende" tooltip="Återställ markerade bokmärken till standard utseende" status="Återställ markerade bokmärken till standard utseende" short=""/>
+		<item id="36027" title="Kör" tooltip="Kör skript" status="" short=""/>
+		<item id="36028" title="Rensa" tooltip="Rensa konsol utmatning" status="" short=""/>
+		<item id="36035" title="Gå till rad..." tooltip="" status="" short=""/>
+		<item id="36036" title="Egenskaper för Javaskript" tooltip="Visa egenskaper för Javaskript" status="Visa egenskaper för Javaskript..." short=""/>
+		<item id="36037" title="Infoga sidor..." tooltip="" status="" short=""/>
+		<item id="36038" title="Separera sidor" tooltip="Flytta ut sidor ur dokumentet" status="" short=""/>
+		<item id="36039" title="Ersätt sidor" tooltip="" status="" short=""/>
+		<item id="36040" title="Sidövergångar" tooltip="" status="" short=""/>
+		<item id="36048" title="Ange mål" tooltip="Ange mål" status="Sätt nuvarade vy som mål" short=""/>
+		<item id="36049" title="" tooltip="Font" status="" short="Font:"/>
+		<item id="36250" title="Färgmarkeringsstil" tooltip="Färgmarkeringsstil" status="" short="Färgmarkera:"/>
+		<item id="36252" title="Enbart hela ord" tooltip="Sök bara hela ord" status="Sök bara förekomster av hela ord inskrivna i textrutan." short=""/>
+		<item id="36253" title="Matcha gemener/VERSALER" tooltip="Sökning anpassad till gemener/VERSALER" status="Sök bara förekomster av ord som matchar det skriftläge som du använt" short=""/>
+		<item id="36254" title="Ta med kommentarer" tooltip="Söker efter texten i kommentarer som lagts till PDF:en" status="Söker efter texten i kommentarer som lagts till PDF:en, som den visas i kommentarspanelen" short=""/>
+		<item id="36255" title="Ta med bokmärken" tooltip="Sök efter texten i bokmärken" status="Söker efter texten i bokmärken, som den visas i bokmärkesfältet" short=""/>
+		<item id="36256" title="Visa bokmärkesikoner" tooltip="Visa bokmärkesikoner" status="Visa bokmärkesikoner" short=""/>
+		<item id="36257" title="Redigera ämne..." tooltip="Redigera inledande ämne för den markerade kommentarsstilen" status="" short=""/>
+		<item id="36258" title="Rensa sökresultat" tooltip="Rensa sökresultat" status="" short="Rensa resultat"/>
+		<item id="36260" title="1600%" tooltip="" status="" short=""/>
+		<item id="36262" title="12,5%" tooltip="" status="" short=""/>
+		<item id="36263" title="8,33%" tooltip="" status="" short=""/>
+		<item id="36264" title="Zooma" tooltip="" status="" short="Zooma:"/>
+		<item id="36273" title="Fyllnadsfärg" tooltip="Fyllnadsfärg" status="" short="Fyllnadsfärg:"/>
+		<item id="36274" title="Pennfärg" tooltip="Pennfärg" status="" short="Pennfärg:"/>
+		<item id="36276" title="Meddelande ikon" tooltip="Meddelande ikon" status="" short="Ikon:"/>
+		<item id="36277" title="Zooma" tooltip="Zooma" status="" short="Zooma:"/>
+		<item id="36279" title="Kantlinjestil" tooltip="Kantlinjestil" status="" short="Kantlinje:"/>
+		<item id="36281" title="Kantlinjebredd" tooltip="Kantlinjebredd" status="" short="Bredd"/>
+		<item id="36287" title="Stil på linjeslut" tooltip="Stil på linjeslut" status="" short="Linjeslut:"/>
+		<item id="36289" title="Stil på linjestart" tooltip="Stil på linjestart" status="" short="Linjestart:"/>
+		<item id="36291" title="Zooma in" tooltip="Förstora tumnaglar" status="Förstora tumnaglar" short=""/>
+		<item id="36292" title="Zooma ut" tooltip="Förminska tumnaglar" status="Förminska tumnaglar" short=""/>
+		<item id="36293" title="Skapa från urklipp" tooltip="Skapa stämpel från urklippt bild" status="Skapa stämpel från urklippt bild" short="Från urklipp"/>
+		<item id="36294" title="Radera stämpel" tooltip="Radera markerad stämpel" status="Radera markerad stämpel" short="Radera"/>
+		<item id="36296" title="Radera samling" tooltip="Radera markerad samling" status="Radera markerad samling" short="Radera"/>
+		<item id="36297" title="Skapa en ny samling..." tooltip="Skapa en ny stämpelsamling..." status="Skapa en ny stämpelsamling..." short="Ny..."/>
+		<item id="36298" title="Byt namn på stämpel..." tooltip="Byt namn på markerad stämpel..." status="Byt namn på markerad stämpel..." short="Byt namn..."/>
+		<item id="36299" title="Byt namn på samling..." tooltip="Byt namn på markerad samling..." status="Byt namn på markerad samling..." short="Nyt namn..."/>
+		<item id="36300" title="Suddverktyg" tooltip="Suddverktyget suddar bara bort delar som ritats med pennverktyget" status="Suddverktyget suddar bara bort delar som ritats med pennverktyget" short="Suddgummi"/>
+		<item id="36301" title="Diameter" tooltip="Suddgummi diameter" status="" short="Diameter:"/>
+		<item id="36303" title="Skapa från PDF" tooltip="Skapa stämpel från PDF dokument..." status="Skapa stämpel från PDF dokument..." short="Från PDF..."/>
+		<item id="36304" title="Skapa stämpel från bild..." tooltip="Skapa stämpel från bild..." status="Skapa stämpel från bild..." short="Från bild..."/>
+		<item id="36305" title="Infoga tomma sidor..." tooltip="" status="" short=""/>
+		<item id="36306" title="Utöka alla" tooltip="Visa alla bokmärken" status="" short="Utöka alla"/>
+		<item id="36307" title="Dölj alla" tooltip="Dölj alla bokmärken" status="" short="Dölj alla"/>
+		<item id="36308" title="Textegenskaper..." tooltip="Visa textegenskaper..." status="Visa dialogrutan med egenskaper för markerad text" short="Textgenskaper..."/>
+		<item id="36309" title="Återställ detta verktygsfält" tooltip="Återställ detta verktygsfält till standard" status="Återställ detta verktygsfält till standard" short="Återställ detta verktygsfält"/>
+		<item id="36313" title="" tooltip="Återställ snabbtangenter" status="" short=""/>
+		<item id="36314" title="" tooltip="Rensa snabbtangenter" status="" short=""/>
+		<item id="36315" title="Återställ menyfältet" tooltip="Återställ menyfältet till standard" status="Återställ menyfältet till standard" short="Återställ menyfältet "/>
+		<item id="36316" title="Återställ denna Popupmeny" tooltip="Återställ denna Popupmeny till standard" status="Återställ denna Popupmeny till standard" short="Återställ denna Popupmeny"/>
+		<item id="36324" title="Stäng bild" tooltip="" status="" short=""/>
+		<item id="36326" title="Återställ" tooltip="" status="" short=""/>
+		<item id="36327" title="Radera" tooltip="" status="" short=""/>
+		<item id="36328" title="Standardstil" tooltip="" status="" short=""/>
+		<item id="36329" title="Visa bild" tooltip="" status="" short=""/>
+		<item id="36330" title="Visa text" tooltip="" status="" short=""/>
+		<item id="36331" title="Sätt in avskiljare före" tooltip="" status="" short=""/>
+		<item id="36332" title="Sätt in avskiljare efter" tooltip="" status="" short=""/>
+		<item id="36333" title="Egenskaper..." tooltip="" status="" short=""/>
+		<item id="36334" title="Visa förhandsgranskning" tooltip="" status="" short=""/>
+		<item id="36335" title="Visa ämne" tooltip="Visa kommentarens ämne" status="Visa kommentarens ämne" short=""/>
+		<item id="36336" title="Visa författare" tooltip="Visa kommentarens författare" status="Visa kommentarens författare" short=""/>
+		<item id="36337" title="Visa datum" tooltip="Visa ändringsdatum för kommentaren" status="Visa ändringsdatum för kommentaren" short=""/>
+		<item id="36338" title="Visa text" tooltip="Visa kommentarens text" status="Visa kommentarens text" short=""/>
+		<item id="36339" title="Visa färger" tooltip="Visa kommentarens färg" status="Visa kommentarens färg" short=""/>
+		<item id="36340" title="Platta till kommentarer" tooltip="" status="" short=""/>
+		<item id="36341" title="Rensa söklistan" tooltip="Rensa söklistan" status="" short="Rensa söklistan"/>
+		<item id="36342" title="Länkar" tooltip="Visa/Dölj länk verktygsfältet" status="Visa/Dölj länk verktygsfältet" short=""/>
+		<item id="36343" title="Rektangulärt länkverktyg" tooltip="Rektangulärt länkverktyg" status="" short="Länka"/>
+		<item id="36344" title="Oregelbundet länkverktyg" tooltip="Oregelbundet länkverktyg" status="" short="Länka"/>
+		<item id="36345" title="Mät" tooltip="Visa/Dölj mät verktygsfältet" status="Visa/Dölj mät verktygsfältet" short=""/>
+		<item id="36346" title="Avståndsverktyg" tooltip="Avståndsverktyg för att mäta avstånder mellan två punkter" status="" short="Avstånd"/>
+		<item id="36347" title="Omkretsverktyg" tooltip="Omkretsverktyg för att mäta omkretsen på ett objekt" status="" short="Omkrets"/>
+		<item id="36348" title="Areaverktyg" tooltip="Areaverktyg för att mäta ytor på ett objekt" status="" short="Area"/>
+		<item id="36349" title="Kommentarer" tooltip="" status="" short=""/>
+		<item id="36350" title="Summera kommentarer" tooltip="" status="" short=""/>
+		<item id="36351" title="Exportera kommentarer till en datafil..." tooltip="" status="" short=""/>
+		<item id="36352" title="Visa luckor mellan sidorna" tooltip="Visa luckor mellan sidorna" status="" short="Visa luckor"/>
+		<item id="36353" title="Visa omslagssida som uppslag" tooltip="Visa omslagssida som uppslag" status="" short="Visa omslag"/>
+		<item id="36355" title="Omvandlingsvärde (från)" tooltip="Omvandlingsvärde (från)" status="" short="Från:"/>
+		<item id="36356" title="Omvandlingsvärde (till)" tooltip="Omvandlingsvärde (till)" status="" short="Till:"/>
+		<item id="36357" title="Omvandlingsenhet (från)" tooltip="Omvandlingsenhet (från)" status="" short="Från:"/>
+		<item id="36359" title="Omvandlingsenhet (till)" tooltip="Omvandlingsenhet (till)" status="" short="Till:"/>
+		<item id="36362" title="Lägg till &quot;Gå till en sida i detta dokument&quot;..." tooltip="Lägg till &quot;Gå till en sida i detta dokument&quot;..." status="Lägg till &quot;Gå till en sida i detta dokument&quot;, visa dialogrutan för att lägga till en ny händelse..." short=""/>
+		<item id="36363" title="Lägg till &quot;Öppna en länkadress&quot;..." tooltip="Lägg till &quot;Öppna en länkadress&quot;..." status="Lägg till &quot;Öppna en länkadress&quot;, visa dialogrutan för att lägga till en ny händelse..." short=""/>
+		<item id="36364" title="Från en tom sida..." tooltip="Från en tom sida..." status="Skapa ett nytt PDF-dokument med tom sida(or)" short=""/>
+		<item id="36365" title="Från textfil..." tooltip="Från textfil..." status="Skapa ett nytt PDF-dokument från existerande textfil(er)" short=""/>
+		<item id="36366" title="Ångra" tooltip="" status="" short=""/>
+		<item id="36367" title="Gör om" tooltip="" status="" short=""/>
+		<item id="36368" title="Klipp ut" tooltip="" status="" short=""/>
+		<item id="36369" title="Kopiera" tooltip="" status="" short=""/>
+		<item id="36370" title="Klistra in" tooltip="" status="" short=""/>
+		<item id="36371" title="Radera" tooltip="" status="" short=""/>
+		<item id="36372" title="Markera allt" tooltip="" status="" short=""/>
+		<item id="36373" title="Lås/lås upp alla kommentarsverktyg" tooltip="Lås/lås upp alla kommentarsverktyg" status="Lås/lås upp alla kommentarsverktyg: förhindra anpassning ovh flyttning" short="Lås verktygsfält"/>
+		<item id="36374" title="Återställ alla inställningar till standard" tooltip="Återställ alla programinställningar till standard..." status="Återställ alla programinställningar till standard..." short=""/>
+		<item id="36375" title="Från en bildfil..." tooltip="Från en bildfil..." status="Skapa ett nytt PDF-dokument från existerande fil(er)" short=""/>
+		<item id="36408" title="Importera alla inställningar från en data fil..." tooltip="Importera alla programinställningar från data fil..." status="Importera alla programinställningar från en extern data fil..." short=""/>
+		<item id="36409" title="Exportera alla inställningar till en data fil..." tooltip="EExportera alla programinställningar till en data fil..." status="EExportera alla programinställningar till en data fil..." short=""/>
+		<item id="36415" title="Visa" tooltip="" status="" short=""/>
+		<item id="36416" title="Om" tooltip="" status="" short=""/>
+		<item id="36417" title="Avsluta" tooltip="" status="" short=""/>
+		<item id="36418" title="Visa kommentarsstilar" tooltip="" status="" short=""/>
+		<item id="36420" title="Visa paletten för kommenteringstyper" tooltip="" status="" short=""/>
+		<item id="36434" title="Visa kommentarer" tooltip="" status="" short=""/>
+		<item id="36435" title="Dölj alla kommentarer" tooltip="" status="" short=""/>
+		<item id="36436" title="Visa alla kommentarer" tooltip="" status="" short=""/>
+		<item id="36437" title="Sortera efter..." tooltip="" status="" short=""/>
+		<item id="36438" title="Öppna alla popup-fönster" tooltip="" status="" short=""/>
+		<item id="36439" title="Stäng alla popup-fönster" tooltip="" status="" short=""/>
+		<item id="36440" title="Alla typer" tooltip="" status="" short=""/>
+		<item id="36441" title="Anteckningar" tooltip="" status="" short=""/>
+		<item id="36442" title="Rittillägg" tooltip="" status="" short=""/>
+		<item id="36443" title="Texttillägg" tooltip="" status="" short=""/>
+		<item id="36444" title="Stämplar" tooltip="" status="" short=""/>
+		<item id="36445" title="Bilagor" tooltip="" status="" short=""/>
+		<item id="36446" title="Tecken till/från Hex kodning" tooltip="Översätt markerade tecken till/från Hex kodning" status="" short=""/>
+		<item id="36447" title="Tecken till/från Glyph index" tooltip="Översätt markerade tecken till/från Glyph index" status="" short=""/>
+		<item id="36457" title="Understrykningslijestil" tooltip="Understrykningslijestil" status="" short="Stil:"/>
+		<item id="36459" title="Sätt nuvarande utseende till standard" tooltip="Spara detta utseende (färg, kantlinje, transparens, etc.) till aktuell kommenteringsstil.&#10;Sparat utseende kommer att användas till varje ny kommentar som standard för aktuell kommentarsstil." status="" short=""/>
+		<item id="36460" title="Tilldela standard utseende" tooltip="Tilldela sparat utseende (färg, kantlinje, transparens, etc.) från aktuell kommenteringsstil." status="" short=""/>
+		<item id="36461" title="Låst" tooltip="Låst" status="" short=""/>
+		<item id="36462" title="Från skanner..." tooltip="Från skanner..." status="Skapa ett nytt PDF-dokument från skanner" short=""/>
+		<item id="36463" title="Alla fält" tooltip="Klicka här för att färgmarkera alla fält" status="Klicka för att färgmarkera alla fält" short=""/>
+		<item id="36464" title="Kombinationsrutor" tooltip="Klicka här för att färgmarkera alla kombinationsrutor" status="Klicka för att färgmarkera alla kombinationsrutor" short=""/>
+		<item id="36465" title="Kryssrutor" tooltip="Klicka här för att färgmarkera alla kryssrutor" status="Klicka för att färgmarkera alla kryssrutor" short=""/>
+		<item id="36466" title="Listrutor" tooltip="Klicka här för att färgmarkera alla listrutor" status="Klicka för att färgmarkera alla listrutor" short=""/>
+		<item id="36467" title="Knappar" tooltip="Klicka här för att färgmarkera alla knappar" status="Klicka för att färgmarkera alla knappar" short=""/>
+		<item id="36468" title="Radioknappar" tooltip="Klicka här för att färgmarkera alla radioknappar" status="Klicka för att färgmarkera alla radioknappar" short=""/>
+		<item id="36469" title="Textrutor" tooltip="Klicka här för att färgmarkera alla textrutor" status="Klicka för att färgmarkera alla textrutor" short=""/>
+		<item id="36470" title="Signaturfält" tooltip="Klicka här för att färgmarkera alla signaturfält" status="Klicka för att färgmarkera alla signaturfält" short=""/>
+		<item id="36471" title="Endast tvingade fält" tooltip="Klicka här för att färgmarkera alla tvingande fält" status="Klicka för att färgmarkera alla tvingande fält" short=""/>
+		<item id="36472" title="Zooma in" tooltip="Zooma in" status="" short=""/>
+		<item id="36473" title="Zooma ut" tooltip="Zooma ut" status="" short=""/>
+		<item id="36474" title="Vänd vertikalt" tooltip="Vänd vertikalt" status="" short=""/>
+		<item id="36475" title="Vänd horisontellt" tooltip="Vänd horisontellt" status="" short=""/>
+		<item id="36476" title="Passa" tooltip="Passa" status="" short=""/>
+		<item id="36477" title="Rotera 90° moturs" tooltip="Rotera 90° moturs" status="" short=""/>
+		<item id="36478" title="Rotera 90° medurs" tooltip="Rotera 90° medurs" status="" short=""/>
+		<item id="36479" title="Rotera 180°" tooltip="Rotera 180°" status="" short=""/>
+		<item id="36481" title="Kopiera länkadress" tooltip="Kopiera länkadress" status="" short=""/>
+		<item id="36482" title="Öppna URL i webläsare" tooltip="Öppna URL i webläsare" status="" short=""/>
+		<item id="36483" title="Linjebredd" tooltip="Visa alla linjer med en pixelbredd oberoende av förstoringsgrad" status="Visa alla linjer med en pixelbredd oberoende av förstoringsgrad" short=""/>
+		<item id="36485" title="Återställ kommentar" tooltip="Återställ markerad kommentar.&#10;Alla anpassade stilar för markerad kommentarstyp kommer att tas bort och bara standardstilen kommer att sparas" status="" short="Återställ"/>
+		<item id="36486" title="Klona kommentarsstil" tooltip="Klona den markerade kommentarsstilen" status="" short="Klona"/>
+		<item id="36487" title="Radera kommentarsstil" tooltip="Radera den markerade kommentarsstilen" status="" short="Radera"/>
+		<item id="36488" title="Återställ kommentarsstil" tooltip="Återställ den markerade kommentarsstilen" status="" short="Återställ"/>
+		<item id="36489" title="Byt namn på kommentarsstil" tooltip="Byt namn på den markerade kommentarsstilen" status="" short="Byt namn"/>
+		<item id="36493" title="Från en Rich Text format (RTF) fil..." tooltip="Från en Rich Text format (RTF) fil..." status="Skapa ett nytt PDF-dokument från existerande fil(er)" short=""/>
+		<item id="36496" title="Lägg till &quot;Gå till en sida i ett annat dokument&quot;..." tooltip="Lägg till &quot;Gå till en sida i ett annat dokument&quot;..." status="Lägg till &quot;Gå till en sida i ett annat dokument&quot;, visa dialogrutan för att lägga till en ny händelse..." short=""/>
+		<item id="36497" title="Lägg till &quot;Öppna&quot;..." tooltip="Lägg till &quot;Öppna&quot;..." status="Lägg till &quot;Öppna&quot;, visa dialogrutan för att lägga till en ny händelse..." short=""/>
+		<item id="36498" title="Åsidosätt dokumentfärger" tooltip="Växla åsidosättning av dokumentfärger" status="Växla åsidosättning av dokumentfärger" short=""/>
+		<item id="36500" title="Hantera listan för senaste dokument..." tooltip="Hantera listan för senaste dokument..." status="" short=""/>
+		<item id="36501" title="Öppna URL i en ny webläsarflik" tooltip="Öppna URL i en ny webläsarflik" status="" short=""/>
+		<item id="36502" title="Öppna URL i ett nytt webläsarfönster" tooltip="Öppna URL i ett nytt webläsarfönster" status="" short=""/>
+		<item id="36503" title="Importera kommentarer" tooltip="" status="" short=""/>
+		<item id="36511" title="Sök med" tooltip="Sök text via sökmotor" status="Sök efter markerad text med internet sökmotor" short=""/>
+		<item id="36513" title="Hantera sökmotorer" tooltip="Hantera sökmotorer" status="" short=""/>
+		<item id="36514" title="Sök online" tooltip="Sök efter angiven text med internet sökmotor" status="Sök efter angiven text med internet sökmotor" short=""/>
+		<item id="36515" title="Signering" tooltip="" status="" short=""/>
+		<item id="36516" title="Signera dokument" tooltip="Signera dokument digitalt" status="Signera dokument digitalt" short="Signera"/>
+		<item id="36517" title="Placera signatur" tooltip="Placera signatur" status="Placera signatur på dokumentet" short="Placera signatur"/>
+		<item id="36518" title="Verifiera alla signaturer" tooltip="Verifiera alla signaturer" status="Verifiera alla signaturer till dokumentet" short="Verifiera signaturer"/>
+		<item id="36519" title="Visa tumnaglar för flikar" tooltip="Visa tumnaglar för flikar" status="Aktivera/inaktivera visning av tumnaglar för flikar" short=""/>
+		<item id="36520" title="Visa rutnät" tooltip="" status="" short=""/>
+		<item id="36521" title="Visa stödlinjer" tooltip="" status="" short=""/>
+		<item id="36522" title="Visa linjaler" tooltip="" status="" short=""/>
+		<item id="36523" title="Lägg till nya stödlinjer..." tooltip="Lägg till nya stödlinjer..." status="" short=""/>
+		<item id="36524" title="Radera stödlinjerna på nuvarande sida" tooltip="Radera stödlinjerna på nuvarande sida" status="" short=""/>
+		<item id="36525" title="Radera alla stödlinjer" tooltip="Radera alla stödlinjer" status="" short=""/>
+		<item id="36527" title="Anpassa mätinställningar..." tooltip="Anpassa mätinställningar..." status="" short=""/>
+		<item id="36529" title="Fäst mot rutnät" tooltip="" status="" short=""/>
+		<item id="36530" title="Fäst mot stödlinjer" tooltip="" status="" short=""/>
+		<item id="36531" title="Fäst mot objekt" tooltip="" status="" short=""/>
+		<item id="36532" title="Fäst" tooltip="Fäst på/av" status="" short=""/>
+		<item id="36533" title="Öppna" tooltip="Öppna markerad bilaga" status="" short=""/>
+		<item id="36534" title="Spara..." tooltip="Spara markerad bilaga till en separat fil..." status="" short=""/>
+		<item id="36535" title="Lägg till ny..." tooltip="Lägg till ny bilaga..." status="" short=""/>
+		<item id="36536" title="Radera" tooltip="Radera markerad bilaga" status="" short=""/>
+		<item id="36537" title="Redigera beskrivning..." tooltip="Redigera beskrivning..." status="" short=""/>
+		<item id="36538" title="Visa bilagepanelen" tooltip="Detta dokument innehåller bilagor, klicka här för att visa/dölja bilagepanelen" status="Detta dokument innehåller bilagor, klicka här för att visa/dölja bilagepanelen" short="Visa bilagor"/>
+		<item id="36539" title="Visa tumnaglar för alla öppna dokument" tooltip="Visa tumnaglar för alla öppna dokument" status="" short="Visa dokument"/>
+		<item id="36542" title="Blandningsläge" tooltip="Blandningsläge" status="" short="Blandningsläge:"/>
+		<item id="36543" title="Till förgrund" tooltip="Flytta till förgrunden" status="" short=""/>
+		<item id="36544" title="Till bakgrund" tooltip="Flytta till bakgrunden" status="" short=""/>
+		<item id="36545" title="Längre fram" tooltip="Flytta längre fram" status="" short=""/>
+		<item id="36546" title="Längre bak" tooltip="Flytta längre bak" status="" short=""/>
+		<item id="36547" title="Placering" tooltip="" status="" short=""/>
+		<item id="36548" title="Markera synlig yta" tooltip="Markera synlig yta på nuvarande sida" status="Markera synlig yta på nuvarande sida på en tumnagel" short=""/>
+		<item id="36549" title="Interaktivt markerat område" tooltip="Aktivera/inaktivera interaktivitet i markerat område" status="Aktivera/inaktivera interaktivitet i markerat område på en tumnagel" short=""/>
+		<item id="36551" title="Ange inledande zoomfaktor..." tooltip="Ange inledande zoomfaktor för händelsen &quot;Gå till en sida i detta dokument&quot;" status="Ange inledande zoomfaktor för händelsen &quot;Gå till en sida i detta dokument&quot;" short="Ange inledande zoomfaktor..."/>
+		<item id="36552" title="Ta med sidinnehåll" tooltip="Söker efter texten på alla sidor" status="Söker efter texten på alla sidor" short=""/>
+		<item id="36553" title="Ta med sidinnehåll" tooltip="Söker efter texten på alla sidor" status="Söker efter texten på alla sidor" short=""/>
+		<item id="36554" title="Ta med dokumentinformation" tooltip="Söker efter texten i dokumentinformation ( i titel, ämne, författare, nyckelord, osv.)" status="Söker efter texten i dokumentinformation ( i titel, ämne, författare, nyckelord, osv.)" short=""/>
+		<item id="36556" title="Visa alla verktygsfält" tooltip="Visa alla verktygsfält" status="Visa alla verktygsfält" short=""/>
+		<item id="36557" title="Dölj alla verktygsfält" tooltip="Dölj alla verktygsfält" status="Dölj alla verktygsfält" short=""/>
+		<item id="36558" title="Visa efter författare" tooltip="" status="" short=""/>
+		<item id="36559" title="Alla författare" tooltip="" status="" short=""/>
+		<item id="36560" title="Välj författare..." tooltip="" status="" short=""/>
+		<item id="36562" title="Återställ föregående arbetspass..." tooltip="Återöppna alla dokument från det föregående arbetspasset..." status="Återöppna alla dokument från det föregående arbetspasset..." short=""/>
+		<item id="36563" title="Öppna gruppers popup-fönster" tooltip="Öppna alla popup-fönster för gruppen" status="" short=""/>
+		<item id="36564" title="Stäng gruppers popup-fönster" tooltip="Stäng alla popup-fönster för gruppen" status="" short=""/>
+		<item id="36569" title="Ange serial key..." tooltip="" status="" short=""/>
+		<item id="36570" title="OCR Sidor..." tooltip="Känn igen text på sidorna med OCR..." status="Känn igen text på sidorna med OCR..." short="OCR"/>
+		<item id="57600" title="&amp;Nytt dokument" tooltip="" status="" short=""/>
+		<item id="57601" title="&amp;Öppna" tooltip="Öppna ett befintligt dokument" status="Öppna ett befintligt dokument" short=""/>
+		<item id="57602" title="Stäng &amp;dokument" tooltip="Stäng det aktiva dokumentet" status="Stäng det aktiva dokumentet" short=""/>
+		<item id="57603" title="&amp;Spara" tooltip="Spara aktivt dokument" status="Spara aktivt dokument" short=""/>
+		<item id="57604" title="Spara s&amp;om" tooltip="Spara aktivt dokument med ett nytt namn" status="Spara aktivt dokument med ett nytt namn" short=""/>
+		<item id="57607" title="S&amp;kriv ut..." tooltip="Skriv ut det aktiva dokumentet" status="Skriv ut det aktiva dokumentet" short=""/>
+		<item id="57611" title="Spara kopia som" tooltip="Spara aktivt dokument som ett nytt dokument" status="Spara aktivt dokument som ett nytt dokument" short=""/>
+		<item id="57612" title="Skicka med &amp;E-post" tooltip="Bifoga det aktiva dokumentet till ett nytt E-brev" status="Bifoga det aktiva dokumentet till ett nytt E-brev" short=""/>
+		<item id="57632" title="R&amp;ensa" tooltip="Rensa markering" status="Rensa markering" short=""/>
+		<item id="57634" title="K&amp;opiera" tooltip="Kopierar markering och lägger den på klippbordet" status="Kopierar markering och lägger den på klippbordet" short=""/>
+		<item id="57635" title="&amp;Klipp ut" tooltip="Klipper ut markering och lägger den på klippbordet" status="Klipper ut markering och lägger den på klippbordet" short=""/>
+		<item id="57636" title="&amp;Hitta" tooltip="Hitta angiven text" status="Hitta angiven text" short=""/>
+		<item id="57637" title="Klistra &amp;in" tooltip="Klistrar in urklippt/kopierat material" status="Klistrar in urklippt/kopierat material" short=""/>
+		<item id="57642" title="&amp;Markera allt" tooltip="Markera allt" status="" short=""/>
+		<item id="57643" title="&amp;Ångra" tooltip="Ångrar senast utförda åtgärd" status="Ångrar senast utförda åtgärd" short=""/>
+		<item id="57644" title="&amp;Gör om" tooltip="Gör om senaste åtgärden som ångrades" status="Gör om senaste åtgärden som ångrades" short=""/>
+		<item id="57649" title="Ordna ikoner" tooltip="Arrangera ikonerna i botten av fönstret" status="Arrangera ikonerna i botten av fönstret" short=""/>
+		<item id="57650" title="Överlappande" tooltip="Arrangera fönster så de överlappar" status="Arrangera fönster så de överlappar" short=""/>
+		<item id="57651" title="Sida vid sida horisontellt" tooltip="Arrangera fönster som icke överlappande fält" status="Arrangera fönster som icke överlappande fält" short=""/>
+		<item id="57652" title="Sida vid sida vertikalt" tooltip="Arrangera fönster som icke överlappande fält" status="Arrangera fönster som icke överlappande fält" short=""/>
+		<item id="57653" title="Dela" tooltip="Dela aktivt fönster till paneler" status="Dela aktivt fönster till paneler" short=""/>
+		<item id="57664" title="Om PDF-XChange Viewer..." tooltip="Visa programinformation, versionsnummer och Copyright" status="Visa programinformation, versionsnummer och Copyright" short=""/>
+		<item id="57665" title="Avsluta" tooltip="Avsluta och fråga om att spara ändringar på ändrade dokument" status="Avsluta och fråga om att spara ändringar på ändrade dokument" short=""/>
+		<item id="57670" title="Hjälp" tooltip="" status="" short=""/>
+		<item id="57718" title="Rulla vänster" tooltip="Rulla vänster" status="" short=""/>
+		<item id="57719" title="Rulla höger" tooltip="Rulla höger" status="" short=""/>
+		<item id="59393" title="Status" tooltip="Visa/Dölj status verktygsfältet" status="Visa/Dölj status verktygsfältet" short=""/>
+	</commands>
+	<dialogs>
+		<dialog id="203" text="Inställningar">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="3" text="Verkställ" tooltip=""/>
+		</dialog>
+		<dialog id="204" text="">
+			<item id="1004" text="Utdata övertrumfar arbetsytor" tooltip=""/>
+			<item id="1008" text="Använd svartpunktskompensering" tooltip=""/>
+			<item id="1038" text="Färginställningar" tooltip=""/>
+			<item id="1039" text="&amp;RGB:" tooltip=""/>
+			<item id="1040" text="&amp;CMYK:" tooltip=""/>
+			<item id="1041" text="&amp;Gråskala:" tooltip=""/>
+			<item id="1042" text="&amp;Motor:" tooltip=""/>
+			<item id="1200" text="Arbetsytor" tooltip=""/>
+			<item id="1201" text="Konverteringsalternativ" tooltip=""/>
+		</dialog>
+		<dialog id="207" text="">
+			<item id="4" text="Bläddra..." tooltip=""/>
+			<item id="5" text="Bläddra..." tooltip=""/>
+			<item id="1009" text="Max antal dokument i senaste:" tooltip=""/>
+			<item id="1014" text="Visa välkomstskärm" tooltip=""/>
+			<item id="1015" text="Tillåt flera instanser av programmet" tooltip=""/>
+			<item id="1016" text="Minimera till aktivitetfältet" tooltip=""/>
+			<item id="1017" text="Stäng till systemfältet" tooltip=""/>
+			<item id="1032" text="Dokumentflikar" tooltip=""/>
+			<item id="1033" text="&amp;Flera dokumet" tooltip=""/>
+			<item id="1035" text="Visa stängknapp på varje flik" tooltip=""/>
+			<item id="1036" text="Enskilda dokument" tooltip=""/>
+			<item id="1037" text="Dölj flik för enstaka dokument" tooltip=""/>
+			<item id="1038" text="Metod för att spara Dokument:" tooltip=""/>
+			<item id="1039" text="Målmapp för nedladdningar:" tooltip=""/>
+			<item id="1040" text="Målmapp för &quot;Spara Som&quot; dokument:" tooltip=""/>
+			<item id="1199" text="Program" tooltip=""/>
+			<item id="1200" text="Dokument Layout" tooltip=""/>
+			<item id="1201" text="Öppna Dokument" tooltip=""/>
+			<item id="1202" text="Spara Dokument" tooltip=""/>
+			<item id="1227" text="Rensa Lista" tooltip=""/>
+			<item id="1228" text="Hantera..." tooltip=""/>
+			<item id="1450" text="Återskapa förra sessionen när programmet startar" tooltip=""/>
+			<item id="1451" text="Radera nedladdade filer efter användning" tooltip=""/>
+		</dialog>
+		<dialog id="212" text="Ange dokumentlösenord">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1039" text="Vänligen ange en giltig användare eller ägarens lösenord för dokumentet:" tooltip=""/>
+		</dialog>
+		<dialog id="213" text="Dokumentegenskaper">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+		</dialog>
+		<dialog id="214" text="">
+			<item id="1038" text="Filnamn:" tooltip=""/>
+			<item id="1039" text="Plats:" tooltip=""/>
+			<item id="1040" text="Skapad:" tooltip=""/>
+			<item id="1041" text="Ändrad:" tooltip=""/>
+			<item id="1042" text="Filstorlek:" tooltip=""/>
+			<item id="1043" text="Titel:" tooltip=""/>
+			<item id="1044" text="Författare:" tooltip=""/>
+			<item id="1200" text="Filinformation" tooltip=""/>
+			<item id="1201" text="Dokumentinformation" tooltip=""/>
+			<item id="1203" text="Ämne:" tooltip=""/>
+			<item id="1204" text="Nyckelord:" tooltip=""/>
+			<item id="1205" text="PDF Skapare:" tooltip=""/>
+			<item id="1206" text="Program" tooltip=""/>
+			<item id="1207" text="PDF Version:" tooltip=""/>
+			<item id="1208" text="Antal sidor:" tooltip=""/>
+			<item id="1209" text="Övriga metadata..." tooltip=""/>
+			<item id="1210" text="PDF Läsare:" tooltip=""/>
+		</dialog>
+		<dialog id="220" text="">
+			<item id="1038" text="Utskrift:" tooltip=""/>
+			<item id="1039" text="Ändring av dokument:" tooltip=""/>
+			<item id="1040" text="Innehållskopiering:" tooltip=""/>
+			<item id="1041" text="Kommentering:" tooltip=""/>
+			<item id="1042" text="Formulär ifyllnad:" tooltip=""/>
+			<item id="1043" text="Kopiering av innehåll för sammanslagning:" tooltip=""/>
+			<item id="1044" text="Dokumentsammanslagning:" tooltip=""/>
+			<item id="1045" text="Utbrytning av sidor:" tooltip=""/>
+			<item id="1047" text="Signering:" tooltip=""/>
+			<item id="1049" text="Skapa mallsidor:" tooltip=""/>
+			<item id="1200" text="Dokumentsäkerhet" tooltip=""/>
+			<item id="1201" text="Detaljer för dokumentets ändringstillstånd" tooltip=""/>
+			<item id="1203" text="Dokumentets säkerhet bestämmer vilka (om några) ändringar som är tillåtna." tooltip=""/>
+			<item id="1204" text="Säkerhetsmetod" tooltip=""/>
+			<item id="1205" text="Krypteringsmetod:" tooltip=""/>
+			<item id="1210" text="Ändra inställningar..." tooltip=""/>
+			<item id="1212" text="Visa detaljer:" tooltip=""/>
+		</dialog>
+		<dialog id="221" text="Exportera till bild">
+			<item id="1" text="Exportera:" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="4" text="Öppna..." tooltip=""/>
+			<item id="6" text="Makron" tooltip=""/>
+			<item id="7" text="Alternativ..." tooltip=""/>
+			<item id="1040" text="Målmapp:" tooltip=""/>
+			<item id="1041" text="Filnamn:" tooltip=""/>
+			<item id="1042" text="Bildformat:" tooltip=""/>
+			<item id="1043" text="Exportläge:" tooltip=""/>
+			<item id="1044" text="Upplösning:" tooltip=""/>
+			<item id="1201" text="Spara som" tooltip=""/>
+			<item id="1202" text="Grafik" tooltip=""/>
+			<item id="1203" text="Sidbakgrund:" tooltip=""/>
+			<item id="1204" text="Sidomfång" tooltip=""/>
+			<item id="1206" text="Sidzoom:" tooltip=""/>
+			<item id="1330" text="Alla" tooltip=""/>
+			<item id="1331" text="Markerade sidor" tooltip=""/>
+			<item id="1332" text="Aktuell sida" tooltip=""/>
+			<item id="1333" text="Sidor:" tooltip=""/>
+			<item id="1335" text="Urval" tooltip=""/>
+			<item id="1339" text="Aktuell vy" tooltip=""/>
+			<item id="1340" text="Markerad grafik" tooltip=""/>
+			<item id="1341" text="Omvänd ordning" tooltip=""/>
+			<item id="1387" text="Skriv in sidnummer och/eller sidintervall separerade med komma räknat från början av dokumentet. T.ex. skriv 1,3,5-12." tooltip=""/>
+		</dialog>
+		<dialog id="222" text="Alternativ för att spara bild">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+		</dialog>
+		<dialog id="223" text="">
+			<item id="1071" text="Avbryt" tooltip=""/>
+			<item id="1072" text="Hoppa över" tooltip=""/>
+		</dialog>
+		<dialog id="224" text="">
+			<item id="1038" text="Standardvy:" tooltip=""/>
+			<item id="1039" text="Standard sidlayout:" tooltip=""/>
+			<item id="1040" text="Standard zoomfaktor:" tooltip=""/>
+			<item id="1041" text="Använd upplösning:" tooltip=""/>
+			<item id="1042" text="pixlar per tum" tooltip=""/>
+			<item id="1073" text="Visa art, trim och bleedboxar" tooltip=""/>
+			<item id="1074" text="Visa transparent rutnät" tooltip=""/>
+			<item id="1079" text="Skapa länkar från URL:er" tooltip=""/>
+			<item id="1080" text="Ignorera &quot;IP&quot; URL länkar (utan HTTP://prefix)" tooltip=""/>
+			<item id="1083" text="Visa stora bilder" tooltip=""/>
+			<item id="1126" text="Använd den senaste använda vyn av dokumentet (anpassad layout och visning av dokumentets sidpaneler) vid öppning." tooltip=""/>
+			<item id="1200" text="Sidvisning" tooltip=""/>
+			<item id="1201" text="Startvisning" tooltip=""/>
+			<item id="1202" text="Startvy" tooltip=""/>
+			<item id="1228" text="Återskapa senaste använda layouten och zoomfaktorn för sidorna från senaste listan vid öppning" tooltip=""/>
+			<item id="1523" text="Förbjud ändring av nuvarande  zoomfaktor när händelsen &quot;Gå till mål&quot; inträffar. (dessa händelser kan startas från bokmärken, hyperlänkar eller java-skript)." tooltip=""/>
+		</dialog>
+		<dialog id="227" text="Bekräfta ersättning av fil">
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="6" text="Ja" tooltip=""/>
+			<item id="7" text="Nej" tooltip=""/>
+			<item id="100" text="Ja till alla" tooltip=""/>
+			<item id="101" text="Nej till alla" tooltip=""/>
+			<item id="102" text="Automatisk" tooltip=""/>
+			<item id="103" text="Spara som..." tooltip=""/>
+			<item id="1040" text="Skriv över denna fil?" tooltip=""/>
+			<item id="1041" text="Du kan använda automatisk namngivning för att generera ett unikt nytt filnamn:" tooltip=""/>
+		</dialog>
+		<dialog id="228" text="Fel vid skrivning till fil">
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="3" text="Avbryt" tooltip=""/>
+			<item id="4" text="Försök igen" tooltip=""/>
+			<item id="5" text="Ignorera" tooltip=""/>
+			<item id="103" text="Spara som" tooltip=""/>
+		</dialog>
+		<dialog id="229" text="Skriv ut">
+			<item id="1" text="Skriv ut..." tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Kopior:" tooltip=""/>
+			<item id="1041" text="Skalningstyp:" tooltip=""/>
+			<item id="1043" text="Namn:" tooltip=""/>
+			<item id="1044" text="Status:" tooltip=""/>
+			<item id="1086" text="Egenskaper..." tooltip=""/>
+			<item id="1087" text="Skriv till fil" tooltip=""/>
+			<item id="1088" text="Duplex läge" tooltip=""/>
+			<item id="1094" text="Ordna" tooltip=""/>
+			<item id="1096" text="Skriv som gråskala" tooltip=""/>
+			<item id="1097" text="Skriv som bilder" tooltip=""/>
+			<item id="1127" text="Sidskalning" tooltip=""/>
+			<item id="1200" text="Skrivare" tooltip=""/>
+			<item id="1201" text="Utskriftsområde" tooltip=""/>
+			<item id="1203" text="Typ:" tooltip=""/>
+			<item id="1204" text="Utskriftsalternativ" tooltip=""/>
+			<item id="1206" text="Skriv:" tooltip=""/>
+			<item id="1207" text="Utskriftssidor:" tooltip=""/>
+			<item id="1330" text="Alla" tooltip=""/>
+			<item id="1331" text="Markerade sidor" tooltip=""/>
+			<item id="1332" text="Aktuell sida" tooltip=""/>
+			<item id="1333" text="Sidor:" tooltip=""/>
+			<item id="1335" text="Urval:" tooltip=""/>
+			<item id="1339" text="Aktuell vy" tooltip=""/>
+			<item id="1340" text="Markerad grafik" tooltip=""/>
+			<item id="1341" text="Omvänd ordning" tooltip=""/>
+			<item id="1343" text="Avancerad..." tooltip=""/>
+			<item id="1387" text="Skriv in sidnummer och/eller sidintervall separerade med komma räknat från början av dokumentet. T.ex. skriv 1,3,5-12." tooltip=""/>
+		</dialog>
+		<dialog id="230" text="">
+			<item id="1038" text="Sid skalning:" tooltip=""/>
+			<item id="1116" text="Välj papperskälla efter PDF-sidstorlek" tooltip=""/>
+			<item id="1120" text="Autorotera sidor" tooltip=""/>
+			<item id="1121" text="Autocentrera sidor" tooltip=""/>
+		</dialog>
+		<dialog id="231" text="">
+			<item id="1038" text="Sidor per blad:" tooltip=""/>
+			<item id="1039" text="Sidordning:" tooltip=""/>
+			<item id="1108" text="Visa sidram" tooltip=""/>
+			<item id="1120" text="Autorotera sida i ruta" tooltip=""/>
+			<item id="1121" text="Autocentrera sida i ruta" tooltip=""/>
+			<item id="1128" text="x" tooltip=""/>
+		</dialog>
+		<dialog id="232" text="">
+			<item id="1038" text="Sidskalning:" tooltip=""/>
+			<item id="1040" text="Överlapp:" tooltip=""/>
+			<item id="1110" text="Visa skärmarkeringar på sidor" tooltip=""/>
+			<item id="1118" text="Visa etiketter på sidor" tooltip=""/>
+			<item id="1120" text="Auto rotera sidor" tooltip=""/>
+			<item id="1121" text="Auto centrera sidor" tooltip=""/>
+		</dialog>
+		<dialog id="236" text="Gå till sida">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Ange sidnummer:" tooltip=""/>
+		</dialog>
+		<dialog id="237" text="Zooma till">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Ange förstoring:" tooltip=""/>
+		</dialog>
+		<dialog id="244" text="">
+			<item id="1038" text="Vilket ord eller vilken fras vill du söka efter?" tooltip=""/>
+			<item id="1039" text="Var vill du söka?" tooltip=""/>
+			<item id="1040" text="Sortera efter:" tooltip=""/>
+			<item id="1099" text="Alternativ" tooltip=""/>
+			<item id="1139" text="Sök nu" tooltip=""/>
+			<item id="1142" text="Rensa" tooltip=""/>
+		</dialog>
+		<dialog id="245" text="Sök alternativ">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Använd närhetssökning:" tooltip=""/>
+			<item id="1126" text="Matcha gemener/VERSALER" tooltip=""/>
+			<item id="1128" text="Ta med kommentarer" tooltip=""/>
+			<item id="1129" text="Ta med bokmärken" tooltip=""/>
+			<item id="1130" text="Titta i undermappar" tooltip=""/>
+			<item id="1131" text="Ta med bilagor" tooltip=""/>
+			<item id="1145" text="Enbart hela ord" tooltip=""/>
+			<item id="1193" text="Närmast" tooltip=""/>
+			<item id="1194" text="På sidan" tooltip=""/>
+			<item id="1195" text="I dokumentet" tooltip=""/>
+			<item id="1200" text="Använd dessa extra urval:" tooltip=""/>
+		</dialog>
+		<dialog id="246" text="Avancerad sökning">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="alla av följande ord:" tooltip=""/>
+			<item id="1039" text="den exakta texten:" tooltip=""/>
+			<item id="1040" text="något av orden:" tooltip=""/>
+			<item id="1041" text="inget av orden:" tooltip=""/>
+			<item id="1200" text="Sökresultatet skall innehålla:" tooltip=""/>
+		</dialog>
+		<dialog id="247" text="">
+			<item id="1038" text="Systemminne i procent:" tooltip=""/>
+			<item id="1039" text="Maximalt antal trådar för sidtolkning:" tooltip=""/>
+			<item id="1040" text="Maximalt antal trådar för att skapa tumnaglar:" tooltip=""/>
+			<item id="1041" text="Maximalt antal tillåtna trådar som tillåts:" tooltip=""/>
+			<item id="1200" text="Minnesanvändning" tooltip=""/>
+			<item id="1201" text="Användning av trådar" tooltip=""/>
+			<item id="1525" text="Använd synkron sidåtergivning (kan göra programmet långsamt)" tooltip=""/>
+			<item id="1553" text="Använd systemets minne i megabyte:" tooltip=""/>
+		</dialog>
+		<dialog id="257" text="Rotera sidor">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Rotera" tooltip=""/>
+			<item id="1039" text="Skriv in sidnummer och/eller sidintervall separerade med komma räknat från början av dokumentet. T.ex. skriv 1,3,5-12." tooltip=""/>
+			<item id="1041" text="Riktning" tooltip=""/>
+			<item id="1164" text="Alla" tooltip=""/>
+			<item id="1165" text="Markerade sidor" tooltip=""/>
+			<item id="1166" text="Aktuell sida" tooltip=""/>
+			<item id="1167" text="Sidor" tooltip=""/>
+			<item id="1200" text="Sidomfång" tooltip=""/>
+		</dialog>
+		<dialog id="258" text="Radera sidor">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Radera:" tooltip=""/>
+			<item id="1039" text="Skriv in sidnummer och/eller sidintervall separerade med komma räknat från början av dokumentet. T.ex. skriv 1,3,5-12." tooltip=""/>
+			<item id="1165" text="Markerade sidor" tooltip=""/>
+			<item id="1166" text="Aktuell sida" tooltip=""/>
+			<item id="1167" text="Sidor:" tooltip=""/>
+			<item id="1200" text="Sidomfång" tooltip=""/>
+		</dialog>
+		<dialog id="265" text="Egenskaper">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="3" text="Verställ" tooltip=""/>
+			<item id="1180" text="Avancerat" tooltip=""/>
+		</dialog>
+		<dialog id="266" text="">
+			<item id="1038" text="Start:" tooltip=""/>
+			<item id="1039" text="Slut:" tooltip=""/>
+			<item id="1040" text="Typ:" tooltip=""/>
+			<item id="1041" text="Tjocklek:" tooltip=""/>
+			<item id="1042" text="Färg:" tooltip=""/>
+			<item id="1043" text="Fyllnadsfärg:" tooltip=""/>
+			<item id="1044" text="Transparens:" tooltip=""/>
+			<item id="1200" text="Linjeslut" tooltip=""/>
+			<item id="1201" text="Kantlinje" tooltip=""/>
+		</dialog>
+		<dialog id="268" text="">
+			<item id="1038" text="Författare:" tooltip=""/>
+			<item id="1039" text="Ämne:" tooltip=""/>
+			<item id="1040" text="Skapad:" tooltip=""/>
+			<item id="1041" text="Ändrad:" tooltip=""/>
+		</dialog>
+		<dialog id="272" text="">
+			<item id="1038" text="Stil:" tooltip=""/>
+			<item id="1039" text="Tjocklek:" tooltip=""/>
+			<item id="1040" text="Färg:" tooltip=""/>
+			<item id="1041" text="Fyllnadsfärg:" tooltip=""/>
+			<item id="1042" text="Transparens:" tooltip=""/>
+			<item id="1200" text="Kantlinje" tooltip=""/>
+		</dialog>
+		<dialog id="273" text="">
+			<item id="1038" text="Tjocklek:" tooltip=""/>
+			<item id="1039" text="Färg:" tooltip=""/>
+			<item id="1040" text="Transparens:" tooltip=""/>
+			<item id="1200" text="Kantlinje" tooltip=""/>
+		</dialog>
+		<dialog id="274" text="">
+			<item id="1038" text="Angvina enheter kommer att användas globalt för visning av linjaler, sidstorlek, raster, stödlinjes, tips mm.:" tooltip=""/>
+			<item id="1039" text="Bredd mellan rutnätslinjer:" tooltip=""/>
+			<item id="1040" text="Höjd mellan rutnätslinjer:" tooltip=""/>
+			<item id="1041" text="Vänstermarginal till rutnät:" tooltip=""/>
+			<item id="1042" text="Övre marginal till rutnät:" tooltip=""/>
+			<item id="1043" text="Antal delmarkeringar i rutnät:" tooltip=""/>
+			<item id="1045" text="Linjestil för rutnät:" tooltip=""/>
+			<item id="1046" text="Stil för stödlinje:" tooltip=""/>
+			<item id="1047" text="Antal delmarkeringar:" tooltip=""/>
+			<item id="1200" text="Enheter" tooltip=""/>
+			<item id="1201" text="Rutnät och stödlinjer" tooltip=""/>
+			<item id="1483" text="Visa rutnät" tooltip=""/>
+			<item id="1484" text="Visa stödlinjer" tooltip=""/>
+			<item id="1490" text="Visa linjaler" tooltip=""/>
+			<item id="1491" text="Visa bråkdelar" tooltip=""/>
+			<item id="1499" text="Anpassa..." tooltip=""/>
+			<item id="1502" text="Fäst mot (rutnät, stödlinjer, objekt)" tooltip=""/>
+		</dialog>
+		<dialog id="278" text="Rapportera ett problem">
+			<item id="1" text="Nästa..." tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="4" text="Bläddra..." tooltip=""/>
+			<item id="1038" text="Ditt meddelande kommer att skickas med E-post - du kan redigera det innan du skickar." tooltip=""/>
+			<item id="1039" text="Vänligen välj en problemrubrik:" tooltip=""/>
+			<item id="1040" text="Beskrivning (skriv en kort beskrivning av problemet):" tooltip=""/>
+			<item id="1041" text="Bifoga en fil (PDF dokument) till meddelandet?" tooltip=""/>
+			<item id="1126" text="Ta med ditt typsnitts och färginformation (rekomenderas)" tooltip=""/>
+			<item id="1127" text="Ta med dina skrivare och inställningsinformation (rekomenderas)" tooltip=""/>
+			<item id="1128" text="Ta med din Windows versionsinformation (rekomenderas)" tooltip=""/>
+			<item id="1183" text="Ta med PDF-XChange Viewer versionsinformation (rekomenderas)" tooltip=""/>
+			<item id="1524" text="Ta med en lista på alla laddade moduler (DLL:er) som användes (rekomenderas)" tooltip=""/>
+		</dialog>
+		<dialog id="279" text="">
+			<item id="1038" text="Ikon:" tooltip=""/>
+			<item id="1039" text="Färg:" tooltip=""/>
+			<item id="1040" text="Transparens:" tooltip=""/>
+			<item id="1200" text="Utseende" tooltip=""/>
+		</dialog>
+		<dialog id="282" text="Javaskript konsol">
+			<item id="1" text="Kör" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1200" text="Skript" tooltip=""/>
+			<item id="1201" text="Utdata" tooltip=""/>
+		</dialog>
+		<dialog id="283" text="">
+			<item id="1038" text="Linjeslut:" tooltip=""/>
+			<item id="1039" text="Stil:" tooltip=""/>
+			<item id="1040" text="Tjocklek:" tooltip=""/>
+			<item id="1041" text="Kantfärg:" tooltip=""/>
+			<item id="1042" text="Fyllnadsfärg:" tooltip=""/>
+			<item id="1043" text="Transparens:" tooltip=""/>
+			<item id="1200" text="Avslutning" tooltip=""/>
+			<item id="1201" text="Kantlinje" tooltip=""/>
+		</dialog>
+		<dialog id="284" text="">
+			<item id="1038" text="Färg:" tooltip=""/>
+			<item id="1039" text="Transparens:" tooltip=""/>
+			<item id="1200" text="Utseende" tooltip=""/>
+		</dialog>
+		<dialog id="290" text="Stämplar">
+		</dialog>
+		<dialog id="291" text="">
+			<item id="1038" text="Gör PDF_XChange Viewer till din standard PDF läsare:" tooltip=""/>
+			<item id="1039" text="Återställ ett tidigare associerat program till din standard PDF läsare (om den fortfarande är installerad):" tooltip=""/>
+			<item id="1127" text="Visa PDF i webläsare" tooltip=""/>
+			<item id="1162" text="Gör till standard PDF läsare" tooltip=""/>
+			<item id="1197" text="Återställ fil associationer" tooltip=""/>
+			<item id="1200" text="Fil association" tooltip=""/>
+		</dialog>
+		<dialog id="292" text="">
+			<item id="1038" text="Transparens:" tooltip=""/>
+			<item id="1200" text="Utseende" tooltip=""/>
+		</dialog>
+		<dialog id="295" text="">
+			<item id="1038" text="Loginnamn:" tooltip=""/>
+			<item id="1039" text="Namn:" tooltip=""/>
+			<item id="1040" text="Titel:" tooltip=""/>
+			<item id="1041" text="Organisationsnamn:" tooltip=""/>
+			<item id="1042" text="Avdelning:" tooltip=""/>
+			<item id="1043" text="E-post adress:" tooltip=""/>
+			<item id="1044" text="Informationen om din identitet används i kommentarer, granskningar och digitala signaturer. Denna information kommer inte att lämnas vidare utan ditt samtycke." tooltip=""/>
+			<item id="1200" text="Identitet" tooltip=""/>
+		</dialog>
+		<dialog id="296" text="">
+			<item id="1038" text="Välj önskat språk på programmet:           Svensk UPDATE: info@pdf-xchange.se" tooltip=""/>
+			<item id="1200" text="Språk" tooltip=""/>
+			<item id="1219" text="Sätt till användarens landsinställingar" tooltip=""/>
+			<item id="1220" text="Välj ett anpassat språk" tooltip=""/>
+			<item id="1221" text="Använd PDF-XChange Viewers standard språk (Engelska)" tooltip=""/>
+		</dialog>
+		<dialog id="297" text="Öppna dokument från URL">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Skriv in dokumentets URL" tooltip=""/>
+		</dialog>
+		<dialog id="298" text="Anpassa">
+			<item id="1" text="Stäng" tooltip=""/>
+			<item id="1316" text="Återställ alla" tooltip=""/>
+		</dialog>
+		<dialog id="299" text="">
+			<item id="1039" text="Verktygsfält:" tooltip=""/>
+			<item id="1234" text="Återställ" tooltip=""/>
+			<item id="1235" text="Byt namn" tooltip=""/>
+			<item id="1237" text="Nytt..." tooltip=""/>
+			<item id="1250" text="Radera" tooltip=""/>
+		</dialog>
+		<dialog id="300" text="">
+			<item id="1038" text="För att lägga till kommandon, dra kommandot från kommandolistan till målverktygsfältet eller menyn." tooltip=""/>
+			<item id="1039" text="Kategorier:" tooltip=""/>
+			<item id="1040" text="Kommandon:" tooltip=""/>
+			<item id="1314" text="Visa begränsade, &quot;PRO&quot; kommandon i kommandolistan, menyer och verktygsfält" tooltip=""/>
+			<item id="1320" text="Nytt..." tooltip=""/>
+			<item id="1321" text="Egenskaper" tooltip=""/>
+		</dialog>
+		<dialog id="301" text="">
+			<item id="1038" text="Typsnitt för menyer och verktygsfält:" tooltip=""/>
+			<item id="1039" text="Normalt användartypsnitt (används i alla vyer och dialogrutor):" tooltip=""/>
+			<item id="1233" text="Visa skärmtips på verktygsfält" tooltip=""/>
+			<item id="1234" text="Visa snabbtangenter i skärmtips" tooltip=""/>
+			<item id="1235" text="Visa snabbtangenter i menyer" tooltip=""/>
+			<item id="1236" text="Aktivera 3D-utseende för verktygsfält" tooltip=""/>
+			<item id="1237" text="Visa ytterligare separatorer mellan verktygsfält" tooltip=""/>
+			<item id="1261" text="Typsnitt för användargränssnitt" tooltip=""/>
+			<item id="1536" text="Verkställ" tooltip=""/>
+		</dialog>
+		<dialog id="302" text="">
+			<item id="1038" text="Sidbakgrund:" tooltip=""/>
+			<item id="1039" text="Fyllnadsfärg:" tooltip=""/>
+			<item id="1040" text="Pennfärg:" tooltip=""/>
+			<item id="1126" text="Textfärg:" tooltip=""/>
+			<item id="1127" text="Vektorgrafik:" tooltip=""/>
+			<item id="1128" text="Ändra bara färgen på svart text eller svarta linjer" tooltip=""/>
+			<item id="1200" text="Färgalternativ för dokument" tooltip=""/>
+			<item id="1220" text="Använd ett anpassat färgschema:" tooltip=""/>
+			<item id="1235" text="Använd Windows färgschema" tooltip=""/>
+			<item id="1236" text="Använd ett förkonfigurerat färgschema med hög kontrast:" tooltip=""/>
+			<item id="1240" text="Åsidosätt dokumentfärger" tooltip=""/>
+			<item id="1241" text="Ändra även färger på linjer" tooltip=""/>
+		</dialog>
+		<dialog id="303" text="">
+			<item id="1038" text="Bakgrundsfärg:" tooltip=""/>
+			<item id="1200" text="Fullskärmsutseende" tooltip=""/>
+			<item id="1239" text="Musmarkör:" tooltip=""/>
+			<item id="1530" text="Aktivera Presentationsläge" tooltip=""/>
+			<item id="1540" text="Visa huvudbakgriund" tooltip=""/>
+			<item id="1551" text="Visa navigeringsfält" tooltip=""/>
+			<item id="1552" text="Behåll nuvarande sidovy (sidlayout, zoom, synvinkel)" tooltip=""/>
+		</dialog>
+		<dialog id="304" text="">
+			<item id="1038" text="Upplösning:" tooltip=""/>
+			<item id="1039" text="dpi" tooltip=""/>
+			<item id="1096" text="Gör ögonblicksbilder i gråskala" tooltip=""/>
+			<item id="1200" text="Alternativ för ögonblicksbilder" tooltip=""/>
+			<item id="1201" text="Kameraljud" tooltip=""/>
+			<item id="1242" text="Använd fast upplösning för ögonblicksbilder:" tooltip=""/>
+			<item id="1244" text="Spela inte upp ljud när ögonblicksbilder tas" tooltip=""/>
+		</dialog>
+		<dialog id="305" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+		</dialog>
+		<dialog id="306" text="">
+			<item id="1038" text="Titeltext:" tooltip=""/>
+			<item id="1039" text="Stil:" tooltip=""/>
+			<item id="1040" text="Färg:" tooltip=""/>
+		</dialog>
+		<dialog id="307" text="">
+			<item id="1038" text="Du kan välja att lägga till en ny händelse eller redigera en befintlig. Du kan också ändra ordningen med hjälp av dra och släpp." tooltip=""/>
+			<item id="1039" text="Välj utlösare:" tooltip=""/>
+		</dialog>
+		<dialog id="308" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="3" text="Lägg till nuvarande vy" tooltip=""/>
+			<item id="4" text="..." tooltip=""/>
+			<item id="5" text="Radera" tooltip=""/>
+			<item id="1038" text="Du kan ange ett nytt mål genom att välja knappen &quot;Använd nuvarande vy&quot; nedan:" tooltip=""/>
+			<item id="1039" text="Filnamn:" tooltip=""/>
+			<item id="1040" text="Sida:" tooltip=""/>
+			<item id="1041" text="X:" tooltip=""/>
+			<item id="1042" text="Y:" tooltip=""/>
+			<item id="1043" text="Bredd:" tooltip=""/>
+			<item id="1044" text="Höjd:" tooltip=""/>
+			<item id="1045" text="Öppna i:" tooltip=""/>
+			<item id="1066" text="Förhandsgranska" tooltip=""/>
+			<item id="1067" text="Justera" tooltip=""/>
+			<item id="1126" text="Ärv" tooltip=""/>
+			<item id="1127" text="Ärv" tooltip=""/>
+			<item id="1200" text="Målegenskaper" tooltip=""/>
+			<item id="1252" text="Använd förstoringsgrad:" tooltip=""/>
+			<item id="1253" text="Använd rektangel:" tooltip=""/>
+			<item id="1261" text="Måldokument" tooltip=""/>
+			<item id="1271" text="Zooma in" tooltip=""/>
+			<item id="1272" text="Zooma ut" tooltip=""/>
+			<item id="1275" text="Använd nuvarande vy" tooltip=""/>
+			<item id="1435" text="Använd sidnummer" tooltip=""/>
+			<item id="1436" text="Använd namngivet mål" tooltip=""/>
+		</dialog>
+		<dialog id="309" text="">
+			<item id="1039" text="Namn:" tooltip=""/>
+			<item id="1041" text="Organisationsnamn:" tooltip=""/>
+			<item id="1043" text="E-postadress:" tooltip=""/>
+			<item id="1045" text="Registreringsnyckel:" tooltip=""/>
+			<item id="1200" text="Registrering för användare och ägare" tooltip=""/>
+			<item id="1274" text="Dölj ej aktiva PRO funktioner   Frågor om PRO update: info@pdf-xhange.se    " tooltip=""/>
+			<item id="1282" text="Dölj reklamfältet                     Frågor om PRO update: info@pdf-xhange.se    " tooltip=""/>
+		</dialog>
+		<dialog id="310" text="">
+			<item id="1038" text="Typsnitt:" tooltip=""/>
+			<item id="1044" text="Typsnittsstorlek:" tooltip=""/>
+			<item id="1200" text="Javaskript" tooltip=""/>
+			<item id="1201" text="Javaskript konsol" tooltip=""/>
+			<item id="1276" text="Aktivera Javaskript händelser" tooltip=""/>
+			<item id="1277" text="Aktivera Javaskripts interaktiva konsol" tooltip=""/>
+			<item id="1278" text="Visa konsol vid fel och meddelande" tooltip=""/>
+			<item id="1279" text="Visa en varning när Javaskript händelser körs" tooltip=""/>
+		</dialog>
+		<dialog id="311" text="Gå till rad">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Radnummer:" tooltip=""/>
+		</dialog>
+		<dialog id="312" text="Beskär sidor">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Gäller för:" tooltip=""/>
+			<item id="1039" text="Skriv in sidnummer och/eller sidintervall separerade med komma räknat från början av dokumentet. T.ex. skriv 1,3,5-12." tooltip=""/>
+			<item id="1041" text="Ruta:" tooltip=""/>
+			<item id="1042" text="Vänster:" tooltip=""/>
+			<item id="1043" text="Höger:" tooltip=""/>
+			<item id="1044" text="Uppe:" tooltip=""/>
+			<item id="1045" text="Nere:" tooltip=""/>
+			<item id="1046" text="Enheter:" tooltip=""/>
+			<item id="1126" text="Anpassa till vita marginaler" tooltip=""/>
+			<item id="1127" text="Ta bort vita marginaler" tooltip=""/>
+			<item id="1129" text="Behåll proportioner" tooltip=""/>
+			<item id="1164" text="Alla" tooltip=""/>
+			<item id="1165" text="Markerade sidor" tooltip=""/>
+			<item id="1166" text="Aktuell sida" tooltip=""/>
+			<item id="1167" text="Sidor:" tooltip=""/>
+			<item id="1200" text="Sidomfång" tooltip=""/>
+			<item id="1201" text="Beskäringsmarginaler" tooltip=""/>
+			<item id="1202" text="Marginaler" tooltip=""/>
+			<item id="1285" text="Visa alla rutor" tooltip=""/>
+			<item id="1290" text="Nollställ" tooltip=""/>
+			<item id="1291" text="Återställ till ursprung" tooltip=""/>
+		</dialog>
+		<dialog id="313" text="Infoga sidor">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="4" text="Bläddra..." tooltip=""/>
+			<item id="1038" text="Infoga:" tooltip=""/>
+			<item id="1039" text="Skriv in sidnummer och/eller sidintervall separerade med komma räknat från början av dokumentet. T.ex. skriv 1,3,5-12." tooltip=""/>
+			<item id="1042" text="Plats:" tooltip=""/>
+			<item id="1164" text="Alla" tooltip=""/>
+			<item id="1167" text="Sidor:" tooltip=""/>
+			<item id="1200" text="Sidområde för källa" tooltip=""/>
+			<item id="1201" text="Källa" tooltip=""/>
+			<item id="1202" text="Mål" tooltip=""/>
+			<item id="1292" text="Från fil" tooltip=""/>
+			<item id="1293" text="Från ett redan öppet dokument" tooltip=""/>
+			<item id="1295" text="Första sidan" tooltip=""/>
+			<item id="1296" text="Sista sidan" tooltip=""/>
+			<item id="1297" text="Sida" tooltip=""/>
+		</dialog>
+		<dialog id="314" text="Separera sidor">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="4" text="Bläddra..." tooltip=""/>
+			<item id="6" text="Makron" tooltip=""/>
+			<item id="1038" text="Gäller för:" tooltip=""/>
+			<item id="1039" text="Skriv in sidnummer och/eller sidintervall separerade med komma räknat från början av dokumentet. T.ex. skriv 1,3,5-12." tooltip=""/>
+			<item id="1041" text="Filnamn:" tooltip=""/>
+			<item id="1043" text="Målmapp:" tooltip=""/>
+			<item id="1126" text="Separera sidor till egna filer" tooltip=""/>
+			<item id="1127" text="Spara extraherade sidor till ny fil" tooltip=""/>
+			<item id="1164" text="Alla" tooltip=""/>
+			<item id="1165" text="Markerade sidor" tooltip=""/>
+			<item id="1166" text="Aktuell sida" tooltip=""/>
+			<item id="1167" text="Sidor:" tooltip=""/>
+			<item id="1200" text="Sidomfång" tooltip=""/>
+			<item id="1201" text="Alternativ" tooltip=""/>
+			<item id="1202" text="Spara som" tooltip=""/>
+			<item id="1299" text="Radera sidor efter separering" tooltip=""/>
+		</dialog>
+		<dialog id="315" text="">
+			<item id="1200" text="Alternativ för kommentarsskapande" tooltip=""/>
+			<item id="1201" text="Alternativ för kommentarsvisning" tooltip=""/>
+			<item id="1234" text="Aktivera skärmstips" tooltip=""/>
+			<item id="1235" text="Visa Ämne i kommentars popup fönster" tooltip=""/>
+			<item id="1236" text="Visa Författare i kommentars popup fönster" tooltip=""/>
+			<item id="1237" text="Visa Ändringsdatum i kommetars popup fönster" tooltip=""/>
+			<item id="1302" text="Kopiera inringad text till ritkommentars popup fönster" tooltip=""/>
+			<item id="1303" text="Kopiera markerad text till textkommentars popup fönster" tooltip=""/>
+			<item id="1304" text="Klistra in kommentarer vid markörposition" tooltip=""/>
+			<item id="1354" text="Visa textindikationer" tooltip=""/>
+			<item id="1507" text="Förenklad fokusvisning" tooltip=""/>
+			<item id="1538" text="Aktivera exklusiv åtkomst till kommentarsverktyg" tooltip=""/>
+			<item id="1540" text="Aktivera exklusiv åtkomst till ickekommentarsverktyg, t.ex. Hand, Val samt Zoomningsverktygen: -blockera musåtkomst till kommentarer om inte SHIFT tangenten används" tooltip=""/>
+			<item id="1548" text="Aktivera exklusivt läge för icke-kommentarverktyg t.ex. Hand, Zoom, Välj, etc. - blockerar mus tillgång till kommentarer om inte SHIFT används" tooltip=""/>
+		</dialog>
+		<dialog id="316" text="Infoga tomma sidor">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1039" text="Orientering:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="Antal:" tooltip=""/>
+			<item id="1042" text="Plats:" tooltip=""/>
+			<item id="1200" text="Sidor" tooltip=""/>
+			<item id="1202" text="Mål" tooltip=""/>
+			<item id="1292" text="Standard" tooltip=""/>
+			<item id="1293" text="Egen:" tooltip=""/>
+			<item id="1295" text="Första sidan" tooltip=""/>
+			<item id="1296" text="Sista sidan" tooltip=""/>
+			<item id="1297" text="Sida:" tooltip=""/>
+			<item id="1304" text="Stående" tooltip=""/>
+			<item id="1305" text="Liggande" tooltip=""/>
+		</dialog>
+		<dialog id="317" text="Byt namn på stämpel">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Ange ett nytt namn på stämpeln" tooltip=""/>
+		</dialog>
+		<dialog id="318" text="Sätt in stämpel">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="4" text="Bläddra..." tooltip=""/>
+			<item id="1039" text="Fil:" tooltip=""/>
+			<item id="1041" text="Sida:" tooltip=""/>
+			<item id="1042" text="Titel:" tooltip=""/>
+			<item id="1200" text="Källa" tooltip=""/>
+			<item id="1201" text="Stämpelinformation" tooltip=""/>
+		</dialog>
+		<dialog id="321" text="Text egenskaper">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="3" text="Verkställ" tooltip=""/>
+		</dialog>
+		<dialog id="322" text="">
+			<item id="1313" text="Kopiera till urklipp" tooltip=""/>
+		</dialog>
+		<dialog id="324" text="Egenskaper för kommando">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Bild" tooltip=""/>
+			<item id="1039" text="Titel:" tooltip=""/>
+			<item id="1040" text="Verktygstips:" tooltip=""/>
+			<item id="1041" text="Status text:" tooltip=""/>
+			<item id="1042" text="Kort titel:" tooltip=""/>
+			<item id="1043" text="ID:" tooltip=""/>
+			<item id="1044" text="Namn:" tooltip=""/>
+			<item id="1126" text="Kontrollera med Javaskript:" tooltip=""/>
+			<item id="1127" text="Aktivera med Javaskript:" tooltip=""/>
+			<item id="1198" text="Kommandohändelser:" tooltip=""/>
+			<item id="1200" text="Identifiering:" tooltip=""/>
+			<item id="1201" text="Snabbtangent:" tooltip=""/>
+			<item id="1202" text="Lägesbestämning:" tooltip=""/>
+			<item id="1203" text="Namn (c) Adobe:" tooltip=""/>
+			<item id="1204" text="Tangent:" tooltip=""/>
+			<item id="1261" text="Utseende" tooltip=""/>
+			<item id="1292" text="Förinställda händelser:" tooltip=""/>
+			<item id="1293" text="Kör ett Javaskript:" tooltip=""/>
+			<item id="1324" text="Redigera..." tooltip=""/>
+			<item id="1325" text="Redigera..." tooltip=""/>
+			<item id="1326" text="Redigera..." tooltip=""/>
+		</dialog>
+		<dialog id="325" text="">
+			<item id="1039" text="Tecken gamma:" tooltip=""/>
+			<item id="1076" text="Jämna till text" tooltip=""/>
+			<item id="1077" text="Jämna till vektografik" tooltip=""/>
+			<item id="1078" text="Jämna till bilder" tooltip=""/>
+			<item id="1200" text="Teckentolkning" tooltip=""/>
+			<item id="1202" text="Utjämning" tooltip=""/>
+		</dialog>
+		<dialog id="326" text="Nytt verktygsfält">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Titel på vektygsfält:" tooltip=""/>
+		</dialog>
+		<dialog id="327" text="Platta ut anteckningar">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Gäller för:" tooltip=""/>
+			<item id="1039" text="Skriv in sidnummer och/eller sidintervall separerade med komma räknat från början av dokumentet. T.ex. skriv 1,3,5-12." tooltip=""/>
+			<item id="1041" text="Ej utskrivbara:" tooltip=""/>
+			<item id="1042" text="Formulär fält:" tooltip=""/>
+			<item id="1164" text="Alla" tooltip=""/>
+			<item id="1165" text="Markerade sidor" tooltip=""/>
+			<item id="1166" text="Aktuell sida" tooltip=""/>
+			<item id="1167" text="Sidor:" tooltip=""/>
+			<item id="1200" text="Sidomfång" tooltip=""/>
+			<item id="1201" text="Alternativ" tooltip=""/>
+		</dialog>
+		<dialog id="328" text="Summera kommentarer">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Gruppera efter:" tooltip=""/>
+			<item id="1040" text="Sortera efter:" tooltip=""/>
+			<item id="1041" text="Typ:" tooltip=""/>
+			<item id="1126" text="Undanta svar" tooltip=""/>
+			<item id="1200" text="Sidomfång" tooltip=""/>
+			<item id="1201" text="Utdata" tooltip=""/>
+			<item id="1202" text="Alternativ" tooltip=""/>
+			<item id="1261" text="Allmänt" tooltip=""/>
+			<item id="1330" text="Alla" tooltip=""/>
+			<item id="1331" text="Markerade sidor" tooltip=""/>
+			<item id="1332" text="Aktuell sida" tooltip=""/>
+			<item id="1333" text="Sidor:" tooltip=""/>
+			<item id="1335" text="Urval:" tooltip=""/>
+			<item id="1341" text="Ta med osynliga kommentarer" tooltip=""/>
+			<item id="1356" text="Visa nya dokument efter de skapats" tooltip=""/>
+			<item id="1387" text="Skriv in sidnummer och/eller sidintervall separerade med komma räknat från början av dokumentet. T.ex. skriv 1,3,5-12." tooltip=""/>
+		</dialog>
+		<dialog id="329" text="">
+			<item id="1038" text="Layout:" tooltip=""/>
+			<item id="1039" text="Papper:" tooltip=""/>
+			<item id="1343" text="Avancerat" tooltip=""/>
+			<item id="1351" text="Placera varje grupp på enskild sida" tooltip=""/>
+			<item id="1352" text="Hoppa över sidor utan kommentarer" tooltip=""/>
+		</dialog>
+		<dialog id="332" text="">
+			<item id="4" text="Bläddra..." tooltip=""/>
+			<item id="6" text="Makron" tooltip=""/>
+			<item id="1038" text="Namn på målmapp" tooltip=""/>
+			<item id="1039" text="Filnamn:" tooltip=""/>
+		</dialog>
+		<dialog id="333" text="">
+			<item id="4" text="Bläddra..." tooltip=""/>
+			<item id="6" text="Makron" tooltip=""/>
+			<item id="1038" text="Namn på målmapp" tooltip=""/>
+			<item id="1039" text="Filnamn:" tooltip=""/>
+			<item id="1041" text="Papper:" tooltip=""/>
+			<item id="1351" text="Placera varje grupp på enskild sida" tooltip=""/>
+		</dialog>
+		<dialog id="334" text="">
+			<item id="4" text="Bläddra..." tooltip=""/>
+			<item id="6" text="Makron" tooltip=""/>
+			<item id="1038" text="Namn på målmapp:" tooltip=""/>
+			<item id="1039" text="Filnamn:" tooltip=""/>
+			<item id="1261" text="Teckenkodning" tooltip=""/>
+			<item id="1292" text="Unicode" tooltip=""/>
+			<item id="1293" text="MS-DOS" tooltip=""/>
+			<item id="1294" text="Windows" tooltip=""/>
+			<item id="1355" text="Annat:" tooltip=""/>
+		</dialog>
+		<dialog id="335" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1180" text="Avancerat" tooltip=""/>
+		</dialog>
+		<dialog id="336" text="">
+			<item id="1038" text="Kantlinjestil:" tooltip=""/>
+			<item id="1039" text="Kantlnijetjocklek:" tooltip=""/>
+			<item id="1040" text="Kantlinjefärg:" tooltip=""/>
+			<item id="1041" text="Markeringsläge:" tooltip=""/>
+		</dialog>
+		<dialog id="337" text="Mätetikett">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Text på mätetikett" tooltip=""/>
+		</dialog>
+		<dialog id="341" text="Nytt tomt dokument">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1039" text="Orientering:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="Antal sidor:" tooltip=""/>
+			<item id="1200" text="Sidor:" tooltip=""/>
+			<item id="1292" text="Standard:" tooltip=""/>
+			<item id="1293" text="Anpassat:" tooltip=""/>
+			<item id="1304" text="Stående" tooltip=""/>
+			<item id="1305" text="Liggande" tooltip=""/>
+		</dialog>
+		<dialog id="342" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Skriv in URL:" tooltip=""/>
+		</dialog>
+		<dialog id="343" text="">
+			<item id="1039" text="Antal kolumner" tooltip=""/>
+			<item id="1040" text="Mellanrum mellan kolumner:" tooltip=""/>
+			<item id="1041" text="Enhet:" tooltip=""/>
+			<item id="1042" text="Stil:" tooltip=""/>
+			<item id="1043" text="Tjocklek:" tooltip=""/>
+			<item id="1044" text="Färg:" tooltip=""/>
+			<item id="1367" text="Linje mellan kolumner" tooltip=""/>
+		</dialog>
+		<dialog id="344" text="Alternativ">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+		</dialog>
+		<dialog id="345" text="Nytt dokument från text">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1040" text="Teckenkodning:" tooltip=""/>
+			<item id="1041" text="Nytt stycke:" tooltip=""/>
+			<item id="1042" text="Ny fil:" tooltip=""/>
+			<item id="1075" text="Visa..." tooltip=""/>
+			<item id="1099" text="Alternativ..." tooltip=""/>
+			<item id="1200" text="Alternativ för markerad fil" tooltip=""/>
+			<item id="1202" text="Källtextfiler" tooltip=""/>
+			<item id="1376" text="Lägg till fil..." tooltip=""/>
+			<item id="1377" text="Lägg till mapp..." tooltip=""/>
+			<item id="1378" text="Ta bort" tooltip=""/>
+			<item id="1379" text="Upp" tooltip=""/>
+			<item id="1380" text="Ner" tooltip=""/>
+		</dialog>
+		<dialog id="346" text="">
+			<item id="1038" text="Start:" tooltip=""/>
+			<item id="1039" text="Slut:" tooltip=""/>
+			<item id="1040" text="Stil:" tooltip=""/>
+			<item id="1041" text="Tjocklek:" tooltip=""/>
+			<item id="1042" text="Färg:" tooltip=""/>
+			<item id="1043" text="Fyllnadsfärg:" tooltip=""/>
+			<item id="1044" text="Transparens:" tooltip=""/>
+			<item id="1045" text="Längd:" tooltip=""/>
+			<item id="1046" text="Förskjutning:" tooltip=""/>
+			<item id="1047" text="Förlängning:" tooltip=""/>
+			<item id="1200" text="Avslutning" tooltip=""/>
+			<item id="1201" text="Kantlinje:" tooltip=""/>
+			<item id="1202" text="Måttlinjer" tooltip=""/>
+			<item id="1203" text="Text" tooltip=""/>
+			<item id="1362" text="Visa text vid linje" tooltip=""/>
+		</dialog>
+		<dialog id="347" text="Återställ alla inställningar">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Vill du verkligen återställa alla programmets inställningar till standard?" tooltip=""/>
+			<item id="1126" text="Spara listan över kända sidor: spara dina val av könda sidor." tooltip=""/>
+			<item id="1128" text="Spara frågelistan: spara dina val för varnings, bekräftelse och fråge dialoger." tooltip=""/>
+			<item id="1129" text="Behåll språkinställningar.                                                                                                                           Svensk språkmodul upgrade: support@pdf-xhange.se" tooltip=""/>
+			<item id="1373" text="Behåll listan för senaste: spara alla senaste dokument." tooltip=""/>
+		</dialog>
+		<dialog id="348" text="Dokumentets metadata">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+		</dialog>
+		<dialog id="351" text="">
+			<item id="6" text="Makron" tooltip=""/>
+			<item id="1040" text="Stil:" tooltip=""/>
+			<item id="1041" text="Tjocklek:" tooltip=""/>
+			<item id="1042" text="Färg:" tooltip=""/>
+			<item id="1044" text="Bakgrundsfärg:" tooltip=""/>
+			<item id="1128" text="Placera en linje över titeln" tooltip=""/>
+			<item id="1381" text="Rita linje" tooltip=""/>
+			<item id="1385" text="Använd titel" tooltip=""/>
+			<item id="1388" text="Format..." tooltip=""/>
+		</dialog>
+		<dialog id="352" text="Nytt dokument från bilder">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1099" text="Alternativ..." tooltip=""/>
+			<item id="1202" text="Källbildfiler" tooltip=""/>
+			<item id="1251" text="Redigera..." tooltip=""/>
+			<item id="1376" text="Lägg til filer..." tooltip=""/>
+			<item id="1377" text="Lägg till mapp..." tooltip=""/>
+			<item id="1378" text="Ta bort" tooltip=""/>
+			<item id="1379" text="Upp" tooltip=""/>
+			<item id="1380" text="Ner" tooltip=""/>
+			<item id="1406" text="Imprtera" tooltip=""/>
+		</dialog>
+		<dialog id="353" text="Alternativ">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+		</dialog>
+		<dialog id="354" text="">
+			<item id="1039" text="Antal horisontellt:" tooltip=""/>
+			<item id="1040" text="Antal vertikalt:" tooltip=""/>
+			<item id="1041" text="Horisontellt avstånd:" tooltip=""/>
+			<item id="1042" text="Vertikalt avstånd:" tooltip=""/>
+			<item id="1043" text="Horisontell linjering:" tooltip=""/>
+			<item id="1044" text="Vertikal linjering:" tooltip=""/>
+			<item id="1200" text="Layout regler" tooltip=""/>
+			<item id="1201" text="Linjera bilder" tooltip=""/>
+		</dialog>
+		<dialog id="355" text="">
+			<item id="1039" text="för bilder över:" tooltip=""/>
+			<item id="1040" text="pixlar per tum" tooltip=""/>
+			<item id="1041" text="pixlar per tum" tooltip=""/>
+			<item id="1042" text="för bilder över:" tooltip=""/>
+			<item id="1043" text="pixlar per tum" tooltip=""/>
+			<item id="1044" text="pixlar per tum" tooltip=""/>
+			<item id="1126" text="Använd rastrering" tooltip=""/>
+			<item id="1200" text="High color/gråskale bilder" tooltip=""/>
+			<item id="1201" text="Indexerade bilder" tooltip=""/>
+			<item id="1202" text="Monokroma bilder" tooltip=""/>
+			<item id="1203" text="för bilder över:" tooltip=""/>
+			<item id="1204" text="pixlar per tum" tooltip=""/>
+			<item id="1205" text="pixlar per tum" tooltip=""/>
+			<item id="1206" text="Värde:" tooltip=""/>
+			<item id="1401" text="Använd rastrering" tooltip=""/>
+		</dialog>
+		<dialog id="362" text="">
+			<item id="6" text="Makron" tooltip=""/>
+			<item id="1039" text="Bakgrundsfärg:" tooltip=""/>
+			<item id="1128" text="Skriv etikett ovanför bild" tooltip=""/>
+			<item id="1200" text="Bild etikett" tooltip=""/>
+			<item id="1388" text="Format..." tooltip=""/>
+			<item id="1407" text="Använd en textetikett för varje bild" tooltip=""/>
+		</dialog>
+		<dialog id="363" text="Redigera bild">
+		</dialog>
+		<dialog id="364" text="">
+			<item id="1038" text="Sida(or):" tooltip=""/>
+			<item id="1039" text="Mellanrum:" tooltip=""/>
+			<item id="1040" text="Antal ark i signaturen:" tooltip=""/>
+			<item id="1041" text="Typ:" tooltip=""/>
+			<item id="1120" text="Autorotera sida i cellen" tooltip=""/>
+			<item id="1121" text="Autocentrera sida i cellen" tooltip=""/>
+			<item id="1414" text="Bunden till höger" tooltip=""/>
+		</dialog>
+		<dialog id="365" text="Avancerade utskriftsinställningar">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Maximal upplösning för utskrift som bild:" tooltip=""/>
+			<item id="1039" text="Upplösning för gradientfyllningar:" tooltip=""/>
+			<item id="1040" text="Skriv text som kurvor:" tooltip=""/>
+			<item id="1041" text="Popup transpararens" tooltip=""/>
+			<item id="1416" text="Skriv ut anteckningar och popup fönster" tooltip=""/>
+		</dialog>
+		<dialog id="366" text="Ange lösenord för dokumentet">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+		</dialog>
+		<dialog id="369" text="Egenskaper">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1180" text="Avancerat" tooltip=""/>
+		</dialog>
+		<dialog id="371" text="">
+			<item id="1038" text="Författare:" tooltip=""/>
+			<item id="1039" text="Ämne:" tooltip=""/>
+			<item id="1040" text="Skapad:" tooltip=""/>
+			<item id="1041" text="Ändrad:" tooltip=""/>
+		</dialog>
+		<dialog id="372" text="">
+			<item id="1045" text="Längd:" tooltip=""/>
+			<item id="1046" text="Förskjutning" tooltip=""/>
+			<item id="1047" text="Förlängning:" tooltip=""/>
+			<item id="1362" text="Visa text vid linje" tooltip=""/>
+		</dialog>
+		<dialog id="373" text="Nytt dokument från direktskanning">
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1039" text="Välj skanner för att hämta bild(er):" tooltip=""/>
+			<item id="1423" text="Skanna..." tooltip=""/>
+			<item id="1424" text="Uppdatera" tooltip=""/>
+		</dialog>
+		<dialog id="374" text="">
+			<item id="1038" text="Fyllnadsfärg" tooltip=""/>
+			<item id="1039" text="Kantlinjefärg:" tooltip=""/>
+			<item id="1126" text="Använd som standard markeringsläge för formulärfält vid öppnande av dokument:" tooltip=""/>
+			<item id="1128" text="Färgmarkera alla formulärfält" tooltip=""/>
+			<item id="1129" text="Kombinationsrutor" tooltip=""/>
+			<item id="1130" text="Kryssrutor" tooltip=""/>
+			<item id="1131" text="Listrutor" tooltip=""/>
+			<item id="1132" text="Knappar" tooltip=""/>
+			<item id="1133" text="Radioknappar" tooltip=""/>
+			<item id="1134" text="Textrutor" tooltip=""/>
+			<item id="1135" text="Signaturer" tooltip=""/>
+			<item id="1136" text="Färgmarkera bara tvingande fält" tooltip=""/>
+			<item id="1200" text="Allmänt" tooltip=""/>
+			<item id="1201" text="Färgmarkera formulärfält" tooltip=""/>
+			<item id="1425" text="Beräkna formulärfält automatiskt" tooltip=""/>
+			<item id="1426" text="Visa ram runt objekt med fokus" tooltip=""/>
+		</dialog>
+		<dialog id="376" text="">
+			<item id="1039" text="x" tooltip=""/>
+			<item id="1040" text="Orientering:" tooltip=""/>
+			<item id="1041" text="Vänster:" tooltip=""/>
+			<item id="1042" text="Uppe:" tooltip=""/>
+			<item id="1043" text="Höger:" tooltip=""/>
+			<item id="1044" text="Nere:" tooltip=""/>
+			<item id="1200" text="Marginaler" tooltip=""/>
+			<item id="1292" text="Standard:" tooltip=""/>
+			<item id="1293" text="Egen:" tooltip=""/>
+			<item id="1304" text="Stående" tooltip=""/>
+			<item id="1305" text="Liggande" tooltip=""/>
+		</dialog>
+		<dialog id="377" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+		</dialog>
+		<dialog id="378" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="4" text="Bläddra..." tooltip=""/>
+			<item id="5" text="Bläddra..." tooltip=""/>
+			<item id="1039" text="Öppna i:" tooltip=""/>
+			<item id="1040" text="Händelse:" tooltip=""/>
+			<item id="1043" text="Fil:" tooltip=""/>
+			<item id="1044" text="Mapp:" tooltip=""/>
+			<item id="1045" text="Parametrar:" tooltip=""/>
+			<item id="1201" text="Mål" tooltip=""/>
+			<item id="1202" text="Alternativ" tooltip=""/>
+		</dialog>
+		<dialog id="380" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+		</dialog>
+		<dialog id="381" text="">
+			<item id="1200" text="Välj ordning för att stega genom objekt på sidan" tooltip=""/>
+			<item id="1441" text="Ospecificerad" tooltip=""/>
+			<item id="1442" text="Använd radordning" tooltip=""/>
+			<item id="1443" text="Använd kolumordning" tooltip=""/>
+			<item id="1444" text="Använd dokumentstruktur" tooltip=""/>
+		</dialog>
+		<dialog id="382" text="">
+			<item id="1038" text="Navigeringsvy:" tooltip=""/>
+			<item id="1039" text="Sidlayout:" tooltip=""/>
+			<item id="1040" text="Förstoring" tooltip=""/>
+			<item id="1041" text="Öppna till sida:" tooltip=""/>
+			<item id="1043" text="Visa i rubrikraden:" tooltip=""/>
+			<item id="1200" text="Utseende och förstoring" tooltip=""/>
+			<item id="1201" text="Alternativ för fönster" tooltip=""/>
+			<item id="1202" text="Alternativ för användarinställningar" tooltip=""/>
+			<item id="36507" text="Öppna i fullskärmsläge" tooltip=""/>
+			<item id="36508" text="Dölj menyfältet" tooltip=""/>
+			<item id="36509" text="Dölj verktygsfälten" tooltip=""/>
+			<item id="36510" text="Dölj fönsterkontrollerna" tooltip=""/>
+		</dialog>
+		<dialog id="383" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+		</dialog>
+		<dialog id="384" text="Konflikter i genvägar">
+			<item id="2" text="Stäng" tooltip=""/>
+		</dialog>
+		<dialog id="389" text="">
+			<item id="1038" text="Du har följande sökleverantörer installerade:" tooltip=""/>
+			<item id="1443" text="Flytta upp" tooltip=""/>
+			<item id="1444" text="Flytta ner" tooltip=""/>
+			<item id="1445" text="Ta bort..." tooltip=""/>
+			<item id="1446" text="Lägg till ny..." tooltip=""/>
+			<item id="1509" text="Tillåt att ta emot ikoner från sökleverantörer på internet" tooltip=""/>
+			<item id="1510" text="Stäng av alla sökleverantörer" tooltip=""/>
+		</dialog>
+		<dialog id="390" text="Lägg till en ny sökleverantör">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1017" text="Skapa din egen sökleverantör" tooltip=""/>
+			<item id="1040" text="Lägg till din egen sökleverantör genom att följa dessa steg:" tooltip=""/>
+			<item id="1041" text="1. Besök den önskade sökmotorn med din webläsare" tooltip=""/>
+			<item id="1042" text="2. Använd sökmotorn genom att söka efter TEST (Versaler)" tooltip=""/>
+			<item id="1043" text="3. Klistra in URL:en från sökresultatet i URL-fältet." tooltip=""/>
+			<item id="1044" text="4. Fyll i övriga fält och tryck OK." tooltip=""/>
+			<item id="1200" text="Leverantörsinformation" tooltip=""/>
+			<item id="1203" text="URL:" tooltip=""/>
+			<item id="1204" text="Namn:" tooltip=""/>
+			<item id="1205" text="Beskrivning:" tooltip=""/>
+			<item id="1206" text="Teckenkodning:" tooltip=""/>
+		</dialog>
+		<dialog id="391" text="Dialog">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+		</dialog>
+		<dialog id="392" text="Inställningar för lösenordsäkerhet">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Komponenter:" tooltip=""/>
+			<item id="1041" text="Ändra lösenord för rättigheter:" tooltip=""/>
+			<item id="1042" text="Kompabilitet:" tooltip=""/>
+			<item id="1043" text="Krypteringsnivå:" tooltip=""/>
+			<item id="1045" text="Tillåt utskrifter:" tooltip=""/>
+			<item id="1046" text="Tillåt ändringar:" tooltip=""/>
+			<item id="1050" text="Bekräfta ändring av lösenord för rättigheter:" tooltip=""/>
+			<item id="1126" text="Kräv ett lösenord för att ändra rättigheter för dokumentet" tooltip=""/>
+			<item id="1200" text="Välj  dokument komponenter att kryptera" tooltip=""/>
+			<item id="1201" text="Lösenord och rättigheter" tooltip=""/>
+			<item id="1450" text="Aktivera textåtkomst för skärmläsare för synskadade" tooltip=""/>
+			<item id="1451" text="Kräv ett lösenord för att öppna dokumentet" tooltip=""/>
+		</dialog>
+		<dialog id="393" text="Dokument säkerhet">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="1038" text="Utskrift:" tooltip=""/>
+			<item id="1039" text="Ändringar av dokument:" tooltip=""/>
+			<item id="1040" text="Kommentarer:" tooltip=""/>
+			<item id="1041" text="Innehålls kopiering:" tooltip=""/>
+			<item id="1042" text="Formulär ifyllnad eller signering:" tooltip=""/>
+			<item id="1043" text="Aktivera innehålls åtkomst:" tooltip=""/>
+			<item id="1044" text="Dokument sammanslagning:" tooltip=""/>
+			<item id="1045" text="Säkerhetsmetod:" tooltip=""/>
+			<item id="1046" text="Lösenord för att öppna dokument:" tooltip=""/>
+			<item id="1047" text="Lösenord för rättigheter:" tooltip=""/>
+			<item id="1048" text="Krypteringsnivå:" tooltip=""/>
+			<item id="1049" text="Separering av sidor:" tooltip=""/>
+		</dialog>
+		<dialog id="394" text="Signera dokument">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="4" text="Bläddra..." tooltip=""/>
+			<item id="1038" text="Utställt till:" tooltip=""/>
+			<item id="1039" text="Filnamn:" tooltip=""/>
+			<item id="1040" text="Anledning till sign:" tooltip=""/>
+			<item id="1041" text="Ort:" tooltip=""/>
+			<item id="1042" text="Kontaktinformation:" tooltip=""/>
+			<item id="1043" text="Signaturmall:" tooltip=""/>
+			<item id="1044" text="**Du kan ändra utseendet på den digitala signaturen genom att klicka på förhandsgranskningen ovan." tooltip=""/>
+			<item id="1132" text="Hantera..." tooltip=""/>
+			<item id="1200" text="1 Välj certifikat (digitalt ID):" tooltip=""/>
+			<item id="1201" text="2. Detaljer och utseende  för signatur:" tooltip=""/>
+			<item id="1452" text="Använd certifikat som lagrats lokalt:" tooltip=""/>
+			<item id="1453" text="Använd certifikat från fil:" tooltip=""/>
+			<item id="1456" text="Bläddra..." tooltip=""/>
+			<item id="1457" text="Visa certifikat..." tooltip=""/>
+			<item id="1458" text="Skapa certifikat..." tooltip=""/>
+			<item id="1513" text="Hantera..." tooltip=""/>
+			<item id="1514" text="Använd tidsstämpelserver:" tooltip=""/>
+		</dialog>
+		<dialog id="395" text="Mallar för visning av digitala signaturer">
+			<item id="1" text="Avbryt" tooltip=""/>
+			<item id="1234" text="Återställ" tooltip=""/>
+			<item id="1250" text="Radera" tooltip=""/>
+			<item id="1251" text="Redigera" tooltip=""/>
+			<item id="1374" text="Du kan välja en mall för digitala signaturer genom att dubbelklicka i listan nedan:" tooltip=""/>
+			<item id="1459" text="Klona" tooltip=""/>
+		</dialog>
+		<dialog id="396" text="Redigera mallen för digitala signaturer">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1039" text="Mallnamn:" tooltip=""/>
+			<item id="1040" text="Textriktning:" tooltip=""/>
+			<item id="1126" text="Anledning" tooltip=""/>
+			<item id="1127" text="Namn" tooltip=""/>
+			<item id="1128" text="Datum" tooltip=""/>
+			<item id="1129" text="Unikt namn" tooltip=""/>
+			<item id="1130" text="Etiketter" tooltip=""/>
+			<item id="1131" text="Ämne" tooltip=""/>
+			<item id="1201" text="Visa grafik:" tooltip=""/>
+			<item id="1202" text="Visa text:" tooltip=""/>
+			<item id="1462" text="Ingen ikon" tooltip=""/>
+			<item id="1463" text="Namn som ikon" tooltip=""/>
+			<item id="1464" text="Anpassad ikon:" tooltip=""/>
+			<item id="1466" text="Ort" tooltip=""/>
+			<item id="1468" text="Visa logo" tooltip=""/>
+			<item id="1469" text="Välj..." tooltip=""/>
+		</dialog>
+		<dialog id="397" text="Skapa ett självsignerat digitalt ID">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Att skapa ett självsignerat digitalt ID är ett gratis sätt att digitalt signera  PDF dokument. Men detta kanske inte passar i situationer som behöver tredjeparts verifiering." tooltip=""/>
+			<item id="1040" text="Namn:" tooltip=""/>
+			<item id="1041" text="Avdelning:" tooltip=""/>
+			<item id="1042" text="Organisationsnamn:" tooltip=""/>
+			<item id="1043" text="E-postadress:" tooltip=""/>
+			<item id="1044" text="Land/region:" tooltip=""/>
+			<item id="1045" text="Ditt digitala ID kommer att sparas i Windows certifikatarkiv där det också finns tillgängligt för andra Windows program. Det digitala IDt skyddas av din Windows inloggning." tooltip=""/>
+			<item id="1046" text="Skapa ett nytt lösenords skyddat digitalt ID som använder standard PKCS#12 format. Detta vanliga digitala ID format stöds av de flesta säkerhetsprogram, inklusive de största webläsarna. PKCS#12 filer har en .pfx eller en .p12 filändelse." tooltip=""/>
+			<item id="1200" text="Egenskaper för digitalt ID:" tooltip=""/>
+			<item id="1201" text="Var vill du spara ditt självsignerade digitala ID?" tooltip=""/>
+			<item id="1203" text="Nyckelalgoritm:" tooltip=""/>
+			<item id="1205" text="Lösenord:" tooltip=""/>
+			<item id="1206" text="Bekräfta lösenord:" tooltip=""/>
+			<item id="1208" text="ACSII" tooltip=""/>
+			<item id="1292" text="Unicode" tooltip=""/>
+			<item id="1476" text="Windows certifikatarkiv" tooltip=""/>
+			<item id="1477" text="Ny PKCS#12 digital ID-fil" tooltip=""/>
+		</dialog>
+		<dialog id="398" text="Ange lösenord">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Vänligen ange lösenord:" tooltip=""/>
+		</dialog>
+		<dialog id="399" text="">
+			<item id="1038" text="Signerad av:" tooltip=""/>
+			<item id="1039" text="Anledning" tooltip=""/>
+			<item id="1040" text="Plats:" tooltip=""/>
+			<item id="1041" text="Datum:" tooltip=""/>
+			<item id="1042" text="Kontaktinformation:" tooltip=""/>
+			<item id="1043" text="Skapad av:" tooltip=""/>
+			<item id="1200" text="Signatur information" tooltip=""/>
+			<item id="1201" text="Validerings summering" tooltip=""/>
+			<item id="1481" text="Visa certifikat" tooltip=""/>
+		</dialog>
+		<dialog id="400" text="Signaturegenskaper">
+			<item id="1" text="&amp;Stäng" tooltip=""/>
+		</dialog>
+		<dialog id="401" text="Lägg till stödlinje(r)">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Placering på sidan:" tooltip=""/>
+			<item id="1039" text="Antal per sida:" tooltip=""/>
+			<item id="1040" text="Avstånd mellan:" tooltip=""/>
+			<item id="1200" text="Sidomfång" tooltip=""/>
+			<item id="1201" text="Stödlinje(r)" tooltip=""/>
+			<item id="1330" text="Alla" tooltip=""/>
+			<item id="1331" text="Markerade sidor" tooltip=""/>
+			<item id="1332" text="Aktuell sida" tooltip=""/>
+			<item id="1333" text="Sidor:" tooltip=""/>
+			<item id="1335" text="Urval:" tooltip=""/>
+			<item id="1387" text="Skriv in sidnummer och/eller sidintervall separerade med komma räknat från början av dokumentet. T.ex. skriv 1,3,5-12." tooltip=""/>
+			<item id="1492" text="Horisontella" tooltip=""/>
+			<item id="1493" text="Vertikala" tooltip=""/>
+		</dialog>
+		<dialog id="402" text="Anpassa fäst mot">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Noggrannhet:" tooltip=""/>
+			<item id="1039" text="Noggrannhet:" tooltip=""/>
+			<item id="1040" text="Noggrannhet:" tooltip=""/>
+			<item id="1041" text="Fäst mot:" tooltip=""/>
+			<item id="1127" text="Fäst mot objekt" tooltip=""/>
+			<item id="1200" text="Stödlinjer" tooltip=""/>
+			<item id="1201" text="Objekt" tooltip=""/>
+			<item id="1261" text="Rutnät" tooltip=""/>
+			<item id="1485" text="Fäst mot rutnät" tooltip=""/>
+			<item id="1486" text="Fäst mot stödlinjer" tooltip=""/>
+			<item id="1501" text="Visa markeringar att fäst mot" tooltip=""/>
+			<item id="1504" text="Välj alla" tooltip=""/>
+			<item id="1505" text="Välj ingen" tooltip=""/>
+			<item id="1506" text="Fäst bara mot kommentarer" tooltip=""/>
+		</dialog>
+		<dialog id="403" text="Redigera beskrivning av bilaga">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Beskrivning:" tooltip=""/>
+		</dialog>
+		<dialog id="404" text="Hantera listan för senaste dokument">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1009" text="Maximalt antal poster i listan:" tooltip=""/>
+			<item id="1126" text="Rensa listan vid avslut" tooltip=""/>
+			<item id="1127" text="Visa utökade funktionsbekrivningar" tooltip=""/>
+			<item id="1227" text="Rensa..." tooltip=""/>
+			<item id="1510" text="Flytta alla låsta poster till toppen av listan" tooltip=""/>
+			<item id="1512" text="Fråga innan borttag av poster i listan" tooltip=""/>
+		</dialog>
+		<dialog id="405" text="">
+			<item id="1038" text="Ange version av PDF-specifikationen för skapande av nya dokument:" tooltip=""/>
+			<item id="1200" text="PDF-Specifikation" tooltip=""/>
+		</dialog>
+		<dialog id="406" text="">
+			<item id="1" text="Ok" tooltip=""/>
+		</dialog>
+		<dialog id="407" text="">
+			<item id="1038" text="Tillåtelse för programkörning:" tooltip=""/>
+			<item id="1039" text="Tillåtelse för öppning av bilagor:" tooltip=""/>
+			<item id="1200" text="Tidstämpling" tooltip=""/>
+			<item id="1201" text="Alternativ för programkörning och öppning av bilagor" tooltip=""/>
+			<item id="1513" text="Hantera..." tooltip=""/>
+			<item id="1514" text="Använd tidstämplingsserver:" tooltip=""/>
+			<item id="1552" text="Öppna dokuments URL utan bekräftelse" tooltip=""/>
+		</dialog>
+		<dialog id="408" text="Tidsstämplingsservrar">
+			<item id="1" text="Stäng" tooltip=""/>
+			<item id="1247" text="Lägg till..." tooltip=""/>
+			<item id="1251" text="Redigera..." tooltip=""/>
+			<item id="1445" text="Ta bort" tooltip=""/>
+		</dialog>
+		<dialog id="409" text="">
+			<item id="1" text="Ok" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Namn" tooltip=""/>
+			<item id="1039" text="Server URL:" tooltip=""/>
+			<item id="1040" text="Användarnamn:" tooltip=""/>
+			<item id="1041" text="Lösenord:" tooltip=""/>
+			<item id="1261" text="Serverinställningar:" tooltip=""/>
+			<item id="1517" text="Servern kräver autenticering" tooltip=""/>
+		</dialog>
+		<dialog id="410" text="Redigera inledande ämne för markerad kommentarsstil">
+			<item id="1" text="Ok" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1038" text="Du kan ange inledande ämne för alla nya kommentarer som kan skapas med denna stil:" tooltip=""/>
+			<item id="1293" text="Använd anpassat ämne:" tooltip=""/>
+			<item id="1520" text="Använd vanligt ämne:" tooltip=""/>
+		</dialog>
+		<dialog id="411" text="Ange inledande zoomfaktor">
+			<item id="1" text="Ok" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+		</dialog>
+		<dialog id="413" text="">
+			<item id="1" text="Stäng" tooltip=""/>
+			<item id="1531" text="Skicka rapport..." tooltip=""/>
+		</dialog>
+		<dialog id="414" text="Kommentars författare">
+			<item id="1" text="Ok" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1039" text="Aktivera filter och välj en eller flera författare från listan vilkas kommerntare du vill se. Alla andras kommer att vara gömda. OBS! detta visningsläge sparas inte i dokumentet. " tooltip=""/>
+			<item id="1261" text="Filtrera" tooltip=""/>
+			<item id="1532" text="Markera alla" tooltip=""/>
+			<item id="1533" text="Markera ingen" tooltip=""/>
+			<item id="1534" text="Visa bara kommentarer från:" tooltip=""/>
+		</dialog>
+		<dialog id="422" text="">
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="3" text="Försök att öppna uteslutande" tooltip=""/>
+			<item id="4" text="Försök att öppna igen" tooltip=""/>
+			<item id="1038" text="Det gick inte att öppna filen &quot;%1&quot; i icke-blockerande läge:&#10;%2&#10;&#10; Vad vill du göra?" tooltip=""/>
+		</dialog>
+		<dialog id="509" text="">
+			<item id="1038" text="Teckensnitt för Meny och Verktygsfält:" tooltip=""/>
+			<item id="1039" text="Gemensam UI-teckensnitt (används i alla vyer och dialogrutor)" tooltip=""/>
+			<item id="1040" text="" tooltip=""/>
+			<item id="1041" text="Val:" tooltip=""/>
+			<item id="1042" text="Highlight:" tooltip=""/>
+			<item id="1043" text="Text:" tooltip=""/>
+			<item id="1044" text="Fönster:" tooltip=""/>
+			<item id="1200" text="Färger" tooltip=""/>
+			<item id="1201" text="Huvudbakgrund Stil" tooltip=""/>
+			<item id="1203" text="Bakgrundsfärg:" tooltip=""/>
+			<item id="1261" text="Teckensnitt" tooltip=""/>
+			<item id="1541" text="Återställ till standard" tooltip=""/>
+			<item id="1549" text="Visa gradienter för skugga" tooltip=""/>
+		</dialog>
+		<dialog id="510" text="OCR Sidor">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Avbryt" tooltip=""/>
+			<item id="1041" text="Primärt språk:" tooltip=""/>
+			<item id="1042" text="Mer språk..." tooltip=""/>
+			<item id="1043" text="Kvalitet på bilder" tooltip=""/>
+			<item id="1044" text="dpi" tooltip=""/>
+			<item id="1045" text="Noggrannhet:" tooltip=""/>
+			<item id="1200" text="Sidintervall" tooltip=""/>
+			<item id="1202" text="Output" tooltip=""/>
+			<item id="1203" text="PDF Output-typ:" tooltip=""/>
+			<item id="1204" text="Teckenläsning" tooltip=""/>
+			<item id="1330" text="Alla" tooltip=""/>
+			<item id="1331" text="Utvalda sidor" tooltip=""/>
+			<item id="1332" text="Aktuell sida" tooltip=""/>
+			<item id="1333" text="Sidor:" tooltip=""/>
+			<item id="1387" text="Skriv sidnummer och/eller sidintervall avgränsade med kommatecken räknat från början av dokumentet. Skriv till exempel 1, 3, 5-12" tooltip=""/>
+		</dialog>
+	</dialogs>
+	<strings count="1241">
+		<item id="0" text="Medurs 90 grader"/>
+		<item id="1" text="Moturs 90 grader"/>
+		<item id="2" text="180 grader"/>
+		<item id="3" text="Alla sidor"/>
+		<item id="4" text="Bara jämna sidor"/>
+		<item id="5" text="Bara udda sidor"/>
+		<item id="6" text="Sidor med alla orienteringar"/>
+		<item id="7" text="Sidor i porträttformat"/>
+		<item id="8" text="Sidor i landskapsformat"/>
+		<item id="9" text="Standard namn"/>
+		<item id="10" text="Lokalt namn"/>
+		<item id="11" text="Allmänt"/>
+		<item id="12" text="Allmänna inställningar"/>
+		<item id="13" text="Färghantering"/>
+		<item id="14" text="Alternativ för färghantering"/>
+		<item id="15" text="Sidvisning"/>
+		<item id="16" text="Alternativ för sidvisning"/>
+		<item id="17" text="Prestanda"/>
+		<item id="18" text="Prestanda alternativ"/>
+		<item id="19" text="Mätning"/>
+		<item id="20" text="Alternativ för enheter, rutnät och linjaler"/>
+		<item id="21" text="Identitet"/>
+		<item id="22" text="Inställningar för identitet"/>
+		<item id="23" text="Språk"/>
+		<item id="24" text="Välj språk på programmet"/>
+		<item id="25" text="Fil asociationer"/>
+		<item id="26" text="Inställningar för fil asociationer"/>
+		<item id="27" text="Kategorier"/>
+		<item id="28" text="Inställningar..."/>
+		<item id="29" text="Dokument egenskaper..."/>
+		<item id="30" text="Egenskaper för anteckningar"/>
+		<item id="31" text="Spara fullt eller ändringar för digitalt signerade"/>
+		<item id="32" text="Spara alltid fullt"/>
+		<item id="33" text="Spara alltid ändringar"/>
+		<item id="34" text="Spara för snabb webvisning"/>
+		<item id="35" text="Automatisk"/>
+		<item id="36" text="Enbart sida"/>
+		<item id="37" text="Bokmärkesfält och sida"/>
+		<item id="38" text="Tumnagelsfält och sida"/>
+		<item id="39" text="Senast använda vy"/>
+		<item id="40" text="Enstaka sida"/>
+		<item id="41" text="Löpande"/>
+		<item id="42" text="Uppslag"/>
+		<item id="43" text="Uppslag löpande"/>
+		<item id="44" text="Verklig storlek"/>
+		<item id="45" text="Anpassa till sida"/>
+		<item id="46" text="Anpassa till bredd"/>
+		<item id="47" text="Synligt"/>
+		<item id="48" text="Fysiskt minne (RAM): %1 totalt, %2 kan användas i toppar"/>
+		<item id="49" text="Fysiskt minne (RAM): %1 totalt"/>
+		<item id="50" text="Systemet har %1 CPU"/>
+		<item id="51" text="cm"/>
+		<item id="52" text="centimeter"/>
+		<item id="53" text="centimeter"/>
+		<item id="54" text="tum"/>
+		<item id="55" text="tum"/>
+		<item id="56" text="tum"/>
+		<item id="57" text="mm"/>
+		<item id="58" text="millimeter"/>
+		<item id="59" text="millimeter"/>
+		<item id="60" text="p"/>
+		<item id="61" text="pica"/>
+		<item id="62" text="pica"/>
+		<item id="63" text="pkt"/>
+		<item id="64" text="punkt"/>
+		<item id="65" text="punkter"/>
+		<item id="66" text="Kör &apos;%1&apos;"/>
+		<item id="67" text="Ingen alternativ PDF-läsare finns tillgänglig"/>
+		<item id="68" text="(totalt %1 sidor)"/>
+		<item id="69" text="Dokument &quot;%1&quot; är lösenordsskyddat"/>
+		<item id="70" text="Alla sidor"/>
+		<item id="71" text="Udda sidor"/>
+		<item id="72" text="Jämna sidor"/>
+		<item id="73" text="Inga"/>
+		<item id="74" text="Anpassa till skrivarmarginaler"/>
+		<item id="75" text="Minska till skrivarmarginaler"/>
+		<item id="76" text="Skriv stora sidor sida vid sida"/>
+		<item id="77" text="Skriv alla sidor sida vid sida"/>
+		<item id="78" text="Flera sidor per blad"/>
+		<item id="79" text="Spara alla sidor till en separat flersidig bildfil"/>
+		<item id="80" text="Spara varje utskriftsområde till en separat flersidig bildfil"/>
+		<item id="81" text="Spara varje sida till separata ensidiga bildfiler"/>
+		<item id="82" text="Mappen %1 innehåller redan en fil med namnet &quot;%2&quot;"/>
+		<item id="83" text="Storlek: %1Ändrad: %2"/>
+		<item id="84" text="Kunde inte skriva till filen &quot;%1&quot;:"/>
+		<item id="85" text="&amp;OK"/>
+		<item id="86" text="Avbryt"/>
+		<item id="87" text="Ja"/>
+		<item id="88" text="Nej"/>
+		<item id="89" text="Avbryt"/>
+		<item id="90" text="Försök igen"/>
+		<item id="91" text="Ignorera"/>
+		<item id="92" text="Försök"/>
+		<item id="93" text="Fortsätt"/>
+		<item id="94" text="Ja till alla"/>
+		<item id="95" text="Nej till alla"/>
+		<item id="96" text="Kunde inte skapa målmappen &quot;%1&quot;:"/>
+		<item id="97" text="Dokument &quot;%1&quot; har ändrats.&#10;&#10;Vill du spara ändringar innan du avslutar?"/>
+		<item id="98" text="Dokument &quot;%1&quot; innehåller en digital signatur.&#10;Den digitala signaturen kommer att försvinna om du sparar om dokumentet. Om du väljer &#10;att spara stegvisa ändringar kan du behålla den digitala signaturen men filstorleken kommer att öka.&#10;&#10;Vill du använda stegvisa ändringar?"/>
+		<item id="99" text="Summering: %1 valda av %2 sidor"/>
+		<item id="100" text="Fel när dokumentet skulle skrivas ut &quot;%1&quot;:&#10;%2"/>
+		<item id="101" text="Namn"/>
+		<item id="102" text="Inte tillgänglig"/>
+		<item id="103" text="Klar"/>
+		<item id="104" text="Frånkopplad"/>
+		<item id="105" text="Öppnar..."/>
+		<item id="106" text="Papper: &apos;%1&apos;"/>
+		<item id="107" text="Blad: &apos;%1&apos;"/>
+		<item id="108" text="Sida: &apos;%1&apos;"/>
+		<item id="109" text="Sidor: %1, %2..."/>
+		<item id="110" text="&lt;I det aktiva dokumentet (%1)&gt;"/>
+		<item id="111" text="&lt;Bläddra...&gt;"/>
+		<item id="112" text="&lt;Avancerad...&gt;"/>
+		<item id="113" text="Stoppa sökning"/>
+		<item id="114" text="Sök nu"/>
+		<item id="115" text="Sparar bild till filen &quot;%1&quot;..."/>
+		<item id="116" text="Skapar bild..."/>
+		<item id="117" text="Exporterar till bild..."/>
+		<item id="118" text="Bearbetar sida #%1..."/>
+		<item id="119" text="Skriver..."/>
+		<item id="120" text="Skriver blad #%1..."/>
+		<item id="121" text="Skriver sida #%1..."/>
+		<item id="122" text="Stoppar..."/>
+		<item id="123" text="Förbereder..."/>
+		<item id="124" text="Söker &quot;%1&quot;..."/>
+		<item id="125" text="Sök sammanfattning: %1 dokument, %2 träffar"/>
+		<item id="126" text="avbruten"/>
+		<item id="127" text="&quot;%1&quot;: öppnas..."/>
+		<item id="128" text="&quot;%1&quot;: sida #%2..."/>
+		<item id="129" text="Sida #%1..."/>
+		<item id="130" text="Kunde inte frigöra tillräckliga systemresurser för att öppna &quot;%1&quot; dokument:&#10;För många användar/GDI objekt används av ett annat program!&#10;&#10;Vänligen stäng program (eller stäng öppna dokument här)&#10;för att frigöra systemresurser, prova sedan på nytt..."/>
+		<item id="131" text="Fel när dokumentet skulle sparas till &quot;%1&quot;:&#10;%2"/>
+		<item id="132" text="Fel när dokumentet skulle öppnas &quot;%1&quot;:&#10;%2"/>
+		<item id="133" text="Fel när dokumentet skulle öppnas:&#10; %1"/>
+		<item id="134" text="Vill du verkligen radera %1 kommentar(er)?"/>
+		<item id="135" text="%1: Kommentar(er) raderas"/>
+		<item id="136" text="Radera utan att bekräfta i fortsättningen"/>
+		<item id="137" text="Vill du göra detta program till din förvalda PDF läsare?"/>
+		<item id="138" text="Vill du göra detta program till din förvalda PDF läsare och öppna PDF:er i din webläsare?"/>
+		<item id="139" text="Vill du låta din webläsare visa PDF:er med detta program?"/>
+		<item id="140" text="Fråga inte i fortsättningen"/>
+		<item id="141" text="Kunde inte öppna &quot;%1&quot;:&#10;%2"/>
+		<item id="142" text="Sökvägen finns inte"/>
+		<item id="143" text="Kunde inte utföra åtgärden &quot;%1&quot; för &quot;%2&quot;:&#10;%3"/>
+		<item id="144" text="Försöker öppna webplats:&#10;&quot;%1&quot;&#10;&#10;Litar du på denna webplats?"/>
+		<item id="145" text="%1: Varning för öppen webplats"/>
+		<item id="146" text="Kom ihåg mitt val för denna plats"/>
+		<item id="147" text="Programmet &quot;%1&quot; är inställt att startas av denna PDF-fil.&#10;Filen kan innehålla program, makron eller virus som kan var skadliga för din dator.&#10;Öppna bara - om du säker på att det tryggt.&#10;&#10;Om denna fill har fåtts från en betrodd person eller program, klicka Ja för att visa filen."/>
+		<item id="148" text="Kör: &quot;%1&quot;"/>
+		<item id="149" text="Visa inte detta meddelande igen"/>
+		<item id="150" text="Sida %1"/>
+		<item id="151" text="Meny"/>
+		<item id="152" text="Fil"/>
+		<item id="153" text="Standard"/>
+		<item id="154" text="Zooma"/>
+		<item id="155" text="Rotera vy"/>
+		<item id="156" text="Hitta"/>
+		<item id="157" text="Kommentera och märk upp"/>
+		<item id="158" text="Egenskaper"/>
+		<item id="159" text="Egenskaper för pilverktyget"/>
+		<item id="160" text="Egenskaper för linjeverktyget"/>
+		<item id="161" text="Egenskaper för rektangelverktyget"/>
+		<item id="162" text="Egenskaper för ovalverktyget"/>
+		<item id="163" text="Egenskaper för polygonverktyget"/>
+		<item id="164" text="Egenskaper för polygonlinjeverktyget"/>
+		<item id="165" text="Egenskaper för pennverktyget"/>
+		<item id="166" text="Egenskaper för molnverktyget"/>
+		<item id="167" text="Egenskaper för stämpelverktyget"/>
+		<item id="168" text="Egenskaper för textverktyget"/>
+		<item id="169" text="Egenskaper för textboxverktyget"/>
+		<item id="170" text="Egenskaper för anmärkningsverktyget"/>
+		<item id="171" text="Egenskaper för anteckningsverktyget"/>
+		<item id="172" text="Egenskaper för färgöverstrykningsverktyget"/>
+		<item id="173" text="Egenskaper för understrykningsverktyget"/>
+		<item id="174" text="Egenskaper för överstrykningsverktyget"/>
+		<item id="175" text="Egenskaper för textersättningsverktyget"/>
+		<item id="176" text="Pilegenskaper"/>
+		<item id="177" text="Linjeegenskaper"/>
+		<item id="178" text="Rektangelegenskaper"/>
+		<item id="179" text="Ovalegenskaper"/>
+		<item id="180" text="Polygonegenskaper"/>
+		<item id="181" text="Polygonlinjeegenskaper"/>
+		<item id="182" text="Pennegenskaper"/>
+		<item id="183" text="Molnegenskaper"/>
+		<item id="184" text="Stämpelegenskaper"/>
+		<item id="185" text="Textegenskaper"/>
+		<item id="186" text="Textboxegenskaper"/>
+		<item id="187" text="Anmärkningsegenskaper"/>
+		<item id="188" text="Anteckningsegenskaper"/>
+		<item id="189" text="Färgöverstrykningsegenskaper"/>
+		<item id="190" text="Understrykningsegenskaper"/>
+		<item id="191" text="Överstrykningsegenskaper"/>
+		<item id="192" text="Textersättningsegenskaper"/>
+		<item id="193" text="Pil"/>
+		<item id="194" text="Linje"/>
+		<item id="195" text="Rektangel"/>
+		<item id="196" text="Oval"/>
+		<item id="197" text="Polygon"/>
+		<item id="198" text="Polygonlinje"/>
+		<item id="199" text="Penna"/>
+		<item id="200" text="Moln"/>
+		<item id="201" text="Stämpel"/>
+		<item id="202" text="Inskjutningstecken"/>
+		<item id="203" text="Textbox"/>
+		<item id="204" text="Anteckning"/>
+		<item id="205" text="Färgöverstrykning"/>
+		<item id="206" text="Understrykning"/>
+		<item id="207" text="Överstrykning"/>
+		<item id="208" text="Bifogad fil"/>
+		<item id="209" text="Ljud"/>
+		<item id="210" text="Textformatering"/>
+		<item id="211" text="Ingen fyllning"/>
+		<item id="212" text="Inga streck"/>
+		<item id="213" text="Flera färger..."/>
+		<item id="214" text="Obestämd"/>
+		<item id="215" text="Odefinierad"/>
+		<item id="216" text="Färg"/>
+		<item id="217" text="Egenskaper..."/>
+		<item id="218" text="Okänd"/>
+		<item id="219" text="Okänd"/>
+		<item id="220" text="Ingen"/>
+		<item id="221" text="Namnlös"/>
+		<item id="222" text="Utseende"/>
+		<item id="223" text="Alternativ för utseende"/>
+		<item id="224" text="Beskrivning"/>
+		<item id="225" text="Beskrivningsinformation"/>
+		<item id="226" text="Typsnitt"/>
+		<item id="227" text="Använda typsnitt i detta dokument"/>
+		<item id="228" text="Säkerhet"/>
+		<item id="229" text="Dokumentsäkerhet och begränsningar"/>
+		<item id="230" text="Lösenordssäkerhet"/>
+		<item id="231" text="Inte tillåten"/>
+		<item id="232" text="Låg upplösning"/>
+		<item id="233" text="Hög upplösning"/>
+		<item id="234" text="Tillåten"/>
+		<item id="235" text="Laddar resurser"/>
+		<item id="236" text="Inladdning..."/>
+		<item id="237" text="Ingen"/>
+		<item id="238" text="Fyrkant"/>
+		<item id="239" text="Cirkel"/>
+		<item id="240" text="Diamant"/>
+		<item id="241" text="Öppen pil"/>
+		<item id="242" text="Sluten pil"/>
+		<item id="243" text="Dimensioneringsändar"/>
+		<item id="244" text="Öppen pil (omvänd)"/>
+		<item id="245" text="Sluten pil (omvänd)"/>
+		<item id="246" text="snedstreck"/>
+		<item id="247" text="Bokmärken"/>
+		<item id="248" text="Sidor"/>
+		<item id="249" text="Fält"/>
+		<item id="250" text="Lager"/>
+		<item id="251" text="Kommentarer"/>
+		<item id="252" text="Stäng denna flik"/>
+		<item id="253" text="Hitta de %1 typsnitt"/>
+		<item id="254" text="Av %1"/>
+		<item id="255" text="Alternativ"/>
+		<item id="256" text="Sida #%1"/>
+		<item id="257" text="Sida #%1: &#10;%2"/>
+		<item id="258" text="Sök PDF"/>
+		<item id="259" text="Dokument"/>
+		<item id="260" text="Dokument och markeringar"/>
+		<item id="261" text="Dokument och stämplar"/>
+		<item id="262" text="Bara formulärdata"/>
+		<item id="263" text="Panorera och zooma"/>
+		<item id="264" text="Lupp"/>
+		<item id="265" text="Bekräfta sparande av dokument"/>
+		<item id="266" text="Bekräfta delsparande av dokument"/>
+		<item id="267" text="Allmän information"/>
+		<item id="268" text="Namn"/>
+		<item id="269" text="Typ"/>
+		<item id="270" text="Mapp"/>
+		<item id="271" text="Sökväg"/>
+		<item id="272" text="Filstorlek"/>
+		<item id="273" text="%1 byte(s)"/>
+		<item id="274" text="Ändrad"/>
+		<item id="275" text="PDF information"/>
+		<item id="276" text="PDF version"/>
+		<item id="277" text="Sidor"/>
+		<item id="278" text="Titel"/>
+		<item id="279" text="Ämne"/>
+		<item id="280" text="Författare"/>
+		<item id="281" text="Nyckelord"/>
+		<item id="282" text="Författare"/>
+		<item id="283" text="Producent"/>
+		<item id="284" text="Krypteringsinformation"/>
+		<item id="285" text="%1-bit AES"/>
+		<item id="286" text="%1-bit RC4"/>
+		<item id="287" text="Nivå"/>
+		<item id="288" text="Full tillåtelse"/>
+		<item id="289" text="Skriver ut"/>
+		<item id="290" text="Ändrar dokumentet"/>
+		<item id="291" text="Innehållskopiering eller separering"/>
+		<item id="292" text="Författarkommentarer och formulärfält"/>
+		<item id="293" text="Formulärifyllnad eller signering"/>
+		<item id="294" text="Aktivera innehållsåtkomst"/>
+		<item id="295" text="Dokument sammansättning"/>
+		<item id="296" text="Öppnar dokument, vänligen vänta..."/>
+		<item id="297" text="Öppnande av &quot;%1&quot;..."/>
+		<item id="298" text="Laddar ner &quot;%1&quot;..."/>
+		<item id="299" text="Laddat ner %1 av %2"/>
+		<item id="300" text="Sparar dokument, vänligen vänta..."/>
+		<item id="301" text="Sparar till &quot;%1&quot;..."/>
+		<item id="302" text="Verkställer ändringar..."/>
+		<item id="303" text="Förbereder för att skriva dokument..."/>
+		<item id="304" text="Skriver dokument..."/>
+		<item id="305" text="Hämtar sidor..."/>
+		<item id="306" text="Samlar sidinformation..."/>
+		<item id="307" text="Samlar anteckningar..."/>
+		<item id="308" text="Välj målmapp för nya biler:"/>
+		<item id="309" text="Välj målmapp för nerladdade filer:"/>
+		<item id="310" text="Välj mapp för att söka dokument i:"/>
+		<item id="311" text="Diagram"/>
+		<item id="312" text="Gem"/>
+		<item id="313" text="Bilaga"/>
+		<item id="314" text="Märke"/>
+		<item id="315" text="Öra"/>
+		<item id="316" text="Mikrofon"/>
+		<item id="317" text="Ljud"/>
+		<item id="318" text="Bock"/>
+		<item id="319" text="Cirkel"/>
+		<item id="320" text="Kommentar"/>
+		<item id="321" text="Kors"/>
+		<item id="322" text="Hjälp"/>
+		<item id="323" text="Infoga text"/>
+		<item id="324" text="Nyckel"/>
+		<item id="325" text="Nytt stycke"/>
+		<item id="326" text="Textnotering"/>
+		<item id="327" text="Stycke"/>
+		<item id="328" text="Högerpil"/>
+		<item id="329" text="Höger pekare"/>
+		<item id="330" text="Stjärna"/>
+		<item id="331" text="Uppåtpil"/>
+		<item id="332" text="Vänster-upp pil"/>
+		<item id="333" text="Anteckning"/>
+		<item id="334" text="Färgöverstrykning"/>
+		<item id="335" text="Kommentera text"/>
+		<item id="336" text="Understrykning"/>
+		<item id="337" text="Överstrykning"/>
+		<item id="338" text="Textersättning"/>
+		<item id="339" text="Anmärkning"/>
+		<item id="340" text="Textruta"/>
+		<item id="341" text="Texinskrivning"/>
+		<item id="342" text="Pil"/>
+		<item id="343" text="Linje"/>
+		<item id="344" text="Rektangel"/>
+		<item id="345" text="Oval"/>
+		<item id="346" text="Moln"/>
+		<item id="347" text="Polygonlinje"/>
+		<item id="348" text="Polygon"/>
+		<item id="349" text="Penna"/>
+		<item id="350" text="Sida: %1 av %2"/>
+		<item id="351" text="Zoom: %1"/>
+		<item id="352" text="Vill du rensa listan över senaste dokument?"/>
+		<item id="353" text="SÄKRAD"/>
+		<item id="354" text="Öppna"/>
+		<item id="355" text="Spara"/>
+		<item id="356" text="Spara som"/>
+		<item id="357" text="Spara kopia som"/>
+		<item id="358" text="Skriv till fil"/>
+		<item id="359" text="Tillgänglighet"/>
+		<item id="360" text="Tillgänglighetsalternativ"/>
+		<item id="361" text="Grön text mot svart"/>
+		<item id="362" text="Gul text mot svart"/>
+		<item id="363" text="Vit text mot svart"/>
+		<item id="364" text="Svart text mot vit"/>
+		<item id="365" text="Fullskärm"/>
+		<item id="366" text="Fullskärmsalternativ"/>
+		<item id="367" text="Dold efter fördröjning"/>
+		<item id="368" text="Alltid synligt"/>
+		<item id="369" text="Alltid dold"/>
+		<item id="370" text="Ögonblicksbildsverktyg"/>
+		<item id="371" text="Inställningar för ögonblicksverktyg"/>
+		<item id="372" text="Dokumentet &quot;%1&quot; innehåller fel.&#10;&#10;Några problem upptäcktes av programmet:&#10;%2&#10;&#10;Det rekomenderas att du sparar om detta dokument."/>
+		<item id="373" text="En eller flera XREF-delar hittades inte."/>
+		<item id="374" text="Fel hittades i XREF tabellen."/>
+		<item id="375" text="Referenser till ett objekt var inte beskrivet in något XREF segment."/>
+		<item id="376" text="Fel vid laddande av objekt: ogiltig objektstruktur."/>
+		<item id="377" text="Fel vid laddande av objekt: feljusterade objekt."/>
+		<item id="378" text="Felaktig Objektström"/>
+		<item id="379" text="Nödvändiga värden hittades inte i sista trailern."/>
+		<item id="380" text="Nödvändiga värden hittades inte i trailers."/>
+		<item id="381" text="Objektets var inte beskrivet i aktuellt eller föregående segment, men i beskrivningen som finns i nästa segment (giltigt för linjära filer)."/>
+		<item id="382" text="Källdokumentet &quot;%1&quot; är skadat.&#10;PDF-XChange kan inte använda spara för detta dokument.&#10;Vill du använda det icke-stegvisa spar alternativet (varning: alla digitala signaturer kommer att förloras)?"/>
+		<item id="383" text="Omärkt"/>
+		<item id="384" text="Anonym"/>
+		<item id="385" text="&lt;Okänd författare&gt; (%1)"/>
+		<item id="386" text="&lt;Okänt datum&gt; (%1)"/>
+		<item id="387" text="Sida %1 (%2)"/>
+		<item id="388" text="%1 (%2)"/>
+		<item id="389" text="Ogiltigt värde: måste vara stärre än eller lika med %s."/>
+		<item id="390" text="Ogiltigt värde: måste vara större än eller lika med %s och mindre än eller lika med %s."/>
+		<item id="391" text="Ogiltigt värde: måste vara mindre än eller lika med %s."/>
+		<item id="392" text="**Ogiltig**"/>
+		<item id="393" text="Ogiltigt datum/tid: kontrollera att datumet/tiden finns. Fältet %field% måste matcha formatet %format%."/>
+		<item id="394" text="Angivet värde matchar inte formatet på fält %s."/>
+		<item id="395" text="f.m."/>
+		<item id="396" text="e.m."/>
+		<item id="397" text="Vill du verkligen radera %1 bokmärke(n) och alla underbokmärken?"/>
+		<item id="398" text="Vill du verkligen radera %1 bokmärke(n)?"/>
+		<item id="399" text="%1: Bokmärke(n) raderas"/>
+		<item id="400" text="Radera utan att godkänna i fortsättningen"/>
+		<item id="401" text="Bokmärkesegenskaper"/>
+		<item id="402" text="Egenskaper för bokmärken"/>
+		<item id="403" text="Händelser"/>
+		<item id="404" text="Händelselista"/>
+		<item id="405" text="Normal"/>
+		<item id="406" text="Fet"/>
+		<item id="407" text="Kursiv"/>
+		<item id="408" text="Fet och kursiv"/>
+		<item id="409" text="Okänd händelse"/>
+		<item id="410" text="Gå till en sida i detta dokument"/>
+		<item id="411" text="Gå till en sida i ett annat dokument"/>
+		<item id="412" text="Gå till en sida i ett inbäddat dokument"/>
+		<item id="413" text="Öppna en fil"/>
+		<item id="414" text="Läs en artikel"/>
+		<item id="415" text="Öppna en weblänk"/>
+		<item id="416" text="Spela ett ljud"/>
+		<item id="417" text="Spela en film"/>
+		<item id="418" text="Visa/dölj fält och kommentarer"/>
+		<item id="419" text="Verställ ett namngivet kommando"/>
+		<item id="420" text="Skicka ett formulär"/>
+		<item id="421" text="Återställ ett formulär"/>
+		<item id="422" text="Importera formulärdata"/>
+		<item id="423" text="Kör ett Javaskript"/>
+		<item id="424" text="Sätt lagersynlighet"/>
+		<item id="425" text="Multimedia kontroll"/>
+		<item id="426" text="Siduppdatering och övergång"/>
+		<item id="427" text="Gå till en 3D vy"/>
+		<item id="428" text="Zooma"/>
+		<item id="429" text="Ärv"/>
+		<item id="430" text="Bredd"/>
+		<item id="431" text="Höjd"/>
+		<item id="432" text="Anpassa höjd"/>
+		<item id="433" text="Anpassa till synlig bredd"/>
+		<item id="434" text="Anpassa till synlig höjd"/>
+		<item id="435" text="Fil"/>
+		<item id="436" text="Händelse"/>
+		<item id="437" text="Parametrar"/>
+		<item id="438" text="Du kan inte radera alla sidor i dokumentet. Åtminstone en sida måste finnas kvar."/>
+		<item id="439" text="Är du säker på att du vill radera %1 sida(or) från dokumentet? "/>
+		<item id="440" text="%1: Sida(or) raderas"/>
+		<item id="441" text="Ny händelse"/>
+		<item id="442" text="Redigera händelse"/>
+		<item id="443" text="Vill du verkligen radera denna %1 händelse?"/>
+		<item id="444" text="%1 Händelse(r) raderas"/>
+		<item id="445" text="Radera utan bekräftelse i fortsättningen?"/>
+		<item id="446" text="Javaskript"/>
+		<item id="447" text="Alternativ för Javaskript"/>
+		<item id="448" text="Registrering"/>
+		<item id="449" text="Registreringsuppgifter"/>
+		<item id="450" text="Rad: %1"/>
+		<item id="451" text="Rad: %2"/>
+		<item id="452" text="INS"/>
+		<item id="453" text="ÖVR"/>
+		<item id="454" text="Detta dokument innehåller Javaskript. Vill du aktivera Javaskript händelser för detta dokument? &#10;Dokumentet kanske inte fungerar korrekt om de är avaktiverade."/>
+		<item id="455" text="Dölj detta meddelande - tills detta dokument öppnas på nytt"/>
+		<item id="456" text="Javaskript: %1"/>
+		<item id="457" text="Viewer PRO funktionalitet - kräver licensnyckel - se hjälp"/>
+		<item id="458" text="Anpassad skala"/>
+		<item id="459" text="&quot;PRO&quot; Funktionsvarning"/>
+		<item id="460" text="Detta är en funktion i PDF-XChange Viewer PRO.&#10;Du kan använda den i den fria versionen -  men det kommer resultera i en DEMO(!) stämpel på dina PDF sidor om du sparar filen.&#10;För att undvika detta - vänligen uppgradera till en licencierad &quot;PRO&quot; version - se hjälpfilen eller besök vår webplats för mer info.&#10;&#10;Är du säker på att du vill använda denna funktion?"/>
+		<item id="461" text="Är du säker på att du vill flytta %1 sida(or)?"/>
+		<item id="462" text="%1: Sida(or) flyttas"/>
+		<item id="463" text="Arkiv"/>
+		<item id="464" text="Redigera"/>
+		<item id="465" text="Visa"/>
+		<item id="466" text="Dokument"/>
+		<item id="467" text="Verktyg"/>
+		<item id="468" text="Fönster"/>
+		<item id="469" text="Hjälp"/>
+		<item id="470" text="Användare"/>
+		<item id="471" text="Beskärningsruta"/>
+		<item id="472" text="Bleedbox"/>
+		<item id="473" text="Trimbox"/>
+		<item id="474" text="Artbox"/>
+		<item id="475" text="Beskuren sidstorlek: %1"/>
+		<item id="476" text="Bleedbox storlek: %1"/>
+		<item id="477" text="Trimbox storlek: %1"/>
+		<item id="478" text="Artbox storlek: %1"/>
+		<item id="479" text="Felaktig förhandsvisning"/>
+		<item id="480" text="Laddar förhandsvisningsinformation, vänligen vänta..."/>
+		<item id="481" text="Krypterad"/>
+		<item id="482" text="Dokument &quot;%1&quot; är skyddat. Du har inga rättigheter att använda det för denna åtgärd."/>
+		<item id="483" text="%1: Infoga sidor"/>
+		<item id="484" text="Lås detta dokument på Senaste dokument listan (neka borttag när maxgräns för antal har uppnåtts)"/>
+		<item id="485" text="Lås upp detta dokument från Senaste dokument listan (tillåt borttag när maxgräns för antal har uppnåtts)"/>
+		<item id="486" text="Nyligen använda typsnitt"/>
+		<item id="487" text="Alla typsnitt"/>
+		<item id="488" text="Zoom nivå"/>
+		<item id="489" text="Zoom läge"/>
+		<item id="490" text="Före"/>
+		<item id="491" text="Efter"/>
+		<item id="492" text="Standard färger"/>
+		<item id="493" text="Anpassade färger"/>
+		<item id="494" text="Svart"/>
+		<item id="495" text="Brun"/>
+		<item id="496" text="Mörk olivgrön"/>
+		<item id="497" text="Mörk grön"/>
+		<item id="498" text="Mörk grönblå"/>
+		<item id="499" text="Mörk blå"/>
+		<item id="500" text="Indigo"/>
+		<item id="501" text="Mörk grå"/>
+		<item id="502" text="Mörk röd"/>
+		<item id="503" text="Orange"/>
+		<item id="504" text="Mörk gul"/>
+		<item id="505" text="Grön"/>
+		<item id="506" text="Grönblå"/>
+		<item id="507" text="Blå"/>
+		<item id="508" text="Blå-grå"/>
+		<item id="509" text="Grå - 40%"/>
+		<item id="510" text="Röd"/>
+		<item id="511" text="Ljus orange"/>
+		<item id="512" text="Lime"/>
+		<item id="513" text="Havsgrön"/>
+		<item id="514" text="Akvamarin"/>
+		<item id="515" text="Ljus blå"/>
+		<item id="516" text="Violett"/>
+		<item id="517" text="Grå - 50%"/>
+		<item id="518" text="Rosa"/>
+		<item id="519" text="Guld"/>
+		<item id="520" text="Gul"/>
+		<item id="521" text="Klargrön"/>
+		<item id="522" text="Turkos"/>
+		<item id="523" text="Himmelsblå"/>
+		<item id="524" text="Plommon"/>
+		<item id="525" text="Ljus grå"/>
+		<item id="526" text="Ros"/>
+		<item id="527" text="Barkbrun"/>
+		<item id="528" text="Ljus gul"/>
+		<item id="529" text="Blek grön"/>
+		<item id="530" text="Blek turkos"/>
+		<item id="531" text="Blek blå"/>
+		<item id="532" text="Lavendel"/>
+		<item id="533" text="Vit"/>
+		<item id="534" text="Kommentarer"/>
+		<item id="535" text="Alternativ för kommentarer"/>
+		<item id="536" text="Raderar sidor, vänligen vänta..."/>
+		<item id="537" text="Flyttar sidor, vänligen vänta..."/>
+		<item id="538" text="Infogar sidor, vänligen vänta..."/>
+		<item id="539" text="Extraherar sidor, vänligen vänta..."/>
+		<item id="540" text="Är du säker på att du vill kopiera %1 sida(or)?"/>
+		<item id="541" text="%1: Sida(or) kopieras"/>
+		<item id="542" text="Egenskaper för raderingsverktyget"/>
+		<item id="543" text="Stämpelpaletten"/>
+		<item id="544" text="Ny stämpel"/>
+		<item id="545" text="Ny samling"/>
+		<item id="546" text="Denna samling innehåller fortfarande sämplar.&#10;Är du säker på att du vill radera den?"/>
+		<item id="547" text="%1: Stämpelsamling raderas"/>
+		<item id="548" text="Rensa senaste listan"/>
+		<item id="549" text="Vill du ta bort allt från Senaste dokument listan?"/>
+		<item id="550" text="Ja till alla olåsta"/>
+		<item id="551" text="Textegenskaper"/>
+		<item id="552" text="Innehåll"/>
+		<item id="553" text="Textinnehåll: ren text"/>
+		<item id="554" text="Formaterar"/>
+		<item id="555" text="Textformatering: typsnitt, skala, stil, m.m."/>
+		<item id="556" text="Typsnitt"/>
+		<item id="557" text="Typsnittsstorlek"/>
+		<item id="558" text="Horisontell skalning"/>
+		<item id="559" text="Baslinje offset"/>
+		<item id="560" text="Varning vid laddning av objekt: objektet skadat"/>
+		<item id="561" text="Verktygsfält"/>
+		<item id="562" text="Kommandon"/>
+		<item id="563" text="Alternativ"/>
+		<item id="564" text="Format"/>
+		<item id="565" text="Global"/>
+		<item id="566" text="Dokument"/>
+		<item id="567" text="Sidvy"/>
+		<item id="568" text="Tumnagelvy"/>
+		<item id="569" text="Bokmärkesvy"/>
+		<item id="570" text="Kommentarsvy"/>
+		<item id="571" text="Lagervy"/>
+		<item id="572" text="Formulärvy"/>
+		<item id="573" text="Bilagevy"/>
+		<item id="574" text="Text redigerare"/>
+		<item id="575" text="Stämpelpalett"/>
+		<item id="576" text="Sökvy"/>
+		<item id="577" text="Javaskript konsol"/>
+		<item id="578" text="Lupp fönster"/>
+		<item id="579" text="Panorera och zooma fönstret"/>
+		<item id="580" text="Standard"/>
+		<item id="581" text="Ingen snabbtangent"/>
+		<item id="582" text="Denna snabbtangent är ledig"/>
+		<item id="583" text="Denna snabbtangent används av ett annat kommando redan"/>
+		<item id="584" text="Denna snabbtangent används av %1 kommandot redan"/>
+		<item id="585" text="Tolkning"/>
+		<item id="586" text="Egenskaper för tolkning"/>
+		<item id="587" text="Anpassad"/>
+		<item id="588" text="Ange sökning här..."/>
+		<item id="589" text="Icke allvarliga fel hittade i XREF tabellen."/>
+		<item id="590" text="Plattar till/radera anteckningar, vänligen vänta..."/>
+		<item id="591" text="Platta till"/>
+		<item id="592" text="Låt vara"/>
+		<item id="593" text="Ta bort"/>
+		<item id="594" text="Är du säker på att du vill platta till/radera anteckningar i detta dokument?"/>
+		<item id="595" text="%1: Plattar till/raderar anteckningar"/>
+		<item id="596" text="Vill du verkligen radera alla anpassade verktygsfält/menyer när du återställer? Klicka Nej för att spara dem."/>
+		<item id="597" text="%1: Anpassade verktygsfält raderas"/>
+		<item id="598" text="Fel när sidor skulle separeras från &quot;%1&quot;:&#10;%2"/>
+		<item id="599" text="%1: Separera sidor"/>
+		<item id="600" text="Fel när anteckningar skulle plattas till il &quot;%1&quot;:&#10;%2"/>
+		<item id="601" text="Fel när sidor skulle infogas till &quot;%1&quot;:&#10;%2"/>
+		<item id="602" text="Fel när sidor skulle raderas från &quot;%1&quot;:&#10;%2"/>
+		<item id="603" text="Laddar dokument från ström..."/>
+		<item id="604" text="Laddat %1"/>
+		<item id="605" text="Öppnar dokument från ström"/>
+		<item id="606" text="Sparar dokument till ström..."/>
+		<item id="607" text="Sparat %1 av %2"/>
+		<item id="608" text="Öppnar dokument..."/>
+		<item id="609" text="Fråga inte i fortsättningen"/>
+		<item id="610" text="Är du säker på att du vill kopiera %1 sida(or) från &quot;%2&quot; till &quot;%3&quot;?"/>
+		<item id="611" text="Är du säker på att du vill flytta %1 sida(or) från &quot;%2&quot; till &quot;%3&quot;?"/>
+		<item id="612" text="Länkar"/>
+		<item id="613" text="Mätverktyg"/>
+		<item id="614" text="Egenskaper för avståndsverktyg"/>
+		<item id="615" text="Egenskaper för omkretsverktyg"/>
+		<item id="616" text="Egenskaper för areaverktyg"/>
+		<item id="617" text="Egenskaper för linjemätningsverktyget"/>
+		<item id="618" text="Egenskaper för omkretsmätningsverktyget"/>
+		<item id="619" text="Egenskaper för plygonmätningsverktyget"/>
+		<item id="620" text="Egenskaper för länkredigeringsverktyget"/>
+		<item id="621" text="Egenskaper för länkar"/>
+		<item id="622" text="Ingen"/>
+		<item id="623" text="Invertera"/>
+		<item id="624" text="Kontur"/>
+		<item id="625" text="Infälld"/>
+		<item id="626" text="Kommentarer"/>
+		<item id="627" text="%1: Summera kommentarer"/>
+		<item id="628" text="Fel när kommentarer skulle summeras från &quot;%1&quot;:&#10;%2"/>
+		<item id="629" text="Summerar kommentarer, vänligen vänta..."/>
+		<item id="630" text="Exporterar kommentarer, vänligen vänta..."/>
+		<item id="631" text="%1:Exportera kommentarer"/>
+		<item id="632" text="Fel när kommentarer skulle exporteras från &quot;%1&quot;:&#10;%2"/>
+		<item id="633" text="Exportera kommentarer"/>
+		<item id="634" text="Adobe XFDF filer (*.xfdf)"/>
+		<item id="635" text="Sida"/>
+		<item id="636" text="Typ"/>
+		<item id="637" text="Författare"/>
+		<item id="638" text="Datum"/>
+		<item id="639" text="Ordning"/>
+		<item id="640" text="PDF dokument (*.pdf)"/>
+		<item id="641" text="Rich text format (*.rtf)"/>
+		<item id="642" text="Enbart text (*.txt)"/>
+		<item id="643" text="Websidor (*.html)"/>
+		<item id="644" text="Enbart kommentarer"/>
+		<item id="645" text="Dokument och kommentarer med anslutande linjer på en enstaka sida"/>
+		<item id="646" text="Dokument och kommentarer med löpnummer på en enstaka sida"/>
+		<item id="647" text="Dokument och kommentarer på en enstaka sida"/>
+		<item id="648" text="Dokument och kommentarer med anslutande linjer på separata sidor"/>
+		<item id="649" text="Dokument och kommentarer med löpnummer på separata sidor"/>
+		<item id="650" text="Dokument och kommentarer på separata sidor"/>
+		<item id="651" text="Välj målmapp för nya filer:"/>
+		<item id="652" text="Sortera kommentarer..."/>
+		<item id="653" text="Skapa nytt dokument..."/>
+		<item id="654" text="Kopierar sidor från orginal dokument..."/>
+		<item id="655" text="Skapar ny websida..."/>
+		<item id="656" text="Byt namn på verktygsfält"/>
+		<item id="657" text="Avståndsmätning"/>
+		<item id="658" text="Omkretsmätning"/>
+		<item id="659" text="Areamätning"/>
+		<item id="660" text="Vill du verkligen radera markerad länk(ar)?"/>
+		<item id="661" text="%1: Länk(ar) raderas"/>
+		<item id="662" text="%1: Infoga tomma sidor"/>
+		<item id="663" text="Auto"/>
+		<item id="664" text="Avstånd:"/>
+		<item id="665" text="Omkrets:"/>
+		<item id="666" text="Area:"/>
+		<item id="667" text="Vinkel:"/>
+		<item id="668" text="ΔX:"/>
+		<item id="669" text="ΔY:"/>
+		<item id="670" text="Skalfaktor:"/>
+		<item id="671" text="Avståndsinfo"/>
+		<item id="672" text="Omkretsinfo"/>
+		<item id="673" text="Areainfo"/>
+		<item id="674" text="Understruken"/>
+		<item id="675" text="Länkegenskaper"/>
+		<item id="676" text="Egenskaper för länkar"/>
+		<item id="677" text="ft"/>
+		<item id="678" text="td"/>
+		<item id="679" text="m"/>
+		<item id="680" text="km"/>
+		<item id="681" text="mil"/>
+		<item id="682" text="egen"/>
+		<item id="683" text="kvadrat cm"/>
+		<item id="684" text="kvadrat tum"/>
+		<item id="685" text="kvadrat mm"/>
+		<item id="686" text="kvadrat p"/>
+		<item id="687" text="kvadrat pkt"/>
+		<item id="688" text="kvadrat ft"/>
+		<item id="689" text="kvadrat yd"/>
+		<item id="690" text="kvadrat m"/>
+		<item id="691" text="kvadrat km"/>
+		<item id="692" text="kvadrat mil"/>
+		<item id="693" text="Exporterar märtvärden, vänligen vänta..."/>
+		<item id="694" text="%1: Exportera mätvärden"/>
+		<item id="695" text="Fel när mätvärden skulle exporteras från &quot;%1&quot;:&#10;%2"/>
+		<item id="696" text="Exportera mätningsmarkeringar"/>
+		<item id="697" text="Vänligen lägg till en händelse(r)..."/>
+		<item id="698" text="Skapar ett nytt dokument"/>
+		<item id="699" text="Skapar nytt dokument, vänligen vänta..."/>
+		<item id="700" text="Varje radmatning startar ett nytt stycke"/>
+		<item id="701" text="Varje dubbelradmatning startar ett nytt stycke, enkla ignoreras"/>
+		<item id="702" text="Varje dubbelradmatning startar ett nytt stycke, enkla konverteras till mellanrum"/>
+		<item id="703" text="Ämne"/>
+		<item id="704" text="Dokumentinställningar"/>
+		<item id="705" text="Sidnavigering"/>
+		<item id="706" text="Sidlayout"/>
+		<item id="707" text="Starta dokument"/>
+		<item id="708" text="Titel"/>
+		<item id="709" text="Tillägg"/>
+		<item id="710" text="Plats"/>
+		<item id="711" text="Storlek"/>
+		<item id="712" text="Ändrad"/>
+		<item id="713" text="Skapa ett nytt dokument..."/>
+		<item id="714" text="Välj mappen med källfil(er):"/>
+		<item id="715" text="Titta i undermappar?"/>
+		<item id="716" text="Alternativ"/>
+		<item id="717" text="Kolumner"/>
+		<item id="718" text="Kolumninställningar"/>
+		<item id="719" text="Filhuvud"/>
+		<item id="720" text="Alternativ för filhuvud"/>
+		<item id="721" text="Skapa en ny fil vid nytt stycke"/>
+		<item id="722" text="Skapa en ny fil vid ny sida"/>
+		<item id="723" text="Alternativ"/>
+		<item id="724" text="Layout"/>
+		<item id="725" text="Alternativ för bildlayout"/>
+		<item id="726" text="Nedsampling/konvertering"/>
+		<item id="727" text="Bildnedsamplings/konverterings alternativ"/>
+		<item id="728" text="Topp"/>
+		<item id="729" text="Botten"/>
+		<item id="730" text="Vänster"/>
+		<item id="731" text="Höger"/>
+		<item id="732" text="Centrera"/>
+		<item id="733" text="Ingen nedsampling"/>
+		<item id="734" text="Linjär nedsampling till"/>
+		<item id="735" text="Bilinjär nedsampling till"/>
+		<item id="736" text="Bikubisk nedsampling till"/>
+		<item id="737" text="Ingen konvertering"/>
+		<item id="738" text="Konvertera till gråskala"/>
+		<item id="739" text="Konvertera till monokrom"/>
+		<item id="740" text="Konvertera till svart/vit"/>
+		<item id="741" text="Passa"/>
+		<item id="742" text="Dokument metadata"/>
+		<item id="743" text="Avancerad"/>
+		<item id="744" text="Dokumentets metadata struktur"/>
+		<item id="745" text="Sammansatt[%2]: papper &apos;%1&apos;"/>
+		<item id="746" text="pc"/>
+		<item id="747" text="Skannar..."/>
+		<item id="748" text="Skannad bild %1"/>
+		<item id="749" text="Information"/>
+		<item id="750" text="Kodning"/>
+		<item id="751" text="Typ: %1"/>
+		<item id="752" text="Bild: %1"/>
+		<item id="753" text="Sidor: %1"/>
+		<item id="754" text="Blad: %1, %2 totalt"/>
+		<item id="755" text="Totalt %1 filer"/>
+		<item id="756" text="Normalvy"/>
+		<item id="757" text="Sammansatt vy"/>
+		<item id="758" text="Etiketter"/>
+		<item id="759" text="Alternativ för bildetiketter"/>
+		<item id="760" text="Papper: &apos;%1&apos;"/>
+		<item id="761" text="Sida: %1 (titel %2 av %3)"/>
+		<item id="762" text="Horisontell"/>
+		<item id="763" text="Vänd horisontellt"/>
+		<item id="764" text="Vertikal"/>
+		<item id="765" text="Vänd vertikalt"/>
+		<item id="766" text="Anpassad"/>
+		<item id="767" text="liggande (%1° moturs)"/>
+		<item id="768" text="Ignorera alla"/>
+		<item id="769" text="Brochyr"/>
+		<item id="770" text="Book"/>
+		<item id="771" text="Båda"/>
+		<item id="772" text="Framsida"/>
+		<item id="773" text="Baksida"/>
+		<item id="774" text="Häfte"/>
+		<item id="775" text="Inga valda sidor"/>
+		<item id="776" text="Fel när text skulle placeras från &quot;%1&quot;:&#10;&quot;%2"/>
+		<item id="777" text="Fel när text skulle placeras från &quot;%1&quot;:&#10;&quot;%2"/>
+		<item id="778" text="dpi"/>
+		<item id="779" text="Upplösning: %1 dpi"/>
+		<item id="780" text="Alltid"/>
+		<item id="781" text="För inbäddade typsnitt"/>
+		<item id="782" text="Auto-identifiera"/>
+		<item id="783" text="(%1 totalt, %2 valda)"/>
+		<item id="784" text="Sida #%1"/>
+		<item id="785" text="Senast använda mapp"/>
+		<item id="786" text="Dokumentets orginalmapp"/>
+		<item id="787" text="Välj målmapp för &apos;Spara som&apos; för dokument:"/>
+		<item id="788" text="Vill du återställa alla programmets inställningar till orginal?"/>
+		<item id="789" text="Växla till användare"/>
+		<item id="790" text="Växla till ägare"/>
+		<item id="791" text="Fel vid byte till användare för &quot;%1&quot;:&#10;%2"/>
+		<item id="792" text="Fel vid byte till ägare för &quot;%1&quot;:&#10;%2"/>
+		<item id="793" text="Vänligen ange ett giltigt ägarlösenord för att få fulla rättigheter:"/>
+		<item id="794" text="Vänligen ange ett giltigt användarlösenord för att få fulla rättigheter:"/>
+		<item id="795" text="Importera alla inställningar"/>
+		<item id="796" text="Exportera alla inställningar"/>
+		<item id="797" text="Fel vid vid öppnande av sparade inställningar från filen &quot;%1&quot;, denna fil innehåller inte korrekta inställningsuppgifter:&#10;%2"/>
+		<item id="798" text="Fel när programinställningar skulle sparas till fil &quot;%1&quot;:&#10;%2"/>
+		<item id="799" text="Vill du skapa nya inställningar för programmet? Dina nuvarande inställningar kommer ersättas och försvinna."/>
+		<item id="800" text="%1 körs fortfarande."/>
+		<item id="801" text="För att se programfönstret, klicka på %1 ikonen."/>
+		<item id="802" text="Standard stil"/>
+		<item id="803" text="Ny stil"/>
+		<item id="804" text="%1 kopia"/>
+		<item id="805" text="Klona"/>
+		<item id="806" text="Klona vald stil"/>
+		<item id="807" text="Återställ"/>
+		<item id="808" text="Återställ vald stil till standard"/>
+		<item id="809" text="Radera"/>
+		<item id="810" text="Radera vald stil"/>
+		<item id="811" text="Det finns några val som är felaktiga eller oförenliga. Vänligen kontrollera, rätta till och försök igen."/>
+		<item id="812" text="Rak understrykning"/>
+		<item id="813" text="Vågig understrykning"/>
+		<item id="814" text="Bildbearbetning..."/>
+		<item id="815" text="Egenskaper för anteckningar"/>
+		<item id="816" text="Kantlinjestil:"/>
+		<item id="817" text="Kantlinjebredd:"/>
+		<item id="818" text="Linje startstil:"/>
+		<item id="819" text="Linje slutstil:"/>
+		<item id="820" text="Pennfärg:"/>
+		<item id="821" text="Fyllnadsfärg:"/>
+		<item id="822" text="Transparens:"/>
+		<item id="823" text="Meddelande ikon:"/>
+		<item id="824" text="Understrykningsstil:"/>
+		<item id="825" text="Färgöverstrykningsläge:"/>
+		<item id="826" text="Utfyllnadslinje"/>
+		<item id="827" text="Alternativ för utfyllnadslinje"/>
+		<item id="828" text="Tillverkare:"/>
+		<item id="829" text="Typ:"/>
+		<item id="830" text="Kunde inte skapa ett nytt dokument från skanner:&#10;%1"/>
+		<item id="831" text="Kunde inte skapa ett nytt dokument från bild(er):&#10;%1"/>
+		<item id="832" text="Kunde inte skapa ett nytt dokument från text:&#10;%1"/>
+		<item id="833" text="Formulär"/>
+		<item id="834" text="Alternativ för formulär"/>
+		<item id="835" text="Egenskaper för svar"/>
+		<item id="836" text="Förbereder för avkodning av bild, vänligen vänta..."/>
+		<item id="837" text="Avkodar bild..."/>
+		<item id="838" text="Rektangel"/>
+		<item id="839" text="Sammansatt linje"/>
+		<item id="840" text="Avstånd"/>
+		<item id="841" text="Text"/>
+		<item id="842" text="Anmärkning"/>
+		<item id="843" text="Omkrets"/>
+		<item id="844" text="Area"/>
+		<item id="845" text="Moln"/>
+		<item id="846" text="Ersätt"/>
+		<item id="847" text="Papper"/>
+		<item id="848" text="Alternativ för papper"/>
+		<item id="849" text="Paletten för kommentarstyper"/>
+		<item id="850" text="Exportera formulärdata som"/>
+		<item id="851" text="Adobe FDF filer (*.fdf)"/>
+		<item id="852" text="Textfiler (*.txt)"/>
+		<item id="853" text="Kunde inte skapa en ny kommantarsstil: det finns för många kommentarsstilar.&#10;Vänligen ta bort oanvända kommentarsstilar innan."/>
+		<item id="854" text="Byt namn på kommentarsstil"/>
+		<item id="855" text="Vänligen ange ett nytt namn på kommentarsstilen:"/>
+		<item id="856" text="Vill du verkligen radera de valda kommentarsstilarna?"/>
+		<item id="857" text="Vill du verkligen återställa de valda kommentarsstilarna?"/>
+		<item id="858" text="Vill du verkligen återställa den valda kommentarsstilen?&#10;Alla anpassade stilar av den valda kommentarstypen kommer att tas bort och bara standarsstilen koemmer att sparas."/>
+		<item id="859" text="Dokument"/>
+		<item id="860" text="Andra"/>
+		<item id="861" text="Inga fönster"/>
+		<item id="862" text="Välj fil som innehåller formulär data"/>
+		<item id="863" text="Målnamn"/>
+		<item id="864" text="Fönster angivet i användarinställningar"/>
+		<item id="865" text="Befintligt fönster"/>
+		<item id="866" text="Nytt fönster"/>
+		<item id="867" text="Alla filer (*.*)"/>
+		<item id="868" text="Välj standardmapp för &quot;Öppna&quot; kommandot"/>
+		<item id="869" text="Fel när dokumentet skulle sparas till en extern enhet.&#10;&quot;%1&quot;"/>
+		<item id="870" text="Bearbetar kommentarer..."/>
+		<item id="871" text="Byt namn på stämpel"/>
+		<item id="872" text="Vänligen ange ett nytt namn på stämpeln:"/>
+		<item id="873" text="Vill du verkligen radera väld stämpel?"/>
+		<item id="874" text="Vill du verkligen stänga alla öppna dokument?"/>
+		<item id="875" text="%1 av %2"/>
+		<item id="876" text="Okänd procedur"/>
+		<item id="877" text="Sammansatt procedur"/>
+		<item id="878" text="Ändra"/>
+		<item id="879" text="Ändra anteckning"/>
+		<item id="880" text="Ändra anteckningar"/>
+		<item id="881" text="Ändra mokmärke"/>
+		<item id="882" text="Ändra bokmärken"/>
+		<item id="883" text="Radera anteckningar"/>
+		<item id="884" text="Radera bokmärken"/>
+		<item id="885" text="Infoga text"/>
+		<item id="886" text="Radera text"/>
+		<item id="887" text="Klistra in text"/>
+		<item id="888" text="Ändra textformat"/>
+		<item id="889" text="Ändra textfont"/>
+		<item id="890" text="Ändra textstorlek"/>
+		<item id="891" text="Ändra textfärg"/>
+		<item id="892" text="Ändra styckeformatering"/>
+		<item id="893" text="Ändra justering av stycke"/>
+		<item id="894" text="Ange in text och stycke formatering"/>
+		<item id="895" text="Rensa text och stycke formatering"/>
+		<item id="896" text="Tilldela standard text och stycke formatering"/>
+		<item id="897" text="Ingen ändring"/>
+		<item id="898" text="Importera kommentarer"/>
+		<item id="899" text="%1: Importera kommentarer"/>
+		<item id="900" text="Fel när kommentarer skulle importeras från &quot;%1&quot;:&#10;%2"/>
+		<item id="901" text="Ja"/>
+		<item id="902" text="Nej"/>
+		<item id="903" text="Java skript konsol"/>
+		<item id="904" text="Kommentar stilpalett"/>
+		<item id="905" text="Utveckling"/>
+		<item id="906" text="VARNING!: Genvägen för detta kommando är i konflikt med genvägar till andra kommandon.&#10;Vill du använda denna genväg till detta kommando (andra genvägskonflikter kommer att tas bort innan)?"/>
+		<item id="907" text="Konflikter upptäcktes.&#10;Klicka här för detaljer."/>
+		<item id="908" text="Inga konflikter upptäcktes"/>
+		<item id="909" text="Inställningar för anteckningar"/>
+		<item id="910" text="Kommentars paletten"/>
+		<item id="911" text="Verktyg"/>
+		<item id="912" text="Egenskaper för sida..."/>
+		<item id="913" text="Egenskaper för sidor..."/>
+		<item id="914" text="Flikordning"/>
+		<item id="915" text="Flikordning på sida"/>
+		<item id="916" text="Mus inom"/>
+		<item id="917" text="Mus utanför"/>
+		<item id="918" text="Musknapp nertryckt"/>
+		<item id="919" text="Musknapp uppsläppt"/>
+		<item id="920" text="Vid fokus"/>
+		<item id="921" text="Vid fokusförlust"/>
+		<item id="922" text="Sidan öppnad"/>
+		<item id="923" text="Sidan stängd"/>
+		<item id="924" text="Sidan behålls synlig"/>
+		<item id="925" text="Sidan behålls osynlig"/>
+		<item id="926" text="Sidöppning"/>
+		<item id="927" text="Sidstängning"/>
+		<item id="928" text="Tangent tryckt"/>
+		<item id="929" text="Fältformat"/>
+		<item id="930" text="Kontrollfält"/>
+		<item id="931" text="Beräknande fält"/>
+		<item id="932" text="Innan stängning av dokument"/>
+		<item id="933" text="Innan sparande av dokument"/>
+		<item id="934" text="Efter sparande av dokument"/>
+		<item id="935" text="Innan utskrift"/>
+		<item id="936" text="Efter utskrift"/>
+		<item id="937" text="Startvy"/>
+		<item id="938" text="Dokumentets startvy"/>
+		<item id="939" text="En konflikt funnen:&#10;%1"/>
+		<item id="940" text="Bilagefält och sida"/>
+		<item id="941" text="Lagerfält och sida"/>
+		<item id="942" text="Filnamn"/>
+		<item id="943" text="Dokument titel"/>
+		<item id="944" text="Radera anteckning"/>
+		<item id="945" text="Ändra dokumentegenskaper"/>
+		<item id="946" text="Lägg till ny anteckning"/>
+		<item id="947" text="Sökmotorer"/>
+		<item id="948" text="Hantera sökmotorer"/>
+		<item id="949" text="Lägg till nya anteckningar"/>
+		<item id="950" text="Kunde inte lägga till sökmotor.&#10;Sökresultatets URL måste innehålla ordet TEST. Vänligen kolla URL:en.&#10;Det är möjligt att detta verktyg inte kan användas för att skapa en fråga för denna sökmotor."/>
+		<item id="951" text="Kunde inte lägga till sökmotor.&#10;Filen med nya  sökmotorer kunde inte sparas."/>
+		<item id="952" text="Är du säker på att du vill radera inställningarna för denna sökmotor? Detta kan inte ångras."/>
+		<item id="953" text="Sökmotorer"/>
+		<item id="954" text="Lägg till svar"/>
+		<item id="955" text="Ändra formulärfält"/>
+		<item id="956" text="Ändra formulär"/>
+		<item id="957" text="Rensa formulär"/>
+		<item id="958" text="Ingen säkerhet"/>
+		<item id="959" text="Vänligen ange ett giltigt användar eller ägarlösenord för dokumentet:"/>
+		<item id="960" text="Vänligen ange ett giltigt användarlösenord för dokumentet:"/>
+		<item id="961" text="Vänligen ange ett giltigt lösenord för inbäddade filer:"/>
+		<item id="962" text="Ändra länkar"/>
+		<item id="963" text="Ändra länk"/>
+		<item id="964" text="Lägg till nya länkar"/>
+		<item id="965" text="Lägg till ny länk"/>
+		<item id="966" text="Radera länkar"/>
+		<item id="967" text="Radera länk"/>
+		<item id="968" text="Ändra svar"/>
+		<item id="969" text="Acrobat %1 och senare"/>
+		<item id="970" text="Allt dokument innehåll"/>
+		<item id="971" text="Allt dokument innehåll utom metadata"/>
+		<item id="972" text="Endast bilagor"/>
+		<item id="973" text="40-bit RC4"/>
+		<item id="974" text="128-bit RC4"/>
+		<item id="975" text="128-bit AES"/>
+		<item id="976" text="256-bit AES"/>
+		<item id="977" text="Allt innehåll i detta dokument kommer att krypteras och sökmotorer kommer inte att kunna nå dokumentets metadata."/>
+		<item id="978" text="Allt innehåll i detta dokument kommer att krypteras men sökmotorer kommer fortfarande att kunna nå dokumentets metadata."/>
+		<item id="979" text="Kryptera bara bifogade filer medan de sparas i detta dokument. Resten av dokumentet kommer att förbli okrypterat."/>
+		<item id="980" text="Lösenord för att öppna bilagor:"/>
+		<item id="981" text="Lösenord för att öppna dokument:"/>
+		<item id="982" text="Kräv ett lösenord för att öppna filbilagor"/>
+		<item id="983" text="Kräv ett lösenord för att öppna dokumentet"/>
+		<item id="984" text="Aktivera kopiering av text, bilder och annat innehåll för synskadade"/>
+		<item id="985" text="Aktivera kopiering av text, bilder och annat innehåll"/>
+		<item id="986" text="Kommentera, fylla i formulär och signera befintliga signatur fält"/>
+		<item id="987" text="Sidlayout, fylla i formulär och signera befintliga signatur fält"/>
+		<item id="988" text="Allt utom att separera sidor"/>
+		<item id="989" text="Infoga, radera och rotera sidor"/>
+		<item id="990" text="Fylla i formulär och signera befintliga signatur fält"/>
+		<item id="991" text="Är du säker på att du vill ta bort säkerheten från detta dokument?"/>
+		<item id="992" text="Är du säker på att du vill ändra säkerheten från detta dokument?"/>
+		<item id="993" text="Antingen skall lösenordsfältet för att öppna dokumentet eller för att ändra rättigheter vara ifyllt.&#10;&#10;För att ta bort lösenordsäkerhet klicka avbryt i inställningar för lösenordssäkerhet dialogen och sätt sedan säkerhetsmetoden till ingen säkerhet."/>
+		<item id="994" text="Vänligen avmarkera alternativet &quot;Kräv ett lösenord för att öppna dokumentet&quot; eller ange lösenordet."/>
+		<item id="995" text="Vänligen antingen ta bort alternativet &quot;Kräv ett lösenord för att ändra rättigheter för dokumentet&quot; eller ange lösenordet."/>
+		<item id="996" text="Lösenordet för att öppna och ändra rättigheter kan inte vara samma. Vänligen ange ett annat lösenord i ett av fälten."/>
+		<item id="997" text="Vänligen ange lösenord för att öppna bifogade filer."/>
+		<item id="998" text="Lägg till ny anteckning"/>
+		<item id="999" text="Radera bokmärke"/>
+		<item id="1000" text="Lägg till nytt bokmärke"/>
+		<item id="1001" text="Flytta bokmärke"/>
+		<item id="1002" text="Flytta bokmärken"/>
+		<item id="1003" text="Du kan öppna ett befintligt dokument genom att dubbelklicka här..."/>
+		<item id="1004" text="Kunde inte spara alla inställningar till filen &quot;%1&quot;"/>
+		<item id="1005" text="Kunde inte skicka dokumentet med E-post.&#10;&#10;%1"/>
+		<item id="1006" text="Sök text med &quot;%1&quot;"/>
+		<item id="1007" text="Vänligen ange text för att söka på nätet."/>
+		<item id="1008" text="Några dokument vänar på att öppnas..."/>
+		<item id="1009" text="Klistra in anmärkningar från urklipp"/>
+		<item id="1010" text="Klistra in anmärkning från urklipp"/>
+		<item id="1011" text="Lägg till nya bokmärken"/>
+		<item id="1012" text="Klistra in bokmärken från urklipp"/>
+		<item id="1013" text="Klistra in bokmärke från urklipp"/>
+		<item id="1014" text="Detta är en funktion i PDF-XChange Viewer PRO.&#10;Du kan använda den i den fria versionen -  men det kommer resultera i en DEMO(!) stämpel på dina PDF sidor om du sparar filen.&#10;För att undvika detta - vänligen uppgradera till en licencierad &quot;PRO&quot; version - se hjälpfilen eller besök vår webplats för mer info&#10;&#10;Är du säker på att du vill använda denna funktion?"/>
+		<item id="1015" text="Vänligen vänta för förhandsgranskning..."/>
+		<item id="1016" text="&lt;Ingen&gt;"/>
+		<item id="1017" text="Jag är författare till detta dokument"/>
+		<item id="1018" text="Jag håller med om specifika delar av detta dokument"/>
+		<item id="1019" text="Jag har granskat detta dokument"/>
+		<item id="1020" text="Jag har godkänt detta dokument"/>
+		<item id="1021" text="Jag intygar om riktigheten och äktheten i detta dokument"/>
+		<item id="1022" text="Jag godkänner villkoren som specificerats genom att signera detta dokument"/>
+		<item id="1023" text="Auto"/>
+		<item id="1024" text="Vänster till höger (VTH)"/>
+		<item id="1025" text="Höger till vänster (HTV)"/>
+		<item id="1026" text="1024-bitars RSA"/>
+		<item id="1027" text="2048-bitars RSA"/>
+		<item id="1028" text="Ogiltigt lösenord.&#10;Lösenordet måste vara minst sex tecken långt."/>
+		<item id="1029" text="Lösenorden är inte lika.&#10;Vänligen skriv in lösnordet på nytt."/>
+		<item id="1030" text="Vill du verkligen radera %1 utseendemall för signaturer?"/>
+		<item id="1031" text="%1 utseendemall för signaturer raderas"/>
+		<item id="1032" text="Detta dokument innehåller mer än ett osignerat signaturfält. För att påbörja signeringsprocessen, klicka på det signaturfält som du vill signera."/>
+		<item id="1033" text="Signerar dokummentet"/>
+		<item id="1034" text="Fel vid signering av dokument &quot;%1&quot;:&#10;%2&#10;&#10;Dokumentet är fortfarande osignerat."/>
+		<item id="1035" text="Osignerat signaturfält (klicka för att signera)"/>
+		<item id="1036" text="Signaturen är inte verifierad"/>
+		<item id="1037" text="Ogiltig signatur"/>
+		<item id="1038" text="Giltig signatur"/>
+		<item id="1039" text="Giltig signatur"/>
+		<item id="1040" text="Det krävs ett namn för att skapa ett självsignerat digitalt ID."/>
+		<item id="1041" text="Det krävs ett namn i unicodeformat för att skapa ett självsignerat digitalt ID."/>
+		<item id="1042" text="Det krävs en e-postadress för att skapa ett självsignerat digitalt ID."/>
+		<item id="1043" text="Vänligen ange en korrekt E-postadress (t.ex.: niklas@epost.se)"/>
+		<item id="1044" text="Fältet &apos;%1&apos; är begränsat till ASCII tecken.&#10;Enbart följande tecken är tillåtna: mellanslag a-z A-Z 0-9 &apos; ( ) + , - / : = ?"/>
+		<item id="1045" text="Egenskaper för signatur"/>
+		<item id="1046" text="Summering"/>
+		<item id="1047" text="Signatursummering"/>
+		<item id="1048" text="Inte tillgängligt"/>
+		<item id="1049" text="Dokumentet har inte ändrats sedan denna signatur tillämpats."/>
+		<item id="1050" text="Signaturen för granskning av detta dokument har inte ändrats. Däremot har omfattande ändringar gjorts i detta dokument."/>
+		<item id="1051" text="Detta dokument har ändrats eller blivit fördärvat sedan signaturen blev satt."/>
+		<item id="1052" text="Signaturens giltighet är OKÄND."/>
+		<item id="1053" text="Signaturen är giltig, Signerad av %1."/>
+		<item id="1054" text="Signaturen är ogiltig"/>
+		<item id="1055" text="Bara olåsta"/>
+		<item id="1056" text="Bara brutna"/>
+		<item id="1057" text="Alla"/>
+		<item id="1058" text="Radera stödlinjer"/>
+		<item id="1059" text="Radera stödlinjer"/>
+		<item id="1060" text="Ändra stödlinjer"/>
+		<item id="1061" text="Lägg till ny stödlinje"/>
+		<item id="1062" text="Lägg till nya stödlinjer"/>
+		<item id="1063" text="Fyll hela sidan med stödlinjer"/>
+		<item id="1064" text="Bifoga fil"/>
+		<item id="1065" text="Egenskaper för bilageverktyget"/>
+		<item id="1066" text="Egenskaper för bilaga"/>
+		<item id="1067" text="Låg"/>
+		<item id="1068" text="Mellan"/>
+		<item id="1069" text="Hög"/>
+		<item id="1070" text="Ändpunkt"/>
+		<item id="1071" text="Kant"/>
+		<item id="1072" text="mittpunkt"/>
+		<item id="1073" text="Centrum"/>
+		<item id="1074" text="Skärning"/>
+		<item id="1075" text="Bilagor"/>
+		<item id="1076" text="Bilagelista"/>
+		<item id="1077" text="Beskrivning"/>
+		<item id="1078" text="Ändrad"/>
+		<item id="1079" text="Storlek"/>
+		<item id="1080" text="Komprimerad storlek"/>
+		<item id="1081" text="Plats"/>
+		<item id="1082" text="Bifoga fil"/>
+		<item id="1083" text="Ändra beskrivning för bilagan"/>
+		<item id="1084" text="Lägg till bilaga"/>
+		<item id="1085" text="Spara bilaga"/>
+		<item id="1086" text="Fel när bilagan skulle separeras från &quot;%1&quot;:&#10;%2"/>
+		<item id="1087" text="%1: Spara bilaga"/>
+		<item id="1088" text="%1: Öppna bilaga"/>
+		<item id="1089" text="Bilagan verkar vara korrupt - &quot;kontrollsumman&quot; för den separerade filen skiljer från orginalet.&#10;Är du säker på att du vill fortsätta?"/>
+		<item id="1090" text="Radera bilaga"/>
+		<item id="1091" text="Radera bilagor"/>
+		<item id="1092" text="Vill du verkligen radera %1 bilaga(or)?"/>
+		<item id="1093" text="%1: Bilaga(or) raderas"/>
+		<item id="1094" text="Vill du stänga detta dokument innan starten av &#10;&apos;%1&apos;?"/>
+		<item id="1095" text="Stäng dokument utan att bekräfta i fortsättningen"/>
+		<item id="1096" text="Hitta redigeringsrutan"/>
+		<item id="1097" text="Ta bort denna post från listan för Senaste dokument"/>
+		<item id="1098" text="Vill du ta bort posten &quot;%1&quot; från listan Senaste dokument?"/>
+		<item id="1099" text="Ta bort dokument utan att bekräfta i fortsättningen"/>
+		<item id="1100" text="Inga Senaste dokument"/>
+		<item id="1101" text="Filen &quot;%1&quot; till dokumentet &quot;%2&quot; har blivit otillgänglig och kommer att stängas.&#10;Vänligen kontrollera dina nätverksanslutningar eller lagringsenheter."/>
+		<item id="1102" text="XFA Struktur"/>
+		<item id="1103" text="Normal"/>
+		<item id="1104" text="Multiplicera"/>
+		<item id="1105" text="Raster"/>
+		<item id="1106" text="Överlagring"/>
+		<item id="1107" text="Gör mörkare"/>
+		<item id="1108" text="Gör ljusare"/>
+		<item id="1109" text="Färgskugga"/>
+		<item id="1110" text="Efterbelys med färg"/>
+		<item id="1111" text="Hårt ljus"/>
+		<item id="1112" text="Mjukt ljus"/>
+		<item id="1113" text="Skillnad"/>
+		<item id="1114" text="Uteslutning"/>
+		<item id="1115" text="Nyans"/>
+		<item id="1116" text="Mättnad"/>
+		<item id="1117" text="Färg"/>
+		<item id="1118" text="Ljusstyrka"/>
+		<item id="1119" text="Skiljbar"/>
+		<item id="1120" text="Oskiljbar(HLS)"/>
+		<item id="1121" text="Blandningsläge:"/>
+		<item id="1122" text="Nya dokument"/>
+		<item id="1123" text="Alternativ för att skapa nya dokument"/>
+		<item id="1124" text="Kunde inte skapa ett nytt från RTF:&#10;%1"/>
+		<item id="1125" text="&lt;I alla öppna dokument (%1)&gt;"/>
+		<item id="1126" text="Anteckningar för inspelning"/>
+		<item id="1127" text="Signera här"/>
+		<item id="1128" text="Författare"/>
+		<item id="1129" text="Ämne"/>
+		<item id="1130" text="Sida"/>
+		<item id="1131" text="Datum"/>
+		<item id="1132" text="Typ"/>
+		<item id="1133" text="Nummer"/>
+		<item id="1134" text="&lt;Ingen&gt;"/>
+		<item id="1135" text="&lt;Odefinerad&gt;"/>
+		<item id="1136" text="Sammanfattning av kommentarer till %1"/>
+		<item id="1137" text="Öppna på nytt"/>
+		<item id="1138" text="Enbart markeringar"/>
+		<item id="1139" text="Söker i bokmärken..."/>
+		<item id="1140" text="Programmet har sökt igenom dokumentet efter:&#10;&quot;%1&quot;.&#10;&#10;Inga objekt matchar sökvillkoren."/>
+		<item id="1141" text="Säkerhet"/>
+		<item id="1142" text="Säkerhetsinställningar"/>
+		<item id="1143" text="URL"/>
+		<item id="1144" text="Lägg till ny tidstämplingsserver"/>
+		<item id="1145" text="Redigera tidstämplingsserver"/>
+		<item id="1146" text="Enbart läsning"/>
+		<item id="1147" text="Bekräfta lösenordet för att öppna bilaga"/>
+		<item id="1148" text="Bekräfta lösenordet för att öppna dokument:"/>
+		<item id="1149" text="Bekräftat lösenord matchar inte. Vänligen börja om och ange lösenord på nytt."/>
+		<item id="1150" text="Inskjutningstecken"/>
+		<item id="1151" text="Ljud"/>
+		<item id="1152" text="Använd standard ämne: &quot;%1&quot;"/>
+		<item id="1153" text="Nytt namngivet mål"/>
+		<item id="1154" text="Ange ett unikt namn för det nya målet:"/>
+		<item id="1155" text="Vill du verkligen radera det markerade &quot;%1&quot;  namngivna målet?&#10;Denna händelse kan inte ångras."/>
+		<item id="1156" text="Det namngivna målet &quot;%1&quot; finns redan.&#10;Vänligen ange ett unikt namn för det nya målet."/>
+		<item id="1157" text="Dokumentet &quot;%1&quot; har ändrats utanför applikationen."/>
+		<item id="1158" text="Vill du ladda om det?"/>
+		<item id="1159" text="Vill du ladda om det och förlora gjorda ändringar?"/>
+		<item id="1160" text="Kom ihåg mitt val för detta dokument"/>
+		<item id="1161" text="Detta dokument &quot;%1&quot; är PDF/A kompatibelt.&#10;&#10;Att spara ändringar till denna fil kan lägga till innehåll som gör att den inte längre är PDF/A kompatibel."/>
+		<item id="1162" text="Detta dokument &quot;%1&quot; innehåller ett XFA formulär.&#10;&#10;XFA formulär är ett alternativt format av PDF standarden och stödjs för närvarande bara delvis av PDF-XChange Viewer. Fullt stöd för XFA formulär kommer att introduceras i version 3 av PDF-XChange Viewer under 2010."/>
+		<item id="1163" text="Dokumentet:&#10;&quot;%1&quot;&#10;- är PDF/A kompatibelt.&#10;&#10;Genom att spara kan ogiltigt innehåll läggas till - vilket gör att måldokumentet inte längre är PDF/A kompatibelt.&#10;&#10;Vill du spara detta dokument?"/>
+		<item id="1164" text="Nuvarande"/>
+		<item id="1165" text="Vänligen ange inledande zoomfaktor för alla nya &quot;Gå till en sida i detta dokument&quot; händelser, (kan användas till bokmärken och länkar&quot;"/>
+		<item id="1166" text="Felaktiga sökalternativ.&#10;&#10;Vänligen kontrollera alternativen i sökpanelen och ta med ett eller flera områden i sökningen ( Sidinnehåll, bokmärken, kommentarer, mm.)"/>
+		<item id="1167" text="Visa detaljer"/>
+		<item id="1168" text="Dölj detaljer"/>
+		<item id="1169" text="Fil att starta:"/>
+		<item id="1170" text="Start parametrar:"/>
+		<item id="1171" text="Bara för PDF dokument"/>
+		<item id="1172" text="Fråga bara för icke PDF:er (säkert, rekomenderas)"/>
+		<item id="1173" text="För att filtyper (osäkert, rekomenderas inte)"/>
+		<item id="1174" text="Aldrig"/>
+		<item id="1175" text="Observera: Källans format är inte PDF"/>
+		<item id="1176" text="det verkar vara ett HTML dokument"/>
+		<item id="1177" text="Laddar ner fullständig hjälpfil, vänligen vänta..."/>
+		<item id="1178" text="OBS! denna funktion kommer enbart att rotera sidorna under detta arbetspass - inga ändringar kommer att sparas till orginalfilen, för att spara valet permanent, använd &quot;Rotera sidor&quot; under &quot;Dokument&quot; menyn."/>
+		<item id="1179" text="Skicka data till %1"/>
+		<item id="1180" text="&lt;Inget ämne&gt; (%1)"/>
+		<item id="1181" text="%1: Skicka formulär"/>
+		<item id="1182" text="Ett fel inträffade när formuläret skulle skickas:&#10;&#10;%2"/>
+		<item id="1183" text="Formuläret returnerade: %1"/>
+		<item id="1184" text="Formuläret returnerade: %1&#10;&#10;Den bifogade filen är det infyllda formuläret. Öppna den för att granska data."/>
+		<item id="1185" text="Alla menyer och verktygsfält var gömda i det förra arbetspasset.&#10;Vill du återställa dem nu?"/>
+		<item id="1186" text="Notera: du kan återställa alla verktygsfält genom att trycka %1."/>
+		<item id="1187" text="Programmet har slutfört sökningen i dokumentet efter:&#10;&quot;%1&quot;.&#10;&#10;Inga objekt matchar din sökning."/>
+		<item id="1188" text="Dokumentet har uppdaterats efter signering."/>
+		<item id="1189" text="Det valda filformatet stödjer inte transparent bakgreun."/>
+		<item id="1190" text="Valen som du har satt för detta filformat stödjer inte transparent bakgrund.&#10;&#10;Vill du autoändra några av valen för att skapa bilder med transparent bakgrund?"/>
+		<item id="1191" text="Vilket ord eller fras vill du söka efter?"/>
+		<item id="1192" text="Var vill du söka?"/>
+		<item id="1193" text="Rensa söklistan"/>
+		<item id="1194" text="Redo"/>
+		<item id="1195" text="Anpassa UI"/>
+		<item id="1196" text="Anpassa utseende för användargränssnitt"/>
+		<item id="1197" text="XFA Formulär"/>
+		<item id="1198" text="Statisk"/>
+		<item id="1199" text="Dynamisk"/>
+		<item id="1200" text="Auto"/>
+		<item id="1202" text="Solid"/>
+		<item id="1203" text="Standard bakgrund"/>
+		<item id="1204" text="Vertikala ränder"/>
+		<item id="1205" text="Punkter"/>
+		<item id="1212" text="Detta dokument innehåller statiskt XFA formulär.&#10;&#10;XFA formulär bygger på Adobes XML formulär arkitektur, och sådana formulär stöds av mycket begränsat antal PDF orienterade applikationer."/>
+		<item id="1213" text="Detta dokument innehåller dynamiskt XFA formulär.&#10;&#10;XFA formulär bygger på Adobes XML formulär arkitektur, och sådana formulär stöds av mycket begränsat antal PDF orienterade applikationer."/>
+		<item id="1214" text="This document does not contain any XFA formulär.&#10;&#10;Do you want to open this document in Adobe Live Cycle?"/>
+		<item id="1215" text="Detta dokument begränsar vissa operationer för att möjliggöra utökade funktioner i Adobe Reader."/>
+		<item id="1216" text="Du kan inte ändra säkerheten på detta dokument eftersom dokumentet är undertecknat eller certifierat."/>
+		<item id="1217" text="XML Filer (*.xml)"/>
+		<item id="1218" text="XML Datapaket Filer (*.xdp)"/>
+		<item id="1219" text="MB"/>
+		<item id="1220" text="Dokumentet kunde inte sparas. Filen kan vara skrivskyddad, eller ett annat program/användare kan ha den öppen. Du kan spara dokumentet med ett annat namn eller i en annan mapp."/>
+		<item id="1221" text="Spara som"/>
+		<item id="1223" text="Vissa sidor kommer inte att skrivas ut helt eftersom de är utanför tillgängliga arean.nTips:"/>
+		<item id="1224" text="Vill du fortsätta att skriva ut?"/>
+		<item id="1225" text="Försök att ställa in &quot;%1&quot; alternativet innan du skriver"/>
+		<item id="1226" text="och/eller ställ in &quot;%1&quot; alternativet"/>
+		<item id="1227" text="I utskriftsinställningarna välj ett annat pappersformat som är mer lämpligt"/>
+		<item id="1228" text="Icke-blockerad"/>
+		<item id="1229" text="Bevara ursprungligt innehåll och lägg till textlager"/>
+		<item id="1230" text="Konvertera innehållet på sidan till bildformat endast - Lägg till text som ett lager"/>
+		<item id="1231" text="Låg"/>
+		<item id="1232" text="Mellan"/>
+		<item id="1233" text="Hög"/>
+		<item id="1234" text="%1: OCR Sidor"/>
+		<item id="1235" text="Error OCR Sidor i &quot;%1&quot;:&#10;%2"/>
+		<item id="1236" text="Bearbetar sidor, var god vänta..."/>
+		<item id="1237" text="Bearbetning sida%1 av %2: rastrering..."/>
+		<item id="1238" text="Bearbetning sida%1 av %2: igenkännande..."/>
+		<item id="1239" text="Bearbetning sida%1 av %2: genererar..."/>
+		<item id="1240" text="Denna fil är öppen i ett externt program och kan få ytterligare ändringar&#10;&#10;WARNING: Under PDF-fil bäddnings-processen, blir filer tillgängliga för externa applikationer och kan ändras - är du säker på att du vill fortsätta?"/>
+	</strings>
+</Localization>
+

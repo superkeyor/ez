@@ -1,0 +1,67 @@
+; GHOSTPDF.INF (for Windows 2k, XP and XP x64 edition)
+;
+; Windows 8:
+; ghostpdl.inf is not supported on Windows 8. It can be installed,
+; however, by doing the following:
+;
+; AT YOUR OWN RISK!!
+;
+; Open your charms (the right side popup menu) and select
+; "Settings" and click on the last option on the list called 
+; "Change PC Settings". In the "General" category click the
+; "Restart now" button under "Advanced startup".
+; When the system restarts it will show you several options, you
+; want to select "Troubleshoot" then "Advanced options" and finally
+; "Startup Settings". The system will reboot one more time and you
+; will have a new listing of options, you will want to select option
+; #7 "Disable Driver Signature Enforcement".  After the system has
+; finished restarting for the final time you will be able to add the
+; Ghostscript printer to Windows 8.
+; The final item of note is that you must select "File: (print to file)"
+; as the port for the printer as "LPT1" will not work.
+;
+; AT YOUR OWN RISK!!
+
+
+[Version]
+Signature="$Windows NT$"
+Provider=Ghostgum Software Pty Ltd
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+CatalogFile=oemprint.cat
+
+DriverVer=01/02/2007,1.0.0.1
+
+; Manufacturer section
+[Manufacturer]
+"Ghostscript"=Ghostscript,NTamd64,NTia64
+
+; Model sections
+[Ghostscript]
+"Ghostscript PDF" = GHOSTPDF.PPD, Ghostscript_PDF, Ghostscript_PDF_Writer
+
+[Ghostscript.NTamd64]
+"Ghostscript PDF" = GHOSTPDF.PPD, Ghostscript_PDF, Ghostscript_PDF_Writer
+
+[Ghostscript.NTia64]
+"Ghostscript PDF" = GHOSTPDF.PPD, Ghostscript_PDF, Ghostscript_PDF_Writer
+
+; Installer section
+[GHOSTPDF.PPD]
+CopyFiles=@GHOSTPDF.PPD
+DataSection=PSCRIPT_DATA
+Include=NTPRINT.INF
+Needs=PSCRIPT.OEM
+
+[DestinationDirs]
+DefaultDestDir=66000
+
+[SourceDisksNames]
+1=%Disk1%,,,""
+
+[SourceDisksFiles]
+GHOSTPDF.PPD =1
+
+[Strings]
+Disk1="Ghostscript PPD Setup Disk 1"
+; end of ghostpdf.inf

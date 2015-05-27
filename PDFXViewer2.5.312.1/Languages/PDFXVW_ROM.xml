@@ -1,0 +1,1223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+	<Product id="PXCView" version="1.0" productVersion="2.0.40.3" order"2"/>
+	<language eName="Romanian" lName="Română (RO)" lcid="0x0418" prefFont="Arial"/>
+	<commands>
+		<item id="32316" title="Înapoi" tooltip="Înapoi" status="" short=""/>
+		<item id="32317" title="Înainte" tooltip="Înainte" status="" short=""/>
+		<item id="32609" title="Lupă" tooltip="Lupă" status="Instrument Lupă" short=""/>
+		<item id="32610" title="Instrument pentru mărire" tooltip="Mărire" status="Instrument pentru mărire" short="Măreşte"/>
+		<item id="32611" title="Instrument pentru micşorare" tooltip="Micşorare" status="Instrument pentru micşorare" short="Micşorează"/>
+		<item id="32613" title="Instrument mânuţă" tooltip="Mânuţă" status="Instrument mânuţă" short=""/>
+		<item id="32614" title="Instrument snapshot" tooltip="Snapshot" status="Instrument snapshot" short=""/>
+		<item id="32620" title="Instrument pentru selecţie" tooltip="Selecţie text/obiecte" status="Instrument pentru selectat text/obiecte" short=""/>
+		<item id="32884" title="Du-te la" tooltip="" status="" short=""/>
+		<item id="32885" title="Prima pagină" tooltip="Du-te la prima pagină" status="Du-te la prima pagină" short=""/>
+		<item id="32886" title="Pagina precedentă" tooltip="Du-te la pagina precedentă" status="Du-te la pagina precedentă" short=""/>
+		<item id="32887" title="Pagina următoare" tooltip="Du-te la pagina următoare" status="Du-te la pagina următoare" short=""/>
+		<item id="32888" title="Ultima pagină" tooltip="Du-te la ultima pagină" status="Du-te la ultima pagină" short=""/>
+		<item id="32889" title="Pa&amp;gina" tooltip="" status="" short=""/>
+		<item id="32890" title="Vederea precedentă" tooltip="Du-te la vederea precedentă" status="" short=""/>
+		<item id="32891" title="Vederea următoare" tooltip="Du-te la vederea următoare" status="" short=""/>
+		<item id="32892" title="Documentul precedent" tooltip="" status="" short=""/>
+		<item id="32893" title="Documentul următor" tooltip="" status="" short=""/>
+		<item id="32895" title="O singură pagină" tooltip="O singură pagină" status="" short=""/>
+		<item id="32896" title="Continuu" tooltip="Continuu" status="" short=""/>
+		<item id="32897" title="Faţă în faţă" tooltip="Faţă în faţă" status="" short=""/>
+		<item id="32898" title="Continuu - Faţă în faţă" tooltip="Continuu - Faţă în faţă" status="" short=""/>
+		<item id="32899" title="Măreşte/Micşorează..." tooltip="Selectează nivelul de mărire pentru documentul activ" status="Selectează nivelul de mărire pentru documentul activ" short=""/>
+		<item id="32900" title="Mărime actuală" tooltip="Arată pagina la mărimea actuală (100%)" status="Arată pagina la mărimea actuală (100%)" short=""/>
+		<item id="32901" title="Potriveste pagina" tooltip="Potriveste pagina in vederea curentă" status="Potriveste pagina în vederea curentă" short=""/>
+		<item id="32902" title="Potriveste pe lăţime" tooltip="Potriveste lăţimea paginii cu vederea curentă" status="Potriveste lăţimea paginii cu vederea curentă" short=""/>
+		<item id="32904" title="Măreşte" tooltip="Măreşte" status="Măreşte" short=""/>
+		<item id="32905" title="Micşorează" tooltip="Micşorează" status="Micşorează" short=""/>
+		<item id="32906" title="Preferi&amp;nţe" tooltip="Afişează preferinţele aplicaţiei..." status="Afişează preferinţele aplicaţiei..." short=""/>
+		<item id="32907" title="" tooltip="Afişează Numărul de pagini a acestui document" status="" short=""/>
+		<item id="32908" title="Fişier" tooltip="Arată/Ascunde Bara de Instrumente pt. Fişier" status="Arată/Ascunde Bara de Instrumente pt. Fişier" short=""/>
+		<item id="32910" title="&amp;Semne de carte" tooltip="Arată/Ascunde Panoul cu Semne de carte" status="Arată/Ascunde Panoul cu Semne de carte" short=""/>
+		<item id="32912" title="Pagini în miniatura" tooltip="Arată/Ascunde Panoul cu pagini miniaturizate" status="Arată/Ascunde Panoul cu pagini miniaturizate" short=""/>
+		<item id="32924" title="Bara de Instrumente Standard" tooltip="Arată/Ascunde Bara de Instrumente Standard" status="Arată/Ascunde Bara de Instrumente Standard" short=""/>
+		<item id="32925" title="Bara pentru Mărire/Micşorare" tooltip="Arată/Ascunde Bara pentru Mărire/Micşorare" status="Arată/Ascunde Bara pentru Mărire/Micşorare" short=""/>
+		<item id="32929" title="Bara pentru rotit vederea" tooltip="Arată/Ascunde Bara pentru rotit vederea" status="Arată/Ascunde Bara pentru rotit vederea" short=""/>
+		<item id="32936" title="Arată toate Tab-urile" tooltip="Arată toate Tab-urile" status="" short=""/>
+		<item id="32937" title="Închide Tab-ul activ" tooltip="Închide Tab-ul activ" status="" short=""/>
+		<item id="32938" title="Arată Toate Tab-urile în miniatura" tooltip="Arată Toate Tab-urile în miniatura" status="" short=""/>
+		<item id="32940" title="Tab-uri de &amp;navigatie" tooltip="Arată/Ascunde Tab-urile de navigatie" status="Arată/Ascunde Tab-urile de navigatie" short=""/>
+		<item id="32942" title="Închide toate documentele" tooltip="" status="" short=""/>
+		<item id="32944" title="Expo&amp;rtă" tooltip="" status="" short=""/>
+		<item id="32945" title="Exportă ca imagine" tooltip="Exportă pagini in Imagini..." status="Exportă documentul activ in imagini..." short=""/>
+		<item id="32946" title="Nume document" tooltip="" status="" short=""/>
+		<item id="32947" title="Numar document" tooltip="" status="" short=""/>
+		<item id="32948" title="Titlu documet" tooltip="" status="" short=""/>
+		<item id="32949" title="Numar pagina" tooltip="" status="" short=""/>
+		<item id="32950" title="PAGINA" tooltip="" status="" short=""/>
+		<item id="32951" title="PAGINI" tooltip="" status="" short=""/>
+		<item id="32952" title="Nume fisier" tooltip="" status="" short=""/>
+		<item id="32953" title="Data (MM-ZZ-AAAA)" tooltip="" status="" short=""/>
+		<item id="32954" title="An" tooltip="" status="" short=""/>
+		<item id="32955" title="Luna" tooltip="" status="" short=""/>
+		<item id="32956" title="Zi" tooltip="" status="" short=""/>
+		<item id="32957" title="Timp (HH-MM-SS)" tooltip="" status="" short=""/>
+		<item id="32958" title="Ora" tooltip="" status="" short=""/>
+		<item id="32959" title="Minute" tooltip="" status="" short=""/>
+		<item id="32960" title="Secunde" tooltip="" status="" short=""/>
+		<item id="32961" title="Auto numerotare" tooltip="" status="" short=""/>
+		<item id="32987" title="&amp;Caută" tooltip="Afişează Panoul  complet pentru căutare" status="Afişează Panoul  complet pentru căutare" short=""/>
+		<item id="32991" title="Caută Precedentul" tooltip="Caută precedentă apariţie" status="Caută precedentă apariţie" short=""/>
+		<item id="32992" title="Caută Următorul" tooltip="Caută următoarea apariţie" status="Caută următoarea apariţie" short=""/>
+		<item id="32993" title="Opţiuni Căutare" tooltip="Opţiuni Căutare" status="Opţiuni Căutare" short=""/>
+		<item id="32994" title="Numai cuvinte întregi" tooltip="Găseşte numai cuvinte întregi" status="Găseşte numai apariţii complete ale cuvântului introdus" short=""/>
+		<item id="32995" title="Senzitiv la mărimea caracterelor" tooltip="Căutare senzitivă la mărimea caracterelor" status="Găseşte numai cuvinte care se potrivesc cu mărimea caracterelor introduse" short=""/>
+		<item id="32996" title="Include Comentariile" tooltip="Caută prin textul oricarui comentariu adaugat la PDF" status="Caută prin textul oricarui comentariu adaugat la PDF" short=""/>
+		<item id="32997" title="Include Semnele de carte" tooltip="Caută în textul oricărui semn de carte" status="Caută în textul oricărui semn de carte, asa cum este vazut în panoul cu semne de carte" short=""/>
+		<item id="33000" title="Bara de Instrumente pt. Căutare" tooltip="Arată/Ascunde Bara de Instrumente pt. Căutare" status="Arată/Ascunde Bara de Instrumente pt. Căutare" short=""/>
+		<item id="33006" title="Straturi" tooltip="Arată/Ascunde panoul cu straturi (layers)" status="Arată/Ascunde panoul cu straturi" short=""/>
+		<item id="33008" title="Câmpuri" tooltip="Arată/Ascunde panoul cu câmpuri (fields)" status="Arată/Ascunde panoul cu câmpuri" short=""/>
+		<item id="33009" title="Bara de meniu" tooltip="Arata/Ascunde Bara de meniu" status="Arata/Ascunde Bara de meniu" short=""/>
+		<item id="33014" title="Ecran plin" tooltip="Maximizează Fereastra la Întreg ecranul" status="Maximizează Fereastra la Întreg ecranul" short=""/>
+		<item id="33015" title="Arată/Ascunde Toate Barele" tooltip="Arată/Ascunde Toate Barele" status="Arată/Ascunde Toate Barele" short="Basculează toate Barele"/>
+		<item id="33016" title="Arată/Ascunde Toate Barele de Unelte" tooltip="Arată/Ascunde Toate Barele de Unelte" status="Arată/Ascunde Toate Barele de Unelte" short="Arată/Ascunde Toate Barele de Unelte"/>
+		<item id="33018" title="Marchează Toate Câmpurile Formularului" tooltip="Acest document conţine formulare; Click Aici pentru a marca Toate Câmpurile Formularului" status="Acest document conţine formulare; Click Aici pentru a marca Toate Câmpurile Formularului" short="Marchează câmpurile"/>
+		<item id="33032" title="Centimetri" tooltip="Centimetri" status="" short=""/>
+		<item id="33033" title="Inches" tooltip="Inches" status="" short=""/>
+		<item id="33034" title="Milimetri" tooltip="Milimetri" status="" short=""/>
+		<item id="33035" title="Picas" tooltip="Picas" status="" short=""/>
+		<item id="33036" title="Puncte" tooltip="Puncte" status="" short=""/>
+		<item id="33038" title="Închide tot" tooltip="Închide toate documentere deschise" status="Închide toate documentere deschise" short=""/>
+		<item id="33054" title="6400%" tooltip="" status="" short=""/>
+		<item id="33055" title="3200%" tooltip="" status="" short=""/>
+		<item id="33056" title="2400%" tooltip="" status="" short=""/>
+		<item id="33057" title="1200%" tooltip="" status="" short=""/>
+		<item id="33058" title="800%" tooltip="" status="" short=""/>
+		<item id="33059" title="400%" tooltip="" status="" short=""/>
+		<item id="33060" title="200%" tooltip="" status="" short=""/>
+		<item id="33061" title="150%" tooltip="" status="" short=""/>
+		<item id="33062" title="100%" tooltip="" status="" short=""/>
+		<item id="33063" title="75%" tooltip="" status="" short=""/>
+		<item id="33064" title="50%" tooltip="" status="" short=""/>
+		<item id="33065" title="25%" tooltip="" status="" short=""/>
+		<item id="33073" title="E&amp;xportă datele din formular" tooltip="" status="" short=""/>
+		<item id="33074" title="Importă &amp;date în formular" tooltip="" status="" short=""/>
+		<item id="33075" title="&amp;Roteşte vederea" tooltip="" status="" short=""/>
+		<item id="33078" title="Spre dreapta" tooltip="Roteşte vederea spre dreapta" status="Roteşte vederea spre dreapta" short=""/>
+		<item id="33079" title="Spre stânga" tooltip="Roteşte vederea spre stânga" status="Roteşte vederea spre stânga" short=""/>
+		<item id="33080" title="&amp;Roteşte pagini..." tooltip="" status="" short=""/>
+		<item id="33081" title="&amp;Şterge Pagini..." tooltip="" status="" short=""/>
+		<item id="33082" title="Taie din Pagini..." tooltip="" status="" short=""/>
+		<item id="33103" title="Intrument pentru mutare şi mărire/micşorare" tooltip="Intrument pentru mutare şi mărire/micşorare" status="Intrument pentru mutare şi mărire/micşorare" short="Mutare şi mărire/micşorare"/>
+		<item id="33104" title="Bold" tooltip="Ingroşat" status="" short=""/>
+		<item id="33105" title="Italic" tooltip="Inclinat" status="" short=""/>
+		<item id="33106" title="Subliniat" tooltip="Subliniat" status="" short=""/>
+		<item id="33107" title="Taiat" tooltip="Tăiat" status="" short=""/>
+		<item id="33108" title="Aliniaza la stânga" tooltip="Aliniază la stânga" status="" short=""/>
+		<item id="33109" title="Aliniaza faţă de centru" tooltip="Aliniază faţă de centru" status="" short=""/>
+		<item id="33110" title="Aliniaza la dreapta" tooltip="Aliniază la dreapta" status="" short=""/>
+		<item id="33115" title="Intoarce Linie" tooltip="Intoarce Linie" status="" short=""/>
+		<item id="33116" title="&amp;Proprietăţi" tooltip="Mai multe proptietăţi" status="" short=""/>
+		<item id="33118" title="Fă Proprietăţile curente implicite" tooltip="Fă Proprietăţile curente implicite" status="" short=""/>
+		<item id="33121" title="Resetează pozitia Pop-Up Note" tooltip="Resetează pozitia Pop-Up Note" status="" short=""/>
+		<item id="33122" title="Deschide Notă Pop-Up" tooltip="Deschide Notă Pop-Up" status="" short=""/>
+		<item id="33123" title="Instrument săgeată" tooltip="Săgeată" status="" short="Săgeată"/>
+		<item id="33124" title="Instrument Linie" tooltip="Linie" status="" short="Linie"/>
+		<item id="33125" title="Instrument Dreptunghi" tooltip="Dreptunghi" status="" short="Dreptunghi"/>
+		<item id="33126" title="Instrument Oval" tooltip="Oval" status="" short="Oval"/>
+		<item id="33127" title="Instrument Poligon" tooltip="Poligon" status="" short="Poligon"/>
+		<item id="33128" title="Instrument Linie Poligonală" tooltip="Linie Poligonală" status="" short="Linie poligonală"/>
+		<item id="33129" title="Instrument Creion" tooltip="Creion" status="" short="Creion"/>
+		<item id="33130" title="Instrument Nor" tooltip="Nor" status="" short="Nor"/>
+		<item id="33131" title="Ştampile" tooltip="Ştampile" status="" short=""/>
+		<item id="33132" title="Instrument Nota Lipicioasă" tooltip="Nota Lipicioasă" status="" short="Nota Lipicioasă"/>
+		<item id="33133" title="Previzualizare" tooltip="Previzualizare" status="" short=""/>
+		<item id="33134" title="Aplică proprietăţile implicite" tooltip="Aplică proprietăţile implicite" status="" short=""/>
+		<item id="33135" title="Adauga Nota" tooltip="Adauga Nota" status="" short=""/>
+		<item id="33136" title="Şterge" tooltip="Şterge selecţia" status="Şterge selecţia" short=""/>
+		<item id="33138" title="Bara cu Comentarii şi marcaje" tooltip="Arată/Ascunde Bara cu Comentarii şi marcaje" status="Arată/Ascunde Bara cu Comentarii şi marcaje" short=""/>
+		<item id="33139" title="Anulează" tooltip="Anulează" status="" short=""/>
+		<item id="33140" title="Termină" tooltip="Termină" status="" short=""/>
+		<item id="33141" title="Pagina de web a programului" tooltip="" status="" short=""/>
+		<item id="33145" title="Cuprins" tooltip="" status="" short=""/>
+		<item id="33146" title="&amp;Raportează o problemă" tooltip="" status="" short=""/>
+		<item id="33147" title="Forum de discuţii" tooltip="" status="" short=""/>
+		<item id="33168" title="Şterge Formatarea textului" tooltip="Şterge Formatarea textului" status="" short=""/>
+		<item id="33170" title="Indice sus" tooltip="Indice sus" status="" short=""/>
+		<item id="33171" title="Indice jos" tooltip="Indice jos" status="" short=""/>
+		<item id="33174" title="Adaugă Răspuns" tooltip="Adaugă răspuns" status="" short=""/>
+		<item id="33176" title="Şterge Răspuns" tooltip="Şterge Răspuns" status="" short=""/>
+		<item id="33179" title="Verifică versiune nouă..." tooltip="" status="" short=""/>
+		<item id="33182" title="Copie ca text simplu" tooltip="Copie ca text simplu" status="" short=""/>
+		<item id="33183" title="Copie ca text formatat" tooltip="Copie ca text formatat" status="" short=""/>
+		<item id="33184" title="Copie ca Rich Content" tooltip="Copie ca Rich Content" status="" short=""/>
+		<item id="33187" title="Consola &amp;Java Script" tooltip="Arata/Ascunde Consola Java Script" status="Arata/Ascunde Consola Java Script" short=""/>
+		<item id="33201" title="Instrument Bulă cu text" tooltip="Instrument Bulă cu text" status="" short="Bulă cu text"/>
+		<item id="33202" title="Instrument Casetă cu text" tooltip="Casetă cu Text" status="" short="Casetă cu text"/>
+		<item id="33204" title="&amp;Comentarii" tooltip="Arată/Ascunde panoul cu comentarii" status="Arată/Ascunde panoul cu comentarii" short=""/>
+		<item id="33206" title="Marchează text" tooltip="Marchează text" status="" short=""/>
+		<item id="33207" title="Adaugă Notă la text" tooltip="Adaugă Notă la text" status="" short=""/>
+		<item id="33208" title="Subliniază Text" tooltip="Subliniază Text" status="" short=""/>
+		<item id="33209" title="Taie text" tooltip="Taie text (cu o linie)" status="" short=""/>
+		<item id="33210" title="Înlocuieste Text" tooltip="Înlocuieste Text" status="" short=""/>
+		<item id="33221" title="Instrument pentru evidenţiere text" tooltip="Evidenţiază textul selectat" status="Evidenţiază textul selectat" short="Evidenţiază textul"/>
+		<item id="33222" title="Instrument Subliniere text" tooltip="Subliniază textul selectat" status="Subliniază textul selectat" short="Subliniază text"/>
+		<item id="33223" title="Instrument pentru tăiere text" tooltip="Taie textul selectat cu o linie" status="Taie textul selectat cu o linie" short="Taie cu o linie"/>
+		<item id="33225" title="Bara de proprietăţi" tooltip="Arată/Ascunde Bara de proprietăţi" status="Arată/Ascunde Bara de proprietăţi" short=""/>
+		<item id="33226" title="Instrument Maşină de scris" tooltip="Maşină de scris" status="" short="Maşină de scris"/>
+		<item id="33228" title="Afişează paleta de Ştampile" tooltip="" status="" short=""/>
+		<item id="33229" title="Ţine Instrumentul selectat" tooltip="Ţine Instrumentul selectat" status="" short=""/>
+		<item id="33232" title="După pagină" tooltip="Grupează comentariile după pagină" status="" short=""/>
+		<item id="33233" title="După tip" tooltip="Grupează comentariile după tip" status="" short=""/>
+		<item id="33234" title="După autor" tooltip="Grupează comentariile după autor" status="" short=""/>
+		<item id="33235" title="După dată" tooltip="Grupează comentariile după dată" status="" short=""/>
+		<item id="33236" title="Dupa culoare" tooltip="Grupeaza comentariile dupa culoare" status="" short=""/>
+		<item id="33238" title="Următorul" tooltip="Comentariul următor" status="" short=""/>
+		<item id="33239" title="Precedentul" tooltip="Comentariul precedent" status="" short=""/>
+		<item id="33240" title="Şterge" tooltip="Şterge comentariu" status="" short=""/>
+		<item id="33241" title="Strange tot" tooltip="Strange toate comentariile" status="" short=""/>
+		<item id="33242" title="Expandează tot" tooltip="Expandează toate comentariile" status="" short=""/>
+		<item id="33243" title="Grupează după" tooltip="Grupează după" status="" short=""/>
+		<item id="33244" title="Proprietati..." tooltip="Proprietati comentariu..." status="" short=""/>
+		<item id="33245" title="Adauga raspuns" tooltip="Adauga raspuns la comentariu" status="" short=""/>
+		<item id="33248" title="Deselectează tot" tooltip="Deselectează tot" status="" short=""/>
+		<item id="33255" title="Închide toate Tab-urile mai putin acesta" tooltip="Închide toate Tab-urile ma putin acesta" status="" short=""/>
+		<item id="33256" title="Închide acest Tab" tooltip="Închide acest Tab" status="" short=""/>
+		<item id="33257" title="Copie numele complet al fişierului" tooltip="Copie numele complet al fişierului activ în clipboard" status="Copie numele complet al fişierului activ în clipboard" short=""/>
+		<item id="33258" title="Deschide directorul care conţine fişierul..." tooltip="Deschide directorul care conţine documentul activ" status="Deschide directorul care conţine documentul activ" short=""/>
+		<item id="33259" title="Setează formatarea curentă a textului ca implicită" tooltip="Setează formatarea curentă a textului ca implicită" status="" short=""/>
+		<item id="33260" title="Aplică formatarea implicită a textului" tooltip="Aplică formatarea implicită a textului" status="" short=""/>
+		<item id="33261" title="Culoarea textului" tooltip="Culoarea textului" status="" short=""/>
+		<item id="33262" title="Bara cu Opţiunile Documentului" tooltip="Arată/Ascunde Bara cu Opţiunile Documentului" status="Arată/Ascunde Bara cu Opţiunile Documentului" short=""/>
+		<item id="33263" title="Bara de navigatie în pagini" tooltip="Arată/Ascunde Bara de navigatie în pagini" status="Arată/Ascunde Bara de navigatie în pagini" short=""/>
+		<item id="33264" title="Bara pentru Aranjarea Paginilor" tooltip="Arată/Ascunde Bara pentru Aranjarea Paginilor" status="Arată/Ascunde Bara pentru Aranjarea Paginilor" short=""/>
+		<item id="33265" title="Bara de executie" tooltip="Arată/Ascunde bara de executie a aplicaţiilor" status="Arată/Ascunde bara de executie a aplicaţiilor" short=""/>
+		<item id="33267" title="&amp;Fişier" tooltip="" status="" short=""/>
+		<item id="33268" title="&amp;Fişiere Recente" tooltip="" status="" short=""/>
+		<item id="33269" title="Formular" tooltip="" status="" short=""/>
+		<item id="33270" title="Proprietăţile &amp;Documentului..." tooltip="Afişează proprietăţile documentului activ" status="Afişează proprietăţile documentului activ" short=""/>
+		<item id="33272" title="Deschide de la &amp;URL..." tooltip="Deschide un document de la URL..." status="Deschide un document de la URL..." short=""/>
+		<item id="33280" title="&amp;Editează" tooltip="" status="" short=""/>
+		<item id="33290" title="&amp;Vizualizare" tooltip="" status="" short=""/>
+		<item id="33291" title="Bara de Instrumente" tooltip="" status="" short=""/>
+		<item id="33292" title="Alte panouri" tooltip="" status="" short=""/>
+		<item id="33293" title="Aranjare Pagină" tooltip="" status="" short=""/>
+		<item id="33300" title="&amp;Document" tooltip="" status="" short=""/>
+		<item id="33310" title="Instrumente" tooltip="" status="" short=""/>
+		<item id="33311" title="Instrumente de bază" tooltip="" status="" short=""/>
+		<item id="33313" title="Instrumente pentru mărire/micşorare" tooltip="" status="" short=""/>
+		<item id="33314" title="Instrumente pentru comentarii şi marcaje" tooltip="" status="" short=""/>
+		<item id="33339" title="Arată Bara de Comentarii şi marcaje" tooltip="" status="" short=""/>
+		<item id="33340" title="Arată Lista de Comentarii" tooltip="Arată/Ascunde Lista de Comentarii" status="Arată/Ascunde Lista de Comentarii" short=""/>
+		<item id="33350" title="Fereastră" tooltip="" status="" short=""/>
+		<item id="33369" title="Arata info deteriorata" tooltip="Acest document este deteriorat; Click aici pentru a vedea detalii" status="Acest document este deteriorat; Click aici pentru a vedea detalii" short="Info deteriorare"/>
+		<item id="33370" title="Opţiuni Document" tooltip="Conţine Opţiuni pentru Vizualizare, Editare, Manipulare etc. pentru acest document" status="Conţine Opţiuni pentru Vizualizare, Editare, Manipulare etc pentru acest document" short="Opţiuni"/>
+		<item id="33371" title="Afişează Panoul cu Straturi" tooltip="Acest Document conţine straturi (layers); Click Aici pentru a Afişa/Ascunde Panoul cu straturi" status="Acest Document conţine straturi (layers); Click pentru a Afişa/Ascunde Panoul cu straturi" short="Arată straturile"/>
+		<item id="33372" title="Afişează Panoul cu Câmpuri" tooltip="Acest Document conţine formularul; Click Aici pentru a Afişa/Ascunde Panoul cu câmpurile formularului" status="Acest Document conţine formularul; Click pentru a Afişa/Ascunde Panoul cu câmpurile formularului" short="Arată câmpurile"/>
+		<item id="33373" title="Fără Proprietăţi" tooltip="Nici un obiect cu proprietati nu este selectat" status="Nici un obiect cu proprietati nu este selectat" short=""/>
+		<item id="33379" title="Opacitate" tooltip="Opacitate" status="" short=""/>
+		<item id="33382" title="Arată/Ascunde Bara de Instrumente pentru formatare text" tooltip="Arată/Ascunde Bara de Instrumente pentru formatare text" status="" short=""/>
+		<item id="33383" title="Copie selectia de pagini" tooltip="Copie selectia de pagini" status="" short=""/>
+		<item id="33384" title="Selectează Întreaga pagină" tooltip="Selectează Întreaga pagină" status="" short=""/>
+		<item id="33410" title="Comentariu" tooltip="Comentariu" status="" short=""/>
+		<item id="33411" title="Formatare Text" tooltip="Formatare Text" status="" short=""/>
+		<item id="33412" title="Creeaza snapshot" tooltip="Creeaza snapshot" status="" short=""/>
+		<item id="33413" title="Mareste" tooltip="Mareste paginile miniaturizate" status="Mareste paginile miniaturizate" short=""/>
+		<item id="33414" title="Micsoreaza" tooltip="Micsoreaza paginile miniaturizate" status="Micsoreaza paginile miniaturizate" short=""/>
+		<item id="33416" title="Adauga semn de carte" tooltip="" status="" short=""/>
+		<item id="36000" title="Personalizeaza..." tooltip="Afiseaza Dialogul pentru personalizarea tuturor barelor..." status="Afiseaza Dialogul pentru personalizarea tuturor barelor..." short=""/>
+		<item id="36001" title="Incuiat" tooltip="Incuiat" status="" short=""/>
+		<item id="36004" title="Mareste" tooltip="Mareste semnele de carte" status="Mareste semnele de carte" short=""/>
+		<item id="36005" title="Micsoreaza" tooltip="Micsoreaza semnele de carte" status="Micsoreaza semnele de carte" short=""/>
+		<item id="36006" title="Sterge semne de carte" tooltip="Sterge semnele de carte selectate" status="Sterge semnele de carte selectate" short="Sterge"/>
+		<item id="36007" title="Proprietati semne de carte..." tooltip="Arata Proprietatile pentru semne de carte" status="Arata Proprietatile pentru semne de carte" short="Editeaza"/>
+		<item id="36008" title="Semn de carte nou" tooltip="Creaza un nou semn de carte" status="Creaza un nou semn de carte" short="Nou"/>
+		<item id="36009" title="Asigura vizibilitatea semnelor de carte corespunzatoare" tooltip="Asigura vizibilitatea semnelor de carte corespunzatoare" status="Asigura vizibilitatea semnelor de carte corespunzatoare" short=""/>
+		<item id="36010" title="Du-te la semnul de carte" tooltip="Du-te la semnul de carte" status="Fa vizibil semnul de carte in vederea paginii" short=""/>
+		<item id="36011" title="Redeseneaza sructura semnelor de carte" tooltip="Redeseneaza sructura semnelor de carte" status="Redeseneaza sructura semnelor de carte" short=""/>
+		<item id="36012" title="Adauga..." tooltip="Afiseaza dialogul pentru a adauga o actiune noua..." status="Afiseaza dialogul pentru a adauga o actiune noua..." short=""/>
+		<item id="36013" title="Sterge" tooltip="Sterge actiunile selectate" status="Sterge actiunile selectate" short=""/>
+		<item id="36014" title="Sus" tooltip="Muta obiectul selectat in sus in ordinea rularii" status="Muta obiectul selectat in sus in ordinea rularii" short=""/>
+		<item id="36015" title="Jos" tooltip="Muta obiectul selectat in jos in ordinea rularii" status="Muta obiectul selectat in jos in ordinea rularii" short=""/>
+		<item id="36016" title="Editeaza..." tooltip="Editeaza proprietatile actiunilor selectate" status="Editeaza proprietatile actiunilor selectate" short=""/>
+		<item id="36017" title="Testeaza selectia" tooltip="Testeaza actiunile selectate..." status="Apasa pentru a testa actiunile selectate..." short=""/>
+		<item id="36018" title="Testeaza tot" tooltip="Testeaza toate actiunile ..." status="Apasa pentru a testa toate actiunile ..." short=""/>
+		<item id="36019" title="Reset" tooltip="Reseteaza lista actiunilor si schimbarile vor fi pierdute" status="Reseteaza lista actiunilor si schimbarile vor fi pierdute" short=""/>
+		<item id="36023" title="&amp;Redenumeste" tooltip="redenumeste semnul de carte selectat" status="redenumeste semnul de carte selectat" short=""/>
+		<item id="36024" title="Seteaza aspectul curect ca implicit" tooltip="Seteaza aspectul curect ca implicit" status="Seteaza aspectul curect ca implicit" short=""/>
+		<item id="36025" title="Rupe titlurile semnelor de carte lungi" tooltip="Rupe titlurile semnelor de carte lungi" status="Rupe titlurile semnelor de carte lungi" short=""/>
+		<item id="36026" title="Aplica aspectul implicit" tooltip="Aplica aspectul implicit pentru semnele de carte selectate" status="Aplica aspectul implicit pentru semnele de carte selectate" short=""/>
+		<item id="36027" title="Executa" tooltip="Executa Script" status="" short=""/>
+		<item id="36028" title="Curata" tooltip="Curata Consola" status="" short=""/>
+		<item id="36035" title="Du-te la linia..." tooltip="" status="" short=""/>
+		<item id="36036" title="Optiuni" tooltip="Optiuni JavaScript" status="" short=""/>
+		<item id="36037" title="&amp;Insereaza Pagini" tooltip="" status="" short=""/>
+		<item id="36038" title="&amp;Extrage Pagini" tooltip="" status="" short=""/>
+		<item id="36039" title="Inlocuieste Pagini" tooltip="" status="" short=""/>
+		<item id="36040" title="Pagini si Tranzitii" tooltip="" status="" short=""/>
+		<item id="36048" title="Seteaza Destinatia" tooltip="Seteaza Destinatia" status="Fa vederea curenta ca destinatie" short=""/>
+		<item id="57601" title="&amp;Deschide..." tooltip="Deschide un Document Existent..." status="Deschide un document existent" short=""/>
+		<item id="57602" title="&amp;Închide" tooltip="Închide documentul activ" status="Închide documentul activ" short=""/>
+		<item id="57603" title="&amp;Salvează" tooltip="Salvează Documentul Activ" status="Salvează documentul activ" short=""/>
+		<item id="57604" title="Salvează &amp;Ca" tooltip="Salvează Documentul Activ cu un Nume Diferit" status="Salvează documentul activ cu un nume diferit" short=""/>
+		<item id="57607" title="&amp;Imprimă" tooltip="Imprimă documentul activ" status="Imprimă documentul activ" short=""/>
+		<item id="57611" title="Salvează o co&amp;pie" tooltip="Salvează Documentul Activ într-un Nou Fişier" status="Salvează documentul activ într-un nou fişier" short=""/>
+		<item id="57612" title="Trimite prin &amp;e-mail" tooltip="Atasează documentul activ la un mesaj e-mail nou" status="Atasează documentul activ la un mesaj e-mail nou" short=""/>
+		<item id="57632" title="Curăţare" tooltip="Şterge selecţia" status="Şterge selecţia" short=""/>
+		<item id="57634" title="&amp;Copie" tooltip="Copie zona selectată şi pune în clipboard" status="Copie zona selectată şi pune în clipboard" short=""/>
+		<item id="57635" title="&amp;Taie" tooltip="Taie zona selectată şi pune în clipboard" status="Taie zona selectată şi pune în clipboard" short=""/>
+		<item id="57636" title="&amp;Găseşte" tooltip="Găseşte textul specificat" status="Găseşte textul specificat" short=""/>
+		<item id="57637" title="&amp;Lipeşte" tooltip="Lipeşte conţinutul din clipboard" status="Lipeşte conţinutul din clipboard" short=""/>
+		<item id="57642" title="Selectează tot" tooltip="Selectează tot" status="" short=""/>
+		<item id="57643" title="&amp;Undo" tooltip="Undo ultima actiune" status="Undo ultima actiune" short=""/>
+		<item id="57644" title="%Redo" tooltip="Redo precedenta actiune" status="Redo precedenta actiune" short=""/>
+		<item id="57649" title="Aranjează icoanele" tooltip="Aranjează icoanele în partea de jos a ferestrei" status="Aranjează icoanele în partea de jos a ferestrei" short=""/>
+		<item id="57650" title="Cascadă" tooltip="Aranjează ferestrele încât sa se suprapună în cascadă" status="Aranjează ferestrele încât sa se suprapună în cascadă" short=""/>
+		<item id="57651" title="Entităţi Orizontale" tooltip="Aranjează ferestrele ca entităţi care nu se suprapun" status="Aranjează ferestrele ca entităţi care nu se suprapun" short=""/>
+		<item id="57652" title="Entităţi Verticale" tooltip="Aranjează ferestrele ca entităţi care nu se suprapun" status="Aranjează ferestrele ca entităţi care nu se suprapun" short=""/>
+		<item id="57653" title="Imparte" tooltip="Imparte Fereastra activă în panouri" status="Imparte Fereastra activă în panouri" short=""/>
+		<item id="57664" title="Despre PDF-XChange Viewer..." tooltip="Afişează Informaţii despre program, versiune şi drepturi de autor" status="Afişează Informaţii despre program, versiune şi drepturi de autor" short=""/>
+		<item id="57665" title="Ieşire" tooltip="Închide programul, solicită salvarea modificărilor" status="Închide programul, solicită salvarea modificărilor" short=""/>
+		<item id="57670" title="Ajutor" tooltip="" status="" short=""/>
+		<item id="57718" title="Rulează la stânga" tooltip="Rulează la stânga" status="" short=""/>
+		<item id="57719" title="Rulează la dreapta" tooltip="Rulează la dreapta" status="" short=""/>
+		<item id="59393" title="Bara de &amp;stare" tooltip="Arată/Ascunde Bara de stare" status="Arată/Ascunde Bara de stare" short=""/>
+	</commands>
+	<dialogs>
+		<dialog id="203" text="Preferinţe">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+			<item id="3" text="Aplică" tooltip=""/>
+		</dialog>
+		<dialog id="204" text="">
+			<item id="1004" text="Rezultatul încearcă suprascrierea spaţiilor de lucru" tooltip=""/>
+			<item id="1008" text="Foloseşte compensare Black Point" tooltip=""/>
+			<item id="1038" text="&amp;Setări culoare" tooltip=""/>
+			<item id="1039" text="&amp;RGB" tooltip=""/>
+			<item id="1040" text="&amp;CMYK" tooltip=""/>
+			<item id="1041" text="&amp;Tornuri de gri" tooltip=""/>
+			<item id="1042" text="Motor" tooltip=""/>
+			<item id="1200" text="Spatii de lucru" tooltip=""/>
+			<item id="1201" text="Opţiuni pentru conversie" tooltip=""/>
+		</dialog>
+		<dialog id="207" text="">
+			<item id="4" text="Răsfoieşte..." tooltip=""/>
+			<item id="1009" text="&amp;Număr Maxim de documente în lista de fişiere recente:" tooltip=""/>
+			<item id="1014" text="Afişează ecranul de pornire" tooltip=""/>
+			<item id="1015" text="Permite Instanţe Multiple" tooltip=""/>
+			<item id="1032" text="Documente în Tab-uri" tooltip=""/>
+			<item id="1033" text="Documente &amp;Multiple" tooltip=""/>
+			<item id="1035" text="Arată butonul închide pentru fiecare tab" tooltip=""/>
+			<item id="1036" text="Document &amp;Singur" tooltip=""/>
+			<item id="1038" text="Foloseşte Metoda de Salvare:" tooltip=""/>
+			<item id="1039" text="Director destinaţie pentru fisiere descărcate de la URL-uri:" tooltip=""/>
+			<item id="1198" text="Pronirea Aplicaţiei" tooltip=""/>
+			<item id="1200" text="Aranjare Documente" tooltip=""/>
+			<item id="1201" text="Deschidere Documente" tooltip=""/>
+			<item id="1202" text="Salvare Documente" tooltip=""/>
+			<item id="1227" text="Sterge lista" tooltip=""/>
+		</dialog>
+		<dialog id="212" text="Introduceţi Parola pentru acest Document">
+			<item id="1" text="Continuă" tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+			<item id="1039" text="Vă rog introduceţi o parolă validă de utilizator sau de proprietar" tooltip=""/>
+		</dialog>
+		<dialog id="213" text="Proprietăţile Documentului">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+			<item id="3" text="Aplică" tooltip=""/>
+		</dialog>
+		<dialog id="214" text="">
+			<item id="1038" text="Nume fişier:" tooltip=""/>
+			<item id="1039" text="Localizare:" tooltip=""/>
+			<item id="1040" text="Creat:" tooltip=""/>
+			<item id="1041" text="Modificat:" tooltip=""/>
+			<item id="1042" text="Dimensiune Fişier:" tooltip=""/>
+			<item id="1043" text="&amp;Titlu:" tooltip=""/>
+			<item id="1044" text="&amp;Autor:" tooltip=""/>
+			<item id="1200" text="Informaţii despre &amp;Fişier" tooltip=""/>
+			<item id="1201" text="Informaţii despre &amp;Document" tooltip=""/>
+			<item id="1203" text="&amp;Subiect:" tooltip=""/>
+			<item id="1204" text="&amp;Cuvinte cheie:" tooltip=""/>
+			<item id="1205" text="Producător PDF:" tooltip=""/>
+			<item id="1206" text="Aplicaţie:" tooltip=""/>
+			<item id="1207" text="Versiune PDF:" tooltip=""/>
+			<item id="1208" text="Număr pagini:" tooltip=""/>
+			<item id="1209" text="Aditional &amp;Metadata..." tooltip=""/>
+		</dialog>
+		<dialog id="220" text="">
+			<item id="1038" text="Imprimare:" tooltip=""/>
+			<item id="1039" text="Modificare document:" tooltip=""/>
+			<item id="1040" text="Copiere sau extragere conţinut:" tooltip=""/>
+			<item id="1041" text="Autor pt. Comentarii şi Câmpuri Formulare:" tooltip=""/>
+			<item id="1042" text="Completare formulare sau semnare:" tooltip=""/>
+			<item id="1043" text="Acesarea conţinutului permisă:" tooltip=""/>
+			<item id="1044" text="Asamblare Document:" tooltip=""/>
+			<item id="1200" text="Securitatea Documentului" tooltip=""/>
+			<item id="1201" text="Detalii despre permisiunile asupra documentului" tooltip=""/>
+			<item id="1203" text="Metoda de securitate a documentului limitează ce poate fi făcut cu documentul." tooltip=""/>
+			<item id="1204" text="Metoda de securitate:" tooltip=""/>
+			<item id="1205" text="Nivel de criptare:" tooltip=""/>
+			<item id="1206" text="Parola pentru deschidere:" tooltip=""/>
+			<item id="1207" text="Parola pentru permisiuni:" tooltip=""/>
+			<item id="1210" text="Schimbă setările..." tooltip=""/>
+		</dialog>
+		<dialog id="221" text="Exportă ca imagine">
+			<item id="1" text="Exportă..." tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+			<item id="4" text="Răsfoieşte..." tooltip=""/>
+			<item id="6" text="Macrouri" tooltip=""/>
+			<item id="7" text="Opţiuni..." tooltip=""/>
+			<item id="1040" text="Director destinaţie:" tooltip=""/>
+			<item id="1041" text="Nume fişier:" tooltip=""/>
+			<item id="1042" text="Tipul imaginii:" tooltip=""/>
+			<item id="1043" text="Mod de export:" tooltip=""/>
+			<item id="1044" text="Rezolutie" tooltip=""/>
+			<item id="1201" text="Salvează ca" tooltip=""/>
+			<item id="1202" text="Grafică" tooltip=""/>
+			<item id="1203" text="Fundalul paginii:" tooltip=""/>
+			<item id="1204" text="Pagini" tooltip=""/>
+			<item id="1330" text="Toate" tooltip=""/>
+			<item id="1331" text="Paginile selectate" tooltip=""/>
+			<item id="1332" text="Pagina curentă" tooltip=""/>
+			<item id="1333" text="Paginile:" tooltip=""/>
+			<item id="1335" text="Subset:" tooltip=""/>
+			<item id="1339" text="Vederea curentă" tooltip=""/>
+			<item id="1340" text="&amp;Grafica selectată" tooltip=""/>
+			<item id="1341" text="Inversează ordinea" tooltip=""/>
+			<item id="1387" text="Introduceţi numere de pagină şi/sau lista de pagini separate cu virgulă începând cu primele pagini din document. De exemplu, introduceţi 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="222" text="Opţiuni de Salvare a Imaginilor">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+		</dialog>
+		<dialog id="223" text="">
+			<item id="1071" text="Anulează" tooltip=""/>
+			<item id="1072" text="Sari peste" tooltip=""/>
+		</dialog>
+		<dialog id="224" text="">
+			<item id="1038" text="Vzualizare Implicită:" tooltip=""/>
+			<item id="1039" text="Aranjarea implicită a paginii:" tooltip=""/>
+			<item id="1040" text="Mărimea implicită:" tooltip=""/>
+			<item id="1041" text="Foloseşte &amp;Rezoluţia:" tooltip=""/>
+			<item id="1042" text="pixeli pe inch" tooltip=""/>
+			<item id="1073" text="Afişează art, trim, bleed boxes" tooltip=""/>
+			<item id="1074" text="Afişează gridul de transparenţă" tooltip=""/>
+			<item id="1079" text="Crează link-uri din URL" tooltip=""/>
+			<item id="1083" text="Afişează imaginile mari" tooltip=""/>
+			<item id="1126" text="Restaurează documentul asa cum a fost văzut ultima dată (aranjarea si vizibilitatea panourilor documentului)." tooltip=""/>
+			<item id="1200" text="Afişarea Paginii" tooltip=""/>
+			<item id="1201" text="Afişare iniţială" tooltip=""/>
+			<item id="1202" text="Vedere initială" tooltip=""/>
+			<item id="1228" text="Restaurează ultima aranjare utilizată si mărimea paginilor din Lista Recentă la deschidere" tooltip=""/>
+		</dialog>
+		<dialog id="227" text="Confirmă Suprascrierea Fişierului">
+			<item id="2" text="Anulează" tooltip=""/>
+			<item id="6" text="Da" tooltip=""/>
+			<item id="7" text="Nu" tooltip=""/>
+			<item id="100" text="Da la Toate" tooltip=""/>
+			<item id="101" text="Nu la Toate" tooltip=""/>
+			<item id="102" text="Automat" tooltip=""/>
+			<item id="103" text="Salvează Ca..." tooltip=""/>
+			<item id="1040" text="Suprascriu acest fişier" tooltip=""/>
+			<item id="1041" text="Puteţi folosi numirea automată a fişierului pentru a genera un nume unic de fişier:" tooltip=""/>
+		</dialog>
+		<dialog id="228" text="Eroare la Scrierea Fişierului">
+			<item id="3" text="Abandonează" tooltip=""/>
+			<item id="4" text="Re-Incearcă" tooltip=""/>
+			<item id="5" text="Ignoră" tooltip=""/>
+			<item id="103" text="Salvează Ca..." tooltip=""/>
+		</dialog>
+		<dialog id="229" text="Imprimare">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+			<item id="1038" text="Copii:" tooltip=""/>
+			<item id="1041" text="tip scalare:" tooltip=""/>
+			<item id="1043" text="&amp;Nume" tooltip=""/>
+			<item id="1044" text="Stare:" tooltip=""/>
+			<item id="1086" text="&amp;Proprietăţi..." tooltip=""/>
+			<item id="1087" text="Imprimă într-un fişier" tooltip=""/>
+			<item id="1094" text="Ordonează paginile" tooltip=""/>
+			<item id="1096" text="Imprimă în tonuri de gri" tooltip=""/>
+			<item id="1097" text="Imprimă ca imagini" tooltip=""/>
+			<item id="1127" text="Scalare pagină" tooltip=""/>
+			<item id="1200" text="Imprimanta" tooltip=""/>
+			<item id="1201" text="Pagini" tooltip=""/>
+			<item id="1203" text="Tip:" tooltip=""/>
+			<item id="1204" text="Comentariu:" tooltip=""/>
+			<item id="1330" text="Toate" tooltip=""/>
+			<item id="1331" text="Paginile Selectate" tooltip=""/>
+			<item id="1332" text="Pagina Cur&amp;entă" tooltip=""/>
+			<item id="1333" text="Paginile:" tooltip=""/>
+			<item id="1335" text="&amp;Subset:" tooltip=""/>
+			<item id="1339" text="&amp;Vederea Curentă" tooltip=""/>
+			<item id="1340" text="&amp;Grafica selectată" tooltip=""/>
+			<item id="1341" text="În ordine inversă:" tooltip=""/>
+			<item id="1387" text="Introduceţi numere de pagină şi/sau lista de pagini separate cu virgulă începând cu primele pagini din document. De exemplu, introduceţi 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="230" text="">
+			<item id="1116" text="Alege sursa de hârtie funcţie de mărimea paginii în PDF" tooltip=""/>
+			<item id="1120" text="Auto-rotire" tooltip=""/>
+			<item id="1121" text="Auto-centrare" tooltip=""/>
+		</dialog>
+		<dialog id="231" text="">
+			<item id="1038" text="Pagini pe foaie:" tooltip=""/>
+			<item id="1039" text="Ordine pagini:" tooltip=""/>
+			<item id="1108" text="Imprimă conturul paginilor" tooltip=""/>
+			<item id="1120" text="Auto-rotire pagini" tooltip=""/>
+			<item id="1128" text="pe" tooltip=""/>
+		</dialog>
+		<dialog id="232" text="">
+			<item id="1038" text="Scalare titlu:" tooltip=""/>
+			<item id="1040" text="Suprapunere:" tooltip=""/>
+			<item id="1118" text="Etichete" tooltip=""/>
+		</dialog>
+		<dialog id="236" text="Du-te la pagina">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+			<item id="1038" text="Introduceţi numărul paginii:" tooltip=""/>
+		</dialog>
+		<dialog id="237" text="Scara:">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+			<item id="1038" text="Alegeţi scara:" tooltip=""/>
+		</dialog>
+		<dialog id="244" text="">
+			<item id="1038" text="Ce cuvânt sau frază doriţi să căutati" tooltip=""/>
+			<item id="1039" text="Unde doriţi să căutati" tooltip=""/>
+			<item id="1040" text="Sortează pe:" tooltip=""/>
+			<item id="1099" text="Opţiuni" tooltip=""/>
+			<item id="1139" text="Caută acum" tooltip=""/>
+			<item id="1142" text="Şterge" tooltip=""/>
+		</dialog>
+		<dialog id="245" text="Opţiuni Căutare">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+			<item id="1038" text="Foloseşte proximitatea:" tooltip=""/>
+			<item id="1126" text="Sensibil la mărimea caracterelor" tooltip=""/>
+			<item id="1128" text="Include comentarii" tooltip=""/>
+			<item id="1129" text="Include semne de carte" tooltip=""/>
+			<item id="1130" text="Caută în subdirectoare" tooltip=""/>
+			<item id="1131" text="Include atasamente" tooltip=""/>
+			<item id="1145" text="Numai cuvinte întregi" tooltip=""/>
+			<item id="1193" text="Cel mai aproape" tooltip=""/>
+			<item id="1194" text="În pagină" tooltip=""/>
+			<item id="1195" text="În document" tooltip=""/>
+			<item id="1200" text="Foloseşte criterii suplimentare:" tooltip=""/>
+		</dialog>
+		<dialog id="246" text="Căutare avansată">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+			<item id="1038" text="cu toate cuvintele:" tooltip=""/>
+			<item id="1039" text="cu fraza exactă:" tooltip=""/>
+			<item id="1040" text="cu cel putin unul din cuvintele:" tooltip=""/>
+			<item id="1041" text="fără cuvintele:" tooltip=""/>
+			<item id="1200" text="Rezultatul căutarii trebuie să fie:" tooltip=""/>
+		</dialog>
+		<dialog id="247" text="">
+			<item id="1038" text="Memorie system folosită în procente" tooltip=""/>
+			<item id="1039" text="Maximum fire pentru randarea paginilor:" tooltip=""/>
+			<item id="1040" text="Maximum fire pentru crearea paginilor miniaturizate:" tooltip=""/>
+			<item id="1041" text="Maximum fire de lucru:" tooltip=""/>
+			<item id="1200" text="Memorie folosită" tooltip=""/>
+			<item id="1201" text="Utilizare fire de executie" tooltip=""/>
+		</dialog>
+		<dialog id="257" text="Rotire pagini">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+			<item id="1038" text="Ro&amp;teşte:" tooltip=""/>
+			<item id="1039" text="Introduceţi numere de pagină şi/sau lista de pagini separate cu virgulă începând cu primele pagini din document. De exemplu, introduceţi 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="%Directie" tooltip=""/>
+			<item id="1164" text="&amp;Toate" tooltip=""/>
+			<item id="1165" text="&amp;Paginile selectate" tooltip=""/>
+			<item id="1166" text="Pagina cu&amp;rentă" tooltip=""/>
+			<item id="1167" text="Pa&amp;ginile:" tooltip=""/>
+			<item id="1200" text="Pagini" tooltip=""/>
+		</dialog>
+		<dialog id="258" text="Şterge pagini">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+			<item id="1038" text="Sterge:" tooltip=""/>
+			<item id="1039" text="Introduceţi numere de pagină şi/sau lista de pagini separate cu virgulă începând cu primele pagini din document. De exemplu, introduceţi 1, 3, 5-12" tooltip=""/>
+			<item id="1165" text="Paginile &amp;selectate" tooltip=""/>
+			<item id="1166" text="Pagina cu&amp;rentă" tooltip=""/>
+			<item id="1167" text="Pa&amp;ginile:" tooltip=""/>
+			<item id="1200" text="Pagini" tooltip=""/>
+		</dialog>
+		<dialog id="265" text="Proprietăţi">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+			<item id="3" text="&amp;Aplică" tooltip=""/>
+			<item id="1180" text="&amp;Avansat" tooltip=""/>
+		</dialog>
+		<dialog id="266" text="">
+			<item id="1038" text="Start:" tooltip=""/>
+			<item id="1039" text="Sfârşit:" tooltip=""/>
+			<item id="1040" text="Stil:" tooltip=""/>
+			<item id="1041" text="Grosime:" tooltip=""/>
+			<item id="1042" text="Culoare:" tooltip=""/>
+			<item id="1043" text="Cul. umplere:" tooltip=""/>
+			<item id="1044" text="Opacitate:" tooltip=""/>
+			<item id="1200" text="Stiluri pt capete" tooltip=""/>
+			<item id="1201" text="Contur" tooltip=""/>
+		</dialog>
+		<dialog id="268" text="">
+			<item id="1038" text="Autor:" tooltip=""/>
+			<item id="1039" text="Subiect:" tooltip=""/>
+			<item id="1040" text="Creat:" tooltip=""/>
+			<item id="1041" text="Modificat:" tooltip=""/>
+		</dialog>
+		<dialog id="272" text="">
+			<item id="1038" text="Stil:" tooltip=""/>
+			<item id="1039" text="Grosime:" tooltip=""/>
+			<item id="1040" text="Culoare:" tooltip=""/>
+			<item id="1041" text="Cul. umplere:" tooltip=""/>
+			<item id="1042" text="Opacitate:" tooltip=""/>
+			<item id="1200" text="Contur" tooltip=""/>
+		</dialog>
+		<dialog id="273" text="">
+			<item id="1038" text="Grosime:" tooltip=""/>
+			<item id="1039" text="Culoare:" tooltip=""/>
+			<item id="1040" text="Opacitate:" tooltip=""/>
+			<item id="1200" text="Contur:" tooltip=""/>
+		</dialog>
+		<dialog id="274" text="">
+			<item id="1038" text="Unitătile de măsură specificate vor fi folosite de aplicaţie în mod global, pentru afisare rigle, mărime pagină, grid, ghiduri, ponturi, etc.:" tooltip=""/>
+			<item id="1200" text="Unităti de măsură" tooltip=""/>
+		</dialog>
+		<dialog id="278" text="Raportează o problemă...">
+			<item id="1" text="Continuă..." tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+			<item id="4" text="Răsfoieşte" tooltip=""/>
+			<item id="1038" text="Mesajul dvs. va fi trimis prin e-mail - îl puteţi edita înainte de trimitere." tooltip=""/>
+			<item id="1039" text="Selectaţi categoria problemei:" tooltip=""/>
+			<item id="1040" text="&amp;Descriere (scrieţi o scurtă descriere a problemei):" tooltip=""/>
+			<item id="1041" text="Atasează un fişier (document PDF) la mesaj?" tooltip=""/>
+			<item id="1126" text="Include informaţii despre fonturile instalate şi profilurile de culoare" tooltip=""/>
+			<item id="1127" text="Include informaţii despre inprimantele instalate şi setările lor" tooltip=""/>
+			<item id="1128" text="Include informaţii despre versiunea sistemului de operare" tooltip=""/>
+			<item id="1183" text="Include informaţii despre versiunea şi setările programului" tooltip=""/>
+		</dialog>
+		<dialog id="279" text="">
+			<item id="1038" text="Icoana:" tooltip=""/>
+			<item id="1039" text="Culoare:" tooltip=""/>
+			<item id="1040" text="Opacitate:" tooltip=""/>
+			<item id="1200" text="Aspect" tooltip=""/>
+		</dialog>
+		<dialog id="282" text="Consola JavaScript">
+			<item id="1" text="&amp;Rulează" tooltip=""/>
+			<item id="2" text="Închide" tooltip=""/>
+			<item id="1200" text="Script" tooltip=""/>
+			<item id="1201" text="Rezultat" tooltip=""/>
+		</dialog>
+		<dialog id="283" text="">
+			<item id="1038" text="Capăt Linie:" tooltip=""/>
+			<item id="1039" text="Stil:" tooltip=""/>
+			<item id="1040" text="Grosime:" tooltip=""/>
+			<item id="1041" text="Culoare caracter:" tooltip=""/>
+			<item id="1042" text="Culoare umplere:" tooltip=""/>
+			<item id="1043" text="Opacitate:" tooltip=""/>
+			<item id="1200" text="Stiluri de capăt" tooltip=""/>
+			<item id="1201" text="Contur" tooltip=""/>
+		</dialog>
+		<dialog id="284" text="">
+			<item id="1038" text="Culoare:" tooltip=""/>
+			<item id="1039" text="Opacitate:" tooltip=""/>
+			<item id="1200" text="Aspect" tooltip=""/>
+		</dialog>
+		<dialog id="290" text="Ştampile">
+		</dialog>
+		<dialog id="291" text="">
+			<item id="1038" text="PDF-XChange - vizualizator implicit de PDF" tooltip=""/>
+			<item id="1039" text="Restaurează aplicaţia precedentă care a fost asociată cu PDF (dacă este încă instalată):" tooltip=""/>
+			<item id="1127" text="Afişează PDF în web browser" tooltip=""/>
+			<item id="1162" text="Vizualizator implicit de PDF" tooltip=""/>
+			<item id="1197" text="Restaurează Asocierile de fişiere" tooltip=""/>
+			<item id="1200" text="Asociere fişiere" tooltip=""/>
+		</dialog>
+		<dialog id="292" text="">
+			<item id="1038" text="Opacitate:" tooltip=""/>
+			<item id="1200" text="Aspect" tooltip=""/>
+		</dialog>
+		<dialog id="295" text="">
+			<item id="1038" text="Nume de login:" tooltip=""/>
+			<item id="1039" text="Nume:" tooltip=""/>
+			<item id="1040" text="Titlu:" tooltip=""/>
+			<item id="1041" text="Nume Organizatie:" tooltip=""/>
+			<item id="1042" text="Filiala:" tooltip=""/>
+			<item id="1043" text="Adresa de e-mail:" tooltip=""/>
+			<item id="1044" text="Identitatea dvs. poate fi folosită în comentarii, reviews şi semnături digitale. Informaţiile introduse aici sunt folosite numai de program şi nu sunt trimise în afară fară consimtămantul dvs." tooltip=""/>
+			<item id="1200" text="Identitate" tooltip=""/>
+		</dialog>
+		<dialog id="296" text="">
+			<item id="1038" text="Vă rog selectaţi limba preferată pentru interfaţă:" tooltip=""/>
+			<item id="1200" text="Limba" tooltip=""/>
+			<item id="1219" text="Foloseşte setările regionale ale utilizatorului" tooltip=""/>
+			<item id="1220" text="Alege" tooltip=""/>
+			<item id="1221" text="Foloseşte limba implicită a programului" tooltip=""/>
+		</dialog>
+		<dialog id="297" text="Deschide document de la URL">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+			<item id="1038" text="Scrieti URL a documentului:" tooltip=""/>
+		</dialog>
+		<dialog id="298" text="Personalizare">
+			<item id="1" text="Închide" tooltip=""/>
+		</dialog>
+		<dialog id="299" text="">
+			<item id="1234" text="Reset" tooltip=""/>
+		</dialog>
+		<dialog id="301" text="">
+			<item id="1233" text="Arata Ponturi Ecran pe bara de unelte" tooltip=""/>
+			<item id="1234" text="Arata shortcut-uri in Ponturi Ecran" tooltip=""/>
+		</dialog>
+		<dialog id="302" text="">
+			<item id="1038" text="Fundal Pagină:" tooltip=""/>
+			<item id="1039" text="Culoare Umplere:" tooltip=""/>
+			<item id="1040" text="Culoare Litere:" tooltip=""/>
+			<item id="1126" text="Culoare Text:" tooltip=""/>
+			<item id="1127" text="Linie Artistică:" tooltip=""/>
+			<item id="1128" text="Schimbă numai culoarea textului negru sau liniei artistice" tooltip=""/>
+			<item id="1200" text="Opţiuni pentru Culori Docunument" tooltip=""/>
+			<item id="1220" text="Foloseşte de Schema de Culori Personalizată" tooltip=""/>
+			<item id="1235" text="Foloseşte Schema de Culori din Windows" tooltip=""/>
+			<item id="1236" text="Foloseşte Schema Predefinită pentru Contrast Ridicat" tooltip=""/>
+			<item id="1240" text="Suprascrie Culorile Documentului" tooltip=""/>
+			<item id="1241" text="Schimbă culoarea liniei artistice precum şi a textului" tooltip=""/>
+		</dialog>
+		<dialog id="303" text="">
+			<item id="1038" text="Culoare Fundal:" tooltip=""/>
+			<item id="1200" text="Aspect in &quot;Ecran Plin&quot;" tooltip=""/>
+			<item id="1239" text="Cursor mouse:" tooltip=""/>
+		</dialog>
+		<dialog id="304" text="">
+			<item id="1038" text="&amp;Rezoluţie" tooltip=""/>
+			<item id="1039" text="dpi" tooltip=""/>
+			<item id="1096" text="Crează imagini snapshot in tonuri de gri" tooltip=""/>
+			<item id="1200" text="Optiuni imagine snapshot" tooltip=""/>
+			<item id="1201" text="Sunete snapshot" tooltip=""/>
+			<item id="1242" text="Foloseste rezoluţie fixă pentru imagini snapshot" tooltip=""/>
+			<item id="1244" text="Nu reda sunete speciale pentru snapshot" tooltip=""/>
+		</dialog>
+		<dialog id="305" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anulează" tooltip=""/>
+		</dialog>
+		<dialog id="306" text="">
+			<item id="1038" text="Text titlu:" tooltip=""/>
+			<item id="1039" text="Stil:" tooltip=""/>
+			<item id="1040" text="Culoare:" tooltip=""/>
+		</dialog>
+		<dialog id="307" text="">
+			<item id="1038" text="Puteţi adauga o nouă acţiune sau edita o listă de acţiuni existentă. Puteti deasemenea reorganiza ordinea acţiunilor folosind apucă si trage (drag and drop)" tooltip=""/>
+		</dialog>
+		<dialog id="308" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuleaza" tooltip=""/>
+			<item id="4" text="Rasfoieste..." tooltip=""/>
+			<item id="1038" text="Puteti specifica o noua destinatie selectand butonul &quot;Foloseste vederea curenta&quot; dedesubt:" tooltip=""/>
+			<item id="1039" text="Nume fisier:" tooltip=""/>
+			<item id="1040" text="Pagina:" tooltip=""/>
+			<item id="1041" text="X:" tooltip=""/>
+			<item id="1042" text="Y:" tooltip=""/>
+			<item id="1043" text="Latime:" tooltip=""/>
+			<item id="1044" text="Inaltime:" tooltip=""/>
+			<item id="1066" text="Previzualizare" tooltip=""/>
+			<item id="1067" text="Repara" tooltip=""/>
+			<item id="1126" text="Mostenit" tooltip=""/>
+			<item id="1127" text="Mostenit" tooltip=""/>
+			<item id="1200" text="Proprietati destinatie" tooltip=""/>
+			<item id="1252" text="Foloseste nivel de scalare:" tooltip=""/>
+			<item id="1253" text="Foloseste dreptunghi:" tooltip=""/>
+			<item id="1261" text="Document tinta" tooltip=""/>
+			<item id="1271" text="Marire" tooltip=""/>
+			<item id="1272" text="Micsorare" tooltip=""/>
+			<item id="1275" text="Foloseste vederea curenta" tooltip=""/>
+		</dialog>
+		<dialog id="309" text="">
+			<item id="1039" text="&amp;Nume:" tooltip=""/>
+			<item id="1041" text="Nume &amp;Organizatie:" tooltip=""/>
+			<item id="1043" text="Adresa &amp;E-mail:" tooltip=""/>
+			<item id="1045" text="Cheie de In&amp;registrare" tooltip=""/>
+			<item id="1200" text="Informatii de Inregistrare" tooltip=""/>
+			<item id="1274" text="Ascunde functiile restrictionate &apos;PRO&apos; in versiunea gratis" tooltip=""/>
+			<item id="1282" text="Ascunde bara de promovare" tooltip=""/>
+		</dialog>
+		<dialog id="310" text="">
+			<item id="1038" text="&amp;Font:" tooltip=""/>
+			<item id="1044" text="Marime Font:" tooltip=""/>
+			<item id="1200" text="JavaScript" tooltip=""/>
+			<item id="1201" text="Consola JavaScript" tooltip=""/>
+			<item id="1276" text="Permite Actiuni &amp;JavaScript" tooltip=""/>
+			<item id="1277" text="Permite &amp;Consola Interactiva JavaScript" tooltip=""/>
+			<item id="1278" text="Arata consola in caz de &amp;Erori si Mesaje" tooltip=""/>
+			<item id="1279" text="Arata o atentionare cand actiuni JavaScript sunt executate" tooltip=""/>
+		</dialog>
+		<dialog id="311" text="Du-te la linia">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Anuleaza" tooltip=""/>
+			<item id="1038" text="Numar Linie:" tooltip=""/>
+		</dialog>
+	</dialogs>
+	<strings count="463">
+		<item id="0" text="90 grade spre dreapta"/>
+		<item id="1" text="90 grade spre stânga"/>
+		<item id="2" text="180 grade"/>
+		<item id="3" text="Toate Paginile"/>
+		<item id="4" text="Numai Paginile cu soţ"/>
+		<item id="5" text="Numai Paginile fară soţ"/>
+		<item id="6" text="Pagini cu orice Orientare"/>
+		<item id="7" text="Pagini verticale"/>
+		<item id="8" text="Pagini orizontale"/>
+		<item id="9" text="Nume Standard"/>
+		<item id="10" text="Nume Local"/>
+		<item id="11" text="General"/>
+		<item id="12" text="Opţiuni Generale"/>
+		<item id="13" text="Managementul Culorilor"/>
+		<item id="14" text="Setări pentru managemenul culorilor"/>
+		<item id="15" text="Afişarea Paginii"/>
+		<item id="16" text="Opţiuni de Afişare a Paginii"/>
+		<item id="17" text="Performanţă"/>
+		<item id="18" text="Opţiuni Performanţă"/>
+		<item id="19" text="Măsurători"/>
+		<item id="20" text="Opţiuni pentru Unităti, Grid, Rigla"/>
+		<item id="21" text="Identitate"/>
+		<item id="22" text="Opţiuni Identitate"/>
+		<item id="23" text="Internaţional"/>
+		<item id="24" text="Opţiuni Internaţionale"/>
+		<item id="25" text="Asciere Fişier"/>
+		<item id="26" text="Opţiuni Asociere Fişier"/>
+		<item id="27" text="Categorii"/>
+		<item id="28" text="Preferinţe..."/>
+		<item id="29" text="Proprietăţi Document..."/>
+		<item id="30" text="Proprietăţi Notă Lipicioasă..."/>
+		<item id="31" text="Salvare completă sau Salvare incrementală pentru doc semnate digital"/>
+		<item id="32" text="Întotdeauna salvare completă"/>
+		<item id="33" text="Întotdeauna salvare incrementală"/>
+		<item id="34" text="Salvare pentru vizualizare rapidă pe web"/>
+		<item id="35" text="Automat"/>
+		<item id="36" text="Numai pagina"/>
+		<item id="37" text="Panoul cu semne de carte"/>
+		<item id="38" text="Panoul cu pagini miniaturizate"/>
+		<item id="39" text="Ultima vedere folosită"/>
+		<item id="40" text="Cate o pagină"/>
+		<item id="41" text="Continuu"/>
+		<item id="42" text="Faţă în faţă"/>
+		<item id="43" text="Continuu - faţă în faţă"/>
+		<item id="44" text="Marimea actuală"/>
+		<item id="45" text="Potriveşte pagina"/>
+		<item id="46" text="Potriveşte latimea"/>
+		<item id="47" text="Potriveşte zona vizibila"/>
+		<item id="48" text="Memorie fizică (RAM): total %1, %2 poate fi folosit în vârf"/>
+		<item id="49" text="Memorie fizică (RAM): total %1"/>
+		<item id="50" text="Sistemul conţine %1 procesoare"/>
+		<item id="51" text="cm"/>
+		<item id="52" text="centimetru"/>
+		<item id="53" text="centimetri"/>
+		<item id="54" text="in"/>
+		<item id="55" text="inch"/>
+		<item id="56" text="inches"/>
+		<item id="57" text="mm"/>
+		<item id="58" text="milimetru"/>
+		<item id="59" text="milimetri"/>
+		<item id="60" text="p"/>
+		<item id="61" text="pica"/>
+		<item id="62" text="picas"/>
+		<item id="63" text="pt"/>
+		<item id="64" text="punct"/>
+		<item id="65" text="puncte"/>
+		<item id="66" text="Execută &apos;%1&apos;"/>
+		<item id="67" text="Nu există alt vizualizator pt. PDF"/>
+		<item id="68" text="(total %1 pagini)"/>
+		<item id="69" text="Documentul &quot;%1&quot; este protejat cu parolă."/>
+		<item id="70" text="Toate paginile specificate"/>
+		<item id="71" text="Paginile fară soţ"/>
+		<item id="72" text="Paginile cu soţ"/>
+		<item id="73" text="Nici un fel"/>
+		<item id="74" text="Potriveste cu marginile de imprimare"/>
+		<item id="75" text="Micsorează la marginile de imprimare"/>
+		<item id="76" text="Aseaza paginile mari una langă alta"/>
+		<item id="77" text="Aseaza toate paginile una langă alta"/>
+		<item id="78" text="Pagini multiple pe foaie"/>
+		<item id="79" text="Pune toate paginile într-un singur fişier multi-pagini"/>
+		<item id="80" text="Pune fiecare secventă de pagini într-un fişier multi-pagini"/>
+		<item id="81" text="Pune fiecare pagină într-un fişier"/>
+		<item id="82" text="Directorul &quot;%1&quot; conţine deja acest fişier &quot;%2&quot;"/>
+		<item id="83" text="Dimensiune: %1&#10;Modificat: %2"/>
+		<item id="84" text="Nu am putut scrie fişierul &quot;%1&quot;"/>
+		<item id="85" text="OK"/>
+		<item id="86" text="Anulează"/>
+		<item id="87" text="Da"/>
+		<item id="88" text="Nu"/>
+		<item id="89" text="Abandonează"/>
+		<item id="90" text="Incearcă din nou"/>
+		<item id="91" text="Ignoră"/>
+		<item id="92" text="Incearcă"/>
+		<item id="93" text="Continuă"/>
+		<item id="94" text="Da la Toate"/>
+		<item id="95" text="Nu la Toate"/>
+		<item id="96" text="Nu am putut crea directorul destinaţie &quot;%1&quot;:"/>
+		<item id="97" text="Documentul &quot;%1&quot; a fost modificat.&#10;&#10;Doriţi sa salvati modificările înainte de a închide?"/>
+		<item id="98" text="Documentul &quot;%1&quot; conţine semnatură digitală.&#10;Semnatura digitală va fi pierdută în timpul salvarii documentului.&#10;Salvarea incrementală poate fi folosită pentru a pastra semnatura digitală dar mărimea fişierului va creşte.&#10;&#10;Doriţi sa folosiţi salvarea incrementală?"/>
+		<item id="99" text="Sumar: %1 selectate din %2 pagini"/>
+		<item id="100" text="Eroare la imprimarea documentului &quot;%1&quot;:&#10;%2"/>
+		<item id="101" text="Nume"/>
+		<item id="102" text="Indisponibil"/>
+		<item id="103" text="Pregătit"/>
+		<item id="104" text="Off-line"/>
+		<item id="105" text="Deschid..."/>
+		<item id="106" text="Hârtie: %1"/>
+		<item id="107" text="Foaie: %1"/>
+		<item id="108" text="Pagina %1"/>
+		<item id="109" text="Pagini: %1, %2,---"/>
+		<item id="110" text="&lt;În documentul activ (%1)&gt;"/>
+		<item id="111" text="&lt;Răsfoieşte&gt;"/>
+		<item id="112" text="&lt;Avansat...&gt;"/>
+		<item id="113" text="Opreşte Căutarea"/>
+		<item id="114" text="Caută Acum"/>
+		<item id="115" text="Slavez imaginea în fişierul &quot;%1&quot;"/>
+		<item id="116" text="Creez imagine.."/>
+		<item id="117" text="Export imagine..."/>
+		<item id="118" text="Procesez pagina #%1..."/>
+		<item id="119" text="Imprimare..."/>
+		<item id="120" text="Imprim foaia #%1..."/>
+		<item id="121" text="Imprim pagina #%1..."/>
+		<item id="122" text="Opresc..."/>
+		<item id="123" text="Pregătire..."/>
+		<item id="124" text="Găsire &quot;%1&quot;..."/>
+		<item id="125" text="Sumarul căutarii: %1 documente, %2 obiecte gasite"/>
+		<item id="126" text="abandonat"/>
+		<item id="127" text="&quot;%1&quot;: deschid..."/>
+		<item id="128" text="&quot;%1&quot;: pagina #%2..."/>
+		<item id="129" text="Pagina #%1..."/>
+		<item id="130" text="Nu am putut obtine resurse sistem pentru a deschide documentul: %1&#10;TOO MANY USER/GDI objects folosite de late aplicaţii!&#10;&#10;Inchideti alte aplicaţii (sau documente aici) pentru a elibera resurse sistem şi incercati din nou..."/>
+		<item id="131" text="Eroare la salvarea documentului în &quot;%1&quot;:&#10;%2"/>
+		<item id="132" text="Eroare la deschiderea documentului &quot;%1&quot;:&#10;%2"/>
+		<item id="133" text="Eroare la deschiderea documentului:&#10;%1"/>
+		<item id="134" text="Chiar vrei sa stergi %1 comentarii?"/>
+		<item id="135" text="%1: comentarii în stergere"/>
+		<item id="136" text="Şterge fară confirmare în viitor"/>
+		<item id="137" text="Fă această aplicaţie vizualizator de PDF implicit"/>
+		<item id="138" text="Fă această aplicaţie vizualizator de PDF implicit şi permite afisarea PDF în web browser?"/>
+		<item id="139" text="Doriţi să permiteti afisarea PDF în browserul dvs. de către această aplicaţie?"/>
+		<item id="140" text="Nu întreba în viitor"/>
+		<item id="141" text="N-am putut deschide &quot;%1&quot;:&#10;%2"/>
+		<item id="142" text="Calea nu există"/>
+		<item id="143" text="Nu am putut executa actiunea &quot;%1&quot; pentru &quot;%2&quot;&#10;%3"/>
+		<item id="144" text="Aplicaţia incearcă să deschidă web-site-ul:&#10; &quot;%1&quot;&#10;&#10;Aveţi încredere în acest web-site?"/>
+		<item id="145" text="%1: Atentionare la deschidede web-site"/>
+		<item id="146" text="Memorează alegerea mea pentru acest site"/>
+		<item id="147" text="Aplicaţia &quot;%1&quot; este setată pentru a fi lansată de acest fişier PDF.&#10;Acest fişier poate conţine programe, macro-uri sau virusi care pot dăuna calculatorului dvs. Deschideti fişierul numai dacă sunteti sigur că nu-i periculos.&#10;&#10;Dacă acest fişier a fost amplasat de către o persoană sau program în care aveţi încredere, puteţi deschide fişierul pentru a-l vizualiza."/>
+		<item id="148" text="Lansează: %1"/>
+		<item id="149" text="Nu afisa acest mesaj din nou"/>
+		<item id="150" text="Pagina %1"/>
+		<item id="151" text="Meniu"/>
+		<item id="152" text="Fişier"/>
+		<item id="153" text="Standard"/>
+		<item id="154" text="Mărire/Micşorare"/>
+		<item id="155" text="Roteşte vederea"/>
+		<item id="156" text="Găseşte"/>
+		<item id="157" text="Commentarii şi marcaje"/>
+		<item id="158" text="Proprietăţi"/>
+		<item id="159" text="Proprietăţi Instrument săgeată"/>
+		<item id="160" text="Proprietăţi Instrument Linie"/>
+		<item id="161" text="Proprietăţi Instrument Dreptunghi"/>
+		<item id="162" text="Proprietăţi Instrument Oval"/>
+		<item id="163" text="Proprietăţi Instrument Poligon"/>
+		<item id="164" text="Proprietăţi Instrument Linie Poligonală"/>
+		<item id="165" text="Proprietăţi Instrument Creion"/>
+		<item id="166" text="Proprietăţi Instrument Nor"/>
+		<item id="167" text="Proprietăţi Instrument Ştampilă"/>
+		<item id="168" text="Proprietăţi Instrument Maşină de scris"/>
+		<item id="169" text="Proprietăţi Instrument Casetă cu text"/>
+		<item id="170" text="Proprietăţi Instrument Balon cu text (callout)"/>
+		<item id="171" text="Proprietăţi Instrument Notă Lipicioasă"/>
+		<item id="172" text="Proprietăţi Instrument Evidenţiere(highlight)"/>
+		<item id="173" text="Proprietăţi Instrument subliniere"/>
+		<item id="174" text="Proprietăţi Instrument tăiere cu linie"/>
+		<item id="175" text="Proprietăţi Instrument Inlocuire text"/>
+		<item id="176" text="Proprietăţi săgeată"/>
+		<item id="177" text="Proprietăţi Linie"/>
+		<item id="178" text="Proprietăţi Dreptunghi"/>
+		<item id="179" text="Proprietăţi Oval"/>
+		<item id="180" text="Proprietăţi Poligon"/>
+		<item id="181" text="Proprietăţi Linie Poligonală"/>
+		<item id="182" text="Proprietăţi Creion"/>
+		<item id="183" text="Proprietăţi Nor"/>
+		<item id="184" text="Proprietăţi Ştampilă"/>
+		<item id="185" text="Proprietăţi Maşina de scris"/>
+		<item id="186" text="Proprietăţi Casetă cu Text"/>
+		<item id="187" text="Proprietăţi Balon cu text"/>
+		<item id="188" text="Proprietăţi Notă Lipicioasă"/>
+		<item id="189" text="Proprietăţi Evidenţiere (highlight)"/>
+		<item id="190" text="Proprietăţi Subliniere"/>
+		<item id="191" text="Proprietăţi Tăiere cu linie"/>
+		<item id="192" text="Proprietăţi Inlocuire text"/>
+		<item id="193" text="Săgeată"/>
+		<item id="194" text="Linie"/>
+		<item id="195" text="Dreptunghi"/>
+		<item id="196" text="Oval"/>
+		<item id="197" text="Poligon"/>
+		<item id="198" text="Linie poligonală"/>
+		<item id="199" text="Creion"/>
+		<item id="200" text="Nor"/>
+		<item id="201" text="Ştampilă"/>
+		<item id="202" text="Tasta Ctrl"/>
+		<item id="203" text="Casetă cu text"/>
+		<item id="204" text="Notă lipicioasă"/>
+		<item id="205" text="Evidenţiere (Highlight)"/>
+		<item id="206" text="Subliniere"/>
+		<item id="207" text="Tăiere"/>
+		<item id="208" text="Fişier atasat"/>
+		<item id="209" text="Sunet"/>
+		<item id="210" text="Foarmatare text"/>
+		<item id="211" text="Nu umple"/>
+		<item id="212" text="Fără text/obiecte"/>
+		<item id="213" text="Mai multe culori..."/>
+		<item id="214" text="Nedeterminat"/>
+		<item id="215" text="Nedefinit"/>
+		<item id="216" text="Culoare"/>
+		<item id="217" text="Proprietăţi..."/>
+		<item id="218" text="Nerecunoscut"/>
+		<item id="219" text="Necunoscut"/>
+		<item id="220" text="Nici unul"/>
+		<item id="221" text="Fără titlu"/>
+		<item id="222" text="Aspect"/>
+		<item id="223" text="Opţiuni Aspect"/>
+		<item id="224" text="Descriere"/>
+		<item id="225" text="Info Descriere"/>
+		<item id="226" text="Fonturi"/>
+		<item id="227" text="Fonturi folosite în acest document"/>
+		<item id="228" text="Securitate"/>
+		<item id="229" text="Securitate şi restrictii pt. document"/>
+		<item id="230" text="Securitate cu parolă"/>
+		<item id="231" text="Nepermis"/>
+		<item id="232" text="Rezolutie joasă"/>
+		<item id="233" text="Rezolutie înaltă"/>
+		<item id="234" text="Permis"/>
+		<item id="235" text="Incărcare resurse..."/>
+		<item id="236" text="Initializare..."/>
+		<item id="237" text="Nici una"/>
+		<item id="238" text="Pătrat"/>
+		<item id="239" text="Cerc"/>
+		<item id="240" text="Romb"/>
+		<item id="241" text="Săgeată deschisă"/>
+		<item id="242" text="Săgeată închisă"/>
+		<item id="243" text="Butt"/>
+		<item id="244" text="Săgeată Deschisă (Revers)"/>
+		<item id="245" text="Săgeată Inchisă (Revers)"/>
+		<item id="246" text="Slash"/>
+		<item id="247" text="Semne de carte"/>
+		<item id="248" text="Pagini"/>
+		<item id="249" text="Campuri"/>
+		<item id="250" text="Straturi"/>
+		<item id="251" text="Comentarii"/>
+		<item id="252" text="Închide acest tab"/>
+		<item id="253" text="Am găsit %1 Fonturi"/>
+		<item id="254" text="din %1"/>
+		<item id="255" text="%1&#10;&#10;Titlu: %2&#10;&#10;Autor: %3&#10;&#10;Subiect: %4&#10;&#10;Cuvinte cheie: %5&#10;Pagini: %6"/>
+		<item id="256" text="Pagina #%1"/>
+		<item id="257" text="Pagina #%1: &#10;%2"/>
+		<item id="258" text="Caută PDF"/>
+		<item id="259" text="Document"/>
+		<item id="260" text="Document şi Marcaje"/>
+		<item id="261" text="Document şi Ştampile"/>
+		<item id="262" text="Numai câmpurile formularului"/>
+		<item id="263" text="Mutare si mărire/micşorare"/>
+		<item id="264" text="Lupă"/>
+		<item id="265" text="Confirmă salvare document"/>
+		<item id="266" text="Confirmă salvare incrementală document"/>
+		<item id="267" text="Informaţii generale"/>
+		<item id="268" text="Nume"/>
+		<item id="269" text="Tip"/>
+		<item id="270" text="Director"/>
+		<item id="271" text="Cale"/>
+		<item id="272" text="Mărime fişier"/>
+		<item id="273" text="% octet(i)"/>
+		<item id="274" text="Modificat"/>
+		<item id="275" text="Informaţii despre PDF"/>
+		<item id="276" text="Versiune PDF"/>
+		<item id="277" text="Pagini"/>
+		<item id="278" text="Titlu"/>
+		<item id="279" text="Subiect"/>
+		<item id="280" text="Autor"/>
+		<item id="281" text="Cuvinte cheie"/>
+		<item id="282" text="Creator"/>
+		<item id="283" text="Producător"/>
+		<item id="284" text="Informaţii despre criptare"/>
+		<item id="285" text="%1-bit AES"/>
+		<item id="286" text="%1-bit RC4"/>
+		<item id="287" text="Nivel"/>
+		<item id="288" text="Total permis"/>
+		<item id="289" text="Imprimare"/>
+		<item id="290" text="Schimbare document"/>
+		<item id="291" text="Copiere continut sau Extragere"/>
+		<item id="292" text="Autor comentarii si campuri formulare"/>
+		<item id="293" text="Completare formular sau semnare"/>
+		<item id="294" text="Accesibilitate continut permisa"/>
+		<item id="295" text="Asamblare Document"/>
+		<item id="296" text="Deschid document, asteptati..."/>
+		<item id="297" text="Deschid &quot;%1&quot;..."/>
+		<item id="298" text="Descarc &quot;%1&quot;..."/>
+		<item id="299" text="Descărcat %1 din %2"/>
+		<item id="300" text="Salvare document, asteptati..."/>
+		<item id="301" text="Salvez in &quot;%1&quot;..."/>
+		<item id="302" text="Aplic schimbări..."/>
+		<item id="303" text="Pregătire penru scriere document..."/>
+		<item id="304" text="Scriere document..."/>
+		<item id="305" text="Obţinere pagini..."/>
+		<item id="306" text="Colectez informaţii despre pagini..."/>
+		<item id="307" text="Colectez adnotări..."/>
+		<item id="308" text="Selectaţi directorul destinaţie pentru noile imagini:"/>
+		<item id="309" text="Selectaţi directorul destinaţie pentru fisierele descărcate:"/>
+		<item id="310" text="Selectaţi deirectorul pentru căutare document(e):"/>
+		<item id="311" text="Grafic"/>
+		<item id="312" text="Agrafă de birou"/>
+		<item id="313" text="Ataşament"/>
+		<item id="314" text="Etichetă"/>
+		<item id="315" text="Ureche"/>
+		<item id="316" text="Microfon"/>
+		<item id="317" text="Sunet"/>
+		<item id="318" text="Verificat"/>
+		<item id="319" text="Cerc"/>
+		<item id="320" text="Comentariu"/>
+		<item id="321" text="Tăiere"/>
+		<item id="322" text="Ajutor"/>
+		<item id="323" text="Inserează text"/>
+		<item id="324" text="Cheie"/>
+		<item id="325" text="Paragraf nou"/>
+		<item id="326" text="Text notă"/>
+		<item id="327" text="Paragraf"/>
+		<item id="328" text="Săgeată spre dreapta"/>
+		<item id="329" text="Pointer spre dreapta"/>
+		<item id="330" text="Stea"/>
+		<item id="331" text="Săgeată in sus"/>
+		<item id="332" text="Săgeată spre stanga-sus"/>
+		<item id="333" text="Notă lipicioasă"/>
+		<item id="334" text="Evidenţiere"/>
+		<item id="335" text="Comentariu pe text"/>
+		<item id="336" text="Subliniere"/>
+		<item id="337" text="Tăiere"/>
+		<item id="338" text="Text de înlocuire"/>
+		<item id="339" text="Balon cu text"/>
+		<item id="340" text="Casetă cu text"/>
+		<item id="341" text="Maşină de scris"/>
+		<item id="342" text="Sageată"/>
+		<item id="343" text="Linie"/>
+		<item id="344" text="Dreptunghi"/>
+		<item id="345" text="Oval"/>
+		<item id="346" text="Nor"/>
+		<item id="347" text="Linie poligonală"/>
+		<item id="348" text="Poligon"/>
+		<item id="349" text="Creion"/>
+		<item id="350" text="Pagina: %1 din %2"/>
+		<item id="351" text="Mărire: %1"/>
+		<item id="352" text="Vrei sa stergi Lista cu Recente?"/>
+		<item id="353" text="SECURIZAT"/>
+		<item id="354" text="Deschide"/>
+		<item id="355" text="Salveaza"/>
+		<item id="356" text="Salveaza ca"/>
+		<item id="357" text="Salveaza o copie ca"/>
+		<item id="358" text="Imprima in fisier"/>
+		<item id="359" text="Accesibilitate"/>
+		<item id="360" text="Opţiuni accesibilitate"/>
+		<item id="361" text="Text verde pe fond negru"/>
+		<item id="362" text="Text galben pe fond negru"/>
+		<item id="363" text="Text alb pe fond negru"/>
+		<item id="364" text="Text negru pe fond alb"/>
+		<item id="365" text="Ecran plin"/>
+		<item id="366" text="Opţiuni ecran plin"/>
+		<item id="367" text="Ascuns, după întârziere"/>
+		<item id="368" text="Întotdeauna vizibil"/>
+		<item id="369" text="Întotdeauna ascuns"/>
+		<item id="370" text="Instrument snapshoot"/>
+		<item id="371" text="Opţiuni instrument snapshoot"/>
+		<item id="372" text="Documentul &quot;%1&quot; este stricat.&#10;&#10;Probleme au fost detectate de aplicaţia:&#10;%2&#10;&#10;Este recomandat sa re-salvaţi acest document.&#10;&#10;"/>
+		<item id="373" text="Unul sau mai multe bucăţi XREF nu au fost gasite."/>
+		<item id="374" text="Am detectat unele erori in tabela XREF."/>
+		<item id="375" text="Referina la obiect nu a fost descrisa in nici o parte din XREF"/>
+		<item id="376" text="Eroare la incarcare obiect: structura obiectului este invalida"/>
+		<item id="377" text="Eroare la incarcare obiect: obiect nealiniat."/>
+		<item id="378" text="ObjStream Invalid"/>
+		<item id="379" text="Valorile cerute nu au fost gasite in ultima coada."/>
+		<item id="380" text="Valorile cerute nu au fost gasite in coada."/>
+		<item id="381" text="Obiectul nu a fost descris in portiunea curenta sau precedenta, dar in descrierea din portiunile urmatoare (valid pentru fisiere linearizate)&#10;"/>
+		<item id="382" text="Sursa documentului &quot;%1&quot; este deteriorata.&#10;Aplicatia nu poate folosi salvarea incrementala pentru acest document.&#10;Doriti sa folositi salvarea ne-incrementala (atentie: semnatura digitala va fi pierduta daca exista)?"/>
+		<item id="383" text="Neetichetat"/>
+		<item id="384" text="Anonim"/>
+		<item id="385" text="&lt;Autor necunoscut&gt; (%1)"/>
+		<item id="386" text="&lt;Data necunoscuta&gt; (%1)"/>
+		<item id="387" text="Pagina %1 (%2)"/>
+		<item id="388" text="%1 (%2)"/>
+		<item id="389" text="Valoare invalida: trebuie sa fie mai mare sau egala decat %s"/>
+		<item id="390" text="Valoare invalida: trebuie sa fie mai mare sau egala decat %s si mai mica sau egala decat %s"/>
+		<item id="391" text="Valoare invalida: trebuie sa fie mai mica sau egala decat %s"/>
+		<item id="392" text="**Invalid**"/>
+		<item id="393" text="Data/Ora invalida: va rog sa va asigurati ca data/ora exista. Campul %field% trebuie sa fie in format %format%"/>
+		<item id="394" text="Valoarea introdusa nu se potriveste cu formatul campului %s"/>
+		<item id="395" text="am"/>
+		<item id="396" text="pm"/>
+		<item id="397" text="Sunteti sigur ca vreti sa stergeti %1 semn(e) de carte si toate semnele copil (subsemne)?"/>
+		<item id="398" text="Sunteti sigur ca vreti sa stergeti %1 semn(e) de carte?"/>
+		<item id="399" text="%1: Sterg semne(le) de carte"/>
+		<item id="400" text="Sterge fara confirmare pe viitor"/>
+		<item id="401" text="Proprietatile semnelor de carte"/>
+		<item id="402" text="Proprietati semne de carte multiple"/>
+		<item id="403" text="Actiuni"/>
+		<item id="404" text="Lista Actiuni"/>
+		<item id="405" text="Normal"/>
+		<item id="406" text="Ingrosat"/>
+		<item id="407" text="Inclinat"/>
+		<item id="408" text="Ingrosat si Inclinat"/>
+		<item id="409" text="Actiune necunoscuta"/>
+		<item id="410" text="Du-te la o pagina in acest document"/>
+		<item id="411" text="Du-te la o pagina in alt document"/>
+		<item id="412" text="Du-te la o pagina in documentul inglobat"/>
+		<item id="413" text="Deschide un fisier"/>
+		<item id="414" text="Citeste un articol"/>
+		<item id="415" text="Deschide o legatura web"/>
+		<item id="416" text="Reda un sunet"/>
+		<item id="417" text="Reda un film"/>
+		<item id="418" text="Arata/Ascunde Campuri si Comentarii"/>
+		<item id="419" text="Executa o comanda numita"/>
+		<item id="420" text="Trimite un formular"/>
+		<item id="421" text="Reseteaza un formular"/>
+		<item id="422" text="Importa date formular"/>
+		<item id="423" text="Ruleaza un script Java"/>
+		<item id="424" text="Seteaza vizibilitatea stratului"/>
+		<item id="425" text="control multimedia"/>
+		<item id="426" text="Actualizare si tranzitie pagini"/>
+		<item id="427" text="Du-te la o vedere 3D"/>
+		<item id="428" text="Scalare"/>
+		<item id="429" text="Mostenit"/>
+		<item id="430" text="Latime"/>
+		<item id="431" text="Inaltime"/>
+		<item id="432" text="Potriveste pe inaltime"/>
+		<item id="433" text="Potriveste pe latimea vizibila"/>
+		<item id="434" text="Potriveste pe inaltimea vizibila"/>
+		<item id="435" text="Fisier"/>
+		<item id="436" text="Operatie"/>
+		<item id="437" text="Parametri"/>
+		<item id="438" text="Nu puteti sterge toate paginile documentului. Cel putin o pagina trebuie sa ramana."/>
+		<item id="439" text="Sunteti sigur ca vreti sa stergeti %1 pagina(i) din document?"/>
+		<item id="440" text="%1: Sterg pagina(le)"/>
+		<item id="441" text="Actiune noua"/>
+		<item id="442" text="Editeaza actiune"/>
+		<item id="443" text="Sigur doriti sa stergeti actiunea(le) %1?"/>
+		<item id="444" text="%1: Sterg actiunea(le)"/>
+		<item id="445" text="Sterge fara confirmare pe viitor"/>
+		<item id="446" text="JavaScript"/>
+		<item id="447" text="Optiuni JavaScript"/>
+		<item id="448" text="Inregistrare"/>
+		<item id="449" text="Parametri Inregistrare"/>
+		<item id="450" text="Ln: %1"/>
+		<item id="451" text="Ln %2"/>
+		<item id="452" text="INS"/>
+		<item id="453" text="OVR"/>
+		<item id="454" text="Acest document contine JavaScript. Doriti sa permiteti toate actiunile JavaScript in acest document?&#10;E posibil ca documentul sa nu se comporte corect daca JavaScript nu este permis."/>
+		<item id="455" text="Suprima acest mesaj -  pana cand documentul este redeschis"/>
+		<item id="456" text="JavaScript: %1"/>
+		<item id="457" text="Funcţionalitate disponibilă în versiunea PRO - necesită Licenţă - vezi Ajutor"/>
+		<item id="458" text="Scalare personalizata"/>
+		<item id="459" text="Atentie functie &apos;PRO&apos;"/>
+		<item id="460" text="Aceaste este o functie inclusa in PDF-XChange Viewer PRO.&#10;O puteti folosi in versiunea gratis - dar vor rezulta etichete DEMO(!) in paginile documentului dvs. daca salvati acest fisier.&#10;Pentru a preveni aceasta - va rog sa actualizati la o versiune &apos;PRO&apos;  licentiata -  vezi Ajutor sau vizitati pagina noastra de web pentru mai multe informatii.&#10;&#10;Sunteti sigur ca vreti sa folositi aceasta functie?"/>
+		<item id="461" text="Sunteti sigur ca vreti sa mutati %1 pagina(i)?"/>
+		<item id="462" text="%1: Mut pagina(le)"/>
+	</strings>
+</Localization>

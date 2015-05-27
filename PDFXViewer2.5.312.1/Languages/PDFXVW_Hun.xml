@@ -1,0 +1,2951 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+	<Product id="PXCView" version="1.0" productVersion="2.0.0049.0000"/>
+	<language eName="Hungarian" lName="Magyar (HUN)" lcid="0x040e" prefFont=""/>
+	<commands>
+		<item id="32316" title="Vissza" tooltip="Előző nézet" status="Visszatérés a dokumentumban előzőleg megtekintett lapra és/vagy nézetre" short=""/>
+		<item id="32317" title="Előre" tooltip="Következő nézet" status="Visszatérés a dokumentumban később megtekintett lapra és/vagy nézetre (ha már az &quot;Előző nézet&quot; volt használva)" short=""/>
+		<item id="32609" title="N&amp;agyító eszköz" tooltip="Nagyító eszköz" status="Tetszőlegesen kijelölt területet nagyít külön ablakban" short=""/>
+		<item id="32610" title="&amp;Nagyítás eszköz" tooltip="Nagyítás eszköz" status="A teljes oldal nagyításának növelése" short="Nagyítás"/>
+		<item id="32611" title="&amp;Kicsinyítés eszköz" tooltip="Kicsinyítés eszköz" status="A teljes oldal nagyításának csökkentése" short="Kicsinyítés"/>
+		<item id="32613" title="&amp;Kéz eszköz" tooltip="Kéz eszköz" status="A Kéz eszközzel mozgathatja a dokumentumot" short=""/>
+		<item id="32614" title="&amp;Pillanatkép eszköz" tooltip="Pillanatkép eszköz" status="A Pillanatkép eszközzel a dokumentum kijelölt területét másolhatja a vágólapra" short=""/>
+		<item id="32620" title="Kij&amp;elölés eszköz" tooltip="Kijelölés eszköz" status="A Kijelölés eszközzel a kijelölt szöveget másolhatja a vágólapra" short=""/>
+		<item id="32884" title="&amp;Ugrás..." tooltip="" status="" short=""/>
+		<item id="32885" title="&amp;Első oldal" tooltip="Ugrás az első oldalra" status="Ugrás az első oldalra" short=""/>
+		<item id="32886" title="E&amp;lőző oldal" tooltip="Ugrás az előző oldalra" status="Ugrás az előző oldalra" short=""/>
+		<item id="32887" title="&amp;Következő oldal" tooltip="Ugrás a következő oldalra" status="Ugrás a következő oldalra" short=""/>
+		<item id="32888" title="U&amp;tolsó oldal" tooltip="Ugrás az utolsó oldalra" status="Ugrás az utolsó oldalra" short=""/>
+		<item id="32889" title="&amp;Oldal..." tooltip="" status="Ugrás megadott oldalra" short=""/>
+		<item id="32890" title="Előző nézet" tooltip="Visszatérés az előző nézethez" status="Visszatérés az előzőleg megtekintett lapra és/vagy nézetre, másik dokumentumban is" short=""/>
+		<item id="32891" title="Következő nézet" tooltip="Visszatérés az következő nézethez" status="Visszatérés a dokumentumban később megtekintett lapra és/vagy nézetre, másik dokumentumban is (ha már az &quot;Előző nézet&quot; volt használva)" short=""/>
+		<item id="32892" title="Előző dokumentum" tooltip="" status="" short=""/>
+		<item id="32893" title="Következő dokumentum" tooltip="" status="" short=""/>
+		<item id="32895" title="&amp;Egyetlen oldal" tooltip="Egyetlen oldal" status="Egyetlen oldal, az alját elérve ugrás a következő tetejére" short=""/>
+		<item id="32896" title="Oldalak &amp;folyamatosan" tooltip="Oldalak folyamatosan" status="Oldalak folyamatos megjelenítése egymás alatt" short=""/>
+		<item id="32897" title="&amp;Szembenéző oldalak" tooltip="Szembenéző oldalak" status="Szembenéző oldalak megjelenítése egymás mellett" short=""/>
+		<item id="32898" title="S&amp;zembenéző oldalak folyamatosan" tooltip="Szembenéző oldalak folyamatosan" status="Szembenéző oldalak megjelenítése egymás mellett, folyamatosan" short=""/>
+		<item id="32899" title="Nagyítás..." tooltip="Az aktív dokumentum nagyításának beállítása" status="Az aktív dokumentum nagyításának beállítása" short=""/>
+		<item id="32900" title="&amp;Tényleges méret" tooltip="Oldal megjelenítése a tényleges méretben (100%)" status="Oldal megjelenítése a tényleges méretben (100%)" short=""/>
+		<item id="32901" title="Igazítás az &amp;ablakmérethez" tooltip="Oldal igazítása a jelenlegi ablakmérethez" status="Oldal igazítása a jelenlegi ablakmérethez" short=""/>
+		<item id="32902" title="Igazítás &amp;szélességhez" tooltip="Oldal igazítása az ablak szélességéhez" status="Oldal igazítása az ablak jelenlegi szélességéhez" short=""/>
+		<item id="32903" title="Igazítás &amp;tartalomhoz" tooltip="Oldal igazítása a megjelenített tartalomhoz" status="Oldal igazítása a megjelenített tartalomhoz" short=""/>
+		<item id="32904" title="Nagyítás" tooltip="Nagyítás" status="Teljes oldal nagyítása" short=""/>
+		<item id="32905" title="Kicsinyítés" tooltip="Kicsinyítés" status="Teljes oldal kicsinyítése" short=""/>
+		<item id="32906" title="Beál&amp;lítások" tooltip="Az alkalmazás beállításainak megjelenítése" status="Az alkalmazás beállításainak megjelenítése és szerkesztése" short=""/>
+		<item id="32907" title="" tooltip="Dokumentum oldalainak száma" status="" short=""/>
+		<item id="32908" title="&amp;Fájl eszköztár" tooltip="Fájl eszköztár megjelenítése/elrejtése" status="Fájl eszköztár megjelenítése/elrejtése" short=""/>
+		<item id="32909" title="" tooltip="Oldal" status="" short="Oldal"/>
+		<item id="32910" title="&amp;Könyvjelzők" tooltip="Könyvjelző oldalsáv megjelenítése/elrejtése" status="Dokumentum könyvjelzőit tartalmazó oldalsáv megjelenítése/elrejtése" short=""/>
+		<item id="32912" title="Old&amp;al-bélyegképek" tooltip="Oldal-bélyegképek oldalsáv megjelenítése/elrejtése" status="Dokumentum oldalainak bélyegképét mutató oldalsáv megjelenítése/elrejtése" short=""/>
+		<item id="32924" title="&amp;Általános eszköztár" tooltip="Általános eszköztár megjelenítése/elrejtése" status="Általános eszköztár megjelenítése/elrejtése" short=""/>
+		<item id="32925" title="&amp;Nagyítás eszköztár" tooltip="Nagyítás eszköztár megjelenítése/elrejtése" status="Nagyítás eszköztár megjelenítése/elrejtése" short=""/>
+		<item id="32929" title="&amp;Nézet-elforgatás eszköztár" tooltip="Oldalnézet elforgatás eszköztár megjelenítése/elrejtése" status="Oldalnézet elforgatás eszköztár megjelenítése/elrejtése" short=""/>
+		<item id="32936" title="Megnyitott dokumentumok listája" tooltip="Megnyitott dokumentumok listájának megjelenítése" status="" short=""/>
+		<item id="32937" title="Aktív dokumentum bezárása" tooltip="Bezárja az aktív lapon lévő dokumentumot" status="" short=""/>
+		<item id="32938" title="Megnyitott dokumentumok előnézeti képének megjelenítése" tooltip="Megnyitott dokumentumok előnézeti képének megjelenítése" status="" short=""/>
+		<item id="32940" title="La&amp;pfülek" tooltip="Lapfülek megjelenítése/elrejtése" status="Dokumentumok közti egyszerű váltást lehetővé tévő lapfülek megjelenítése/elrejtése. Ha aktív, az ablakok lépcsőzetes és mozaik elrendezése nem lehetséges." short=""/>
+		<item id="32942" title="&amp;Minden dokumentum bezárása" tooltip="" status="" short=""/>
+		<item id="32944" title="Exportálás" tooltip="" status="" short=""/>
+		<item id="32945" title="Exportálás képként..." tooltip="Oldalak exportálása képfájl(ok)ba" status="Aktív dokumentum exportálása képfájl(ok)ba" short=""/>
+		<item id="32946" title="Dokumentum neve" tooltip="" status="" short=""/>
+		<item id="32947" title="Dokumentum száma" tooltip="" status="" short=""/>
+		<item id="32948" title="Dokumentum címe" tooltip="" status="" short=""/>
+		<item id="32949" title="Oldalszám" tooltip="" status="" short=""/>
+		<item id="32950" title="OLDAL" tooltip="" status="" short=""/>
+		<item id="32951" title="OLDALAK" tooltip="" status="" short=""/>
+		<item id="32952" title="Fájlnév" tooltip="" status="" short=""/>
+		<item id="32953" title="Dátum (hh-nn-éééé)" tooltip="" status="" short=""/>
+		<item id="32954" title="Év" tooltip="" status="" short=""/>
+		<item id="32955" title="Hónap" tooltip="" status="" short=""/>
+		<item id="32956" title="Nap" tooltip="" status="" short=""/>
+		<item id="32957" title="Idő (óó-pp-mm)" tooltip="" status="" short=""/>
+		<item id="32958" title="Óra" tooltip="" status="" short=""/>
+		<item id="32959" title="Perc" tooltip="" status="" short=""/>
+		<item id="32960" title="Másodperc" tooltip="" status="" short=""/>
+		<item id="32961" title="Automatikus számozás" tooltip="" status="" short=""/>
+		<item id="32976" title="Teljes keresés leállítása" tooltip="" status="" short=""/>
+		<item id="32977" title="Teljes keresés kezdése" tooltip="" status="" short=""/>
+		<item id="32978" title="Ugrás az előző előfordulásra" tooltip="Ugrás az előző előfordulásra" status="Ugrás az előző előfordulásra" short=""/>
+		<item id="32979" title="Ugrás a következő előfordulásra" tooltip="Ugrás a következő előfordulásra" status="Ugrás a következő előfordulásra" short=""/>
+		<item id="32987" title="Ki&amp;bővített keresés" tooltip="Kibővített keresési lehetőségek megjelenítése" status="Kibővített keresési lehetőségek megjelenítése" short=""/>
+		<item id="32990" title="" tooltip="Megadott szöveg keresése" status="" short="Keresés"/>
+		<item id="32991" title="Előző keresése" tooltip="Előző előfordulás keresése" status="A keresett szöveg előző előfordulásának keresése" short=""/>
+		<item id="32992" title="Következő keresése" tooltip="Következő előfordulás keresése" status="A keresett szöveg következő előfordulásának keresése" short=""/>
+		<item id="32993" title="Keresési lehetőségek" tooltip="Keresési lehetőségek" status="Keresési lehetőségek" short=""/>
+		<item id="32994" title="Csak ha ez a teljes szó" tooltip="Csak teljes szavakat keres" status="Csak beírtakkal egyező szavak keresése" short=""/>
+		<item id="32995" title="Kis- és nagybetű megkülönböztetése" tooltip="Kis- és nagybetű megkülönböztetése" status="Kis- és nagybetűt tartalmazó szavak megkülönböztetése" short=""/>
+		<item id="32996" title="Keresés a Megjegyzésekben is" tooltip="Keresés a könyvjelzőkben is" status="Keresés a könyvjelzőkben is" short=""/>
+		<item id="32997" title="Keresés a Könyvjelzőkben is" tooltip="Keresés a könyvjelzőkben is" status="Keresés a könyvjelzőkben is" short=""/>
+		<item id="33000" title="&amp;Keresés eszköztár" tooltip="Keresés eszköztár megjelenítése/elrejtése" status="Keresés eszköztár megjelenítése/elrejtése" short=""/>
+		<item id="33003" title="Oldalak tulajdonságai..." tooltip="A kijelölt oldalak tuladjonságainak megjelenítése" status="A kijelölt oldalak tuladjonságainak megjelenítése" short="Szerkesztés"/>
+		<item id="33006" title="&amp;Rétegek" tooltip="Rétegek oldalsáv megjelenítése/elrejtése" status="Dokumentum rétegeit mutató oldalsáv megjelenítése/elrejtése" short=""/>
+		<item id="33008" title="Űrlapme&amp;zők" tooltip="Űrlapmező oldalsáv megjelenítése/elrejtése" status="Dokumentum űrlapmezőit mutató oldalsáv megjelenítése/elrejtése" short=""/>
+		<item id="33009" title="Menüsor" tooltip="A menüsor megjelenítése/elrejtése" status="A menüsor megjelenítése/elrejtése" short=""/>
+		<item id="33014" title="&amp;Teljes képernyő" tooltip="A dokumentum megtekintése a teljes képernyőn" status="A dokumentum megtekintése a teljes képernyőn, eszköztárak, menük és állapotsor nélkül - kilépés az Esc gombbal" short=""/>
+		<item id="33015" title="Minden eszköztár megjelenítése/elrejtése" tooltip="Minden eszköztár megjelenítése/elrejtése" status="Minden eszköztár megjelenítése/elrejtése" short="Eszköztárak láthatósága"/>
+		<item id="33016" title="Minden eszköztár megjelenítése/elrejtése" tooltip="Minden eszköztár megjelenítése/elrejtése" status="Minden eszköztár megjelenítése/elrejtése" short="Eszköztárak láthatósága"/>
+		<item id="33018" title="Minden űrlapmező kiemelése" tooltip="Ez a dokumentum űrlapokat tartalmaz; kattintson ide az összes űrlapmező kiemeléséhez" status="Ez a dokumentum űrlapokat tartalmaz; kattintson ide az összes űrlapmező kiemeléséhez" short="Űrlapmezők kiemelése"/>
+		<item id="33020" title="&amp;Teljes képernyő bezárása" tooltip="&amp;Kilépés a teljes képernyős megjelenítésből" status="&amp;Kilépés a teljes képernyős megjelenítésből" short=""/>
+		<item id="33032" title="Centiméter" tooltip="Centiméter" status="" short=""/>
+		<item id="33033" title="Hüvelyk" tooltip="Hüvelyk" status="" short=""/>
+		<item id="33034" title="Milliméter" tooltip="Milliméter" status="" short=""/>
+		<item id="33035" title="Pica" tooltip="Pica" status="" short=""/>
+		<item id="33036" title="Pont" tooltip="Pont" status="" short=""/>
+		<item id="33038" title="Összes bezárása" tooltip="Minden dokumentum bezárása" status="Minden megnyitott dokumentum bezárása" short=""/>
+		<item id="33054" title="6400%" tooltip="" status="" short=""/>
+		<item id="33055" title="3200%" tooltip="" status="" short=""/>
+		<item id="33056" title="2400%" tooltip="" status="" short=""/>
+		<item id="33057" title="1200%" tooltip="" status="" short=""/>
+		<item id="33058" title="800%" tooltip="" status="" short=""/>
+		<item id="33059" title="400%" tooltip="" status="" short=""/>
+		<item id="33060" title="200%" tooltip="" status="" short=""/>
+		<item id="33061" title="150%" tooltip="" status="" short=""/>
+		<item id="33062" title="100%" tooltip="" status="" short=""/>
+		<item id="33063" title="75%" tooltip="" status="" short=""/>
+		<item id="33064" title="50%" tooltip="" status="" short=""/>
+		<item id="33065" title="25%" tooltip="" status="" short=""/>
+		<item id="33073" title="Űrlapadatok e&amp;xportálása..." tooltip="" status="" short=""/>
+		<item id="33074" title="Űrlapadatok &amp;importálása..." tooltip="" status="" short=""/>
+		<item id="33075" title="Nézet elfo&amp;rgatása" tooltip="" status="Az oldal nézet elforgatása (a dokumentum nem módosul)" short=""/>
+		<item id="33078" title="&amp;Jobbra" tooltip="Nézet elforgatása jobbra" status="Nézet elforgatása jobbra (a dokumentum nem módosul)" short=""/>
+		<item id="33079" title="&amp;Balra" tooltip="Nézet elforgatása balra" status="Nézet elforgatása balra (a dokumentum nem módosul)" short=""/>
+		<item id="33080" title="Oldalak elfo&amp;rgatása" tooltip="" status="Oldalak elforgatása (a dokumentum módosul)" short=""/>
+		<item id="33081" title="Oldalak &amp;törlése" tooltip="" status="" short=""/>
+		<item id="33082" title="Oldalak &amp;levágása" tooltip="" status="" short=""/>
+		<item id="33103" title="Mo&amp;zgatás és nagyítás eszköz" tooltip="Mozgatás és nagyítás eszköz" status="Az oldalt egyszerre mozgathatja és nagyíthatja a felbukkanó navigátor segítségével " short="Mozgatás és nagyítás"/>
+		<item id="33104" title="Félkövér" tooltip="Félkövér" status="" short=""/>
+		<item id="33105" title="Dőltbetűs" tooltip="Dőltbetűs" status="" short=""/>
+		<item id="33106" title="Aláhúzott" tooltip="Aláhúzott" status="" short=""/>
+		<item id="33107" title="Áthúzott" tooltip="Áthúzott" status="" short=""/>
+		<item id="33108" title="Balra igazítás" tooltip="Balra igazítás" status="" short=""/>
+		<item id="33109" title="Középre igazítás" tooltip="Középre igazítás" status="" short=""/>
+		<item id="33110" title="Jobbra igazítás" tooltip="Jobbra igazítás" status="" short=""/>
+		<item id="33115" title="&amp;Vonal megfordítása" tooltip="Vonal megfordítása" status="" short=""/>
+		<item id="33116" title="&amp;Tulajdonságok" tooltip="További tulajdonságok..." status="" short=""/>
+		<item id="33118" title="Jelenlegi megjelenés beállítása alapértelmezettként" tooltip="A megjegyzések jelenlegi megjelenése (szín, vonalstílus, átlátszatlanság, stb.) mentése alapértelmezettként. Az újonnan létrehozott megjegyzések megjelenése már ilyen lesz." status="" short=""/>
+		<item id="33121" title="Felbukkanó jegyzet &amp;helyének visszaállítása" tooltip="Felbukkanó jegyzet helyének visszaállítása" status="Felbukkanó jegyzet helyének visszaállítása (általában a jobb oldalra)" short=""/>
+		<item id="33122" title="Felbukkanó je&amp;gyzet megnyitása" tooltip="Felbukkanó jegyzet megnyitása" status="" short=""/>
+		<item id="33123" title="&amp;Nyíl eszköz" tooltip="Nyíl eszköz" status="Változatos nyilak rajzolása, duplakattintással címkézhető" short="Nyíl"/>
+		<item id="33124" title="&amp;Vonal eszköz" tooltip="Vonal eszköz" status="Vonalak rajzolása, duplakattintással címkézhető" short="Vonal"/>
+		<item id="33125" title="&amp;Téglalap eszköz" tooltip="Téglalap eszköz" status="Téglalap, négyzet rajzolása, duplakattintással címkézhető" short="Téglalap"/>
+		<item id="33126" title="&amp;Ovális eszköz" tooltip="Ovális eszköz" status="Ovális, kör rajzolása, duplakattintással címkézhető" short="Ovális"/>
+		<item id="33127" title="Sokszö&amp;g eszköz" tooltip="Sokszög eszköz" status="Sokszögletű idom rajzolása, duplakattintással címkézhető" short="Sokszög"/>
+		<item id="33128" title="Sokszög&amp;ű vonal eszköz" tooltip="Sokszögű vonal eszköz" status="Sokszögű vonal rajzolása, duplakattintással címkézhető" short="Sokszögű vonal"/>
+		<item id="33129" title="C&amp;eruza eszköz" tooltip="Ceruza eszköz" status="Szabadkézi vonal rajzolása, duplakattintással címkézhető" short="Ceruza"/>
+		<item id="33130" title="Fel&amp;hő eszköz" tooltip="Felhő eszköz" status="Változatos szélű keretek rajzolása, duplakattintással címkézhető" short="Felhő"/>
+		<item id="33131" title="&amp;Bélyegzők" tooltip="Bélyegzők" status="Angol nyelvű előre elkészített bélyegzők" short="Bélyegző"/>
+		<item id="33132" title="&amp;Címke eszköz" tooltip="Címke eszköz" status="&quot;Öntapadós&quot; címkék, névvel és dátummal jelölt jegyzetek hozzáfűzése a dokumentumhoz" short="Címke"/>
+		<item id="33133" title="&amp;Előnézet" tooltip="Előnézet" status="" short=""/>
+		<item id="33134" title="Alapértelmezett megjelenés" tooltip="Az elmentett megjegyzés formátum (szín, vonalstílus, átlátszatlanság, stb.) alkalmazása." status="" short=""/>
+		<item id="33135" title="Jegyzet hozzáadása" tooltip="Jegyzet hozzáadása" status="" short=""/>
+		<item id="33136" title="&amp;Törlés" tooltip="Törli a kijelölést" status="Törli a kijelölt tartalmat" short=""/>
+		<item id="33138" title="&amp;Megjegyzés és Jelölés eszköztár" tooltip="Megjegyzés és Jelölés eszköztár megjelenítése/elrejtése" status="Megjegyzés és Jelölés eszköztár megjelenítése/elrejtése" short=""/>
+		<item id="33139" title="Mégsem" tooltip="Mégsem" status="" short=""/>
+		<item id="33140" title="Kész" tooltip="Kész" status="" short=""/>
+		<item id="33141" title="Termék &amp;honlapja" tooltip="" status="" short=""/>
+		<item id="33145" title="&amp;Tartalomjegyzék" tooltip="" status="" short=""/>
+		<item id="33146" title="&amp;Probléma jelentése..." tooltip="" status="" short=""/>
+		<item id="33147" title="&amp;Támogatás a termék fórumán" tooltip="" status="Regisztráció után kérdéseket tehet fel az alkotóknak és más felhasználóknak" short=""/>
+		<item id="33168" title="Szövegformázás eltávolítása" tooltip="Szövegformázás eltávolítása" status="" short=""/>
+		<item id="33170" title="Felső index" tooltip="Felső index" status="" short=""/>
+		<item id="33171" title="Alsó index" tooltip="Alsó index" status="" short=""/>
+		<item id="33174" title="&amp;Válasz hozzáadása" tooltip="Válasz hozzáadása" status="" short=""/>
+		<item id="33176" title="Válasz &amp;törlése" tooltip="Válasz törlése" status="" short=""/>
+		<item id="33179" title="Programfrissítések keresése..." tooltip="" status="Programfrissítések keresése és automatikus telepítése" short=""/>
+		<item id="33182" title="Másolás formázat&amp;lan szövegként" tooltip="Másolás formázatlan szövegként" status="" short=""/>
+		<item id="33183" title="Másolás &amp;formázott szövegként" tooltip="Másolás formázott szövegként" status="" short=""/>
+		<item id="33184" title="Formázott tartalom másolása" tooltip="Formázott tartalom másolása" status="" short=""/>
+		<item id="33187" title="JavaScript konzol" tooltip="JavaScript konzol megjelenítése/elrejtése" status="JavaScript konzol megjelenítése/elrejtése" short=""/>
+		<item id="33197" title="Keresés az almappákban is" tooltip="" status="" short=""/>
+		<item id="33201" title="&amp;Magyarázat eszköz" tooltip="Magyarázat eszköz" status="Nyíllal ellátott magyarázó szövegdoboz elhelyezése" short="Magyarázat"/>
+		<item id="33202" title="&amp;Szövegdoboz eszköz" tooltip="Szövegdoboz eszköz" status="Keretbe foglalt szöveg hozzáadása" short="Szövegdoboz"/>
+		<item id="33204" title="Meg&amp;jegyzések" tooltip="Megjegyzések oldalsáv megjelenítése/elrejtése" status="Dokumentumhoz fűzött megjegyzéseket mutató oldalsáv megjelenítése/elrejtése" short=""/>
+		<item id="33205" title="&amp;Mellékletek" tooltip="Mellékletek oldalsáv megjelenítése/elrejtése" status="Dokumentum mellékleteit tartalmazó oldalsáv megjelenítése/elrejtése" short=""/>
+		<item id="33206" title="Szöveg &amp;kiemelése" tooltip="Szöveg kiemelése" status="" short=""/>
+		<item id="33207" title="Megjeg&amp;yzés hozzáfűzése a szöveghez" tooltip="Megjegyzés hozzáfűzése a szöveghez" status="" short=""/>
+		<item id="33208" title="Szöveg &amp;aláhúzása" tooltip="Szöveg aláhúzása" status="" short=""/>
+		<item id="33209" title="Szöveg &amp;áthúzása" tooltip="Szöveg áthúzása" status="" short=""/>
+		<item id="33210" title="Szöveg cseréje" tooltip="Szöveg cseréje" status="" short=""/>
+		<item id="33221" title="&amp;Szövegkiemelő eszköz" tooltip="Színnel emeli ki a szöveget" status="A kijelöléssel figyelemfelkeltő háttérszínnel emeli ki a szöveget" short="Szöveg kiemelése"/>
+		<item id="33222" title="Szöveg&amp;aláhúzó eszköz" tooltip="Szöveg aláhúzása" status="A kijelöléssel aláhúzza a kijelölt szöveget" short="Aláhúzás"/>
+		<item id="33223" title="Szöveg&amp;áthúzó eszköz" tooltip="Szöveg áthúzása" status="A kijelöléssel áthúzza a kijelölt szöveget" short="Áthúzás"/>
+		<item id="33224" title="&amp;Fájlmelléklet eszköz" tooltip="Fájl hozzáadása megjegyzésként.&#10;Kattintson az oldalra, ahová rögzíti a fájl." status="" short="Melléklet"/>
+		<item id="33225" title="&amp;Tulajdonságok eszköztár" tooltip="Tulajdonságok eszköztár megjelenítése/elrejtése" status="Az aktív elem tulajdonságainak szerkesztését lehetővé tévő eszköztár megjelenítése/elrejtése" short=""/>
+		<item id="33226" title="&amp;Írógép eszköz" tooltip="Írógép eszköz" status="A Írógéppel szabadon elhelyezett, keret nélküli szöveget adhat a dokumentumhoz" short="Írógép"/>
+		<item id="33228" title="&amp;Bélyegzők paletta megjelenítése" tooltip="" status="" short=""/>
+		<item id="33229" title="Az eszköz maradjon kiválasztva" tooltip="Az eszköz maradjon kiválasztva" status="" short=""/>
+		<item id="33231" title="Betűméret" tooltip="Betűméret" status="" short="Betűméret"/>
+		<item id="33232" title="&amp;Oldal szerint" tooltip="Megjegyzések csoportosítása oldal szerint" status="" short=""/>
+		<item id="33233" title="Típus szerint" tooltip="Megjegyzések csoportosítása típus szerint" status="" short=""/>
+		<item id="33234" title="&amp;Szerző szerint" tooltip="Megjegyzések csoportosítása szerző szerint" status="" short=""/>
+		<item id="33235" title="&amp;Módosítás dátuma szerint" tooltip="Megjegyzések csoportosítása a módosítás dátuma szerint" status="" short=""/>
+		<item id="33236" title="S&amp;zín szerint" tooltip="Megjegyzések csoportosítása szín szerint" status="" short=""/>
+		<item id="33237" title="&amp;Létrehozás dátuma szerint" tooltip="Megjegyzések csoportosítása a létrehozás dátuma szerint" status="" short=""/>
+		<item id="33238" title="Következő" tooltip="Következő megjegyzés" status="" short=""/>
+		<item id="33239" title="Előző" tooltip="Előző megjegyzés" status="" short=""/>
+		<item id="33240" title="Törlés" tooltip="Megjegyzés törlése" status="" short=""/>
+		<item id="33241" title="Mind összecsukása" tooltip="Minden megjegyzés összecsukása" status="" short=""/>
+		<item id="33242" title="Mind kibontása" tooltip="Minden megjegyzés kibontása" status="" short=""/>
+		<item id="33243" title="Csoportosítás..." tooltip="Megjegyzések csoportosítása..." status="" short=""/>
+		<item id="33244" title="Tulajdonságok..." tooltip="Megjegyzés tulajdonságai" status="" short=""/>
+		<item id="33245" title="Válaszadás" tooltip="Válaszadás a megjegyzésre" status="" short=""/>
+		<item id="33248" title="&amp;Kijelölés megszüntetése" tooltip="Kijelölés megszüntetése" status="" short=""/>
+		<item id="33255" title="Minden lap bezárása, ezt kivéve" tooltip="Minden lap (dokumentum) bezárása, ezt kivéve" status="" short=""/>
+		<item id="33256" title="E lap bezárása" tooltip="E lap (dokumentum) bezárása" status="" short=""/>
+		<item id="33257" title="Teljes &amp;fájlnév másolása" tooltip="Teljes fájlnév és elérési út másolása a vágólapra" status="Az aktív dokumentum teljes nevének és elérési útjának másolása a vágólapra" short=""/>
+		<item id="33258" title="Tartalmazó ma&amp;ppa megnyitása" tooltip="Az aktív dokumentumot tartalmazó mappa megnyitása" status="Az aktív dokumentumot tartalmazó mappa megnyitása a fájlkezelő alkalmazásban" short=""/>
+		<item id="33259" title="Jelenlegi szövegformázás alapértelmezetté tétele" tooltip="Jelenlegi szövegformázás alapértelmezetté tétele" status="" short=""/>
+		<item id="33260" title="Alapértelmezett szövegformázás alkalmazása" tooltip="Alapértelmezett szövegformázás alkalmazása" status="" short=""/>
+		<item id="33261" title="Szöveg színe" tooltip="Szöveg színe" status="" short="Szín"/>
+		<item id="33262" title="&amp;Dokumentum tulajdonságai eszköztár" tooltip="Dokumentum tulajdonságai eszköztár megjelenítése/elrejtése" status="Dokumentum tulajdonságai eszköztár megjelenítése/elrejtése" short=""/>
+		<item id="33263" title="&amp;Oldal navigáció eszköztár" tooltip="Oldal navigáció eszköztár megjelenítése/elrejtése" status="Oldal navigáció eszköztár megjelenítése/elrejtése" short=""/>
+		<item id="33264" title="O&amp;ldal elrendezés eszköztár" tooltip="Oldal elrendezés eszköztár megjelenítése/elrejtése" status="Oldal elrendezés eszköztár megjelenítése/elrejtése" short=""/>
+		<item id="33265" title="&amp;Programindítás eszköztár" tooltip="Programindítás eszköztár megjelenítése/elrejtése" status="Programindítás eszköztár megjelenítése/elrejtése" short=""/>
+		<item id="33267" title="&amp;Fájl" tooltip="Fájlműveletek" status="Fájlműveletek" short=""/>
+		<item id="33268" title="&amp;Legutóbbi dokumentumok" tooltip="Legutóbb használt dokumentumok" status="Legutóbb használt dokumentumok listája" short=""/>
+		<item id="33269" title="&amp;Űrlapadatok" tooltip="" status="" short=""/>
+		<item id="33270" title="&amp;Dokumentum tulajdonságai" tooltip="Aktív dokumentum tulajdonságai" status="Aktív dokumentum tulajdonságainak megjelentítése" short="Tulajdonságok..."/>
+		<item id="33272" title="&amp;PDF megnyitása hálózatról..." tooltip="PDF megnyitása hálózatról..." status="Hálózaton lévő PDF megnyitása az URL (hálózati elérési út, http://) megadásával" short=""/>
+		<item id="33280" title="&amp;Szerkesztés" tooltip="Dokumentum általános szerkesztése" status="Dokumentum általános szerkesztése" short=""/>
+		<item id="33290" title="N&amp;ézet" tooltip="Dokumentum megjelenítésével kapcsolatos beállítások" status="Dokumentum megjelenítésével kapcsolatos beállítások" short=""/>
+		<item id="33291" title="Es&amp;zköztárak" tooltip="" status="" short=""/>
+		<item id="33292" title="Egyéb oldalsávok" tooltip="" status="" short=""/>
+		<item id="33293" title="Oldal &amp;elrendezése" tooltip="" status="" short=""/>
+		<item id="33300" title="&amp;Dokumentum" tooltip="Dokumentum oldalainak szerkesztése" status="Dokumentum oldalainak szerkesztése" short=""/>
+		<item id="33310" title="&amp;Eszközök" tooltip="Speciális dokumentum-szerkesztési eszközök" status="Speciális dokumentum-szerkesztési eszközök (megjegyzések, jelölések,...)" short=""/>
+		<item id="33311" title="&amp;Alapvető eszközök" tooltip="" status="Kéz, Pillanatkép, Kijelölés eszközök" short=""/>
+		<item id="33313" title="&amp;Nagyítás eszközök" tooltip="" status="" short=""/>
+		<item id="33314" title="&amp;Megjegyzés és Jelölés eszközök" tooltip="" status="Rajzolás, szövegkiemelés, címkézés, megjegyzések,..." short=""/>
+		<item id="33316" title="&amp;Mérőeszközök" tooltip="" status="" short=""/>
+		<item id="33317" title="&amp;Link eszközök" tooltip="" status="" short=""/>
+		<item id="33339" title="Megjegyzés és Jelölés eszköztár megjelenítése..." tooltip="" status="" short=""/>
+		<item id="33340" title="Megjegyzések listájának megjelenítése" tooltip="Megjegyzések listájának megjelenítése/elrejtése az oldalsávon" status="Megjegyzések listájának megjelenítése/elrejtése az oldalsávon" short=""/>
+		<item id="33350" title="&amp;Ablak" tooltip="" status="" short=""/>
+		<item id="33369" title="Hibainformáció" tooltip="Ez a dokumentum sérült; kattintson ide a részletek megtekintéséhez" status="Ez a dokumentum sérült; kattintson ide a részletek megtekintéséhez" short="Hibainformáció"/>
+		<item id="33370" title="Dokumentum beállításai" tooltip="A dokumentum megtekintésével, szerkesztésével, módosításával kapcsolatos beállításokat tartalmazó menü" status="A dokumentum megtekintésével, szerkesztésével, módosításával kapcsolatos beállításokat tartalmazó menü" short="Dokumentum beállításai"/>
+		<item id="33371" title="Rétegek oldalsáv megjelenítése" tooltip="E dokumentum rétegeket tartalmaz; kattintson ide a Rétegek oldalsáv megjelenítéséhez/elrejtéséhez" status="E dokumentum rétegeket tartalmaz; kattintson ide a Rétegek oldalsáv megjelenítéséhez/elrejtéséhez" short="Rétegek"/>
+		<item id="33372" title="Űrlapmező oldalsáv megjelenítése" tooltip="Ez a dokumentum űrlapokat tartalmaz; kattintson ide az Űrlapmező oldalsáv megjelenítéséhez/elrejtéséhez" status="Ez a dokumentum űrlapokat tartalmaz; kattintson ide az Űrlapmező oldalsáv megjelenítéséhez/elrejtéséhez" short="Űrlapmezők"/>
+		<item id="33373" title="Nincs tulajdonság" tooltip="Most nincs kiválasztva szerkeszthető tulajdonsággal rendelkező objektum" status="Most nincs kiválasztva szerkeszthető tulajdonsággal rendelkező objektum" short=""/>
+		<item id="33374" title="PDF/A információ" tooltip="Ez a dokumentum megfelel a PDF/A leírásnak. Kattintson ide a részletekért." status="Ez a dokumentum megfelel a PDF/A leírásnak. Kattintson ide a részletekért." short="PDF/A info"/>
+		<item id="33375" title="XFA információ" tooltip="Ez a dokumentum XFA űrlapot tartalmaz. Kattintson ide a részletekért." status="Ez a dokumentum XFA űrlapot tartalmaz. " short="XFA info"/>
+		<item id="33379" title="Átlátszatlanság" tooltip="Átlátszatlanság" status="" short="Átlátszatlanság"/>
+		<item id="33382" title="Szövegformázás eszköztár megjelenítése/elrejtése" tooltip="Szövegformázás eszköztár megjelenítése/elrejtése" status="" short=""/>
+		<item id="33383" title="Oldalkijelölés másolása" tooltip="Oldalkijelölés másolása" status="" short=""/>
+		<item id="33384" title="Egész oldal kijelölése" tooltip="Egész oldal kijelölése" status="" short=""/>
+		<item id="33410" title="&amp;Megjegyzés" tooltip="Megjegyzés" status="" short=""/>
+		<item id="33411" title="Szövegformázás" tooltip="Szövegformázás" status="" short=""/>
+		<item id="33412" title="Pillanatkép készítése" tooltip="Pillanatkép készítése" status="" short=""/>
+		<item id="33413" title="Nagyítás" tooltip="Bélyegképek nagyítása" status="Bélyegképek nagyítása" short=""/>
+		<item id="33414" title="Kicsinyítés" tooltip="Bélyegképek kicsinyítése" status="Bélyegképek kicsinyítése" short=""/>
+		<item id="33416" title="Könyvjelző hozzáadása" tooltip="" status="" short=""/>
+		<item id="33420" title="&amp;Link hozzáadása" tooltip="" status="" short=""/>
+		<item id="33421" title="Bal szélek igazítása" tooltip="Bal szélek igazítása" status="" short=""/>
+		<item id="33422" title="Jobb szélek igazítása" tooltip="Jobb szélek igazítása" status="" short=""/>
+		<item id="33423" title="Felső szélek igazítása" tooltip="Felső szélek igazítása" status="" short=""/>
+		<item id="33424" title="Alsó szélek igazítása" tooltip="Alsó szélek igazítása" status="" short=""/>
+		<item id="33425" title="Vízszintes középvonalak igazítása" tooltip="Vízszintes középvonalak igazítása" status="" short=""/>
+		<item id="33426" title="Függőleges középvonalak igazítása" tooltip="Függőleges középvonalak igazítása" status="" short=""/>
+		<item id="33427" title="Vízszintes elosztás" tooltip="Vízszintes elosztás" status="" short=""/>
+		<item id="33428" title="Függőleges elosztás" tooltip="Függőleges elosztás" status="" short=""/>
+		<item id="33429" title="Egyforma szélesség" tooltip="Egyforma szélesség" status="" short=""/>
+		<item id="33430" title="Egyforma magasság" tooltip="Egyforma magasság" status="" short=""/>
+		<item id="33431" title="Egyforma méret" tooltip="Egyforma méret" status="" short=""/>
+		<item id="33432" title="Jelen megjelenés legyen az alapértelmezett" tooltip="Jelen megjelenés legyen az alapértelmezett" status="Jelen megjelenés legyen az alapértelmezett" short=""/>
+		<item id="33433" title="Alapértelmezett megjelenés alkalmazása" tooltip="Alapértelmezett megjelenés alkalmazása a kiválasztott linkekre" status="Alapértelmezett megjelenés alkalmazása a kiválasztott linkekre" short=""/>
+		<item id="33800" title="Képaláírás helyének visszaállítása" tooltip="Képaláírás helyének visszaállítása" status="" short=""/>
+		<item id="33801" title="Címke törlése" tooltip="Címke törlése" status="" short=""/>
+		<item id="33802" title="Címke szerkesztése" tooltip="Címke szerkesztése" status="" short=""/>
+		<item id="33805" title="Lépték megváltoztatása" tooltip="Lépték megváltoztatása" status="" short=""/>
+		<item id="33806" title="Jelölés megváltoztatása" tooltip="Jelölés megváltoztatása" status="" short=""/>
+		<item id="33807" title="Mérési információ ablak" tooltip="Mérési információ ablak megjelenítése" status="" short=""/>
+		<item id="33808" title="Derékszög" tooltip="Derékszög" status="" short=""/>
+		<item id="33809" title="Mégsem" tooltip="Mérés visszavonása" status="" short=""/>
+		<item id="33810" title="Mérés befejezése" tooltip="Mérés befejezése" status="" short=""/>
+		<item id="33811" title="Mérési eredmények exportálása" tooltip="Mérési eredmények exportálása CSV fájlba" status="" short=""/>
+		<item id="33812" title="Beágyazott fájl meg&amp;nyitása" tooltip="Beágyazott fájl megnyitása" status="Beágyazott fájl megnyitása" short="Megnyitás"/>
+		<item id="33813" title="Beágyazott fájl mentése m&amp;ásként..." tooltip="Beágyazott fájl mentése másként" status="Beágyazott fájl mentése másként..." short="Mentés"/>
+		<item id="33814" title="&amp;Leírás szerkesztése..." tooltip="Leírás szerkesztése" status="A beágyazott fájl leírásának szerkesztése" short="Leírás szerkesztése"/>
+		<item id="33815" title="Fájl &amp;csatolása..." tooltip="Fájl csatolása" status="Külső fájl csatolása a dokumentumhoz" short="Fájl csatolása"/>
+		<item id="33816" title="Kijelölt oldalak forgatása 90 fokkal" tooltip="" status="" short="Forgatás 90 fokkal"/>
+		<item id="33817" title="Kijelölt oldalak forgatása 180 fokkal" tooltip="" status="" short="Forgatás 180 fokkal"/>
+		<item id="33818" title="Kijelölt oldalak forgatása 270 fokkal" tooltip="" status="" short="Forgatás 270 fokkal"/>
+		<item id="33819" title="A kijelölt oldalak törlése" tooltip="" status="" short=""/>
+		<item id="36000" title="Testreszabás..." tooltip="Párbeszédablak az eszköztárak testreszabásához" status="Párbeszédablak az eszköztárak testreszabásához" short=""/>
+		<item id="36001" title="Zárolva" tooltip="Zárolva" status="Az objektum zárolása; feloldásig nem szerkeszthető" short=""/>
+		<item id="36004" title="Nagyítás" tooltip="Könyvjelzők szövegének nagyítása" status="Könyvjelzők szövegének nagyítása" short=""/>
+		<item id="36005" title="Kicsinyítés" tooltip="Könyvjelzők szövegének kicsinyítése" status="Könyvjelzők szövegének kicsinyítése" short=""/>
+		<item id="36006" title="Könyvjelző(k) törlése" tooltip="Kijelölt könyvjelzők törlése" status="Kijelölt könyvjelzők törlése" short="Törlés"/>
+		<item id="36007" title="Könyvjelzők tulajdonságai..." tooltip="Kijelölt könyvjelzők tulajdonságai" status="Kijelölt könyvjelzők tulajdonságai" short="Szerkesztés"/>
+		<item id="36008" title="Új könyvjelző" tooltip="Új könyvjelző létrehozása" status="Új könyvjelző létrehozása" short="Új"/>
+		<item id="36009" title="Könyvjelző láthatóságának biztosítása" tooltip="A megfelelő könyvjelző láthatóságának biztosítása" status="A megfelelő könyvjelző láthatóságának biztosítása" short=""/>
+		<item id="36010" title="Ugrás a könyvjelzőre" tooltip="Ugrás a könyvjelzőre" status="A könyvjelzővel jelölt oldal megjelenítése" short=""/>
+		<item id="36011" title="Könyvjelzők frissítése" tooltip="Könyvjelzők frissítése" status="Könyvjelzők frissítése" short=""/>
+		<item id="36012" title="Hozzáadás..." tooltip="Új művelet hozzáadása..." status="Új művelet hozzáadása..." short=""/>
+		<item id="36013" title="Törlés" tooltip="Kijelölt műveletek törlése..." status="Kijelölt műveletek törlése..." short=""/>
+		<item id="36014" title="Előre" tooltip="A kijelölt elemek előreléptetése a műveleti sorrendben" status="A kijelölt elemek előreléptetése a műveleti sorrendben" short=""/>
+		<item id="36015" title="Hátra" tooltip="A kijelölt elemek hátraléptetése a műveleti sorrendben" status="A kijelölt elemek hátraléptetése a műveleti sorrendben" short=""/>
+		<item id="36016" title="Szerkesztés..." tooltip="Kijelölt műveletek tulajdonságainak szerkesztése..." status="Kijelölt műveletek tulajdonságainak szerkesztése..." short=""/>
+		<item id="36017" title="Kijelöltek tesztelése..." tooltip="Kijelölt műveletek tesztelése..." status="Kijelölt műveletek tesztelése..." short=""/>
+		<item id="36018" title="Összes tesztelése..." tooltip="Összes művelet tesztelése..." status="Összes művelet tesztelése..." short=""/>
+		<item id="36019" title="Alaphelyzet" tooltip="Műveletek listájának és elvetett változtatások visszaállítása" status="Műveletek listájának és elvetett változtatások visszaállítása" short=""/>
+		<item id="36023" title="&amp;Átnevezés" tooltip="Kijelölt könyvjelző átnevezése" status="Kijelölt könyvjelző átnevezése" short=""/>
+		<item id="36024" title="Jelen megjelenés legyen az alapértelmezett" tooltip="Jelen megjelenés legyen az alapértelmezett" status="Jelen megjelenés legyen az alapértelmezett" short=""/>
+		<item id="36025" title="Hosszú könyvjelzőnevek tördelése" tooltip="Hosszú könyvjelzőnevek tördelése" status="Hosszú könyvjelzőnevek tördelése" short=""/>
+		<item id="36026" title="Alapértelmezett megjelenés alkalmazása" tooltip="Alapértelmezett megjelenés alkalmazása a kijelölt könyvjelzőkre" status="Alapértelmezett megjelenés alkalmazása a kijelölt könyvjelzőkre" short=""/>
+		<item id="36027" title="Futtatás" tooltip="Script futtatása" status="" short=""/>
+		<item id="36028" title="Törlés" tooltip="Konzol kimenet törlése" status="" short=""/>
+		<item id="36035" title="Ugrás sorra..." tooltip="" status="" short=""/>
+		<item id="36036" title="JavaScript beállítások" tooltip="JavaScript beállítások" status="JavaScript beállítások megjelenítése" short=""/>
+		<item id="36037" title="Oldalak &amp;beillesztése" tooltip="" status="" short=""/>
+		<item id="36038" title="Oldalak &amp;kivonása" tooltip="" status="" short=""/>
+		<item id="36039" title="Oldalak &amp;cseréje" tooltip="" status="" short=""/>
+		<item id="36040" title="Oldalak &amp;átmenete..." tooltip="" status="" short=""/>
+		<item id="36048" title="&amp;Legyen a könyvjelző célja" tooltip="Jelenlegi nézet beállítása a könyvjelző céljaként" status="Jelenlegi nézet beállítása a könyvjelző céljaként" short=""/>
+		<item id="36049" title="" tooltip="Betűtípus" status="" short="Betűtípus"/>
+		<item id="36250" title="Kiemelés stílusa" tooltip="Kiemelés stílusa" status="" short="Kiemelés"/>
+		<item id="36252" title="Csak ha ez a teljes szó" tooltip="Csak teljes szavakat keres" status="Csak beírtakkal egyező szavak keresése" short=""/>
+		<item id="36253" title="Kis- és nagybetű megkülönböztetése" tooltip="Kis- és nagybetű megkülönböztetése" status="Kis- és nagybetűt tartalmazó szavak megkülönböztetése" short=""/>
+		<item id="36254" title="Keresés a megjegyzésekben is" tooltip="Keresés a dokumentumhoz fűzött bármely megjegyzésben is" status="Keresés a dokumentumhoz fűzött bármely megjegyzésben is" short=""/>
+		<item id="36255" title="Keresés a könyvjelzőkben is" tooltip="Keresés a könyvjelzők szövegében is" status="Keresés a könyvjelzők szövegében is" short=""/>
+		<item id="36256" title="Könyvjelző ikon megjelenítése" tooltip="Könyvjelző ikon megjelenítése" status="Könyvjelző ikon megjelenítése" short=""/>
+		<item id="36257" title="Tárgy szerkesztése..." tooltip="A kiválasztott megjegyzés stílus kezdő szövege" status="" short=""/>
+		<item id="36260" title="1600%" tooltip="" status="" short=""/>
+		<item id="36262" title="12.5%" tooltip="" status="" short=""/>
+		<item id="36263" title="8.33%" tooltip="" status="" short=""/>
+		<item id="36264" title="Nagyítás" tooltip="" status="" short="Nagyítás"/>
+		<item id="36273" title="Kitöltőszín" tooltip="Kitöltőszín" status="" short="Kitöltőszín"/>
+		<item id="36274" title="Vonalszín" tooltip="Vonalszín" status="" short="Vonalszín"/>
+		<item id="36276" title="Jegyzet ikon" tooltip="Megjegyzés ikon" status="" short="Ikon"/>
+		<item id="36277" title="Nagyítás" tooltip="Nagyítás" status="" short="Nagyítás"/>
+		<item id="36279" title="Szegély stílusa" tooltip="Szegély stílusa" status="" short="Szegély"/>
+		<item id="36281" title="Szegélyvastagság" tooltip="Szegélyvastagság" status="" short="Vastagság"/>
+		<item id="36287" title="Vonal végződése" tooltip="Vonal végződése" status="" short="Vonal végződése"/>
+		<item id="36289" title="Vonal kezdete" tooltip="Vonal kezdete" status="" short="Vonal kezdete"/>
+		<item id="36291" title="Nagyítás" tooltip="Bélyegképek nagyítása" status="Bélyegképek nagyítása" short=""/>
+		<item id="36292" title="Kicsinyítés" tooltip="Bélyegképek kicsinyítése" status="Bélyegképek kicsinyítése" short=""/>
+		<item id="36293" title="Vágólapról" tooltip="Bélyegző készítése a vágólap tartalmából" status="Bélyegző készítése a vágólap tartalmából" short="Vágólapról"/>
+		<item id="36294" title="Bélyegző törlése" tooltip="Kijelölt bélyegző törlése" status="Kijelölt bélyegző törlése" short="Törlés"/>
+		<item id="36295" title="Új bélyegző..." tooltip="Új bélyegző..." status="Új bélyegző..." short=""/>
+		<item id="36296" title="Kollekció törlése" tooltip="Kijelölt bélyegző kollekció törlése" status="Kijelölt bélyegző kollekció törlése" short="Törlés"/>
+		<item id="36297" title="Új kollekció..." tooltip="Új bélyegző kollekció készítése..." status="Új bélyegző kollekció készítése..." short="Új..."/>
+		<item id="36298" title="Bélyegző szerkesztése..." tooltip="Kijelölt bélyegző szerkesztése..." status="Kijelölt bélyegző szerkesztése..." short="Szerkesztés..."/>
+		<item id="36299" title="Kollekció szerkesztése..." tooltip="Kijelölt bélyegző kollekció szerkesztése..." status="Kijelölt bélyegző kollekció szerkesztése..." short="Szerkesztés..."/>
+		<item id="36300" title="&amp;Radír eszköz" tooltip="Radír eszköz" status="Radír eszköz" short="Radír"/>
+		<item id="36301" title="Átmérő" tooltip="Radír átmérője" status="" short="Átmérő"/>
+		<item id="36303" title="PDF dokumentumból..." tooltip="Új bélyegző PDF dokumentumból..." status="Új bélyegző PDF dokumentumból..." short="PDF-ből..."/>
+		<item id="36304" title="Képfájlból..." tooltip="Új bélyegző készítése képfájlból..." status="Új bélyegző készítése képfájlból..." short="Képből..."/>
+		<item id="36305" title="&amp;Üres oldalak beillesztése" tooltip="" status="" short=""/>
+		<item id="36306" title="Összes kibontása" tooltip="Összes könyvjelző kibontása" status="" short="Kibontás"/>
+		<item id="36307" title="Összes összecsukása" tooltip="Összes könyvjelző összecsukása" status="" short="Összecsukás"/>
+		<item id="36308" title="Szöveg tulajdonságai..." tooltip="Szöveg tulajdonságainak megjelenítése..." status="Kiválasztott szöveg tulajdonságainak megjelenítése..." short="Szöveg tulajdonságai..."/>
+		<item id="36309" title="Eszköztár alaphelyzete" tooltip="Az eszköztárat alaphelyzetbe állítja" status="Az eszköztárat alaphelyzetbe állítja" short="Eszköztár alaphelyzete"/>
+		<item id="36313" title="" tooltip="Billentyűparancs alaphelyzetbe állítása" status="" short=""/>
+		<item id="36314" title="" tooltip="Billentyűparancs törlése" status="" short=""/>
+		<item id="36315" title="Menü alaphelyzete" tooltip="A menüt alaphelyzetbe állítja" status="A menüt alaphelyzetbe állítja" short="Menü alaphelyzete"/>
+		<item id="36316" title="Felbukkanó menü alaphelyzete" tooltip="A felbukkanó menüt alaphelyzetbe állítja" status="A felbukkanó menüt alaphelyzetbe állítja" short="Felbukkanó menü alaphelyzete"/>
+		<item id="36324" title="Válasszon képet" tooltip="" status="" short=""/>
+		<item id="36326" title="Alaphelyzet" tooltip="" status="" short=""/>
+		<item id="36327" title="Törlés" tooltip="" status="" short=""/>
+		<item id="36328" title="Alapértelmezett stílus" tooltip="" status="" short=""/>
+		<item id="36329" title="Kép megjelenítése" tooltip="" status="" short=""/>
+		<item id="36330" title="Szöveg megjelenítése" tooltip="" status="" short=""/>
+		<item id="36331" title="Elválasztó beillesztése elé" tooltip="" status="" short=""/>
+		<item id="36332" title="Elválasztó beillesztése mögé" tooltip="" status="" short=""/>
+		<item id="36333" title="Tulajdonságok..." tooltip="" status="" short=""/>
+		<item id="36334" title="Előnézet" tooltip="" status="" short=""/>
+		<item id="36335" title="Tárgy megjelenítése" tooltip="A megjegyzések tárgyának megjelenítése" status="A megjegyzések tárgyának megjelenítése" short=""/>
+		<item id="36336" title="Szerzők megjelenítése" tooltip="A megjegyzések szerzőinek megjelenítése" status="A megjegyzések szerzőinek megjelenítése" short=""/>
+		<item id="36337" title="Dátumok megjelenítése" tooltip="A megjegyzések módosítási idejének megjelenítése" status="A megjegyzések módosítási idejének megjelenítése" short=""/>
+		<item id="36338" title="Szöveg megjelenítése" tooltip="A megjegyzések szövegének megjelenítése" status="A megjegyzések szövegének megjelenítése" short=""/>
+		<item id="36339" title="Színek megjelenítése" tooltip="A megjegyzések színének megjelenítése" status="A megjegyzések színének megjelenítése" short=""/>
+		<item id="36340" title="Megjegyzések &amp;egyesítése..." tooltip="" status="" short=""/>
+		<item id="36341" title="Keresési előzmények törlése" tooltip="Keresési előzmények törlése" status="" short="Billentyűparancs törlése"/>
+		<item id="36342" title="&amp;Linkszerkesztő eszköztár" tooltip="Linkszerkesztő eszköztár megjelenítése/elrejtése" status="Linkszerkesztő eszköztár megjelenítése/elrejtése" short=""/>
+		<item id="36343" title="&amp;Téglalap link eszköz" tooltip="&amp;Téglalap link eszköz" status="" short="Link"/>
+		<item id="36344" title="&amp;Négyszög link eszköz" tooltip="&amp;Négyszög link eszköz" status="" short="Link"/>
+		<item id="36345" title="Mérés eszköztár" tooltip="Mérés eszköztár megjelenítése/elrejtése" status="Mérés eszköztár megjelenítése/elrejtése" short=""/>
+		<item id="36346" title="T&amp;ávolság eszköz" tooltip="Eszköz egy két pont közötti távolság leméréséhez" status="" short="Távolság"/>
+		<item id="36347" title="&amp;Kerület eszköz" tooltip="Eszköz egy objektum kerületének leméréséhez" status="" short="Kerület"/>
+		<item id="36348" title="T&amp;erület eszköz" tooltip="Eszköz egy objektum területének leméréséhez" status="" short="Terület"/>
+		<item id="36349" title="&amp;Megjegyzések" tooltip="" status="" short=""/>
+		<item id="36350" title="Megjegyzések ö&amp;sszegzése..." tooltip="" status="" short=""/>
+		<item id="36351" title="&amp;Megjegyzések exportálása adatfájlba..." tooltip="" status="" short=""/>
+		<item id="36352" title="Üres terület megjelenítése az oldalak között" tooltip="Üres terület megjelenítése az oldalak között" status="" short="Üres területek"/>
+		<item id="36353" title="Az első lap megjelenítése kétoldalas módban" tooltip="Az első lap megjelenítése kétoldalas módban" status="" short="Első oldal megjelenítése"/>
+		<item id="36355" title="Lépték értéke (valódi)" tooltip="Lépték értéke (valódi)" status="A dokumentum léptékének valódi értéke, ahogy az vonalzóval lemérhető lenne" short="Valódi:"/>
+		<item id="36356" title="Lépték értéke (számított)" tooltip="Lépték értéke (számított)" status="A dokumentum léptékének számított értéke" short="Számított"/>
+		<item id="36357" title="Lépték egysége (valódi)" tooltip="Lépték egysége (valódi)" status="A dokumentum léptékének valódi egysége, ahogy az vonalzóval lemérhető lenne" short="Valódi"/>
+		<item id="36359" title="Lépték egysége (számított)" tooltip="Lépték egysége (számított)" status="A dokumentum léptékének számított egysége" short="Számított:"/>
+		<item id="36362" title="&quot;Ugrás oldalra&quot; link hozzáadása..." tooltip="&quot;Ugrás oldalra a dokumentumon belül&quot; link hozzáadása..." status="&quot;Ugrás oldalra a dokuemntumon belül&quot; link hozzáadása..." short=""/>
+		<item id="36363" title="&quot;Internet link&quot; hozzáadása..." tooltip="&quot;Internet link&quot; hozzáadása..." status="&quot;Internet link&quot; hozzáadása..." short=""/>
+		<item id="36364" title="Üres oldalból..." tooltip="Üres oldalból..." status="Új PDF dokumentum üres oldalból..." short=""/>
+		<item id="36365" title="Szövegfájlból..." tooltip="Szövegfájlból..." status="Új PDF dokumentum szövegfájlból..." short=""/>
+		<item id="36366" title="M&amp;égsem" tooltip="" status="" short=""/>
+		<item id="36367" title="&amp;Újra" tooltip="" status="" short=""/>
+		<item id="36368" title="&amp;Kivágás" tooltip="" status="" short=""/>
+		<item id="36369" title="&amp;Másolás" tooltip="" status="" short=""/>
+		<item id="36370" title="&amp;Beillesztés" tooltip="" status="" short=""/>
+		<item id="36371" title="&amp;Törlés" tooltip="" status="" short=""/>
+		<item id="36372" title="Mindent &amp;kijelöl" tooltip="" status="" short=""/>
+		<item id="36373" title="Minden eszköztár lezárása/feloldása" tooltip="Minden eszköztár lezárása/feloldása" status="Minden eszköztár lezárása/feloldása a testreszabás tiltása/engedélyezése" short="Eszköztárak lezárása"/>
+		<item id="36374" title="Alapértelmezett beállítások..." tooltip="Az alkalmazás összes beállításának alaphelyzetbe állítása..." status="Az alkalmazás összes beállításának alaphelyzetbe állítása..." short=""/>
+		<item id="36375" title="Képfájlból..." tooltip="Képfájlból..." status="Új PDF dokumentum képfájlból..." short=""/>
+		<item id="36408" title="Beállítások importálása adatfájlból..." tooltip="Az alkalmazás összes beállításának importálása adatfájlból..." status="Az alkalmazás összes beállításának importálása adatfájlból..." short=""/>
+		<item id="36409" title="Beállítások exportálása adatfájlba..." tooltip="Az alkalmazás összes beállításának exportálása adatfájlba..." status="Az alkalmazás összes beállításának exportálása adatfájlba..." short=""/>
+		<item id="36415" title="Mutat" tooltip="" status="" short=""/>
+		<item id="36416" title="Névjegy" tooltip="" status="" short=""/>
+		<item id="36417" title="Kilépés" tooltip="" status="" short=""/>
+		<item id="36418" title="Megjegyzések stílusának megjelenítése" tooltip="" status="" short=""/>
+		<item id="36420" title="Megjegyzés stílusok palettája" tooltip="" status="" short=""/>
+		<item id="36434" title="Megjegyzések nézete" tooltip="" status="" short=""/>
+		<item id="36435" title="Minden megjegyzés elrejtése" tooltip="" status="" short=""/>
+		<item id="36436" title="Minden megjegyzés megjelenítése" tooltip="" status="" short=""/>
+		<item id="36437" title="Megjelenítés típus szerint" tooltip="" status="" short=""/>
+		<item id="36438" title="Minden felbukkanó megjegyzés megnyitása" tooltip="" status="" short=""/>
+		<item id="36439" title="Minden felbukkanó megjegyzés bezárása" tooltip="" status="" short=""/>
+		<item id="36440" title="Minden típus" tooltip="" status="" short=""/>
+		<item id="36441" title="Jegyzet" tooltip="" status="" short=""/>
+		<item id="36442" title="Rajzok jelölései" tooltip="" status="" short=""/>
+		<item id="36443" title="Szöveg szerkesztés jelölései" tooltip="" status="" short=""/>
+		<item id="36444" title="Bélyegzők" tooltip="" status="" short=""/>
+		<item id="36445" title="Mellékletek" tooltip="" status="" short=""/>
+		<item id="36446" title="Karakter - Hex kód" tooltip="A kijelölt karaktert hexadecimális kóddá alakítja és vissza" status="" short=""/>
+		<item id="36447" title="Karakter - Glyph index kód" tooltip="A kijelölt karaktert glyph indexxé alakítja és vissza" status="" short=""/>
+		<item id="36457" title="Aláhúzás stílusa" tooltip="Aláhúzás stílusa" status="" short="Stílus"/>
+		<item id="36459" title="Jelenlegi megjelenés beállítása alapértelmezettként" tooltip="A megjegyzések jelenlegi megjelenése (szín, vonalstílus, átlátszatlanság, stb.) mentése alapértelmezettként. Az újonnan létrehozott megjegyzések megjelenése már ilyen lesz." status="" short=""/>
+		<item id="36460" title="Alapértelmezett megjelenés" tooltip="Az elmentett megjegyzés formátum (szín, vonalstílus, átlátszatlanság, stb.) alkalmazása." status="" short=""/>
+		<item id="36461" title="Zárolva" tooltip="Zárolva" status="" short=""/>
+		<item id="36462" title="Lapolvasásból..." tooltip="Lapolvasásból..." status="Új PDF dokumentum lapolvasásból..." short=""/>
+		<item id="36463" title="Minden űrlapmező" tooltip="Minden űrlapmező kiemelése" status="Minden űrlapmező kiemelése" short=""/>
+		<item id="36464" title="Kombinált listák" tooltip="Minden kombinált lista kiemelése" status="Minden kombinált lista kiemelése" short=""/>
+		<item id="36465" title="Választónégyzetek" tooltip="Minden választónégyzet kiemelése" status="Minden választónégyzet kiemelése" short=""/>
+		<item id="36466" title="Listák" tooltip="Minden lista kiemelése" status="Minden lista kiemelése" short=""/>
+		<item id="36467" title="Nyomógombok" tooltip="Minden nyomógomb kiemelése" status="Minden nyomógomb kiemelése" short=""/>
+		<item id="36468" title="Rádiógombok" tooltip="Minden rádiógomb kiemelése" status="Minden rádiógomb kiemelése" short=""/>
+		<item id="36469" title="Szövegmezők" tooltip="Minden szövegmező kiemelése" status="Minden szövegmező kiemelése" short=""/>
+		<item id="36470" title="Aláírásmezők" tooltip="Minden aláírásmező kiemelése" status="Minden aláírásmező kiemelése" short=""/>
+		<item id="36471" title="Csak a kötelező mezők" tooltip="Csak a kötelezően kitöltendő mezők kiemelése" status="Csak a kötelezően kitöltendő mezők kiemelése" short=""/>
+		<item id="36472" title="Nagyítás" tooltip="Nagyítás" status="" short=""/>
+		<item id="36473" title="Kicsinyítés" tooltip="Kicsinyítés" status="" short=""/>
+		<item id="36474" title="Függőleges tükrözés" tooltip="Függőleges tükrözés" status="" short=""/>
+		<item id="36475" title="Vízszintes tükrözés" tooltip="Vízszintes tükrözés" status="" short=""/>
+		<item id="36476" title="Illesztés" tooltip="Illesztés" status="" short=""/>
+		<item id="36477" title="Elforgatás 90 fokkal balra" tooltip="Elforgatás 90 fokkal balra" status="" short=""/>
+		<item id="36478" title="Elforgatás 90 fokkal jobbra" tooltip="Elforgatás 90 fokkal jobbra" status="" short=""/>
+		<item id="36479" title="Elforgatás 180 fokkal" tooltip="Elforgatás 180 fokkal" status="" short=""/>
+		<item id="36481" title="&amp;Link helyének másolása" tooltip="Link helyének másolása" status="" short=""/>
+		<item id="36482" title="&amp;URL megnyitása a böngészőben" tooltip="URL megnyitása a böngészőben" status="" short=""/>
+		<item id="36483" title="Vékony vonalak" tooltip="Minden vonalat 1 pixel vékonysággal jelenít meg a nagytástól függetlenül" status="Minden vonalat 1 pixel vékonysággal jelenít meg a nagytástól függetlenül" short=""/>
+		<item id="36485" title="Megjegyzés alaphelyzete" tooltip="Megjegyzés stílusát alaphelyzetbe állítja. Az eredeti stílus kerül alkalmazásra" status="" short="Alaphelyzet"/>
+		<item id="36486" title="Megjegyzés stílusának klónozása" tooltip="Megjegyzés stílusának klónozása" status="" short="Klónozás"/>
+		<item id="36487" title="Megjegyzés stílusának törlése" tooltip="Megjegyzés stílusának törlése" status="" short="Törlés"/>
+		<item id="36488" title="Megjegyzés stílusának alaphelyzetbe állítása" tooltip="Megjegyzés stílusának alaphelyzetbe állítása" status="" short="Alaphelyzet"/>
+		<item id="36489" title="Megjegyzés stílusának átnevezése" tooltip="Megjegyzés stílusának átnevezése" status="" short="Átnevezés"/>
+		<item id="36493" title="RTF fájlból..." tooltip="RTF fájlból..." status="Új dokumentum létrehozása RTF fájl(ok)ból..." short=""/>
+		<item id="36496" title="&quot;Ugrás egy másik dokumentum oldalára&quot; link hozzáadása..." tooltip="&quot;Ugrás egy másik dokumentum oldalára&quot; link hozzáadása..." status="&quot;Ugrás egy másik dokumentum oldalára&quot; link hozzáadása..." short=""/>
+		<item id="36497" title="&quot;Fájl megnyitása&quot; parancs hozzáadása..." tooltip="&quot;Fájl megnyitása&quot; parancs hozzáadása..." status="&quot;Fájl megnyitása&quot; parancs hozzáadása..." short=""/>
+		<item id="36498" title="Dokumentum színeinek felülbírálata" tooltip="Dokumentum színeinek felülbírálata" status="Dokumentum színeinek felülbírálata" short=""/>
+		<item id="36500" title="Legutóbbi dokumentumok kezelése..." tooltip="Legutóbbi dokumentumok listájának kezelése" status="" short=""/>
+		<item id="36501" title="URL megnyitása új böngészőlapon" tooltip="URL megnyitása új böngészőlapon" status="" short=""/>
+		<item id="36502" title="URL megnyitása új böngészőablakban" tooltip="URL megnyitása új böngészőablakban" status="" short=""/>
+		<item id="36503" title="Megjegyzések importálása..." tooltip="" status="" short=""/>
+		<item id="36511" title="Keresés ezzel" tooltip="Keresés szövegre keresőszolgáltatóval" status="Keresés a kijelölt szövegre intenetes keresőszolgáltatóval" short=""/>
+		<item id="36513" title="Keresőszolgáltatók kezelése..." tooltip="Keresőszolgáltatók kezelése" status="" short=""/>
+		<item id="36514" title="Online keresés" tooltip="Keresés megadott szövegre intenetes keresőszolgáltatóval" status="Keresés megadott szövegre intenetes keresőszolgáltatóval" short=""/>
+		<item id="36515" title="&amp;Aláírás" tooltip="" status="" short=""/>
+		<item id="36516" title="Dokumentum &amp;aláírása" tooltip="Dokumentum digitális aláírása" status="Dokumentum digitális aláírása" short="Aláírás"/>
+		<item id="36517" title="Aláírás &amp;elhelyezése" tooltip="Aláírás elhelyezése" status="Aláírás elhelyezése a dokumentumban" short="Aláírás"/>
+		<item id="36518" title="Aláírások &amp;érvényesítése" tooltip="Aláírások érvényesítése" status="Aláírások érvényesítése a dokumentumban" short="Aláírások érvényesítése"/>
+		<item id="36519" title="Lapfülek és bélyegképek megjelenítése" tooltip="Lapfülek és bélyegképek megjelenítése" status="Lapfülek előnézeti képének megjelenítése" short=""/>
+		<item id="36520" title="Rács megjelenítése" tooltip="" status="" short=""/>
+		<item id="36521" title="Segédvonalak megjelenítése" tooltip="" status="" short=""/>
+		<item id="36522" title="Vonalzók megjelenítése" tooltip="" status="" short=""/>
+		<item id="36523" title="Új segédvonalak hozzáadása" tooltip="Új segédvonalak hozzáadása" status="" short=""/>
+		<item id="36524" title="Új segédvonalak törlése az aktuális lapon" tooltip="Új segédvonalak törlése az aktuális lapon" status="" short=""/>
+		<item id="36525" title="Az összes segédvonal törlése" tooltip="Az összes segédvonal törlése" status="" short=""/>
+		<item id="36527" title="Mérés beállítása..." tooltip="Mérés beállítása..." status="" short=""/>
+		<item id="36529" title="Illesztés rácshoz" tooltip="" status="" short=""/>
+		<item id="36530" title="Illesztés segédvonalakhoz" tooltip="" status="" short=""/>
+		<item id="36531" title="Illesztés objektumokhoz" tooltip="" status="" short=""/>
+		<item id="36532" title="Illesztés" tooltip="Illesztés be/ki" status="Az objektum ragadós illesztése más objektumhoz vagy segédvonalhoz" short=""/>
+		<item id="36533" title="Megnyitás" tooltip="Kijelölt melléklet megnyitása" status="" short=""/>
+		<item id="36534" title="Mentés..." tooltip="Kijelölt melléklet mentése külön fájlba..." status="" short=""/>
+		<item id="36535" title="Új melléklet..." tooltip="Új melléklet hozzáadása..." status="" short=""/>
+		<item id="36536" title="Melléklet törlése" tooltip="Kijelölt mellékletek törlése" status="" short=""/>
+		<item id="36537" title="Leírás szerkesztése..." tooltip="Melléklet leírásának szerkesztése..." status="" short=""/>
+		<item id="36538" title="Fájlmelléklet oldalsáv megjelenítése" tooltip="Ez a dokumentum fájlmellékleteket tartalmaz; kattintson ide a fájlmelléklet oldalsáv megjelenítéséhez/elrejtéséhez" status="Ez a dokumentum fájlmellékleteket tartalmaz; kattintson ide a fájlmelléklet oldalsáv megjelenítéséhez/elrejtéséhez" short="Mellékletek"/>
+		<item id="36539" title="Minden megnyitott dokumentum bélyegképének megjelenítése" tooltip="Minden megnyitott dokumentum bélyegképének megjelenítése" status="" short="Dokumentumok áttekintése"/>
+		<item id="36542" title="Összhatás módja" tooltip="Összhatás módja" status="" short="Összhatás"/>
+		<item id="36543" title="Mozgatás leg&amp;felülre" tooltip="Mozgatás legfelülre" status="" short=""/>
+		<item id="36544" title="Mozgatás leg&amp;alulra" tooltip="Mozgatás legalulra" status="" short=""/>
+		<item id="36545" title="Feljebb eggyel" tooltip="Feljebb eggyel" status="" short=""/>
+		<item id="36546" title="Lentebb eggyel" tooltip="Lentebb eggyel" status="" short=""/>
+		<item id="36547" title="Rendezés" tooltip="" status="" short=""/>
+		<item id="36548" title="A látható terület kiemelése" tooltip="A látható terület kiemelése az aktuális lapon" status="A látható terület kiemelése az aktuális lap bélyegképén" short=""/>
+		<item id="36549" title="Interaktív kiemelés" tooltip="A látható terület kiemelése interaktívan" status="A látható terület kiemelésének interaktív engedélyezése az aktuális lap bélyegképén" short=""/>
+		<item id="57600" title="&amp;Új dokumentum" tooltip="" status="" short=""/>
+		<item id="57601" title="&amp;Megnyitás..." tooltip="Dokumentum megnyitása" status="Létező dokumentum megnyitása" short=""/>
+		<item id="57602" title="&amp;Bezárás" tooltip="Aktív dokumentum bezárása" status="Aktív dokumentum bezárása" short=""/>
+		<item id="57603" title="&amp;Mentés" tooltip="Aktív dokumentum mentése" status="Aktív dokumentum mentése" short=""/>
+		<item id="57604" title="Mentés másként..." tooltip="Aktív dokumentum mentése új néven" status="Aktív dokumentum mentése új néven, és annak továbbszerkesztése" short=""/>
+		<item id="57607" title="&amp;Nyomtatás..." tooltip="Aktív dokumentum nyomtatása" status="Aktív dokumentum nyomtatása" short=""/>
+		<item id="57611" title="Másolat mentése mint..." tooltip="Aktív dokumentum mentése új fájlba" status="Aktív dokumentum mentése új fájlba, de az eredeti továbbszerkesztése" short=""/>
+		<item id="57612" title="Küldés e-mailben" tooltip="Aktív dokumentum csatolása új e-mail üzenethez" status="Aktív dokumentum csatolása új e-mail üzenethez" short=""/>
+		<item id="57632" title="&amp;Törlés" tooltip="Kijelölés megszüntetése" status="Kijelölés megszüntetése, a tartalom érintetlen marad" short=""/>
+		<item id="57634" title="&amp;Másolás" tooltip="A kijelölés másolása és vágólapra helyezése" status="A kijelölt tartalom vágólapra helyezése" short=""/>
+		<item id="57635" title="&amp;Kivágás" tooltip="A kijelölés kivágása és vágólapra helyezése" status="A kijelölt tartalom kivágása (eltávolítása) és vágólapra helyezése" short=""/>
+		<item id="57636" title="K&amp;eresés" tooltip="Megadott szöveg keresése" status="Megadott szöveg keresése" short=""/>
+		<item id="57637" title="&amp;Beillesztés" tooltip="A vágólap tartalmának beillesztése" status="A vágólap tartalmának beillesztése" short=""/>
+		<item id="57642" title="&amp;Mindent kijelöl" tooltip="Mindent kijelöl" status="" short=""/>
+		<item id="57643" title="&amp;Visszavonás" tooltip="Legutóbbi művelet visszavonása" status="A dokumentum legutóbbi módosításának visszavonása" short=""/>
+		<item id="57644" title="&amp;Ismét" tooltip="Visszalépés a legutóbb visszavont módosításra" status="Visszalépés a legutóbb visszavont módosításra" short=""/>
+		<item id="57649" title="&amp;Ikonok elrendezése" tooltip="A  dokumentumok ikonméretűre zsugorítása és elrendezése az ablak alján" status="A  dokumentumok ikonméretűre zsugorítása és elrendezése az ablak alján" short=""/>
+		<item id="57650" title="&amp;Lépcsőzetes" tooltip="Az ablakok elrendezése lépcsőzetesen" status="Az ablakok elrendezése lépcsőzetesen, átfedéssel" short=""/>
+		<item id="57651" title="&amp;Vízszintes mozaik" tooltip="Az ablakok elrendezése egymás mellett, vízszintesen" status="Az ablakok elrendezése egymás mellett, vízszintesen, átfedés nélkül" short=""/>
+		<item id="57652" title="&amp;Függőleges mozaik" tooltip="Az ablakok elrendezése egymás mellett, függőlegesen" status="Az ablakok elrendezése egymás mellett, függőlegesen, átfedés nélkül" short=""/>
+		<item id="57653" title="&amp;Felosztás" tooltip="Az aktív ablak felosztása több részre" status="Az aktív ablak felosztása több részre" short=""/>
+		<item id="57664" title="PDF-&amp;XChange Viewer névjegye" tooltip="A program információinak, verziószámának és a szerzői jog megjelenítése" status="A program információinak, verziószámának és a szerzői jog megjelenítése" short=""/>
+		<item id="57665" title="Kilépés" tooltip="Bezárja az alkalmazást, a szerkesztett dokumentumok mentésével" status="Bezárja az alkalmazást, figyelmeztetéssel a megváltozott dokumentumok mentésére" short=""/>
+		<item id="57670" title="Sú&amp;gó" tooltip="" status="" short=""/>
+		<item id="57718" title="Görgetés balra" tooltip="Görgetés balra" status="" short=""/>
+		<item id="57719" title="Görgetés jobbra" tooltip="Görgetés jobbra" status="" short=""/>
+		<item id="59393" title="&amp;Állapotsor" tooltip="Állapotsor megjelenítése/elrejtése" status="Az eszközökről és folyamatokról információt adó sáv megjelenítése/elrejtése. Éppen ez az a sáv." short=""/>
+	</commands>
+	<dialogs>
+		<dialog id="203" text="Beállítások">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="3" text="Alkalmaz" tooltip=""/>
+		</dialog>
+		<dialog id="204" text="">
+			<item id="1004" text="&amp;A kívánt kimenet felülírja a munkaterek beállításait" tooltip=""/>
+			<item id="1008" text="&amp;Feketepont-kompenzáció használata" tooltip=""/>
+			<item id="1038" text="Szín&amp;kezelés:" tooltip=""/>
+			<item id="1039" text="&amp;RGB:" tooltip=""/>
+			<item id="1040" text="&amp;CMYK:" tooltip=""/>
+			<item id="1041" text="&amp;Szürkeárnyalat:" tooltip=""/>
+			<item id="1042" text="&amp;Motor:" tooltip=""/>
+			<item id="1200" text="Munkaterek" tooltip=""/>
+			<item id="1201" text="Színkonverzió beállításai" tooltip=""/>
+		</dialog>
+		<dialog id="207" text="">
+			<item id="4" text="Tallózás..." tooltip=""/>
+			<item id="5" text="Tallózás..." tooltip=""/>
+			<item id="1009" text="&amp;Legutóbbi dokumentumok listájának hossza:" tooltip=""/>
+			<item id="1014" text="Üdvözlőképernyő megjelenítése" tooltip=""/>
+			<item id="1015" text="Több példány indításának engedélyezése" tooltip=""/>
+			<item id="1016" text="Ablak kicsinyítése a Tálcára" tooltip=""/>
+			<item id="1017" text="Ablak bezárása a Tálcára" tooltip=""/>
+			<item id="1032" text="Dokumentumok külön lapokon" tooltip=""/>
+			<item id="1033" text="Egyszerre &amp;több dokumentum lehet megnyitva" tooltip=""/>
+			<item id="1035" text="&quot;Bezár&quot; gomb megjelenítése minden lapfülön" tooltip=""/>
+			<item id="1036" text="Egyszerre csak &amp;egy dokumentum lehet megnyitva" tooltip=""/>
+			<item id="1038" text="Mentés módja:" tooltip=""/>
+			<item id="1039" text="Hálózatról letöltött dokumentumok mentése a következő mappába:" tooltip=""/>
+			<item id="1040" text="&quot;Mentés másként&quot; alapértelmezett célmappája:" tooltip=""/>
+			<item id="1198" text="Alkalmazás indítása" tooltip=""/>
+			<item id="1199" text="Alkalmazás beállításai" tooltip=""/>
+			<item id="1200" text="Dokumentumok elrendezése" tooltip=""/>
+			<item id="1201" text="Dokumentumok megnyitása" tooltip=""/>
+			<item id="1202" text="Dokumentumok mentése" tooltip=""/>
+			<item id="1227" text="Lista törlése" tooltip=""/>
+			<item id="1228" text="Rendezés..." tooltip=""/>
+			<item id="1450" text="Programindításkor az utolsó állapot helyreállítása" tooltip=""/>
+		</dialog>
+		<dialog id="212" text="Írja be a dokumentum jelszavát">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1039" text="Adjon meg egy érvényes felhasználói vagy tulajdonosi jelszót:" tooltip=""/>
+		</dialog>
+		<dialog id="213" text="Dokumentum tulajdonságai">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="3" text="Alkalmaz" tooltip=""/>
+		</dialog>
+		<dialog id="214" text="">
+			<item id="1038" text="Fájlnév:" tooltip=""/>
+			<item id="1039" text="Hely:" tooltip=""/>
+			<item id="1040" text="Létrehozva:" tooltip=""/>
+			<item id="1041" text="Módosítva:" tooltip=""/>
+			<item id="1042" text="Fájlméret:" tooltip=""/>
+			<item id="1043" text="&amp;Cím:" tooltip=""/>
+			<item id="1044" text="&amp;Szerző:" tooltip=""/>
+			<item id="1200" text="&amp;Fájl információ" tooltip=""/>
+			<item id="1201" text="&amp;Dokumentum információ" tooltip=""/>
+			<item id="1203" text="&amp;Tárgy:" tooltip=""/>
+			<item id="1204" text="&amp;Kulcsszavak:" tooltip=""/>
+			<item id="1205" text="PDF létrehozója:" tooltip=""/>
+			<item id="1206" text="Alkalmazás:" tooltip=""/>
+			<item id="1207" text="PDF verzió:" tooltip=""/>
+			<item id="1208" text="Oldalak száma:" tooltip=""/>
+			<item id="1209" text="További &amp;metaadatok..." tooltip=""/>
+		</dialog>
+		<dialog id="220" text="">
+			<item id="1038" text="Nyomtatás:" tooltip=""/>
+			<item id="1039" text="Dokumentum módosítása:" tooltip=""/>
+			<item id="1040" text="Tartalom másolása vagy kivonása:" tooltip=""/>
+			<item id="1041" text="Szerzői megjegyzések és űrlapok:" tooltip=""/>
+			<item id="1042" text="Űrlapmezők kitöltése vagy aláírása:" tooltip=""/>
+			<item id="1043" text="Kisegítő lehetőségek engedélyezése:" tooltip=""/>
+			<item id="1044" text="Dokumentum összeállítása:" tooltip=""/>
+			<item id="1045" text="Oldalak kivonása:" tooltip=""/>
+			<item id="1047" text="Aláírás:" tooltip=""/>
+			<item id="1049" text="Oldal sablonok létrehozása:" tooltip=""/>
+			<item id="1200" text="Dokumentum biztonsági beállításai" tooltip=""/>
+			<item id="1201" text="Dokumentum jogosultságok részletei" tooltip=""/>
+			<item id="1203" text="A dokumentum biztonsági beállításaival korlátozhatóak a dokumentumon végezhető műveletek." tooltip=""/>
+			<item id="1204" text="&amp;Biztonság módja:" tooltip=""/>
+			<item id="1205" text="Titkosítási szint:" tooltip=""/>
+			<item id="1206" text="Megnyitási jelszó:" tooltip=""/>
+			<item id="1207" text="Jogosultsági jelszó:" tooltip=""/>
+			<item id="1210" text="&amp;Módosítás..." tooltip=""/>
+			<item id="1212" text="Részletek..." tooltip=""/>
+		</dialog>
+		<dialog id="221" text="Exportálás képként">
+			<item id="1" text="E&amp;xportálás..." tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="4" text="&amp;Tallózás..." tooltip=""/>
+			<item id="6" text="M&amp;akrók" tooltip=""/>
+			<item id="7" text="&amp;Beállítások..." tooltip=""/>
+			<item id="1040" text="Célma&amp;ppa:" tooltip=""/>
+			<item id="1041" text="&amp;Fájlnév:" tooltip=""/>
+			<item id="1042" text="Kép&amp;formátum:" tooltip=""/>
+			<item id="1043" text="Exp&amp;ortálási mód:" tooltip=""/>
+			<item id="1044" text="Felbontá&amp;s:" tooltip=""/>
+			<item id="1201" text="Exportálás mint..." tooltip=""/>
+			<item id="1202" text="Grafika" tooltip=""/>
+			<item id="1203" text="Oldal háttere:" tooltip=""/>
+			<item id="1204" text="Exportálandó oldalak" tooltip=""/>
+			<item id="1206" text="Oldal nagyítás:" tooltip=""/>
+			<item id="1330" text="&amp;Minden oldal" tooltip=""/>
+			<item id="1331" text="&amp;Kijelölt oldalak" tooltip=""/>
+			<item id="1332" text="Jelenlegi &amp;oldal" tooltip=""/>
+			<item id="1333" text="Ol&amp;dalak:" tooltip=""/>
+			<item id="1335" text="&amp;Résztartomány:" tooltip=""/>
+			<item id="1339" text="Jelenlegi &amp;nézet" tooltip=""/>
+			<item id="1340" text="Kijelölt ábra" tooltip=""/>
+			<item id="1341" text="Ford&amp;ított sorrend" tooltip=""/>
+			<item id="1387" text="Írja be az oldalszámokat és/vagy oldalszám-tartományt, vesszővel elválasztva, növekvő sorrendben. Például: 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="222" text="Kép mentésének beállításai">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+		</dialog>
+		<dialog id="223" text="">
+			<item id="1071" text="Mégsem" tooltip=""/>
+			<item id="1072" text="Kihagyás" tooltip=""/>
+		</dialog>
+		<dialog id="224" text="">
+			<item id="1038" text="Alapértelmezett n&amp;ézet:" tooltip=""/>
+			<item id="1039" text="Alapértelmezett el&amp;rendezés:" tooltip=""/>
+			<item id="1040" text="Alapértelmezett &amp;nagyítás:" tooltip=""/>
+			<item id="1041" text="&amp;Felbontás:" tooltip=""/>
+			<item id="1042" text="képpont/hüvelyk" tooltip=""/>
+			<item id="1073" text="Kép-, vágás- és kifutáskeret megjelenítése" tooltip=""/>
+			<item id="1074" text="Átlátszósági rács megjelenítése" tooltip=""/>
+			<item id="1079" text="URL-ok linkké alakítása" tooltip=""/>
+			<item id="1083" text="Nagyméretű képek megjelenítése" tooltip=""/>
+			<item id="1126" text="Megnyitáskor a legutolsó nézet visszaállítása&#10; (elrendezés és oldalsávok láthatósága)." tooltip=""/>
+			<item id="1200" text="Oldal megjelenítése" tooltip=""/>
+			<item id="1201" text="Kezdeti megjelenítés" tooltip=""/>
+			<item id="1202" text="Megnyitáskori nézet" tooltip=""/>
+			<item id="1228" text="Jegyezze meg a &quot;Legutóbbi dokumentumok&quot; listában felsorolt dokumentumok bezáráskori nézetét, elrendezését és nagyítását." tooltip=""/>
+			<item id="1523" text="Az aktuális nagyítás változtatásának tiltása &quot;Ugrás célra&quot; végrehajtásakor (ilyen esemény könyvjelzők, linkek, scriptek hívhatnak meg)" tooltip=""/>
+		</dialog>
+		<dialog id="227" text="Fájl felülírásának megerősítése">
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="6" text="Igen" tooltip=""/>
+			<item id="7" text="Nem" tooltip=""/>
+			<item id="100" text="Igen, mindet" tooltip=""/>
+			<item id="101" text="Egyiket sem" tooltip=""/>
+			<item id="102" text="Automatikus" tooltip=""/>
+			<item id="103" text="Mentés másként..." tooltip=""/>
+			<item id="1040" text="Biztos a fájl felülírásában?" tooltip=""/>
+			<item id="1041" text="Egyéni fájlnév létrehozásához használhat&#10; automatikus elnevezést:" tooltip=""/>
+		</dialog>
+		<dialog id="228" text="Hiba az állomány írásakor">
+			<item id="3" text="Megszakítás" tooltip=""/>
+			<item id="4" text="Újra" tooltip=""/>
+			<item id="5" text="Kihagyás" tooltip=""/>
+			<item id="103" text="Mentés másként..." tooltip=""/>
+		</dialog>
+		<dialog id="229" text="Nyomtatás">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Másolatszám:" tooltip=""/>
+			<item id="1041" text="Méretezés típusa:" tooltip=""/>
+			<item id="1043" text="&amp;Név:" tooltip=""/>
+			<item id="1044" text="Állapot:" tooltip=""/>
+			<item id="1086" text="&amp;Tulajdonságok..." tooltip=""/>
+			<item id="1087" text="Nyomtatás fájlba" tooltip=""/>
+			<item id="1088" text="Duplex mód" tooltip=""/>
+			<item id="1094" text="Leválogatás" tooltip=""/>
+			<item id="1096" text="Nyomtatás szürkeárnyalattal" tooltip=""/>
+			<item id="1097" text="Nyomtatás képként" tooltip=""/>
+			<item id="1127" text="Oldal átméretezése" tooltip=""/>
+			<item id="1200" text="Nyomtató" tooltip=""/>
+			<item id="1201" text="Nyomtatási tartomány" tooltip=""/>
+			<item id="1203" text="Típus:" tooltip=""/>
+			<item id="1204" text="Nyomtatási beállítások" tooltip=""/>
+			<item id="1206" text="Nyomtatás:" tooltip=""/>
+			<item id="1207" text="Nyomtatandó oldalak:" tooltip=""/>
+			<item id="1330" text="&amp;Minden oldal" tooltip=""/>
+			<item id="1331" text="&amp;Kijelölt oldalak" tooltip=""/>
+			<item id="1332" text="Jelenlegi &amp;oldal" tooltip=""/>
+			<item id="1333" text="O&amp;ldalak:" tooltip=""/>
+			<item id="1335" text="&amp;Résztartomány:" tooltip=""/>
+			<item id="1339" text="Jelenlegi n&amp;ézet" tooltip=""/>
+			<item id="1340" text="Kijelölt ábra" tooltip=""/>
+			<item id="1341" text="Fordított sorrendben" tooltip=""/>
+			<item id="1343" text="Egyebek..." tooltip=""/>
+			<item id="1387" text="Írja be az oldalszámokat és/vagy oldalszám-tartományt, vesszővel elválasztva, növekvő sorrendben. Például: 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="230" text="">
+			<item id="1038" text="Oldal nagyítás:" tooltip=""/>
+			<item id="1116" text="Lapadagoló választása a dokumentum oldalméretének megfelelően" tooltip=""/>
+			<item id="1120" text="Automatikus forgatás" tooltip=""/>
+			<item id="1121" text="Automatikus középre igazítás" tooltip=""/>
+		</dialog>
+		<dialog id="231" text="">
+			<item id="1038" text="Több oldal/lap:" tooltip=""/>
+			<item id="1039" text="Sorrend:" tooltip=""/>
+			<item id="1108" text="Oldal határvonalának nyomtatása" tooltip=""/>
+			<item id="1120" text="Oldal automatikus forgatása" tooltip=""/>
+			<item id="1121" text="Oldal automatikus középre igazítása" tooltip=""/>
+			<item id="1128" text="×" tooltip=""/>
+		</dialog>
+		<dialog id="232" text="">
+			<item id="1038" text="Átméretezés:" tooltip=""/>
+			<item id="1040" text="Átfedés:" tooltip=""/>
+			<item id="1110" text="Vágójelek megjelenítése a lapon" tooltip=""/>
+			<item id="1118" text="Címkék" tooltip=""/>
+			<item id="1120" text="Oldal automatikus forgatása a kompozícióban" tooltip=""/>
+			<item id="1121" text="Oldal középre helyezése a kompozícióban" tooltip=""/>
+		</dialog>
+		<dialog id="236" text="Ugrás oldalra...">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Adja meg az oldal számát:" tooltip=""/>
+		</dialog>
+		<dialog id="237" text="Nagyítás">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Adja meg a nagyítás mértékét:" tooltip=""/>
+		</dialog>
+		<dialog id="244" text="">
+			<item id="1038" text="Keresendő szó vagy kifejezés:" tooltip=""/>
+			<item id="1039" text="Keresés itt:" tooltip=""/>
+			<item id="1040" text="Rendezés:" tooltip=""/>
+			<item id="1099" text="Beállítások" tooltip=""/>
+			<item id="1139" text="Keresés" tooltip=""/>
+			<item id="1142" text="Törlés" tooltip=""/>
+		</dialog>
+		<dialog id="245" text="Keresési beállítások">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Keresés helye:" tooltip=""/>
+			<item id="1126" text="Kis és nagybetűk megkülönböztetése" tooltip=""/>
+			<item id="1128" text="Megjegyzésekben is keres" tooltip=""/>
+			<item id="1129" text="Könyvjelzőkben is keres" tooltip=""/>
+			<item id="1130" text="Almappákban is keres" tooltip=""/>
+			<item id="1131" text="Mellékletekben is keres" tooltip=""/>
+			<item id="1145" text="Csak teljes szavakt" tooltip=""/>
+			<item id="1193" text="Legközelebbi" tooltip=""/>
+			<item id="1194" text="Az oldalon belül" tooltip=""/>
+			<item id="1195" text="A teljes dokumentumon belül" tooltip=""/>
+			<item id="1200" text="További keresési feltételek:" tooltip=""/>
+		</dialog>
+		<dialog id="246" text="Fejlett keresés">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="tartalmazza e szavak mindegyikét:" tooltip=""/>
+			<item id="1039" text="tartalmazza pontosan e kifejezést:" tooltip=""/>
+			<item id="1040" text="tartalmazza e szavak legalább egyiket:" tooltip=""/>
+			<item id="1041" text="ne tartalmazza e szavakat:" tooltip=""/>
+			<item id="1200" text="A keresett dokumentum..." tooltip=""/>
+		</dialog>
+		<dialog id="247" text="">
+			<item id="1038" text="Rendszermemória maximális használata százalékban:" tooltip=""/>
+			<item id="1039" text="Oldalak rendereléséhez használható maximális programszál:" tooltip=""/>
+			<item id="1040" text="Bélyegképek létrehozásához használható programszálak maximum:" tooltip=""/>
+			<item id="1041" text="Maximálisan hasznáható programszál:" tooltip=""/>
+			<item id="1200" text="Memóriahasználat" tooltip=""/>
+			<item id="1201" text="Programszál használat" tooltip=""/>
+			<item id="1525" text="Oldal renderelés szinkronizált módja (lassíthatja a sebességet)" tooltip=""/>
+		</dialog>
+		<dialog id="257" text="Oldalak forgatása">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="&amp;Forgatandó:" tooltip=""/>
+			<item id="1039" text="Írja be az oldalszámokat és/vagy oldalszám-tartományt, vesszővel elválasztva, növekvő sorrendben. Például: 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="Irány:" tooltip=""/>
+			<item id="1164" text="&amp;Minden oldal" tooltip=""/>
+			<item id="1165" text="&amp;Kijelölt oldalak" tooltip=""/>
+			<item id="1166" text="Jelenlegi &amp;oldal" tooltip=""/>
+			<item id="1167" text="O&amp;ldalak:" tooltip=""/>
+			<item id="1200" text="Elforgatandó oldalak" tooltip=""/>
+		</dialog>
+		<dialog id="258" text="Oldalak törlése">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="&amp;Törlendő:" tooltip=""/>
+			<item id="1039" text="Írja be az oldalszámokat és/vagy oldalszám-tartományt, vesszővel elválasztva, növekvő sorrendben. Például: 1, 3, 5-12" tooltip=""/>
+			<item id="1165" text="&amp;Kijelölt oldalak" tooltip=""/>
+			<item id="1166" text="Jelenlegi &amp;oldal" tooltip=""/>
+			<item id="1167" text="O&amp;ldalak:" tooltip=""/>
+			<item id="1200" text="Törlendő oldalak" tooltip=""/>
+		</dialog>
+		<dialog id="265" text="Tulajdonságok">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="3" text="Alkalmaz" tooltip=""/>
+			<item id="1180" text="&amp;Haladó" tooltip=""/>
+		</dialog>
+		<dialog id="266" text="">
+			<item id="1038" text="Eleje:" tooltip=""/>
+			<item id="1039" text="Vége:" tooltip=""/>
+			<item id="1040" text="Vonalstílus:" tooltip=""/>
+			<item id="1041" text="Vastagság:" tooltip=""/>
+			<item id="1042" text="Vonalszín:" tooltip=""/>
+			<item id="1043" text="Kitöltőszín:" tooltip=""/>
+			<item id="1044" text="Átlátszatlanság:" tooltip=""/>
+			<item id="1200" text="Vonalvégződések" tooltip=""/>
+			<item id="1201" text="Vonal" tooltip=""/>
+		</dialog>
+		<dialog id="268" text="">
+			<item id="1038" text="Szerző:" tooltip=""/>
+			<item id="1039" text="Tárgy:" tooltip=""/>
+			<item id="1040" text="Létrehozva:" tooltip=""/>
+			<item id="1041" text="Módosítva:" tooltip=""/>
+		</dialog>
+		<dialog id="272" text="">
+			<item id="1038" text="Vonalstílus:" tooltip=""/>
+			<item id="1039" text="Vastagság:" tooltip=""/>
+			<item id="1040" text="Vonalszín:" tooltip=""/>
+			<item id="1041" text="Kitöltőszín:" tooltip=""/>
+			<item id="1042" text="Átlátszatlanság:" tooltip=""/>
+			<item id="1200" text="Szegély és kitöltés" tooltip=""/>
+		</dialog>
+		<dialog id="273" text="">
+			<item id="1038" text="Vastagság:" tooltip=""/>
+			<item id="1039" text="Szín:" tooltip=""/>
+			<item id="1040" text="Átlátszatlanság:" tooltip=""/>
+			<item id="1200" text="Vonal" tooltip=""/>
+		</dialog>
+		<dialog id="274" text="">
+			<item id="1038" text="A beállított egység lesz átalánosan használatos az oldalméret, vonalzók, rács, vezetővonalak, stb. mértékegységeként." tooltip=""/>
+			<item id="1039" text="&amp;Horizontálisan:" tooltip=""/>
+			<item id="1040" text="Ve&amp;rtikálisan:" tooltip=""/>
+			<item id="1041" text="Rács kezdése &amp;balról:" tooltip=""/>
+			<item id="1042" text="Rács kezdése &amp;jobbról:" tooltip=""/>
+			<item id="1043" text="Rács finomabb beosztása:" tooltip=""/>
+			<item id="1045" text="Rácsvonal &amp;stílusa:" tooltip=""/>
+			<item id="1046" text="Segédvonal s&amp;tílusa:" tooltip=""/>
+			<item id="1047" text="B&amp;eosztások:" tooltip=""/>
+			<item id="1200" text="Mértékegységek" tooltip=""/>
+			<item id="1201" text="Rácsok és segédvonalak" tooltip=""/>
+			<item id="1483" text="&amp;Rács megjelenítése" tooltip=""/>
+			<item id="1484" text="&amp;Segédvonalak megjelenítése" tooltip=""/>
+			<item id="1490" text="V&amp;onalzók megjelenítése" tooltip=""/>
+			<item id="1491" text="&amp;Törtek megjelenítése" tooltip=""/>
+			<item id="1499" text="Testreszabás.." tooltip=""/>
+			<item id="1502" text="Illesztés alkalmazása (rácshoz, segédvonalhoz, objektumhoz)" tooltip=""/>
+		</dialog>
+		<dialog id="278" text="Probléma Jelentése">
+			<item id="1" text="To&amp;vább..." tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="4" text="&amp;Tallózás..." tooltip=""/>
+			<item id="1038" text="Az üzenetet emailként lesz elküldve, melyet küldés előtt továbbszerkeszthet." tooltip=""/>
+			<item id="1039" text="Válasszon &amp;problémakört:" tooltip=""/>
+			<item id="1040" text="A probléma rövid &amp;leírása:" tooltip=""/>
+			<item id="1041" text="PDF fájl csatolása (nem kötelező):" tooltip=""/>
+			<item id="1126" text="Információ küldése a telepített &amp;betűkészletekről és színprofilokról" tooltip=""/>
+			<item id="1127" text="Információ küldése a telepített &amp;nyomtatókról és azok beállításairól" tooltip=""/>
+			<item id="1128" text="Információ küldése az &amp;operációs rendszer verziójáról" tooltip=""/>
+			<item id="1183" text="Információ küldése a &amp;program verziószámáról, beállításairól" tooltip=""/>
+			<item id="1524" text="Információ küldése a betöltött &amp;modulokról (DLL, stb) - javasolt!" tooltip=""/>
+		</dialog>
+		<dialog id="279" text="">
+			<item id="1038" text="Ikon:" tooltip=""/>
+			<item id="1039" text="Szín:" tooltip=""/>
+			<item id="1040" text="Átlászatlanság:" tooltip=""/>
+			<item id="1200" text="Megjelenés" tooltip=""/>
+		</dialog>
+		<dialog id="282" text="JavaScript konzol">
+			<item id="1" text="&amp;Futtatás" tooltip=""/>
+			<item id="2" text="Bezárás" tooltip=""/>
+			<item id="1200" text="Szkript" tooltip=""/>
+			<item id="1201" text="Kimenet" tooltip=""/>
+		</dialog>
+		<dialog id="283" text="">
+			<item id="1038" text="Vonalvég stílusa:" tooltip=""/>
+			<item id="1039" text="Stílus:" tooltip=""/>
+			<item id="1040" text="Vastagság:" tooltip=""/>
+			<item id="1041" text="Vonalszín:" tooltip=""/>
+			<item id="1042" text="Kitöltőszín:" tooltip=""/>
+			<item id="1043" text="Átlátszatlanság:" tooltip=""/>
+			<item id="1200" text="Nyíl stílusa" tooltip=""/>
+			<item id="1201" text="Vonal" tooltip=""/>
+		</dialog>
+		<dialog id="284" text="">
+			<item id="1038" text="Szín:" tooltip=""/>
+			<item id="1039" text="Átlátszatlanság:" tooltip=""/>
+			<item id="1200" text="Megjelenés" tooltip=""/>
+		</dialog>
+		<dialog id="290" text="Bélyegzők">
+		</dialog>
+		<dialog id="291" text="">
+			<item id="1038" text="Legyen a PDF-XChange az alapértelmezett PDF-olvasó:" tooltip=""/>
+			<item id="1039" text="Korábbi PDF-olvasó visszaállítása alapértelmezettnek (ha még telepítve van):" tooltip=""/>
+			<item id="1127" text="PDF megjelenítése böngészőben" tooltip=""/>
+			<item id="1162" text="Alapértelmezettként beállít" tooltip=""/>
+			<item id="1197" text="Fájl társítások visszaállítása" tooltip=""/>
+			<item id="1200" text="Fájl társítások" tooltip=""/>
+		</dialog>
+		<dialog id="292" text="">
+			<item id="1038" text="Átlátszatlanság:" tooltip=""/>
+			<item id="1200" text="Megjelenés" tooltip=""/>
+		</dialog>
+		<dialog id="295" text="">
+			<item id="1038" text="&amp;Felhasználónév:" tooltip=""/>
+			<item id="1039" text="&amp;Név:" tooltip=""/>
+			<item id="1040" text="&amp;Megszólítás:" tooltip=""/>
+			<item id="1041" text="&amp;Szervezet:" tooltip=""/>
+			<item id="1042" text="&amp;Egység:" tooltip=""/>
+			<item id="1043" text="E-&amp;mail cím:" tooltip=""/>
+			<item id="1044" text="Az itt megadott személyes adatok a megjegyzésekben, digitális aláírásokban jelenhetnek meg. Az adatokat csak ez a szoftver használja, más szoftver számára külön értesítés nélkül nem elérhetőek." tooltip=""/>
+			<item id="1200" text="Felhasználó adatai" tooltip=""/>
+		</dialog>
+		<dialog id="296" text="">
+			<item id="1038" text="Válassza ki a felhasználói felület nyelvét:" tooltip=""/>
+			<item id="1200" text="Nyelvek (Languages)" tooltip=""/>
+			<item id="1219" text="A felhasználó területi beállításainak használata (Use regional settings)" tooltip=""/>
+			<item id="1220" text="Nyelv kiválasztása (Choose custom language):" tooltip=""/>
+			<item id="1221" text="A program alapértelmezett nyelvének használata (Use default language)" tooltip=""/>
+		</dialog>
+		<dialog id="297" text="Dokumentum megnyitása URL-ként">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="A dokumentum hálózati címe (URL)" tooltip=""/>
+		</dialog>
+		<dialog id="298" text="Testreszabás">
+			<item id="1" text="Bezár" tooltip=""/>
+			<item id="1316" text="Alapértelmezett" tooltip=""/>
+		</dialog>
+		<dialog id="299" text="">
+			<item id="1039" text="Eszköztárak:" tooltip=""/>
+			<item id="1234" text="Alapértelmezett" tooltip=""/>
+			<item id="1235" text="Átnevezés" tooltip=""/>
+			<item id="1237" text="Új..." tooltip=""/>
+			<item id="1250" text="Törlés" tooltip=""/>
+		</dialog>
+		<dialog id="300" text="">
+			<item id="1038" text="Parancs hozzáadásához húzzon az egérrel egy parancsot a listából, és helyezze azt a kívánt eszköztárra vagy menüre." tooltip=""/>
+			<item id="1039" text="Kategóriák:" tooltip=""/>
+			<item id="1040" text="Parancsok:" tooltip=""/>
+			<item id="1314" text="Jelenítse meg a csak a &apos;PRO&apos; verzióban elérhető parancsokat is" tooltip=""/>
+			<item id="1320" text="Új..." tooltip=""/>
+			<item id="1321" text="Tulajdonságok" tooltip=""/>
+		</dialog>
+		<dialog id="301" text="">
+			<item id="1233" text="Eszköztippek megjelenítése az eszköztárakon" tooltip=""/>
+			<item id="1234" text="Gyorsbillentyűk megjelenítése az eszköztippeken" tooltip=""/>
+			<item id="1235" text="Gyorsbillentyűk megjelenítése a menükben" tooltip=""/>
+		</dialog>
+		<dialog id="302" text="">
+			<item id="1038" text="Oldal háttérszíne:" tooltip=""/>
+			<item id="1039" text="Kitöltőszín:" tooltip=""/>
+			<item id="1040" text="Vonalszín:" tooltip=""/>
+			<item id="1126" text="Szöveg színe:" tooltip=""/>
+			<item id="1127" text="Vonalas ábrák:" tooltip=""/>
+			<item id="1128" text="Csak fekete szöveg és vonalas ábra színének megváltoztatása" tooltip=""/>
+			<item id="1200" text="Egyéni színbeállítások" tooltip=""/>
+			<item id="1220" text="&amp;Saját színséma használata:" tooltip=""/>
+			<item id="1235" text="A &amp;Windows színsémájának használata" tooltip=""/>
+			<item id="1236" text="Előre megadott magas &amp;kontrasztú színséma használata:" tooltip=""/>
+			<item id="1240" text="Dokumentum színeinek felülbírálata" tooltip=""/>
+			<item id="1241" text="Vonalas ábrák és a szöveg színeinek cseréje" tooltip=""/>
+		</dialog>
+		<dialog id="303" text="">
+			<item id="1038" text="&amp;Háttérszín:" tooltip=""/>
+			<item id="1200" text="Teljes képernyős megjelenés" tooltip=""/>
+			<item id="1239" text="&amp;Egérmutató:" tooltip=""/>
+		</dialog>
+		<dialog id="304" text="">
+			<item id="1038" text="&amp;Felbontás:" tooltip=""/>
+			<item id="1039" text="dpi" tooltip=""/>
+			<item id="1096" text="Szürkeárnyalatos pillanatképek készítése" tooltip=""/>
+			<item id="1200" text="Pillanatkép felvétel beállításai" tooltip=""/>
+			<item id="1201" text="Pillanatkép hangeffektusa" tooltip=""/>
+			<item id="1242" text="&amp;Előre megadott felbontás használata a pillanatképekhez" tooltip=""/>
+			<item id="1244" text="Ne játsszon le hangeffektust a pillanatkép készítésekor" tooltip=""/>
+		</dialog>
+		<dialog id="305" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+		</dialog>
+		<dialog id="306" text="">
+			<item id="1038" text="Szöveg:" tooltip=""/>
+			<item id="1039" text="Betűstílus:" tooltip=""/>
+			<item id="1040" text="Betűszín:" tooltip=""/>
+		</dialog>
+		<dialog id="307" text="">
+			<item id="1038" text="Hozzáadhat új műveletet vagy létezőt szerkeszthet. A műveletek sorrendjét &quot;húzd-és-ejtsd&quot; módon módosíthatja." tooltip=""/>
+			<item id="1039" text="Kiváltó művelet:" tooltip=""/>
+		</dialog>
+		<dialog id="308" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="3" text="Jelen nézet hozzádása" tooltip=""/>
+			<item id="4" text="..." tooltip=""/>
+			<item id="5" text="Törlés" tooltip=""/>
+			<item id="1038" text="Megnyitáskori nézetet nagyítással/mozgatással, és a &apos;Jelenlegi nézet használata&apos; gombra kattintással is megadhat:" tooltip=""/>
+			<item id="1039" text="Fájlnév:" tooltip=""/>
+			<item id="1040" text="Oldal:" tooltip=""/>
+			<item id="1041" text="X:" tooltip=""/>
+			<item id="1042" text="Y:" tooltip=""/>
+			<item id="1043" text="Szélesség:" tooltip=""/>
+			<item id="1044" text="Magasság:" tooltip=""/>
+			<item id="1045" text="&amp;Megnyitás ablakban:" tooltip=""/>
+			<item id="1066" text="Előnézet" tooltip=""/>
+			<item id="1067" text="Beállít" tooltip=""/>
+			<item id="1126" text="Örököl" tooltip=""/>
+			<item id="1127" text="Örököl" tooltip=""/>
+			<item id="1200" text="Könyvjelző megnyitásakori nézet részletei" tooltip=""/>
+			<item id="1252" text="Nagyítási szint:" tooltip=""/>
+			<item id="1253" text="Figyelemfelkeltő téglalap:" tooltip=""/>
+			<item id="1261" text="Céldokumentum" tooltip=""/>
+			<item id="1271" text="Nagyít" tooltip=""/>
+			<item id="1272" text="Kicsinyít" tooltip=""/>
+			<item id="1275" text="Jelenlegi nézet használata" tooltip=""/>
+			<item id="1435" text="Oldalszám" tooltip=""/>
+			<item id="1436" text="Elnevezett cél használata" tooltip=""/>
+		</dialog>
+		<dialog id="309" text="">
+			<item id="1039" text="&amp;Név:" tooltip=""/>
+			<item id="1041" text="&amp;Szervezet:" tooltip=""/>
+			<item id="1043" text="&amp;E-mail cím:" tooltip=""/>
+			<item id="1045" text="&amp;Regisztrációs kulcs:" tooltip=""/>
+			<item id="1200" text="Regisztációs információk" tooltip=""/>
+			<item id="1274" text="A nem elérhető &apos;Pro&apos; funkciók elrejtése az ingyenes Viewer alkalmazásban" tooltip=""/>
+			<item id="1282" text="Reklámcsík elrejtése" tooltip=""/>
+		</dialog>
+		<dialog id="310" text="">
+			<item id="1038" text="&amp;Betűtípus:" tooltip=""/>
+			<item id="1044" text="Betű&amp;méret:" tooltip=""/>
+			<item id="1200" text="JavaScript" tooltip=""/>
+			<item id="1201" text="JavaScript konzol" tooltip=""/>
+			<item id="1276" text="&amp;JavaScript engedélyezése" tooltip=""/>
+			<item id="1277" text="JavaScript interktív &amp;konzol engedélyezése" tooltip=""/>
+			<item id="1278" text="Konzol megjelenítése &amp;hibák és üzenetek számára" tooltip=""/>
+			<item id="1279" text="&amp;Figyelmeztetés megjelenítése JavaScript parancsok futásakor" tooltip=""/>
+		</dialog>
+		<dialog id="311" text="Ugrás sorra">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Sor száma:" tooltip=""/>
+		</dialog>
+		<dialog id="312" text="Oldalak levágása">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="&amp;Alkalmazás erre:" tooltip=""/>
+			<item id="1039" text="Írja be az oldalszámokat és/vagy oldalszám-tartományt, vesszővel elválasztva, növekvő sorrendben. Például: 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="&amp;Keret:" tooltip=""/>
+			<item id="1042" text="&amp;Bal:" tooltip=""/>
+			<item id="1043" text="&amp;Jobb:" tooltip=""/>
+			<item id="1044" text="&amp;Fent:" tooltip=""/>
+			<item id="1045" text="&amp;Lent:" tooltip=""/>
+			<item id="1046" text="&amp;Mértékegység:" tooltip=""/>
+			<item id="1126" text="&amp;Beállítás üres margókra" tooltip=""/>
+			<item id="1127" text="Üres terület elátvolítása" tooltip=""/>
+			<item id="1129" text="Arányok megtartása" tooltip=""/>
+			<item id="1164" text="&amp;Minden oldal" tooltip=""/>
+			<item id="1165" text="&amp;Kijelölt oldalak" tooltip=""/>
+			<item id="1166" text="&amp;Jelenlegi oldal" tooltip=""/>
+			<item id="1167" text="&amp;Oldalak:" tooltip=""/>
+			<item id="1200" text="Oldaltartomány" tooltip=""/>
+			<item id="1201" text="Margók levágása" tooltip=""/>
+			<item id="1202" text="Margók" tooltip=""/>
+			<item id="1285" text="Befoglaló keretek &amp;mutatása" tooltip=""/>
+			<item id="1290" text="Beállítás &amp;nullára" tooltip=""/>
+			<item id="1291" text="&amp;Eredeti" tooltip=""/>
+		</dialog>
+		<dialog id="313" text="Oldalak beillesztése">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="4" text="Tallózás..." tooltip=""/>
+			<item id="1038" text="Beillesztendő:" tooltip=""/>
+			<item id="1039" text="Írja be az oldalszámokat és/vagy oldalszám-tartományt, vesszővel elválasztva, növekvő sorrendben. Például: 1, 3, 5-12" tooltip=""/>
+			<item id="1042" text="Hely:" tooltip=""/>
+			<item id="1164" text="&amp;Minden oldal" tooltip=""/>
+			<item id="1167" text="&amp;Oldalak:" tooltip=""/>
+			<item id="1200" text="Forrás oldalak" tooltip=""/>
+			<item id="1201" text="Forrás" tooltip=""/>
+			<item id="1202" text="Cél" tooltip=""/>
+			<item id="1292" text="Fájlból" tooltip=""/>
+			<item id="1293" text="Megnyitott dokumentumból" tooltip=""/>
+			<item id="1295" text="Első oldal" tooltip=""/>
+			<item id="1296" text="Utolsó oldal" tooltip=""/>
+			<item id="1297" text="Oldal:" tooltip=""/>
+		</dialog>
+		<dialog id="314" text="Oldalak kivonása">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="4" text="&amp;Tallózás..." tooltip=""/>
+			<item id="6" text="&amp;Makrók:" tooltip=""/>
+			<item id="1038" text="Alkalmazás erre:" tooltip=""/>
+			<item id="1039" text="Írja be az oldalszámokat és/vagy oldalszám-tartományt, vesszővel elválasztva, növekvő sorrendben. Például: 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="&amp;Fájlnév" tooltip=""/>
+			<item id="1043" text="&amp;Célmappa:" tooltip=""/>
+			<item id="1126" text="Oldalak kivonása külön fájlba" tooltip=""/>
+			<item id="1164" text="&amp;Minden oldal" tooltip=""/>
+			<item id="1165" text="&amp;Kijelölt oldalak" tooltip=""/>
+			<item id="1166" text="&amp;Jelenlegi oldal" tooltip=""/>
+			<item id="1167" text="&amp;Oldalak:" tooltip=""/>
+			<item id="1200" text="Oldatartomány" tooltip=""/>
+			<item id="1201" text="Beállítások" tooltip=""/>
+			<item id="1202" text="Mentés másként" tooltip=""/>
+			<item id="1299" text="Oldalak &amp;törlése a kivonás után" tooltip=""/>
+		</dialog>
+		<dialog id="315" text="">
+			<item id="1200" text="Megjegyzések létrehozásának beállításai" tooltip=""/>
+			<item id="1201" text="Megjegyzések megtekintésének beállításai" tooltip=""/>
+			<item id="1234" text="Eszköztippek engedélyezése" tooltip=""/>
+			<item id="1235" text="Felbukkanó megjegyzések tárgyának megjelenítése" tooltip=""/>
+			<item id="1236" text="Felbukkanó megjegyzések szerzőjének megjelenítése" tooltip=""/>
+			<item id="1237" text="Felbukkanó megjegyzések módosítási idejének megjelenítése" tooltip=""/>
+			<item id="1302" text="Bekarikázott szöveg rajzolt felbukkanó megjegyzéssé alakítása" tooltip=""/>
+			<item id="1303" text="Kijelölt szöveg kiemelt, áthúzott és aláhúzott felbukkanó megjegyzéssé alakítása" tooltip=""/>
+			<item id="1304" text="Megjegyzések beillesztése az egérmutató helyére" tooltip=""/>
+			<item id="1354" text="Szöveg indikátorok megjelenítése" tooltip=""/>
+			<item id="1507" text="Egyszerű megjelenésű fókusz" tooltip=""/>
+		</dialog>
+		<dialog id="316" text="Üres oldalak beillesztése">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1039" text="Tájolás" tooltip=""/>
+			<item id="1040" text="×" tooltip=""/>
+			<item id="1041" text="Darab:" tooltip=""/>
+			<item id="1042" text="Hely:" tooltip=""/>
+			<item id="1200" text="Oldalméret" tooltip=""/>
+			<item id="1202" text="Cél" tooltip=""/>
+			<item id="1292" text="Standard:" tooltip=""/>
+			<item id="1293" text="Egyéni:" tooltip=""/>
+			<item id="1295" text="Első oldal" tooltip=""/>
+			<item id="1296" text="Utolsó oldal" tooltip=""/>
+			<item id="1297" text="Oldal:" tooltip=""/>
+			<item id="1304" text="Álló" tooltip=""/>
+			<item id="1305" text="Fekvő" tooltip=""/>
+		</dialog>
+		<dialog id="317" text="Bélyegző átnevezése">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Írjon be egy új nevet a bélyegzőnek." tooltip=""/>
+		</dialog>
+		<dialog id="318" text="Új bélyegző készítése">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="4" text="&amp;Tallózás..." tooltip=""/>
+			<item id="1039" text="&amp;Fájl:" tooltip=""/>
+			<item id="1041" text="&amp;Oldal:" tooltip=""/>
+			<item id="1042" text="&amp;Név:" tooltip=""/>
+			<item id="1200" text="Forrás" tooltip=""/>
+			<item id="1201" text="Bélyegző információ" tooltip=""/>
+		</dialog>
+		<dialog id="321" text="Szöveg tulajdonságai">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="3" text="Alkalmaz" tooltip=""/>
+		</dialog>
+		<dialog id="322" text="">
+			<item id="1313" text="Másolás a vágólapra" tooltip=""/>
+		</dialog>
+		<dialog id="324" text="Parancs tulajdonságai">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Kép:" tooltip=""/>
+			<item id="1039" text="Cím:" tooltip=""/>
+			<item id="1040" text="Eszköztipp:" tooltip=""/>
+			<item id="1041" text="Állapotsor:" tooltip=""/>
+			<item id="1042" text="Rövid cím:" tooltip=""/>
+			<item id="1043" text="ID:" tooltip=""/>
+			<item id="1044" text="Név:" tooltip=""/>
+			<item id="1126" text="Javascript ellenőrizze" tooltip=""/>
+			<item id="1127" text="Javascript engedélyezze:" tooltip=""/>
+			<item id="1198" text="Parancs akció" tooltip=""/>
+			<item id="1200" text="Azonosítás" tooltip=""/>
+			<item id="1201" text="Billentyűparancs" tooltip=""/>
+			<item id="1202" text="Állapot meghatározása" tooltip=""/>
+			<item id="1203" text="Adobe(c) név:" tooltip=""/>
+			<item id="1204" text="Billentyűk:" tooltip=""/>
+			<item id="1205" text="Itt:" tooltip=""/>
+			<item id="1206" text="Használja:" tooltip=""/>
+			<item id="1261" text="Megjelenés:" tooltip=""/>
+			<item id="1292" text="Előre definiált akció:" tooltip=""/>
+			<item id="1293" text="Javascript végrehajtása:" tooltip=""/>
+			<item id="1324" text="Szerkesztés..." tooltip=""/>
+			<item id="1325" text="Szerkesztés..." tooltip=""/>
+			<item id="1326" text="Szerkesztés..." tooltip=""/>
+		</dialog>
+		<dialog id="325" text="">
+			<item id="1039" text="Szöveg gamma:" tooltip=""/>
+			<item id="1076" text="Szöveg simítása" tooltip=""/>
+			<item id="1077" text="Vonalas rajzok simítása" tooltip=""/>
+			<item id="1078" text="Képek simítása" tooltip=""/>
+			<item id="1200" text="Szöveg renderelése" tooltip=""/>
+			<item id="1202" text="Simítás" tooltip=""/>
+		</dialog>
+		<dialog id="326" text="Új eszköztár">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Eszköztár neve:" tooltip=""/>
+		</dialog>
+		<dialog id="327" text="Jegyzetek egyesítése">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Alkalmaz erre:" tooltip=""/>
+			<item id="1039" text="Írja be az oldalszámokat és/vagy oldalszám-tartományt, vesszővel elválasztva, növekvő sorrendben. Például: 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="Nem nyomtatható:" tooltip=""/>
+			<item id="1042" text="Űrlapmezők:" tooltip=""/>
+			<item id="1164" text="&amp;Minden oldal" tooltip=""/>
+			<item id="1165" text="&amp;Kijelölt oldalak" tooltip=""/>
+			<item id="1166" text="&amp;Jelenlegi oldal" tooltip=""/>
+			<item id="1167" text="&amp;Oldalak:" tooltip=""/>
+			<item id="1200" text="Nyomtatási tartomány" tooltip=""/>
+			<item id="1201" text="Beállítások" tooltip=""/>
+		</dialog>
+		<dialog id="328" text="Megjegyzések összegzése">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Csoportosítás:" tooltip=""/>
+			<item id="1040" text="Rendezés:" tooltip=""/>
+			<item id="1041" text="Típus:" tooltip=""/>
+			<item id="1126" text="Válaszok kihagyása" tooltip=""/>
+			<item id="1200" text="Oldaltartomány" tooltip=""/>
+			<item id="1201" text="Kimenet" tooltip=""/>
+			<item id="1202" text="Beállítások" tooltip=""/>
+			<item id="1261" text="Általános" tooltip=""/>
+			<item id="1330" text="&amp;Minden oldal" tooltip=""/>
+			<item id="1331" text="&amp;Kijelölt oldalak" tooltip=""/>
+			<item id="1332" text="&amp;Jelenlegi oldal" tooltip=""/>
+			<item id="1333" text="&amp;Oldalak:" tooltip=""/>
+			<item id="1335" text="Résztartomány:" tooltip=""/>
+			<item id="1341" text="Láthatatlan megjegyzéseket is" tooltip=""/>
+			<item id="1356" text="Az új dokumentum megtekintése a létrehozás után" tooltip=""/>
+			<item id="1387" text="Írja be az oldalszámokat és/vagy oldalszám-tartományt, vesszővel elválasztva, növekvő sorrendben. Például: 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="329" text="">
+			<item id="1038" text="Elrendezés:" tooltip=""/>
+			<item id="1039" text="Papír:" tooltip=""/>
+			<item id="1343" text="Speciális" tooltip=""/>
+			<item id="1351" text="Helyezze a csoportokat külön lapokra" tooltip=""/>
+			<item id="1352" text="Megjegyzések néküli lapok kihagyása" tooltip=""/>
+		</dialog>
+		<dialog id="332" text="">
+			<item id="4" text="Tallózás..." tooltip=""/>
+			<item id="6" text="Makrók:" tooltip=""/>
+			<item id="1038" text="Célmappa neve:" tooltip=""/>
+			<item id="1039" text="Fájlnév:" tooltip=""/>
+		</dialog>
+		<dialog id="333" text="">
+			<item id="4" text="Tallózás:" tooltip=""/>
+			<item id="6" text="Makrók:" tooltip=""/>
+			<item id="1038" text="Célmappa neve:" tooltip=""/>
+			<item id="1039" text="Fájlnév:" tooltip=""/>
+			<item id="1041" text="Papír:" tooltip=""/>
+			<item id="1351" text="Helyezzen minden csoportot új oldalra" tooltip=""/>
+		</dialog>
+		<dialog id="334" text="">
+			<item id="4" text="Tallózás..." tooltip=""/>
+			<item id="6" text="Makrók" tooltip=""/>
+			<item id="1038" text="Célmappa neve:" tooltip=""/>
+			<item id="1039" text="Fájlnév:" tooltip=""/>
+			<item id="1261" text="Szövegkódolás" tooltip=""/>
+			<item id="1292" text="Unicode" tooltip=""/>
+			<item id="1293" text="MS-DOS" tooltip=""/>
+			<item id="1294" text="Windows" tooltip=""/>
+			<item id="1355" text="Más:" tooltip=""/>
+		</dialog>
+		<dialog id="335" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1180" text="Speciális" tooltip=""/>
+		</dialog>
+		<dialog id="336" text="">
+			<item id="1038" text="Keret stílusa:" tooltip=""/>
+			<item id="1039" text="Keret vastagsága:" tooltip=""/>
+			<item id="1040" text="Keret színe:" tooltip=""/>
+			<item id="1041" text="Kiemelés módja:" tooltip=""/>
+		</dialog>
+		<dialog id="337" text="Mérés címkéje">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Mérés azonosító címkéje:" tooltip=""/>
+		</dialog>
+		<dialog id="341" text="Új üres dokumentum">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1039" text="Tájolás" tooltip=""/>
+			<item id="1040" text="×" tooltip=""/>
+			<item id="1041" text="Oldalak száma:" tooltip=""/>
+			<item id="1200" text="Oldalak" tooltip=""/>
+			<item id="1292" text="Standard:" tooltip=""/>
+			<item id="1293" text="Egyéni:" tooltip=""/>
+			<item id="1304" text="Álló" tooltip=""/>
+			<item id="1305" text="Fekvő" tooltip=""/>
+		</dialog>
+		<dialog id="342" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Webcím:" tooltip=""/>
+		</dialog>
+		<dialog id="343" text="">
+			<item id="1039" text="Oszlopok száma:" tooltip=""/>
+			<item id="1040" text="Hely az oszlopok között:" tooltip=""/>
+			<item id="1041" text="Egység:" tooltip=""/>
+			<item id="1042" text="Stílus:" tooltip=""/>
+			<item id="1043" text="Vastagság:" tooltip=""/>
+			<item id="1044" text="Szín:" tooltip=""/>
+			<item id="1367" text="Vonal az oszlopok között" tooltip=""/>
+		</dialog>
+		<dialog id="344" text="Beállítások">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+		</dialog>
+		<dialog id="345" text="Új dokumentum szövegből">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1040" text="Szövegkódolás:" tooltip=""/>
+			<item id="1041" text="Új bekezdés módja:" tooltip=""/>
+			<item id="1042" text="Fájl beillesztés módja:" tooltip=""/>
+			<item id="1075" text="Megtekintés..." tooltip=""/>
+			<item id="1099" text="Beállítások..." tooltip=""/>
+			<item id="1200" text="Kiválasztott fájl beállításai" tooltip=""/>
+			<item id="1202" text="Forrás szövegfájlok" tooltip=""/>
+			<item id="1376" text="+ Fájlok..." tooltip=""/>
+			<item id="1377" text="+ Mappák..." tooltip=""/>
+			<item id="1378" text="Eltávolítás" tooltip=""/>
+			<item id="1379" text="Mozgatás fel" tooltip=""/>
+			<item id="1380" text="Mozgatás le" tooltip=""/>
+		</dialog>
+		<dialog id="346" text="">
+			<item id="1038" text="Eleje:" tooltip=""/>
+			<item id="1039" text="Vége:" tooltip=""/>
+			<item id="1040" text="Vonalstílus:" tooltip=""/>
+			<item id="1041" text="Vastagság:" tooltip=""/>
+			<item id="1042" text="Vonalszín:" tooltip=""/>
+			<item id="1043" text="Kitöltőszín:" tooltip=""/>
+			<item id="1044" text="Átlátszatlanság:" tooltip=""/>
+			<item id="1045" text="Hossz:" tooltip=""/>
+			<item id="1046" text="Eltolás:" tooltip=""/>
+			<item id="1047" text="Kiterjedés:" tooltip=""/>
+			<item id="1200" text="Vonalvégződések" tooltip=""/>
+			<item id="1201" text="Szegély" tooltip=""/>
+			<item id="1202" text="Vezetővonal" tooltip=""/>
+			<item id="1203" text="Szöveg" tooltip=""/>
+			<item id="1362" text="Szöveg megjelenítése a vonalban" tooltip=""/>
+		</dialog>
+		<dialog id="347" text="Minden beállítás alaphelyzetbe állítása">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Valóban a program minden beállítását alaphelyzetbe állítja?" tooltip=""/>
+			<item id="1126" text="Hagyja meg az &quot;Ismert webhelyek&quot; listát" tooltip=""/>
+			<item id="1128" text="Hagyja meg a &quot;Figyelmeztetések&quot; listát" tooltip=""/>
+			<item id="1129" text="Hagyja meg a felhasználói felület nyelvét" tooltip=""/>
+			<item id="1373" text="Hagyja meg a &quot;Legutóbbi dokumentumok&quot; listát" tooltip=""/>
+		</dialog>
+		<dialog id="348" text="Dokumentum metaadatok">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+		</dialog>
+		<dialog id="351" text="">
+			<item id="6" text="&amp;Makrók" tooltip=""/>
+			<item id="1040" text="Stílus:" tooltip=""/>
+			<item id="1041" text="Vastagság:" tooltip=""/>
+			<item id="1042" text="Szín:" tooltip=""/>
+			<item id="1044" text="Háttérszín:" tooltip=""/>
+			<item id="1128" text="Rajzoljon vonalat a cím fejléc fölé" tooltip=""/>
+			<item id="1381" text="Vonal rajzolása" tooltip=""/>
+			<item id="1385" text="Cím fejléc beállítása" tooltip=""/>
+			<item id="1388" text="Formátum..." tooltip=""/>
+		</dialog>
+		<dialog id="352" text="Új dokumentum képekből">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1099" text="Beállítások..." tooltip=""/>
+			<item id="1202" text="Forrás fájlok" tooltip=""/>
+			<item id="1251" text="Szerkesztés..." tooltip=""/>
+			<item id="1376" text="+ Fájlok..." tooltip=""/>
+			<item id="1377" text="+ Mappák..." tooltip=""/>
+			<item id="1378" text="Eltávolítás" tooltip=""/>
+			<item id="1379" text="Mozgatás fel" tooltip=""/>
+			<item id="1380" text="Mozgatás le" tooltip=""/>
+			<item id="1406" text="Importálás..." tooltip=""/>
+		</dialog>
+		<dialog id="353" text="Beállítások">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+		</dialog>
+		<dialog id="354" text="">
+			<item id="1039" text="Vízszintes szám:" tooltip=""/>
+			<item id="1040" text="Függőleges szám:" tooltip=""/>
+			<item id="1041" text="Vízszintes térköz:" tooltip=""/>
+			<item id="1042" text="Függőleges térköz:" tooltip=""/>
+			<item id="1043" text="Vízszintes igazítás" tooltip=""/>
+			<item id="1044" text="Függőleges igazítás" tooltip=""/>
+			<item id="1200" text="Elrendezési szabályok" tooltip=""/>
+			<item id="1201" text="Képek igazítása" tooltip=""/>
+		</dialog>
+		<dialog id="355" text="">
+			<item id="1039" text="ha a felbontás &gt;" tooltip=""/>
+			<item id="1040" text="képpont/hüvelyk" tooltip=""/>
+			<item id="1041" text="képpont/hüvelyk" tooltip=""/>
+			<item id="1042" text="ha a felbontás &gt;" tooltip=""/>
+			<item id="1043" text="képpont/hüvelyk" tooltip=""/>
+			<item id="1044" text="képpont/hüvelyk" tooltip=""/>
+			<item id="1126" text="Szórás használata" tooltip=""/>
+			<item id="1200" text="High-color (16-bit)/szürkeárnyalatos képek" tooltip=""/>
+			<item id="1201" text="Indexelt képek" tooltip=""/>
+			<item id="1202" text="Monokról képek" tooltip=""/>
+			<item id="1203" text="ha a felbontás &gt;" tooltip=""/>
+			<item id="1204" text="képpont/hüvelyk" tooltip=""/>
+			<item id="1205" text="képpont/hüvelyk" tooltip=""/>
+			<item id="1206" text="Küszöb:" tooltip=""/>
+			<item id="1401" text="Szórás használata" tooltip=""/>
+		</dialog>
+		<dialog id="362" text="">
+			<item id="6" text="Makrók" tooltip=""/>
+			<item id="1039" text="Háttérszín:" tooltip=""/>
+			<item id="1128" text="Helyezzen címkét a kép fölé" tooltip=""/>
+			<item id="1200" text="Kép címkéje" tooltip=""/>
+			<item id="1388" text="Formátum..." tooltip=""/>
+			<item id="1407" text="Külön szöveges címke használata minden egyes képhez" tooltip=""/>
+		</dialog>
+		<dialog id="363" text="Kép szerkesztése">
+		</dialog>
+		<dialog id="364" text="">
+			<item id="1038" text="Oldal(ak):" tooltip=""/>
+			<item id="1039" text="Gutter:" tooltip=""/>
+			<item id="1040" text="Lapok az aláírásban:" tooltip=""/>
+			<item id="1041" text="Típus:" tooltip=""/>
+			<item id="1120" text="Oldal automatikus forgatása a cellában" tooltip=""/>
+			<item id="1121" text="Oldal automatikus középre igazítása a cellában" tooltip=""/>
+			<item id="1414" text="Jobb oldali kötés" tooltip=""/>
+		</dialog>
+		<dialog id="365" text="Speciális nyomtatási beállítások">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Maximális felbontás a képként nyomtatáshoz:" tooltip=""/>
+			<item id="1039" text="Színátmenetes kitöltések felbontása:" tooltip=""/>
+			<item id="1040" text="Szöveg nyomtatása görbékként:" tooltip=""/>
+			<item id="1041" text="Felbukkanó címkék átlátszósága:" tooltip=""/>
+			<item id="1416" text="Jegyzetek és felbukkanó címkék nyomtatása" tooltip=""/>
+		</dialog>
+		<dialog id="366" text="Dokumentum jelszava">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+		</dialog>
+		<dialog id="369" text="Tulajdonságok">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1180" text="Speciális" tooltip=""/>
+		</dialog>
+		<dialog id="371" text="">
+			<item id="1038" text="Szerző:" tooltip=""/>
+			<item id="1039" text="Tárgy:" tooltip=""/>
+			<item id="1040" text="Készítve:" tooltip=""/>
+			<item id="1041" text="Módosítva:" tooltip=""/>
+		</dialog>
+		<dialog id="372" text="">
+			<item id="1045" text="Hosszúság:" tooltip=""/>
+			<item id="1046" text="Eltolás:" tooltip=""/>
+			<item id="1047" text="Kiterjesztés:" tooltip=""/>
+			<item id="1362" text="Szöveg megjelenítése a vonalban:" tooltip=""/>
+		</dialog>
+		<dialog id="373" text="Új dokumentum közvetlenül a lapolvasóból">
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1039" text="Válassza ki a lapolvasót a képek beolvasásához:" tooltip=""/>
+			<item id="1423" text="Indítás..." tooltip=""/>
+			<item id="1424" text="Frissítés" tooltip=""/>
+		</dialog>
+		<dialog id="374" text="">
+			<item id="1038" text="Kitöltőszín:" tooltip=""/>
+			<item id="1039" text="Vonalszín:" tooltip=""/>
+			<item id="1126" text="Űrlapmezők kiemelése a dokumentum megnyitásakor:" tooltip=""/>
+			<item id="1128" text="Minden űrlapmező kiemelése" tooltip=""/>
+			<item id="1129" text="Kombinált listák" tooltip=""/>
+			<item id="1130" text="Választónégyzetek" tooltip=""/>
+			<item id="1131" text="Listák" tooltip=""/>
+			<item id="1132" text="Nyomógombok" tooltip=""/>
+			<item id="1133" text="Rádiógombok" tooltip=""/>
+			<item id="1134" text="Szövegmezők" tooltip=""/>
+			<item id="1135" text="Aláírásmezők" tooltip=""/>
+			<item id="1136" text="Csak a kötelezően kitöltendő mezők kiemelése" tooltip=""/>
+			<item id="1200" text="Általános" tooltip=""/>
+			<item id="1201" text="Űrlapmezők kiemelése" tooltip=""/>
+			<item id="1425" text="Űrlapmezők automatikus kiszámítása" tooltip=""/>
+			<item id="1426" text="Kijelölési négyszög megjelenítése" tooltip=""/>
+		</dialog>
+		<dialog id="376" text="">
+			<item id="1039" text="×" tooltip=""/>
+			<item id="1040" text="Tájolás:" tooltip=""/>
+			<item id="1041" text="Bal:" tooltip=""/>
+			<item id="1042" text="Fent:" tooltip=""/>
+			<item id="1043" text="Jobb:" tooltip=""/>
+			<item id="1044" text="Lent:" tooltip=""/>
+			<item id="1200" text="Margók" tooltip=""/>
+			<item id="1292" text="Standard:" tooltip=""/>
+			<item id="1293" text="Egyéni" tooltip=""/>
+			<item id="1304" text="Álló" tooltip=""/>
+			<item id="1305" text="Fekvő" tooltip=""/>
+		</dialog>
+		<dialog id="377" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+		</dialog>
+		<dialog id="378" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="4" text="&amp;Tallózás..." tooltip=""/>
+			<item id="5" text="Ta&amp;llózás..." tooltip=""/>
+			<item id="1039" text="&amp;Megnyitás itt:" tooltip=""/>
+			<item id="1040" text="M&amp;űvelet:" tooltip=""/>
+			<item id="1043" text="&amp;Fájl:" tooltip=""/>
+			<item id="1044" text="M&amp;appa:" tooltip=""/>
+			<item id="1045" text="&amp;Paraméterek:" tooltip=""/>
+			<item id="1201" text="Cél" tooltip=""/>
+			<item id="1202" text="Lehetőségek" tooltip=""/>
+		</dialog>
+		<dialog id="380" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+		</dialog>
+		<dialog id="381" text="">
+			<item id="1200" text="&quot;Tab&quot; billentyűzés ugrási sorrendje az oldalon" tooltip=""/>
+			<item id="1441" text="&amp;Nincs meghatározva" tooltip=""/>
+			<item id="1442" text="&amp;Sorok sorrendjében" tooltip=""/>
+			<item id="1443" text="&amp;Oszlopok sorrendjében" tooltip=""/>
+			<item id="1444" text="&amp;Dokumentum felépítését követve" tooltip=""/>
+		</dialog>
+		<dialog id="382" text="">
+			<item id="1038" text="Na&amp;vigáció nézet:" tooltip=""/>
+			<item id="1039" text="&amp;Oldalak elrendezése:" tooltip=""/>
+			<item id="1040" text="&amp;Nagyítás:" tooltip=""/>
+			<item id="1041" text="Megnyitás ezen az &amp;oldalon:" tooltip=""/>
+			<item id="1043" text="&amp;Címsor tartalma:" tooltip=""/>
+			<item id="1200" text="Elrendezés és nagyítás" tooltip=""/>
+			<item id="1201" text="Ablak beállításai" tooltip=""/>
+			<item id="1202" text="Felhasználói felület beállításai" tooltip=""/>
+			<item id="36507" text="Megnyitás &amp;teljes képernyőn" tooltip=""/>
+			<item id="36508" text="&amp;Menüsor elrejtése" tooltip=""/>
+			<item id="36509" text="&amp;Eszköztárak elrejtése" tooltip=""/>
+			<item id="36510" text="&amp;Ablak vezérlőelemek elrejtése" tooltip=""/>
+		</dialog>
+		<dialog id="383" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+		</dialog>
+		<dialog id="384" text="Ütközés">
+			<item id="2" text="Bezár" tooltip=""/>
+		</dialog>
+		<dialog id="389" text="">
+			<item id="1038" text="A következő keresőszolgáltatók vannak telepítve:" tooltip=""/>
+			<item id="1443" text="Fel" tooltip=""/>
+			<item id="1444" text="Le" tooltip=""/>
+			<item id="1445" text="Eltávolítás..." tooltip=""/>
+			<item id="1446" text="Új..." tooltip=""/>
+			<item id="1509" text="Keresőszolgáltatók ikonjának letöltése az internetről" tooltip=""/>
+			<item id="1510" text="Az összes keresőszolgáltató kikapcsolása" tooltip=""/>
+		</dialog>
+		<dialog id="390" text="Új keresőszolgáltató hozzáadása">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1017" text="Saját keresőszolgáltató beállítása" tooltip=""/>
+			<item id="1040" text="Kövesse az alábbi lépéseket a beállításhoz:" tooltip=""/>
+			<item id="1041" text="1. Az internetböngészőben látogassa meg a honlapját." tooltip=""/>
+			<item id="1042" text="2. Itt keressen a TEST szóra (nagybetűvel írja)." tooltip=""/>
+			<item id="1043" text="3. A kapott oldal URL-ját másolja be az alábbi &quot;URL&quot; mezőbe." tooltip=""/>
+			<item id="1044" text="4. Töltse ki a többi mezőt is, majd kattintson az OK gombra." tooltip=""/>
+			<item id="1200" text="Keresőszolgáltató részletei" tooltip=""/>
+			<item id="1203" text="URL:" tooltip=""/>
+			<item id="1204" text="Név:" tooltip=""/>
+			<item id="1205" text="Leírás:" tooltip=""/>
+			<item id="1206" text="Kódolás:" tooltip=""/>
+		</dialog>
+		<dialog id="391" text="Párbeszéd">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+		</dialog>
+		<dialog id="392" text="Jelszó biztonsági beállítások">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Komponensek:" tooltip=""/>
+			<item id="1041" text="Engedélyhez szükséges jelszó:" tooltip=""/>
+			<item id="1042" text="Kompatibilitás:" tooltip=""/>
+			<item id="1043" text="Titkosítási szint:" tooltip=""/>
+			<item id="1045" text="&amp;Nyomtatási engedély:" tooltip=""/>
+			<item id="1046" text="&amp;Megváltoztatási engedély:" tooltip=""/>
+			<item id="1050" text="Engedélyhez szükséges jelszó újra:" tooltip=""/>
+			<item id="1126" text="Jelszó kell a dokumentum engedélyeinek megváltoztatásához" tooltip=""/>
+			<item id="1200" text="Titkosítandó dokumentum komponensek" tooltip=""/>
+			<item id="1201" text="Jelszavak és engedélyek" tooltip=""/>
+			<item id="1450" text="&amp;Gyengén látók érdekében képernyőolvasó program hozzáférhet a szöveghez" tooltip=""/>
+			<item id="1451" text="Jelszó kell a dokumentum megnyitásához" tooltip=""/>
+		</dialog>
+		<dialog id="393" text="Dokumentum biztonsági beállításai">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="1038" text="Nyomtatás:" tooltip=""/>
+			<item id="1039" text="Dokumentum megváltoztatása:" tooltip=""/>
+			<item id="1040" text="Megjegyzések hozzáfűzése:" tooltip=""/>
+			<item id="1041" text="Tartalom másolása:" tooltip=""/>
+			<item id="1042" text="Űrlapok kitöltése, aláírása:" tooltip=""/>
+			<item id="1043" text="Kisegítő lehetőségek engedélyezése:" tooltip=""/>
+			<item id="1044" text="Dokumentum összeállítás" tooltip=""/>
+			<item id="1045" text="Biztonság módja:" tooltip=""/>
+			<item id="1046" text="Megnyitás jelszava:" tooltip=""/>
+			<item id="1047" text="Hozzáférések jelszava:" tooltip=""/>
+			<item id="1048" text="Titkosítási szint:" tooltip=""/>
+			<item id="1049" text="Oldalak kivonása:" tooltip=""/>
+		</dialog>
+		<dialog id="394" text="Dokumentum aláírása">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="4" text="Tallózás..." tooltip=""/>
+			<item id="1038" text="&amp;Kiadva:" tooltip=""/>
+			<item id="1039" text="Fájl&amp;név:" tooltip=""/>
+			<item id="1040" text="Az aláírás &amp;oka:" tooltip=""/>
+			<item id="1041" text="&amp;Helye:" tooltip=""/>
+			<item id="1042" text="&amp;Kapcsolattartó:" tooltip=""/>
+			<item id="1043" text="Aláírás &amp;sablonja:" tooltip=""/>
+			<item id="1044" text="A digitális aláírás megjelenését testreszabhatja, ha az előnézeti képre kattint." tooltip=""/>
+			<item id="1132" text="&amp;Részletek..." tooltip=""/>
+			<item id="1200" text="1. Tanúsítvány kiválasztása (digitális ID)" tooltip=""/>
+			<item id="1201" text="2. Beállítás részletei és az aláírás megjelenése" tooltip=""/>
+			<item id="1452" text="Tanúsítvány használata &amp;System Store-ból:" tooltip=""/>
+			<item id="1453" text="Tanúsítvány használata &amp;fájlból:" tooltip=""/>
+			<item id="1456" text="Tallózás..." tooltip=""/>
+			<item id="1457" text="Tanúsítvány &amp;megtekintése..." tooltip=""/>
+			<item id="1458" text="Tanúsítvány &amp;létrehozása..." tooltip=""/>
+			<item id="1513" text="Részletek..." tooltip=""/>
+			<item id="1514" text="&amp;Időbélyegző szerver használata:" tooltip=""/>
+		</dialog>
+		<dialog id="395" text="Digitális aláírás megjelenésének sablonjai">
+			<item id="1" text="Bezárás" tooltip=""/>
+			<item id="1234" text="Alaphelyzet" tooltip=""/>
+			<item id="1250" text="Törlés" tooltip=""/>
+			<item id="1251" text="Szerkesztés..." tooltip=""/>
+			<item id="1374" text="Kiválaszthatja a digitális aláírás megjelenésének sablonját az alábbi listából:" tooltip=""/>
+			<item id="1459" text="Klónozás" tooltip=""/>
+		</dialog>
+		<dialog id="396" text="Digitális aláírás sablon szerkestése">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1039" text="&amp;Sablon neve:" tooltip=""/>
+			<item id="1040" text="S&amp;zöveg iránya:" tooltip=""/>
+			<item id="1126" text="&amp;Ok" tooltip=""/>
+			<item id="1127" text="Né&amp;v" tooltip=""/>
+			<item id="1128" text="&amp;Dátum" tooltip=""/>
+			<item id="1129" text="E&amp;gyedi név" tooltip=""/>
+			<item id="1130" text="&amp;Címkék" tooltip=""/>
+			<item id="1201" text="Grafika" tooltip=""/>
+			<item id="1202" text="Szöveg megjelenítése" tooltip=""/>
+			<item id="1462" text="&amp;Nincs ikon" tooltip=""/>
+			<item id="1463" text="N&amp;év mint ikon" tooltip=""/>
+			<item id="1464" text="&amp;Egyéni ikon:" tooltip=""/>
+			<item id="1466" text="&amp;Hely" tooltip=""/>
+			<item id="1468" text="&amp;Logo megjelenítése" tooltip=""/>
+			<item id="1469" text="Tallózás..." tooltip=""/>
+		</dialog>
+		<dialog id="397" text="Saját aláírású digitális ID létrehozása">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="A saját aláírású digitális ID létrehozása egy ingyenes módszer a PDF dokumentum hitelesítésére. Azonban ez elégtelen lehet olyan helyzetekben, ahol harmadik fél általi hitelesítés szükséges." tooltip=""/>
+			<item id="1040" text="&amp;Név:" tooltip=""/>
+			<item id="1041" text="Szervezeti &amp;egység:" tooltip=""/>
+			<item id="1042" text="&amp;Szervezet neve:" tooltip=""/>
+			<item id="1043" text="&amp;Email cím:" tooltip=""/>
+			<item id="1044" text="&amp;Ország / régió:" tooltip=""/>
+			<item id="1045" text="A digitális ID a Windows Tanúsítványtárolóban lesz elmentve, ahol más Windows alkalmazások számára is elérhető. Ezt a digitális ID-t a Windows login védi." tooltip=""/>
+			<item id="1046" text="Egy új, jelszóval védett, standard PKCS#12 formátumú digitális ID fájlt hoz létre. Ezt a típust a legtöbb boztonsági szoftver támogatja és használja, beleértve az internetböngészőket is. A PKCS#12 fájlok kiterjesztése .pfx vagy .p12." tooltip=""/>
+			<item id="1200" text="Digitális ID tulajdonságai" tooltip=""/>
+			<item id="1201" text="Hol tárolja a saját aláírású digitális ID-t?" tooltip=""/>
+			<item id="1203" text="&amp;Kulcs algoritmus:" tooltip=""/>
+			<item id="1205" text="&amp;Jelszó:" tooltip=""/>
+			<item id="1206" text="&amp;Jelszó &amp;megerősítése:" tooltip=""/>
+			<item id="1208" text="ASCII" tooltip=""/>
+			<item id="1292" text="Unicode" tooltip=""/>
+			<item id="1476" text="A &amp;Windows Tanúsítványtárolóban (Certification Store)" tooltip=""/>
+			<item id="1477" text="Új &amp;PKCS#12 digitális ID fájlban" tooltip=""/>
+		</dialog>
+		<dialog id="398" text="Jelszó megadása">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Írjon be egy jelszót:" tooltip=""/>
+		</dialog>
+		<dialog id="399" text="">
+			<item id="1038" text="Aláírta:" tooltip=""/>
+			<item id="1039" text="Ok:" tooltip=""/>
+			<item id="1040" text="Hely:" tooltip=""/>
+			<item id="1041" text="Dátum:" tooltip=""/>
+			<item id="1042" text="Kapcsolat:" tooltip=""/>
+			<item id="1043" text="Létrehozta:" tooltip=""/>
+			<item id="1200" text="Aláírás információ" tooltip=""/>
+			<item id="1201" text="Érvényesség" tooltip=""/>
+			<item id="1481" text="Tanúsítvány megtekintése" tooltip=""/>
+		</dialog>
+		<dialog id="400" text="Aláírás tulajdonságai">
+			<item id="1" text="Bezár" tooltip=""/>
+		</dialog>
+		<dialog id="401" text="Segédvonalak hozzáadása">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Helyzet az oldalon:" tooltip=""/>
+			<item id="1039" text="Vonalak száma:" tooltip=""/>
+			<item id="1040" text="Távolság:" tooltip=""/>
+			<item id="1200" text="Oldal tartomány" tooltip=""/>
+			<item id="1201" text="Oldal segédvonalak" tooltip=""/>
+			<item id="1330" text="&amp;Minden oldal" tooltip=""/>
+			<item id="1331" text="&amp;Kijelölt oldalak" tooltip=""/>
+			<item id="1332" text="&amp;Jelenlegi oldal" tooltip=""/>
+			<item id="1333" text="&amp;Oldalak:" tooltip=""/>
+			<item id="1335" text="Résztartomány:" tooltip=""/>
+			<item id="1387" text="Írja be az oldalszámokat és/vagy oldalszám-tartományt, vesszővel elválasztva, növekvő sorrendben. Például: 1, 3, 5-12" tooltip=""/>
+			<item id="1492" text="Vízszintes" tooltip=""/>
+			<item id="1493" text="Függőleges" tooltip=""/>
+		</dialog>
+		<dialog id="402" text="Illesztés testreszabása">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Közelebb mint:" tooltip=""/>
+			<item id="1039" text="Közelebb mint:" tooltip=""/>
+			<item id="1040" text="Közelebb mint:" tooltip=""/>
+			<item id="1041" text="&amp;Illesztés ezekhez:" tooltip=""/>
+			<item id="1127" text="Illesztés &amp;objektumokhoz" tooltip=""/>
+			<item id="1200" text="Segédvonalak" tooltip=""/>
+			<item id="1201" text="Objektumok" tooltip=""/>
+			<item id="1261" text="Rács" tooltip=""/>
+			<item id="1485" text="Illesztés &amp;rácshoz" tooltip=""/>
+			<item id="1486" text="Illesztés &amp;segédvonalakhoz" tooltip=""/>
+			<item id="1501" text="Illesztési &amp;hely jelölésének megjelenítése" tooltip=""/>
+			<item id="1504" text="Összes kiválasztása" tooltip=""/>
+			<item id="1505" text="Összes törlése" tooltip=""/>
+			<item id="1506" text="Csak a megjegyzéseket illessze" tooltip=""/>
+		</dialog>
+		<dialog id="403" text="Melléklet leírásának szerkesztése">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Leírás:" tooltip=""/>
+		</dialog>
+		<dialog id="404" text="Legutóbbi dokumentumok listájának szerkesztése">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1009" text="A lista maximális hossza" tooltip=""/>
+			<item id="1126" text="Kilépéskor törölje a listát" tooltip=""/>
+			<item id="1127" text="Kiterjesztett eszköztippek megjelenítése" tooltip=""/>
+			<item id="1227" text="Törlés..." tooltip=""/>
+			<item id="1510" text="Minden rögzített elem legyen a lista elején" tooltip=""/>
+			<item id="1512" text="Elemek eltávolítása előtt kérjen megerősítést" tooltip=""/>
+		</dialog>
+		<dialog id="405" text="">
+			<item id="1038" text="Új dokumentum létrehozásakor megadhatja a PDF specifikáció verzióját:" tooltip=""/>
+			<item id="1200" text="PDF specikfikáció" tooltip=""/>
+		</dialog>
+		<dialog id="406" text="">
+			<item id="1" text="OK" tooltip=""/>
+		</dialog>
+		<dialog id="407" text="">
+			<item id="1200" text="Időbélyegzés" tooltip=""/>
+			<item id="1513" text="Részletek..." tooltip=""/>
+			<item id="1514" text="Időbélyegző szerver használata:" tooltip=""/>
+		</dialog>
+		<dialog id="408" text="Időbélyegző szerverek">
+			<item id="1" text="Bezár" tooltip=""/>
+			<item id="1247" text="Hozzáadás..." tooltip=""/>
+			<item id="1251" text="Szerkesztés..." tooltip=""/>
+			<item id="1445" text="Eltávolítás" tooltip=""/>
+		</dialog>
+		<dialog id="409" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="&amp;Név:" tooltip=""/>
+			<item id="1039" text="Szerver címe (&amp;URL):" tooltip=""/>
+			<item id="1040" text="&amp;Felhasználónév:" tooltip=""/>
+			<item id="1041" text="&amp;Jelszó:" tooltip=""/>
+			<item id="1261" text="Szerver beállításai" tooltip=""/>
+			<item id="1517" text="A szerver &amp;hitelesítést igényel" tooltip=""/>
+		</dialog>
+		<dialog id="410" text="Megjegyzések alapértelemezett tárgyának szerkesztése">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Mégsem" tooltip=""/>
+			<item id="1038" text="Alapértelmezett szöveg jelenhet meg minden új, e stílust alkalmazó megjegyzésben" tooltip=""/>
+			<item id="1293" text="Egyéni szöveg:" tooltip=""/>
+			<item id="1520" text="Általános szöveg:" tooltip=""/>
+		</dialog>
+	</dialogs>
+	<strings count="1163">
+		<item id="0" text="90 fokkal jobbra"/>
+		<item id="1" text="90 fokkal balra"/>
+		<item id="2" text="180 fokkal"/>
+		<item id="3" text="Minden oldal"/>
+		<item id="4" text="Érvénytelen dátum/idő. A %field% mező szükséges formátuma: %format%."/>
+		<item id="5" text="Páratlan oldalak"/>
+		<item id="6" text="Bármilyen tájolású oldal"/>
+		<item id="7" text="Álló oldalak"/>
+		<item id="8" text="Fekvő oldalak"/>
+		<item id="9" text="Általános név"/>
+		<item id="10" text="Helyi név"/>
+		<item id="11" text="Általános"/>
+		<item id="12" text="Általános beállítások"/>
+		<item id="13" text="Színkezelés"/>
+		<item id="14" text="Színkezelés beállításai"/>
+		<item id="15" text="Oldal megjelenítése"/>
+		<item id="16" text="Oldal megjelenítésének beállításai"/>
+		<item id="17" text="Teljesítmény"/>
+		<item id="18" text="Teljesítmény beállítások"/>
+		<item id="19" text="Mértékegységek"/>
+		<item id="20" text="Egységek, rács és vonalzó beállításai"/>
+		<item id="21" text="Felhasználó adatai"/>
+		<item id="22" text="Felhasználó személyes adatainak beállításai"/>
+		<item id="23" text="Nyelvek (Languages)"/>
+		<item id="24" text="Felhasználói felület nyelvének kiválasztása"/>
+		<item id="25" text="Fájl társítások"/>
+		<item id="26" text="Fájl társítások beállítása"/>
+		<item id="27" text="Kategóriák"/>
+		<item id="28" text="Beállítások..."/>
+		<item id="29" text="Dokumentum tulajdonságai..."/>
+		<item id="30" text="Címke tulajdonságai"/>
+		<item id="31" text="Teljes- vagy növekményes mentés digitálisan aláírt dokumentumhoz"/>
+		<item id="32" text="Mindig teljes mentés"/>
+		<item id="33" text="Mindig növekményes mentés"/>
+		<item id="34" text="Mentés gyors webes megtekintésre"/>
+		<item id="35" text="Automatikus"/>
+		<item id="36" text="Csak oldalak"/>
+		<item id="37" text="Könyvjelző oldalsáv és oldalak"/>
+		<item id="38" text="Bélyegkép oldalsáv és oldalak"/>
+		<item id="39" text="Legutóbbi nézet"/>
+		<item id="40" text="Egyetlen oldal"/>
+		<item id="41" text="Oldalak folyamatosan"/>
+		<item id="42" text="Szembenéző oldalak"/>
+		<item id="43" text="Szembenéző oldalak, folyamatosan"/>
+		<item id="44" text="1:1  méret"/>
+		<item id="45" text="Ablakméret"/>
+		<item id="46" text="Ablakszélesség"/>
+		<item id="47" text="Ablakmagasság"/>
+		<item id="48" text="Fizikai memória (RAM): összesen %1, %2 használható maximálisan"/>
+		<item id="49" text="Fizikai memória (RAM): összesen %1"/>
+		<item id="50" text="A rendszer %2 processzort (CPU) tartalmaz"/>
+		<item id="51" text="cm"/>
+		<item id="52" text="centiméter"/>
+		<item id="53" text="centiméter"/>
+		<item id="54" text="in"/>
+		<item id="55" text="hüvelyk"/>
+		<item id="56" text="hüvelyk"/>
+		<item id="57" text="mm"/>
+		<item id="58" text="milliméter"/>
+		<item id="59" text="milliméter"/>
+		<item id="60" text="p"/>
+		<item id="61" text="pica"/>
+		<item id="62" text="pica"/>
+		<item id="63" text="pt"/>
+		<item id="64" text="pont"/>
+		<item id="65" text="pont"/>
+		<item id="66" text="&apos;%1&apos; indítása"/>
+		<item id="67" text="Jelenleg nincs másik telepített PDF-olvasó"/>
+		<item id="68" text="(összesen %1 oldal)"/>
+		<item id="69" text="A &quot;%1&quot; dokumentum jelszóval védett."/>
+		<item id="70" text="Tartomány minden oldala"/>
+		<item id="71" text="Páratlan oldalak"/>
+		<item id="72" text="Páros oldalak"/>
+		<item id="73" text="Nincs"/>
+		<item id="74" text="Igazítás a nyomtatható területhez"/>
+		<item id="75" text="Zsugorítás a nyomtatharó területhez"/>
+		<item id="76" text="Nagy oldalak mozaikszerű nyomtatása"/>
+		<item id="77" text="Minden oldal mozaikszerű nyomtatása"/>
+		<item id="78" text="Több oldal egy lapon"/>
+		<item id="79" text="Minden oldal egy többoldalas képfájlba"/>
+		<item id="80" text="Egyes oldaltartományok külön többoldalas képfájlba"/>
+		<item id="81" text="Minden oldal külön képfájlba"/>
+		<item id="82" text="A(z) &quot;%1&quot; mappa már tartalmaz egy &quot;%2&quot; nevű fájlt"/>
+		<item id="83" text="Méret: %1&#10;módosítva: %2"/>
+		<item id="84" text="A &quot;%1&quot; fájl nem írható"/>
+		<item id="85" text="OK"/>
+		<item id="86" text="Mégsem"/>
+		<item id="87" text="Igen"/>
+		<item id="88" text="Nem"/>
+		<item id="89" text="Megszakítás"/>
+		<item id="90" text="Újra"/>
+		<item id="91" text="Kihagyás"/>
+		<item id="92" text="Próbálkozás"/>
+		<item id="93" text="Folytatás"/>
+		<item id="94" text="Igen, mindet"/>
+		<item id="95" text="Egyiket sem"/>
+		<item id="96" text="A &quot;%1&quot; célmappa nem hozható létre"/>
+		<item id="97" text="A &quot;%1&quot; dokumentum megváltozott.&#10;&#10;Elmenti a módosításokat a bezárása előtt?"/>
+		<item id="98" text="A &quot;%1&quot; dokumentum digitális aláírást tartalmaz.&#10;A digitális aláírás elvész &quot;teljes mentés&quot; esetén. &#10;A növekményes mentés megőrzi a digitális aláírást, de növelheti a fájlméretet.&#10;&#10;Szeretne növekményes mentést használni?"/>
+		<item id="99" text="Összegzés: %1 oldal kijelölve a %2-ből"/>
+		<item id="100" text="Hiba a &quot;%1&quot; dokumentum nyomtatása közben:&#10;%2"/>
+		<item id="101" text="Név"/>
+		<item id="102" text="Nem elérhető"/>
+		<item id="103" text="Kész"/>
+		<item id="104" text="Nincs kapcsolat"/>
+		<item id="105" text="Megnyitás..."/>
+		<item id="106" text="Papír: %1"/>
+		<item id="107" text="Lap: %1"/>
+		<item id="108" text="Oldal: %1"/>
+		<item id="109" text="Oldalak: %1,%2,..."/>
+		<item id="110" text="&lt;Az aktív dokumentumban (%1)&gt;"/>
+		<item id="111" text="&lt;Tallózás...&gt;"/>
+		<item id="112" text="&lt;Haladó...&gt;"/>
+		<item id="113" text="Keresés leállítása"/>
+		<item id="114" text="Keresés most"/>
+		<item id="115" text="Kép mentése a &quot;%1&quot; fájlba..."/>
+		<item id="116" text="Kép létrehozása..."/>
+		<item id="117" text="Exportálás képfájlba..."/>
+		<item id="118" text="%1. oldal feldolgozása..."/>
+		<item id="119" text="Nyomtatás..."/>
+		<item id="120" text="%1. lap nyomtatása..."/>
+		<item id="121" text="%1. oldal nyomtatása..."/>
+		<item id="122" text="Leállítás..."/>
+		<item id="123" text="Előkészítés..."/>
+		<item id="124" text="&quot;%1&quot; keresése..."/>
+		<item id="125" text="Keresés eredménye: %1 dokumentum, %2 találat"/>
+		<item id="126" text="megszakítva"/>
+		<item id="127" text="&quot;%1&quot;: megnyitás..."/>
+		<item id="128" text="&quot;%1&quot;: %2. oldal..."/>
+		<item id="129" text="%1. oldal..."/>
+		<item id="130" text="Nincs elég rendszer-erőforrás a &quot;%1&quot; dokumentum megnyitásához:&#10;Túl sok a felhasználó vagy túl sok GDI objektum van használatban más alkalmazások által.&#10;&#10;Zárjon be néhány alkalmazást vagy PDF dokumentumot, és próbálja újra."/>
+		<item id="131" text="Hiba a dokumentum &quot;%1&quot;-be való mentésekor:&#10;%2"/>
+		<item id="132" text="Hiba a(z) &quot;%1&quot; dokumentum megnyitásakor:&#10;%2"/>
+		<item id="133" text="Hiba a dokumentum megnyitásakor:&#10;%1"/>
+		<item id="134" text="Biztosan szeretné a %1 megjegyzést törölni?"/>
+		<item id="135" text="%1: megjegyzések törlése"/>
+		<item id="136" text="A jövőben megerősítés nélkül töröljön."/>
+		<item id="137" text="Legyen ez az alkalmazás az alapértelmezett PDF-olvasó?"/>
+		<item id="138" text="Legyen ez az alkalmazás az alapértelmezett PDF-olvasó, és engedélyezi a PDF-ek böngészőben való megjelenítését?"/>
+		<item id="139" text="Engedélyezi a PDF-ek böngészőben való megjelenítését ezzel az alkalmazással?"/>
+		<item id="140" text="Legközelebb nem kérek értesítést."/>
+		<item id="141" text="&quot;%1&quot; nem nyitható meg:&#10;%2"/>
+		<item id="142" text="Az elérési út nem létezik"/>
+		<item id="143" text="A(z) &quot;%1&quot; művelet nem hajtható végre a(z) &quot;%2&quot;-ben:&#10;%3"/>
+		<item id="144" text="Az alkalmazás a következő webhelyet szeretné megnyitni:&#10;&quot;%1&quot;&#10;&#10;Megbízhatónak tartja a webhelyet?"/>
+		<item id="145" text="%1: webhely megnyitás figyelmeztetés"/>
+		<item id="146" text="A választásom megjegyzése ezen oldal számára"/>
+		<item id="147" text="A(z) &quot;%1&quot; alkalmazást szerené megnyitni ez a PDF fájl.&#10;A fájl potenciálisan káros programot, makrót vagy vírust tartalmazhat.&#10;Csak akkor nyissa meg a fájlt, ha megbízhatónak tartja.&#10;&#10;Ha a fájl forrása megbízható személy vagy program, kattintson a &quot;Megnyitás&quot; gombra."/>
+		<item id="148" text="Indítás: %1"/>
+		<item id="149" text="Ne jelenjen meg késöbbiekben ez az üzenet"/>
+		<item id="150" text="%1. oldal"/>
+		<item id="151" text="Menü"/>
+		<item id="152" text="Fájl"/>
+		<item id="153" text="Általános"/>
+		<item id="154" text="Nagyítás"/>
+		<item id="155" text="Oldalnézet forgatása"/>
+		<item id="156" text="Keresés"/>
+		<item id="157" text="Megjegyzés és Jelölések"/>
+		<item id="158" text="Tulajdonságok"/>
+		<item id="159" text="Nyíl eszköz tulajdonságai"/>
+		<item id="160" text="Vonal eszköz tulajdonságai"/>
+		<item id="161" text="Teglalap eszköz tulajdonságai"/>
+		<item id="162" text="Ovális eszköz tulajdonságai"/>
+		<item id="163" text="Sokszög eszköz tulajdonságai"/>
+		<item id="164" text="Sökszögű vonal eszköz tulajdonságai"/>
+		<item id="165" text="Ceruza eszköz tulajdonságai"/>
+		<item id="166" text="Felhő eszköz tulajdonságai"/>
+		<item id="167" text="Bélyegző eszköz tulajdonságai"/>
+		<item id="168" text="Írógép eszköz tulajdonságai"/>
+		<item id="169" text="Szövegdoboz eszköz tulajdonságai"/>
+		<item id="170" text="Magyarázat eszköz tulajdonságai"/>
+		<item id="171" text="Címke eszköz tulajdonságai"/>
+		<item id="172" text="Szövegkiemelő eszköz tulajdonságai"/>
+		<item id="173" text="Aláhúzás eszköz tulajdonságai"/>
+		<item id="174" text="Áthúzás eszköz tulajdonságai"/>
+		<item id="175" text="Szövegcserélő eszköz tulajdonságai"/>
+		<item id="176" text="Nyíl tulajdonságai"/>
+		<item id="177" text="Vonal tulajdonságai"/>
+		<item id="178" text="Téglalap tulajdonságai"/>
+		<item id="179" text="Ovális tulajdonságai"/>
+		<item id="180" text="Sokszög tulajdonságai"/>
+		<item id="181" text="Sokszögű vonal tulajdonságai"/>
+		<item id="182" text="Ceruza tulajdonságai"/>
+		<item id="183" text="Felhő tulajdonságai"/>
+		<item id="184" text="Pecsét tulajdonságai"/>
+		<item id="185" text="Gépírás tulajdonságai"/>
+		<item id="186" text="Szövegdoboz tulajdonságai"/>
+		<item id="187" text="Magyarázat tulajdonságai"/>
+		<item id="188" text="Címke tulajdonságai"/>
+		<item id="189" text="Szövegkiemelés tulajdonságai"/>
+		<item id="190" text="Aláhúzott szöveg tulajdonságai"/>
+		<item id="191" text="Áthúzott szöveg tulajdonságai"/>
+		<item id="192" text="Szövegcsere tulajdonságai"/>
+		<item id="193" text="Nyíl"/>
+		<item id="194" text="Vonal"/>
+		<item id="195" text="Téglalap"/>
+		<item id="196" text="Ovális"/>
+		<item id="197" text="Sokszög"/>
+		<item id="198" text="Sokszögű vonal"/>
+		<item id="199" text="Ceruza"/>
+		<item id="200" text="Felhő"/>
+		<item id="201" text="Pecsét"/>
+		<item id="202" text="Hiányjel"/>
+		<item id="203" text="Szövegdoboz"/>
+		<item id="204" text="Címke"/>
+		<item id="205" text="Szövegkiemelés"/>
+		<item id="206" text="Aláhúzás"/>
+		<item id="207" text="Áthúzás"/>
+		<item id="208" text="Fájlmelléklet"/>
+		<item id="209" text="Hang"/>
+		<item id="210" text="Szöveg formázása"/>
+		<item id="211" text="Nincs kitöltés"/>
+		<item id="212" text="Nincs vonal"/>
+		<item id="213" text="További színek..."/>
+		<item id="214" text="Eldöntetlen"/>
+		<item id="215" text="Meghatározatlan"/>
+		<item id="216" text="Szín"/>
+		<item id="217" text="Tulajdonságok..."/>
+		<item id="218" text="Nincs felismerve"/>
+		<item id="219" text="Ismeretlen"/>
+		<item id="220" text="Nincs"/>
+		<item id="221" text="Névtelen"/>
+		<item id="222" text="Megjelenés"/>
+		<item id="223" text="Megjelenés beállításai"/>
+		<item id="224" text="Leírás"/>
+		<item id="225" text="Leírás információ"/>
+		<item id="226" text="Betűtípusok"/>
+		<item id="227" text="A dokumentumban használt betűtípusok"/>
+		<item id="228" text="Biztonság"/>
+		<item id="229" text="Dokumentum biztonsága és korlátozásai"/>
+		<item id="230" text="Jelszavas védelem"/>
+		<item id="231" text="Nem engedélyezett"/>
+		<item id="232" text="Alacsony felbontás"/>
+		<item id="233" text="Magas felbontás"/>
+		<item id="234" text="Engedélyezve"/>
+		<item id="235" text="Összetevők betöltése..."/>
+		<item id="236" text="Inicializálás..."/>
+		<item id="237" text="Nincs"/>
+		<item id="238" text="Négyzet"/>
+		<item id="239" text="Kör"/>
+		<item id="240" text="Gyémánt"/>
+		<item id="241" text="Nyílhegy"/>
+		<item id="242" text="Nyíl"/>
+		<item id="243" text="Vonal"/>
+		<item id="244" text="Fordított nyílhegy"/>
+		<item id="245" text="Fordított nyíl"/>
+		<item id="246" text="Ferde vonal"/>
+		<item id="247" text="Könyvjelzők"/>
+		<item id="248" text="Oldalak"/>
+		<item id="249" text="Mezők"/>
+		<item id="250" text="Rétegek"/>
+		<item id="251" text="Megjegyzések"/>
+		<item id="252" text="Lap (dokumentum) bezárása"/>
+		<item id="253" text="%1 betűtípus a dokumentumban"/>
+		<item id="254" text="a(z) %1-ból"/>
+		<item id="255" text="%1&#10;Cím: %2&#10;Szerző: %3&#10;Tárgy: %4&#10;Kulcsszavak: %5&#10;Oldalak: %6"/>
+		<item id="256" text="%1. oldal"/>
+		<item id="257" text="%1. oldal: &#10;%2"/>
+		<item id="258" text="Keresés PDF-ben"/>
+		<item id="259" text="Dokumentum"/>
+		<item id="260" text="Dokumentum és megjegyzések"/>
+		<item id="261" text="Dokumentum és bélyegzők"/>
+		<item id="262" text="Csak űrlapadatok"/>
+		<item id="263" text="Mozgatás és nagyítás"/>
+		<item id="264" text="Nagyító"/>
+		<item id="265" text="Dokumentum mentésének megerősítése"/>
+		<item id="266" text="Dokumentum növekményes mentésének megerősítése"/>
+		<item id="267" text="Általános információ"/>
+		<item id="268" text="Név"/>
+		<item id="269" text="Típus"/>
+		<item id="270" text="Mappa"/>
+		<item id="271" text="Elérési út"/>
+		<item id="272" text="Fájlméret"/>
+		<item id="273" text="%1 bájt"/>
+		<item id="274" text="Módosítva"/>
+		<item id="275" text="PDF információ"/>
+		<item id="276" text="PDF verzió"/>
+		<item id="277" text="Oldalak"/>
+		<item id="278" text="Cím"/>
+		<item id="279" text="Tárgy"/>
+		<item id="280" text="Szerző"/>
+		<item id="281" text="Kulcsszavak"/>
+		<item id="282" text="Készítő"/>
+		<item id="283" text="Létrehozó"/>
+		<item id="284" text="Titkosítási információ"/>
+		<item id="285" text="%1-bit AES"/>
+		<item id="286" text="%1-bit RC4"/>
+		<item id="287" text="Szint"/>
+		<item id="288" text="Teljesen engedélyezve"/>
+		<item id="289" text="Nyomtatás"/>
+		<item id="290" text="Dokumentum módosítása"/>
+		<item id="291" text="Tartalom másolása vagy kivonása"/>
+		<item id="292" text="Megjegyzések és űrlapmezők készítése"/>
+		<item id="293" text="Űrlapmezők kitöltése vagy aláírása"/>
+		<item id="294" text="Tartalom hozzáférhetőségének engedélyezése"/>
+		<item id="295" text="Dokumentum összeállítása"/>
+		<item id="296" text="Dokumentum megnyitása, kis türelmet..."/>
+		<item id="297" text="&quot;%1&quot; megnyitása..."/>
+		<item id="298" text="&quot;%1&quot; letöltése..."/>
+		<item id="299" text="%1/%2 letöltve"/>
+		<item id="300" text="Dokumentum mentése, kis türelmet..."/>
+		<item id="301" text="Mentés ide: &quot;%1&quot;..."/>
+		<item id="302" text="Változtatások alkalmazása..."/>
+		<item id="303" text="Dokumentum írásának előkészítése..."/>
+		<item id="304" text="Dokumentum írása..."/>
+		<item id="305" text="Oldalak olvasása..."/>
+		<item id="306" text="Oldalinformációk összegyűjtése..."/>
+		<item id="307" text="Megjegyzések összegyűjtése..."/>
+		<item id="308" text="Mappa kiválasztása az új kép(ek) számára:"/>
+		<item id="309" text="Mappa kiválasztása a letöltött fájl(ok) számára:"/>
+		<item id="310" text="Átnézendő mappa kiválasztása:"/>
+		<item id="311" text="Grafikon"/>
+		<item id="312" text="Iratkapocs"/>
+		<item id="313" text="Melléklet"/>
+		<item id="314" text="Tag"/>
+		<item id="315" text="Fül"/>
+		<item id="316" text="Mikrofon"/>
+		<item id="317" text="Hang"/>
+		<item id="318" text="Pipa"/>
+		<item id="319" text="Kör"/>
+		<item id="320" text="Megjegyzés"/>
+		<item id="321" text="Kereszt"/>
+		<item id="322" text="Súgó"/>
+		<item id="323" text="Szöveg beszúrása"/>
+		<item id="324" text="Kulcs"/>
+		<item id="325" text="Új bekezdés"/>
+		<item id="326" text="Szöveges jegyzet"/>
+		<item id="327" text="Bekezdésjel"/>
+		<item id="328" text="Nyíl jobbra"/>
+		<item id="329" text="Mutató jobbra"/>
+		<item id="330" text="Csillag"/>
+		<item id="331" text="Felfelé mutató nyíl"/>
+		<item id="332" text="Balra-fel mutató nyíl"/>
+		<item id="333" text="Címke"/>
+		<item id="334" text="Szövegkiemelés"/>
+		<item id="335" text="Megjegyzés a szöveghez"/>
+		<item id="336" text="Aláhúzás"/>
+		<item id="337" text="Áthúzás"/>
+		<item id="338" text="Szöveg helyettesítés"/>
+		<item id="339" text="Magyarázó szövegdoboz"/>
+		<item id="340" text="Szövegdoboz"/>
+		<item id="341" text="Írógép"/>
+		<item id="342" text="Nyíl"/>
+		<item id="343" text="Vonal"/>
+		<item id="344" text="Téglalap"/>
+		<item id="345" text="Ovális"/>
+		<item id="346" text="Felhő"/>
+		<item id="347" text="Sokszögű vonal"/>
+		<item id="348" text="Sokszög"/>
+		<item id="349" text="Ceruza"/>
+		<item id="350" text="Oldal: %1/%2"/>
+		<item id="351" text="Nagyítás: %1"/>
+		<item id="352" text="Törli a &quot;Legutóbbi dokumentumok&quot; listát?"/>
+		<item id="353" text="BIZTOSÍTVA"/>
+		<item id="354" text="Megnyitás"/>
+		<item id="355" text="Mentés"/>
+		<item id="356" text="Mentés másként"/>
+		<item id="357" text="Másolat mentése mint"/>
+		<item id="358" text="Nyomtatás fájlba"/>
+		<item id="359" text="Kisegítő lehetőségek"/>
+		<item id="360" text="Kisegítő lehetőségek beállításai"/>
+		<item id="361" text="Zöld szöveg fekete háttéren"/>
+		<item id="362" text="Sárga szöveg fekete háttéren"/>
+		<item id="363" text="Fehér szöveg fekete háttéren"/>
+		<item id="364" text="Fekete szöveg fehér háttéren"/>
+		<item id="365" text="Teljes képernyő"/>
+		<item id="366" text="Teljes képernyő beállításai"/>
+		<item id="367" text="Elejtés tétlenség után"/>
+		<item id="368" text="Mindig látható"/>
+		<item id="369" text="Mindig elrejtve"/>
+		<item id="370" text="Pillanatkép eszköz"/>
+		<item id="371" text="Fényképező eszköz beállításai"/>
+		<item id="372" text="A &quot;%1&quot; dokumentum sérült.&#10;&#10;Az alkalmazás hibát észlelt:&#10;%2&#10;Javasolt a dokumentum újbóli mentése."/>
+		<item id="373" text="Egy vagy több XREF bejegyzés nem található."/>
+		<item id="374" text="Hiba az XREF táblázatban."/>
+		<item id="375" text="A referenciaobjektum leírása nem található egyik XREF bejegyzésben sem."/>
+		<item id="376" text="Hiba az objektum betöltése közben: érvénytelen objektum struktúra."/>
+		<item id="377" text="Hiba az objektum betöltésekor: misaligned object."/>
+		<item id="378" text="Érvénytelen ObjStream."/>
+		<item id="379" text="A kért értékek nem találhatók az utolsó trailerben."/>
+		<item id="380" text="A kért értékek nem találhatók a trailerekben."/>
+		<item id="381" text="Az objektum leírása nem található a jelen vagy előző bejegyzésben, de megvan a következőben (lineáris fájlokra érvényes)."/>
+		<item id="382" text="A &quot;%1&quot; forrásdokumentum megsérült.&#10;Növekményes mentés ezért nem használható a dokumentum mentésére.&#10;Szeretne teljes mentést? (Figyelmeztetés: a digitális aláírások elvesznek!)"/>
+		<item id="383" text="Címkézetlen"/>
+		<item id="384" text="Névtelen"/>
+		<item id="385" text="&lt;Ismeretlen szerző&gt; (%1)"/>
+		<item id="386" text="&lt;Ismeretlen dátum&gt; (%1)"/>
+		<item id="387" text="Oldal %1 (%2)"/>
+		<item id="388" text="%1 (%2)"/>
+		<item id="389" text="Érvénytelen érték: %s-nél nagyobb vagy azzal egyenlő szükséges."/>
+		<item id="390" text="Érvénytelen érték: %s-nél nagyobb vagy azzal egyenlő és %s-nél kisebb vagy egyenlő szükséges."/>
+		<item id="391" text="Érvénytelen érték: %s-nél kisebb vagy azzal egyenlő szükséges."/>
+		<item id="392" text="** Érvénytelen **"/>
+		<item id="393" text="Érvénytelen dátum/idő. A %field% mező formátuma: "/>
+		<item id="394" text="A megadott érték nem felel meg a(z) %s mező formátumának."/>
+		<item id="395" text="dé"/>
+		<item id="396" text="du"/>
+		<item id="397" text="Törli a(z) %1 könyvjelzőt és az összes al-könyvjelzőt?"/>
+		<item id="398" text="Törli a(z) %1 könyvjelzőt?"/>
+		<item id="399" text="%1: könyvjelzők törlése"/>
+		<item id="400" text="A jövőben figyelmeztetés nélkül is törölhet."/>
+		<item id="401" text="Könyvjelző tulajdonságai"/>
+		<item id="402" text="Több könyvjelző tulajdonságai"/>
+		<item id="403" text="Műveletek"/>
+		<item id="404" text="Műveletek listája"/>
+		<item id="405" text="Normál"/>
+		<item id="406" text="Félkövér"/>
+		<item id="407" text="Dőltbetűs"/>
+		<item id="408" text="Félkövér és dőltbetűs"/>
+		<item id="409" text="Ismeretlen művelet"/>
+		<item id="410" text="Ugrás oldalra e dokumentumban"/>
+		<item id="411" text="Ugrás oldalra egy másik dokumentumban"/>
+		<item id="412" text="Ugrás oldalra beágyazott dokumentumban"/>
+		<item id="413" text="Fájl megnyitása"/>
+		<item id="414" text="Cikk olvasása"/>
+		<item id="415" text="Webes link megnyitása"/>
+		<item id="416" text="Hang lejátszása"/>
+		<item id="417" text="Mozgókép lejátszása"/>
+		<item id="418" text="Megjegyzések és mezők megjelenítése/elrejtése"/>
+		<item id="419" text="Elnevezett parancs végrehajtása"/>
+		<item id="420" text="Űrlap elküldése"/>
+		<item id="421" text="Űrlap alaphelyzetbe állítása"/>
+		<item id="422" text="Űrlapadat importálása"/>
+		<item id="423" text="JavaScript futtatása"/>
+		<item id="424" text="Réteg láthatóságának beállítása"/>
+		<item id="425" text="Multimédia vezérlés"/>
+		<item id="426" text="Oldalak frissítése és átmenete"/>
+		<item id="427" text="Ugrás a 3D nézetre"/>
+		<item id="428" text="Nagyítás"/>
+		<item id="429" text="Örököl"/>
+		<item id="430" text="Szélesség"/>
+		<item id="431" text="Magasság"/>
+		<item id="432" text="Igazítás a magassághoz"/>
+		<item id="433" text="Igazítás a látható szélességhez"/>
+		<item id="434" text="Igazítás a látható magassághoz"/>
+		<item id="435" text="Fájl"/>
+		<item id="436" text="Művelet"/>
+		<item id="437" text="Paraméterek"/>
+		<item id="438" text="Nem törölheti a dokumentum összes oldalát. Legalább egy oldalnak meg kell maradnia."/>
+		<item id="439" text="Törli a %1 oldalt a dokumentumból?"/>
+		<item id="440" text="%1: oldal törlése"/>
+		<item id="441" text="Új művelet"/>
+		<item id="442" text="Művelet szerkesztése"/>
+		<item id="443" text="Törli a %1 műveletet?"/>
+		<item id="444" text="%1: művelet törlése"/>
+		<item id="445" text="A jövőben figyelmeztetés nélkül törölhet."/>
+		<item id="446" text="JavaScript"/>
+		<item id="447" text="JavaScript beállítások"/>
+		<item id="448" text="Regisztráció"/>
+		<item id="449" text="Regisztrációs adatok:"/>
+		<item id="450" text="Ln: %1"/>
+		<item id="451" text="Ln: %2"/>
+		<item id="452" text="BESZÚR"/>
+		<item id="453" text="ÁTÍR"/>
+		<item id="454" text="Ez a dokumentum JavaScriptet tartalmaz. Engedélyezi az összes JavaScript futását a dokumentumban? Tiltásuk esetén a dokumentum esetleg nem működik a megfelelően."/>
+		<item id="455" text="Ne mutassa ezt az üzenetet a dokumentum legközelebbi megnyitásáig."/>
+		<item id="456" text="JavasScript: %1"/>
+		<item id="457" text="Ez a funkció a PDF-XChange Viewer Pro változatban érhető el. További információ a Súgóban."/>
+		<item id="458" text="Egyéni méretezés"/>
+		<item id="459" text="&apos;Pro&apos; funkció figyelmeztetés"/>
+		<item id="460" text="Ez a funkció a PDF-XChange Viewer Pro változatban érhető el.&#10;Használhatja az ingyenes (Free) verzióban is, de akkor egy &apos;DEMO&apos; felirat kerül az elmentett oldalakra.&#10; E korlátozást a megvásárolható a &apos;Pro&apos; változat nem tartalmazza.&#10;Bővebb információért tekintse meg a Súgót vagy a termék weboldalát.&#10;&#10;Használja most a &apos;Pro&apos; funckiót?"/>
+		<item id="461" text="Áthelyezi a %1 oldalt?"/>
+		<item id="462" text="%1: oldal áthelyezése"/>
+		<item id="463" text="Fájl"/>
+		<item id="464" text="Szerkesztés"/>
+		<item id="465" text="Nézet"/>
+		<item id="466" text="Dokumentum"/>
+		<item id="467" text="Eszközök"/>
+		<item id="468" text="Ablak"/>
+		<item id="469" text="Súgó"/>
+		<item id="470" text="Felhasználó"/>
+		<item id="471" text="Levágó (crop) keret"/>
+		<item id="472" text="Kifutó keret"/>
+		<item id="473" text="Levágó (trim) keret"/>
+		<item id="474" text="Grafika keret"/>
+		<item id="475" text="Levágott oldal mérete: %1"/>
+		<item id="476" text="Kifutó keret mérete: %1"/>
+		<item id="477" text="Trim keret mérete: %1"/>
+		<item id="478" text="Grafika keret mérete: %1"/>
+		<item id="479" text="Érvénytelen előnézet"/>
+		<item id="480" text="Előnézet betöltése, kis türelmet..."/>
+		<item id="481" text="Titkosított"/>
+		<item id="482" text="A &quot;%1&quot; dokumentum védett. Nincs engedélye e célra használni."/>
+		<item id="483" text="%1: oldalak beillesztése"/>
+		<item id="484" text="E dokumentum rögzítése a Legutóbbi dokumentumok listáján (nem törlődik róla, ha a lista meghaladja a beállított értéket)"/>
+		<item id="485" text="E dokumentum rögzítésének megszüntetése a Legutóbbi dokumentumok listáján (törlődik, ha a lista meghaladja a beállított értéket)"/>
+		<item id="486" text="Legutóbb használt betűtípusok"/>
+		<item id="487" text="Minden betűtípus"/>
+		<item id="488" text="Nagyítási szintek"/>
+		<item id="489" text="Nagyítási módok"/>
+		<item id="490" text="Előtte"/>
+		<item id="491" text="Utána"/>
+		<item id="492" text="Standard színek"/>
+		<item id="493" text="Egyéni színek"/>
+		<item id="494" text="Fekete"/>
+		<item id="495" text="Barna"/>
+		<item id="496" text="Sötét olívzöld"/>
+		<item id="497" text="Sötétzöld"/>
+		<item id="498" text="Sötét pávakék"/>
+		<item id="499" text="Sötétkék"/>
+		<item id="500" text="Indigó"/>
+		<item id="501" text="Sötétszürke"/>
+		<item id="502" text="Sötétpiros"/>
+		<item id="503" text="Narancsszín"/>
+		<item id="504" text="Sötétsárga"/>
+		<item id="505" text="Zöld"/>
+		<item id="506" text="Pávakék"/>
+		<item id="507" text="Kék"/>
+		<item id="508" text="Kékesszürke"/>
+		<item id="509" text="40%-os szürke"/>
+		<item id="510" text="Vörös"/>
+		<item id="511" text="Világosnarancs"/>
+		<item id="512" text="Lime"/>
+		<item id="513" text="Tengerzöld"/>
+		<item id="514" text="Vízkék"/>
+		<item id="515" text="Világoskék"/>
+		<item id="516" text="Ibolyakék"/>
+		<item id="517" text="50%-os szürke"/>
+		<item id="518" text="Pink"/>
+		<item id="519" text="Aranyszín"/>
+		<item id="520" text="Sárga"/>
+		<item id="521" text="Élénkzöld"/>
+		<item id="522" text="Türkizkék"/>
+		<item id="523" text="Égszínkék"/>
+		<item id="524" text="Szilvakék"/>
+		<item id="525" text="Világosszürke"/>
+		<item id="526" text="Rózsaszín"/>
+		<item id="527" text="Bronzvörös"/>
+		<item id="528" text="Világossárga"/>
+		<item id="529" text="Sápadtzöld"/>
+		<item id="530" text="Sápadt türkizkék"/>
+		<item id="531" text="Sápadtkék"/>
+		<item id="532" text="Levendula"/>
+		<item id="533" text="Fehér"/>
+		<item id="534" text="Megjegyzések"/>
+		<item id="535" text="Megjegyzések beállításai"/>
+		<item id="536" text="Oldalak törlése, kis türelmet..."/>
+		<item id="537" text="Oldalak áthelyezése, kis türelmet..."/>
+		<item id="538" text="Oldalak beillesztése, kis türelmet..."/>
+		<item id="539" text="Oldalak kivonása, kis türelmet..."/>
+		<item id="540" text="Másolja a(z) %1 oldat?"/>
+		<item id="541" text="%1: oldal(ak) másolása"/>
+		<item id="542" text="Radír eszköz tulajdonságai"/>
+		<item id="543" text="Bélyegző paletta"/>
+		<item id="544" text="Új bélyegző"/>
+		<item id="545" text="Új bélyegző kollekció"/>
+		<item id="546" text="Ez a kollekció még tartalmaz bélyegzőket. Biztosan törli?"/>
+		<item id="547" text="%1: bélyegző kollekció törlése"/>
+		<item id="548" text="Legutóbbi dokumentumok listájának törlése"/>
+		<item id="549" text="Törli a &quot;Legutóbbi dokumentumok&quot; listát? Ez nem törli magát a dokumentumokat."/>
+		<item id="550" text="Igen, az összes nem rögzítettet"/>
+		<item id="551" text="Szöveg tulajdonságai"/>
+		<item id="552" text="Tartalom"/>
+		<item id="553" text="Szövegtartalom: sima szöveg"/>
+		<item id="554" text="Formálás"/>
+		<item id="555" text="Szövegformálás: betűtípus, méret, stb."/>
+		<item id="556" text="Betűtípus"/>
+		<item id="557" text="Betűméret"/>
+		<item id="558" text="Vízszintes méretezés"/>
+		<item id="559" text="Alap eltolás"/>
+		<item id="560" text="Objektum betöltési figyelmeztetés: az objektum sérült."/>
+		<item id="561" text="Eszköztárak"/>
+		<item id="562" text="Parancsok"/>
+		<item id="563" text="Beállítások"/>
+		<item id="564" text="Formátum"/>
+		<item id="565" text="Általános"/>
+		<item id="566" text="Dokumentum"/>
+		<item id="567" text="Oldalnézet"/>
+		<item id="568" text="Bélyegkép nézet"/>
+		<item id="569" text="Könyvjelző nézet"/>
+		<item id="570" text="Megjegyzés nézet"/>
+		<item id="571" text="Réteg nézet"/>
+		<item id="572" text="Űrlapmező nézet"/>
+		<item id="573" text="Melléklet nézet"/>
+		<item id="574" text="Szövegszerkesztő"/>
+		<item id="575" text="Bélyegző paletta"/>
+		<item id="576" text="Keresési nézet"/>
+		<item id="577" text="Javascript konzol"/>
+		<item id="578" text="Nagyító ablak"/>
+		<item id="579" text="Mozgatás és nagyítás ablak"/>
+		<item id="580" text="Alapértelmezett"/>
+		<item id="581" text="Nincs billentyűparancs"/>
+		<item id="582" text="Ez a billentyűparancs használható."/>
+		<item id="583" text="Ez a billentyűparancst már használatban van."/>
+		<item id="584" text="Ez a billentyűparancs a %1 parancsohoz van rendelve."/>
+		<item id="585" text="Renderelés"/>
+		<item id="586" text="Renderelési beállítások"/>
+		<item id="587" text="Egyéni"/>
+		<item id="588" text="Keresendő kifejezés..."/>
+		<item id="589" text="Nem kritikus hiba az XREF táblázatban."/>
+		<item id="590" text="Jegyzetek egyesítése/eltávolítása, kis türelmet..."/>
+		<item id="591" text="Egyesítés"/>
+		<item id="592" text="Hagyja így"/>
+		<item id="593" text="Eltávolítás"/>
+		<item id="594" text="Egyesíti/törli a dokumentumhoz adott jegyzeteket?"/>
+		<item id="595" text="%1: jegyzetek egyesítése/eltávolítása"/>
+		<item id="596" text="Törli az egyéni eszköztárakat és menüket?"/>
+		<item id="597" text="%1: egyéni eszköztárak törlése"/>
+		<item id="598" text="Hiba az oldalak kivonása közben innen &quot;%1&quot;:&#10;%2"/>
+		<item id="599" text="%1: oldalak kivonása"/>
+		<item id="600" text="Hiba a jegyzetek egyesítése közben itt &quot;%1&quot;:&#10;%2"/>
+		<item id="601" text="Hiba az oldalak beszúrása közben ide &quot;%1&quot;:&#10;%2"/>
+		<item id="602" text="Hiba az oldalak törlése közben itt: &quot;%1&quot;:&#10;%2"/>
+		<item id="603" text="Adatfolyam beolvasása..."/>
+		<item id="604" text="Beolvasva %1"/>
+		<item id="605" text="Dokumentum megnyitása adatfolyamból..."/>
+		<item id="606" text="Dokumentum elmentése adatfolyamba..."/>
+		<item id="607" text="%1-ból %2 mentve"/>
+		<item id="608" text="Dokumentum megnyitása..."/>
+		<item id="609" text="Ne kérdezzen rá a jövőben"/>
+		<item id="610" text="Másolja a(z) %1 oldalt a %2-ból a %3-ba?"/>
+		<item id="611" text="Áthelyezi a(z) %1 oldalt a %2-ból a %3-ba?"/>
+		<item id="612" text="Linkek"/>
+		<item id="613" text="Mérés"/>
+		<item id="614" text="Távolságmérés tulajdonságai"/>
+		<item id="615" text="Kerületmérés tulajdonságai"/>
+		<item id="616" text="Területmérés tulajdonságai"/>
+		<item id="617" text="Vonal tulajdonságai"/>
+		<item id="618" text="Sokszögű vonal tulajdonságai"/>
+		<item id="619" text="Sokszög tulajdonságai"/>
+		<item id="620" text="Link szerkesztő eszköz tulajdonságai"/>
+		<item id="621" text="Link tulajdonságai"/>
+		<item id="622" text="Nincs"/>
+		<item id="623" text="Invertálás"/>
+		<item id="624" text="Körvonal"/>
+		<item id="625" text="Betét"/>
+		<item id="626" text="Megjegyzések"/>
+		<item id="627" text="%1: megjegyzések összesítése"/>
+		<item id="628" text="Hiba a megjegyzések összesítése közben innen: &quot;%1&quot;:&#10;%2"/>
+		<item id="629" text="Megjegyzések összegzése, kis türelmet..."/>
+		<item id="630" text="Megjegyzések exportálása, kis türelmet..."/>
+		<item id="631" text="%1: megjegyzések exportálása"/>
+		<item id="632" text="Hiba a megjegyzések exportálása közben innen: &quot;%1&quot;:&#10;%2"/>
+		<item id="633" text="Megjegyzések exportálása"/>
+		<item id="634" text="Adobe XFDF fájl (*.xfdf)"/>
+		<item id="635" text="Oldal"/>
+		<item id="636" text="Típus"/>
+		<item id="637" text="Szerző"/>
+		<item id="638" text="Dátum"/>
+		<item id="639" text="Rendezés"/>
+		<item id="640" text="PDF fájl (*.pdf)"/>
+		<item id="641" text="Rich Text Formátum (*.rtf)"/>
+		<item id="642" text="Egyszerű szöveg (*.txt)"/>
+		<item id="643" text="Weblap (*.html)"/>
+		<item id="644" text="Csak a megjegyzések"/>
+		<item id="645" text="Dokumentum és megjegyzések összekötő vonalakkal egy oldalon"/>
+		<item id="646" text="Dokumentum és sorszámozott megjegyzések egy oldalon"/>
+		<item id="647" text="Dokumentum és megjegyzések egy oldalon"/>
+		<item id="648" text="Dokumentum és megjegyzések összekötő vonalakkal külön oldalakon"/>
+		<item id="649" text="Dokumentum és sorszámozott megjegyzések külön oldalakon"/>
+		<item id="650" text="Dokumentum és megjegyzések külön oldalakon"/>
+		<item id="651" text="Célmappa kiválasztása az új fájl(ok) számára:"/>
+		<item id="652" text="Megjegyzések rendezése..."/>
+		<item id="653" text="Új dokumentum készítése..."/>
+		<item id="654" text="Oldalak másolása az eredeti dokumentumból..."/>
+		<item id="655" text="Új weblap készítése..."/>
+		<item id="656" text="Eszköztár átnevezése"/>
+		<item id="657" text="Távolságmérés"/>
+		<item id="658" text="Kerületmérés"/>
+		<item id="659" text="Területmérés"/>
+		<item id="660" text="Törölje a kiválasztott linkeket?"/>
+		<item id="661" text="%1: link törlése"/>
+		<item id="662" text="%1: üres oldalak beillesztése"/>
+		<item id="663" text="Automatikus"/>
+		<item id="664" text="Távolság:"/>
+		<item id="665" text="Kerület:"/>
+		<item id="666" text="Terület:"/>
+		<item id="667" text="Szög:"/>
+		<item id="668" text="ΔX:"/>
+		<item id="669" text="ΔY:"/>
+		<item id="670" text="Lépték:"/>
+		<item id="671" text="Távolság információ"/>
+		<item id="672" text="Kerület információ"/>
+		<item id="673" text="Terület információ"/>
+		<item id="674" text="Aláhúzás"/>
+		<item id="675" text="Link tulajdonságai"/>
+		<item id="676" text="Többszörös link tulajdonságai"/>
+		<item id="677" text="ft"/>
+		<item id="678" text="yd"/>
+		<item id="679" text="m"/>
+		<item id="680" text="km"/>
+		<item id="681" text="mi"/>
+		<item id="682" text="egyéni"/>
+		<item id="683" text="cm2"/>
+		<item id="684" text="in2"/>
+		<item id="685" text="mm2"/>
+		<item id="686" text="p2"/>
+		<item id="687" text="pt2"/>
+		<item id="688" text="ft2"/>
+		<item id="689" text="yd2"/>
+		<item id="690" text="m2"/>
+		<item id="691" text="km2"/>
+		<item id="692" text="mi2"/>
+		<item id="693" text="Mérési eredmények exportálása, kis türelmet..."/>
+		<item id="694" text="%1: mérés exportálása"/>
+		<item id="695" text="Hiba a mérések exportálása közben innen: &quot;%1&quot;:&#10;%2"/>
+		<item id="696" text="Mérési eredmények exportálása"/>
+		<item id="697" text="Adjon meg egy akciót..."/>
+		<item id="698" text="Új dokumentum készítése"/>
+		<item id="699" text="Új dokumentum készítése, kis türelmet..."/>
+		<item id="700" text="Minden újsor karakter új bekezdést indít"/>
+		<item id="701" text="Új bekezdés csak kettős újsor karakter hatására, az egyesek kihagyása"/>
+		<item id="702" text="Új bekezdés csak kettős újsor karakter hatására, az egyesek szóközzé alakulnak"/>
+		<item id="703" text="Tárgy"/>
+		<item id="704" text="Dokumentum beállításai"/>
+		<item id="705" text="Navigáció az oldalak közt"/>
+		<item id="706" text="Oldalak elrendezése"/>
+		<item id="707" text="Dokumentum indítása"/>
+		<item id="708" text="Cím"/>
+		<item id="709" text="Kiterjesztés"/>
+		<item id="710" text="Hely"/>
+		<item id="711" text="Méret"/>
+		<item id="712" text="Módosítva"/>
+		<item id="713" text="Új dokumentum készítése..."/>
+		<item id="714" text="Forrásfájlokat tartalmazó mappa:"/>
+		<item id="715" text="Keressen az almappákban is?"/>
+		<item id="716" text="Speciális"/>
+		<item id="717" text="Oszlopok"/>
+		<item id="718" text="Oszlopok beállítása"/>
+		<item id="719" text="Szövegfájl fejléce"/>
+		<item id="720" text="Szövegfájl fejlécének beállításai"/>
+		<item id="721" text="Minden szövegfájlt új bekezdésbe helyez"/>
+		<item id="722" text="Minden szövegfájlt új oldalra helyez"/>
+		<item id="723" text="Beállítások"/>
+		<item id="724" text="Elrendezés"/>
+		<item id="725" text="Képek elrendezésének beállításai"/>
+		<item id="726" text="Felbontás csökkentése/átalakítás"/>
+		<item id="727" text="Kép konverzió/felbontás csökkentése beállítások"/>
+		<item id="728" text="Fent"/>
+		<item id="729" text="Lent"/>
+		<item id="730" text="Bal"/>
+		<item id="731" text="Jobb"/>
+		<item id="732" text="Középen"/>
+		<item id="733" text="Nincs felbontáscsökkentés"/>
+		<item id="734" text="Lineáris felbontáscsökkentés"/>
+		<item id="735" text="Bilineáris felbontáscsökkentés"/>
+		<item id="736" text="Kettős köbös felbontáscsökkentés"/>
+		<item id="737" text="Nincs átalakítás"/>
+		<item id="738" text="Átalakítás szürkeárnyalatossá"/>
+		<item id="739" text="Átalakítás monokrómmá"/>
+		<item id="740" text="Átalakítás fekete-fehérré"/>
+		<item id="741" text="Illesztés"/>
+		<item id="742" text="Dokumentum metaadatok"/>
+		<item id="743" text="Speciális"/>
+		<item id="744" text="Dokumentum metaadatainak sruktúrája"/>
+		<item id="745" text="Összetett[%2]: papír &apos;%1&apos;"/>
+		<item id="746" text="px"/>
+		<item id="747" text="Lapolvasás..."/>
+		<item id="748" text="%1. beolvasott kép"/>
+		<item id="749" text="Info"/>
+		<item id="750" text="Kódolás"/>
+		<item id="751" text="Típus: %1"/>
+		<item id="752" text="Kép: %1"/>
+		<item id="753" text="Oldalak: %1"/>
+		<item id="754" text="Lapok: %1, összesen %2"/>
+		<item id="755" text="Összesen %1 fájl"/>
+		<item id="756" text="Normál nézet"/>
+		<item id="757" text="Összetett nézet"/>
+		<item id="758" text="Címkék"/>
+		<item id="759" text="Képek címkéinek beállítása"/>
+		<item id="760" text="Papír: &apos;%1&apos;"/>
+		<item id="761" text="Oldal: %1 (%2. mozaik a %3-ból)"/>
+		<item id="762" text="Vízszintes"/>
+		<item id="763" text="Vizszintes visszafelé"/>
+		<item id="764" text="Függőleges"/>
+		<item id="765" text="Függőleges visszafelé"/>
+		<item id="766" text="Egyéni"/>
+		<item id="767" text="fekvő (%1 ° balra)"/>
+		<item id="768" text="Mindet kihagyja"/>
+		<item id="769" text="Brosúra"/>
+		<item id="770" text="Könyv"/>
+		<item id="771" text="Mindkettő"/>
+		<item id="772" text="Elől"/>
+		<item id="773" text="Hátul"/>
+		<item id="774" text="Könyvecske"/>
+		<item id="775" text="Nincs kiválasztott oldal"/>
+		<item id="776" text="Hiba a képek elhelyezése közben innen: &quot;%1&quot;:&#10;%2"/>
+		<item id="777" text="Hiba a szöveg elhelyezése közben innen: &quot;%1&quot;:&#10;%2"/>
+		<item id="778" text="dpi"/>
+		<item id="779" text="Felbontás: %1 dpi"/>
+		<item id="780" text="Mindig"/>
+		<item id="781" text="Beágyazott betűtípusoknak"/>
+		<item id="782" text="Automatikus megállapítás"/>
+		<item id="783" text="(összesen %1, %2 kiválasztva)"/>
+		<item id="784" text="%1. oldal"/>
+		<item id="785" text="Utoljára használt mappa"/>
+		<item id="786" text="Eredeti dokumentum mappája"/>
+		<item id="787" text="&quot;Mentés másként&quot; alapértelmezett célmappája:"/>
+		<item id="788" text="Szeretné az alkalmazás összes beállítását alaphelyzetbe állítani?"/>
+		<item id="789" text="Váltás másik felhasználóra"/>
+		<item id="790" text="Váltás a tulajdonosra"/>
+		<item id="791" text="Hiba a felhasználóváltás közben &quot;%1&quot;:&#10;%2"/>
+		<item id="792" text="Hiba a tulajdonosra váltás közben &quot;%1&quot;:&#10;%2"/>
+		<item id="793" text="Adjon meg egy érvényes tulajdonosi jelszót a teljes hozzáféréshez:"/>
+		<item id="794" text="Adjon meg egy érvényes feljhasználói jelszót az engedélyezett hozzáféréshez:"/>
+		<item id="795" text="Minden beállítás importálása"/>
+		<item id="796" text="Minden beállítás exportálása"/>
+		<item id="797" text="Hiba a beállításokat tartalmazó &quot;%1&quot; fájl megnyitása közben, a fájl nem tartalmaz beállítási adatokat: %2"/>
+		<item id="798" text="Hiba az alkalmazás beállításainak &quot;%1&quot; fájlba mentése közben:&#10;%2"/>
+		<item id="799" text="Új beállításokat ad meg az alkalmazás számára? A jelenlegi beállítások elvesznek."/>
+		<item id="800" text="%1 még fut."/>
+		<item id="801" text="A program ablakának megjelenítéséhez kattintson a(z) %1 ikonra."/>
+		<item id="802" text="Alapértelmezett stílus"/>
+		<item id="803" text="Új stílus"/>
+		<item id="804" text="%1 másolat"/>
+		<item id="805" text="Klónozás"/>
+		<item id="806" text="Kijelölt stílus klónozása"/>
+		<item id="807" text="Alaphelyzet"/>
+		<item id="808" text="Kijelölt stílusok alaphelyzetbe állítása"/>
+		<item id="809" text="Törlés"/>
+		<item id="810" text="Kijelölt stílusok törlése"/>
+		<item id="811" text="Néhány beállítás érvénytelen vagy nem kompatibilis. Kérjük, ellenőrizze, javítsa és próbálja újra."/>
+		<item id="812" text="Egyenes aláhúzás"/>
+		<item id="813" text="Hullámos aláhúzás"/>
+		<item id="814" text="Képfeldolgozás..."/>
+		<item id="815" text="Többszörös jegyzetet tulajdonságai"/>
+		<item id="816" text="Szegély stílus:"/>
+		<item id="817" text="Szegély vastagság:"/>
+		<item id="818" text="Vonal kezdet stílusa:"/>
+		<item id="819" text="Vonal végződés stílusa:"/>
+		<item id="820" text="Vonalszín:"/>
+		<item id="821" text="Kitöltőszín"/>
+		<item id="822" text="Átlátszatlanság:"/>
+		<item id="823" text="Ikon:"/>
+		<item id="824" text="Aláhúzás stílusa:"/>
+		<item id="825" text="Kiemelés módja:"/>
+		<item id="826" text="Vezetővonal"/>
+		<item id="827" text="Vezetővonal beállításai:"/>
+		<item id="828" text="Gyártó:"/>
+		<item id="829" text="Típus:"/>
+		<item id="830" text="Nem lehet új dokumentumot létrehozni a lapolvasásból: &#10;%1"/>
+		<item id="831" text="Nem lehet új dokumentumot létrehozni a képekból:&#10;%1"/>
+		<item id="832" text="Nem lehet új dokumentumot létrehozni a szövegből:&#10;%1"/>
+		<item id="833" text="Űrlapok"/>
+		<item id="834" text="Űrlap beállítások"/>
+		<item id="835" text="Válasz tulajdonságai"/>
+		<item id="836" text="Dekódolás előkészítése, kis türelmet..."/>
+		<item id="837" text="Kép dekódolása"/>
+		<item id="838" text="Téglalap"/>
+		<item id="839" text="Sokszögű vonal"/>
+		<item id="840" text="Távolság"/>
+		<item id="841" text="Írógép"/>
+		<item id="842" text="Magyarázat"/>
+		<item id="843" text="Kerület"/>
+		<item id="844" text="Terület"/>
+		<item id="845" text="Felhő"/>
+		<item id="846" text="Csere"/>
+		<item id="847" text="Papír"/>
+		<item id="848" text="Papír beállításai"/>
+		<item id="849" text="Megjegyzés stílusok palettája"/>
+		<item id="850" text="Űrlapadatok exportálása másként"/>
+		<item id="851" text="Adobe FDF fájl (*.fdf)"/>
+		<item id="852" text="Szövegfájl (*.txt)"/>
+		<item id="853" text="Nem lehet új megjegyzés stílust létrehozni: túl sok stílus van használatban. &#10;Töröljön néhány nem használatosat és próbálja újra."/>
+		<item id="854" text="Megjegyzés stílus átnevezése"/>
+		<item id="855" text="Adjon meg egy új nevet a megjegyzés stílusnak:"/>
+		<item id="856" text="Törli a kiválasztott megjegyzés stílusokat?"/>
+		<item id="857" text="Alaphelyzetbe állítja a kiválasztott megjegyzés stílusokat?"/>
+		<item id="858" text="Alaphelyzetbe állítja kiválasztott megjegyzést?&#10;A kiválaztott megjegyzések minden egyéni stílusa törölve lesz, csak az alapértelmezett marad meg."/>
+		<item id="859" text="Dokumentum"/>
+		<item id="860" text="Más"/>
+		<item id="861" text="Nincs ablak"/>
+		<item id="862" text="Űrlapadatot tartalmazó fájl kiválasztása"/>
+		<item id="863" text="Cél neve"/>
+		<item id="864" text="A felhasználó beállításaianak megfelelően"/>
+		<item id="865" text="Létező ablak"/>
+		<item id="866" text="Új ablak"/>
+		<item id="867" text="Minden fájl (*.*)"/>
+		<item id="868" text="&quot;Fájl megnyitása&quot; alapértelmezett mappájának beállítása"/>
+		<item id="869" text="Hiba a dokumentum külsö tárolóra mentése közben.&#10;&quot;%1&quot;"/>
+		<item id="870" text="Megjegyzések feldolgozása..."/>
+		<item id="871" text="Bélyegző átnevezése"/>
+		<item id="872" text="Adjon meg egy új bélyegző nevet:"/>
+		<item id="873" text="Törli a kiválasztott bélyegzőt?"/>
+		<item id="874" text="Be szeretné zárni az összes megnyitott dokumentumot?"/>
+		<item id="875" text="%1 a %2-ból"/>
+		<item id="876" text="Ismeretlen művelet"/>
+		<item id="877" text="Vegyes művelet"/>
+		<item id="878" text="Módosítás"/>
+		<item id="879" text="Megjegyzés módosítása"/>
+		<item id="880" text="Megjegyzések módosítása"/>
+		<item id="881" text="Könyvjelző módosítása"/>
+		<item id="882" text="Könyvjelzők módosítása"/>
+		<item id="883" text="Megjegyzés törlése"/>
+		<item id="884" text="Könyvjelzők törlése"/>
+		<item id="885" text="Szöveg beszúrása"/>
+		<item id="886" text="Szöveg törlése"/>
+		<item id="887" text="Szöveg beillesztése"/>
+		<item id="888" text="Szöveg formátum módosítása"/>
+		<item id="889" text="Szöveg betűtípusának módosítása"/>
+		<item id="890" text="Szöveg méretének módosítása"/>
+		<item id="891" text="Szöveg színének módosítása"/>
+		<item id="892" text="Bekezdés formátumának módosítása"/>
+		<item id="893" text="Bekezdés igazításának módosítása"/>
+		<item id="894" text="Szöveg és bekezdés formátumának beállítása"/>
+		<item id="895" text="Szöveg és bekezdés formátumának törlése"/>
+		<item id="896" text="Szöveg és bekezdés alapértelmezett formátumának használata"/>
+		<item id="897" text="Nincs művelet"/>
+		<item id="898" text="Megjegyzések importálása"/>
+		<item id="899" text="%1 megjegyzések importálása"/>
+		<item id="900" text="Hiba a megjegyzések importálása közben innen: %1&#10;%2"/>
+		<item id="901" text="Igen"/>
+		<item id="902" text="Nem"/>
+		<item id="903" text="Java Script konzol"/>
+		<item id="904" text="Megjegyzés stílus paletta"/>
+		<item id="905" text="Fejlesztés"/>
+		<item id="906" text="FIGYELMEZTETÉS: e parancs billentyűparancsa ütközik egy másikéval.&#10;Használja mégis ezt? A másik parancsra vonatkozó billentyűparancs legyen eltávolítva?"/>
+		<item id="907" text="Ütközést találtam.&#10;Kattintson ide a részletekért."/>
+		<item id="908" text="Nincs ütközés."/>
+		<item id="909" text="Megjegyzések beállításai"/>
+		<item id="910" text="Megjegyzés stílus paletta"/>
+		<item id="911" text="Eszköz"/>
+		<item id="912" text="Oldal tulajdonságai..."/>
+		<item id="913" text="Oldalak tulajdonságai..."/>
+		<item id="914" text="Tab sorrend"/>
+		<item id="915" text="Oldalfülek sorrendje"/>
+		<item id="916" text="Egérgomb lenyomás"/>
+		<item id="917" text="Egérgomb felengedése"/>
+		<item id="918" text="Egér fel"/>
+		<item id="919" text="Egér le"/>
+		<item id="920" text="Fókusz"/>
+		<item id="921" text="Elhagyás"/>
+		<item id="922" text="Oldal nyitva"/>
+		<item id="923" text="Oldal bezárva"/>
+		<item id="924" text="Oldal látható marad"/>
+		<item id="925" text="Oldal láthatatlan marad"/>
+		<item id="926" text="Oldal megnyitása"/>
+		<item id="927" text="Oldal bezárása"/>
+		<item id="928" text="Billentyű leütés"/>
+		<item id="929" text="Mező formátuma"/>
+		<item id="930" text="Mező érvényesítése"/>
+		<item id="931" text="Mező kiszámolása"/>
+		<item id="932" text="Bezárás előtt"/>
+		<item id="933" text="Mentés előtt"/>
+		<item id="934" text="Mentés után"/>
+		<item id="935" text="Nyomtatás előtt"/>
+		<item id="936" text="Nyomtatás után"/>
+		<item id="937" text="Kezdeti nézet"/>
+		<item id="938" text="Dokumentum kezdeti nézete"/>
+		<item id="939" text="Egy ütközést találtam:&#10;%1"/>
+		<item id="940" text="Melléklet panel és oldal"/>
+		<item id="941" text="Rétegek panel és oldal"/>
+		<item id="942" text="Fájlnév"/>
+		<item id="943" text="Dokumentum címe"/>
+		<item id="944" text="Megjegyzés törlése"/>
+		<item id="945" text="Dokumentum tulajdonságainak módosítása"/>
+		<item id="946" text="Új megjegyzés hozzáadása"/>
+		<item id="947" text="Keresőszolgáltatók"/>
+		<item id="948" text="Keresőszolgáltatók kezelése"/>
+		<item id="949" text="Új megjegyzések hozzáadása"/>
+		<item id="950" text="A keresőszolgáltatót nem lehet hozzáadni.&#10;A keresési eremény URL-nak a TEST szót kell tartalmaznia.&#10;Lehet, hogy ezzel az eszközzel nem tud lekérdezést készíteni a szolgáltatónál."/>
+		<item id="951" text="A keresőszolgáltatót nem lehet hozzáadni.&#10;Az új keresőszolgáltatót leíró fájlt nem lehet tárolni."/>
+		<item id="952" text="Törölni szeretné a keresőszolgáltató leírását? Ezt a műveletet nem lehet visszavonni."/>
+		<item id="953" text="Keresőszolgáltatók"/>
+		<item id="954" text="Válasz hozzáadása"/>
+		<item id="955" text="Űrlapmező módosítása"/>
+		<item id="956" text="Űrlap módosítása"/>
+		<item id="957" text="Űrlap törlése"/>
+		<item id="958" text="Nem biztonságos"/>
+		<item id="959" text="Adjon meg egy érvényes felhasználói vagy tulajdonosi jelszót:"/>
+		<item id="960" text="Adjon meg egy érvényes tulajdonosi jelszót:"/>
+		<item id="961" text="Adjon meg egy érvényes jelszót a beágyazott fájloknak:"/>
+		<item id="962" text="Linkek módosítása"/>
+		<item id="963" text="Link módosítása"/>
+		<item id="964" text="Új linkek hozzáadása"/>
+		<item id="965" text="Új link hozzáadása"/>
+		<item id="966" text="Linkek törlése"/>
+		<item id="967" text="Link törlése"/>
+		<item id="968" text="Válasz módosítása"/>
+		<item id="969" text="Acrobat %1 és újabb"/>
+		<item id="970" text="A dokumentum egész tartalma"/>
+		<item id="971" text="A dokumentum egész tartalma kivéve a metaadatokat"/>
+		<item id="972" text="Csak a mellékletek"/>
+		<item id="973" text="40-bit RC4"/>
+		<item id="974" text="128-bit RC4"/>
+		<item id="975" text="128-bit AES"/>
+		<item id="976" text="256-bit AES"/>
+		<item id="977" text="A dokumentum teljes tartama titkosítva lesz, a keresők nem férnek hozzá a dokumentum metaadataihoz."/>
+		<item id="978" text="A dokumentum teljes tartama titkosítva lesz, de a keresők hozzáférnek a dokumentum metaadataihoz."/>
+		<item id="979" text="Csak a beágyazott fájlokat titkosítja, amíg azok a dokumentumban vannak. A dokumentum többi része titkosítatlan marad."/>
+		<item id="980" text="Fájlmelléklet megnyitásának jelszava:"/>
+		<item id="981" text="Dokumentum megnyitásának jelszava:"/>
+		<item id="982" text="Jelszó szükséges a fájlmellékletek megnyitásához"/>
+		<item id="983" text="Jelszó szükséges a dokumentum megnyitásához"/>
+		<item id="984" text="Szöveg, kép és egyéb tartalom másolásának, valamint gyengénlátók kisegítő lehetőségeinek engedélyezése"/>
+		<item id="985" text="Szöveg, kép és egyéb tartalom másolásának engedélyezése"/>
+		<item id="986" text="Megjegyzések, űrlapok kitöltése és létező aláírómezők aláírása"/>
+		<item id="987" text="Oldalak elrendezése, űrlapok kitöltése és létező aláírómezők aláírása"/>
+		<item id="988" text="Minden, kivéve az oldalak kivonása"/>
+		<item id="989" text="Oldalak beszúrása, törlése és forgatása"/>
+		<item id="990" text="Űrlapok kitöltése és létező aláírómezők aláírása"/>
+		<item id="991" text="Biztos, hogy eltávolítja a dokumentum biztonsági beállításait?"/>
+		<item id="992" text="Biztos, hogy módosítja a dokumentum biztonsági beállításait?"/>
+		<item id="993" text="A dokumentum megnyitási jelszó és/vagy az engedélyezési jelszó szükséges.&#10;&#10;Kattintson a Mégsem gombra a jelszó biztonsági beállító lapon, majd állítsa a biztonsági módot &quot;nincs biztonság&quot;-ra."/>
+		<item id="994" text="Törölje a &quot;A dokumentum megnyitásához jelszó szükséges&quot; lehetőséget, vagy írjon be egy jelszót."/>
+		<item id="995" text="Törölje a &quot;A dokumentum engedélyeinek módosításához jelszó szükséges&quot; lehetőséget, vagy írjon be egy jelszót."/>
+		<item id="996" text="A dokumentum megnyitásához és az engedélyek módosításához szükséges jelszavak nem egyezhetnek. Adjon meg különböző jelszavakat."/>
+		<item id="997" text="Adja meg a fájlmelléklet megnyitásának jelszavát."/>
+		<item id="998" text="Új ragadós cetli hozzáadása"/>
+		<item id="999" text="Könyvjelző törlése"/>
+		<item id="1000" text="Új könyjelző hozzáadása"/>
+		<item id="1001" text="Könyvjelző áthelyezése"/>
+		<item id="1002" text="Könyvjelzők áthelyezése"/>
+		<item id="1003" text="Létező dokumentumot nyithat meg kettős kattintással..."/>
+		<item id="1004" text="Nem lehet minden beállítást menteni a &quot;%1&quot; fájlba."/>
+		<item id="1005" text="Nem lehet a dokumentumot emailben küldeni.&#10;&#10;%1"/>
+		<item id="1006" text="Szöveg keresése ezzel: &quot;%1&quot;"/>
+		<item id="1007" text="Írjon be egy online keresendő szöveget."/>
+		<item id="1008" text="Néhány dokumentum megnyitásra vár..."/>
+		<item id="1009" text="Megjegyzések beillesztése a vágólapról"/>
+		<item id="1010" text="Megjegyzés beillesztése a vágólapról"/>
+		<item id="1011" text="Új könyjelzők hozzáadása"/>
+		<item id="1012" text="Könyvjelzők beillesztése a vágólapról"/>
+		<item id="1013" text="Könyvjelző beillesztése a vágólapról"/>
+		<item id="1014" text="Néhány PRO szolgáltatást is használt a dokumentumban,&#10;azonban az Ön az ingyenes verziót használja, ezért a mentés egy DEMO vízjelet helyez el minden oldalon.&#10;Vízjel nélküli mentéshez vásárolja meg a PRO verziót. A részleteket megtalálja a Súgóban vagy a honlapunkon.&#10;&#10;Mentse a dokumentumot DEMO vízjelekkel?"/>
+		<item id="1015" text="Várjon míg az előnézet megjelenik..."/>
+		<item id="1016" text="&lt;Nincs&gt;"/>
+		<item id="1017" text="Én vagyok a dokumentum szerzője"/>
+		<item id="1018" text="Egyetértek a dokumentum egyes részeivel"/>
+		<item id="1019" text="Áttekintettem a dokumentumot"/>
+		<item id="1020" text="Jóváhagyom a dokumentumot"/>
+		<item id="1021" text="Igazolom a dokumentum helyességét és sértetlenségét"/>
+		<item id="1022" text="Az aláírásommal igazolom, hogy egyetértek a leírt feltételekkel."/>
+		<item id="1023" text="Automatikus"/>
+		<item id="1024" text="Balról jobbra"/>
+		<item id="1025" text="Jobbról balra"/>
+		<item id="1026" text="1024-bit RSA"/>
+		<item id="1027" text="2048-bit RSA"/>
+		<item id="1028" text="Nem megfelelő jelszó.&#10;A jelszó legalább hat karakter hosszú legyen."/>
+		<item id="1029" text="A jelszavak nem egyeznek.&#10;Írja be újra a jelszót."/>
+		<item id="1030" text="Törli a %1 aláírás megjelenés sablont?"/>
+		<item id="1031" text="%1: aláírás megjelenés sablont törlése..."/>
+		<item id="1032" text="A dokumentum több mint egy aláíratlan aláíró mezőt tartalmaz.&#10;Az aláírás megkezdéséhez kattintson a kívánt mezőre."/>
+		<item id="1033" text="Dokumentum aláírása"/>
+		<item id="1034" text="Hiba az aláírás során &quot;%1&quot;:&#10;%2&#10;&#10;A dokumentum nincs aláírva."/>
+		<item id="1035" text="Aláíratlan aláírásmező (kattintson az aláíráshoz)"/>
+		<item id="1036" text="Az aláírás még nincs ellenőrizve"/>
+		<item id="1037" text="Az aláírás érvénytelen"/>
+		<item id="1038" text="Érvényes aláírás"/>
+		<item id="1039" text="Érvényes aláírás"/>
+		<item id="1040" text="Egy név szükséges a saját aláírású digitális ID létrehozásához."/>
+		<item id="1041" text="Egy unicode név szükséges a saját aláírású digitális ID létrehozásához."/>
+		<item id="1042" text="Egy emailcím szükséges a saját aláírású digitális ID létrehozásához."/>
+		<item id="1043" text="Adjon meg egy megfelelő formátumú emailcímet (pl. gabor@mail.com)."/>
+		<item id="1044" text="A &quot;%1&quot; mező csak ASCII karaktereket tartalmazhat.&#10;Ezek:  a-z A-Z 0-9 &apos; ( ) + , - . / : = ? szóköz&#10;"/>
+		<item id="1045" text="Aláírás tulajdonságai"/>
+		<item id="1046" text="Összegzés"/>
+		<item id="1047" text="Aláírás összegzése"/>
+		<item id="1048" text="Nem érhető el"/>
+		<item id="1049" text="Ez a dokumentum nem módosult az aláírása óta."/>
+		<item id="1050" text="A dokumentum aláírással hitelesített revíziója nem változott meg.&#10;Azonban azóta voltak változtatások."/>
+		<item id="1051" text="Az aláírás óta a dokumentumot megváltoztatták vagy megsérült."/>
+		<item id="1052" text="Az aláírás érvényessége ismeretlen."/>
+		<item id="1053" text="Az aláírás érvényes. Aláírta: %1."/>
+		<item id="1054" text="Az aláírás érvénytelen."/>
+		<item id="1055" text="Csak a nem rögzítettek"/>
+		<item id="1056" text="Csak a töröttek"/>
+		<item id="1057" text="Mind"/>
+		<item id="1058" text="Segédvonal törlése"/>
+		<item id="1059" text="Segédvonalak törlése"/>
+		<item id="1060" text="Segédvonal módosítása"/>
+		<item id="1061" text="Új segédvonal hozzáadása"/>
+		<item id="1062" text="Új segédvonalak hozzáadása"/>
+		<item id="1063" text="Töltse ki a lapot segédvonalakkal"/>
+		<item id="1064" text="Fájlmelléklet"/>
+		<item id="1065" text="Fájlmelléklet eszköz tulajdonságai"/>
+		<item id="1066" text="Fájlmelléklet tulajdonságai"/>
+		<item id="1067" text="Alcsony"/>
+		<item id="1068" text="Közepes"/>
+		<item id="1069" text="Magas"/>
+		<item id="1070" text="Végpont"/>
+		<item id="1071" text="Szél"/>
+		<item id="1072" text="Közép"/>
+		<item id="1073" text="Közép"/>
+		<item id="1074" text="Keresztez"/>
+		<item id="1075" text="Mellékletek"/>
+		<item id="1076" text="Mellékletek listája"/>
+		<item id="1077" text="Leírás"/>
+		<item id="1078" text="Módosítva"/>
+		<item id="1079" text="Méret"/>
+		<item id="1080" text="Tömörített méret"/>
+		<item id="1081" text="Hely"/>
+		<item id="1082" text="Fájl csatolása"/>
+		<item id="1083" text="Melléklet leírásának módosítása"/>
+		<item id="1084" text="Melléklet hozzáadása"/>
+		<item id="1085" text="Melléklet mentése"/>
+		<item id="1086" text="Hiba a melléklet kivonása közben ebből: &quot;%1&quot;:&#10;%2"/>
+		<item id="1087" text="%1: melléklet mentése"/>
+		<item id="1088" text="%1: melléklet megnyitása"/>
+		<item id="1089" text="A melléklet sérültnek tűnik: a kivont fájl ellenőrzőösszege eltér az eredetiétől.&#10;Folytatja?"/>
+		<item id="1090" text="Melléklet törlése"/>
+		<item id="1091" text="Mellékletek törlése"/>
+		<item id="1092" text="Törli a %2 mellékletet?"/>
+		<item id="1093" text="%1: fájlmelléklet törlése..."/>
+		<item id="1094" text="Bezárja a dokumentumot a(z) %1 indítása előtt?"/>
+		<item id="1095" text="A dokumentumot kérdés nélkül zárja be a jövőben."/>
+		<item id="1096" text="Keresés szerkesztése"/>
+		<item id="1097" text="Az elem eltávoltása a Legutóbbi dokumentumok listájából"/>
+		<item id="1098" text="Eltávolítja a &quot;%1&quot; elemet a Legutóbbi dokumentumok listájából?"/>
+		<item id="1099" text="Kérdés nélkül távolítsa el a jövőben."/>
+		<item id="1100" text="Nincs új elem"/>
+		<item id="1101" text="A &quot;%2&quot; dokumentum &quot;%1&quot; fájlja elérhetetlenné vált, és bezárom.&#10;Ellenőrizze a hálózat vagy az adattárolók elérhetőségét."/>
+		<item id="1102" text="XFA struktúra"/>
+		<item id="1103" text="Normál"/>
+		<item id="1104" text="Szendvicspozitív"/>
+		<item id="1105" text="Szendvicsnegatív"/>
+		<item id="1106" text="Átfedés"/>
+		<item id="1107" text="Sötétítés"/>
+		<item id="1108" text="Fakítás"/>
+		<item id="1109" text="Világos szín"/>
+		<item id="1110" text="Sötét szín"/>
+		<item id="1111" text="Erős fény"/>
+		<item id="1112" text="Lágy fény"/>
+		<item id="1113" text="Különbség"/>
+		<item id="1114" text="Kivétel"/>
+		<item id="1115" text="Árnyalat"/>
+		<item id="1116" text="Telítettség"/>
+		<item id="1117" text="Szín"/>
+		<item id="1118" text="Világosság"/>
+		<item id="1119" text="Elválasztható"/>
+		<item id="1120" text="Nem választható el (HSL)"/>
+		<item id="1121" text="Összhatás:"/>
+		<item id="1122" text="Új dokumentumok"/>
+		<item id="1123" text="Új dokumentumok létrehozásának beállításai"/>
+		<item id="1124" text="Nem lehet új dokumentumot készíteni az RTF-ből:&#10;%1"/>
+		<item id="1125" text="&lt;minden megnyitott dokumentumban (%1)&gt;"/>
+		<item id="1126" text="Megjegyzések újrarendezése"/>
+		<item id="1127" text="Aláírás itt"/>
+		<item id="1128" text="Szerző"/>
+		<item id="1129" text="Tárgy"/>
+		<item id="1130" text="Oldal"/>
+		<item id="1131" text="Dátum"/>
+		<item id="1132" text="Típus"/>
+		<item id="1133" text="Szám"/>
+		<item id="1134" text="&lt;Nincs&gt;"/>
+		<item id="1135" text="&lt;Nem definiált&gt;"/>
+		<item id="1136" text="%1 megjegyzéseinek összegzése"/>
+		<item id="1137" text="Újranyitás"/>
+		<item id="1138" text="Csak a jelölések"/>
+		<item id="1139" text="Keresés a könyvjelzőkben"/>
+		<item id="1140" text="Befejeződött a keresés a dokumentumban erre a szövegre:&#10;&quot;%1&quot;&#10;&#10;Nincs találat."/>
+		<item id="1141" text="Biztonság"/>
+		<item id="1142" text="Biztonsági beállítások"/>
+		<item id="1143" text="URL"/>
+		<item id="1144" text="Új időbélyegző szerver hozzáadása"/>
+		<item id="1145" text="Időbélyegző szerver beállításai"/>
+		<item id="1146" text="Csak olvasható"/>
+		<item id="1147" text="Fájlmelléklet megnyitásának jelszava ismét:"/>
+		<item id="1148" text="Dokumentum megnyitásának jelszava ismét:"/>
+		<item id="1149" text="A megerősítő jelszó nem egyezik. Kezdje újra, és adja meg újra a jelszót."/>
+		<item id="1150" text="^"/>
+		<item id="1151" text="Hang"/>
+		<item id="1152" text="Alapértelmezett szöveg használata: &quot;%1&quot;"/>
+		<item id="1153" text="Új elnevezett cél"/>
+		<item id="1154" text="Adjon egy egyedi nevet az új elnevezett célnak"/>
+		<item id="1155" text="Törli a kiválasztott &quot;%1&quot; elnevezett célt?&#10;Ezt a műveletet nem vonhatja vissza."/>
+		<item id="1156" text="A(z) &quot;%1&quot; elnevezett cél már létezik.&#10;Adjon meg egy egyedi nevet az új célnak."/>
+		<item id="1157" text="A(z) &quot;%1&quot; dokumentumot egy másik alkalmazás módosította."/>
+		<item id="1158" text="Újratöltsem a dokumentumot?"/>
+		<item id="1159" text="Újratöltsem a dokumentumot, a másik alkalmazás módosításait elvetve?"/>
+		<item id="1160" text="Jegyezze meg a választásomat e dokumentum számára"/>
+		<item id="1161" text="Ez a &quot;%1&quot; dokumentum most megfelel a PDF/A előírásnak&#10;&#10;A változtatások mentése nem támogatott tartalmat ad hozzá, mellyel elvész a PDF/A megfelelőség."/>
+		<item id="1162" text="Ez a &quot;%1&quot; dokumentum XFA űrlapot tartalmaz.&#10;&#10;Az XFA űrlap a PDS szabvány opcionális része, mely még nem teljesen támogatott."/>
+	</strings>
+</Localization>

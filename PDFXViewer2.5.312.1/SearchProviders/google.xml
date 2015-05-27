@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>Google</ShortName>
+	<Description>Google provider</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Url type="text/html" template="http://www.google.com/search?hl=en&amp;q={searchTerms}&amp;aq=f&amp;oq=;&amp;client=pdf-xchange"/>
+	<Image width="16" height="16" type="image/vnd.microsoft.icon">http://www.google.com/favicon.ico</Image>
+</OpenSearchDescription>

@@ -1,0 +1,1757 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 transitional//EN">
+<HTML><HEAD>
+<title>xplorer² online help</title>
+<link rel="stylesheet" type="text/css" href="x2help.css">
+</HEAD><BODY>
+<FONT FACE="Verdana, Arial, sans-serif" SIZE="1">
+
+<P class="cTitle">xplorer² Quick Start Guide
+<br><font size="-1">File exploring reinvented: Feel like home miles away from home</font></P>
+
+<p>This bitesize guide describes the basic features of xplorer², a tabbed dual-pane file manager that maintains the familiar look and feel of the standard windows explorer while offering tons of advanced features. Unlike most alternative file managers that seem to require a PhD in computer science to figure them out, xplorer² offers a clean and shell integrated extension model for productive everyday file management. If you know how to use windows explorer you'll feel immediately at home; yet xplorer² can take you places you've never been before - not with explorer anyway!
+
+<p>xplorer² runs on <i>all</i> 32 and <a HREF="http://zabkat.com/x2-64bit.htm" target="_blank">64 bit</a> windows platforms, and offers almost everything windows explorer does in an economical user interface based on the familiar tree/view window layout:
+<ul>
+<li>All area access namespace browsing, including "virtual" folders like Control Panel, FTP and zipfolders (if available).
+<li>Folder view modes including thumbnails and details with access to all column handlers (e.g. file Comments, Owner, etc).
+<li>Full cut/copy/paste, drag/drop and shell context menu file management and document launching.
+</ul>
+
+<p>At the same time, it fills in all the gaps in the basic explorer model. Instead of filling in pages enumerating explorer's <a HREF="#sap_xcmp">shortcomings</a>, let us just say that xplorer² has all the features you'd expect for managing large numbers of files efficiently, and perhaps most importantly does so in a well thought-out user interface squeezing even the last drop out of efficiency via simplicity. It is not just about enumerating features, it is how they bind and blend together into a wholesome unit. The basic concepts are:
+<ul>
+<li><a HREF="#braouz">Get to your files</a> navigating the labyrinth of folders on your PC or network.
+<li>Browse your files examining their <a HREF="#br_views">details</a>, quick <a HREF="#br_quix">previewing</a> their contents, launching their associated application or editing their contents as text.
+<li><a HREF="#br_vf">Arrange</a> your files and build up selections thereof in preparation for group management using the powerful <a HREF="#ma_selx">selection engine</a>.
+<li>Manage the selected items in the usual fashion (rename, copy, move, delete, etc).
+<li>Use the palette of advanced commands for mass <a HREF="#dos_batch">renaming</a>, timestamp and <a HREF="#ma_attrib">attribute changing</a>, setting <a HREF="#ma_notes">comments</a>, <a HREF="#ma_split">splitting and merging</a>, shredding, and executing template-based <a HREF="#misk">user commands</a> and batch files.
+<li>Use the convenience of dual panes (browsing two folders in one window) for easy file copying, <a HREF="#xa_sync">comparing</a> and synchronizing contents, even checking <a HREF="#xa_make">transformation rules</a>.
+</ul>
+
+<p>xplorer² also has some unique features that aren't available on any other file manager as far as we know. The so-called <a HREF="#skrap">scrap containers</a> are multi-purpose "shell documents", collections of files and folders from arbitrary locations. The concept is rather strange to getting used to but offers unparalleled flexibility allowing:
+<ul>
+<li>Managing files from different folders from a single window, like as if they were in the same folder. Literally.
+<li>Managing <a HREF="#sk_flat">flat</a> folder hierarchies, i.e. files contained in a folder and all its subfolders.
+<li>Checking for <a HREF="#xa_dup">duplicate</a> files.
+<li>Comparing and <a HREF="#xa_hie">synchronizing</a> folder hierarchies using dual-pane scraps.
+<li><a HREF="#sk_dok">Organizing</a> your files in logical groups regardless of their actual location.
+</ul>
+
+<p>Scrap containers are also used for the results of the powerful <a HREF="#lokos">file search</a> command, a little masterpiece on its own right. If you wanted to search for files that had specific MP3 tags and were modified in the last week and are not owned by you then look no further! This is yet another unique feature of xplorer², empowering searches on any and all attributes you can see in the numerous columns (file details), combining them in boolean <a HREF="#ff_add">hyper-filters</a>.
+
+<p>Apart from these major topics, there are many features and little productivity enhancers throughout the program, far too many to list in fact. It is recommended leaving the "<b>Tip of the day</b>" on for a while to learn about all these time-saving details.
+
+<p>If you are an "old hand" with computers and file management (i.e. you have heard of DOS and Norton Commander) you'll find xplorer² an optimal combination between command-line efficiency of yesteryear with all modern amenities and conveniences of today's user-friendly file management. Newer users will hopefully see what explorer has been robbing them of all this time!
+
+<p>With its small size (under <b>1 MB</b>) and low system resource use, advanced multi-threaded multi-window design for speed and efficiency, <a HREF="#gusto">customization</a>, a clean minimalist interface and keyboard shortcuts for most frequently used commands, we trust you won't be disappointed for choosing xplorer² for your file management needs. In fact chances are you'll never look back to explorer or any other file manager.
+
+<p>The following sections will give an introduction to xplorer² and the things you can do with it. Some of the features described are <i>not</i> available in the free version; these topics are clearly marked with the <font color=red><b>[PRO]</b></font> symbol. See this <a HREF="#sap_xcmp">table</a> for a list of features missing from the lite version.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: For the remaining of this document it is assumed that users are familiar with windows explorer and basic file management operations, including drag/drop (with left and right mouse buttons), shell context menu etc.
+</td></tr></table>
+
+
+<table><tr><td style="background-color:#E7E3D6;"><b>Note for international users</b><br>
+If you are browsing the <a HREF="http://zabkat.com/x2h_0.htm">online</a> version of this quickstart guide you can click on the flags on the right to translate it to a few widely used languages automatically. Note that the translation isn't perfect but may be better than nothing at all!<br>This feature requires javascript.
+</td>
+</table>
+
+<h5 id="toc">Topics</h5>
+
+<p><a HREF="#cbasic"><b>Overview</b></a>
+
+<p><a HREF="#braouz"><b>Browsing the shell namespace</b></a>
+<br><a HREF="#br_views">Folder views</a> |
+<a HREF="#br_group">Sort and group</a> |
+<a HREF="#br_def">Folder view settings</a> | 
+<a HREF="#br_vf">Show or hide items via filtering</a> |
+<a HREF="#br_quix">Previewing, viewing and launching items</a> |
+<a HREF="#br_grep">Searching for text in files</a>
+
+<p><a HREF="#afevtns"><b>Managing files and folders</b></a>
+<br><a HREF="#ma_selx">Selection engine</a> |
+<a HREF="#ma_bfm">Basic file management</a> |
+<a HREF="#ma_robco">Robust file transfer</a> |
+<a HREF="#ma_robdel">Robust deletion</a> |
+<a HREF="#ma_attrib">Changing timestamps and attributes</a> |
+<a HREF="#ma_split">Splitting and merging</a> |
+<a HREF="#ma_notes">File and folder comments (tags)</a>
+
+<p><a HREF="#skrap"><b>Scrap containers</b></a>
+<br><a HREF="#sk_dok">Shell documents</a> |
+<a HREF="#sk_flat">The flat earth view</a> |
+<a HREF="#sk_mini">Mini scrap</a>
+
+<p><a HREF="#sanvns"><b>Examine and maintain your filesystem</b></a>
+<br><a HREF="#xa_sync">Comparing & synchronizing folders</a> |
+<a HREF="#xa_make">Checking file transformations</a> |
+<a HREF="#xa_dup">Detecting duplicate files</a> |
+<a HREF="#xa_fuzzy">Fuzzy groups</a>
+
+<p><a HREF="#lokos"><b>Search for files and folders</b></a>
+<br><a HREF="#ff_add">Additional rules in hyper-filters</a> |
+<a HREF="#ff_res">Search results</a> | 
+<a HREF="#ff_save">Saved searches</a> | 
+<a HREF="#ff_wds">Windows Desktop Search</a> | 
+<a HREF="#ff_qsr">Quick search</a> |
+<a HREF="#ff_multi">Multi-function tool</a>
+
+<p><a HREF="#misk"><b>Automation of DOS (and windows) commands</b></a>
+<br><a HREF="#dos_tok">$-Tokens</a> |
+<a HREF="#dos_out">Command output redirection</a> |
+<a HREF="#dos_batch">Automatic script generation</a> |
+<a HREF="#dos_arg">Optional command line arguments</a>
+
+<p><a HREF="#gusto"><b>User Interface customization</b></a>
+<br><a HREF="#gus_ccf">Color coding filetypes</a> |
+<a HREF="#gus_acel">Keyboard customization</a> |
+<a HREF="#gus_tool">Toolbar customization</a> |
+<a HREF="#gus_skin">Toolbar skins</a> |
+<a HREF="#gus_hfilt">Storing hyper-filters</a>
+
+<p><a HREF="#saporo"><b>Customer support</b></a>
+<br><a HREF="#sap_bag">Suspected bugs</a> |
+<a HREF="#sap_reqs">Minimum requirements</a> |
+<a HREF="#sap_xcmp">Feature comparison table</a> |
+<a HREF="#sap_reg">Program registration</a> |
+<a HREF="#sap_bri">Ultimate (portable) edition</a> |
+<a HREF="#sap_kr">Credits</a>
+
+<center>
+<br><br><HR>
+</center>
+
+
+<h4 id="cbasic">Overview <a HREF="http://www.zabkat.com/blog/wink/overview.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="Get familiar with xplorer² GUI"></a> </h4>
+
+<p>The main window is shown in <b>Figure 1</b>. There are four main areas: The active and inactive folder views, the folder tree and the quick previewer window. A toolbar, menu and status bars complete the picture. If this appearence looks rather complicated, you can turn off all the elements you don't need (from <b>View</b> menu), e.g. the tree, the previewer, even the second folder pane.
+
+<p>
+<center>
+<IMG id="fig1" SRC="snap/mainfr.png">
+<br><b>Figure 1</b>. The main window
+</center>
+
+<p>Here is a brief description of the main window elements:
+<ul>
+<li><b>On-board help <font color=red>[0]</font></b>. If you are new to xplorer² you will appreciate the links to demo videos that illustrate basic file management tasks to get you going with xplorer². Once you are comfortable with the program you can close this pane using <b>Help | How do I?</b> menu command.
+
+<li><b>Active pane <font color=red>[1]</font></b>. Shows the contents of the folder you are working with. This is 100% equivalent to the views windows explorer offers. The example shows a <i>detailed</i> view where you can see extended information for items in <a HREF="#br_views">columns</a>. Two items are <i>selected</i>, shown in highlighted color. A local titlebar shows the path of the folder being browsed. Only one pane can be active at any time; all user input is directed to it and all other user interface elements (toolbars, status bars etc) show information relevant to the active pane only. All menu commands act on the active pane, too.
+
+<li><b>Inactive pane <font color=red>[2]</font></b>. In dual-pane mode you can browse two folders at a time, having a "spare" one displayed in the inactive pane. This pane is identical in all aspects except that it doesn't accept input; a slightly darker background color allows you to tell which pane is inactive; you can pick your ideal color from <b>Tools | Options | Window</b>. The 2 panes are totally independent and can be configured differently, like in this example where the inactive pane is in <i>thumbnail</i> view showing HTML previews. The inactive pane can be activated by clicking on it or hitting <tt>&lt;TAB&gt;</tt>, whereupon the old active pane becomes inactive.
+
+<li><b>Folder tabs <font color=red>[3]</font></b>. Each pane can show more than one folder at a time. In such a case <i>tabs</i> will appear, each bearing the title of the respective folder. You can click on a tab to bring a hidden folder upfront. You can only work with one folder at a time, but tabs allow you to switch quickly among locations. You can also save <a HREF="#gusto">folder groups</a> and restore tabs for subsequent sessions. You can have the tabs on top or to the bottom of the pane depending on the setting in <b>Tools | Options | Advanced</b>.
+
+<li><b>Folder tree <font color=red>[4]</font></b>. Shows a hierarchical view of all the folders in the namespace, starting at the root (desktop). It is exactly equivalent to the windows explorer folder pane. Here you select folders you intend to browse. It is not normally used for managing folders but having said that a reduced set of commands are applicable when you <i>activate</i> the tree (e.g. click on it). The tree can be configured to follow the folder in the active pane so that the two are always synchronized. See <b>Tools | Options | Window</b> for all the available settings.
+
+<li><b>Quick previewer <font color=red>[5]</font></b>. Shows a preview of the <i>focused</i> item - the one with the dotted rectangle around it - in the active pane, depending on the content. Figure 1 shows the preview of a MP3 file that involves playing it with windows media player (if installed); WMP is used for video previews, too. When the focus is on image files (GIF, JPG, etc) the pane will show a preview picture. For text files (TXT, DAT, INI, etc), the first few lines are shown and finally a hexadecimal preview for all other "binary" file types. The quick viewer pane is normally read-only but a few commands are available from a <i>context</i> menu (right-click to display it), e.g. <b>Copy</b> of text or graphics. <font color=red>[PRO]</font> A second tab shows <i>activeX</i> (exact) previews of office documents and other popular file types.
+
+<li><b>Toolbar <font color=red>[6]</font></b>. Contains button-operated equivalents for some frequently used menu commands. It hosts the <b>addressbar</b> too, a combo box where you type paths for folders you intend to browse, and also command lines to <a HREF="#misk">execute</a>. The drop-down portion contains the history of folders visited in <i>both</i> panes. You can <a HREF="#gus_tool">customize</a> and add new toolbars for the commands you use the most.
+
+<li><b>Status bar <font color=red>[7]</font></b>. It is separated in 7 areas: on the left you get various messages for information and errors. The second shows details for the focused item (type, size and modification date). The third part shows the index number of the focused item. The fourth shows information for the selection in the active pane; e.g. <b>2: 9,703,340</b> means that <b>2</b> files are selected and their total size is <b>9,703,340</b> bytes. The small fifth part shows an icon when a <a HREF="#br_vf">filter</a> is constraining item visibility, and the sixth shows an icon when hidden and protected OS files are obscured. Finally the rightmost part shows the free space on the active drive. You can fine-tune the information displayed on a status bar through <b>Tools | Options | Advanced</b>.
+
+<li><b>Menu bar <font color=red>[8]</font></b>. Shows all available commands. As you traverse the menu system you can read brief command descriptions on the status bar. Depending on the context some menu items may be <i>disabled</i>, e.g. when a command requires at least one item selected and there's no selection in the active pane. If the menu system appears daunting, you can switch to a simpler version from <b>Tools | Options | Window</b>.
+
+<li><b>Info bar <font color=red>[9] [PRO]</font></b>. Each folder pane can have its own "status bar" showing details of the focused item. Info bars are activated through <b>View | Toolbars</b>. Any column can be placed on an infobar; to select your favorite columns just right-click on the infobar.
+
+<li><b>Drive bar <font color=red>[10] [PRO]</font></b>. This toolbar lists all your local and mapped drives for quick access.
+
+<li><b>Mini scrap <font color=red>[11] [PRO]</font></b>. A <a HREF="#sk_mini">virtual folder</a> that can be used for temporarily holding items, showing bookmarks or even as a launchpad for programs. If activated it acts as a complete file manager; its only difference from the "normal" pane <font color=red>[1]</font> is that you don't normally browse single folders in it.
+
+<li><b>Details pane <font color=red>[12] [PRO]</font></b>. Shows extended information about the focused item in the active pane, including a thumbnail preview and standard file properties like size and date last modified. Click on a link (like in your browser) to change some of the properties like file attributes and name. In addition file-type specific information is shown, e.g. the duration of a song or video, the dimensions of images etc.
+
+<li><b>Multi-function box <font color=red>[13]</font></b>. Located on the right of the addressbar, it is a very flexible and convenient tool for <a HREF="#ff_multi">filtering</a>, selecting and searching for files. Use the drop-down arrow next to the toolbar button to change mode and fine-tune its operation.
+
+</ul>
+
+<p>The four major parts are separated with <i>splitter</i> windows, which you can resize to taste. You can also select whether the folder panes are stacked horizontally or vertically using <b>View | Tile horizontally</b> menu. You can move the quick preview panel to the left (under the tree) using the relevant check box in <b>Tools | Options | Advanced</b>. Once you reach a satisfactory arrangement xplorer² will remember it for you and reinstate it every time you start the program - unless you clear the <b>Save program state on exit</b> checkbox in the options dialog.
+
+<p><font color=red><b>[PRO]</b></font> All peripheral panes (tree, quickviewer etc) can be rearranged to taste if you grab them from their titlebar and move them around to another side of the xplorer² window. An outline rectangle indicates the new docking location. If you hold down <tt>&lt;CTRL&gt;</tt> key while dragging a panel it will stay floating (detached). Once you setup the panes to your liking, use <b>View | Toolbars | Lock dock sites</b> command to fix their position. Use the little pin icon on the titlebar of each docked pane to toggle its <b>autohide</b> mode. When autohidden, a pane is minimized to a tab-like button and you can expand it by hovering the mouse over this button. Click again on the pin icon to permanently dock the pane.
+
+<p>In a sense, xplorer² has a Multiple Document Interface (MDI) where each "document" is a folder. Only one folder is active at each time but many others are easily accessible, from tabs in the active and/or the inactive pane. Tabs are added with <b>File | New tab</b> and removed from the <b>Window</b> menu. You can rearrange tabs with drag-drop. Right click on a tab to see a context menu with various commands inlcuding <b>Lock</b> which locks a tab from browsing - folders open in new tabs.
+
+
+<center>
+<br><br><HR>
+<IMG SRC="snap/prev.gif"> <a HREF="#cbasic">Overview</a> <IMG SRC="snap/up.gif"> <a HREF="#toc">Contents</a> <IMG SRC="snap/next.gif"> <a HREF="#afevtns">Managing</a>
+</center>
+
+<h4 id="braouz">Browsing the shell namespace <a HREF="http://www.zabkat.com/blog/wink/browse.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="browse using breadcrumbs, the drivebar and bookmarks"></a> </h4>
+
+<p>Nowadays the shell is vast. Apart from the normal hard drives, CDs, you have your local area network, FTP & webfolders, and all sorts of "virtual" folders like Control Panel etc. xplorer² can access (almost) everything that your windows explorer can including non-standard namespace extensions. More importantly it helps you get from A to B quickly and effortlessly with a variety of folder access mechanisms:
+
+<ul>
+<li> Using the folder tree pane
+<li> Typing paths in the addressbar or revisiting a folder from the addressbar's history
+<li> Back/Forward chain navigation using <tt>&lt;Alt+ArrowKeys&gt;</tt> (or <b>Go to</b> menu)
+<li> Bookmarks (favorites) menu
+<li> <b><font color=red>[PRO]</font></b> Reinstate a previously saved folder group (<b>Customize | Folder groups</b> menu), or dual bookmark using <b>Bookmarks | Dual</b> menu (folders for left and right pane simultaneously)
+<li> A variety of keyboard shortcuts (e.g. <tt>&lt;Ctrl+Shift+<font color=red>A</font>&gt;</tt> will take you to <font color=red>A</font>:\)
+<li> Select a local/mapped drive using the <IMG SRC="snap/drivebar.gif"> toolbar button
+<li> <b><font color=red>[PRO]</font></b> Access any local or mapped drive using the drivebar (<b>figure 1</b> [10]) 
+<li> Standard system folders like the control panel, my computer etc are easily accessible from <b>Go to | Special folders</b> menu.
+<li> Using the titlebar of each pane: right-click to access a list of recent folders, or click on a subpath (see <b>Figure 2</b>). If parts of the path are cropped or obscured due to width limitations, press <tt>&lt;Shift&gt;</tt> while right-clicking to get the subpaths in a menu.
+</ul>
+
+<center>
+<IMG id="fig2" SRC="snap/titlebar.gif">
+<br><b>Figure 2</b>. Selecting a subpath from a pane's titlebar
+</center>
+
+<p>Normally you browse folders in the active pane but there are other possibilities, depending on keyboard modifiers:
+<ul>
+<li> If you hold <tt>&lt;Alt&gt;</tt> as you are changing folder, it will be loaded in the <i>inactive</i> pane.
+<li> If you hold <tt>&lt;Ctrl&gt;</tt> a new window will be <b>cloned</b> and the folder will be browsed there.
+<li> <b>File | New tab</b> will open the folder in a new tab, part of the active pane.
+</ul>
+
+
+<h5 id="br_views">Folder views <a HREF="http://www.zabkat.com/blog/wink/columns.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="show and save ID3 tag columns"></a></h5>
+
+<p>Once you reach your folder you can view your contents using the standard modes accessible from <b>View | Pane style</b> menu: Large/small icons, list, details and thumbnails. In detailed view you can select the <b>columns</b> of information you want to see for your files. xplorer² supports all the standard shell columns and has its own extra columns too, called <i>stock</i> (denoted by [S] in figure 3). Use <b>View | Select columns</b> to pick the columns that are most appropriate for your task.
+
+<p>
+<center>
+<IMG id="fig3" SRC="snap/altK.png">
+<br><b>Figure 3</b>. Column selection dialog
+</center>
+
+<p id="f_cat">Most of the regular (filesystem) folders support the same columns: 32 standard (windows XP) plus 26 stock columns. When you install additional <i>column handlers</i> (e.g. see <a HREF="http://www.softpointer.com/AudioShell.htm" target="_blank">Audioshell ID3 tag columns</a>) xplorer² will use them too. 
+
+<p>In later windows versions the number of columns (file attributes or metadata) has increased exponentially (e.g. 350+ columns available for windows 7). The column selection dialog box has a <i>filter</i> field that allows you to find a column from the Available list. Type a few letters of the column you are after then click on GO button to filter the column list.
+
+<p>"Virtual" folders like My Computer have their own columns, depending on the type of information they contain. Although you can select columns in such folders, most of the time you won't need to.
+
+<p>There is a third class of folders which, whereas not being part of the filesystem, have pseudo-filesystem qualities. Examples are webfolders, zipfolders (XP), FTP folders etc. xplorer² knows how to get information like file dates and sizes out of such folders which means you can turn most stock columns on and have a near filesystem "experience". In addition you can have near-normal access to the "files" including previews of contents, thumbnails, even <a HREF="#xa_sync">synchronize</a> them with normal folders.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: Stock columns are available even in older windows like NT4 and 98, whereas explorer columns require windows 2000 or newer.<br>
+<font color=red>[PRO]</font> Custom column handlers (shell extensions) work even in windows vista and 7/8, despite being discontinued by windows explorer. So you can continue using your favorite column handlers like <a HREF="http://foldersize.sourceforge.net/" target="_blank">foldersize</a>. The <b>ultimate</b> version also allows <a HREF="http://msdn.microsoft.com/en-us/library/dd561977(v=vs.85).aspx" target="_blank">system properties</a> to to be used as columns using <b>szSystemPropsList</b> registry setting — available through the advanced options editor.
+</td></tr></table>
+
+<p>All columns belong to 3 broad categories: <i>text</i> (owner, comments, attributes), <i>numbers</i> (size, checksum) and <i>dates</i> (modified, created). These categories determine the <b>arrangement</b> of items when a column is used to sort a folder. (Categories also determine how columns are used within <a HREF="#ff_add">hyper-filters</a>). <b>View | Arrange by</b> allows sorting by the most frequently used columns; to sort using an extended column just click on the respective column header.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b><font color=red>TIP</font></b>: You can view file details through <i>infotips</i> (popup text descriptions) too. Enable infotips from <b>Tools | Options | Window</b> and then pick which details you want to see per file type as explained in this <a HREF="http://netez.com/bbs/viewtopic.php?t=607">article</a>.
+</td></tr></table>
+
+
+<h5 id="br_group"><font color=red>[PRO]</font> Advanced sorting and grouping <a HREF="http://www.zabkat.com/blog/wink/cgroup.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="arrange items in collapsible groups"></a> </h5>
+
+<p>When in large folders item <i>grouping</i> (<b>View | Arrange by</b> submenu) will help you organize your content in categories based on the main sort column. Within each group items are sorted alphabetically; if you want to specify a different secondary etc sorting method, just click on a column header while holding down <tt>&lt;Shift&gt;</tt> key.
+
+<p>Such secondary sort modes are also supported in plain (ungrouped) views, again using <tt>&lt;Shift&gt;</tt> key while clicking on a column header. To cancel the multi-sort mode, just click on a header without pressing <tt>&lt;Shift&gt;</tt>.
+
+<p>For windows vista and later, it is possible to <b>collapse</b> and re-expand a group using the little arrow at the right side of the group header. This way you can concentrate on the files you need. You can collapse all the groups at once using <tt>&lt;Ctrl+Shift+Left&gt;</tt> arrow key; to expand all groups just refresh the folder view.
+
+<p><center>
+<IMG id="fig3b" SRC="snap/ckat.png">
+<br><b>Figure 3b</b>. Custom categories dialog
+</center>
+
+<p><b>View | Arrange by | Custom groups</b> is an extension of the grouping concept. Instead of relying on column information, you can control exactly which groups will appear and in what order using the dialog in the above figure. Using the small toolbar at the top-right corner you can define, edit and reorder your custom groups using standard <a HREF="#ff_add">hyperfilters</a>. Each filter determines the group membership. Items are placed in the first matching group (in the order they appear in the dialog). Any items that cannot be categorized end up in the "unspecified" group.
+
+<p>For example, applying the two categories in figure 3b (each defined by a simple wildcard filter) on a folder will result in the following grouping:
+
+<p><center>
+<IMG id="fig3b" SRC="snap/katx.png">
+<br><b>Figure 3c</b>. Example of custom grouping
+</center>
+
+<p>Once you define a custom grouping you can <a HREF="#gusto">save</a> and reuse it using <b>Customize</b> menu. This menu also contains a relevant command called <b>Color coding</b>. Here you use a similar procedure to define a set of hyperfilters, but instead of grouping you customize the display attributes of matching items so that they stand out. See the <a HREF="#gus_ccf">color coding</a> section for details.
+
+<p>If you want to stop arranging in groups (either simple or custom) uncheck the menu command <b>View | Arrange by | Show in groups</b> or click on the equivalent toolbar button.
+
+
+<h5 id="br_def">Folder view settings</h5>
+
+<p>xplorer² offers a sense of continuity as you browse your folders, maintaining your settings including view modes, sort orders, column widths, etc; it even remembers the item that was focused the last time you browsed a folder and brings it into view when (and if) you return.
+
+<p>In other words, by default xplorer² uses the current view settings for any pane as default. If for example you change from detailed view mode (<b>View | Pane style</b> menu) to list mode, then list mode will be default from then onwards for all folders browsed in that pane or tab.
+
+<p>A different way to manage folder view settings is to setup a pane like you want it using various commands from <b>View</b> menu (e.g. pane style, number of columns, grouping, sort order) then declare this view mode as default using <b>Actions | Folder settings | Default</b> menu command. This way you tell xplorer² which default view mode to use for all folders. If you change any view parameters in some folder they will only last temporarily until you browse another folder, where the default settings will again return.
+
+<p>Note that folder settings can be different for each pane (left/right or up/down in dual pane mode), and even for each folder tab in a pane. You can have one pane in detailed view mode and the other in list mode. When you quit xplorer², only the active tabs save their settings; next time you start xplorer² all tabs will look like the two last active tabs.
+
+<p><table id="t_fcas"><tr><td style="background-color:#EFEBEF;">
+<b><font color=red>[PRO]</font></b>: You can force particular folders in a fixed view mode using <b>Actions | Folder settings</b> menu. So for instance you can have "My pictures" folder to appear always in thumbnails, even when you are browsing in a pane that is normally in detailed mode. When you get out of such customized folders the pane returns to its previous view mode.
+</td></tr></table>
+
+
+<h5 id="br_vf">Show or hide items via filtering <a HREF="http://www.zabkat.com/blog/wink/vfilt.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="wildcards, autofilters and quick filters"></a></h5>
+
+<p>You can limit which items are shown in a pane using <b>wildcards</b>, in the usual DOS fashion (e.g. type <b>*.txt</b> in the <i>addressbar</i> to show only files with <b>txt</b> extension). You can have multiple comma-separated wildcards too, as in <b>*.txt <font color=red>,</font> *.dat</b>. This <b>visual filtering</b> allows you to work in large folders concentrating only on a subset of the items. Other filtering methods are:
+
+<ul>
+<li> Show or hide all folders (<b>View | Visual filter | Hide folders</b> menu)
+<li> Show only selected items (<b>View | Visual filter | Selected only</b> menu)
+<li> Type a part of the filename in the <a HREF="#ff_multi">filter box</a> to show only matching items 
+<li> <b><font color=red>[PRO]</font></b>: Show items that match a <a HREF="#ff_add">hyper-filter</a> (<b>View | Visual filter | Rule based</b> menu)
+<li> <b><font color=red>[PRO]</font></b>: Show only a particular file type out of those available in a folder (<b>View | Visual filter | Auto-filter</b> menu)
+<li> <b><font color=red>[PRO]</font></b>: The <a HREF="#xa_dup">duplicates detector</a> hides all unique items.
+<li> <b><font color=red>[PRO]</font></b>: <a HREF="#ff_qsr">Quick search</a> can show only items that contain a keyword when you press <tt>&lt;Shift+Return&gt;</tt> in the addressbar.
+</ul>
+
+<p>Whenever any filter is hiding items from view, you will see a green funnel icon on the statusbar. Double click on this icon (or use <b>View | Show all</b> menu) to cancel the filtering and see all the items in the folder.
+
+
+<h5 id="br_quix">Previewing, viewing and launching items <a HREF="http://www.zabkat.com/tour/preview.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="Preview PDF and office documents"></a></h5>
+
+<p>Except for regular information like file sizes and dates, xplorer² offers access to the <b>contents</b> of files, as long as they are in normal or near-normal (e.g. zip) folders.
+
+<p>The most convenient option is to turn the <i>quick viewer</i> pane on from <b>View</b> menu. Then as you move the cursor around in a folder pane you can see the preview of the focused item. The quick viewer can show text (including RTF, Unicode and UTF-8), graphics, HTML, office documents, even audio and video files. You can customize many aspects (e.g. font) using the context menu in the previewer pane and also through <b>Tools | Options | Window</b>.
+
+<p><font color=red><b>[PRO]</b></font> xplorer² can tap into <b>text filters</b> compatible with windows indexing service, to extract plain text from otherwise unreadable formats like office documents, Adobe PDF etc. This text can be previewed, stripped of its formatting, giving you an idea of the content. Depending on what other programs you have installed you may already have many such text filters. If you need more, there are some free components to download:
+<ul>
+<li> Various <a HREF="http://zabkat.com/x2plugins.htm" target="_blank">office suit filters</a> (Microsoft DOC, Adobe PDF, WordPerfect WPD, OpenOffice ODT)
+<li> CAB, CHM, ZIP filters: <a HREF="http://www.ifilter.org/Links.htm" target="_blank">Desktop search</a>
+</ul>
+
+<center>
+<IMG id="fig3a" SRC="snap/axpre.png">
+<br><b>Figure 3a</b>. Draft and Native preview tabs
+</center>
+
+<p><font color=red><b>[PRO]</b></font> In addition, the professional version can show exact previews for certain document types that can be activated in place in internet explorer (ActiveX). The figure above is an example of the same content - a word document - displayed in "draft" and "native" mode. Native mode is more representative but draft is quicker and maybe adequate for most needs. For windows vista and later xplorer² taps into shell <b>preview handlers</b> that provide a rich yet resource efficient quick preview of documents and images.
+
+<p>When it comes to text files in particular, you can view or edit their contents using <b>File | View</b> and <b>File | Edit</b> commands, respectively. The natural text viewer is <b>editor²</b>, included in the program distribution. It is preferable because it is fast, low on resources (especially when you view multiple files) and it shares search options with xplorer². However you can specify alternative external text viewers via <b>Tools | Options</b> if you prefer something more advanced.
+
+<p>Naturally you can launch documents using their associated program too, by hitting <tt>&lt;Return&gt;</tt>, double-clicking or right-clicking and picking <b>Open</b> from the shell context menu.
+
+<h5 id="br_grep">Searching for text in files <a HREF="http://www.zabkat.com/blog/wink/gootext.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="Search for text with boolean operators"></a></h5>
+
+<p><b>Mark | Containing text</b> is a handy tool that allows you to search for text within all files shown in a pane, without having to open them individually. You specify what to search for and various options in the dialog (see figure 4) and xplorer² will mark all the matching files. A few remarks are in order:
+
+<p>
+<center>
+<IMG id="fig4" SRC="snap/grep.png">
+<br><b>Figure 4</b>. Find text in files dialog
+</center>
+
+<ul>
+<li> Text searches are time consuming. You can help by using a <a HREF="#br_vf">visual filter</a> to reduce the number of files scanned, narrowing the list down to those most likely to contain the desired text.
+
+<li> Word documents (.doc) are <i>not</i> text files. If you want to search within them you have to check <b>Search non-text files</b> box. If your windows support <a HREF="#br_quix">text filters</a> you can reliably locate text within supported file types, including DOC, XLS, PDF, WPD, ODT etc.
+
+<li> You can search for special characters like tabs, newlines etc. In fact you can search for any character if you know its numerical equivalent, using the <b>$<font color=red>xx</font></b> token, where <b><font color=red>xx</font></b> is the 2-digit hexadecimal value (e.g. newline=10=$0A). In the unlikely situation where you want to search for e.g. $0A <i>verbatim</i>, you must escape the dollar character and search for $$0A.
+
+<li> <b><font color=red>[PRO]</font></b> If you check <b>Regular expression</b> box the input string can be made of special metacharacters (see <a HREF="#table1a">Table 1</a> below). Regular expressions are complicated but can give you powerful text matching capabilities using wildcards, group constructs and more. For further information and samples you can see the <a HREF="http://msdn.microsoft.com/en-us/library/k3zs4axe(v=vs.80).aspx" target="_blank">MSDN reference</a>.
+
+<li> The command automatically detects the <b>encoding</b> of text files, if a Byte-Order-Mark (BOM) is present at the beginning of files. If BOMs are missing or you want to search within OEM files, you can force the encoding using the combo box supplied (see figure 4). To disable content interpretation altogether, including encoding and text filters, pick <b>Raw</b> encoding; this will allow e.g. searching for BOMs or other binary content.
+</ul>
+
+<p>The quick previewer is aware of files that have successfully matched a <tt>&lt;Ctrl+G&gt;</tt> command. When positive match files are focused, the previewer will load the part of the file that contains the text in question, and will zoom around the hit, aiding further examination of contents.
+
+<p>
+</a><TABLE id="table1">
+<tr><th>ADVANCED: Boolean text searches</th></tr>
+<tr><td>
+You can search for <i>multiple</i> text strings and also assign a boolean connotation to each substring. To achieve the former you just separate the expressions you are after with commas, e.g. <b>hello <font color=red>,</font> world</b> will mark as positive hits files that contain either <b>hello</b> or <b>world</b> (or both). You can add a boolean effect using the special characters <b><font color=red>+</font></b> for <tt>AND</tt> and <b><font color=red>-</font></b> for <tt>NOT</tt>, at the <i>beginning</i> of each expression. E.g. searching for <b>help, <font color=red>+</font>me, <font color=red>-</font>god</b> will mark files that <i>must</i> contain "me", <i>maybe</i> contain "help" and <i>not</i> contain "god". (You shouldn't use spaces after the + or - characters, unless you want to match a string that starts with spaces.)
+<br>The down-side of this flexibility is that if you want to search e.g. for commas verbatim, you have to either enter them as special codes (conveniently included in the <b>Special characters</b> drop-down box) or check the <b>Verbatim</b> checkbox to disallow multistring use. Also note you cannot combine boolean searches with regular expressions - you'll have to use the constructs in <a HREF="#table1a">Table 1</a> for equivalent boolean functionality.
+</td></tr>
+</TABLE>
+
+<p>
+<center>
+<br><b>Table 1</b>. Special characters understood within regular expressions
+<TABLE id="table1a">
+<tr>
+<th>Meta-character</th><th>Meaning</th>
+</tr><tr>
+<td>.</td><td>Matches any single character</td>
+</tr><tr>
+<td>[ ]</td><td>Indicates a character class. Matches any character inside the brackets (for example, <tt>[abc]</tt> matches "a", "b", and "c")</td>
+</tr><tr>
+<td>^</td><td>If this metacharacter occurs at the start of a character class, it negates the character class. A negated character class matches any character except those inside the brackets (for example, <tt>[^abc]</tt> matches all characters except "a", "b", and "c").
+<br>If ^ is at the beginning of the regular expression, it matches the beginning of the input (for example, <tt>^[abc]</tt> will only match input that begins with "a", "b", or "c")</td>
+</tr><tr> 
+<td>-</td><td>In a character class, indicates a range of characters (for example, <tt>[0-9]</tt> matches any of the digits "0" through "9")</td>
+</tr><tr>
+<td>?</td><td>Indicates that the preceding expression is optional: it matches once or not at all (for example, <tt>[0-9][0-9]?</tt> matches "2" and "12")</td>
+</tr><tr>
+<td>+</td><td>Indicates that the preceding expression matches one or more times (for example, <tt>[0-9]+</tt> matches "1", "13", "666", and so on)</td>
+</tr><tr>
+<td>*</td><td>Indicates that the preceding expression matches zero or more times</td>
+</tr><tr>
+<td>??, +?, *?</td><td>Non-greedy versions of ?, +, and *. These match as little as possible, unlike the greedy versions which match as much as possible. Example: given the input &lt;abc>&lt;def>, <tt><.*?></tt> matches "&lt;abc>" while <tt><.*></tt> matches "&lt;abc>&lt;def>"</td>
+</tr><tr>
+<td>( )</td><td>Grouping operator. Example: <tt>(\d+,)*\d+</tt> matches a list of numbers separated by commas (such as "1" or "1,23,456")</td>
+</tr><tr>
+<td>{ }</td><td>Indicates a match group</td>
+</tr><tr>
+<td>\</td><td>Escape character: interpret the next character literally (for example, <tt>[0-9]+</tt> matches one or more digits, but <tt>[0-9]\+</tt> matches a digit followed by a plus character). Also used for abbreviations (such as \a for any alphanumeric character).
+<br>If \ is followed by a number <i>n</i>, it matches the <i>n</i>th match group (starting from 0). Example: <tt><{.*?}>.*?&lt;/\0></tt> matches "&lt;head>Contents&lt;/head>"</td>
+</tr><tr>
+<td>$</td><td>At the end of a regular expression, this character matches the end of the input. Example: <tt>[0-9]$</tt> matches a digit at the end of the input</td>
+</tr><tr>
+<td>|</td><td>Alternation operator: separates two expressions, exactly one of which matches (for example, <tt>T|the</tt> matches "The" or "the")</td>
+</tr><tr>
+<td>!</td><td>Negation operator: the expression following ! does not match the input. Example: <tt>a!b</tt> matches "a" not followed by "b"</td>
+</tr>
+</TABLE>
+</center>
+
+<p>Note that this syntax is slightly different than the popular Perl-compatible regular expressions. For instance groups are denoted with {} whereas many users may be familiar with ().
+
+<p>The command <b>Mark | Quick search</b> can also be used to search for text in files featuring a much <a HREF="#ff_qsr">simpler</a> user interface, with the broadest search options possible.
+
+
+<center>
+<br><br><HR>
+<IMG SRC="snap/prev.gif"> <a HREF="#braouz">Browsing</a> <IMG SRC="snap/up.gif"> <a HREF="#toc">Contents</a> <IMG SRC="snap/next.gif"> <a HREF="#skrap">Scrap containers</a>
+</center>
+
+<h4 id="afevtns">Managing files and folders</h4>
+
+<p>Sooner or later your files and folders accumulate so you end up with hundreds of files within a folder or even worse. xplorer² helps you move around efficiently within large folders and <b>select</b> (mark) items for further processing. You can roam a pane revealing items in a variety of methods using the keyboard or mouse:
+
+<ul>
+<li> Scrolling and clicking with the mouse
+<li> Using the arrow keys and <tt>&lt;PageUp&gt; &lt;PageDown&gt; &lt;Home&gt; &lt;End&gt;</tt> for longer jumps
+<li> Typing the few first characters of the file you are after
+</ul>
+
+<p>As you move around, the <i>focused</i> item is changed and usually cancels all previous selections too. To move the focus without affecting the existing selection hold down <tt>&lt;Ctrl&gt;</tt> or turn <b>Mark | Sticky selection</b> on. This will help you to hand-pick items scattered in the folder listing.
+
+<h5 id="ma_selx">Selection engine <a HREF="http://www.zabkat.com/blog/wink/selekta.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="build up large selections safely"></a></h5>
+
+<p>Most file management commands act on the selected files and folders <i>en masse</i>. xplorer² has a wealth of alternative mechanisms to aid the very important task of marking items for further processing (<b>Mark</b> menu):
+
+<ul>
+<li> All the usual mouse gestures, including <tt>&lt;Shift&gt;</tt>+click, lasso selection etc
+<li> Middle mouse button (or scroller click) toggles the selection under cursor
+<li> Press <tt>&lt;SpaceBar&gt;</tt> and <tt>&lt;Insert&gt;</tt> to toggle the selection status of the focus
+<li> Select filenames that match a <a HREF="#br_vf">wildcard</a>, or multiple comma-separated wildcards
+<li> Set the filter box in <a HREF="#ff_multi">selection mode</a> to select items that match a simple string (part of name)
+<li> Select an exact number of items (<b>Range</b>) below the focus
+<li> Reuse a previously "saved" selection (see <b>Mark | Selection</b> submenu)
+<li> <font color=red><b>[PRO]</b></font>: Using complex <b>Rules</b> (<a HREF="#ff_add">hyper-filters</a>) to match items by size/date or any other piece of information that appears in item <a HREF="#br_views">columns</a>
+</ul>
+
+<p>Using these elementary marking and unmarking mechanisms, you can build collections of items whose complexity is only limited by the user's ingenuity!
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: The elementary selection mechanisms are <i>additive</i>; whatever you select is added on top of any existing selection. To start a fresh selection just hit <tt>&lt;Alt+A&gt;</tt> to unselect everything beforehand.</td></tr></table>
+
+<p><b>Mark</b> menu also contains a number of commands that affect the selection which are explained in other parts of this guide. Broadly speaking they consider all the files with a variety of criteria, and select files that match them. You can mark items that <a HREF="#br_grep">contain some text</a>, or that need to be copied to <a HREF="#xa_sync">synchronize</a> two folders, or that are <a HREF="#xa_dup">duplicates</a> and must be deleted, or even source files that must be <a HREF="#xa_make">built</a> to <i>make</i> a compiled language project. The <a HREF="#ff_qsr">quick search</a> command is convenient for searching generic text.
+
+<p>Finally xplorer² can automatically select items (and subfolders) that tally approximately to a <b>Total size</b>, so that you can optimize transfers to media with limited capacity, e.g. USB sticks.
+
+<p>All these criteria-based selection commands affect <i>all</i> files and will <i>reset</i> any previous selection leaving only items that unambiguously pass the criterion in question. Typically such commands are performed first, possibly followed by elementary (un)marking commands to refine the selection. However when such criteria are used to <i>unselect</i> files (see <b>Unselect</b> button in <a HREF="#fig4">figure 4</a>) they only affect matching items.
+
+
+<h5 id="ma_bfm">Basic file management</h5>
+
+<p>Once your selection is finalized you can manipulate your items in various familiar ways, e.g. copying, deleting, drag-dropping, etc. xplorer² uses exactly the same clipboard formats as windows explorer so you can transfer files to and from the desktop, external explorer windows and any xplorer² windows seamlessly. When it comes to <b>pasting</b> you have a number of advanced options (<b>Edit</b> menu):
+<ul>
+<li> Paste <i>shortcuts</i> to the copied items instead of the files themselves (<b>Paste link</b> command)
+<li> Paste subfolders only (<b>Folder structure</b> command). If you copy some folder(s), this command enables you to paste only the local hierarchy of subfolders to a different location.
+<li id="pssc"> <font color=red><b>[PRO]</b></font> When you copy items from <a HREF="#skrap">scrap containers</a> and they happen to reside in different folders, <b>Paste special | Structured scrap clips</b> will paste preserving the <i>relative</i> folder structure of the source items - creating subfolders as necessary. In contrast, a plain Paste would place all items in the same folder.
+<li> <font color=red><b>[PRO]</b></font> If you want to paste a copied selection on multiple folders (or files!) use <b>Paste special | Multi paste</b> command, after selecting the folders you want to "drop" into. This feature is more effective in scrap containers where the target folders can be arbitrarily located.
+<li id="phlnk"> Paste <i>hard links</i>. Hard links are only available for NTFS-formatted hard disks, and the source files must be on the same partition. Despite these limitations it is an extremely powerful and space-efficient concept that allows you to have many copies to the same file in different locations without using any extra storage. When you change one copy <i>all</i> the other instances are automatically updated. <b>Paste special | Hard link</b> can also be used for folders, and then the complete hierarchy below the folder is hard linked - but this shouldn't be confused with folder <i>junction points</i>.
+<li id="pjcn"> Paste <i>Folder junction</i>. This is another NTFS-only feature. You can have a folder point to another folder, so when you enter this "junction" you end up in another part of the filesystem. To create a junction, copy the intended <i>target</i> folder with <tt>&lt;Ctrl+C&gt;</tt>, then switch to the folder where you want to install the junction and use <b>Paste special | Folder junction | Paste</b>. You can't have folder junctions to remote folders though.
+<li> Paste <i>symbolic link</i>. These are the equivalent of UNIX soft links and are quite flexible redirecting to both files and folders, however if the target is moved or renamed the link will be broken. This feature is for windows vista and later only; you must be running elevated to full administrator privileges to create a symbolic link.
+</ul>
+
+<p><table id="t_ntfs"><tr><td style="background-color:#EFEBEF;">
+<b><font color=red>TIP</font></b>: You can check whether a drive is NTFS-formatted using its <i>property sheet</i>. From "My Computer" right-click on the drive in question and read the <b>Type</b> field from <b>Properties | General</b>. Generally speaking only drives on NT-based PCs have any chance of being NTFS; windows 9x only support FAT32.</td></tr></table>
+
+<p>One big advantage of dual pane file management is that the inactive pane is a natural and convenient target for copy/move operations. <b>Edit | Copy to</b> and <b>Move to</b> commands are ideal for such transfers from the active to the inactive pane. You may see from figure 5 below that you can also opt to send the selected items to an alternative target folder (<b>Here</b> field). This combo box remembers all the folders you typed in it, so it acts as a list of your favorite copy destinations. 
+
+<p>If you have folder tabs, these are also listed in the dialog as possible targets of the file transfer operation. Just make sure you check the <b>Tab</b> radio button and select the appropriate folder from the drop-down list box.
+
+<p><center>
+<IMG id="fig5" SRC="snap/copyto.png">
+<br><b>Figure 5</b>. Copy To dialog (Move To is nearly identical)
+</center>
+
+<p><table id="t_auc"><tr><td style="background-color:#EFEBEF;">
+<b><font color=red>TIP</font></b>: The <b>Here</b> input field in figure 5 - and all other fields in xplorer² dialogs meant for paths - support path <b>autocompletion</b>. Type part of a path that exists and hit <tt>&lt;F1&gt;</tt> key for the first possible completion; another <tt>&lt;F1&gt;</tt> will fetch the next completion etc. After you find your path segment, type a backslash and a few characters to autocomplete the next segment, and so on. Also you can click on the "<b>...</b>" button and select a folder. If you prefer explorer-style path autocompletion there's a relevant checkbox in <b>Tools | Options | Advanced</b></td></tr></table>
+
+<p><font color=red><b>[PRO]</b></font> Normally all selected files and folders (including subfolders) will be transferred to the destination. If you want to exclude certain files use the <b>Filter</b> field; a standard <a HREF="#ff_add">hyper-filter</a> can be either <b>Define</b>d or selected from those saved earlier from the drop-down list. If a simpler wildcard filter (e.g. <tt>*.cpp</tt>) would suffice you can just type it instead of defining a complex hyperfilter. When a copy filter is active, each file is examined and is only transferred if it matches the filter.
+
+<p>xplorer² can copy to and from all three major <a HREF="#f_cat">folder categories</a>, including zipfolders, FTP etc (if supported by the OS). During a lengthy file operation you can still use the program - although the reaction speed will suffer.
+
+<p><table id="t_wkak"><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: Windows in general get bogged down whenever the OS accesses disks for I/O. The whole system comes to a near stand-still. Launching a second file operation in parallel will make things worse, in fact <i>much</i> worse if both operations access the same physical drive. The read/write head keeps jumping back and forth to accommodate both tasks and you end up waiting far longer than the combined time of the 2 individual operations. Therefore it is advisable to avoid parallel operations whenever possible, e.g. by <a HREF="#ma_robco">queuing</a> jobs.</td></tr></table>
+
+<p>Folder <i>tabs</i> can also help moving files around. Just drag a selection and drop it on the tab of the target folder. If you hover the mouse pointer over an inactive tab during drag-drop it will be automatically activated for you, too.
+
+<p>To <b>create</b> new files or folders, use the respective commands from <b>Actions</b> menu. You can also create all the standard new shell file types via the <b>Shell new</b> submenu, located in the context menu of each folder pane - please make sure you don't right-click on any item; place the mouse pointer on some empty space instead.
+
+<p>When it comes to <b>renaming</b> files and folders, you get a few more options than the standard inplace name editing: (<b>File</b> menu)
+<ul>
+<li> <b>Change type</b> allows to change a filename including its DOS extension - in case these are hidden from Control Panel's <b>Folder options</b>. Note that not all type changes make sense, e.g. you can't change a txt file to exe and expect it to be transformed into an executable! Still changing extensions can be useful for various text file types.
+<li> <b>Mass rename</b> is useful for changing a lot of filenames at once using some special <a HREF="#dos_tok">$-tokens</a> that represent parts of the filename (base, extension), automatically incremented counters, dates, etc. These tokens allow you to change extensions, add text to the filename, create sequences of files like <i>file1, file2, ...</i>, etc. The use of these $-tokens is explained in the <a HREF="#dos_batch">command script</a> section below.
+</ul>
+
+<p>Finally when it comes to <b>deleting</b> you can either send items to the recycle bin, or delete <i>directly</i> bypassing the bin when you hold down <tt>&lt;Shift&gt;</tt>. A third option is <i>shredding</i> (from <b>Actions</b> menu), which completely eradicates the files/folders overwriting their contents with zeros before eventually deleting them.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b><font color=red>WARNING</font></b>: It is very hard to undelete files when you use the direct method (with <tt>&lt;Shift&gt;</tt>). It is <i>impossible</i> to retrieve files that have been shredded. Please use these commands with caution!</td></tr></table>
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b><font color=red>WARNING</font></b>: When you delete a folder <a HREF="#pjcn">junction</a> you risk deleting all the target folder contents without warning. To avoid such a mishap it is advised to name junctions clearly (e.g. using "junction" as part of the filename), pay attention to the "J" file attribute, or even better create a <a HREF="#gus_ccf">coloring rule</a> to make such objects stand out. If you want to remove the junction without affecting the real folder contents use <b>Edit | Paste special | Folder junction | Delete</b>.</td></tr></table>
+
+<h6 id="ma_uac">UAC and access permissions</h6> 
+
+<p>Windows Vista has introduced the concept of User Account Control (UAC) which simply put means that even if you have an administrator account you do not have full control of some special files and folders, and as a result you cannot copy into or delete from some folders like Program Files. To bypass such controls use <b>Window | Administrator</b> menu command to launch xplorer² in full power administrator mode. For more information see this <a HREF="http://zabkat.com/blog/14Feb10-surviving-UAC.htm" target="_blank">blog article</a>.
+
+
+<h5 id="ma_robco"><font color="red">[PRO]</font> Robust file transfer <a HREF="http://www.zabkat.com/tour/copy.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="copy options for file backup"></a></h5>
+
+<p>When it comes to transferring large amount of files and folders, the windows copy dialog comes rather short. xplorer² in exchange for the fancy animations, offers a robust alternative when copying from and to regular filesystem folders. The main features are:
+
+<ul>
+<li> <b>Fault tolerant</b>. When something goes wrong in the middle of a 5GB transfer xplorer² will try its best to inform and correct the problem, but in any case will resume with the rest of the files, adding the errors in a log which can be examined later.
+
+<li> <b>Background transfers</b>. You can have many operations going in parallel, each in its own thread. If you lower the priority of the operation it will help you keep working while files are transferred in the background. In addition you can temporarily <i>pause</i> a copy operation and resume it later.
+
+<li> <b>Queued transfers</b>. Instead of thrashing your hard disk with parallel operations you can have them queued so that they are completed one after the other. You add a job to the scheduler if you tick the <b>Use queue</b> box (see <a HREF="#fig5">figure 5</a>). You can examine and rearrange pending copy/move jobs using <b>Edit | Queue status</b>.
+
+<li> <b>Control confirmations</b>. You can specify upfront what sort of overwrite confirmations you want. If you opt for "overwrite newer" then modification dates will decide whether a file is overwritten or not. "Rename target" will preserve the existing file and add the new as a "copy of" - in fact with a trailing <b>_xx</b> version number added to the filename. Finally a "no to all" button is available once you start copying, preventing all overwrites.
+
+<li> <b>Copy options</b>. The copy engine can be used with options similar to the powerful <tt>xcopy</tt> tool (e.g. clear the <b>A</b>rchive attribute after copy). File backup semantics can be simulated too - including preserving all file/folder dates (creation date, too).
+
+<li> <b>Size management</b>. For removable media like floppy disks, xplorer² checks the size and the free space before embarking on a copy. If there's not enough room, it prompts you to insert a new disk. For exact size and remaining time estimates you can opt to calculate the transfer size in advance, but this may delay the start of the transfer if there are many files/folders selected.
+
+<li> <b>Silent operation</b>. You can initiate an unattended copy where all confirmations and errors are "defaulted" without user intervention. If any errors occur you can see a summary of the problems as a log in the end.
+</ul>
+
+<p>These advanced options are available from the <a HREF="#fig5">dialog</a> of <b>Edit | Copy to</b> command, as seen below. You can <b>save</b> option sets you use frequently with a descriptive name so that you can easily switch from your normal to e.g. unattended copy mode (silent operation) and back to normal with minimum clicking of checkboxes, radio buttons etc. Saved option sets are also available from the main dialog within a drop-down list box.
+
+<p><center>
+<IMG id="fig5a" SRC="snap/trops.png">
+<br><b>Figure 5a</b>. Robust copy options
+</center>
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: The robust copier is only available when you copy to or paste from <b>Edit</b> menu (if GIOPT_ROBUSTPASTE registry tweak is enabled). If you transfer files with drag-drop, or the source or target is on a non-filesystem folder (e.g. FTP), you get the normal windows copy operation.</td></tr></table>
+
+<h5 id="ma_robdel"><font color="red">[PRO]</font> Robust deletion</h5>
+
+<p>Similar to robust copy, xplorer² can do robust file and folder deletion. When you delete a lot of files with windows explorer and one happens to be locked or any kind of error is encountered, the operation is aborted mid-way. The robust deletion engine in xplorer² is designed to keep on going where windows explorer falters.
+
+<p>Whenever you start a delete operation that cannot go in the recycle bin (e.g. you press <tt>&lt;Shift+Del&gt;</tt>) the robust delete dialog kicks in (see figure 5b). Whenever some error occurs, you can choose how to deal with it, either stop and report it, or log the error and continue with the remaining files. xplorer² also will warn you if you try to delete through a <i>folder junction</i> that could cause havoc to your filesystem. You can even specify a filter (either a simple wildcard or a complex hyperfilter) so that only files that match it will be deleted.
+
+<p><center>
+<IMG id="fig5b" SRC="snap/rdel.png">
+<br><b>Figure 5b</b>. Robust delete options
+</center>
+
+<h5 id="ma_attrib">Changing timestamps and attributes</h5>
+
+<p>The shell property sheet allows changing <i>some</i> filesystem attributes like <b>A</b>rchive or <b>R</b>ead-only, but not all of them. xplorer² offers access to all attributes as well as to timestamps of files. Using <b>Actions | Change attributes</b> on a selection of items you get the dialog in figure 6 which allows you to change attributes and <b>touch</b> dates/times.
+
+<p><center>
+<IMG id="fig6" SRC="snap/attrib.png">
+<br><b>Figure 6</b>. Changing file dates and attributes
+</center>
+
+<p>Only things that you actually change are affected; so if you don't check any date boxes, these won't be updated. In this way you can change only attributes or just dates, or both at the same time.
+
+<p>If you want to bypass file security and grant full access to everybody tick the relevant box. Note that this will erase all prior security information for the selected files and folders so please use it cautiously. If you need to preserve group access permissions then use the file property page instead (click on <b>security</b> tab and add the Everyone group and assign full access permissions).
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: Some special attributes supported for files on NTFS partitions like <b>C</b>ompressed or <b>E</b>ncrypted are still modifiable through the shell property sheet <tt>&lt;F12&gt;</tt> (<b>Advanced</b> button in General page). A few attributes are inherent to the nature of the object and cannot be changed at all, like the <b>O</b>ffline file and folder <b>J</b>unction attributes.</td></tr></table>
+
+
+<h5 id="ma_split">Splitting and merging <a HREF="http://www.zabkat.com/blog/wink/split.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="split and join a large file"></a></h5>
+
+<p>Sometimes you may want to transfer large files between two PCs and find that a single file is way too big to fit on e.g. a floppy disk or even CD. The <b>Split</b> and <b>Merge</b> commands from <b>Actions</b> menu will come handy in such a situation.
+
+<p>First you break down the large file in as many portions as necessary, declaring your preferred size in <b>kB</b> in the split dialog (figure 7) as well as the target folder. For example if you have a file called <tt>bigone.dat</tt> that is 10MB and you break it down in chunks of 1MB, you will end up with 10 files named <tt>bigone.dat.<font color=red>01</font>, bigone.dat.<font color=red>02</font>, ... bigone.dat.<font color=red>10</font></tt>.
+
+<p><center>
+<IMG id="fig7" SRC="snap/split.png">
+<br><b>Figure 7</b>. The file split dialog
+</center>
+
+<p>This will allow you to place the file segments on floppy disks and do the transfer to another computer. There you just need to make sure to place all fragments in a single folder, select them all after <i>sorting by name</i> (so that they'll be in order), and use <b>Actions | Merge</b> to put them back together; the file will be restored keeping its original modification date.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: You can also merge file segments using the DOS <b>copy</b> command. For example <tt>copy part1+part2 whole</tt> will merge file parts 1 & 2 to create a file called <tt>whole</tt>. This is not as convenient as the built-in Merge command; it merely demonstrates that you don't need xplorer² to put files back together!</td></tr></table>
+
+
+<h5 id="ma_notes">File and folder comments (tags)</h5>
+
+<p>Comments are small pieces of text associated with files and folders, 100% controlled by the user and ignored by the filesystem. There are many possible uses for comments:
+
+<ul>
+<li> Extended information for the contents of a document
+<li> <i>Keywords</i> for document classification, aka tags
+<li> Any other arbitrary information as cross-references etc
+</ul>
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: File comments rely on an advanced NTFS feature called <i>alternate data streams</i> (ADS). Imagine a file as a kind of "folder" that has a stream for the regular contents and secondary streams for other information, including comments. When you move the file around, all these alternate streams are silently carried along. Checkout the <a HREF="http://www.rekenwonder.com/streamexplorer.htm">Stream explorer</a> program for more information on ADS.</td></tr></table>
+
+<p><center>
+<IMG id="fig7a" SRC="snap/tag.png">
+<br><b>Figure 7a</b>. The comments management dialog
+</center>
+
+<p>File comments are supported from windows 2000 onwards, and there always existed a way to manipulate them through shell properties dialog (<b>Summary</b> tab). xplorer² makes comment handling much more easier:
+
+<ul>
+<li> Set or change a comment with a single keystroke <tt>&lt;Alt+Z&gt;</tt>
+<li> Set/clear comments for many files at once (if the <b>Replace</b> mode is ticked)
+<li> Tags management: You can add words or small phrases of your choosing to files using the <b>Append tag</b> option in the dialog (see figure 7a above). These are added to any previous tags. Likewise using <b>Remove tag</b> option you can remove selected words (tags) from existing comments.
+<li> Support older windows platforms like NT4 (sorry, <i>no</i> win9x)
+</ul>
+
+<p><font color=red><b>[PRO]</b></font> Most important of all, xplorer² allows you to use comments as <a HREF="#ff_add">search rules</a>, so you can easily check and retrieve files that have a set of keywords.
+
+<p><font color=red><b>WARNING</b></font>: When using comments you should be aware of some <b>limitations</b> arising from the mechanism that underwrites the functionality for windows filesystems:
+
+<ul>
+<li> You can easily set comments for all folders, but files must be on <a HREF="#t_ntfs">NTFS</a>-formatted partitions. A notable exception is <i>compound files</i>, which support comments even for windows 9x (e.g. all Microsoft Office documents).
+<li> You will <i>lose</i> comments if you copy files from NTFS to an older filesystem e.g. to a floppy disk (FAT32). The workaround is to use the command <b>Actions | ADS | Bundle to go</b> that preserves all ADS including comments (use <b>Actions | ADS | Unpack bundle</b> at the destination to restore ADS). Compound files don't have this risk though, so they are safe to transfer anywhere without bundling.
+</ul>
+
+<center>
+<br><br><HR>
+<IMG SRC="snap/prev.gif"> <a HREF="#afevtns">Managing</a> <IMG SRC="snap/up.gif"> <a HREF="#toc">Contents</a> <IMG SRC="snap/next.gif"> <a HREF="#sanvns">Maintenance</a>
+</center>
+
+<h4 id="skrap"><font color=red>[PRO]</font> Scrap containers</h4>
+
+<p>What are they? What do they do? Why do I need them? These and other questions are bound to occur to users since scraps are such a novel concept. But soon you'll appreciate their flexibility and discover many ways to put them in good use.
+
+<p><center>
+<IMG id="fig8" SRC="snap/skrap.png">
+<br><b>Figure 8</b>. A scrap container window
+</center>
+
+<p>These windows look very similar to the <a HREF="#fig1">main window</a> and support nearly all commands and operations available in "normal" windows where you browse a single folder at a time. The difference is that in these containers you can see contents of <i>multiple</i> folders in a single pane (notice the <b>Path</b> column in figure 8), even collections of hand-picked items ("scraps").
+
+<p>The only noticeable difference in terms of appearence is the lack of a <b>folder tree</b> pane, which doesn't make much sense for the multi-folder context of scrap containers. Other than that it is mostly similarities: a quick preview pane, toolbar capable of <a HREF="#misk">command execution</a>, the same status bar, a menu bar with the same commands (even some additional ones!), etc. All the file management operations, including filtering, selection, drag-drop, shell context menu etc are available, too.
+
+<p>You can have as many of these special windows open as you wish; just use <b>Window | Scrap container</b> to open a fresh one. Also many commands may create a scrap window if one doesn't exist, like <b>Send to scrap</b> and <b>Browse flat</b> (<b>File</b> menu). <b>Tools | Find files</b> command will also open a scrap window for its results.
+
+<p>When you place items in scrap containers, their actual disk location remains unchanged. Think of the Find Files command in windows explorer; the matching files are placed in a results window and they may come from all over the namespace. Scrap containers are similar, only <i>you</i> control what gets into them. There are many ways to add items in a scrap window:
+
+<ul>
+<li> Drag-drop from a folder view or even the desktop
+<li> Type/paste a path in the addressbar of a scrap window
+<li> Use <b>File | Send to scrap</b> command to insert the selected items with a single keystroke <tt>&lt;Ctrl+S&gt;</tt>
+<li> Open a previously saved <b>cida</b> file (see below)
+<li> The results of a <a HREF="#lokos">find files</a> command are shown in a scrap window too.
+<li> Paste text paths using <b>Actions | Import clipboard</b>. There should be just one <i>full</i> path per line, no delimiters or quotes.
+</ul>
+
+<p>Once you have some items in a scrap container, you can work with them like as if they were in a single folder, using the same palette of <a HREF="#br_quix">previewing</a> and <a HREF="#ma_bfm">file management</a> commands. For example when you <b>Edit | Copy</b> selected items they will be available for <b>Paste</b>-ing to other windows. Even if the selected items come from different folders, the paste will place them in a <i>single</i> target folder - unless <b>Edit | Paste special | Structured scrap clips</b> <a HREF="#pssc">command</a> is used.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: Scrap containers accept items from both filesystem and "virtual" folders. This may create confusion in terms of column information; that's why only <a HREF="#br_views">stock</a> and filesystem columns are available in these multi-folder windows.</td></tr></table>
+
+<p>You can <b>remove</b> items pressing <tt>&lt;Delete&gt;</tt>; this will just remove them from the window without affecting the actual files on disk. If you want to delete the files themselves then use <tt>&lt;Ctrl+Delete&gt;</tt> or <b>File | Delete</b> command.
+
+<p>Although you can work with items in scrap containers, sometimes you need to open the folder that contains the item in a normal xplorer² window. Use <tt>&lt;Ctrl+Enter&gt;</tt> key or right click on the item and pick <b>Open file location</b> command from the menu.
+
+<p>Scrap containers have some unique commands too, not available in normal browser windows. You can check for <a HREF="#xa_dup">duplicate</a> files and compare the content of folder <a HREF="#xa_hie">hierarchies</a>. They also underwrite the functionality of the <b>Tools | Find files</b> command, as already mentioned.
+
+
+<h5 id="sk_dok">Shell "documents"</h5>
+
+<p>The term "scrap" suggests something fleeting and impermanent, and indeed these containers were originally conceived as quick-and-dirty temporary holders of items, which would be discarded as soon as some simple file operation was performed on them. However, it was soon realized that there was another possible use mode: <b>saving</b> scrap contents for future use.
+
+<p><b>Actions | Write contents</b> creates a file with <b>.cida</b> extension and writes location information for all the items in a scrap pane. You can reopen such saved files at a later time and restore the scrap container, just like as if it was a shell <b>document</b>. xplorer² registers .cida files for its own use so you can open them by merely double-clicking on them even when xplorer² isn't running.
+
+<p>You can take advantage of this functionality in many ways. For instance you can create cida files as "table of contents" that keep the locations of files with similar content throughout your filesystem. This would be equivalent to creating a normal folder and keeping <i>shortcuts</i> to the same documents, but if you go the scrap way you have <i>direct</i> view of the actual files.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: We stress that only the <i>location</i> of the files is stored in .cida files, not the files themselves. If you delete or move the actual file, xplorer² will not be able to reload it when reading the .cida file. When such errors occur you can optionally see a log of all missing files that may help a subsequent manual repair.</td></tr></table>
+
+<p>Normally you will be reusing cida files on a single computer to access a set of related files. If you want to access the same files from a <i>different</i> PC you must save some extra information to make the cida file location-independent; that is the purpose of "UNC pidl files" type in <b>Save as type</b> drop-down box, as in this snapshot:
+
+<p><center>
+<IMG id="fig8a" SRC="snap/uncas.png">
+<br><b>Figure 8a</b>. PC-independent cida
+</center>
+
+<h5 id="sk_flat">The flat earth view</h5>
+
+<p>Another nifty trick is browsing the contents of a folder and all its subfolders in a single scrap window. There are a number of ways of "flattening" a folder (or .cida file):
+
+<ul>
+<li> Use <b>File | Browse flat</b> on a folder from the main window
+<li> <i>Right</i>-drag a folder and drop it in a scrap window (use <b>Get subfolders</b> to extract only the contained folders)
+<li> Use <b>Actions | Flatten path</b> within a scrap window
+<li> Highlight a folder in a <i>dual-pane</i> scrap and press <tt>&lt;Alt+Return&gt;</tt> to flatten it in the inactive pane.
+</ul>
+
+<p>Such flat views are useful when you want to operate on items <i>recursively</i>, for instance change <a HREF="#ma_attrib">file attributes</a>, create printer-ready listings using <b>Edit | Copy columns</b>, execute a command on each file, and generally whenever you want a flat overview of a folder's contents. We are sure you'll discover many more uses yourselves!
+
+<h5 id="sk_mini">Mini scrap <a HREF="http://www.zabkat.com/tour/mfv.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="manage bookmarks and launch programs"></a></h5>
+
+<p>It can be argued that in some situations it will be more convenient to have a scrap pane (virtual folder, drop box, "playlist", multi-folder view or however you want to call it) <i>within</i> the main xplorer² window, rather than opening a separate scrap container. This functionality is furnished by <b>View | Mini scrap</b> menu command.
+
+<p>There is only one such pane available per window, but it is quite versatile. It is almost identical in functionality to a stand-alone scrap container: you can put in it files and folders from many locations, you can select view modes, sort orders, even arrange the content in <a HREF="#br_group">groups</a>. Most of the menu commands are available too, including load/save through the background context menu. Here are a few possible uses:
+<ul>
+<li> Temporarily hold files, tagging them for later processing en masse.
+<li> <b>Bookmark</b> pane: when you double-click in a folder (or folder shortcut) in the mini-scrap it is loaded in the active pane. This can be considered a replacement for the tree, showing only the folders you are interested in instead of the whole hierarchy.
+<li> <b>Launch pad</b>: put in some favorite documents or even program shortcuts for easy opening. Program icons behave as drop targets so that you can pass file arguments using drag-drop.
+</ul>
+
+If you save the contents of a mini-scrap (using the context menu or <tt>&lt;ctrl+S&gt;</tt>) it will automatically reload the <a HREF="#sk_dok">cida</a> file when you next open the pane; this makes its use as a bookmark pane very attractive and convenient. You can access a number of recently used "playlists" too through the context menu. An alternative is to <i>right-drag</i> a stored CIDA file and drop it onto the mini-scrap, picking <b>Browse flat</b> from the context menu.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: To stop the mini scrap reloading the last document on startup, empty its content before you close it, e.g. select all and then hit <tt>&lt;Del&gt;</tt>.</td></tr></table>
+
+<center>
+<br><br><HR>
+<IMG SRC="snap/prev.gif"> <a HREF="#skrap">Scrap containers</a> <IMG SRC="snap/up.gif"> <a HREF="#toc">Contents</a> <IMG SRC="snap/next.gif"> <a HREF="#lokos">Searching</a>
+</center>
+
+<h4 id="sanvns">Examine and maintain your filesystem</h4>
+
+<p>Daily heavy-duty work on a PC will invariably result in a system that is suboptimal at best and unstable at worst. xplorer² has a number of advanced commands that help you restore order and reclaim wasted hard disk space.
+
+<h5 id="xa_sync">Comparing & synchronizing folders <a HREF="http://www.zabkat.com/blog/wink/bsync.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="single folder synchronization"></a></h5>
+
+<p>Many times you have two or more folders that have the same contents and you want to keep them <i>synchronized</i>, i.e. make sure all "versions" stay updated whenever you make changes to one of them. One way to achieve this would be to use <a HREF="http://support.microsoft.com/?kbid=205524">folder junctions</a> or <a HREF="#phlnk">hard links</a> but this isn't always convenient. One of the folders may be on a floppy disk or on a remote computer, a zip file, FTP site, etc, where these advanced linking techniques won't help you.
+
+<p>That's when xplorer² and its dual pane layout comes in handy. It is ideal for comparing the contents of any two folders, and finding items that are missing from either one, or have been changed in any way. Once you identify the differences, you can decide how to deal with them.
+
+<p>The dialog in figure 9 (<b>Mark | Sync wizard</b> command) indicates that comparison has two facets; first you determine <i>how</i> you want to compare items and then <i>which</i> items to mark. The large number of combinations allows you to do all sorts of checks to suit your synchronization needs.
+
+<p><center>
+<IMG id="fig9" SRC="snap/sync.png">
+<br><b>Figure 9</b>. Folder comparison dialog
+</center>
+
+<p>The comparison logic first tries to match items left and right using the filename as a guide. If a file in one folder doesn't have a matching namesake in the other folder, it is immediately considered <b>unique</b> (cf. the checkboxes in figure 9). If a file exists in both folders, the two copies are compared for differences, using the mechanism you specify:
+
+<ul>
+<li> <b>Modification date</b>. This is the fastest way, when the date each file was last changed is used to determine if the two files are <b>identical</b>, and if not, which one is <b>newer</b> (the other one will then be <b>older</b>).
+<li> <b>File content</b>. When dates are unreliable for one reason or other, you can check the actual data in the two files. This is a much slower but infallible method to compare for identity or otherwise. Note that when differences are found, there's no way to tell which file is "newer" so xplorer² arbitrarily considers the version in the <i>active</i> pane as newer and the one in the inactive as older. If in doubt you should open the files and manually inspect the content.
+<li> <b>Name only</b>. This quick-n-dirty scheme will just find items that are missing from either folder. Files that exist in both folders are considered "identical" without further checks for dates or contents.
+<li> <b>Custom property</b>. Any piece of file metadata (<a HREF="#br_views">column</a>) can be used, typically some date other than last modified. So a file can be newer or identical in terms of date created or date picture taken, depending on the column you select.
+</ul>
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: When comparisons are based on date modified (or any other date) two items are considered different if their dates are more than +/- 2 seconds apart. You can use the <b>Ignore</b> tickbox at the bottom of the synchronization dialog to specify a different interval to ignore. E.g. if a change in daylight savings DST resulted in artificial 1-hour differences, you can set it to ignore this 1 hour — files differing by up to 1 hour will be considered identical as long as their size matches.
+</td></tr></table>
+
+<p>The relationship between files is fixed by their properties and the comparison scheme you select. The second phase is to decide which files you want to <b>mark</b>, ear-tag them for further processing. There are checkboxes for all item states and you can check as many of them as you wish - although not all combinations make sense, e.g. selecting both "older" and "newer" files. The drop-down menu lists some common scenarios for your convenience.
+
+<p>A typical scenario is to select unique and newer files. By copying them to the "passive" folder you ensure that the files in both folders are the same, both in number and most recent content. Note that there may be unique and newer items in <i>both</i> folders - obviously not the same items - that need to be carried across. Let's take a look at an example.
+
+<p><center>
+<IMG id="fig10" SRC="snap/syncres.png">
+<br><b>Figure 10</b>. Results of a sample folder comparison
+</center>
+
+<p>The figure shows the results of a <tt>&lt;F9&gt;</tt> command on two folders. On the left there are 3 unique files that don't exist on the right (<tt>todo, x2help.css, x2tips.rtf</tt>), a file that is newer (<tt>x2tips.rtf</tt>, please check the modification dates left & right) and a file that is the same in both folders (<tt>x2help.htm</tt>). All the marked files must be copied to the inactive pane to establish "synchronization" of contents. But also note that there is a unique file marked in the right pane (<tt>New File</tt>) that also needs to be copied to the <i>left</i> folder.
+
+<p>Also notice that on the right pane there is an extra folder called <tt>ed3</tt> but this wasn't marked by the <tt>&lt;F9&gt;</tt> command. By default folders are excluded from comparisons, unless you check <b>Consider folders, too</b> (see <a HREF="#fig9">figure 9</a>).
+
+<p>Sometimes you may need to synchronize folders including their subfolders, as in the situation depicted in figure 11. If the hierarchy is shallow (few folders) you can turn on <b>mirror browsing</b> (<b>Go to</b> menu) and let xplorer² keep the inactive pane in the right folder, as you browse folders in the active pane. As an example, starting from folders <tt>A:\</tt> and <tt>c:\documents\kenny</tt> in the active and inactive panes respectively, if you browse into <tt>A:\<font color=red>help</font></tt> the inactive pane will automatically follow to read <tt>c:\documents\kenny\<font color=red>help</font></tt>. This mirroring will continue in both down and up direction, as long as folders with matching names exist.
+
+<p><center>
+<IMG id="fig11" SRC="snap/hiera.gif">
+<br><b>Figure 11</b>. Synchronizing folder hierarchies
+</center>
+
+<h6 id="xa_hie"><font color=red><b>[PRO]</b></font>: Deep synchronization <a HREF="http://www.zabkat.com/blog/wink/sync1.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="compare folder hierarchies"></a></h6>
+
+<p>When many subfolders are involved, mirror browsing is cumbersome. You can take advantage of <a HREF="#sk_flat">flat folder views</a> and use a <b>dual</b> scrap frame (use <b>View | Dual pane</b>) to browse all the files involved in the two hierarchies. If there is a good match between subfolders as in figure 11, the same <tt>&lt;F9&gt;</tt> command will reveal all the changes that need to be made but now acting on <i>all</i> subfolders simultaneously.
+
+<p>The easiest way to compare two folder hierarchies is to browse the required root folders in a normal dual-pane window and pick <b>Tools | Compare subfolders</b>. This command will open a dual scrap window, flattening each hierarchy in a separate pane and will also launch the synchronization command. If grouping is supported, items will be grouped by folder helping you to inspect the comparison results.
+
+<p>Once files are marked, use the special <b>Edit | Sync-o-paste</b> command available in scrap containers to copy all the files in their matching <i>folders</i>. So items selected in <tt>A:\</tt> will end up in <tt>c:\documents\kenny</tt>, those in <tt>A:\help</tt> will end up in <tt>c:\documents\kenny\help</tt> and so on. Note that Sync-o-paste acts on the selected items and doesn't require a prior <b>Edit | Copy</b> command.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: Scrap containers may host items from arbitrary locations. The deep synchronization logic tries to match <i>folders</i> first, and then applies the usual content comparison procedure for each folder pair. Sometimes it won't be possible to match all folders left & right, when the hierarchies are completely different. In such cases there will be a lot of items left in an <b>undetermined</b> state, and a little red question mark will appear overlaid on their icon.
+<br>If you want to compare items that don't belong to similar folder structures, you can try checking <b>Loose name matching</b> option (<a HREF="#fig9">figure 9</a>); this will compare items matching just names - ignoring folders - but you won't be able to use the sync-o-paste command on the results. Multiple same-name items are matched in the order they are listed in each pane.</td></tr></table>
+
+<p>If you find this form of deep synchronization a bit of a headache you can try an alternative that is based on robust copy <tt>&lt;F5&gt;</tt> command. Selecting <b>Overwrite if newer else skip</b> <a HREF="#fig5a">transfer option</a> will result in copying only files that are new or changed, just as if you did a synchronization based on modification dates - and it doesn't need scrap containers or any prior synchronization commands! This will work best if you have all the changes in one folder hierarchy and you want to mirror them to some other "backup" location.
+
+
+<h5 id="xa_make">Checking file transformations</h5>
+
+<p>The folder synchronization command just described checks for modifications of different <i>versions</i> of the same file. A variation on this theme is checking the state of file transformations, when the compared filenames are slightly different.
+
+<p>If you are involved in programming, then you will recognise this situation as <i>compilation</i> of source code to object files. So starting from a C++ file <tt>xplorer2.<font color=red>cpp</font></tt> the compiler churns out the machine translation in a new file called <tt>xplorer2.<font color=red>o</font></tt> - notice the change of extension from <b>.cpp</b> to <b>.o</b>. <b>Mark | Check build</b> command checks the states of source files comparing them to their "transformed" versions.
+
+<p><center>
+<IMG id="fig12" SRC="snap/make.png">
+<br><b>Figure 12</b>. "Make" check dialog
+</center>
+
+<p>The dialog shown in the above figure accepts as input the transformation <i>rule</i>, which observes the source and target filename extensions. It can be seen that multiple comma-separated extensions can be used to check for all compilation projects in one stroke. Also note that a generic <a HREF="#br_vf">wildcard</a> is accepted for the <b>From</b> field whereas the <b>To</b> field must be just the target extension(s), <i>without</i> the "." (e.g. type <b>o</b> instead of <b>.o</b>).
+
+<p>Once source and target files are matched their modification dates are examined to figure out which is newer. If the source is newer, it must have been <b>modified since last build</b> (cf. figure 12 checkboxes) and it requires re-compilation. If the target is newer then it is <b>up to date</b>, whereas if it doesn't exist at all the source is <b>not built</b>. You can check as many boxes as you want to tell xplorer² which <i>source</i> files to select. Let's take an example.
+
+<p><center>
+<IMG id="fig13" SRC="snap/maex.png">
+<br><b>Figure 13</b>. Sample project check
+</center>
+
+<p>Using the options in figure 12 on a pair of hypothetical source and target folders, xplorer² marks all source files that require compilation. The file <tt>application.cpp</tt> was modified after it was last built (check the date of its target <tt>application.obj</tt>) so it is marked. <tt>browserView.cpp</tt> hasn't been compiled at all (no <tt>browserView.obj</tt> exists in the inactive pane), so it is "not built" and hence marked. <tt>addressBar.cpp</tt> on the other hand is up to date, and finally <tt>Alpha.txt</tt> is completely irrelevant for this transformation rule so it is left unselected.
+
+<p>Like the folder synchronization command, <b>Mark | Check build</b> merely ear-marks files that require building without actually taking any further action. It is up to the user to decide what to do with the selection afterwards, e.g. generate a <a HREF="#dos_batch">script file</a> that executes the compiler for each source file.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: This command doesn't make claims of being a substitute for <b>make</b> type tools. For instance it cannot check for cross-dependencies from modified header files etc. Still it can be useful for simpler scenarios like <b>MatLab</b> projects.</td></tr></table>
+
+
+<h5 id="xa_dup"><font color=red>[PRO]</font> Detecting duplicate files <a HREF="http://www.zabkat.com/tour/dupe.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="clean up your hard disk"></a></h5>
+
+<p>What if you have a ton of MP3s collected and you are not sure how many times you have Christina Aguillera's "Dirty" (this must be a video then :) , or John Abercrombie's "Back wood song", eating up your hard disk space? Enter the duplicate finder.
+
+<p>Duplicates come in many guises. In the simplest case a file will exist in many carbon copies using the same name. A little bit trickier is when a file exists with many different names but the same data content. <b>Tools | Check duplicates</b> command (in scrap windows) will help you detect all these kinds of extra files.
+
+<p>The procedure is as follows. First you open a <b>Window | Scrap container</b>; then fill it in with all the suspected duplicate items; finally launch the duplicate checker command from <b>Tools</b> menu to examine the contents. Note that the command only considers the items in the scrap container, so you have the flexibility to hand pick selected suspect folders. Alternatively you can <a HREF="#sk_flat">flatten</a> your whole "My Computer" folder that includes all your hard disks and do a thorough - albeit time consuming - investigation. Most of the times it would suffice to flatten "My Documents" folder.
+
+<p><center>
+<IMG id="fig14" SRC="snap/dupe.png">
+<br><b>Figure 14</b>. Duplicates' detection parameters dialog
+</center>
+
+<p>The options set in the dialog determine how the investigation is to proceed. You can have any combination of boxes checked but the fastest would be to assume that duplicates will have the same <b>name</b>, <b>modification date</b> and <b>size</b>. (Sometimes detecting duplicates is as simple as sorting the scrap contents by size or by <b>checksum</b> and visually inspecting for items that have the same size or checksum.)
+
+<p>Custom file properties can also be used as criteria for "sameness". Select the property you want using the drop-down box and you can extend the duplicates tester in creative ways (e.g. find all music files by the same artist or owner)
+
+<p>If you suspect you have identical files with different names or/and timestamps, then you can clear all boxes except for <b>content</b>. This is the most robust detection mechanism but at the same time very time consuming, since each file is compared to <i>each and every</i> other file in the container, regardless of their name.
+
+<p>After the command finishes its work, all files that match the user criteria are bunched together in groups with different background color as in figure 15. All unique items are <i>hidden</i>. The example situation started with 8 files (shown in the inactive pane). Three pairs of duplicates were detected and the unique items like <tt>kenny.dsw</tt> were removed from view.
+
+<p><center>
+<IMG id="fig15" SRC="snap/epud.png">
+<br><b>Figure 15</b>. Sample duplicate files (in dual pane for clarity)
+</center>
+
+<p>If you intend to delete duplicate files, please make sure you check <b>Select all duplicates</b> box in the dialog (figure 14) <i>before</i> you go ahead with the command.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b><font color=red>TIP</font></b>: This command can't tell which is the "original" out of the identical files, but it uses the initial <i>order</i> of the items, leaving the first one unselected and marking all the others. If you want to keep the <i>older</i> copy then make sure you sort by <b>Modification date</b> - from older to newer - <i>before</i> starting the duplicates checker.</td></tr></table>
+
+<p>Such listings provide preliminary evidence of duplicate files. Depending on your dialog parameters you may need further proof before actually deleting the redundant copies. A good guide is the <i>checksum</i> column that you can activate using <b>View | Select columns</b>. It shows a numeric "summary" of a file's contents. When checksums are different files are 100% different; equal checksums on the other hand do not guarantee identity - although they imply a strong possibility that the files are identical.
+
+<p>Once you are confident about extra files being duplicates, you can delete them using <b>File | Delete</b> - or pressing <tt>&lt;Ctrl+Delete&gt;</tt>. 
+
+<p>Technically speaking, when duplicate files are shown, the pane is both <i>filtered</i> since unique files are hidden from view (notice the filter icon on the statusbar of figure 15), and <i>unsorted</i> since files are displayed in groups regardless of the original sort order. You can cancel this mode using <b>Tools | Reveal unique</b> or <b>View | Show all</b>.
+
+
+<h5 id="xa_fuzzy"><font color=red>[PRO]</font> Fuzzy grouping</h5>
+
+<p>Fuzzy grouping is an interesting (albeit oddball) feature that could be put in various uses. It uses fuzzy matching to group together items that are similar but not identical. For example, we can put all our music album folders in a scrap container, then use <b>Tools | Fuzzy groups</b> menu command to group the folders by similarity. Just watch the groups in the following picture:
+
+<p><center>
+<IMG id="fig15a" SRC="snap/fuzzy.png">
+<br><b>Figure 15a</b>. Group similar filenames with fuzzy grouping
+</center>
+
+<p>As you can see, using a 40% fuzzy factor, the first group contains all folders that contain "Abercrombie" in the title, the third group has works by Keith Jarrett and so on. The command picks up the groups automatically. If you make the factor bigger (say 60), the fuzziness <i>decreases</i>, so items have to be more alike to be groupped together. For best results try a few different values until you hit on the desired groupings.
+
+<p>Fuzzy grouping is a special case of <a HREF="#fig3b">custom grouping</a>.
+
+
+<center>
+<br><br><HR>
+<IMG SRC="snap/prev.gif"> <a HREF="#sanvns">Maintenance</a> <IMG SRC="snap/up.gif"> <a HREF="#toc">Contents</a> <IMG SRC="snap/next.gif"> <a HREF="#misk">DOS commands</a>
+</center>
+
+<h4 id="lokos"><font color=red>[PRO]</font> Search for files and folders <a HREF="http://www.zabkat.com/blog/wink/ffdoc.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="Find keywords in documents"></a></h4>
+
+<p>xplorer² unleashes the full potential of file searches since you can use <i>any and all</i> pieces of file information as parameters. You can thus home in to the files you are after with unparalleled precision avoiding irrelevant hits. You can search a few hand-picked folders - even within zip archives, or whole networks, and even <i>refine</i> search results.
+
+<p>You initiate a search using <b>Tools | Find files</b> command. The ensuing dialog (figure 16) is strikingly simple considering the amount of information it conveys. Broadly speaking it is divided in two sections, the search <i>context</i> that specifies <i>where</i> to search, and the <i>hyper-filter</i> that controls <i>what</i> to search, the parameters of the files that will be considered positive hits.
+
+<p><center>
+<IMG id="fig16" SRC="snap/find.png">
+<br><b>Figure 16</b>. Find dialog: scope and filter selection
+</center>
+
+<p>By default the search context is the folder you were browsing when you issued the <tt>&lt;Ctrl+F&gt;</tt> find command. You can also specify broader contexts using the <b>Special folders</b> drop down box. The <b>Look in</b> box itself accepts multiple comma-separated folders; e.g. typing <tt>C:\ <font color=red>,</font> d:\temp</tt> will instruct xplorer² to search both these folders. You can also <i>exclude</i> folders using a leading minus sign, e.g. <tt>C:\, <font color=red>-</font>*temp*</tt> will search all C:\ except any folders with "temp" in their name.
+
+<p>Usually you will want to search all the subfolders below those specified in the <b>Look in</b> field, as long as <b>Search subfolders</b> is checked. You can also control the traversal method: <b>Depth first</b> will favor files in deep subfolders whereas <b>Breadth first</b> will scan the folder tree in layers.
+
+<p>If <b>Archived content</b> is checked, xplorer² will step into zipfolders, FTP sites (if <a HREF="#sap_reqs">supported</a>) and pretty much any other unusual folder that comes in its way. You can use all stock columns and even search for contained text just like in regular folders. The down side is that searches become much slower, so only check this box if you know your target file is within an archive.
+
+<p>By checking <b>Local search</b>, you instruct xplorer² to search within the files already contained in the scrap window, possibly inserted by an earlier find command. This essentially refines the search. A similar result can be achieved using <b>Mark | Matching a rule</b> command.
+
+<p>When it comes to defining the search parameters, you are really spoilt for choice. The search <i>hyper-filters</i> defined in the dialog comprise:
+
+<ul>
+<li> A <i>wildcard</i> (<b>Named</b> field) to search for particular filenames or types (e.g. <tt>*.txt, *.dat</tt>). The drop-down portion includes some common document types (e.g. audio, video etc) for your convenience.
+<li> <i>Fuzzy</i> name search. The number box next to the <b>Named</b> field dictates the percent exactness when matching file names. 100% means exact match, but lower values will allow for small spelling errors or the presence (or lack) of accented characters e.g. umlauts and other diacriticals. Setting the fuzzy indicator to 0 turns on the regular expression mode where the Named field is interpreted as a <a HREF="#table1a">regular expression</a> to match.
+<li> Checkboxes for limiting the search to <b>Files</b> and/or <b>Folders</b> (or both).
+<li> Contained text criteria, when you are after files that must contain some string. All the functionality of the <a HREF="#br_grep">find text in files</a> command is available embedded in the find dialog (compare <a HREF="#fig4" target="_blank">figure 4</a> and 16), including <a HREF="#br_quix">text filters</a> and comma-separated substrings - in case you need to search for many words at once. Regular expressions can be used too, checking the <b>RE</b> box.
+<li> <b>Additional rules</b> based on information available in file columns (see below).
+</ul>
+
+<p>You can define hyper-filters with as few or many criteria as you want. You can go from a nearly empty filter (e.g. all fields clear except for <b>Folders</b> box that will find all folders) all the way to any arbitrarily complex filter with tens of rules combined in boolean contexts. Only items that match <i>all</i> aspects of the filter are considered hits.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: The more rules in a filter, the longer it will take to process it for each file. Some columns (e.g. <b>checksum</b>) or text searches are the most time consuming. Still xplorer² checks easier rules first and leaves slow ones for last, optimizing searches as much as possible. Users needn't worry ordering the rules, this is done automatically.</td></tr></table>
+
+<h5 id="ff_add">Additional rules in hyper-filters <a HREF="http://www.zabkat.com/tour/find.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="find recently modified"></a></h5>
+
+<p>Whereas in windows explorer (and all other file managers) you can only search for sizes and dates - in addition to usual names and contained text - xplorer² takes advantage of all available <a HREF="#br_views">columns</a> and does so in a <i>boolean</i> fashion. This allows you to search for text within comments, MP3 tags and pretty much everything else you know about your files and folders.
+
+<p>You can add, edit, reorder and delete rules using the toolbar on the right of the <b>Additional rules</b> list box (figure 16). All the usual keyboard and mouse commands are also recognized within the list. Each rule has a descriptive text and an icon reflecting its boolean context (see below).
+
+<p>Searchable file properties (aka columns) belong to three broad categories: dates, numbers and text. This determines how the properties are interpreted & searched, whether <i>ranges</i> are possible, etc. The rule definition dialog for a date (Modified) property is shown in figure 17. As you browse the <b>Properties</b> drop-down box, the middle part of the rule definition dialog changes to reflect the property type.
+
+<p><center>
+<IMG id="fig17" SRC="snap/rule.png">
+<br><b>Figure 17</b>. Sample rule definition: date property
+</center>
+
+<p>As you can see, date properties can be defined as periods from the present (<b>During the previous</b>) or as ranges (<b>Between</b>). Leaving any end of the range empty (unchecked) removes the respective date boundary. For example if the low end of the <b>Between</b> range is empty, the rule will match any files that are <i>up to</i> the date specified in the upper limit box.
+
+<p>Number properties like <b>Size</b> are also defined in ranges between a <b>Minimum</b> and a <b>Maximum</b> value. Leaving any end of the range empty (note: <i>not</i> zero but no text at all) again means a number <i>up to</i> or <i>at least</i>, for the low and up bounds, respectively. If you are after an exact number, make both minimum and maximum identical.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: The <i>units</i> of number properties depend on the property type; <b>Size</b> properties count bytes, <b>Page</b> property counts pages and so on. If you need to work with larger numbers you can pick one of the listed units (<b>kilo</b>, <b>mega</b> etc). For example, if you select <b>kilo</b>, and enter number 3 it will correspond to 3K - equivalent to typing 3072 flat.</td></tr></table>
+
+<p>The third and final property category is plain text. Columns like <b>Comments</b> or <b>Owner</b> are text, failing to fit in any other category. You search text properties like you search for text in files: just type <i>part</i> of what you are after in the <b>Find</b> box - you don't need to know the exact phrase of the column. All searches are case insensitive. Wildcards (* and ?) are supported unless you tick the <b>verbatim</b> option. Advanced string matching is possible ticking the <b>Regular expression</b> option.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b><font color=red>ADVANCED</font></b>: Each text rule can contain many comma-separated substrings combined in boolean expressions as in <a HREF="#table1">find text in files</a> command. For example, since the <b>Attribute</b> column is a string that contains letters A, H, S, R etc, searching for <b>+A, -H</b> within file attributes will match files that have the <b>A</b>rchive but <i>not</i> the <b>H</b>idden attribute (note the use of + & - to assign the boolean context for <tt>AND</tt> and <tt>NOT</tt> respectively). You can also use the <b>$xx</b> notation to search for non-printable characters using the hexadecimal ascii code <b>xx</b>.</td></tr></table>
+
+<p>The <b>Boolean context</b> options in figure 17 determine how each rule is combined with the existing rules in the hyper-filter. All <b>And</b> rules <i>must</i> be satisfied, at least one of the <b>Or</b> rules and finally <i>none</i> of the <b>Not</b> rules. If you are not familiar with boolean algebra, just leave the default <b>And</b> button checked. If on the other hand you <i>are</i> familiar, you can have field day playing with hyper-filters!
+
+<p>Let's have an example. Say you want to find a file whose size is either smaller than 1K or above 2K but not inbetween. The simple solution would be to use two <b>Or</b> rules, one searching for files up to 1K and another one above 2K. Or you can use your boolean skills and define a <i>single</i> rule that says: <b>Not</b> "size between 1024 and 2048". Isn't this time-saving?
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>WARNING</b>: As always, increased power must be accompanied with extra care to avoid subtle error conditions. xplorer² will try its best to validate rules but it is not fool-proof. For instance it will allow you to set two <i>contradicting</i> rules (e.g. size less than 1K <i>and</i> size greater than 2K) resulting in a filter that will never be satisfied.</td></tr></table>
+
+<p>You can <a HREF="#gus_hfilt">save</a> hyperfilters for use in future search operations.
+
+<h5 id="ff_res">Search results</h5>
+
+<p>Searches can take a lot of time to complete. As soon as you initiate a search, a <a HREF="#skrap">scrap</a> window opens and shows matching files and folders as they are discovered. An active message pump allows you to start working with the first matches immediately, while the search is ongoing. You can abort a search by pressing the <tt>&lt;Esc&gt;</tt> key.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: A running search command slows down both the scrap and the main window. Sometimes it will be better to <b>Window | Clone</b> a new main window before you start a search. This clone will run in its own thread and will be relatively unaffected and more responsive to user input. Still you should beware the windows OS limitations described under <a HREF="#t_wkak">file transfers</a>. Sometimes patience is the best policy!</td></tr></table>
+
+<p>You can check the progress of a search either by noticing the folder being scanned on the statusbar, or use <b>Tools | Search status</b> for a more detailed report, including all the folders that have already been examined, information about errors or <b>exclusions</b>, etc. This information is available even after the conclusion of the search.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b><font color=red>ADVANCED</font></b>: There are two ways to exclude folders from being searched. One is to use the leading minus (-) notation mentioned in the <b>Look in</b> field. A more permanent solution is to make a folder <b>blacklisted</b>, and the find command will never get into it. You achieve this by entering the folder's full path under the registry key <tt>HKCU\Software\ZabaraKatranemia Plc\xplorer2.global\Find Blacklist</tt>. This list has some common troublemakers in by default. You can add and remove folders from this list at will, but first you must quit xplorer². If you are unfamiliar with registry editing you should <b>not</b> attempt this, since you risk rendering your PC unusable!</td></tr></table>
+
+
+<h5 id="ff_save">Saved searches</h5>
+
+<p>If you repeat a certain search often it makes sense to keep it for later. Once you search using <tt>&lt;Ctrl+F&gt;</tt> use <b>Tools | Save search</b> menu command in the scrap window to save the last search scope. This includes all the properties of the search dialog (<a HREF="#fig16">figure 16</a>): the starting folder, the search context (e.g. search subfolders and other flags) and the search filter. To repeat a search saved earlier, open a scrap window and use <b>Tools | Recent search</b> menu.
+
+<p>xplorer² installer registers the <tt>.X2FND</tt> extension for saved search files. So another way to start a saved search is to double click on a saved search file.
+
+
+<h5 id="ff_wds"><font color=red>[ULT]</font> Windows Desktop Search</h5>
+
+<p>If you have windows XP with <a HREF="http://www.microsoft.com/en-us/download/details.aspx?id=23" target="_blank">desktop search 4</a> installed, or windows vista and later, xplorer² can tap in the <b>fast searches</b> available in windows explorer, querying the indexing server directly. You will notice a substantial speed increase especially if you search for text in the file contents.
+
+<p>You don't need to do anything special to take advantage of this integration; when you press <tt>&lt;Ctrl+F&gt;</tt> to start a search in many situations xplorer² will automatically retrieve results quickly from the system index in phase 1 of the search. It will then pause and allow you to review the results. If you think the file you wanted wasn't found just click on <b>ROBUST SEARCH</b> button to continue with xplorer² robust (albeit slower) search.
+
+<p>There are a few limitations to keep in mind. Searching for text in files will only find whole words and not partial keywords. You can't search for special characters like brackets or quotation marks (they are ignored). xplorer² will <b>not</b> use the indexing server in the following occasions:
+<ul>
+<li>When searching in folders outside the scope of the system index (e.g. removable or <i>unshared</i> network folders)
+<li>When a local folder isn't indexed (add folders in the system index using the <b>Indexing Options</b> applet in control panel)
+<li>When the search filter includes complex properties like regular expressions or fuzzy filenames
+<li>When searching for file attributes (properties) not covered by the system index, e.g. the <b>Signed By</b> xplorer² stock column.
+</ul>
+
+<p>A simpler way to access the system index is <b>Tools | Fast search</b> menu command. Instead of defining detailed search rules, you just type a keyword. xplorer² then starts a search under the current folder for any file or folder that contains this keyword in its name, text contents or any other searchable property (e.g. tags or author). Again note the limitation that only alphanumeric keywords can be searched (no symbols); text in the middle of the word cannot be found either (e.g. <font color=red>right</font> will match a file containing right or <font color=red>right</font>eous but not copy<font color=red>right</font>  - as in all internet searches). If you type more than one keyword then all the words will be matched - in any order.
+
+
+<h5 id="ff_qsr">Quick search</h5>
+
+<p>Despite their expressive power, fumbling with hyperfilters and text rules can be too time consuming. Quick search (<b>Mark</b> menu) is a convenient shortcut that selects files that contain a phrase, either in their content or in some <i>text</i> column, including filename. It is a <i>local</i> search mode (scans items already in the pane) equivalent to a hyperfilter with one rule per text column, each matching your phrase in a boolean OR fashion (i.e. any one match will be enough); if no column matches the phrase the command searches the text within the file. This latter stage can be skipped if not required, hitting <tt>&lt;Esc&gt;</tt>.
+
+<p>Quick search will only scan columns that are <i>visible</i> in the active pane. To make the most of this command you may have to activate a few interesting <a HREF="#br_views">columns</a>, e.g. Comments, Version information etc, depending on your context.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b><font color=red>TIP</font></b>: A quicker way to use quick search is to type your phrase in the addressbar, beginning with a colon, e.g. <font color=red><b>:</b></font> <i>your_phrase</i> and press <tt>&lt;Return&gt;</tt>. If instead of marking you want to <i>filter</i> the matching items (hide everything that doesn't match), type your text and press <tt>&lt;Shift+Return&gt;</tt>. <a HREF="#gus_hfilt">Stored</a> hyperfilter names are also understood if enclosed with curly braces, e.g. <font color=red><b>:</b></font><i>{saved_filter_name}</i> is a valid input</td></tr></table>
+
+
+<h5 id="ff_multi">Multi-function addressbar tool <a HREF="http://www.zabkat.com/blog/wink/quik2.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="Filter, select and search easily"></a> </h5>
+
+<p>In a sense, most of the work you do in xplorer² involves finding, filtering and selecting items, before doing something with them. The edit box next to the addressbar is a convenient way to do all these things from a single tool, extending the quick search feature mentioned above.
+
+<p><center>
+<IMG id="fig17a" SRC="snap/multi.png">
+<br><b>Figure 17a</b>. Multi-function tool drop-down menu
+</center>
+
+<p>Using the above context menu you switch among the different modes of operation (filter, select and search). Type part of the word you are looking for and click on the toolbar button (or press <tt>&lt;RETURN&gt;</tt> key) to activate the tool. You don't need to use wildcards, just plain text will do. The text is normally matched against the filename (plain mode), but you can also tell xplorer² to search in <b>All properties</b> (columns) or even in the file <b>Text contents</b> to find the match.
+
+<p>When set in filtering mode (plain filename), you can immediately see the results as you type. xplorer² will gradually show less and less items in the active folder pane, so you can quickly find the item you are after. If you do a mistake, delete a few letters to show more files in the pane. xplorer² will <b>automatically</b> jump to the quick-filter box if you start typing anywhere within the folder pane for more convenience!
+
+<p>Finally when set to search mode, a new window opens to find matching items in the current folder and its <b>subfolders</b>. If you have the ultimate version you can tick on <b>Windows search</b> option to pass the query to windows desktop search for faster results.
+
+
+<center>
+<br><br><HR>
+<IMG SRC="snap/prev.gif"> <a HREF="#lokos">Searching</a> <IMG SRC="snap/up.gif"> <a HREF="#toc">Contents</a> <IMG SRC="snap/next.gif"> <a HREF="#gusto">Customization</a>
+</center>
+
+<h4 id="misk">Automation of DOS (and windows) commands</h4>
+
+<p>In spite of the drag-drop and click-happy era of file management we're living in, for some tasks you can't beat the efficiency offered by traditional command line execution of programs. In the old days, instead of clicking on icons to start a program, one had to type its path/name in a command processor window (DOS console). This may seem quaint and antiquated but it is very powerful since you can specify extra <i>arguments</i> that modify the behaviour of the program in question, specify which files to operate upon etc.
+
+<p>xplorer² brings the command line into the third millenium, easing its use while maintaining all its power and flexibility. If you are familiar with the DOS console, you can regard the active pane cum addressbar combination as a graphical console that shows the folder contents of the "current directory" at all times. As you browse folders the "current directory" is updated automatically, and the commands you type can access the folder contents directly.
+
+<p>You can start composing text commands using <b>Tools | DOS command</b>, or just get into the addressbar with <tt>&lt;Shift+Tab&gt;</tt> and type the special prompt <font color=red>$</font> character that instructs xplorer² to interpret the input as a DOS command - otherwise it could be mistaken for a folder path. For instance typing <tt>$ dir</tt> and pressing <tt>&lt;Return&gt;</tt> will execute the DOS <b>dir</b> command, producing the listing of the current folder's contents - arguably not the most useful command within x²'s context!
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: The commands you type correspond to names of executable files that exist on disk - minus the <tt>.exe</tt> or <tt>.com</tt> extension - and in the end of the day launch the respective application. So you must make sure you type the names correctly and that the files themselves can be <i>located</i>. If you have a program called <tt>windiff.exe</tt> located in <tt>c:\tools</tt> and you want to call it while browsing <tt>c:\work</tt>, then you must type its <i>complete path</i> in the addressbar, e.g. <tt>$ <font color=red>c:\tools\</font>windiff</tt>. Alternatively you can add <tt>c:\tools</tt> to the <b>PATH</b> environmental variable and reference it just by name.</td></tr></table>
+
+<p id="dos_gt">Except for DOS commands ($-prompted) you can also execute generic windows programs using the special character <font color=red>></font>, e.g. typing <tt>> winword</tt> will launch MS Word. In this sense you have all the functionality of the standard <b>Start | Run</b> menu straight from the addressbar. This execution mode is mostly for programs that have their own user interface and don't need a console window for their output.
+
+<p>Except for launching both DOS and windows commands, the addressbar assists you during the typing process in a number of ways:
+
+<ul>
+<li> It supports path <a HREF="#t_auc">autocompletion</a> using the F1 key.
+<li> <tt>&lt;Ctrl+Enter&gt;</tt> inserts the focused filename from the active view straight in the addressbar. Using <tt>&lt;Ctrl+<i>arrow keys</i>&gt;</tt> you can move the focus around while remaining in the addressbar, so you can insert more than one filenames as part of a command.
+<li> Special <a HREF="#dos_tok">tokens</a> can be used in place of explicit command arguments. So instead of typing <tt>> windiff file1 file2</tt> that compares only these two files you can type <tt>> windiff $n $i</tt> which is reusable for many situations. All commands are available for future use through <b>Tools | Run history</b>.
+<li> <font color=red><b>[PRO]</b></font>: you can store your favorite commands in the customizable <a HREF="#gusto">user menu</a>.
+</ul>
+
+<p>Commands launched from the addressbar normally apply only to the single <i>focused</i> item in the active folder view. If you want to apply the command to all the selected items use a double prompt character, e.g. >> or $$. This construct is a simple road to <a HREF="#dos_batch">scripts</a> without a dialog window.
+
+
+<h5 id="dos_tok">$-Tokens <a HREF="http://www.zabkat.com/tour/dir.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="start tools and pass arguments"></a></h5>
+
+<p>Instead of typing specific filenames as parts of a command, you can use special characters that get automatically substituted with the name of the item(s) that happen to be selected when a command is executed. For example the commands <tt>$type file1</tt> and <tt>$type <font color=red>$N</font></tt> are equivalent if <tt>file1</tt> is the focused item in the active folder pane. Using special tokens like $N saves keystrokes and allows for <i>reusable</i> commands. So whereas <tt>$type file1</tt> can only be used to type (show the contents of) <tt>file1</tt>, the version with $N can be used to type <i>any</i> file, as long as it is selected in the active view.
+
+<p>There is a variety of $-tokens, each representing a different part of the active item or even the all selected items taken as a whole. Let's use a hypothetical situation to clarify the meaning of each $-token. Suppose we have a dual-pane arrangement where the <i>right</i> view is active and the contents are:
+
+<ul>
+<li> <b>Left pane</b>: (inactive) shows the contents of <b>c:\music</b> and contains 10 items, out of which only one is selected & active, called <b>titles.txt</b>
+<li> <b>Right pane</b>: (active) shows the contents of <b>c:\work\c++</b> and contains 2 items, <i>both</i> selected; the first one is called <b>file.txt</b> and the second one <b>active.cpp</b>. The focused item - the one with the dotted rectangle around it - is <b>active.cpp</b>
+</ul>
+
+<p>The following table lists all the available tokens. The third column shows what each token would have been substituted for, given the above scenario. Unless stated otherwise all tokens act on the single focused (or active) item in each pane.
+
+<p>
+<TABLE>
+<tr>
+<th>Token</th><th>Description</th><th>Example</th>
+</tr><tr>
+<td>$N</td><td>Local filename</td><td>active.cpp</td>
+</tr><tr>
+<td>$B</td><td>Base name (before .)</td><td>active</td>
+</tr><tr>
+<td>$E</td><td>Filename extension (past .)</td><td>cpp</td>
+</tr><tr>
+<td>$P</td><td>Parent folder path</td><td>c:\work\c++</td>
+</tr><tr>
+<td>$D</td><td>File modification date</td><td>13/3/2004 10:12</td>
+</tr><tr>
+<td>$C</td><td>Parent folder plain name</td><td>c++</td>
+</tr><tr>
+<td>$F</td><td>Full path name</td><td>c:\work\c++\active.cpp</td>
+</tr><tr>
+<td>$U</td><td>UNC path name (network accessible)</td><td>\\comp\share\active.cpp</td>
+</tr><tr>
+<td>$S</td><td>All selected filenames</td><td>active.cpp file.txt</td>
+</tr><tr>
+<td>$A</td><td>All selected filenames (fullpaths)</td><td>c:\work\c++\active.cpp<br>c:\work\c++\file.txt</td>
+</tr><tr>
+<td>$></td><td>Like $A but selected fullpaths are saved to the list file<br>
+<tt>%TEMP%\x2tmpList.txt</tt> and this file is used as argument</td><td>%TEMP%\x2tmpList.txt</td>
+</tr><tr>
+<td>$L</td><td>Left (top) pane path</td><td>c:\music</td>
+</tr><tr>
+<td>$R</td><td>Right (bottom) pane path</td><td>c:\work\c++</td>
+</tr><tr>
+<td>$I</td><td>Inactive pane path</td><td>c:\music</td>
+</tr><tr>
+<td>$Q</td><td>Filename from inactive pane</td><td>titles.txt</td>
+</tr><tr>
+<td>$G</td><td>Path and filename from inactive pane</td><td>c:\music\titles.txt</td>
+</tr><tr>
+<td>$Z</td><td>Temporary filename extracted from zipfolder, FTP, etc<br>Within normal filesystem folders it behaves like $F</td>
+<td>%TEMP%\x2TMP_001_active.cpp</td>
+</tr><tr>
+<td>$nn</td><td>Automatically incremented counter starting from number <font color=red>nn</font><br>Possible counter formats are $1 for the sequence 1,2,...<br>$001 for 001,002,..., $5 for 5,6,... and so on</td><td>01</td>
+</tr><tr>
+<td>$?</td><td>Asks for an argument</td><td><i>(whatever you type)</i></td>
+</tr><tr>
+<td>$$</td><td>Escape for a single $</td><td>$</td>
+
+</tr>
+</TABLE>
+
+<p>Many of these tokens are intended for renaming large numbers of files, as they are used in <b>File | Mass rename</b> command. But you can use them for any other purpose too; just type as many tokens as necessary in a single command and they will all be substituted according to the above rules.
+
+<p>You may have noticed that all tokens were listed in uppercase. If you type a token in lowercase then it is interpreted in a slightly different fashion, using the short 8.3 version of whatever name the normal uppercase token would have produced. To clarify, had $N corresponded to <b>undocumented.h</b> the lowercase $<font color=red>n</font> would have resulted in <b>UNDOCU~1.H</b>, which is the equivalent old DOS filename.
+
+<p>Another kind of token can be used to extract the text of a particular file <a HREF="#br_views">column</a>. The generic format is ${<i>column_name</i>}, e.g. <tt>${size}</tt> will fill in the file size as it appears in detailed view mode. You can use any of the available columns, which comes handy for mass renaming as e.g. you can use MP3 tags as part of the filename - just make sure you don't use any columns that may insert characters invalid for filenames as * or :.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: The addressbar in <a HREF="#skrap">scrap</a> windows also supports command execution. The only difference is the concept of the "current directory". So whereas in normal browser windows the current directory is synchronized with the active folder, scrap windows contain files from many folders and as a result there is no current directory in the DOS sense. Therefore you should only use tokens that carry full path information, e.g. $F instead of $N, otherwise you may have problems addressing the intended files. The tokens $L, $R and $I don't have any meaning for scraps altogether.</td></tr></table>
+
+
+<h5 id="dos_out"><font color=red>[PRO]</font> Command output redirection</h5>
+
+<p>Most DOS commands don't have a GUI of their own and rely on the console window for their output. This is the traditional black & white system DOS box, which is rather awkward to use. The "pro" version comes with a substitute console that is nearly equivalent in functionality and much easier to work with, e.g. it can mark and copy text like a normal editor window, <b>search</b> for text, etc.
+
+<p><center>
+<IMG id="fig18" SRC="snap/consol.png">
+<br><b>Figure 18</b>. Console² grabbing the output of DOS commands
+</center>
+
+<p>This modern version of the DOS console automatically follows the browser window, changing its current directory as you browse folders with xplorer². The working path is shown on its title bar. It receives the output of all $-prompted commands issued from the addressbar and from command <a HREF="#dos_batch">scripts</a>, too.
+
+<p>You can also type commands directly in the console window - that's the purpose of the input field shown in figure 18, as well as deliver input to running programs (e.g. Y/N responses). This input area supports path autocompletion with F1 and maintains a history of past commands too.
+
+<p>If despite all the extra functionality you prefer the traditional DOS console, you can disable it from <b>Tools | Options | General</b>. Note that in such a case you'll get a separate console <i>for each</i> command you execute.
+
+
+<h5 id="dos_batch">Automatic script generation <a HREF="http://www.zabkat.com/blog/wink/id3.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="mass rename MP3 files"></a></h5>
+
+<p>Commands launched from the addressbar operate only on the single <i>focused</i> item within the folder being browsed (unless a double prompt as >> is typed as discussed above). In some occasions you may need to apply the same command to a number of files as for instance for batch conversions of MP3 files. For this task it is more convenient to use <b>Tools | Command script</b> to treat <i>all</i> selected files in one stroke.
+
+<p><center>
+<IMG id="fig19" SRC="snap/batch.png">
+<br><b>Figure 19</b>. Dialog for batch file generation
+</center>
+
+<p>In this dialog you specify a command <b>Template</b> that will be applied to each and every <i>selected</i> file name. The syntax is identical to the addressbar commands, using the familiar <a HREF="#dos_tok">$-tokens</a> instead of actual file names. Command templates may contain <i>multiple</i> comma-separated commands as the above snapshot illustrates.
+
+<p>The script generator replicates the command template for each selected file in succession. Plain text parts are reproduced verbatim and $-tokens are replaced on a per-file basis. If you have 100 files selected then 100 sets of commands will be generated, effortlessly. Let's have an example using the template <tt>ren "$N" "$B_$01$$.$E"</tt> on a selection that comprises 2 files, <tt>x2help.htm, x2help.ccs</tt>.
+
+<p>This template has four special $-tokens, <b>N</b> for the whole name, <b>B</b> for the base, <b>E</b> for the extension and an automatic counter starting from 1 with a leading zero ($01). The double dollar is an escape for a single $. For each file the generator copies the constant parts of the template including spaces and quotation marks, and substitutes the variable parts using the file in question. For our two files this translates to (notice the counter in the second line):
+<br>
+<br> <tt>ren "x2help.htm" "x2help_01$.htm"</tt>
+<br> <tt>ren "x2help.ccs" "x2help_02$.css"</tt>
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: The use of quotation marks around the filenames covers for situations where names contain spaces. An alternative is to use lowercase token versions like <b>$n</b> that are guaranteed to be free of spaces, albeit rather mangled.</td></tr></table>
+
+<p>Once the script is generated, there are a number of alternative modes of execution, each activated by a dialog button:
+
+<ul>
+<li><b>Execute (DOS)</b>. This is the natural mode, running a batch file in DOS. Behind the scenes a file called <b>x2tmpScript.bat</b> is created in the %TEMP% directory.
+<li><b>Execute (shell)</b>. This is the script equivalent of <a HREF="#dos_gt">>-prompted</a> windows program execution. In this case templates cannot contain commands like <tt>ren</tt> that require the DOS interpreter.
+<li><b>Edit</b>. Instead of immediate execution you can edit the script file, perhaps adding a few final touches. If you are in dual-pane mode the inactive pane will focus onto <b>x2tmpScript.bat</b> so that you can easily execute the final script by double-clicking, after you save your changes.
+</ul>
+
+<p>You should note that the wizard is merely manipulating strings and is oblivious about their meaning or command syntax. If you make any mistakes you will notice during execution!
+
+
+<h5 id="dos_arg">Optional command line arguments</h5>
+
+<p>When executed from the command line xplorer² accepts a number of optional arguments that control some aspects of the program. The complete command line is:
+
+<br><br><tt>xplorer2.exe /F:n /P /R:rootFolder /S:registryKey /L:searchFromFolder /I:settings.REG /M /1 /2 leftFolder rightFolder</tt>
+
+<p>All arguments are optional and are described in the following table. The last two arguments - without the <font color=red>/</font> switch character - specify starting left & right pane folders for the main window. These can also be the names of folder groups saved in <b>Customize</b> menu if you want to reinstate a particular set of tabs upon startup.
+
+<p>If you start with a scrap container (/F:1 switch) <i>leftFolder</i> can be a <a HREF="#sk_dok">cida</a> file or a name of a folder to flatten.
+
+<p>
+<TABLE>
+<tr>
+<th>Switch</th><th>Function</th>
+</tr>
+
+<tr>
+<td>/F</td><td>Starting window type. By default a normal browser window is opened, equivalent to /F:0. If you want to start with a scrap window use /F:1</td>
+</tr><tr>
+<td>/P</td><td>By default xplorer² runs in a system resource-friendly single process mode, even when you launch separate instances. Using /P you force new instances to open as separate processes.</td>
+</tr><tr>
+<td>/R</td><td>Roots the program on a folder other than the default desktop. For instance <tt>/R:c:\winnt</tt> will force both the tree and view panes on c:\winnt and won't allow users to reach other parts of the namespace unless underneath the root node; e.g. d:\ will be off-limits whereas c:\winnt\system will be accessible</td>
+</tr><tr>
+<td>/S</td><td>Registry key extension for storing program options. The default key is <tt>HKCU\Software\ZabaraKatranemia Plc\xplorer2</tt> but you can have multiple parallel keys with different options. Keys can be changed dynamically with <b>Window | Save layout</b> menu. For instance <tt>/S:<font color=red>preview</font></tt> will load options from the key <tt>...\ZabaraKatranemia Plc\xplorer2.<font color=red>preview</font></tt></td>
+</tr><tr>
+<td>/L</td><td>Causes a scrap window to issue a "Find Files" command when it first comes up. The search is rooted at "searchFromFolder"; alternatively it could be a saved search <tt>.X2FND</tt> file. Can only be used in conjunction with /F:1</td>
+</tr><tr>
+<td>/M</td><td>Does not allow window to open in minimized mode on startup</td>
+</tr><tr>
+<td>/N</td><td>Do not restore slow folders from last session (e.g. network) in case they are unavailable</td>
+</tr><tr>
+<td>/1</td><td>Forces single pane mode</td>
+</tr><tr>
+<td>/2</td><td>Forces dual pane mode</td>
+</tr><tr>
+<td>/T</td><td>Doesn't restore folder tabs on startup (by default you get all tabs reopened - as you left them at last use)</td>
+</tr><tr>
+<td>/D</td><td>Force xplorer² to nag you for a registration key</td>
+</tr><tr>
+<td>/I</td><td>(portable version) Initialize registry with a custom settings file. The settings file should be in the same folder as xplorer² and be created with <b>Actions | Extract settings</b> on your "home" PC. For <b>ultimate</b> version this can also be a INI file bypassing the registry</td>
+</tr><tr>
+<td>/E</td><td>Run in windows explorer replacement mode</td>
+</tr><tr>
+<td>/Z</td><td>Silently start and stay in the background without a window</td>
+
+</tr>
+</TABLE>
+
+<p><center>
+<IMG id="fig20" SRC="snap/args.png">
+<br><b>Figure 20</b>. Shortcut properties including command line options
+</center>
+
+<p>You can take advantage of these options by creating a desktop <i>shortcut</i> for xplorer². Using the property page,  add the required arguments in the <b>Target</b> field, past the executable name. The above snapshot illustrates a shortcut that launches the program using the options <tt>/1 c:\</tt>, which means start with a single pane and browse folder c:\.
+
+<center>
+<br><br><HR>
+<IMG SRC="snap/prev.gif"> <a HREF="#misk">DOS commands</a> <IMG SRC="snap/up.gif"> <a HREF="#toc">Contents</a> <IMG SRC="snap/next.gif"> <a HREF="#saporo">Customer support</a>
+</center>
+
+<h4 id="gusto"><font color=red>[PRO]</font> User Interface customization</h4>
+
+<p>xplorer² helps manage the complexity of sequences of commands users may find themselves repeating time and again. It allows you to organize such tasks in <b>user-configurable</b> menus and toolbars, in a similar way <b>Bookmarks</b> are managed:
+
+<ul>
+<li><b>Layouts</b>. Remember the position and the visibility of view panes and toolbars. Storing different layouts you can quickly switch among different modes of operation, e.g. between normal file management and previewing - the latter having the quickviewer pane taking over the best part of the window.
+
+<li><b>Column sets</b>. Store the columns of item information you want to see in detailed view mode. This way you may have a normal set of columns for regular file management and e.g. another one for previewing media files where you want audio/video columns selected. This is separate from the capability for individual <a HREF="#t_fcas">folder settings</a>.
+
+<li><b>User commands</b>. Store DOS or windows commands and programs you find executing frequently. All the <a HREF="#dos_tok">$-tokens</a> are supported in user command definition.
+
+<li><b>Folder groups</b>. Store related folders and reopen them in a tabbed pane, each folder in its own tab. This feature can be conceived as a multi-bookmark.
+
+<li><b>Custom groups</b>. Store item <a HREF="#br_group">categories</a> defined by <b>View | Arrange by | Custom groups</b>, organizing your content in logical groups.
+</ul>
+
+<p>You only have to enter information once, and use it with great ease from that point onwards. In a sense these customized lists resemble various command history facilities dispersed throughout the program, but they are more persistent and easier to access. 
+
+<p>You add new list items using the various <b>Add new</b> commands found in <b>Customize</b> menu. All entries have a <i>title</i> that appears in the menu or toolbar and identifies the command. The <i>description</i> field gets its meaning from the list type. For instance for <b>Bookmarks</b> it is the actual folder path whereas for <b>Layouts</b> it is merely a comment.
+
+<p><center>
+<IMG id="fig21" SRC="snap/org.png">
+<br><b>Figure 21</b>. Organizing user commands
+</center>
+
+<p>When you have many entries in a list it may pay dividends to <b>Organize</b> it, again using the respective command from <b>Customize</b> menu. Using the dialog in the above figure you can rename, change the definition (description), reorder, delete and assign icons and <i>shortcut keys</i> to list items. The toolbar on the top-right may have some actions disabled depending on the list type being organized.
+
+<p>When you double-click on an entry or click on the <b>Properties</b> button you can change an item's properties as for example the user command definition shown in the figure below. You can assign a <b>keyboard shortcut</b> which greatly increases the usability. The range of numeric keys 0-9 in combination with modifiers <tt>&lt;Ctrl&gt;</tt>, <tt>&lt;Alt&gt;</tt> and <tt>&lt;Shift&gt;</tt> are available; overall this gives you 60 adjustable shortcuts to distribute according to your needs and preferences.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: The definition of some complicated commands like column sets and layouts cannot be edited from the Organize dialog. If you need to make changes you'll have to delete the old command and redefine it (or overwrite it, i.e. save it using the same name).</td></tr></table>
+
+<p><center>
+<IMG id="fig22" SRC="snap/ordef.png">
+<br><b>Figure 22</b>. Setting individual user command properties
+</center>
+
+<p>The <i>order</i> of items within each list determines its position in the respective submenu. Items in the top of the pile are easier to access so you should keep the most frequently used ones near the beginning. Each submenu shows up to 20 user commands; however you can define up to 100 items for each category and access them using the <b>More...</b> menu items.
+
+<p>Exceptionally, saved layouts (<b>Window</b> menu) cannot be reordered, since they correspond to registry key extensions. However this menu is sorted alphabetically so you can implicitly arrange a new layout's position by picking its name appropriately.
+
+<h5 id="gus_ccf">Color coding filetypes <a HREF="http://www.zabkat.com/blog/wink/ccode.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="color depending on file type"></a></h5>
+
+<p>Items normally get shown with normal font and text attributes, according to your desktop preferences (e.g. black text on white background). Windows explorer can show certain kind of files with alternate colors, making them stand out and easy to recognize, as for example <i>encrypted</i> files in blue. xplorer² extends this feature allowing you to customize the text color and weight for filetypes you are interested in.
+
+<p><center>
+<IMG id="fig23" SRC="snap/ccf.png">
+<br><b>Figure 23</b>. Custom color coding dialog
+</center>
+
+<p>Using the above dialog (<b>Customize | Color coding</b> menu command) you can dictate the filetypes you are interested in and pick the text attributes, using the little toolbar on the top-right corner. File types can be defined as simple wildcards or even as full <a HREF="#ff_add">hyperfilters</a>. The above example colors C++ source files against red background and system files (with "S" attribute) with bold font.
+
+<p>To turn on color highlighting check <b>Activate color coding</b>; clear the checkbox to return to normal colors. You can also turn individual rules on/off using the checkboxes in the above dialog box (notice how the "system files" rule is disabled). Note that coloring is a view-related property, so you can have e.g. the left pane highlighted and the right normal.
+
+<h5 id="gus_acel">Keyboard customization <a HREF="http://www.zabkat.com/blog/wink/hotkey.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="change F5 key for refresh"></a></h5>
+
+<p>Bookmarks and other items listed under <b>Customize</b> menu can be assigned custom keyboard shortcuts (in the range 0-9) using dialogs similar to <a HREF="#fig22">figure 22</a>. To change the keyboard shortcuts of all other menu commands use <b>Customize | Keyboard</b> command. This way you can assign e.g. <tt>&lt;F5&gt;</tt> to be used for folder refresh and so on.
+
+<p><center>
+<IMG id="fig23a" SRC="snap/accel.png">
+<br><b>Figure 23a</b>. Keyboard customization dialog
+</center>
+
+<p><b>Customize | Keyboard use</b> command lists the current key assignments. You can copy out the text, paste it to an editor and print them out so that you remember the quickest way to reach your favorite commands.
+
+<p>Another way to make your favorite menu commands easier to reach is to edit the shell context menu. When you right click on a file or folder the first command is a xplorer² popup menu. The <b>Organize</b> command can be used to add/remove commands from the main xplorer² menu, so you have your favorites handy when you right click on a file.
+
+<h5 id="gus_tool">Toolbar customization <a HREF="http://www.zabkat.com/blog/wink/toolb.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="change bookmark icon"></a></h5>
+
+<p>The first 20 items from each list can be placed onto the main toolbar or any of the (up to) 14 extra toolbars you can add using the <b>Customize</b> menu. You can control the buttons that appear in each toolbar by right-clicking on one and picking <b>Customize...</b>. You can select among a large number of commands, both fixed and adjustable; all menu items that have an icon can be placed on any toolbar.
+
+<p>Use descriptive text labels for your bookmarks and custom commands to tell them easily apart on a toolbar. For extra grip you can assign your own icons to each button using the controls in the <a HREF="#fig22">properties dialog</a>. Icons can be chosen from all standard icon files including DLLs.
+
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b><font color=red>TIP</font></b>: It makes sense to organize extra toolbars in a task-oriented fashion, bunching relevant buttons together. Whenever the need arises you activate the toolbar using <b>View | Toolbars</b>. You don't have to keep all toolbars visible at all times.</td></tr></table>
+
+
+<h5 id="gus_skin">Toolbar skins</h5>
+
+<p>For a quick face-lift of xplorer² appearence, you can download and install custom toolbar and menu item images that other xplorer² users have created and shared with the community. To see what's available <a HREF="http://zabkat.com/x2skin.htm" target="_blank">click here</a>.
+
+<p>You can also create your own skin. It's <i>easy</i> and no programming is required. Just grab the original button images and modify to taste with any image editor, then drop them in the installation folder. You may also consider sharing them with the rest of the world - just drop us an email.
+<br>Download <a HREF="http://zabkat.com/skins/skinz.zip">skin designer pack</a> (17 KB)
+
+
+<h5 id="gus_hfilt">Storing hyper-filters</h5>
+
+<p>The extended <a HREF="#ff_add">filters</a> used for the <b>Tools | Find files</b> and <b>Mark | Matching a rule</b> commands can be saved and reused in the future - and just as well since each filter can be tweaked to hold many rules that you don't want to retype each time.
+
+<p>To store a filter, type a descriptive name for it in the <b>Predefined</b> combo box and click on the <b>Save</b> button (see <a HREF="#fig16">figure 16</a>), and the current definition will be added in the drop down list. From then on you only need to select it from the predefined list and its rules will be automatically inserted for you.
+
+<p>To <i>delete</i> a filter, first select it, press the <b>Clear</b> button to delete all rules and finally click on <b>Save</b> to confirm the deletion.
+
+
+<center>
+<br><br><HR>
+<IMG SRC="snap/prev.gif"> <a HREF="#gusto">Customization</a> <IMG SRC="snap/up.gif"> <a HREF="#toc">Contents</a>
+</center>
+
+<h4 id="saporo">Customer support</h4>
+
+<p>xplorer² is a program with vast context and a great number of advanced commands, that will no doubt cause problems or questions for users sooner or later. We want to believe that the program is rather intuitive and users can troubleshoot themselves with simple reasoning and extrapolation from familiar circumstances, but there is no magical one-size-fits-all unfortunately.
+
+<p>The quickest route to solving your problems is to do-it-yourself! No hanging around waiting for support from the author. Sometimes the solution will be close at hand, in the <i>help texts</i> of commands as they appear on the status bar, or described in the <i>tooltips</i> of input fields in dialog windows.
+
+<p>For more substantial issues there are quite a few useful resources you can use for self-help:
+
+<ul>
+<li> This <b>manual</b>.
+<li> The <b>tips & tricks</b> file.
+<li> The full <a HREF="http://zabkat.com/alldown.htm">documentation</a>.
+<li> The <b>FAQ</b> section in the <a HREF="http://zabkat.com/x2faq.htm">website</a>
+<li> The weekly <a HREF="http://zabkat.com/blog">blog</a> posts; click on <IMG SRC="snap/play.gif"> buttons for demos.
+</ul>
+
+<p>We made an effort to write all this information about the program and we strongly believe you will benefit no end by reading the available documentation <i>in full</i> - at least this "bitesize" guide. You will learn many tricks and explore the available commands to increase your productivity using xplorer². 
+
+<p>Still if reading manuals is not your thing you can skim across the documentation, searching for <b>keywords</b> (using your browser's <b>Edit | Find on this page</b> command) that describe your query or problem. Then follow hyperlinks to related information, if necessary.
+
+<p>If you fail to find what you need using the documentation, you've got these further options:
+
+<ul>
+<li> Use the online <b>Forum</b>. Please use the <a HREF="http://netez.com/bbs/search.php">search</a> facility to see if your question has been dealt with before. If not, post your <a HREF="http://netez.com/bbs/posting.php?mode=newtopic&f=18">new question</a> and hopefully somebody will try to help.
+
+<li>Use the search box at the bottom of the website's <a HREF="http://zabkat.com">frontpage</a> to search all its pages including the blog.
+
+<li><b>Registered</b> xplorer² users can use the online <a HREF="http://zabkat.com/support_x2.htm">problem submission form</a> along with their registration details to get their problem sorted out by the developer.
+</ul>
+
+<h5 id="sap_bag">Suspected bugs</h5>
+
+<p>If you think you've discovered a <b>bug</b>, please ask yourself a few questions before seeking support:
+<ul>
+<li> Will <b>rebooting</b> your PC solve the problem? It is a well known and sad fact that windows isn't the most robust operating system in the world. Many times starting afresh will make the problem go away.
+<li> Check the <a HREF="#sap_reqs">minimum requirements</a> and compare them against your system. Perhaps what you want isn't supported for your PC.
+<li> Is this a <b>known</b> issue? Try searching the documentation (including the plain text files, xplorer² <b>Mark | Containing text</b> command will be helpful) for a relevant keyword. Your bug may be a "feature" after all!
+<li> Can you <b>reproduce</b> the bug? If you can't, neither would the development team so they couldn't help you.
+<li> Think of the context when the problem occurs. Is it only for some specific files or folders? What is their common characteristic? Please include as much information as you can when reporting a bug.
+<li> When xplorer² crashes it usually creates a special file in <tt>%TEMP%</tt> folder called <tt>x2minidump<i>_xxx_version</i>.mdmp</tt>. This file contains no sensitive user information but can help us a lot to troubleshoot the bug. Please use <b>Help | Crash information</b> menu command to locate this mini-dump file and attach it to your bug report email.
+</ul>
+
+<p>Thank you!
+
+
+<h5 id="sap_reqs">Minimum requirements</h5>
+
+<p>xplorer² will run in a basic trim on <i>all</i> win32 platforms (95/98/ME/NT4/2000/XP/2003/Vista/Windows 7/8), however a subset of its features depend on windows services that may or may not be available on all PCs. In most cases you can get full functionality by installing a recent version of <a HREF="http://www.microsoft.com/windows/ie/default.asp">Internet Explorer</a>.
+
+<p>
+<TABLE>
+<tr>
+<th>Feature</th><th>Requirements</th>
+</tr>
+
+<tr>
+<td><b>Toolbars</b></td><td>Windows 95 with Internet Explorer v.3 or better</td>
+</tr><tr>
+<td><b>Thumbnails</b></td><td>Windows 98 or NT4 with Active Desktop update</td>
+</tr><tr>
+<td><b>File comments</b></td><td>Windows NT4 (NTFS formatted partitions)</td>
+</tr><tr>
+<td><b>FTP</b></td><td>Internet Explorer v.3</td>
+</tr><tr>
+<td><b>Zip folders</b></td><td>Windows ME or Windows XP (for windows 2000 please see <a HREF="http://zabkat.com/x2faq.htm#B4">FAQ B4</a>)</td>
+</tr><tr>
+<td><b>Audio/Video preview</b></td><td>Windows <a HREF="http://www.microsoft.com/windows/windowsmedia/default.aspx">Media Player</a> v.6</td>
+</tr><tr>
+<td><b>Column handlers</b></td><td>Windows 2000 for extended file information</td>
+</tr>
+<tr>
+<td><b>Text filters</b></td><td>Windows 2000 or later. For PDF see <a HREF="http://zabkat.com/x2faq.htm#d3">FAQ D3</a></td>
+</tr>
+<tr>
+<td><b>Arrange in groups</b></td><td>Windows XP</td>
+</tr>
+</TABLE>
+
+
+<p>The companion text viewer application <b>editor²</b> requires richedit control version 3 (riched20.dll 5.30.xxx or better) which may not be present on systems pre-2000. However this is not an issue since you can associate any external editor with xplorer².
+
+<h5 id="sap_xcmp">Feature comparison table</h5>
+
+<p>This table summarizes the main differences between windows explorer (2000) and alternative file managers from Zabkat's stable: the old 2xExplorer and xplorer². The table shows at a glance the increased functionality available in the <font color=red><b>pro</b></font> version too.
+
+<p>Note that the "lite" version is free for <b>private and academic use only</b>. For any other use including commercial, government, military etc, you must purchase a licence for xplorer² <font color=red><b>pro</b></font>. See <a HREF="licence.txt">licence.txt</a> for more information.
+
+<p>
+<TABLE>
+<tr>
+<th>Feature</th><th>windows<br>explorer</th><th>2x<br>Explorer</th><th>xplorer²<br>lite</th><th>xplorer²<br><font color=red>pro</font></th>
+</tr>
+
+<tr>
+<td>All-area shell namespace access</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Shell integrated with drag/drop, context menu etc</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Automatic sensing of changes in <i>all</i> folders (networked etc)</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Multithreaded & multi-window operation</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Folder tree panel</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Bookmark and quicklaunch panel (mini-scrap)</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Dual pane mode (browse 2 folders in one window)</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Tabbed interface</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Docking and floating panes</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Save and restore tabs (folder groups)</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Keyboard shortcuts and overall usability</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Path autocompletion</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Filtering of item visibility</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Filtering on arbitrary criteria (hyperfilters)</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Fuzzy filename matching</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Selection engine for precision marking of files</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Selection with arbitrary criteria (hyperfilters)</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Extended filesystem information columns (comments etc)</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Even more columns (checksum, 8.3 name etc)</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Column handler support for vista & windows 7/8</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Multi-column sort (using shift+column click)</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Show in (collapsible) groups</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>User defined groups</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Individual folder settings</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Custom/skinned system icons (drives etc)</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Extended icon overlays (e.g. TortoiseSVN)</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Color coding of filenames</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Window layout saving and management</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Export folder information as text (for printing etc)</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Extract plain text from office/PDF/WPD/ODT documents</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Robust background file transfers with optional filters</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Robust deletion with error control and filters</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Hard links (NTFS)</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Folder junctions, symbolic links (NTFS)</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Mass renaming</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Mass tag/comment management</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Change file dates (touch)</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Find text in files</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Search for multiple keywords with boolean context</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Search for text in office and PDF/WPD/ODT documents using filters &nbsp;</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Search for contained text and filenames using regular expressions</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Customizable info bars (status bar for each pane)</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Context sensitive file information (details) pane</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Unicode, UTF-8 & file encoding aware</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Unicode version available</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Split/Merge/Shred</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Text/RTF/Hex preview</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Exact preview of ActiveX documents (office etc)</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Text editor</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Graphics preview</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Thumbnail view mode (using fast system cache)</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Mini- and densely packed thumbnails</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Multimedia preview (audio & video)</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Find files with arbitrary criteria</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Search within archives, FTP, webfolders (webDAV) etc</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Refine previous search</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Scrap containers (simultaneous management of many folders)</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Folder synchronization</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Deep synchronization (including subfolders)</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Script wizard for DOS & win32 text commands</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Intercept command output in user-friendly console</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Customizable user command menu</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Detect duplicate files & cleanup</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Toolbar customization</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Add extra toolbars and custom button icons</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Toolbar skinning</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Drivebar for easy access of local drives</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Detailed breakdown of subfolder disk usage (statistics)</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Calculate folder sizes in detailed view</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Keyboard customization</td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Native 64 bit executable</td><td><IMG SRC="snap/tyep.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tno.gif"></td><td><IMG SRC="snap/tyep.gif"></td>
+</tr>
+<tr>
+<td>Sample reading speed for folder with 7000 items (sec)</td><td>1.05</td><td>1.5</td><td>0.83</td><td>0.83</td>
+</tr>
+<tr>
+<td>Program size (KB)</td><td>237</td><td>596</td><td>683</td><td>970</td>
+</tr>
+<tr>
+<td>Commands in the menu system</td><td>48</td><td>100</td><td>154</td><td>229</td>
+</tr>
+
+</TABLE>
+
+
+<h5 id="sap_reg"><font color=red>[PRO]</font> Program registration <a HREF="http://www.zabkat.com/blog/wink/activate2.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="How to activate xplorer² using your key"></a></h5>
+
+<p>The professional version can be installed and tried in full trim without obligation for the first <b>21</b> days - and a further 10 days with some extra nags. The registration dialog will pop up every time you start the program, but you do not have to buy a key immediately. Click on <b>Continue</b> button (see below) to proceed on a trial basis. When you are ready to order click on <b>Secure order</b> and follow the online instructions (or use this <a HREF="http://zabkat.com/x2buy.htm">order page</a>).
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b><font color=red>NOTE</font></b>: As a matter of courtesy to new users xplorer² does not ask ('nag') for a registration key during the <b>first day</b> you start using it. If you have a key and you want to use it immediately then start xplorer² and use <b>Help | Activate with key</b> menu command</td></tr></table>
+
+<p>After the end of the 31-day trial period you <i>must</i> obtain a registration key or the program will refuse to start.
+
+<p><center>
+<IMG id="fig24" SRC="snap/regi.png">
+<br><b>Figure 24</b>. Opening screen
+</center>
+
+<p>After you complete the order process, the registration key will be sent to you via email. Click on <b>I have an unlock key</b> button to start the external license manager. The license manager is a separate program that will run elevated to bypass any UAC problems in windows vista or later. In there you copy/paste the unlock key you received via email and click <b>Activate</b> button (see below). Once the key is accepted just restart xplorer². You can confirm your registration using <b>Help | About</b> menu command.
+
+<p><center>
+<IMG id="fig25" SRC="snap/licer.png">
+<br><b>Figure 25</b>. External license manager
+</center>
+
+<p>In some rare cases the key may not be accepted. There are a number of possible causes, explained in this <a HREF="http://zabkat.com/x2faq.htm#A3">FAQ</a>. If you still have problems please ask for help including a snapshot of the <i>exact</i> error code.
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b><font color=red>NOTE</font></b>: The professional and ultimate editions have <b>different unlock keys</b>. If you bought a license for xplorer² professional it can only be used if you install the professional version (and vice versa for the ultimate edition). You can check which xplorer² version you are running using <b>Help | About</b> menu command. If you don't have the correct version installed just get the relevant trial version from the website. You can quickly tell which license you bought from the format of the registration reference number (see the email receipt). Ultimate version keys are bigger.
+<ul>
+<li>professional: <tt><font color=red>X2</font>.1-12345678</tt>
+<li>ultimate: <tt><font color=red>X2UL</font>.1-E2282F64</tt>
+</ul>
+
+</td></tr></table>
+
+<h5 id="sap_bri">Ultimate (Portable) edition</h5>
+
+<p>If you are using xplorer² on the move you will find that saving program settings in the windows registry is not an option. One of the main advantages of xplorer² <b>ultimate version</b> is its portability. Using <b>Tools | Options</b> you can tell xplorer² to store its settings in a file instead of the registry:
+
+<p><center>
+<IMG id="fig26" SRC="snap/regopt.png">
+<br><b>Figure 26</b>. Alternative setting persistence options
+</center>
+
+<p>If you keep your ultimate version on a USB stick then pick the option <i>"file in installation folder"</i>, which will save the settings in a file called <tt>X2SETTINGS.INI</tt> next to the xplorer² executable program. If you installed the ultimate version on your hard disk and still don't want to use the registry, pick the option <i>"file in user appdata folder"</i> (usually <tt>C:\Users\&lt;you&gt;\AppData\Roaming\zabkat</tt>), as the installation folder inside <tt>C:\Program Files</tt> will most likely be protected and inaccessible.
+
+<p>Here are the <b>step-by-step instructions</b> to place xplorer² ultimate in a USB stick environment. For example assuming we want to setup the portable version within <tt>F:\x2portable\</tt> folder:
+
+<ol>
+<li>Install xplorer² ultimate on your home computer (on your <tt>C:\</tt> hard disk) and use your unlock key to activate it.
+
+<li>Setup the program options to taste.
+
+<li>Use the menu command <b>Actions | Export settings</b> to write the settings to the file <tt>F:\x2portable\x2settings.INI</tt>
+
+<li>Copy all the files in the installation folder (typically <tt>C:\program files\zabkat\xplorer2</tt>) <i>including</i> the license file <tt>X2.LIC</tt> to the USB stick (<tt>F:\x2portable</tt>)
+
+<li>(optional) If you are using the mini-scrap pane (<b>View | Mini scrap</b> command) make sure you place the CIDA contents file on your USB stick too, by right-clicking on the miniscrap and choosing <b>Save as</b> command - but note that all contents must be on the USB stick.
+</ol>
+
+<p>If you have problems setting this up please watch this demo video:
+<a HREF="http://www.zabkat.com/blog/wink/port_ult.htm" target="_blank"><IMG SRC="snap/play.gif" border=0 alt="setup portable USB"></a></h5>
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b>NOTE</b>: Not all your favorite settings may be reusable in different computers; e.g. some of your bookmarks may point to inexisting folders. Using environmental variables in path definitions may alleviate this problem.<br>
+If you have more than one <b>Layouts</b> (Window menu) please open one window from each layout when you export your settings from registry to the INI file.
+</td></tr></table>
+
+<p>xplorer² defines the environmental variable <tt>X2DIR</tt> as the full path to the folder where xplorer² is running from, e.g. <tt>F:\tools\</tt> (trailing backslash included). You can take advantage of this when you define external commands (<b>Customize | User commands</b> menu). E.g. if you have another tool on your USB place it in the same folder as xplorer² and call it using <tt>%X2DIR%myTool.exe</tt> - which will be equivalent to <tt>F:\tools\myTool.exe</tt> but won't depend on the drive letter your USB stick happens to be assigned.
+
+<p>After you properly set up your portable edition in a removable medium like a USB stick, then you have these advantages:
+
+<ul>
+<li><b>No installation</b> is required to be used in any computer. Even if you don't have administrative privileges you can enjoy your xplorer² wherever your work happens to bring you.
+
+<li>No traces left in the host computer. After you quit xplorer² the foreign registry will be unmodified.
+</ul>
+
+<p>To ease the way you access xplorer² from your removable media you can create an <tt>AUTORUN.INF</tt> file in your root USB drive folder, and set it to open xplorer², editing it as such:
+
+<p><code>
+[autorun]<br>
+open=x2portable\xplorer2_UC.exe <i>[optional arguments]</i>
+</code>
+
+<p><table><tr><td style="background-color:#EFEBEF;">
+<b><font color=red>TIP</font></b>: The ultimate edition comes in separate 32 and 64 bit versions. Thinking about <b>portability</b> you will be better off using the 32 bit version, as it will run on all computers - whereas the 64 bit one will be limited to those installed with 64 bit windows.
+</td></tr></table>
+
+<h5 id="sap_kr">Credits</h5>
+
+<p>xplorer² was developed in C++/<a HREF="http://wtl.sourceforge.net/">WTL</a>, almost singled-handedly by Nikos Bozinis. Completing the picture, shouts go out to:
+
+<ul>
+<li> <b>Timo Kunze</b> for his help and advice on obscure windows shell interfaces
+<li> <b>Narayan Aras</b> the author of the full manual
+<li> <b>Myles Jordan</b> who helped a lot with the licensing code
+<li> <b>George Radu</b> who packaged xplorer² in a NSIS installer
+<li> <b>Alex Kolesnichenko</b> for the xplorer² registry settings editor
+<li> <b>Maur</b> who designed the main program icon
+<li> <b>Bjarke Viksoe</b> whose CCustomTabCtrl class was the basis for xplorer² folder tabs.
+<li> <b>"TomKat"</b> whose multiline ToolTipCtrl CodeProject article was the basis of the balloon help in dialogs
+<li> <b>Tim Smith</b> (<i>et al</i> from codeproject) for CColorButton themed color picker
+</ul>
+
+<p>Here are the people that translated the program in various languages:
+<ul>
+<li> Brazilian: <b>Luiz Mario</b>
+<li> Bulgarian: <b>Mikhail Balabanov</b>
+<li> Chinese (simplified): <b>QFCGCCC</b>
+<li> Chinese (traditional): <b>HTakumi</b>
+<li> Czech: <b>Petr Laštovièka</b>
+<li> Dutch: <b>Gideon van Melle</b>
+<li> Finnish: <b>Janne Jokelainen</b>
+<li> French: <b>int24h</b>
+<li> German: <b>Timo Kunze</b>
+<li> Greek: <b>Panos Bozinis</b>
+<li> Hungarian: <b>Jozsef Tamas Herczeg</b>
+<li> Indonesian: <b>Yohanes Kurniawan</b>
+<li> Italian: <b>Marco Marsella</b>
+<li> Japanese: <b>Jun</b>
+<li> Polish: <b>Tomasz Blach</b>
+<li> Romanian: <b>George Radu</b>
+<li> Russian: <b>Aleksey Trufanov</b>
+<li> Serbian: <b>Ivana Cicic</b>
+<li> Slovak: <b>Roman Hrasna</b>
+<li> Spanish: <b>hispanico</b>
+<li> Swedish: <b>Peter Kind</b>
+</ul>
+
+<p>During the long years of development many testers have helped with suggestions, testing and bug reports. Thanks to you all!
+
+<p>Big up for all the "old hands" from the forum who have helped over and above anybody else with their tireless testing and constant flow of suggestions - did I say harassment? :) - that drove xplorer² in the shape and form it is now. In alphanumerical order thanks out to: BRX, fgagnon, JRz, MKairys, Morning Star, narayan, PhilipSutton, Starsurfer and vserghi.
+
+<p>Last but not least I am eternally indebted to Sal Pileggi for his generous hosting of my forum on his <a HREF="http://www.netez.com">NetEZ</a> servers.
+
+<center>
+<br><br><HR>
+© 2002-2014 ZABKAT, All Rights Reserved
+<br><a HREF="http://zabkat.com">http://zabkat.com</a>
+</center>
+
+</BODY></HTML>

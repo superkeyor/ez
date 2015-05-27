@@ -1,0 +1,177 @@
+////////////////////////////////////////////////////////////////////////
+// Editor² project
+//
+// The Quadratic replacement for Notepad and 2xEditor
+// By Nikos Bozinis @ 4 May 2004
+
+
+This small update adds handling of UTF8 and OEM text files. UTF8 files may be detected automatically but for the case of OEM you must tell editor² using the "Files of type" combo box in the standard File | Open dialog, or using the new /C:n command line option (see below).
+
+Once loaded the text type can be seen in the rightmost status bar pane. When saving you can convert the text to any of the supported formats, again using the "Save as type" combo box in the File | Save As dialog.
+
+To force the text encoding from the command line use the /C switch with a number as such:
+	0 windows (default)
+	1 OEM
+	2 UTF8
+	3 UNICODE-16
+ nnn explicit code page number e.g. /C:1253 for greek
+
+For example the command line:
+	editor2 /C:1 file.txt
+will load "file.txt" assuming it is OEM encoded. Note that if there is a valid BOM (for utf8 or unicode) it will override whatever forced encoding was specified using the /C switch.
+
+NOTE: if a loaded file had a "byte-order-mask" (BOM) identifying the encoding then editor² will use a BOM when saving, too. If the loaded file had no BOM then it will be saved without a BOM.
+
+Overall the command line arguments now are (all optional):
+
+	Editor2 /S:<name> /M /V /E /L:nn /P /C:n /I:settings.INI <filename> <filename2> ...
+
+/M ensures that the window will open and be visible (not minimized on the taskbar)
+
+You get 10 more autotexts too. Similar to the existing system that uses <Ctrl+NUMBER> to use and <Ctrl+Shift+NUMBER> to define, you get 10 more using <Alt> in place of <Ctrl>. All the menus and dialogs are updated accordingly. Note that the keyboard shortcuts for fixed/proportional font had to change to accommodate the new autotexts.
+
+By default all settings are stored in the registry but you can use the /I: command line switch with a INI file path to store the program settings. The default settings filename is ED2.INI, if you have one in the installation folder then you don't need to use /I, this file will be used automatically, but be careful to ensure you have write permissions in the installation folder, otherwise provide some other save location.
+
+///// VERSION 2.5
+
+It's been some time since the last release of Editor² — a couple of years to be exact. This latest version isn't a major makeover; it mainly brings the editor in close integration with xplorer² the sequel to 2xExplorer. The major advantage is that its search functions are synchronized with those of xplorer². If you search for some text in xplorer² the same search options are transferred to Editor² and vice-versa. This is a sweet usability feature for integrating the 2 programs while keeping them separate.
+
+So what else is in it for the standalone user?
+
+* MULTITHREADED SDI. This technicality means that multiple instances of the editor can be open at the same time with minimum impact on your system resources. You can open new windows or clone the same file in multiple windows. By default Editor² runs in a single instance mode too, unless the new /P command line option is specified (see below).
+
+* SEARCH AND REPLACE WITH BINARY CHARACTERS. The search and replace dialogs can now accept "binary" characters like tabs and linefeeds. You either select them from those predefined or type them in yourself in the format $xx, where xx is the hexadecimal byte number you want inserted (e.g. return = $0D). If you want a single $ just escape it with $$.
+
+* NEW COMMAND LINE ARGUMENTS. /L:nn will load a document and jump directly to line # nn. /P forces a separate process — by default Editor² runs in single instance mode. You don't really have any incentive to force non-single instance since the memory usage gets worse with each new window. But it is there nevertheless. So the overall command line is (all arguments optional):
+	Editor2 /S:<name> /V /E /L:nn /P <filename>
+
+* DUAL BOOKMARK. The single bookmark with <Ctrl+F8> was good but not good enough for jumping between 2 spots. Now the store bookmark command will remember the 2 latest bookmarked positions and <F8> will cycle among them. Very neat. <Shift+F8> will extend the selection.
+
+* FIND ALL. The find dialog has an option to find all occurences of the searched string. These are hilighted in one stroke for all the text. There's a command to cancel the hilighting too.
+
+* CHARACTER CASE CHANGE. Changes the selection to uppercase or lowercase, see Edit menu.
+
+* EXTERNAL VIEWER. This is configurable from the options dialog. Hitting <F12> saves the document and opens it in the specified external viewer (e.g. for previewing the HTML you are typing). Note that in general you need the full path to the external viewer and if it contains spaces you should enclose it in "quotation marks".
+
+
+You will have noticed that all these new features and some others (escapable I/O, autocompleting combo boxes and other subtle usability improvements) have increased the pork in Editor² whose size leapt to just under the 100KB barrier. But it's pounds well spent, I say! Enjoy!
+
+
+///////////////////////// W H A T   W A S   N E W //////////////////////////
+
+Walking on the same land that Aristotle developed all his foundations for science and logic, one cannot help oneself pondering on the law of excluded middle (A or not-A) that the great master formulated first of all mankind. Locked into such a logical-positivistic frame of mind, it doesn't take much to realize that 300K+ is a bit too large for a basic editor that was 2xEditor. So one has to take the logical step and remove all the excess fat of MFC, that 10-year old dinosaur of a class library, and replace it with a nifty WTL-based implementation.
+
+(
+WTL or Windows Template Library is a "new" set of lightweight templates/classes which wrap most of the user interface aspects of modern windows programming. It was developed within mikros~1 as an extension of ATL, and although not "officially" supported it kicks plain ass. If only there was some docking toolbar functionality it would become the defacto tool for all UI programming aspects. But we're working on that...
+)
+
+2xEditor == 323,584 bytes; Editor² == 83,968 bytes (build# 2.0.0.7). Talking about weight loss! No diet should be without WTL, now available without prescription (girlfriends beware). Still it's fat down yet meat up. The new version packs more functionality than the original 2xEditor, while maintaining all the original aspects. Here's a short list of improvements:
+
+* RICHEDIT v2.0. Editor² uses the newer version of the common windows rich edit control which is a better all-rounder (as mini$o~1 claim it's now written in C++ as opposed to the Cobol-based old implementation :). Coming with tricks like multi-level undo, better Asian-language support, etc. On the down side it requires RICHED20.DLL to run, which may be missing from some early win95 platforms. But this is the third millenium after all, time to move on.
+
+* UNICODE SUPPORT. Perhaps the strongest argument for moving to the latest version of rich-edit is the native support for Unicode. Editor² automatically reads and writes in I-dont-know-which-endian Unicode text files. That is automatic in reading; for writing just make sure you select "Unicode text" in the "Save as type" box (Save As dialog), or keep an eye on the new "UC" indicator on the status bar. 
+NOTE: If you regularly use Unicode text files, I recommend downloading the pure Unicode version of the program from the website. See the Unicode section below for more details.
+
+* UNIX CR/LF CONVERSION. Similar to the unicode capability, Editor² will auto-detect when a Unix text file is loaded (no carriage return CR characters at the end of line) and light an "LF" indicator on the status bar. By default all such Unix files are saved with just newlines, but you may change that by selecting another type for the "Save as type" box (Save As dialog). Conversions from DOS CR/LF texts to Unix LF can also be achieved in a similar fashion.
+
+* DUAL FONTS. Editor² maintains two fonts, one "fixed-pitch" and one "proportional". You are free to substitute your own definitions for these terms. A simple switch mechanism (<Alt+1> and <Alt+2> shortcuts) and a smart new property page ensure the maximum enjoyment of this feature. Now coming with distinct color scheme selection for the read-only and normal editing modes.
+
+* PRODUCTIVE SEARCH. The search functions in 2xEditor were no straight-to-video calamity, but the new stuff in Editor² are even better. My personal favorite is SearchSelection <Ctrl+F3> command which now supports searching for the word under the cursor without having to select it first, a real boost for productivity. Both this and the FindNext <F3> command now have <Shift-> equivalents that search in the backward direction. Finally, the case-sensitivity and word-search options are now conveniently located on the toolbar.
+
+* DOCUMENT STATISTICS. The new Help | Statistics command displays basic document information like word/line count. Now you have the evidence to impress your boss on your code writing proliferation.
+
+* AUTOMATIC URL DETECTION. Now visiting links shown on the document is just a click away. On by default, but there's a registry value which controls it.
+
+* MORE REGISTRY OPTIONS. The key "HKEY_CURRENT_USER\Software\ZabaraKatranemia Plc\Editor2" has many things that you can control once you quit Editor², like "bFlatToolbar" (I couldn't tell you what this does without compromising national security :). A bit trickier are the format strings for the InsertDateTime command, held in the szCustomDateFormat and szCustomTimeFormat strings. For example, to get the date string "Wed, Aug 31 94" use the following format string: "ddd',' MMM dd yy". Or just leave them empty to get your short date format as specified in the Control Panel.
+
+* INTERNATIONALIZATION-READY. All the messages etc in Editor² are stored in the program resources, so it should be a breeze to translate everything to other languages. Entusiastic volunteers of non-English nationalities please let me know who you are! There are already plenty translations, check for your own language at http://www.netez.com/2xExplorer/international.html
+
+
+So there you have it. Using advanced non-linear technology (TM) Editor² squashed 2xEditor like a blood-filled mosquito (darn things!). Its low fat WTL diet should ensure longevity, and raise a true challenge for the prize of highest feature-to-size (power-to-weight) ratio in the Notepad replacement arena (i.e. the GSXR-1000 equivalent). And this is a sign of things to come. Explorer² could be just round the corner. Why stay linear when you can go quadratic?
+
+
+///////////////////// ORIGINAL RELEASE ANNOUNCEMENT //////////////////
+
+Just another Notepad replacement? Not so!
+
+Editor² begun its life as an embedded thread in 2xExplorer (dual pane win32 file manager, check it out) dealing with all things viewing/editing. By popular demand it is now transformed into a stand-alone application, after undergoing some tweaks and improvements at the same time (e.g. printing support).
+
+Although it won't substitute your main editor (say for writing your source code), it is nevertheless a very compact quick'n'dirty editor/viewer thingme to be appreciated by programmers and lay users alike. The key objective is efficient everyday use, facilitated by the following main features:
+
+* Keyboard shortcuts for most commands
+* Persistence of all program state/properties (registry)
+* Powerful search and replace, including command history
+* Font selection, color and tab settings
+* Hexadecimal viewer for the hacker within oneself
+* RTF viewer (read only mode)
+* Autotext for easing the insertion of opening/closing HTML tags and other text.
+
+Naturally you get all the standard gimmicks like toolbars, drag/drop editing, word wrapping, printing, unlimited size editing and all. Especially for programmers of all shapes and languages, the following added items will surely prove handy:
+
+* Indentation control
+* Brace matching (including HTML angle brackets <>)
+* Goto line # command
+* Line/Column indicator
+* Insertion caret bookmark
+
+
+Editor² is aware of command line arguments, too. The syntax is as follows:
+
+> Editor2 /S:<name> /V /E <filename>
+
+All arguments are optional. The <filename> is, as you'd expect, the file to start editing/viewing. The "/S:" option on the other hand is a fidgety little thing that controls the registry key name where all the persistent properties are kept (window size and the rest). By default, Editor² will store everything in "HKEY_CURRENT_USER\Software\ZabaraKatranemia Plc\Editor2"; using the (for example) /S:OTHER argument will force properties to be stored/read from the "HKEY_CURRENT_USER\Software\ZabaraKatranemia Plc\Editor2OTHER" key instead. Not actually earth-moving but it can be quite handy for keeping distinct settings depending on context (e.g. for keeping various shortcuts to Editor² on your desktop).
+
+Finally, the /V and /E options force the editor to open in View or Edit mode, respectively, regardless of the mode that was kept in the registry (i.e. the last time you used it)
+
+
+///////////////////// U N I C O D E   V E R S I O N ////////////////////
+
+Although all versions of Editor² will read and handle unicode text files, the ANSI version of the program (which runs on all windows platforms, including 95/98) cannot handle text searches within unicode sessions properly. If you are using windows NT or 2000, I would recommend downloading the special unicode build of the program from the website (http://www.netez.com/2xExplorer). This will properly handle searches with international characters, and it is more efficient throughout, since NT-based platforms use Unicode internally.
+
+Note that in general, if you have mixed-language characters in a single file, the only way to preserve them is to save the file in Unicode format (choose the appropriate "Save as type" in the SaveAs dialog). This is a "feature" of the new version of the richedit control, which I cannot change.
+
+
+////////////////////////// KEYBOARD SHORTCUTS ////////////////////////
+
+Except for the keyboard accelerators for the Editor² commands (shown next to menu items and in tooltips), there exist shortcuts for moving the insertion caret around within the text buffer. I wouldn't bother reminding you of the arrow keys, PgUp/PgDn, Home/End and the like, but there are several maybe-not-so-well-known commands using the <Control> key:
+
+ACCELERATOR    DESCRIPTION OF COMMAND
+Ctrl+Left      Move one word to the left
+Ctrl+Right     Move one word to the right
+Ctrl+PageUp    Jump to the top of the window
+Ctrl+PageDn    Jump to the bottom of the window
+Ctrl+Home      Goto the beginning of the document
+Ctrl+End       Goto the end of the document
+Ctrl+Delete    Delete the word to the right of the caret
+
+All these commands can be combined with the <Shift> key for extending the selection to the final caret location.
+
+Mouse-wise, you can double-click on a word to select it automatically; a triple click will select the whole line. Note here that the regular copy <Ctrl+C> shortcut will also copy a whole line if there's no other selection.
+
+Finally for the search commands, <Shift+F3> will search for the "next" occurrence in the backward direction, and <Ctrl+Shift+F3> will back-search for the selected word or word under the cursor.
+
+
+/////// HOW TO PERMANENTLY ASSOCIATE EDITOR2 WITH TEXT DOCUMENTS ///////
+
+You can associate Editor² to handle all text (*.txt etc) files on your computer, if you don't want to Notepad ruining your day no more. All you have to do is edit the 'open' verb for Text documents. From the windows explorer select View|FolderOptions and go to the FileTypes tab. Find the entry for Text Document and click on the Edit button. Then double-click on the 'open' verb and type: 
+
+     c:\WhereYouHaveIt_Path\Editor2.exe "%1"
+
+It is very IMPORTANT to include the "%1" argument so that Editor² will read properly filenames with spaces. This must be the top "problem" people tell me about.
+
+
+//////////////////////////// L I C E N C E /////////////////////////////
+
+Editor² is free, gratis and fer nowt. But don't send me summons for court if you don't like it either (or if by some cosmic coincidence it so happens to erase your hard-drive contents). Don't even consider selling it for profit other than reasonable distribution costs. How's that for an informal licence agreement?
+
+Princes, princesses and other royalty, lottery-winners, top-flight executives and related rich folk are expected to make a donation if found addicted to Editor². Small contributions from less-fortunate warm-hearted folk won't be turned down either. Details can be found in the website.
+(http://www.netez.com/2xExplorer/donate.html)
+
+
+//////////////////////////// C R E D I T S /////////////////////////////
+
+Editor² (the program formerly known as 2xEditor) was developed using Visual C++ v6.0 (ATL/WTL classes) by Nikos Bozinis in 1999-2002. Should you want to contact the author for any comments, suggestions, bug reports or just for a pat on the back, the details follow:
+
+e-mail: mailto:n.bozinis@ic.ac.uk?SUBJECT=Editor2
+WWW:    http://www.netez.com/2xExplorer
+Forum:  http://www.netez.com/bbs/

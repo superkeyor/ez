@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>Meta.UA</ShortName>
+<Description>Ukrainian search provider</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Url type="text/html" template="http://meta.ua/search.asp?q={searchTerms}&amp;m="/>
+<Image width="16" height="16" type="image/icon">http://meta.ua/favicon.ico</Image>
+</OpenSearchDescription>

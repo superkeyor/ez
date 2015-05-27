@@ -1,0 +1,65 @@
+BODY { 
+ background-color:#e0e0d0; 
+ color:black
+}
+/* all margins indented slightly */
+P {
+ margin-left: 2em;
+}
+/* this one for page titles */
+P.cTitle {
+ margin-left: 0px; 
+ background-color:#9CCFFF; 
+ color:black; 
+ font-style:italic; 
+ font-size:medium; 
+ padding:5px
+}
+TABLE {
+ margin-left: 2em;
+}
+CODE {
+font-family:"courier new", monospace;
+font-size:100%; 
+}
+TT {
+font-family:"courier new", monospace;
+font-size:100%; 
+}
+/* source code examples */
+PRE {
+ background-color:#EFEBEF;
+ color:black;
+ font-size:105%;
+ font-family:"courier new", monospace;
+}
+/* had to place code in tables on account of daft netscape */
+TD.cSource {
+ background-color:#EFEBEF;
+ padding:5px;
+}
+/* table cells */
+TD {
+ background-color:#EFEBEF;
+ color:black; 
+ border-color:#e0e0d0; 
+ border-width:3px; 
+ font-family:Verdana, Arial, Helvetica, sans-serif; 
+ font-size:65%; 
+ padding:3px;
+}
+/* heading row table cells */
+TH { 
+ background-color:#D6DBE7; 
+ color:black; 
+ border-color:#e0e0d0; 
+ border-width:3px; 
+ font-family:Verdana, Arial, Helvetica, sans-serif; 
+ font-size:65%; 
+ font-weight:bold; 
+ padding:3px;
+}
+H4 {font-size: 150%;}
+H5 {font-size: 120%;}
+H6 {font-size: 100%;}
+LI {padding-bottom: 5px;}

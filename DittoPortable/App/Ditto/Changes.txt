@@ -1,0 +1,183 @@
+3.20 1-10-15
+
+- View clip as QRCode
+- Open external app to compare apps
+- Save clips to file
+- Show search text in different color in ditto and description window
+- Added command line options to open/close ditto's window
+- F3 finds inside the description window
+- ctrl-c/v/z/x/a work now in the search edit box
+
+- Delete pending Main record deletes before shrinking the database on clip cleanup
+- Press and hold up/down in search box now moves selection correctly
+- Forward key_down message to list control so shift up/down works when up/down from search text box
+- Scale small 1-10 text in each row based on dpi settings
+
+- Added new Persian language file
+- Updated Russian language file
+- Added Hebrew language
+
+
+3.19
+
+- elevate ditto privileges if pasting into a higher privileged application (before the paste would fail)
+- Added Delete clip data window (task bar icon - right click - delete clip data)
+- sticky clips
+- show groups window on global paste of group clip
+- improved High DPI awarness
+- Added option to always show scroll bars
+- option to move clips to the top if pasted from top 10 shortcut keys
+- changed tooltip description window to look like ditto window and allow moving
+- description window position can be locked to always show in the same position
+- Added next and previous commands for showing description
+- fixed handle leak when closing ditto
+- show option to search for description, full text, quick paste
+- updated mfc and crt dlls
+- removed auto closing the main window after 24 hours of inactivity
+- added timing messages around paste to find slowness when pasting with large db
+- delete all clip data before compact and repair
+- simple search (not not or ands)
+- create new sticky fields when creating a new database
+- added better scaling for close and collapse icons
+- When opening a group through a global key save the current group so when we close the group we revert back to the last opened group
+- ensure group window is visible when showing
+
+
+3.18.46.0 11-8-12
+- In paste for last 10 keys handle the option to show group clips in the main list
+- fixed issue that prevented last pasted time from getting saved to the db
+- New Ukrainian language file
+- Hide horizontal and vertical scroll bars unless you mouse over the right or bottom
+- Removed focus dll from portable build
+- Fixed issue with moving clips to group
+- Changed search text box to look better
+- Ditto works better when text is set to be viewed at 125% or 150%
+- Added png icons with transparency to folder and back buttons
+- Reimport clips in the same order as they were exported
+- When opening from right click open show use normal positioning, rather than just where it was
+- Update font after it's changed in the options dialog
+- Updated to latest sqlite 3.7.13
+- Windows 8 changes to better set focus to windows, other windows 8 fixes
+
+3.18.24.0 1-3-12
+- Fixed issue with pasting last 10 pastes through global shortcut keys
+- Fixed issue with chinese language files
+- Take the windows task bar into account when ensuring entire Ditto window is visible
+- Show correct shortcut key text in [Options - Keyboard Shortcuts] when Win is checked
+
+3.18.20.0 12-23-11
+- 64bit build
+- Clip shortcut keys can be global (you don't need to open ditto for your clip shortcut keys to work). New check box on the clip properties window.
+- New shortcut key window (right click on icon - Global hot keys) so you can see what clips are available globally and was ditto able to register the shortcut key.
+- Updated icon
+- Removed draw rich text option (was finding this didn't work with office 2010 rtf text)
+- Fixed crash when viewing images through F3
+- Portable setting is now based off of the file "portable" not a setting in the config file
+- Backup the db when running an update script
+- Fixed crash when automatically closing ditto's window
+- Fixed issue with displaying chinease language
+
+3.17.00.17 12-23-10
+- Removed named paste, named paste items can be searched by entering /q text
+- Added add-in to set/remove read only flag on clip containing cf_hdrop items or just text of file names
+- Added add-in to remove all line feeds then paste the clip
+- Fixed issue with ditto taking focus back, happened when always on-top was selected
+- Reverted to previous method for setting the focus
+- Fixed issue where 'v' was pasted instead of the actual clip
+- Changed default method for tracking focus to polling
+- Sped up clip deletes, delete of the large clipboard data now happens in the background
+- Sped up filling of the list, only items in view are loaded
+- Save connected to the clipboard state to config settings
+- Search full cf_unicode clip data with /f in the search text ex) /f text
+- Include correct version of mfc and c++ runtime files
+- Removed auto update feature
+
+3.16.8.0 08-16-09
+- Added DittoUtil Addin, adds the ability to paste any clip type as text
+- Fixed SetFocus fix in ActivateTarget -- needed AttachThreadInput
+- Added the ability to create add-ins, called before an item is pasted
+- Fixed issue with getting the currently focused window when not using the hook dll
+- Updated italiano language file
+- Added option to paste from hot key, press multiple times to move the selection, release the modifer key (control, shift, alt) to paste
+- Fixed word wrap option to reload correctly
+- Fixed issues with loading cut copy buffer 3 correctly from config on restart
+- Check if key is up before sending key up command. This was causing problems if an app is listening to global key up commands
+- Updated to sqlite version 3.16.10
+
+3.16.6.0  3-12-09
+- Added DittoUtil Addin, adds the ability to paste any clip type as text
+
+3.16.5.0  3-23-09
+- Fixed SetFocus fix in ActivateTarget -- needed AttachThreadInput
+- Added the ability to create add-ins, called before an item is pasted
+- Fixed issue with getting the currently focused window when not using the hook dll
+- Updated italiano language file
+- Added option to paste from hot key, press multiple times to move the selection, release the modifer key (control, shift, alt) to paste
+- Fixed word wrap option to reload correctly
+- Fixed issues with loading cut copy buffer 3 correctly from config on restart
+- Check if key is up before sending key up command.  This was causing problems if an app is listening to global key up commands
+- Updated to sqlite version 3.16.10
+
+3.15.4.0   01-16-08
+- Fixed empty directly from being created in application data in stand alone version
+- Added themes (http://ditto-cp.wiki.sourceforge.net/Themes)
+- Updated to latest sqlite db version
+- When creating a new db auto vacuum is set.  Or when doing a compact and repair.
+
+
+3.15.1.0   8-19-07
+- Custom Key strokes per application
+- Added option to hide friends, via registry setting only
+- Change some default values on new installs, limit copies to 500, disable friends, show at caret
+- Save word wrap option
+- Editor hot keys, added keys for undo, redo, wrap, bold, underline
+
+
+3.14.0.0   2-18-06
+- Added new feature, "Ditto copy buffers" Options - Copy buffers.  Can assign short cut keys for extra copy buffers.  These copy buffers work just like Ctrl-C and Ctrl-V.  Things can be copied and pasted without affecting the standard clipboard data.
+- Updated to latest sqlite db version.  This fixed the problem with foreign characters in the current user's name.
+- Added CF_HDROP (copied files), Rich Text, Html Format to multi-paste support.  (will group those types on multi-paste)
+- Added option for what separater is put between multi-pasted clips. (Options - General)
+- Added "Word Wrap" setting in clip editor
+- When searching in a group only search the clips in that group.
+- Hide apply button in options.  The button didn't do anything.
+- Don't underline the character following an ampersand(&) when displaying clip text.
+
+
+3.9.0.0    8-03-06
+- Fixed issue that could cause Ditto to not disconnect from the clipboard
+
+3.8.0.0	   7-27-06
+- Added the command line parameters "-disconnect" and "-connect" to control if ditto is connected to the clipboard or not
+- Added option to output debug strings(F5) to file(Ctrl-F5) or debugview.exe (F5 in quick paste window)
+
+3.6.0.0    6-06-06
+- Added the ability to edit clips
+
+3.5.0.0    5-09-06
+- Added option to import/export clips
+- Added menu option to clear quick paste text for selected clips
+
+3.4.0.0    4-26-06
+- Compact database button in options now compacts the sqlite database
+- Added option to prompt when deleting clips (options - Quick paste - prompt when deleting clips)
+- Fixed error where Ditto would show "NO TARGET" when some Outlook windows would show
+- Fixed shortcut key Alt-Home and removed short cut key Alt-End
+- Fixed crash when many clips are selected and pasted
+- Added Dutch translation
+
+3.3.0.0    3-26-06
+- Added ability to send files from one computer to another.  Just copy the file send the clip to the other computer, on paste Ditto will copy file from computer A to B and past the file
+
+3.2.0.0    2-17-06
+- Fixed error on multiple pastes in unicode, the line fide was inserted properly
+- Fixed error that caused the "run on start" to not get entered properly in the registry
+- Fixed Error where if an item had a thumbnail with the clip then the clip was delete the thumbnail would still show in the list
+
+3.1.0.0    1-22-06
+- added special processing for CF_HDROP (copied file from windows explorer).  When copied the name 
+	of the file copied will show in ditto. (it used to only show CF_HDROP
+- added CF_HDROP to the default save types
+- fixed error when pasting and auto hide is selected ditto would not auto hide on paste
+- when pasting from quick paste as soon as a known quick paste is typed paste it
+- fixed extra character from showing when using a foreign language

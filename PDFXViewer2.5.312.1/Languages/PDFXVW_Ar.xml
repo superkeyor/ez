@@ -1,0 +1,2102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+	<Product id="PXCView" version="1.0" productVersion="2.0.0040.0005"/>
+	<language eName="Arabic (Saudi Arabia)" lName="عربي (Ar)" lcid="0x0401" prefFont=""/>
+	<commands>
+		<item id="80" title="" tooltip="" status="&amp;Fichier" short=""/>
+		<item id="32316" title="رجوع" tooltip="رجوع" status="" short=""/>
+		<item id="32317" title="التالي" tooltip="التالي" status="" short=""/>
+		<item id="32609" title="Loupe" tooltip="Loupe" status="Loupe" short=""/>
+		<item id="32610" title="تكبير" tooltip="تكبير" status="تكبير" short="تكبير"/>
+		<item id="32611" title="تصغير" tooltip="تصغير" status="تصغير" short="Zoom arrière"/>
+		<item id="32613" title="اداة اليد" tooltip="اداة اليد" status="اداة اليد" short=""/>
+		<item id="32614" title="اداة الصورة" tooltip="اداة الصورة" status="اداة الصورة" short=""/>
+		<item id="32620" title="اداة الاختيار" tooltip="اداة الاختيار" status="اداة الاختيار" short=""/>
+		<item id="32884" title="الذهاب الى صفحة" tooltip="" status="" short=""/>
+		<item id="32885" title="الصفحة الأولى" tooltip="الصفحة الأولى" status="الصفحة الأولى" short=""/>
+		<item id="32886" title="الصفحة السابقة" tooltip="الصفحة السابقة" status="الصفحة السابقة" short=""/>
+		<item id="32887" title="الصفحة التالية" tooltip="الصفحة التالية" status="الصفحة التالية" short=""/>
+		<item id="32888" title="الصفحة الأخيرة" tooltip="الصفحة الأخيرة" status="الصفحة الأخيرة" short=""/>
+		<item id="32889" title="صفحة ..." tooltip="" status="" short=""/>
+		<item id="32890" title="العرض السابق" tooltip="العرض السابق" status="" short=""/>
+		<item id="32891" title="العرض التالي" tooltip="العرض التالي" status="" short=""/>
+		<item id="32892" title="الوثيقة السابقة" tooltip="" status="" short=""/>
+		<item id="32893" title="الوثيقة التالية" tooltip="" status="" short=""/>
+		<item id="32895" title="صفحة واحدة" tooltip="صفحة واحدة" status="" short=""/>
+		<item id="32896" title="مستمر" tooltip="مستمر" status="" short=""/>
+		<item id="32897" title="متواجه" tooltip="متواجه" status="" short=""/>
+		<item id="32898" title="متواجه مستمر" tooltip="متواجه مستمر" status="" short=""/>
+		<item id="32899" title="تكبير" tooltip="تكبير" status="تكبير" short=""/>
+		<item id="32900" title="الحجم الحقيقي" tooltip="الحجم الحقيقي" status="الحجم الحقيقي" short=""/>
+		<item id="32901" title="تنسيق حجم الصفحة" tooltip="تنسيق حجم الصفحة" status="تنسيق حجم الصفحة" short=""/>
+		<item id="32902" title="تنسيق عرض الصفحة" tooltip="تنسيق عرض الصفحة" status="تنسيق عرض الصفحة" short=""/>
+		<item id="32903" title="تنسيق الجزء المرئي" tooltip="تنسيق الجزء المرئي" status="تنسيق الجزء المرئي" short=""/>
+		<item id="32904" title="تكبير" tooltip="تكبير" status="تكبير" short=""/>
+		<item id="32905" title="تصغير" tooltip="تصغير" status="تصغير" short=""/>
+		<item id="32906" title="اعدادات" tooltip="اعدادات البرنامج" status="Affiche les préférences" short=""/>
+		<item id="32907" title="" tooltip="اظهار عدد الصفحات" status="" short=""/>
+		<item id="32908" title="قائمة الملفات" tooltip="قائمة الملفات" status="قائمة الملفات" short=""/>
+		<item id="32909" title="" tooltip="صفحة" status="" short="صفحة"/>
+		<item id="32910" title="الروابط" tooltip="الروابط" status="الروابط" short=""/>
+		<item id="32912" title="تصغير الصفحات" tooltip="تصغير الصفحات" status="تصغير الصفحات" short=""/>
+		<item id="32924" title="القائمة الاساسية" tooltip="القائمة الاساسية" status="القائمة الاساسية" short=""/>
+		<item id="32925" title="شريط التكبير" tooltip="شريط التكبير" status="شريط التكبير" short=""/>
+		<item id="32929" title="شريط التدوير" tooltip="شريط التدوير" status="شريط التدوير" short=""/>
+		<item id="32936" title="عرض جميع الوثائق" tooltip="عرض جميع الوثائق" status="" short=""/>
+		<item id="32937" title="اغلاق الوثيقة الحالية" tooltip="اغلاق الوثيقة الحالية" status="" short=""/>
+		<item id="32938" title="عرض جميع الوثائق بالتصغير" tooltip="عرض جميع الوثائق بالتصغير" status="" short=""/>
+		<item id="32940" title="شريط الابحار" tooltip="شريط الابحار" status="شريط الابحار" short=""/>
+		<item id="32942" title="اغلاق كل الملفات" tooltip="" status="" short=""/>
+		<item id="32944" title="تصدير" tooltip="" status="" short=""/>
+		<item id="32945" title="تصدير الى صورة..." tooltip="تصدير الصفحات على شكل صور" status="تصدير الصفحات على شكل صور" short=""/>
+		<item id="32946" title="اسم الوثيقة" tooltip="" status="" short=""/>
+		<item id="32947" title="رقم الوثيقة" tooltip="" status="" short=""/>
+		<item id="32948" title="عنوان الوثيقة" tooltip="" status="" short=""/>
+		<item id="32949" title="رقم الصفحة" tooltip="" status="" short=""/>
+		<item id="32950" title="صفحة" tooltip="" status="" short=""/>
+		<item id="32951" title="صفحات" tooltip="" status="" short=""/>
+		<item id="32952" title="اسم الملف" tooltip="" status="" short=""/>
+		<item id="32953" title="التاريخ (شهر-يوم-سنه)ـ" tooltip="" status="" short=""/>
+		<item id="32954" title="السنة" tooltip="" status="" short=""/>
+		<item id="32955" title="الشهر" tooltip="" status="" short=""/>
+		<item id="32956" title="اليوم" tooltip="" status="" short=""/>
+		<item id="32957" title="الوقت (ساعة-دقيقة-ثانية)ـ" tooltip="" status="" short=""/>
+		<item id="32958" title="ساعة" tooltip="" status="" short=""/>
+		<item id="32959" title="دقيقة" tooltip="" status="" short=""/>
+		<item id="32960" title="ثانية" tooltip="" status="" short=""/>
+		<item id="32961" title="رقم تلقائي" tooltip="" status="" short=""/>
+		<item id="32987" title="نافذة البحث" tooltip="نافذة البحث" status="نافذة البحث" short=""/>
+		<item id="32990" title=" " tooltip="بحث عن" status="" short="بحث عن"/>
+		<item id="32991" title="ابحث عن السابق" tooltip="ابحث عن السابق" status="ابحث عن السابق" short=""/>
+		<item id="32992" title="ابحث عن التالي" tooltip="ابحث عن التالي" status="ابحث عن التالي" short=""/>
+		<item id="32993" title="ابحث عن الخيارات" tooltip="ابحث عن الخيارات" status="ابحث عن الخيارات" short=""/>
+		<item id="32994" title="فقط كلمات كاملة" tooltip="فقط كلمات كاملة" status="فقط كلمات كاملة" short=""/>
+		<item id="32995" title="اعتبار نوعية الحرف" tooltip="اعتبار نوعية الحرف" status="اعتبار نوعية الحرف" short=""/>
+		<item id="32996" title="اشمل الملاحظات" tooltip="اشمل الملاحظات" status="اشمل الملاحظات" short=""/>
+		<item id="32997" title="اشمل الروابط" tooltip="اشمل الروابط" status="اشمل الروابط" short=""/>
+		<item id="33000" title="شريط البحث" tooltip="شريط البحث" status="شريط البحث" short=""/>
+		<item id="33006" title="الطبقات" tooltip="الطبقات" status="الطبقات" short=""/>
+		<item id="33008" title="الحقول" tooltip="الحقول" status="الحقول" short=""/>
+		<item id="33009" title="القائمة" tooltip="عرض او اخفاء القائمة" status="عرض او اخفاء القائمة" short=""/>
+		<item id="33014" title="شاشة كاملة" tooltip="شاشة كاملة" status="شاشة كاملة" short=""/>
+		<item id="33015" title="اظهار جميع الأشرطة" tooltip="اظهار جميع الأشرطة" status="اظهار جميع الأشرطة" short="اظهار جميع الأشرطة"/>
+		<item id="33016" title="اظهار جميع اشرطة الأدوات" tooltip="اظهار جميع اشرطة الأدوات" status="اظهار جميع اشرطة الأدوات" short="اظهار جميع اشرطة الأدوات"/>
+		<item id="33018" title="تظليل جميع الحقول" tooltip="تظليل جميع الحقول" status="تظليل جميع الحقول" short="تظليل جميع الحقول"/>
+		<item id="33020" title="خروج من وضع شاشة كاملة" tooltip="خروج من وضع شاشة كاملة" status="خروج من وضع شاشة كاملة" short=""/>
+		<item id="33032" title="سينتيمتر" tooltip="سينتيمتر" status="" short=""/>
+		<item id="33033" title="انش" tooltip="انش" status="" short=""/>
+		<item id="33034" title="ميلليمتر" tooltip="ميلليمتر" status="" short=""/>
+		<item id="33035" title="Picas" tooltip="Picas" status="" short=""/>
+		<item id="33036" title="نقطة" tooltip="نقطة" status="" short=""/>
+		<item id="33038" title="إغلاق الكل" tooltip="إغلاق كل الملفات المفتوحة" status="إغلاق كل الملفات المفتوحة" short=""/>
+		<item id="33054" title="" tooltip="" status="" short=""/>
+		<item id="33073" title="تصدير البيانات من نموذج..." tooltip="" status="" short=""/>
+		<item id="33074" title="استيراد البيانات الى نموذج..." tooltip="" status="" short=""/>
+		<item id="33075" title="تدوير" tooltip="" status="" short=""/>
+		<item id="33078" title="اتجاه عقارب الساعة" tooltip="اتجاه عقارب الساعة" status="اتجاه عقارب الساعة" short=""/>
+		<item id="33079" title="عكس اتجاه عقارب الساعة" tooltip="عكس اتجاه عقارب الساعة" status="عكس اتجاه عقارب الساعة" short=""/>
+		<item id="33080" title="تدوير الصفحات..." tooltip="" status="" short=""/>
+		<item id="33081" title="حذف الصفحات..." tooltip="" status="" short=""/>
+		<item id="33082" title="قص الصفحات" tooltip="" status="" short=""/>
+		<item id="33103" title="Pan and Zoom" tooltip="Pan and Zoom" status="Pan and Zoom" short="Pan and Zoom"/>
+		<item id="33104" title="سميك" tooltip="سميك" status="" short=""/>
+		<item id="33105" title="مائل" tooltip="مائل" status="" short=""/>
+		<item id="33106" title="بخط سفلي" tooltip="بخط سفلي" status="" short=""/>
+		<item id="33107" title="بخط عرضي" tooltip="بخط عرضي" status="" short=""/>
+		<item id="33108" title="مصفوف لليسار" tooltip="مصفوف لليسار" status="" short=""/>
+		<item id="33109" title="موسط" tooltip="موسط" status="" short=""/>
+		<item id="33110" title="مصفوف لليمين" tooltip="مصفوف لليمين" status="" short=""/>
+		<item id="33115" title="اعكس الخط" tooltip="اعكس الخط" status="" short=""/>
+		<item id="33116" title="خصائص" tooltip="خصائص" status="" short=""/>
+		<item id="33118" title="جعل الخصائص الحالية أساسية" tooltip="جعل الخصائص الحالية أساسية" status="" short=""/>
+		<item id="33121" title="اعادة موقع الملاحظات" tooltip="اعادة موقع الملاحظات" status="" short=""/>
+		<item id="33122" title="فتح الملاحظات" tooltip="فتح الملاحظات" status="" short=""/>
+		<item id="33123" title="اداة السهم" tooltip="اداة السهم" status="" short="اداة السهم"/>
+		<item id="33124" title="اداة الخط" tooltip="اداة الخط" status="" short="اداة الخط"/>
+		<item id="33125" title="مستطيل" tooltip="مستطيل" status="" short="مستطيل"/>
+		<item id="33126" title="شكل بيضاوي" tooltip="شكل بيضاوي" status="" short="شكل بيضاوي"/>
+		<item id="33127" title="متعدد الأضلاع" tooltip="متعدد الأضلاع" status="" short="متعدد الأضلاع"/>
+		<item id="33128" title="خط متعرج" tooltip="خط متعرج" status="" short="خط متعرج"/>
+		<item id="33129" title="قلم" tooltip="قلم" status="" short="قلم"/>
+		<item id="33130" title="غيمة" tooltip="غيمة" status="" short="غيمة"/>
+		<item id="33131" title="الختم" tooltip="الختم" status="" short="الختم"/>
+		<item id="33132" title="الملاحظات اللاصقة" tooltip="الملاحظات اللاصقة" status="" short="الملاحظات اللاصقة"/>
+		<item id="33133" title="استعراض" tooltip="استعراض" status="" short=""/>
+		<item id="33134" title="تطبيق الخصائص القياسية" tooltip="تطبيق الخصائص القياسية" status="" short=""/>
+		<item id="33135" title="اضافة ملاحظة" tooltip="اضافة ملاحظة" status="" short=""/>
+		<item id="33136" title="حذف" tooltip="حذف" status="حذف" short=""/>
+		<item id="33138" title="شريط الملاحظات" tooltip="شريط الملاحظات" status="شريط الملاحظات" short=""/>
+		<item id="33139" title="الغاء" tooltip="الغاء" status="" short=""/>
+		<item id="33140" title="كامل" tooltip="كامل" status="" short=""/>
+		<item id="33141" title="صفحة الانترنت" tooltip="" status="" short=""/>
+		<item id="33145" title="محتويات" tooltip="" status="" short=""/>
+		<item id="33146" title="ابلاغ عن مشكلة..." tooltip="" status="" short=""/>
+		<item id="33147" title="المنتدى التقني" tooltip="" status="" short=""/>
+		<item id="33168" title="الغاء تنسيق الكتابة" tooltip="الغاء تنسيق الكتابة" status="" short=""/>
+		<item id="33170" title="حرف علوي" tooltip="حرف علوي" status="" short=""/>
+		<item id="33171" title="حرف سفلي" tooltip="حرف سفلي" status="" short=""/>
+		<item id="33174" title="اضافة رد" tooltip="اضافة رد" status="" short=""/>
+		<item id="33176" title="حذف رد" tooltip="حذف رد" status="" short=""/>
+		<item id="33179" title="اصدارات جديدة" tooltip="" status="" short=""/>
+		<item id="33182" title="نسخ كسطر كتابة" tooltip="نسخ كسطر كتابة" status="" short=""/>
+		<item id="33183" title="نسخ ككتابة منسقة" tooltip="نسخ ككتابة منسقة" status="" short=""/>
+		<item id="33184" title="نسخ ككتابة منسقة" tooltip="نسخ ككتابة منسقة" status="" short=""/>
+		<item id="33187" title="نافذة الجافاسكربت" tooltip="نافذة الجافاسكربت" status="نافذة الجافاسكربت" short=""/>
+		<item id="33201" title="ملاحظه كلامية" tooltip="ملاحظه كلامية" status="" short="ملاحظه كلامية"/>
+		<item id="33202" title="مربع الكتابة" tooltip="مربع الكتابة" status="" short="مربع الكتابة"/>
+		<item id="33204" title="الملاحظات" tooltip="الملاحظات" status="الملاحظات" short=""/>
+		<item id="33206" title="تظليل" tooltip="تظليل" status="" short=""/>
+		<item id="33207" title="اضافة ملاحظة" tooltip="اضافة ملاحظة" status="" short=""/>
+		<item id="33208" title="وضع خط سفلي" tooltip="وضع خط سفلي" status="" short=""/>
+		<item id="33209" title="وضع خط عرضي" tooltip="وضع خط عرضي" status="" short=""/>
+		<item id="33210" title="استبدال الكتابة" tooltip="استبدال الكتابة" status="" short=""/>
+		<item id="33221" title="تظليل" tooltip="تظليل" status="تظليل" short="تظليل"/>
+		<item id="33222" title="خط سفلي" tooltip="خط سفلي" status="خط سفلي" short="خط سفلي"/>
+		<item id="33223" title="خط عرضي" tooltip="خط عرضي" status="خط عرضي" short="خط عرضي"/>
+		<item id="33225" title="شريط الخصائص" tooltip="شريط الخصائص" status="شريط الخصائص" short=""/>
+		<item id="33226" title="اداة الكتابة" tooltip="اداة الكتابة" status="" short="اداة الكتابة"/>
+		<item id="33228" title="اظهار مجموعة الاختام" tooltip="" status="" short=""/>
+		<item id="33229" title="ابقاء الأداة المختاره" tooltip="ابقاء الأداة المختاره" status="" short=""/>
+		<item id="33231" title="حجم الخط" tooltip="حجم الخط" status="" short="حجم الخط"/>
+		<item id="33232" title="بالصفحة" tooltip="تجميع باعتبار الصفحة" status="" short=""/>
+		<item id="33233" title="بالنوع" tooltip="تجميع باعتبار النوع" status="" short=""/>
+		<item id="33234" title="بالكاتب" tooltip="تجميع باعتبار الكاتب" status="" short=""/>
+		<item id="33235" title="بالتاريخ" tooltip="تجميع باعتبار التاريخ" status="" short=""/>
+		<item id="33236" title="باللون" tooltip="تجميع باعتبار اللون" status="" short=""/>
+		<item id="33238" title="التالي" tooltip="التالي" status="" short=""/>
+		<item id="33239" title="السابق" tooltip="السابق" status="" short=""/>
+		<item id="33240" title="حذف" tooltip="حذف" status="" short=""/>
+		<item id="33241" title="تقليص الكل" tooltip="تقليص الكل" status="" short=""/>
+		<item id="33242" title="توسع الكل" tooltip="توسع الكل" status="" short=""/>
+		<item id="33243" title="تجميع بـ" tooltip="تجميع بـ" status="" short=""/>
+		<item id="33244" title="خصائص..." tooltip="خصائص..." status="" short=""/>
+		<item id="33245" title="اضافة رد" tooltip="اضافة رد للملاحظة" status="" short=""/>
+		<item id="33248" title="عدم التحديد" tooltip="عدم التحديد" status="" short=""/>
+		<item id="33255" title="اغلاق جميع الوثائق ما عدا هذه" tooltip="اغلاق جميع الوثائق ما عدا هذه" status="" short=""/>
+		<item id="33256" title="اغلاق هذه الوثيقة" tooltip="اغلاق هذه الوثيقة" status="" short=""/>
+		<item id="33257" title="نسخ اسم الملف" tooltip="نسخ الاسم الكامل للملف الى الحافظة" status="نسخ الاسم الكامل للملف الى الحافظة" short=""/>
+		<item id="33258" title="فتح المجلد الحاوي" tooltip="فتح المجلد الحاوي للوثيقة" status="فتح المجلد الحاوي للوثيقة" short=""/>
+		<item id="33259" title="حفظ كطراز قياسي للكتابة" tooltip="حفظ كطراز قياسي للكتابة" status="" short=""/>
+		<item id="33260" title="تطبيق الطراز القياسي" tooltip="تطبيق الطراز القياسي" status="" short=""/>
+		<item id="33261" title="لون الكتابة" tooltip="لون الكتابة" status="" short="لون الكتابة"/>
+		<item id="33262" title="شريط خيارات الوثيقة" tooltip="شريط خيارات الوثيقة" status="شريط خيارات الوثيقة" short=""/>
+		<item id="33263" title="شريط الانتقال بين الصفحات" tooltip="شريط الانتقال بين الصفحات" status="شريط الانتقال بين الصفحات" short=""/>
+		<item id="33264" title="شريط عرض الصفحات" tooltip="شريط عرض الصفحات" status="شريط عرض الصفحات" short=""/>
+		<item id="33265" title="شريط الاوامر" tooltip="شريط الاوامر" status="شريط الاوامر" short=""/>
+		<item id="33267" title="&amp;ملف" tooltip="" status="" short=""/>
+		<item id="33268" title="قائمة الملفات الحديثة" tooltip="" status="" short=""/>
+		<item id="33269" title="بيانات الحقول" tooltip="" status="" short=""/>
+		<item id="33270" title="خصائص الوثيقة..." tooltip="خصائص الوثيقة..." status="خصائص الوثيقة..." short=""/>
+		<item id="33272" title="فتح من رابط" tooltip="فتح ملف من رابط" status="فتح ملف من رابط" short=""/>
+		<item id="33280" title="تحرير" tooltip="" status="" short=""/>
+		<item id="33290" title="عرض" tooltip="" status="" short=""/>
+		<item id="33291" title="اشرطة الادوات" tooltip="" status="" short=""/>
+		<item id="33292" title="اخرى" tooltip="" status="" short=""/>
+		<item id="33293" title="استعراض الصفحة" tooltip="" status="" short=""/>
+		<item id="33300" title="وثيقة" tooltip="" status="" short=""/>
+		<item id="33310" title="أدوات" tooltip="" status="" short=""/>
+		<item id="33311" title="ادوات اساسية" tooltip="" status="" short=""/>
+		<item id="33313" title="عدسة التكبير" tooltip="" status="" short=""/>
+		<item id="33314" title="الملاحظات" tooltip="" status="" short=""/>
+		<item id="33316" title="ادوات القياس" tooltip="" status="" short=""/>
+		<item id="33317" title="ادوات الربط" tooltip="" status="" short=""/>
+		<item id="33339" title="اظهار شريط الملاحظات" tooltip="" status="" short=""/>
+		<item id="33340" title="اظهار قائمة الملاحظات" tooltip="اظهار قائمة الملاحظات" status="اظهار قائمة الملاحظات" short=""/>
+		<item id="33350" title="نافذة" tooltip="" status="" short=""/>
+		<item id="33369" title="اظهار معلومات الأخطاء" tooltip="اظهار معلومات الأخطاء" status="اظهار معلومات الأخطاء" short="اظهار معلومات الأخطاء"/>
+		<item id="33370" title="خيارات الوثيقة" tooltip="خيارات الوثيقة" status="خيارات الوثيقة" short="خيارات الوثيقة"/>
+		<item id="33371" title="اظهار نافذة الطبقات" tooltip="اظهار نافذة الطبقات" status="اظهار نافذة الطبقات" short="اظهار نافذة الطبقات"/>
+		<item id="33372" title="اظهار نافذة الحقول" tooltip="اظهار نافذة الحقول" status="اظهار نافذة الحقول" short="اظهار نافذة الحقول"/>
+		<item id="33373" title="لا يوجد خصائص" tooltip="لا يوجد خصائص" status="لا يوجد خصائص" short=""/>
+		<item id="33379" title="شفافية" tooltip="شفافية" status="" short="شفافية"/>
+		<item id="33382" title="اظهار/اخفاء شريط منسق الكتابة" tooltip="اظهار/اخفاء شريط منسق الكتابة" status="" short=""/>
+		<item id="33383" title="نسخ القسم المختار من الصفحة" tooltip="نسخ القسم المختار من الصفحة" status="" short=""/>
+		<item id="33384" title="اختيار كل الصفحة" tooltip="اختيار كل الصفحة" status="" short=""/>
+		<item id="33410" title="ملاحظات" tooltip="ملاحظات" status="" short=""/>
+		<item id="33411" title="تنسيق الكتابة" tooltip="تنسيق الكتابة" status="" short=""/>
+		<item id="33412" title="تحديد المشهد" tooltip="تحديد المشهد" status="" short=""/>
+		<item id="33413" title="تكبير اللقطات المصغرة" tooltip="تكبير اللقطات المصغرة" status="تكبير اللقطات المصغرة" short=""/>
+		<item id="33414" title="تصغير اللقطات المصرة" tooltip="تصغير اللقطات المصرة" status="تصغير اللقطات المصرة" short=""/>
+		<item id="33416" title="اضافة رابط" tooltip="" status="" short=""/>
+		<item id="33420" title="اضافة رابط" tooltip="" status="" short=""/>
+		<item id="33423" title="" tooltip="" status="" short=""/>
+		<item id="33800" title="" tooltip="" status="" short=""/>
+		<item id="36000" title="تخصيص..." tooltip="تخصيص..." status="تخصيص..." short=""/>
+		<item id="36001" title="مقفل" tooltip="مقفل" status="" short=""/>
+		<item id="36004" title="تكبير الروابط" tooltip="تكبير الروابط" status="تكبير الروابط" short=""/>
+		<item id="36005" title="تصغير الروابط" tooltip="تصغير الروابط" status="تصغير الروابط" short=""/>
+		<item id="36006" title="حذف الروابط" tooltip="حذف جميع الروابط" status="حذف جميع الروابط" short="حذف"/>
+		<item id="36007" title="خصائص الروابط" tooltip="خصائص الروابط" status="خصائص الروابط" short="تعديل"/>
+		<item id="36008" title="رابط جديد" tooltip="رابط جديد" status="رابط جديد" short="جديد"/>
+		<item id="36009" title="تاكيد ظهور الرابط" tooltip="تاكيد ظهور الرابط" status="تاكيد ظهور الرابط" short=""/>
+		<item id="36010" title="الذهاب الى رابط" tooltip="الذهاب الى رابط" status="الذهاب الى رابط" short=""/>
+		<item id="36011" title="اعادة تحميل الروابط" tooltip="اعادة تحميل الروابط" status="اعادة تحميل الروابط" short=""/>
+		<item id="36012" title="إضافة" tooltip="إضافة امر جديد" status="إضافة امر جديد" short=""/>
+		<item id="36013" title="حذف" tooltip="حذف" status="حذف" short=""/>
+		<item id="36014" title="أعلى " tooltip="تحريك للأعلى " status="تحريك للأعلى " short=""/>
+		<item id="36015" title="أسفل" tooltip="تحريك للأسفل" status="تحريك للأسفل" short=""/>
+		<item id="36016" title="تعديل..." tooltip="تعديل..." status="تعديل..." short=""/>
+		<item id="36017" title="اختبار الامر" tooltip="اختبار الامر" status="اختبار الامر" short=""/>
+		<item id="36018" title="اختبار جميع الأوامر" tooltip="اختبار جميع الأوامر" status="اختبار جميع الأوامر" short=""/>
+		<item id="36019" title="اعادة للأصل" tooltip="اعادة للأصل" status="اعادة للأصل" short=""/>
+		<item id="36023" title="اعادة تسمية" tooltip="اعادة تسمية" status="اعادة تسمية" short=""/>
+		<item id="36024" title="اختيار العرض الحالي كعرض اساسي" tooltip="اختيار العرض الحالي كعرض اساسي" status="اختيار العرض الحالي كعرض اساسي" short=""/>
+		<item id="36025" title="لف الروابط الطويلة" tooltip="لف الروابط الطويلة" status="لف الروابط الطويلة" short=""/>
+		<item id="36026" title="اختيار العرض الاساسي" tooltip="اختيار العرض الاساسي" status="اختيار العرض الاساسي" short=""/>
+		<item id="36027" title="تنفيذ" tooltip="تنفيذ امر" status="" short=""/>
+		<item id="36028" title="مسح" tooltip="مسح محتويات النافذة" status="" short=""/>
+		<item id="36035" title="الذهاب الى سطر..." tooltip="" status="" short=""/>
+		<item id="36036" title="خيارات جافاسكربت" tooltip="خيارات جافاسكربت" status="خيارات جافاسكربت" short=""/>
+		<item id="36037" title="ادراج صفحات..." tooltip="" status="" short=""/>
+		<item id="36038" title="استخراج صفحات..." tooltip="" status="" short=""/>
+		<item id="36039" title="استبدال صفحات" tooltip="" status="" short=""/>
+		<item id="36040" title="الانتقال بين الصفحات" tooltip="" status="" short=""/>
+		<item id="36048" title="تحديد الهدف" tooltip="تحديد الهدف" status="تحديد الهدف" short=""/>
+		<item id="36049" title="" tooltip="Police" status="" short=""/>
+		<item id="36250" title="" tooltip="نمط التظليل" status="" short="نمط التظليل"/>
+		<item id="36252" title="" tooltip="" status="" short=""/>
+		<item id="36264" title="" tooltip="" status="" short=""/>
+		<item id="36273" title="" tooltip="لون الخلفية" status="" short="لون الخلفية"/>
+		<item id="36274" title="" tooltip="لون الخط العرضي" status="" short="لون الخط العرضي"/>
+		<item id="36276" title="" tooltip="أيقونه" status="" short="أيقونه"/>
+		<item id="36279" title="" tooltip="نمط الحدود" status="" short="نمط الحدود"/>
+		<item id="36281" title="" tooltip="سماكة الحدود" status="" short="سماكة الحدود"/>
+		<item id="36287" title="" tooltip="نمط نهاية الخط" status="" short="نمط نهاية الخط"/>
+		<item id="36289" title="" tooltip="نمط بداية الخط" status="" short="نمط بداية الخط"/>
+		<item id="36291" title="تكبير" tooltip="تكبير" status="تكبير" short=""/>
+		<item id="36292" title="تصغير" tooltip="تصغير" status="تصغير" short=""/>
+		<item id="36293" title="انشاء من الحافظة" tooltip="انشاء من الحافظة" status="انشاء من الحافظة" short="انشاء من الحافظة"/>
+		<item id="36294" title="حذف الختم" tooltip="حذف الختم" status="حذف الختم" short="حذف الختم"/>
+		<item id="36295" title="ادراج ختم" tooltip="ادراج ختم" status="ادراج ختم" short=""/>
+		<item id="36296" title="حذف مجموعة" tooltip="حذف مجموعة" status="حذف مجموعة" short="حذف مجموعة"/>
+		<item id="36297" title="انشاء مجموعة جديدة.." tooltip="انشاء مجموعة جديدة.." status="انشاء مجموعة جديدة.." short="انشاء مجموعة جديدة.."/>
+		<item id="36298" title="تعديل ختم" tooltip="تعديل ختم" status="تعديل ختم" short="تعديل ختم"/>
+		<item id="36299" title="تعديل مجموعة.." tooltip="تعديل مجموعة.." status="تعديل مجموعة.." short="تعديل مجموعة.."/>
+		<item id="36300" title="أداة الممحاة" tooltip="أداة الممحاة" status="أداة الممحاة" short="أداة الممحاة"/>
+		<item id="36301" title="القطر" tooltip="القطر" status="" short="القطر"/>
+		<item id="36303" title="انشاء من ملف بي دي اف" tooltip="انشاء من ملف بي دي اف" status="انشاء من ملف بي دي اف" short=""/>
+		<item id="36304" title="انشاء من صورة" tooltip="انشاء من صورة" status="انشاء من صورة" short=""/>
+		<item id="36305" title="ادراج صفحات فارغة..." tooltip="" status="" short=""/>
+		<item id="36306" title="تمديد قائمة الروابط" tooltip="تمديد قائمة الروابط" status="" short="تمديد قائمة الروابط"/>
+		<item id="36307" title="تقليص قائمة الروابط" tooltip="تقليص قائمة الروابط" status="" short="تقليص قائمة الروابط"/>
+		<item id="36308" title="خصائص الكتابة" tooltip="خصائص الكتابة" status="خصائص الكتابة" short="خصائص الكتابة"/>
+		<item id="36309" title="ارجاع الشريط للوضع الاساسي" tooltip="ارجاع الشريط للوضع الاساسي" status="ارجاع الشريط للوضع الاساسي" short="ارجاع الشريط للوضع الاساسي"/>
+		<item id="36313" title="" tooltip="استرجاع مفتاح الاختصار" status="" short=""/>
+		<item id="36314" title="" tooltip="مسح الاختصار" status="" short=""/>
+		<item id="36315" title="ارجاع القائمة للوضع الاساسي" tooltip="ارجاع القائمة للوضع الاساسي" status="ارجاع القائمة للوضع الاساسي" short="ارجاع القائمة للوضع الاساسي"/>
+		<item id="36316" title="" tooltip="" status="" short=""/>
+		<item id="36324" title="اختيار الصورة" tooltip="" status="" short=""/>
+		<item id="36327" title="حذف" tooltip="" status="" short=""/>
+		<item id="36328" title="النمط الاساسي" tooltip="" status="" short=""/>
+		<item id="36329" title="عرض الصورة" tooltip="" status="" short=""/>
+		<item id="36330" title="عرض الكتابة" tooltip="" status="" short=""/>
+		<item id="36331" title="اضف فاصل قبله" tooltip="" status="" short=""/>
+		<item id="36332" title="اضف فاصل بعده" tooltip="" status="" short=""/>
+		<item id="36333" title="خصائص..." tooltip="" status="" short=""/>
+		<item id="36334" title="استعراض" tooltip="" status="" short=""/>
+		<item id="36340" title="دمج الملاحظات" tooltip="" status="" short=""/>
+		<item id="36341" title="مسح قائمة البحث" tooltip="مسح قائمة البحث" status="" short="مسح قائمة البحث"/>
+		<item id="36342" title="شريط الروابط" tooltip="شريط الروابط" status="شريط الروابط" short=""/>
+		<item id="36343" title="رابط مستطيل" tooltip="رابط مستطيل" status="" short="رابط مستطيل"/>
+		<item id="36345" title="شريط القياس" tooltip="شريط القياس" status="شريط القياس" short=""/>
+		<item id="36346" title="اداة القياس الطولي" tooltip="اداة القياس الطولي" status="" short="اداة القياس الطولي"/>
+		<item id="36347" title="اداو قياس المحيط" tooltip="اداو قياس المحيط" status="" short="اداو قياس المحيط"/>
+		<item id="36348" title="اداو قياس المساحة" tooltip="اداو قياس المساحة" status="" short="اداو قياس المساحة"/>
+		<item id="36349" title="ملاحظات" tooltip="" status="" short=""/>
+		<item id="36350" title="تلخيص الملاحظات" tooltip="" status="" short=""/>
+		<item id="36351" title="تصدير الملاحظات" tooltip="" status="" short=""/>
+		<item id="36352" title="عرض فاصل بين الصفحات" tooltip="عرض فاصل بين الصفحات" status="" short=""/>
+		<item id="36353" title="عرض صفحة الواجهة" tooltip="عرض صفحة الواجهة" status="" short=""/>
+		<item id="36355" title="قيمة النسبة (من)ـ" tooltip="قيمة النسبة (من)ـ" status="" short="قيمة النسبة (من)ـ"/>
+		<item id="36356" title="قيمة النسبة (الى)ـ" tooltip="قيمة النسبة (الى)ـ" status="" short="قيمة النسبة (الى)ـ"/>
+		<item id="36357" title="من" tooltip="من" status="" short="من"/>
+		<item id="36359" title="الى" tooltip="الى" status="" short="الى"/>
+		<item id="36362" title="اضافة &quot;اذهب الى صفحة&quot;..ـ" tooltip="اضافة &quot;اذهب الى صفحة&quot;..ـ" status="اضافة &quot;اذهب الى صفحة&quot;..ـ" short=""/>
+		<item id="36363" title="اضافة &quot;فتح رابط&quot;..ـ" tooltip="اضافة &quot;فتح رابط&quot;..ـ" status="اضافة &quot;فتح رابط&quot;..ـ" short=""/>
+		<item id="36364" title="من صفحة فارغة" tooltip="من صفحة فارغة" status="من صفحة فارغة" short=""/>
+		<item id="36365" title="من ملف كتابة" tooltip="من ملف كتابة" status="من ملف كتابة" short=""/>
+		<item id="36374" title="ارجاع جميع الاعدادات الى الوضع الاصلي" tooltip="ارجاع جميع الاعدادات الى الوضع الاصلي" status="ارجاع جميع الاعدادات الى الوضع الاصلي" short=""/>
+		<item id="36375" title="من ملف صورة" tooltip="من ملف صورة" status="من ملف صورة" short=""/>
+		<item id="36408" title="استيراد اعدادات البرنامج" tooltip="استيراد اعدادات البرنامج" status="استيراد اعدادات البرنامج" short=""/>
+		<item id="36409" title="تصدير  اعدادات البرنامج" tooltip="تصدير  اعدادات البرنامج" status="تصدير  اعدادات البرنامج" short=""/>
+		<item id="57600" title="ملف جديد" tooltip="" status="" short=""/>
+		<item id="57601" title="فتح" tooltip="فتح ملف موجود" status="فتح ملف موجود" short=""/>
+		<item id="57602" title="إغلاق" tooltip="إغلاق الملف الحالي" status="إغلاق الملف الحالي" short=""/>
+		<item id="57603" title="&amp;حفظ" tooltip="حفظ الملف الحالي" status="حفظ الملف الحالي" short=""/>
+		<item id="57604" title="حفظ بإسم" tooltip="حفظ الملف الحالي بإسم جديد" status="حفظ الملف الحالي بإسم جديد" short=""/>
+		<item id="57607" title="طباعة..." tooltip="طباعة الملف الحالي" status="طباعة الملف الحالي" short=""/>
+		<item id="57611" title="حفظ نسخة بإسم" tooltip="حفظ الملف الحالي الى ملف جديد" status="حفظ الملف الحالي الى ملف جديد" short=""/>
+		<item id="57612" title="ارسال بالبريد الإلكتروني" tooltip="ارسال الملف الحالي بالبريد الإلكتروني" status="ارسال الملف الحالي بالبريد الإلكتروني" short=""/>
+		<item id="57632" title="مسح" tooltip="مسح" status="مسح" short=""/>
+		<item id="57634" title="نسخ" tooltip="نسخ التحديد الى الحافظة" status="نسخ التحديد الى الحافظة" short=""/>
+		<item id="57635" title="قص" tooltip="قص التحديد الى الحافظة" status="قص التحديد الى الحافظة" short=""/>
+		<item id="57636" title="بحث" tooltip="بحث عن ..." status="بحث عن ..." short=""/>
+		<item id="57637" title="لصق" tooltip="لصق التحديد الى الحافظة" status="لصق التحديد الى الحافظة" short=""/>
+		<item id="57642" title="تحديد الكل" tooltip="تحديد الكل" status="" short=""/>
+		<item id="57643" title="تراجع" tooltip="تراجع عن العملية السابقة" status="تراجع عن العملية السابقة" short=""/>
+		<item id="57644" title="اعادة" tooltip="اعادة العملية السابقة" status="اعادة العملية السابقة" short=""/>
+		<item id="57649" title="ترتيب الأيقونات" tooltip="ترتيب الأيقونات" status="ترتيب الأيقونات" short=""/>
+		<item id="57650" title="تجانب" tooltip="تجانب" status="تجانب" short=""/>
+		<item id="57651" title="تجانب أفقي" tooltip="تجانب أفقي" status="تجانب أفقي" short=""/>
+		<item id="57652" title="تجانب عامودي" tooltip="تجانب عامودي" status="تجانب عامودي" short=""/>
+		<item id="57653" title="تقسيم" tooltip="تقسيم" status="تقسيم" short=""/>
+		<item id="57664" title="عن البرنامج" tooltip="معلومات عن البنامج" status="معلومات عن البنامج" short=""/>
+		<item id="57665" title="خروج" tooltip="خروج" status="خروج" short=""/>
+		<item id="57670" title="مساعدة" tooltip="" status="" short=""/>
+		<item id="57718" title="تحريك لليسار" tooltip="تحريك لليسار" status="" short=""/>
+		<item id="57719" title="تحريك لليمين" tooltip="تحريك لليمين" status="" short=""/>
+		<item id="59393" title="الشريط السفلي" tooltip="الشريط السفلي" status="الشريط السفلي" short=""/>
+	</commands>
+	<dialogs>
+		<dialog id="203" text="الخيارات">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="3" text="تطبيق" tooltip=""/>
+		</dialog>
+		<dialog id="204" text="">
+			<item id="1004" text="الألوان الناتجة تطبق على الوان منطقة العمل" tooltip=""/>
+			<item id="1008" text="استخدم طريقة تعويض النقط السوداء" tooltip=""/>
+			<item id="1038" text="خيارات الألوان: " tooltip=""/>
+			<item id="1039" text="&amp;RGB (احمر-اخضر-ازرق):" tooltip=""/>
+			<item id="1040" text="&amp;CMYK" tooltip=""/>
+			<item id="1041" text="درجة الرصاصي: " tooltip=""/>
+			<item id="1042" text="محرك التحويل:" tooltip=""/>
+			<item id="1200" text="منطقة العمل" tooltip=""/>
+			<item id="1201" text="خيارات التحويل" tooltip=""/>
+		</dialog>
+		<dialog id="207" text="">
+			<item id="4" text="استعراض..." tooltip=""/>
+			<item id="5" text="استعراض..." tooltip=""/>
+			<item id="1009" text="اكبر عدد للملفات في قائمة الملفات الحديثة:" tooltip=""/>
+			<item id="1014" text="عرض صفحة البداية" tooltip=""/>
+			<item id="1015" text="تمكين عدة نسخ للعمل في وقت واحد" tooltip=""/>
+			<item id="1032" text="عرض الملفات المتجانبة Tabs" tooltip=""/>
+			<item id="1033" text="ملفات متعددة" tooltip=""/>
+			<item id="1035" text="عرض زر الاغلاق في كل " tooltip=""/>
+			<item id="1036" text="صفحة واحدة" tooltip=""/>
+			<item id="1038" text="تحديد طريقة التخزين:" tooltip=""/>
+			<item id="1039" text="موقع تخزين الملفات المحملة من الانترنت:" tooltip=""/>
+			<item id="1040" text="تحديد المجلد المستخدم لامر &quot;حفظ بإسم&quot;ـ" tooltip=""/>
+			<item id="1198" text="بداية تشغيل البرنامج" tooltip=""/>
+			<item id="1200" text="عرض الملفات" tooltip=""/>
+			<item id="1201" text="فتح الملفات" tooltip=""/>
+			<item id="1202" text="تخزين الملفات" tooltip=""/>
+			<item id="1227" text="حذف القائمة" tooltip=""/>
+		</dialog>
+		<dialog id="212" text="ادخل كلمة السر">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1039" text="الرجاء ادخال كلمة السر الخاصة بالملف بشكل صحيح :" tooltip=""/>
+		</dialog>
+		<dialog id="213" text="خصائص الملف">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="3" text="تطبيق" tooltip=""/>
+		</dialog>
+		<dialog id="214" text="">
+			<item id="1038" text="اسم الملف :" tooltip=""/>
+			<item id="1039" text="مكان الملف:" tooltip=""/>
+			<item id="1040" text="تاريخ الانشاءك" tooltip=""/>
+			<item id="1041" text="تاريخ التعديل:" tooltip=""/>
+			<item id="1042" text="حجم الملف:" tooltip=""/>
+			<item id="1043" text="العنوان:" tooltip=""/>
+			<item id="1044" text="المؤلف:" tooltip=""/>
+			<item id="1200" text="معلومات الملف" tooltip=""/>
+			<item id="1201" text="معلومات الوثيقة" tooltip=""/>
+			<item id="1203" text="التصنيف :" tooltip=""/>
+			<item id="1204" text="كلمات البحث:" tooltip=""/>
+			<item id="1205" text="منتج ملف البي دي اف:" tooltip=""/>
+			<item id="1206" text="البرنامج:" tooltip=""/>
+			<item id="1207" text="نسخة البي دي اف:" tooltip=""/>
+			<item id="1208" text="عدد الصفحات:" tooltip=""/>
+			<item id="1209" text="معلومات اضافية..." tooltip=""/>
+		</dialog>
+		<dialog id="220" text="">
+			<item id="1038" text="طباعة :" tooltip=""/>
+			<item id="1039" text="تغيير محتويات الوثيقة :" tooltip=""/>
+			<item id="1040" text="نسخ واستخراج المحتويات :" tooltip=""/>
+			<item id="1041" text="اضافة الملاحظات والحقول :" tooltip=""/>
+			<item id="1042" text="تعبئة الحقول وتوقيعها :" tooltip=""/>
+			<item id="1043" text="تمكين محتويات الوثيقة :" tooltip=""/>
+			<item id="1044" text="تجميع الوثيقة :" tooltip=""/>
+			<item id="1200" text="تامين الوثيقة" tooltip=""/>
+			<item id="1201" text="تفاصيل العمليات المسموحة :" tooltip=""/>
+			<item id="1203" text="طريقة تأمين الوثيقة تعين ما يسمح بتغييره في الملف" tooltip=""/>
+			<item id="1204" text="طريقة التأمين:" tooltip=""/>
+			<item id="1205" text="مستوى التشفير :" tooltip=""/>
+			<item id="1206" text="كلمة سر الفتح :" tooltip=""/>
+			<item id="1207" text="كلمة سر العمليات :" tooltip=""/>
+			<item id="1210" text="تغيير الطريقة..." tooltip=""/>
+		</dialog>
+		<dialog id="221" text="استخراج على صيغة صورة">
+			<item id="1" text="استخراج" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="4" text="استعراض..." tooltip=""/>
+			<item id="6" text="ماكرو" tooltip=""/>
+			<item id="7" text="خيارات..." tooltip=""/>
+			<item id="1038" text="Tapez les numéros des pages et/ou les groupes de pages séparés par des virgules en partant du début du document. Par exemple tapez : 1, 3, 5-12" tooltip=""/>
+			<item id="1039" text="&amp;Sous-ensemble :" tooltip=""/>
+			<item id="1040" text="المجلد الهدف" tooltip=""/>
+			<item id="1041" text="اسم الملف :" tooltip=""/>
+			<item id="1042" text="صيغة الصورة :" tooltip=""/>
+			<item id="1043" text="طريقة الاستخراج :" tooltip=""/>
+			<item id="1044" text="دقة الصورة :" tooltip=""/>
+			<item id="1045" text="&amp;Toutes" tooltip=""/>
+			<item id="1046" text="Page &amp;courante" tooltip=""/>
+			<item id="1047" text="Pages s&amp;électionnées" tooltip=""/>
+			<item id="1048" text="&amp;Vue courante" tooltip=""/>
+			<item id="1049" text="Pa&amp;ges :" tooltip=""/>
+			<item id="1050" text="&amp;Graphisme sélectionné" tooltip=""/>
+			<item id="1060" text="Trans&amp;parent" tooltip=""/>
+			<item id="1061" text="P&amp;lein :" tooltip=""/>
+			<item id="1088" text="Ordre in&amp;verse" tooltip=""/>
+			<item id="1200" text="Etendue" tooltip=""/>
+			<item id="1201" text="حفظ بإسم" tooltip=""/>
+			<item id="1202" text="الرسوم" tooltip=""/>
+			<item id="1203" text="خلفية الصفحة :" tooltip=""/>
+			<item id="1204" text="نطاق الصفحات" tooltip=""/>
+			<item id="1206" text="درجة التكبير :" tooltip=""/>
+			<item id="1330" text="كل الصفحات" tooltip=""/>
+			<item id="1331" text="الصفحات المختارة" tooltip=""/>
+			<item id="1332" text="الصفحة الحالية" tooltip=""/>
+			<item id="1333" text="صفحات :" tooltip=""/>
+			<item id="1335" text="المجموعة الجزئية :" tooltip=""/>
+			<item id="1339" text="الصفحات المستعرضه" tooltip=""/>
+			<item id="1340" text="الرسوم المختارة" tooltip=""/>
+			<item id="1341" text="عكس الترتيب" tooltip=""/>
+			<item id="1387" text="ادخل رقم الصفحات و/او نطاق الصفحات مفصولة بفاصلة. مثال 1،3، 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="222" text="خيارات تخزين الصور">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+		</dialog>
+		<dialog id="223" text="">
+			<item id="1071" text="الغاء" tooltip=""/>
+			<item id="1072" text="تجاهل" tooltip=""/>
+		</dialog>
+		<dialog id="224" text="">
+			<item id="1038" text="طريقة العرض الافتراضية :" tooltip=""/>
+			<item id="1039" text="طريقة العرض الافتراضية :" tooltip=""/>
+			<item id="1040" text="درجة التكبير الافتراضية :" tooltip=""/>
+			<item id="1041" text="دقة الصورة" tooltip=""/>
+			<item id="1042" text="بكسل في كل انش" tooltip=""/>
+			<item id="1073" text="عرض " tooltip=""/>
+			<item id="1074" text="عرض التسطير " tooltip=""/>
+			<item id="1079" text="URLانشاء روابط من الـ" tooltip=""/>
+			<item id="1083" text="عرض الصور الكبيرة" tooltip=""/>
+			<item id="1126" text="استرجاع طريقة الاستعراض السابقة عند الفتح :" tooltip=""/>
+			<item id="1200" text="عرض الصفحة :" tooltip=""/>
+			<item id="1201" text="العرض الأولي" tooltip=""/>
+			<item id="1202" text="العرض الأولي" tooltip=""/>
+			<item id="1228" text="استعمل الاعدادات السابقة (طريقة العرض ودرجة التكبير)ـ" tooltip=""/>
+		</dialog>
+		<dialog id="227" text="تاكيد تبديل الملف">
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="6" text="نعم" tooltip=""/>
+			<item id="7" text="لا" tooltip=""/>
+			<item id="100" text="نعم للكل" tooltip=""/>
+			<item id="101" text="لا للكل" tooltip=""/>
+			<item id="102" text="تلقائي" tooltip=""/>
+			<item id="103" text="حفظ باسم..." tooltip=""/>
+			<item id="1040" text="استبدال الملف؟" tooltip=""/>
+			<item id="1041" text="تستطيع استعمال اداة التسمية التلقائية لانشاء اسماء جديدة" tooltip=""/>
+		</dialog>
+		<dialog id="228" text="خطأ عند الكتابة في الملف">
+			<item id="3" text="الغاء" tooltip=""/>
+			<item id="4" text="اعادة المحاولة" tooltip=""/>
+			<item id="5" text="تجاهل" tooltip=""/>
+			<item id="103" text="حفظ باسم..." tooltip=""/>
+		</dialog>
+		<dialog id="229" text="طباعة">
+			<item id="1" text="اطبع" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="عدد النسخ :" tooltip=""/>
+			<item id="1039" text="Tapez les numéros des pages et/ou les groupes de pages séparés par des virgules en partant du début du document. Par exemple tapez : 1, 3, 5-12" tooltip=""/>
+			<item id="1040" text="&amp;Sous-ensemble :" tooltip=""/>
+			<item id="1041" text="طريقة تغيير الحجم" tooltip=""/>
+			<item id="1042" text="Feuille :" tooltip=""/>
+			<item id="1043" text="الاسم :" tooltip=""/>
+			<item id="1044" text="الحالة :" tooltip=""/>
+			<item id="1045" text="&amp;Toutes" tooltip=""/>
+			<item id="1046" text="Page cou&amp;rante" tooltip=""/>
+			<item id="1047" text="Pages s&amp;électionnées" tooltip=""/>
+			<item id="1048" text="&amp;Vue courante" tooltip=""/>
+			<item id="1049" text="Pa&amp;ges :" tooltip=""/>
+			<item id="1050" text="&amp;Graphisme sélectionné" tooltip=""/>
+			<item id="1086" text="الخصائص :" tooltip=""/>
+			<item id="1087" text="الطباعة الى ملف" tooltip=""/>
+			<item id="1088" text="Ordre inverse" tooltip=""/>
+			<item id="1094" text="ترتيب" tooltip=""/>
+			<item id="1096" text="طباعة على الوان اسود/ابيض" tooltip=""/>
+			<item id="1097" text="طباعة على شكل صور" tooltip=""/>
+			<item id="1099" text="Options..." tooltip=""/>
+			<item id="1127" text="تغيير حجم الصفحة" tooltip=""/>
+			<item id="1200" text="الطابعة" tooltip=""/>
+			<item id="1201" text="نطاق الصفحات" tooltip=""/>
+			<item id="1202" text="Impression spéciale" tooltip=""/>
+			<item id="1203" text="النوع :" tooltip=""/>
+			<item id="1204" text="خيارات الطباعة" tooltip=""/>
+			<item id="1205" text="Commentaites et formulaires" tooltip=""/>
+			<item id="1206" text="طباعة :" tooltip=""/>
+			<item id="1207" text="طباعة الصفحات" tooltip=""/>
+			<item id="1330" text="الكل" tooltip=""/>
+			<item id="1331" text="الصفحات المختارة " tooltip=""/>
+			<item id="1332" text="الصفحة الحالية " tooltip=""/>
+			<item id="1333" text="صفحات :" tooltip=""/>
+			<item id="1335" text="المجموعة الجزئية ك" tooltip=""/>
+			<item id="1339" text="الصفحات المعروضة" tooltip=""/>
+			<item id="1340" text="الرسوم المختارة" tooltip=""/>
+			<item id="1341" text="عكس الترتيب" tooltip=""/>
+			<item id="1343" text="خيارات متقدمة ..." tooltip=""/>
+			<item id="1387" text="ادخل رقم الصفحات و/او نطاق الصفحات مفصولة بفاصلة. مثال 1،3، 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="230" text="">
+			<item id="1038" text="تكبير الصفحة" tooltip=""/>
+			<item id="1116" text="اختيار مصدر الورق حسب حجم الصفحة" tooltip=""/>
+			<item id="1120" text="تدوير تلقائي" tooltip=""/>
+			<item id="1121" text="توسيط تلقائي" tooltip=""/>
+		</dialog>
+		<dialog id="231" text="">
+			<item id="1038" text="صفحات لكل ورقة :" tooltip=""/>
+			<item id="1039" text="ترتيب الصفحات" tooltip=""/>
+			<item id="1108" text="استعراض حدود الصفحة" tooltip=""/>
+			<item id="1120" text="تدوير تلقائي" tooltip=""/>
+			<item id="1121" text="توسيط تلقائي" tooltip=""/>
+			<item id="1128" text="في" tooltip=""/>
+		</dialog>
+		<dialog id="232" text="">
+			<item id="1038" text="تكبير الصفحة :" tooltip=""/>
+			<item id="1039" text="%" tooltip=""/>
+			<item id="1040" text="تغطية" tooltip=""/>
+			<item id="1041" text="pt" tooltip=""/>
+			<item id="1042" text="Traits de coupe :" tooltip=""/>
+			<item id="1110" text="عرض حدود القطع على الاوراق" tooltip=""/>
+			<item id="1118" text="عرض الملصقات" tooltip=""/>
+			<item id="1120" text="تدوير تلقائي عند الانشاء" tooltip=""/>
+			<item id="1121" text="تدوير تلقائي عند الانشاء" tooltip=""/>
+		</dialog>
+		<dialog id="236" text="الذهاب الى صفحة :">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="ادخل رقم الصفحة ك" tooltip=""/>
+		</dialog>
+		<dialog id="237" text="المكبر ...">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="ادخل درجة التكبير" tooltip=""/>
+		</dialog>
+		<dialog id="244" text="">
+			<item id="1038" text="ما هي الكلمة او الجملة التي تبحث عنها؟" tooltip=""/>
+			<item id="1039" text="اين تريد البحث؟" tooltip=""/>
+			<item id="1040" text="ترتيب بـ" tooltip=""/>
+			<item id="1099" text="خيارات" tooltip=""/>
+			<item id="1139" text="ابحث الآن" tooltip=""/>
+			<item id="1142" text="مسح" tooltip=""/>
+		</dialog>
+		<dialog id="245" text="خيارات البحث">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="استخدم التقريب" tooltip=""/>
+			<item id="1126" text="اعتبار صيغة الحرف" tooltip=""/>
+			<item id="1128" text="اشمل الملاحظات" tooltip=""/>
+			<item id="1129" text="اشمل الروابط" tooltip=""/>
+			<item id="1130" text="البحث في المجلدات الداخلية" tooltip=""/>
+			<item id="1131" text="اشمل المرفقات" tooltip=""/>
+			<item id="1145" text="البحث بالكلمة ككل" tooltip=""/>
+			<item id="1193" text="الاقرب" tooltip=""/>
+			<item id="1194" text="في صفحة" tooltip=""/>
+			<item id="1195" text="في وثيقة" tooltip=""/>
+			<item id="1200" text="استخدم هذه الخيارات الاضافية" tooltip=""/>
+		</dialog>
+		<dialog id="246" text="البحث المتقدم">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="كل هذه الكلمات :" tooltip=""/>
+			<item id="1039" text="La phrase exacte :" tooltip=""/>
+			<item id="1040" text="اي من هذه الكلمات ك" tooltip=""/>
+			<item id="1041" text="باستثناء هذه الكلمات" tooltip=""/>
+			<item id="1200" text="نتائج البحث يجب ان تحتوي على :" tooltip=""/>
+		</dialog>
+		<dialog id="247" text="">
+			<item id="1038" text="نسبة الذاكرة المستخدمة" tooltip=""/>
+			<item id="1039" text="اقصى حد لاستعمال العمليات لعرض الصفحة" tooltip=""/>
+			<item id="1040" text="اقصى حد لاستعمال العمليات لعرض الصفحات المصغرة" tooltip=""/>
+			<item id="1041" text="اقصى حد لعدد العمليات المسموحة" tooltip=""/>
+			<item id="1200" text="استخدام الذاكرة" tooltip=""/>
+			<item id="1201" text="استخدام العمليات" tooltip=""/>
+		</dialog>
+		<dialog id="257" text="تدوير الصفحات">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="تدوير :  " tooltip=""/>
+			<item id="1039" text="ادخل رقم الصفحات و/او نطاق الصفحات مفصولة بفاصلة. مثال 1،3، 5-12" tooltip=""/>
+			<item id="1041" text="الاتجاه" tooltip=""/>
+			<item id="1164" text="الكل" tooltip=""/>
+			<item id="1165" text="الصفحات المختارة" tooltip=""/>
+			<item id="1166" text="الفحة الحالية" tooltip=""/>
+			<item id="1167" text="صفحات ك" tooltip=""/>
+			<item id="1200" text="نطاق الصفحات" tooltip=""/>
+		</dialog>
+		<dialog id="258" text="حذف الصفحات">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="حذف :" tooltip=""/>
+			<item id="1039" text="ادخل رقم الصفحات و/او نطاق الصفحات مفصولة بفاصلة. مثال 1،3، 5-12" tooltip=""/>
+			<item id="1165" text="الكل" tooltip=""/>
+			<item id="1166" text="الصفحة الحالية" tooltip=""/>
+			<item id="1167" text="&amp;Pages :" tooltip=""/>
+			<item id="1200" text="نطاق الصفحات" tooltip=""/>
+		</dialog>
+		<dialog id="265" text="الخصائص">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="3" text="تطبيق" tooltip=""/>
+			<item id="1180" text="متقدم" tooltip=""/>
+		</dialog>
+		<dialog id="266" text="">
+			<item id="1038" text="البداية :" tooltip=""/>
+			<item id="1039" text="النهاية :" tooltip=""/>
+			<item id="1040" text="الطراز :" tooltip=""/>
+			<item id="1041" text="السماكة :" tooltip=""/>
+			<item id="1042" text="اللون" tooltip=""/>
+			<item id="1043" text="لون الخلفية :" tooltip=""/>
+			<item id="1044" text="الشفافية :" tooltip=""/>
+			<item id="1200" text="شكل النهاية" tooltip=""/>
+			<item id="1201" text="الحدود" tooltip=""/>
+		</dialog>
+		<dialog id="268" text="">
+			<item id="1038" text="المؤلف :" tooltip=""/>
+			<item id="1039" text="العنوان :" tooltip=""/>
+			<item id="1040" text="تاريخ الانشاء :" tooltip=""/>
+			<item id="1041" text="تاريخ التعديل :" tooltip=""/>
+		</dialog>
+		<dialog id="272" text="">
+			<item id="1038" text="الطراز ك" tooltip=""/>
+			<item id="1039" text="السماكة :" tooltip=""/>
+			<item id="1040" text="اللون :" tooltip=""/>
+			<item id="1041" text="لون الخلفية :" tooltip=""/>
+			<item id="1042" text="الشفافية ك" tooltip=""/>
+			<item id="1200" text="الحدود" tooltip=""/>
+		</dialog>
+		<dialog id="273" text="">
+			<item id="1038" text="السماكة :" tooltip=""/>
+			<item id="1039" text="اللون :" tooltip=""/>
+			<item id="1040" text="الشفافية :" tooltip=""/>
+			<item id="1200" text="الحدود" tooltip=""/>
+		</dialog>
+		<dialog id="274" text="">
+			<item id="1038" text="وحدات القياس المحددة سوف تستخدم في جميع القياسات: الصفحة، المسطرة، الخ:" tooltip=""/>
+			<item id="1200" text="Unités" tooltip=""/>
+		</dialog>
+		<dialog id="278" text="التبليغ عن مشكلة:">
+			<item id="1" text="التالي..." tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="4" text="استعراض ..." tooltip=""/>
+			<item id="1038" text="سوف ترسل رسالتك على شكل ايميل - تستطيع التعديل قبل الارسال" tooltip=""/>
+			<item id="1039" text="الرجاء اختيار عنوان للمشكلة" tooltip=""/>
+			<item id="1040" text="وصف المشكلة (بشكل مختصر)ـ" tooltip=""/>
+			<item id="1041" text="ادراج ملف البي دي اف" tooltip=""/>
+			<item id="1126" text="ادراج معلومات الخط الالوان (يفضل)ـ" tooltip=""/>
+			<item id="1127" text="ادراج معلومات الطابعة (يفضل)ـ" tooltip=""/>
+			<item id="1128" text="ادراج نسخة الويندوز المستخدمة (يفضل)ـ" tooltip=""/>
+			<item id="1183" text="ادراج نسخة البرنامج (يفضل)ـ" tooltip=""/>
+		</dialog>
+		<dialog id="279" text="">
+			<item id="1038" text="الأيقونة :" tooltip=""/>
+			<item id="1039" text="اللون :" tooltip=""/>
+			<item id="1040" text="الشفافية :" tooltip=""/>
+			<item id="1200" text="الشكل" tooltip=""/>
+		</dialog>
+		<dialog id="282" text="Console JavaScript">
+			<item id="1" text="تشغيل" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1200" text="سكربت" tooltip=""/>
+			<item id="1201" text="النواتج" tooltip=""/>
+		</dialog>
+		<dialog id="283" text="">
+			<item id="1038" text="نهاية الخط" tooltip=""/>
+			<item id="1039" text="الطراز" tooltip=""/>
+			<item id="1040" text="السماكة :" tooltip=""/>
+			<item id="1041" text="لون الخط :" tooltip=""/>
+			<item id="1042" text="اللون الداخلي ك" tooltip=""/>
+			<item id="1043" text="الشفافية :" tooltip=""/>
+			<item id="1200" text="طراز النهاية" tooltip=""/>
+			<item id="1201" text="الحدود" tooltip=""/>
+		</dialog>
+		<dialog id="284" text="">
+			<item id="1038" text="اللون" tooltip=""/>
+			<item id="1039" text="الشفافية" tooltip=""/>
+			<item id="1200" text="العرض" tooltip=""/>
+		</dialog>
+		<dialog id="290" text="الاختام">
+		</dialog>
+		<dialog id="291" text="">
+			<item id="1038" text="جعل هذا البرنامج المستعرض الافتراضي لملفات البدف" tooltip=""/>
+			<item id="1039" text="استرجاع البنامج المستخدم سابقا" tooltip=""/>
+			<item id="1127" text="عرض ملفات البي دي اف في مستعرضات الانترنت" tooltip=""/>
+			<item id="1162" text="تعيين كمستعرض افتراضي" tooltip=""/>
+			<item id="1197" text="استرجاع ربط نوعية الملفات " tooltip=""/>
+			<item id="1200" text="ربط نوعية الملف" tooltip=""/>
+		</dialog>
+		<dialog id="292" text="">
+			<item id="1038" text="الشفافية :" tooltip=""/>
+			<item id="1200" text="الشكل" tooltip=""/>
+		</dialog>
+		<dialog id="295" text="">
+			<item id="1038" text="اسم الدخول :" tooltip=""/>
+			<item id="1039" text="الاسم :" tooltip=""/>
+			<item id="1040" text="اللقب :" tooltip=""/>
+			<item id="1041" text="اسم المنشأة :" tooltip=""/>
+			<item id="1042" text="القسم :" tooltip=""/>
+			<item id="1043" text="البريد الالكتروني :" tooltip=""/>
+			<item id="1044" text="معلوماتك سوف تستخدم في الملاحظات والمراجعات المستخدمة في الملف.  هذه المعلومات سوف تستخدم فقط في هذا البرنامج ولن تستعمل خارجه دون علمك." tooltip=""/>
+			<item id="1200" text="الخصوصية" tooltip=""/>
+		</dialog>
+		<dialog id="296" text="">
+			<item id="1038" text="الرجاء اختيار احد اللغات التالية كواجهة عرض" tooltip=""/>
+			<item id="1200" text="اللغات" tooltip=""/>
+			<item id="1219" text="استعمل اللغة الافتراضية للمستخدم" tooltip=""/>
+			<item id="1220" text="استخدم لغة أخرى" tooltip=""/>
+			<item id="1221" text="استخدام لغة البنامج الافتراضية (اللغة الانجليزية)ـ" tooltip=""/>
+		</dialog>
+		<dialog id="297" text="فتح ملف من رابط انترنت">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="ادخل رابط الملف" tooltip=""/>
+		</dialog>
+		<dialog id="298" text="تخصيص">
+			<item id="1" text="اغلاق" tooltip=""/>
+			<item id="1316" text="الاعدادات الاصلية" tooltip=""/>
+		</dialog>
+		<dialog id="299" text="">
+			<item id="1039" text="اشرطة الادوات :" tooltip=""/>
+			<item id="1234" text="الاعدادات الاصلية" tooltip=""/>
+			<item id="1235" text="اعادة تسمية" tooltip=""/>
+			<item id="1237" text="جديد ..." tooltip=""/>
+			<item id="1250" text="حذف" tooltip=""/>
+		</dialog>
+		<dialog id="300" text="">
+			<item id="1038" text="لاضافة امر، اسحب الامر من قائمة الاوامر وضعه في شريط الادوات او القائمة الرئيسية." tooltip=""/>
+			<item id="1039" text="التصانيف :" tooltip=""/>
+			<item id="1040" text="الاوامر :" tooltip=""/>
+			<item id="1314" text="اظهار الاوامر الخاصة بالنسخة المطورة PRO في قائمة الاوامر" tooltip=""/>
+			<item id="1320" text="جديد ..." tooltip=""/>
+			<item id="1321" text="خصائص" tooltip=""/>
+		</dialog>
+		<dialog id="301" text="">
+			<item id="1233" text="اظهار الرسائل المساعدة على اشرطة الادوات" tooltip=""/>
+			<item id="1234" text="اظهار الاختصارات في رسائل المساعدة" tooltip=""/>
+			<item id="1235" text="اظهار الاختصارات في القائمة" tooltip=""/>
+		</dialog>
+		<dialog id="302" text="">
+			<item id="1038" text="خلفية الصفحة :" tooltip=""/>
+			<item id="1039" text="لون التعبئة :" tooltip=""/>
+			<item id="1040" text="لون الحدود ك" tooltip=""/>
+			<item id="1126" text="لون الخط :" tooltip=""/>
+			<item id="1127" text="لون الرسومات :" tooltip=""/>
+			<item id="1128" text="غير فقط لون الخط والرسومات" tooltip=""/>
+			<item id="1200" text="خيارات الوان الوثيقة" tooltip=""/>
+			<item id="1220" text="استخدام طراز الوان معين :" tooltip=""/>
+			<item id="1235" text="استخدم الوان الويندوز" tooltip=""/>
+			<item id="1236" text="استخدم الاولان الشديدة الوضوح" tooltip=""/>
+			<item id="1240" text="الهيمنة على الوان الوثيقة" tooltip=""/>
+			<item id="1241" text="تغيير الوان الخط والرسوم" tooltip=""/>
+		</dialog>
+		<dialog id="303" text="">
+			<item id="1038" text="لون الخلفية :" tooltip=""/>
+			<item id="1200" text="استعراض شاشة كاملة" tooltip=""/>
+			<item id="1239" text="مؤشر الفارة :" tooltip=""/>
+		</dialog>
+		<dialog id="304" text="">
+			<item id="1038" text="دقة الصورة :" tooltip=""/>
+			<item id="1039" text="dpi(نقطه/انش)" tooltip=""/>
+			<item id="1096" text="حول القطات الى درجة لون الرصاصي" tooltip=""/>
+			<item id="1200" text="خيارات لقطات الصور" tooltip=""/>
+			<item id="1201" text="صوت التقاط الصور" tooltip=""/>
+			<item id="1242" text="استعمل دقة ثابته للصور :" tooltip=""/>
+			<item id="1244" text="لا تصدر صوتا عند التقاط الصور" tooltip=""/>
+		</dialog>
+		<dialog id="305" text="Propriétés des signets">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+		</dialog>
+		<dialog id="306" text="Options d&apos;apparence">
+			<item id="1038" text="عنوان الكتابة :" tooltip=""/>
+			<item id="1039" text="الطراز :" tooltip=""/>
+			<item id="1040" text="اللون :" tooltip=""/>
+		</dialog>
+		<dialog id="307" text="Liste des actions">
+			<item id="1038" text="تستطيع انشاء عملية جديدة او تعديل عملية موجودة مسبقا. بالاضافة الى ذلك تستطيع اعادة ترتيب العمليات في القائمة." tooltip=""/>
+		</dialog>
+		<dialog id="308" text="Enregistrement">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="4" text="استعراض ..." tooltip=""/>
+			<item id="1038" text="تستطيع تحديد مخزن جيدي عن طريق اختيار " tooltip=""/>
+			<item id="1039" text="اسم الملف :" tooltip=""/>
+			<item id="1040" text="صفحة :" tooltip=""/>
+			<item id="1041" text="س :" tooltip=""/>
+			<item id="1042" text="ص :" tooltip=""/>
+			<item id="1043" text="العرض :" tooltip=""/>
+			<item id="1044" text="الطول :" tooltip=""/>
+			<item id="1066" text="استعراض " tooltip=""/>
+			<item id="1067" text="اصلاح" tooltip=""/>
+			<item id="1126" text="وراثة" tooltip=""/>
+			<item id="1127" text="وراثة" tooltip=""/>
+			<item id="1200" text="خصائص الوثيقة" tooltip=""/>
+			<item id="1252" text="درجة التكبير :" tooltip=""/>
+			<item id="1253" text="استعمل المستطيل :" tooltip=""/>
+			<item id="1261" text="الوثيقة الجديدة" tooltip=""/>
+			<item id="1271" text="تكبير" tooltip=""/>
+			<item id="1272" text="تصغير" tooltip=""/>
+			<item id="1275" text="استعمل العرض الحالي" tooltip=""/>
+		</dialog>
+		<dialog id="309" text="Enregistrement">
+			<item id="1039" text="الاسم :" tooltip=""/>
+			<item id="1041" text="اسم المنشئة :" tooltip=""/>
+			<item id="1043" text="البريد الاكتروني :" tooltip=""/>
+			<item id="1045" text="مفتاح التسجيل ك" tooltip=""/>
+			<item id="1200" text="بيانات التسجيل" tooltip=""/>
+			<item id="1274" text="اخفاء العمليات الخاصة بالنسخة المطورة" tooltip=""/>
+			<item id="1282" text="اخفاء شريط الاعلانات" tooltip=""/>
+		</dialog>
+		<dialog id="310" text="Javascript">
+			<item id="1038" text="الخط :" tooltip=""/>
+			<item id="1044" text="حجم الخط :" tooltip=""/>
+			<item id="1200" text="جافاسكربت" tooltip=""/>
+			<item id="1201" text="نافذة جافاسكربت" tooltip=""/>
+			<item id="1276" text="تمكين عمليات الجافسكربت" tooltip=""/>
+			<item id="1277" text="تمكين التفاعل مع نافذة الجافاسكربت" tooltip=""/>
+			<item id="1278" text="اظهار الاخطاء والرسائل في النافذة" tooltip=""/>
+			<item id="1279" text="اظهار تحذيرات عند تشغيل الجافاسكربت" tooltip=""/>
+		</dialog>
+		<dialog id="311" text="الانتقال الى سطر">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="رقم السطر :" tooltip=""/>
+		</dialog>
+		<dialog id="312" text="استقطاع صفحات">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="تطبيق على :" tooltip=""/>
+			<item id="1039" text="ادخل رقم الصفحات و/او نطاق الصفحات مفصولة بفاصلة. مثال 1،3، 5-12" tooltip=""/>
+			<item id="1041" text="الصندوق:" tooltip=""/>
+			<item id="1042" text="يسار :" tooltip=""/>
+			<item id="1043" text="يمين :" tooltip=""/>
+			<item id="1044" text="الأعلى ك" tooltip=""/>
+			<item id="1045" text="الأسفل :" tooltip=""/>
+			<item id="1046" text="الوحدات :" tooltip=""/>
+			<item id="1126" text="تحديد الى الاطراف البيضاء" tooltip=""/>
+			<item id="1127" text="استبعاد الفراغات البيضاء" tooltip=""/>
+			<item id="1129" text="تناسب بين الاطوال" tooltip=""/>
+			<item id="1164" text="الكل" tooltip=""/>
+			<item id="1165" text="الصفحات المختارة" tooltip=""/>
+			<item id="1166" text="الصفحة الحالية" tooltip=""/>
+			<item id="1167" text="صفحات :" tooltip=""/>
+			<item id="1200" text="نطاق الصفحات" tooltip=""/>
+			<item id="1201" text="استقطاع الحدود" tooltip=""/>
+			<item id="1202" text="التحكم بالحدود" tooltip=""/>
+			<item id="1285" text="اظهار كل الصناديق" tooltip=""/>
+			<item id="1290" text="تصفير" tooltip=""/>
+			<item id="1291" text="ارجاع الى الاعدادات الاصلية" tooltip=""/>
+		</dialog>
+		<dialog id="313" text="ادراج صفحات">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="4" text="استعراض ..." tooltip=""/>
+			<item id="1038" text="ادراج :" tooltip=""/>
+			<item id="1039" text="ادخل رقم الصفحات و/او نطاق الصفحات مفصولة بفاصلة. مثال 1،3، 5-12" tooltip=""/>
+			<item id="1042" text="وضع في :" tooltip=""/>
+			<item id="1164" text="الكل" tooltip=""/>
+			<item id="1167" text="صفحات :" tooltip=""/>
+			<item id="1200" text="نطاق الصفحات" tooltip=""/>
+			<item id="1201" text="المصدر" tooltip=""/>
+			<item id="1202" text="الهدف:" tooltip=""/>
+			<item id="1292" text="من ملف" tooltip=""/>
+			<item id="1293" text="من احد الملفات المتوحة حاليا" tooltip=""/>
+			<item id="1295" text="الصفحة الأولى" tooltip=""/>
+			<item id="1296" text="الصفحة الأخيرة" tooltip=""/>
+			<item id="1297" text="في صفحة :" tooltip=""/>
+		</dialog>
+		<dialog id="314" text="استخراج صفحات">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="4" text="استعراض ..." tooltip=""/>
+			<item id="6" text="ماكرو" tooltip=""/>
+			<item id="1038" text="تكبيق على :" tooltip=""/>
+			<item id="1039" text="ادخل رقم الصفحات و/او نطاق الصفحات مفصولة بفاصلة. مثال 1،3، 5-12" tooltip=""/>
+			<item id="1041" text="اسم الملف :" tooltip=""/>
+			<item id="1043" text="المجلد" tooltip=""/>
+			<item id="1126" text="استخراج الصفحات في ملف جديد" tooltip=""/>
+			<item id="1164" text="الكل" tooltip=""/>
+			<item id="1165" text="الصفحات المختارة" tooltip=""/>
+			<item id="1166" text="الصفحة الحالية" tooltip=""/>
+			<item id="1167" text="صفحات :" tooltip=""/>
+			<item id="1200" text="نطاق الصفحات" tooltip=""/>
+			<item id="1201" text="خيارات" tooltip=""/>
+			<item id="1202" text="حفظ باسم" tooltip=""/>
+			<item id="1299" text="حذف الصفحات بعد الاستخراج" tooltip=""/>
+		</dialog>
+		<dialog id="315" text="">
+			<item id="1200" text="خيارات انشاء الملاحظات" tooltip=""/>
+			<item id="1201" text="خيارات استعراض الملاحظات" tooltip=""/>
+			<item id="1234" text="تمكين نوافذ المساعدة" tooltip=""/>
+			<item id="1302" text="نسخ الكتابة المظللة في اطار الملاحظة" tooltip=""/>
+			<item id="1303" text="نسخ الكتابة المظللة، المشخوطة، او المحددة بخط سفلي" tooltip=""/>
+			<item id="1354" text="عرض مؤشر الكتابة" tooltip=""/>
+		</dialog>
+		<dialog id="316" text="ادراج صفحات فارغة">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1039" text="التوجيه :" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="العدد :" tooltip=""/>
+			<item id="1042" text="الموقع :" tooltip=""/>
+			<item id="1200" text="صفحات " tooltip=""/>
+			<item id="1202" text="الهدف" tooltip=""/>
+			<item id="1292" text="قياسية " tooltip=""/>
+			<item id="1293" text="مفصل" tooltip=""/>
+			<item id="1295" text="الصفحة الأولى" tooltip=""/>
+			<item id="1296" text="الصفحة الأخيرة" tooltip=""/>
+			<item id="1297" text="في صفحة :" tooltip=""/>
+			<item id="1304" text="طولي" tooltip=""/>
+			<item id="1305" text="عرضي" tooltip=""/>
+		</dialog>
+		<dialog id="317" text="اعادة تسمية الختم">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="الرجاء تعيين اسم جديد للختم" tooltip=""/>
+		</dialog>
+		<dialog id="318" text="ادخال ختم">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="4" text="استعراض ..." tooltip=""/>
+			<item id="1039" text="ملف :" tooltip=""/>
+			<item id="1041" text="صفحة :" tooltip=""/>
+			<item id="1042" text="العنوان" tooltip=""/>
+			<item id="1200" text="المصدر" tooltip=""/>
+			<item id="1201" text="معلومات الختم" tooltip=""/>
+		</dialog>
+		<dialog id="321" text="خصائص الخط">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="3" text="تطبيق" tooltip=""/>
+		</dialog>
+		<dialog id="322" text="">
+			<item id="1313" text="نسخ للحافظة" tooltip=""/>
+		</dialog>
+		<dialog id="324" text="خصائص الأوامر">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="صورة :" tooltip=""/>
+			<item id="1039" text="عنوان :" tooltip=""/>
+			<item id="1040" text="نافذة المساعدة" tooltip=""/>
+			<item id="1041" text="شريط الأدوات" tooltip=""/>
+			<item id="1042" text="عنوان قصير" tooltip=""/>
+			<item id="1043" text="معرف :" tooltip=""/>
+			<item id="1044" text="اسم :" tooltip=""/>
+			<item id="1126" text="تأكد بجافاسكربت" tooltip=""/>
+			<item id="1127" text="تمكين بجافاسكربت" tooltip=""/>
+			<item id="1198" text="قائمة الأوامر" tooltip=""/>
+			<item id="1200" text="تعريف :" tooltip=""/>
+			<item id="1201" text="اختصار" tooltip=""/>
+			<item id="1202" text="تحديد الحالة :" tooltip=""/>
+			<item id="1203" text="الاسم (c) Adobe :" tooltip=""/>
+			<item id="1204" text="المفاتيح :" tooltip=""/>
+			<item id="1205" text="استعمال في" tooltip=""/>
+			<item id="1206" text="استعمال بـ :" tooltip=""/>
+			<item id="1261" text="Apparence :" tooltip=""/>
+			<item id="1292" text="Action prédéfinie :" tooltip=""/>
+			<item id="1293" text="تشغيل جافاسكربت :" tooltip=""/>
+			<item id="1324" text="تعديل..." tooltip=""/>
+			<item id="1325" text="تعديل :" tooltip=""/>
+			<item id="1326" text="تعديل..." tooltip=""/>
+		</dialog>
+		<dialog id="325" text="">
+			<item id="1039" text="درجة قاما Gamma" tooltip=""/>
+			<item id="1076" text="صقل الخط" tooltip=""/>
+			<item id="1077" text="صقل الرسومات" tooltip=""/>
+			<item id="1078" text="صقل الصور" tooltip=""/>
+			<item id="1200" text="انتاج الخط" tooltip=""/>
+			<item id="1202" text="صقل/ تنعيم" tooltip=""/>
+		</dialog>
+		<dialog id="326" text="شريط ادوات جديد">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="عنوان الشريط" tooltip=""/>
+		</dialog>
+		<dialog id="327" text="دمج الملاحظات">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="تطبيق على :" tooltip=""/>
+			<item id="1039" text="ادخل رقم الصفحات و/او نطاق الصفحات مفصولة بفاصلة. مثال 1،3، 5-12" tooltip=""/>
+			<item id="1041" text="غير-مطبوعة :" tooltip=""/>
+			<item id="1042" text="الحقول :" tooltip=""/>
+			<item id="1164" text="الكل" tooltip=""/>
+			<item id="1165" text="الصفحات المختار" tooltip=""/>
+			<item id="1166" text="الصفحة الحالية" tooltip=""/>
+			<item id="1167" text="صفحات :" tooltip=""/>
+			<item id="1200" text="نطاق الصفحات" tooltip=""/>
+			<item id="1201" text="خيارات" tooltip=""/>
+		</dialog>
+		<dialog id="328" text="موجز الملاحظات">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="تجيع بـ :" tooltip=""/>
+			<item id="1039" text="Tapez les numéros des pages et/ou les groupes de pages séparés par des virgules en partant du début du document. Par exemple tapez : 1, 3, 5-12" tooltip=""/>
+			<item id="1040" text="ترتيب بـ :" tooltip=""/>
+			<item id="1041" text="النوع" tooltip=""/>
+			<item id="1126" text="تجاهل الردود" tooltip=""/>
+			<item id="1200" text="نطاق الصفحات" tooltip=""/>
+			<item id="1201" text="الناتج" tooltip=""/>
+			<item id="1202" text="خيارات" tooltip=""/>
+			<item id="1261" text="عام" tooltip=""/>
+			<item id="1330" text="الكل" tooltip=""/>
+			<item id="1331" text="الصفحات المختارة" tooltip=""/>
+			<item id="1332" text="الصفحة الحالية" tooltip=""/>
+			<item id="1333" text="صفحات :" tooltip=""/>
+			<item id="1335" text="المجموعة الجزئية" tooltip=""/>
+			<item id="1341" text="اشمل الملاحظات المخفية" tooltip=""/>
+			<item id="1356" text="عرض الوثيقة الجديدة بعد الانشاء" tooltip=""/>
+			<item id="1387" text="ادخل رقم الصفحات و/او نطاق الصفحات مفصولة بفاصلة. مثال 1،3، 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="329" text="">
+			<item id="1038" text="التوجيه:" tooltip=""/>
+			<item id="1039" text="حجم الورقة :" tooltip=""/>
+			<item id="1343" text="متقدم" tooltip=""/>
+			<item id="1351" text="وضع كل مجموعة في صفحة مستقلة" tooltip=""/>
+			<item id="1352" text="تجاهل الصفحات التي لا تحتوي على ملاحظات" tooltip=""/>
+		</dialog>
+		<dialog id="332" text="">
+			<item id="4" text="استعراض ..." tooltip=""/>
+			<item id="6" text="ماكرو" tooltip=""/>
+			<item id="1038" text="المجلد الهدف :" tooltip=""/>
+			<item id="1039" text="اسم الملف :" tooltip=""/>
+		</dialog>
+		<dialog id="333" text="">
+			<item id="4" text="استعراض ..." tooltip=""/>
+			<item id="6" text="ماكرو" tooltip=""/>
+			<item id="1038" text="المجلد الهدف :" tooltip=""/>
+			<item id="1039" text="اسم الملف :" tooltip=""/>
+			<item id="1041" text="ورقة :" tooltip=""/>
+			<item id="1351" text="وضع كل مجموعة في صفحة مستقلة" tooltip=""/>
+		</dialog>
+		<dialog id="334" text="">
+			<item id="4" text="استعراض ..." tooltip=""/>
+			<item id="6" text="ماكرو" tooltip=""/>
+			<item id="1038" text="اسم المجلد الهدف" tooltip=""/>
+			<item id="1039" text="اسم الملف :" tooltip=""/>
+			<item id="1261" text="تشفير الكتابة" tooltip=""/>
+			<item id="1292" text="عالمي Unicode" tooltip=""/>
+			<item id="1293" text="دوس" tooltip=""/>
+			<item id="1294" text="ويندوز" tooltip=""/>
+			<item id="1355" text="آخر :" tooltip=""/>
+		</dialog>
+		<dialog id="335" text="">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1180" text="متقدم" tooltip=""/>
+		</dialog>
+		<dialog id="336" text="">
+			<item id="1038" text="نمط الحدود" tooltip=""/>
+			<item id="1039" text="سماكة الحد :" tooltip=""/>
+			<item id="1040" text="لون الحد :" tooltip=""/>
+			<item id="1041" text="طراز التظليل :" tooltip=""/>
+		</dialog>
+		<dialog id="337" text="علامة القياس">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="علامة القياس :" tooltip=""/>
+		</dialog>
+		<dialog id="341" text="الوثائق الغير فارغة">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1039" text="التوجيه" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="العدد :" tooltip=""/>
+			<item id="1200" text="صفحات" tooltip=""/>
+			<item id="1292" text="قياسي" tooltip=""/>
+			<item id="1293" text="مفصل :" tooltip=""/>
+			<item id="1304" text="طولي" tooltip=""/>
+			<item id="1305" text="عرضي" tooltip=""/>
+		</dialog>
+		<dialog id="342" text="">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="ادخل الرابط" tooltip=""/>
+		</dialog>
+		<dialog id="343" text="Propriétés">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Annuler" tooltip=""/>
+			<item id="1039" text="عدد الأعمدة :" tooltip=""/>
+			<item id="1040" text="المسافة بين الأعمدة :" tooltip=""/>
+			<item id="1041" text="الوحدات :" tooltip=""/>
+			<item id="1042" text="الطراز :" tooltip=""/>
+			<item id="1043" text="السماكة :" tooltip=""/>
+			<item id="1044" text="اللون :" tooltip=""/>
+			<item id="1367" text="وضع خط بين الأعمدة" tooltip=""/>
+		</dialog>
+		<dialog id="344" text="متقدم">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+		</dialog>
+		<dialog id="345" text="وثيقة جديدة من الكتابة">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="4" text="Naviguer..." tooltip=""/>
+			<item id="1039" text="التوجيه :" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1042" text="يسار" tooltip=""/>
+			<item id="1043" text="يمين" tooltip=""/>
+			<item id="1044" text="الأعلى" tooltip=""/>
+			<item id="1045" text="أسفل" tooltip=""/>
+			<item id="1046" text="نمط المقاطع الجديدة:" tooltip=""/>
+			<item id="1198" text="الحدود" tooltip=""/>
+			<item id="1200" text="حجم الصفحة :" tooltip=""/>
+			<item id="1202" text="مصدر الوثيقة" tooltip=""/>
+			<item id="1203" text="تشفير الكتابة :" tooltip=""/>
+			<item id="1292" text="قياسي" tooltip=""/>
+			<item id="1293" text="مفصل:" tooltip=""/>
+			<item id="1304" text="طولي" tooltip=""/>
+			<item id="1305" text="عرضي" tooltip=""/>
+			<item id="1343" text="متقدم..." tooltip=""/>
+			<item id="1376" text="اضافة ملفات..." tooltip=""/>
+			<item id="1377" text="اضافة مجلد..." tooltip=""/>
+			<item id="1378" text="ازالة" tooltip=""/>
+			<item id="1379" text="فوق" tooltip=""/>
+			<item id="1380" text="تحت" tooltip=""/>
+		</dialog>
+		<dialog id="346" text="">
+			<item id="1038" text="البداية :" tooltip=""/>
+			<item id="1039" text="النهاية :" tooltip=""/>
+			<item id="1040" text="النمط :" tooltip=""/>
+			<item id="1041" text="السماكة :" tooltip=""/>
+			<item id="1042" text="اللون :" tooltip=""/>
+			<item id="1043" text="اللون الداخلي :" tooltip=""/>
+			<item id="1044" text="الشفافية :" tooltip=""/>
+			<item id="1045" text="الطول :" tooltip=""/>
+			<item id="1046" text="الأساس :" tooltip=""/>
+			<item id="1047" text="الاضافة :" tooltip=""/>
+			<item id="1200" text="نمط النهاية" tooltip=""/>
+			<item id="1201" text="الحد" tooltip=""/>
+			<item id="1202" text="الخط الأساسي" tooltip=""/>
+			<item id="1203" text="الكتابة :" tooltip=""/>
+			<item id="1362" text="اظهار الكتابة مع الخط" tooltip=""/>
+		</dialog>
+		<dialog id="347" text="ارجاع جميع الاعدادات">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="Annuler" tooltip=""/>
+			<item id="1038" text="هل تريد فعلا ارجاع كل الاعدادات الى القيم الأصلية؟" tooltip=""/>
+			<item id="1126" text="Maintrenir la liste des sites connus : mémorise vos choix de sites connus" tooltip=""/>
+			<item id="1128" text="Maintenir la liste des messages : mémorise vos choix d&apos;avertissements, de confirmation et de messages" tooltip=""/>
+			<item id="1129" text="Maintenir la langue de l&apos;interface utilisateur" tooltip=""/>
+			<item id="1373" text="ابقاء قائمة الملفات " tooltip=""/>
+		</dialog>
+		<dialog id="348" text="معلومات الوثيقة">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+		</dialog>
+		<dialog id="351" text="">
+			<item id="6" text="ماكرو" tooltip=""/>
+			<item id="1039" text="التحكم بالموقع :" tooltip=""/>
+			<item id="1040" text="الطراز :" tooltip=""/>
+			<item id="1041" text="السماكة :" tooltip=""/>
+			<item id="1042" text="اللون :" tooltip=""/>
+			<item id="1044" text="لون الخلفية :" tooltip=""/>
+			<item id="1128" text="رسم خط فوق العنوان" tooltip=""/>
+			<item id="1200" text="عنوان الملف" tooltip=""/>
+			<item id="1381" text="رسم خط" tooltip=""/>
+			<item id="1385" text="استخدام العنوان الرئيسي" tooltip=""/>
+			<item id="1388" text="تخصيص..." tooltip=""/>
+		</dialog>
+		<dialog id="352" text="وثيقة جديدة من مجموعة صور">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1039" text="التوجيه :" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1042" text="يسار" tooltip=""/>
+			<item id="1043" text="يمين" tooltip=""/>
+			<item id="1044" text="الاعلى" tooltip=""/>
+			<item id="1045" text="الأسفل" tooltip=""/>
+			<item id="1198" text="الحدود" tooltip=""/>
+			<item id="1200" text="حجم الورقة" tooltip=""/>
+			<item id="1202" text="مصدر الصور" tooltip=""/>
+			<item id="1292" text="قياسي :" tooltip=""/>
+			<item id="1293" text="مفصل :" tooltip=""/>
+			<item id="1304" text="طولي" tooltip=""/>
+			<item id="1305" text="عرضي" tooltip=""/>
+			<item id="1343" text="متقدم..." tooltip=""/>
+			<item id="1376" text="اضافة ملفات..." tooltip=""/>
+			<item id="1377" text="اضافة مجلد..." tooltip=""/>
+			<item id="1378" text="حذف" tooltip=""/>
+			<item id="1379" text="فوق" tooltip=""/>
+			<item id="1380" text="تحت" tooltip=""/>
+			<item id="1406" text="استيراد..." tooltip=""/>
+		</dialog>
+		<dialog id="353" text="متقدم">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+		</dialog>
+		<dialog id="354" text="">
+			<item id="1039" text="تسطير افقي :" tooltip=""/>
+			<item id="1040" text="تسطير عامودي :" tooltip=""/>
+			<item id="1041" text="مسافة افقية :" tooltip=""/>
+			<item id="1042" text="مسافة عامودية :" tooltip=""/>
+			<item id="1043" text="وضع أفقي :" tooltip=""/>
+			<item id="1044" text="وضع عامودي :" tooltip=""/>
+			<item id="1200" text="تسطير الصفحة" tooltip=""/>
+			<item id="1201" text="وضع الصور" tooltip=""/>
+		</dialog>
+		<dialog id="355" text="">
+			<item id="1039" text="للصور العلوية :" tooltip=""/>
+			<item id="1040" text="نقطة في كل إنش" tooltip=""/>
+			<item id="1041" text="نقطة في كل إنش" tooltip=""/>
+			<item id="1042" text="للصور العلوية :" tooltip=""/>
+			<item id="1043" text="نقطة في كل إنش" tooltip=""/>
+			<item id="1044" text="نقطة في كل إنش" tooltip=""/>
+			<item id="1126" text="استعمل الارتجاج Dithering" tooltip=""/>
+			<item id="1200" text="الصور الملونة/احادية اللون" tooltip=""/>
+			<item id="1201" text="الصور المفهرسة" tooltip=""/>
+			<item id="1202" text="الصور احادية اللون" tooltip=""/>
+			<item id="1203" text="للصور العلوية :" tooltip=""/>
+			<item id="1204" text="نقطة في كل إنش" tooltip=""/>
+			<item id="1205" text="نقطة في كل إنش" tooltip=""/>
+			<item id="1206" text="نقطة البدء :" tooltip=""/>
+			<item id="1401" text="استعمل الارتجاج Dithering" tooltip=""/>
+		</dialog>
+		<dialog id="362" text="">
+			<item id="6" text="ماكرو" tooltip=""/>
+			<item id="1039" text="لون الخلفية :" tooltip=""/>
+			<item id="1128" text="وضع العلامة فوق الصورة" tooltip=""/>
+			<item id="1200" text="علامة صورية" tooltip=""/>
+			<item id="1388" text="تخصيص..." tooltip=""/>
+			<item id="1407" text="استعمل علامة خاصة لكل صورة" tooltip=""/>
+		</dialog>
+		<dialog id="363" text="تعديل الصورة">
+		</dialog>
+		<dialog id="364" text="">
+			<item id="1038" text="الجانب/الجوانب" tooltip=""/>
+			<item id="1039" text="القناة :" tooltip=""/>
+			<item id="1040" text="الورقات في التوقيع" tooltip=""/>
+			<item id="1041" text="النوع :" tooltip=""/>
+			<item id="1120" text="تدوير تلقائي للصفحة" tooltip=""/>
+			<item id="1121" text="توسيط تلقائي للصفحة" tooltip=""/>
+			<item id="1414" text="رص على اليمين" tooltip=""/>
+		</dialog>
+		<dialog id="365" text="خيارات متقدمة للطباعة">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+			<item id="1038" text="اعلى دقة وضوح للطباعة كصور :" tooltip=""/>
+			<item id="1039" text="دقة الووضوح للخلفيات المتدرجة :" tooltip=""/>
+			<item id="1040" text="طباعة الكتابة على شكل منحنيات :" tooltip=""/>
+			<item id="1041" text="شفافية الملاحظات :" tooltip=""/>
+			<item id="1416" text="طباحة الملاحظات " tooltip=""/>
+		</dialog>
+		<dialog id="366" text="ادخل كلمة المرور للوثيقة">
+			<item id="1" text="موافق" tooltip=""/>
+			<item id="2" text="الغاء" tooltip=""/>
+		</dialog>
+	</dialogs>
+	<strings count="800">
+		<item id="0" text="90° اتجاه عقارب الساعة"/>
+		<item id="1" text="90° عكس عقارب الساعة"/>
+		<item id="2" text="180°"/>
+		<item id="3" text="كل الفحات"/>
+		<item id="4" text="الصفحات الزوجية فقط"/>
+		<item id="5" text="الصفحات الفردية فقط"/>
+		<item id="6" text="الصفحات بأي اتجاه"/>
+		<item id="7" text="الصفحات العامودية"/>
+		<item id="8" text="الصفحات الأفقية"/>
+		<item id="9" text="الاسم الاساسي"/>
+		<item id="10" text="الاسم المحلي"/>
+		<item id="11" text="عام"/>
+		<item id="12" text="خيارات عامة"/>
+		<item id="13" text="التحكم بالالوان"/>
+		<item id="14" text="تهيئة التحكم بالالوان"/>
+		<item id="15" text="عرض الصفحة"/>
+		<item id="16" text="خيارات عرض الصفحة"/>
+		<item id="17" text="الأداء"/>
+		<item id="18" text="خيارات الأداء"/>
+		<item id="19" text="القياس"/>
+		<item id="20" text="خيارات الوحدات و تسطير"/>
+		<item id="21" text="هوية"/>
+		<item id="22" text="خيارات الهوية"/>
+		<item id="23" text="اللغات"/>
+		<item id="24" text="اختر لغة للواجهة"/>
+		<item id="25" text="ربط امتداد الملفات"/>
+		<item id="26" text="اعداد ربط امتداد الملفات"/>
+		<item id="27" text="صنف"/>
+		<item id="28" text="اعدادات ..."/>
+		<item id="29" text="خصائص الوثيقة"/>
+		<item id="30" text="خصائص الملاحظات اللسقة"/>
+		<item id="31" text="حفظ عادي او حفظ متزايد للملفات الموقعة"/>
+		<item id="32" text="دائما استعمل الحفظ الكامل"/>
+		<item id="33" text="دائما استعمل الحفظ المتزايد"/>
+		<item id="34" text="احفظ للاستعراض السريع على الانترنت"/>
+		<item id="35" text="تلقائي"/>
+		<item id="36" text="فقط صفحة"/>
+		<item id="37" text="قائمة الروابط والصفحات"/>
+		<item id="38" text="الصور المصغرة والصفحات"/>
+		<item id="39" text="العرض المستخدم سابقا"/>
+		<item id="40" text="صفحة وحيدة"/>
+		<item id="41" text="مستمر"/>
+		<item id="42" text="متقابل"/>
+		<item id="43" text="مستمر - متقابل"/>
+		<item id="44" text="الحجم الحقيقي"/>
+		<item id="45" text="ملائمة كامل الصفحة"/>
+		<item id="46" text="ملائمة عرض الصفحة"/>
+		<item id="47" text="ملائمة الجزء الظاهر"/>
+		<item id="48" text="حجم الذاكرة الرئيسية  RAM : %1 &#10;;ممكن استخدامه %2 "/>
+		<item id="49" text="حجم الذاكرة الرئيسية  RAM : %1  المجموع"/>
+		<item id="50" text="يحتوي النظام على %1 من المعالج"/>
+		<item id="51" text="سم"/>
+		<item id="52" text="سانتيمتر"/>
+		<item id="53" text="سانتيمترات"/>
+		<item id="54" text="انش"/>
+		<item id="55" text="انش"/>
+		<item id="56" text="انشات"/>
+		<item id="57" text="مم"/>
+		<item id="58" text="ميلليمتر"/>
+		<item id="59" text="ميلليمترات"/>
+		<item id="60" text="p"/>
+		<item id="61" text="pica"/>
+		<item id="62" text="picas"/>
+		<item id="63" text="pt"/>
+		<item id="64" text="point"/>
+		<item id="65" text="points"/>
+		<item id="66" text="اطلاق &apos;%1&apos;"/>
+		<item id="67" text="لا يوجد برنامج بديل لعرض ملفات البي دي اف"/>
+		<item id="68" text="(المجموع %1 صفحات)"/>
+		<item id="69" text="الوثيقة  &quot;%1&quot; محمية بكلمة مرور."/>
+		<item id="70" text="كل الصفحات"/>
+		<item id="71" text="الصفحات الفردية"/>
+		<item id="72" text="الصفحات الزوجية"/>
+		<item id="73" text="ولاواحدة"/>
+		<item id="74" text="ملائمة لحدود الطابعة"/>
+		<item id="75" text="تقليل حدود الطابعة"/>
+		<item id="76" text="تصفيف الصفحات الكبيرة"/>
+		<item id="77" text="تصفيف جميع الصفحات"/>
+		<item id="78" text="Plusieurs pages par feuille"/>
+		<item id="79" text="Toutes les pages dans un seul document image multipage"/>
+		<item id="80" text="Chaque groupe dans un document image multipage différent"/>
+		<item id="81" text="Chaque page dans un document image différent"/>
+		<item id="82" text=" المجلد  &quot;%1&quot; يحتوي على الملف &quot;%2&quot;"/>
+		<item id="83" text="الحجم : %1&#10; بعد التغيير : %2"/>
+		<item id="84" text="لاتستطيع الكتابة على الملف &quot;%1&quot;"/>
+		<item id="85" text="موافق"/>
+		<item id="86" text="الغاء"/>
+		<item id="87" text="نعم"/>
+		<item id="88" text="لا"/>
+		<item id="89" text="الغاء"/>
+		<item id="90" text="معاودة المحاولة"/>
+		<item id="91" text="تجاهل"/>
+		<item id="92" text="حاول"/>
+		<item id="93" text="استمر"/>
+		<item id="94" text="نعم للكل"/>
+		<item id="95" text="لا للكل"/>
+		<item id="96" text="لا يمكن انشاء مجلد باسم &quot;%1&quot; :"/>
+		<item id="97" text="حصلت بعض التعديلات على الوثيقة &quot;%1&quot; &#10;&#10; هل تريد حفظ هذي التعديلات؟"/>
+		<item id="98" text="الوثيقة &quot;%1&quot;  تحتوي على توقيع الكتروني.&#10;سيتم مسح التوقيع عند اعادة حفظ الوثيقة.&#10;مع ذلك، طريقة الحفظ التزايدي تحتفظ بهذه التواقيع لكنها تزيد من حجم الملف&#10;&#10;هل ترغب في استعمال الحفظ التزايدي؟"/>
+		<item id="99" text="ملخص : %1 مختارة من  %2 صفحة"/>
+		<item id="100" text="خطأ عند طباعة الوثيقة &quot;%1&quot; :&#10;%2."/>
+		<item id="101" text="اسم"/>
+		<item id="102" text="غير موجود"/>
+		<item id="103" text="جاهز"/>
+		<item id="104" text="منقطع الاتصال"/>
+		<item id="105" text="جاري الفتح ..."/>
+		<item id="106" text="صفحة : %1"/>
+		<item id="107" text="ورقة :%1"/>
+		<item id="108" text="ورقة :%1"/>
+		<item id="109" text="صفحة : %1, %2, ..."/>
+		<item id="110" text="&lt;في الملف الحالي (%1)&gt;"/>
+		<item id="111" text="&lt;استعراض...&gt;"/>
+		<item id="112" text="&lt;متقدم...&gt;"/>
+		<item id="113" text="توقف عن البحث"/>
+		<item id="114" text="ابحث"/>
+		<item id="115" text="جاري حفظ الصورة في الملف&quot;%1&quot; ..."/>
+		<item id="116" text="جاري انشاء الصورة ...."/>
+		<item id="117" text="التصدير على شكل صورة ..."/>
+		<item id="118" text="جاري عمل الصفحة #%1 ..."/>
+		<item id="119" text="طباعة ..."/>
+		<item id="120" text="جاري طباعة الورقة  #%1 ..."/>
+		<item id="121" text="جاري طباعة الصفحة  #%1 ..."/>
+		<item id="122" text="ايقاف العملية ..."/>
+		<item id="123" text="تحضير ..."/>
+		<item id="124" text="البحث عن &quot;%1&quot; ..."/>
+		<item id="125" text="نتائج البحث : %1 وثائق, %2 "/>
+		<item id="126" text="ملغاة"/>
+		<item id="127" text="&quot;%1&quot; : جاري الفتح..."/>
+		<item id="128" text="&quot;%1&quot; : صفحة n°%2..."/>
+		<item id="129" text="صفحة °%1 ..."/>
+		<item id="130" text="لا يمكن ايجاد امكانيات كافية في النظام لفتح الملف &quot;%1&quot; :&#10;النظام لدية العديد من العمليات&#10;&#10;الرجاء اغلاق بعض البرامج ثم معاودة المحاولة مره اخرى..."/>
+		<item id="131" text="خطأ في حفظ الوثيقة &quot;%1&quot; :&#10;%2"/>
+		<item id="132" text="خطأ في فتح الوثيقة &quot;%1&quot; :&#10;%2"/>
+		<item id="133" text="خطأ في فتح الوثيقة:&#10;%1"/>
+		<item id="134" text="هل تريد فعلا حذف %1 ملاحظة/ملاحظات؟"/>
+		<item id="135" text="%1 : حذف الملاحظات"/>
+		<item id="136" text="حذف بدون اعادة التأكيد في المرات القادمة"/>
+		<item id="137" text="جعل هذا البنامج المتصفح المفضل لملفات البي دب اف؟"/>
+		<item id="138" text="جعل هذا البنامج المتصفح المفضل لملفات البي دب اف. ايضا تمكين من فتح الملفات في متصفح الانترنت؟"/>
+		<item id="139" text="هل تريد فتح ملفات البي دي اف مباشرة من متصفح الانترنت باستخدام هذا البنامج؟"/>
+		<item id="140" text="لا تعرض اعادة التأكيد في المستقبل"/>
+		<item id="141" text="لا يمكن فتح &quot;%1&quot; :&#10;%2"/>
+		<item id="142" text="الرابط غير صحيح"/>
+		<item id="143" text="لا يمكن تنفيذ الأمر &quot;%1&quot; لـ &quot;%2&quot; :&#10;%3"/>
+		<item id="144" text="الشروع في فتح الموقع:&#10;&quot;%1&quot;&#10;&#10;هل تثق بهذا الموقع؟"/>
+		<item id="145" text="%1 : تحذير لفتح موقع"/>
+		<item id="146" text="تذكر خياراتي لهذا الموقع"/>
+		<item id="147" text="سيتم فتح البرنامج &quot;%1&quot; عن طريق هذا الملف.&#10;قد يحتوي الملف على فايروسات او ماكروز التي قد تضر بجهازك.&#10;فقط اقدم بالعملية اذا كنت تثق بأمانها.&#10;&#10;اذا كان مصدر الوثيقة آمن، اضغط نعم لعرض الملف."/>
+		<item id="148" text="فتح :%1"/>
+		<item id="149" text="لا تظهر هذه الرسالة مره اخرى"/>
+		<item id="150" text="صفحة %1"/>
+		<item id="151" text="قائمة"/>
+		<item id="152" text="ملف"/>
+		<item id="153" text="قياسي"/>
+		<item id="154" text="تكبير"/>
+		<item id="155" text="ادراة العرض"/>
+		<item id="156" text="بحث"/>
+		<item id="157" text="ملاحظات"/>
+		<item id="158" text="خصائص"/>
+		<item id="159" text="خصائص الأسهم"/>
+		<item id="160" text="خصائص الخطوط"/>
+		<item id="161" text="خصائص المستطيلات"/>
+		<item id="162" text="خصائص الدوائر"/>
+		<item id="163" text="خصائص متعدد الأضلاع"/>
+		<item id="164" text="خصائص متعدد الأضلاع"/>
+		<item id="165" text="خصائص القلم"/>
+		<item id="166" text="خصائص الغيمة"/>
+		<item id="167" text="خصائص الختم"/>
+		<item id="168" text="خصائص الآلة الكاتبة"/>
+		<item id="169" text="خصئص مستطيل الكتابة"/>
+		<item id="170" text="خصائص النوته"/>
+		<item id="171" text="خصائص الملاحظات اللاصقة"/>
+		<item id="172" text="خصائص التظليل"/>
+		<item id="173" text="خصائص الخط السفلي"/>
+		<item id="174" text="خصائص الخط العرضي"/>
+		<item id="175" text="خصائص اداة الاستبدال"/>
+		<item id="176" text="خصائص السهم"/>
+		<item id="177" text="خصائص الخط"/>
+		<item id="178" text="خصائص المستطيل"/>
+		<item id="179" text="خصائص الدائرة"/>
+		<item id="180" text="خصائص متعدد الأضلاع"/>
+		<item id="181" text="خصائص متعدد الأضلاع"/>
+		<item id="182" text="خصائص القلم"/>
+		<item id="183" text="خصائص الغيمة"/>
+		<item id="184" text="خصائص الختم"/>
+		<item id="185" text="خصائص الآلة الكاتبة"/>
+		<item id="186" text="خصئص مستطيل الكتابة"/>
+		<item id="187" text="خصائص النوته"/>
+		<item id="188" text="خصائص الملاحظات اللاصقة"/>
+		<item id="189" text="خصائص التظليل"/>
+		<item id="190" text="خصائص الخط السفلي"/>
+		<item id="191" text="خصائص الخط العرضي"/>
+		<item id="192" text="خصائص اداة الاستبدال"/>
+		<item id="193" text="سهم"/>
+		<item id="194" text="خط"/>
+		<item id="195" text="مستطيل"/>
+		<item id="196" text="دائرة"/>
+		<item id="197" text="متعدد الأضلاع"/>
+		<item id="198" text="متعدد الأضلاع"/>
+		<item id="199" text="قلم"/>
+		<item id="200" text="غيمة"/>
+		<item id="201" text="ختم"/>
+		<item id="202" text="كاريت"/>
+		<item id="203" text="مستطيل الكتابة"/>
+		<item id="204" text="ملاحظة لاصقة"/>
+		<item id="205" text="تظليل"/>
+		<item id="206" text="خط سفلي"/>
+		<item id="207" text="خط عرضي"/>
+		<item id="208" text="مرفقات"/>
+		<item id="209" text="صوت"/>
+		<item id="210" text="تنسيق الكتابة"/>
+		<item id="211" text="بلا خلفية"/>
+		<item id="212" text="بلا خط عرضي"/>
+		<item id="213" text="الوان اضافية..."/>
+		<item id="214" text="غير محدد"/>
+		<item id="215" text="غير معروف"/>
+		<item id="216" text="لون"/>
+		<item id="217" text="خصائص.."/>
+		<item id="218" text="غير معروف"/>
+		<item id="219" text="غير معروف"/>
+		<item id="220" text="غير محدد"/>
+		<item id="221" text="بدون عنوان"/>
+		<item id="222" text="الظهور"/>
+		<item id="223" text="خيارات العرض"/>
+		<item id="224" text="الوصف"/>
+		<item id="225" text="معلومات"/>
+		<item id="226" text="الخطوط"/>
+		<item id="227" text="الخطوط المستخدمة"/>
+		<item id="228" text="الامان"/>
+		<item id="229" text="صلاحيات الوثيقة"/>
+		<item id="230" text="كلمة السر"/>
+		<item id="231" text="غير مسموح"/>
+		<item id="232" text="دقة رديئة"/>
+		<item id="233" text="دقة عالية"/>
+		<item id="234" text="مسموح"/>
+		<item id="235" text="تحميل ..."/>
+		<item id="236" text="بدء..."/>
+		<item id="237" text="غير محدد"/>
+		<item id="238" text="مربع"/>
+		<item id="239" text="دائرة"/>
+		<item id="240" text="معين"/>
+		<item id="241" text="سهم مفتوح"/>
+		<item id="242" text="سهم مغلق"/>
+		<item id="243" text="Butt"/>
+		<item id="244" text="سهم مفتوح معكوس"/>
+		<item id="245" text="سهم مغلق معكوس"/>
+		<item id="246" text="slash"/>
+		<item id="247" text="روابط"/>
+		<item id="248" text="صفحات"/>
+		<item id="249" text="حقول"/>
+		<item id="250" text="طبقات"/>
+		<item id="251" text="ملاحظات"/>
+		<item id="252" text="اغلاق الصفحة الحالية"/>
+		<item id="253" text="موجود %1 خطوط"/>
+		<item id="254" text="من %1"/>
+		<item id="255" text="%1&#10;العنوان : %2&#10;الكاتب : %3&#10;الموضوع : %4&#10;كلمات الفهرس : %5&#10;صفحات : %6"/>
+		<item id="256" text="Page n°%1"/>
+		<item id="257" text="Page n°%1 : &#10;%2"/>
+		<item id="258" text="Chercher PDF"/>
+		<item id="259" text="وثيقة"/>
+		<item id="260" text="الوثيقة والملاحظات"/>
+		<item id="261" text="الوثيقة والاختام"/>
+		<item id="262" text="حقول النماذج فقط"/>
+		<item id="263" text="Panoramique et zoom"/>
+		<item id="264" text="Loupe"/>
+		<item id="265" text="Confirmer la sauvegarde du document"/>
+		<item id="266" text="Confirmer la sauvegarde incrémentielle du document"/>
+		<item id="267" text="Information générale"/>
+		<item id="268" text="اسم"/>
+		<item id="269" text="نوع"/>
+		<item id="270" text="مجلد"/>
+		<item id="271" text="رابط"/>
+		<item id="272" text="حجم الملف"/>
+		<item id="273" text="%1 بايت"/>
+		<item id="274" text="معدل في"/>
+		<item id="275" text="معلومات الـبي دي اف"/>
+		<item id="276" text="نسخت البي دي اف"/>
+		<item id="277" text="صفحات"/>
+		<item id="278" text="عنوان"/>
+		<item id="279" text="موضوع"/>
+		<item id="280" text="كاتب"/>
+		<item id="281" text="كلمات الفهرس"/>
+		<item id="282" text="المنشئ"/>
+		<item id="283" text="المنتج"/>
+		<item id="284" text="بيانات التشفير"/>
+		<item id="285" text="%1 bits AES"/>
+		<item id="286" text="%1 bits RC4"/>
+		<item id="287" text="مقدار"/>
+		<item id="288" text="مسموح اطلاقا"/>
+		<item id="289" text="طباعة"/>
+		<item id="290" text="تغيير الوثيقة"/>
+		<item id="291" text="نسخ او استخراج المحتويات"/>
+		<item id="292" text="كتابة ملاحظات او نماذج"/>
+		<item id="293" text="تعبئة نماذج او توقيع"/>
+		<item id="294" text="تمكين من الوصولية للمحتويات"/>
+		<item id="295" text="تجميع الوثيقة"/>
+		<item id="296" text="جاري فتح الوثيقة، الرجاء الانتظار"/>
+		<item id="297" text="فتح  &quot;%1&quot;..."/>
+		<item id="298" text="تحميل &quot;%1&quot;...."/>
+		<item id="299" text="%1 من %2 تحميل "/>
+		<item id="300" text="حفظ الوثيقة الرجاء الانتظار"/>
+		<item id="301" text="حفظ &quot;%1&quot;..."/>
+		<item id="302" text="اتمام التعديلات"/>
+		<item id="303" text="التجهيز للكتابة على الوثيقة .."/>
+		<item id="304" text="جاري كتابة الوثيقة"/>
+		<item id="305" text="استخراج الصفحات..."/>
+		<item id="306" text="جلب بيانات الصفحات..."/>
+		<item id="307" text="جلب الملاحظات..."/>
+		<item id="308" text="الرجاء اختيار مجلد جديد للصور"/>
+		<item id="309" text="الرجاء اختيار مجلد جديد للملفات المنزلة"/>
+		<item id="310" text="الرجاء اختيار مجلد للبحث"/>
+		<item id="311" text="رسم"/>
+		<item id="312" text="مرفق"/>
+		<item id="313" text="مرفق"/>
+		<item id="314" text="علامة"/>
+		<item id="315" text="أذن"/>
+		<item id="316" text="مكرفون"/>
+		<item id="317" text="صوت"/>
+		<item id="318" text="علامة "/>
+		<item id="319" text="دائرة"/>
+		<item id="320" text="ملاحظة"/>
+		<item id="321" text="تقاطع"/>
+		<item id="322" text="مساعدة"/>
+		<item id="323" text="ادراج كتابة"/>
+		<item id="324" text="مفتاح"/>
+		<item id="325" text="قطعة جديدة"/>
+		<item id="326" text="ملاحظة"/>
+		<item id="327" text="قطعة"/>
+		<item id="328" text="سهم ايمن"/>
+		<item id="329" text="مؤشر يمين"/>
+		<item id="330" text="نجمة"/>
+		<item id="331" text="سهم علوي"/>
+		<item id="332" text="سهم يسار"/>
+		<item id="333" text="ملاحظة لاصقة"/>
+		<item id="334" text="تظليل"/>
+		<item id="335" text="تدوين على الكتابة"/>
+		<item id="336" text="خط سفلي"/>
+		<item id="337" text="خط عرضي"/>
+		<item id="338" text="تبديل الكتابة"/>
+		<item id="339" text="بالونه"/>
+		<item id="340" text="صندوق الكتابة"/>
+		<item id="341" text="آلة طابعة"/>
+		<item id="342" text="سهم"/>
+		<item id="343" text="خط"/>
+		<item id="344" text="مستطيل"/>
+		<item id="345" text="بيضاوي"/>
+		<item id="346" text="غيمة"/>
+		<item id="347" text="متعدد الأضلاع"/>
+		<item id="348" text="متعدد الأضلاع"/>
+		<item id="349" text="قلم"/>
+		<item id="350" text="صفحة %1 من %2"/>
+		<item id="351" text="تكبير : %1"/>
+		<item id="352" text="هل تريد حذف قائمة الملفات الحديثة؟"/>
+		<item id="353" text="محمي"/>
+		<item id="354" text="مفتوح"/>
+		<item id="355" text="حفظ"/>
+		<item id="356" text="حفظ بإسم"/>
+		<item id="357" text="حفظ نسخة بإسم"/>
+		<item id="358" text="الطباعة الى ملف"/>
+		<item id="359" text="الوصولية"/>
+		<item id="360" text="خيارات الوصولية"/>
+		<item id="361" text="كتابة خضراء على خلفية سوداء"/>
+		<item id="362" text="كتابة صفراء على خلفية سوداء"/>
+		<item id="363" text="كتابة بيضاء على خلفية سوداء"/>
+		<item id="364" text="كتابة سوداء على خلفية بيضاء"/>
+		<item id="365" text="عرض شاشة كاملة"/>
+		<item id="366" text="خيارات الشاشة الكاملة"/>
+		<item id="367" text="اخفاء بعد توقيت"/>
+		<item id="368" text="داما ظاهرة"/>
+		<item id="369" text="دائما مخفية"/>
+		<item id="370" text="اداة التصوير"/>
+		<item id="371" text="خيارات اداة التصوير"/>
+		<item id="372" text="تحتوي الوثيقة &quot;%1&quot; على بعض الأخطاء.&#10;&#10;تك اكتشاف هذه الأخطاء ببرنامج  :&#10;%2&#10;&#10;يفضل اعادة حفظ الوثيقة."/>
+		<item id="373" text="بعض الروابط غير موجودة"/>
+		<item id="374" text="تم اكتشاف بعض الأخطاء في جدول الروابط"/>
+		<item id="375" text="لم يتم ايجاد رابط احد الكائنات في جدول الروابط"/>
+		<item id="376" text="خطأ عند تحميل الكائن: تركيب خطأ."/>
+		<item id="377" text="خطأ في تحميل الكائن: خطأ في الموقع."/>
+		<item id="378" text="تركيب خاطئ"/>
+		<item id="379" text="لم يتم العثور على القيم المطلوبة."/>
+		<item id="380" text="لم يتم العثور على القيم المطلوبة."/>
+		<item id="381" text="لم يتم العثور على الكائن في القطع السابقة لكنها موجودة في القطعة التالية."/>
+		<item id="382" text="الوثيقة  %1 معطوبة.&#10;لا يستطيع البنامج قراءة او حفظ هذه الوثيقة.&#10;هل تريد استخدام طريقة الحفظ العادي(سيتم تجاهل اي توقيعات)؟"/>
+		<item id="383" text="غير محدد"/>
+		<item id="384" text="مجهول"/>
+		<item id="385" text="&lt;كاتب غير معروف&gt; (%1)"/>
+		<item id="386" text="&lt;تاريخ غير معروف&gt; (%1)"/>
+		<item id="387" text="صفحة %1 (%2)"/>
+		<item id="388" text="%1 (%2)"/>
+		<item id="389" text="قيمة غير صحيحة : يجب ان تكون اكبر من  %s.&#10;"/>
+		<item id="390" text="قيمة غير صحيحة : يجب ان تكون اكبر من او تساوي %s وان تكون اصغر من او تساوي %s.&#10;"/>
+		<item id="391" text="قيمة غير صحيحة : يجب ان تكون اقل من او تساوي %s."/>
+		<item id="392" text="**غير صحيح**"/>
+		<item id="393" text="تاريخ او وقت خطأ. الرجاء التأكد. الحقل %field% يجب ان يطابق الصيغة %format%. "/>
+		<item id="394" text="القيمة المدخلة لا تطابق الصيغة %s."/>
+		<item id="395" text="صباحا"/>
+		<item id="396" text="مساء"/>
+		<item id="397" text="هل تريد فعلا حذف الرابط  %1 وكل الروابط المتعلقة به؟"/>
+		<item id="398" text="هل تريد فعلا حذف عدد  %1 رابط/روابط؟"/>
+		<item id="399" text="%1 : رابط تم حذفه"/>
+		<item id="400" text="احذف من دون اعادة التأكيد  في المرات القادمة"/>
+		<item id="401" text="خصائص الرابط"/>
+		<item id="402" text="خصائص الروابط المتعددة"/>
+		<item id="403" text="الأوامر"/>
+		<item id="404" text="قائمة الأوامر"/>
+		<item id="405" text="عادي"/>
+		<item id="406" text="سميك"/>
+		<item id="407" text="مائل"/>
+		<item id="408" text="سميك ومائل"/>
+		<item id="409" text="امر غير معروف"/>
+		<item id="410" text="الذهاب الى صفحة"/>
+		<item id="411" text="الذهاب الى صفحة في وثيقة اخرى"/>
+		<item id="412" text="الذهاب الى صفحة في وثيقة مدمجة"/>
+		<item id="413" text="فتح ملف"/>
+		<item id="414" text="قراءة مقال"/>
+		<item id="415" text="فتح رابط"/>
+		<item id="416" text="تشغيل صوت"/>
+		<item id="417" text="تشغيل فلم"/>
+		<item id="418" text="اظهار/اخفاء الحقول والملاحظات"/>
+		<item id="419" text="تشغيل امر"/>
+		<item id="420" text="تسليم نموذج"/>
+		<item id="421" text="تصفير نموذج"/>
+		<item id="422" text="استيراد بيانات نموذج"/>
+		<item id="423" text="تشغيل جافا سكربت"/>
+		<item id="424" text="تحديد مقدار  شفافية  الطبقة"/>
+		<item id="425" text="متحك الملتيميديا"/>
+		<item id="426" text="الانتقال بين الصفحات"/>
+		<item id="427" text="النتقال الى عرض ثلاثي الابعاد"/>
+		<item id="428" text="تكبير"/>
+		<item id="429" text="وراثة"/>
+		<item id="430" text="عرض"/>
+		<item id="431" text="الطول"/>
+		<item id="432" text="ملئ الطول"/>
+		<item id="433" text="ملئ المساحة المرئية"/>
+		<item id="434" text="ملئ المساحة الطولية"/>
+		<item id="435" text="ملف"/>
+		<item id="436" text="عملية"/>
+		<item id="437" text="متغير"/>
+		<item id="438" text="لا يمكن حذف جميع الصفحات من الوثيقة. يجب ابقاء صفحة واحدة على الأقل."/>
+		<item id="439" text="هل تريد فعلا حذف  %1 صفحة/صفحات من هذه الوثيقة؟"/>
+		<item id="440" text="%1 : صفحة حذفت"/>
+		<item id="441" text="امر جديد"/>
+		<item id="442" text="تعديل امر"/>
+		<item id="443" text="هل تريد فعلا حذف  %1 امر/اوامر؟"/>
+		<item id="444" text="%1 : امر/اوامر حذف"/>
+		<item id="445" text="احذف من دون اعادة التأكيد  في المرات القادمة"/>
+		<item id="446" text="جافاسكربت"/>
+		<item id="447" text="خيارات جافاسكربت"/>
+		<item id="448" text="تسجيل"/>
+		<item id="449" text="بيانات التسجيل"/>
+		<item id="450" text="سطر : %1"/>
+		<item id="451" text="سطر : %2"/>
+		<item id="452" text="ادراج"/>
+		<item id="453" text="OVR"/>
+		<item id="454" text="هذه الوثيقة تحتوي على جافاسكربت. هل تريد تمكين جميع اوامر الجافاسكربت في هذه الوثيقة؟&#10;قد لا تعمل الوثيقة بشكل صحيح في حال تعطيل الجافاسكربت."/>
+		<item id="455" text="عطل هذه الرسالة الى حين فتح الوثيقة مره اخرى."/>
+		<item id="456" text="جافاسكربت : %1"/>
+		<item id="457" text="من عمليات النسخية المطورة - تحتاج الى هذه النسخة"/>
+		<item id="458" text="قياس "/>
+		<item id="459" text="تحذير : من خصائص النسخة المطورة"/>
+		<item id="460" text="هذه من احد خصائص النسخة المطورة.&#10;تستطيع استعمالها في النسخة المجانية لكن سيتم وضع علامة Demo في جميع الصفحات.&#10;لتجنب هذا، الرجاء شراء النسخة المطورة&#10;&#10;هل تريد الاستمرار واستعمال هذه الخاصية؟"/>
+		<item id="461" text="هل تريد فعلا من تغيير موقع  %1 صفحة/صفحات؟"/>
+		<item id="462" text="%1 : تغيير موقع صفحة/صفحات"/>
+		<item id="463" text="ملف"/>
+		<item id="464" text="تحرير"/>
+		<item id="465" text="عرض"/>
+		<item id="466" text="وثيقة"/>
+		<item id="467" text="أدوات"/>
+		<item id="468" text="نافذة"/>
+		<item id="469" text="مساعدة"/>
+		<item id="470" text="مستخدم"/>
+		<item id="471" text="صندوق القص"/>
+		<item id="472" text="Boîte de nettoyage"/>
+		<item id="473" text="Boîte d&apos;ajustement"/>
+		<item id="474" text="Boîte de dessin"/>
+		<item id="475" text="حجم الصفحة المقطوعة : %1"/>
+		<item id="476" text="حجم الصندوق : %1"/>
+		<item id="477" text="حجم الصندوق : %1"/>
+		<item id="478" text="حجم الصندوق : %1"/>
+		<item id="479" text="عرض غير صحيح"/>
+		<item id="480" text="تحميل المستعرض.. الرجاء الانتظار..."/>
+		<item id="481" text="مشفر"/>
+		<item id="482" text="الوثيقة &quot;%1&quot; محمية. ليست لديك الصلاحيات لتنفيذ هذه العملية."/>
+		<item id="483" text="%1 : ادراج صفحات"/>
+		<item id="484" text="ثبت هذه الوثيقة في قائمة الملفات الحديثة - عدم الازالة في حالة الوصول الى الحد الاعلى للوثائق في القائمة"/>
+		<item id="485" text="الغاء تثبيت هذه الوثيقة في قائمة الملفات الحديثة - الازالة في حالة الوصول الى الحد الاعلى للوثائق في القائمة"/>
+		<item id="486" text="الخطوط المستخدمة حديثا"/>
+		<item id="487" text="كل الخطوط"/>
+		<item id="488" text="حجك التكبير"/>
+		<item id="489" text="نمط التكبير"/>
+		<item id="490" text="قبل"/>
+		<item id="491" text="بعد"/>
+		<item id="492" text="الالوان الاساسية"/>
+		<item id="493" text="الوان اخرى"/>
+		<item id="494" text="اسود"/>
+		<item id="495" text="بني"/>
+		<item id="496" text="اخضر زيتوني"/>
+		<item id="497" text="اخضر  داكن"/>
+		<item id="498" text="تركوازي"/>
+		<item id="499" text="ازرق داكن"/>
+		<item id="500" text="Indigo"/>
+		<item id="501" text="رصاصي داكن"/>
+		<item id="502" text="احمر داكن"/>
+		<item id="503" text="برتقالي"/>
+		<item id="504" text="اصفر داكن"/>
+		<item id="505" text="اخضر"/>
+		<item id="506" text="اخضر خفيف"/>
+		<item id="507" text="ازرق"/>
+		<item id="508" text="ازرق رصاصي"/>
+		<item id="509" text="رصاصي 40%"/>
+		<item id="510" text="احمر"/>
+		<item id="511" text="برتقالي خفيف"/>
+		<item id="512" text="ليموني"/>
+		<item id="513" text="بحري"/>
+		<item id="514" text="Bleu cobalt"/>
+		<item id="515" text="ازرق خفيف"/>
+		<item id="516" text="Violet"/>
+		<item id="517" text="Gris - 50%"/>
+		<item id="518" text="وردي"/>
+		<item id="519" text="ذهبي"/>
+		<item id="520" text="اصفر"/>
+		<item id="521" text="اخضر فاتح"/>
+		<item id="522" text="تركوازي"/>
+		<item id="523" text="سماوي"/>
+		<item id="524" text="Prune"/>
+		<item id="525" text="رصاصي خفيف"/>
+		<item id="526" text="روز"/>
+		<item id="527" text="بيج"/>
+		<item id="528" text="اصفر فاتح"/>
+		<item id="529" text="Vert pâle"/>
+		<item id="530" text="Turquoise pâle"/>
+		<item id="531" text="Bleu pâle"/>
+		<item id="532" text="Lavande"/>
+		<item id="533" text="ابيض"/>
+		<item id="534" text="تدوين"/>
+		<item id="535" text="خيارات التدوين"/>
+		<item id="536" text="حذف الصفحات، الرجاء الانتظار..."/>
+		<item id="537" text="نقل الصفحات، الرجاء الانتظار..."/>
+		<item id="538" text="ادراج  الصفحات، الرجاء الانتظار..."/>
+		<item id="539" text="استخراج الصفحات، الرجاء الانتظار..."/>
+		<item id="540" text="هل تريد نسخ %1 صفحة/صفحات؟"/>
+		<item id="541" text="%1 : نسخ صفحات"/>
+		<item id="542" text="خصائص الممحاة"/>
+		<item id="543" text="مجموعة الاختام"/>
+		<item id="544" text="ختم جديدة"/>
+		<item id="545" text="مجموعة جديدة"/>
+		<item id="546" text="هذه المجموعة تحتوي على بعذ الأختام. &#10;هل تريد حذفها بالكامل؟"/>
+		<item id="547" text="%1 : حذف مجموعة اختام"/>
+		<item id="548" text="حذف قائمة الملفات الحديثة"/>
+		<item id="549" text="هل تريد حذف جميع الملفات من قائمة الملفات الحديثة؟"/>
+		<item id="550" text="نعم للكل"/>
+		<item id="551" text="خصائص الكتابة"/>
+		<item id="552" text="المحتويات"/>
+		<item id="553" text="محتويات الكتابة: كتابة عادية"/>
+		<item id="554" text="تنسيق"/>
+		<item id="555" text="تنسيق الكتابة: خط، حجم، نمط، الخ."/>
+		<item id="556" text="خط"/>
+		<item id="557" text="حجم الخط"/>
+		<item id="558" text="المقياس الافقي"/>
+		<item id="559" text="نقطة البدء"/>
+		<item id="560" text="تحذير: كائنات معطوبة."/>
+		<item id="561" text="اشرطة الادوات"/>
+		<item id="562" text="الاوامر"/>
+		<item id="563" text="خيارات"/>
+		<item id="564" text="تنسيق"/>
+		<item id="565" text="عام"/>
+		<item id="566" text="الوثيقة"/>
+		<item id="567" text="استعراض الفحة"/>
+		<item id="568" text="استعراض مصغر"/>
+		<item id="569" text="الروابط"/>
+		<item id="570" text="الملاحظات"/>
+		<item id="571" text="الطبقات"/>
+		<item id="572" text="الحقول"/>
+		<item id="573" text="المرفقات"/>
+		<item id="574" text="منسق الكتابة"/>
+		<item id="575" text="مجموعة الأختام"/>
+		<item id="576" text="البحث"/>
+		<item id="577" text="نافذة الجافاسكربت"/>
+		<item id="578" text="نافذة اللوب"/>
+		<item id="579" text="نافذة عدسة التكبير"/>
+		<item id="580" text="اساسي"/>
+		<item id="581" text="لا يوجد اختصار"/>
+		<item id="582" text="هذا الاختصار متاح"/>
+		<item id="583" text="هذا الاختصار مخصص لامر آخر"/>
+		<item id="584" text="هذا الاختصار مستعمل بـ %1 اوامر"/>
+		<item id="585" text="تجهيز"/>
+		<item id="586" text="خيارات التجهيز"/>
+		<item id="587" text="اعدادات"/>
+		<item id="588" text="ادخل بحثك"/>
+		<item id="589" text="تم اكتشاف اخطاء عادية في جدول  XREF"/>
+		<item id="590" text="دمج/ حذف الملاحظات. الرجاء الانتظار..."/>
+		<item id="591" text="دمج"/>
+		<item id="592" text="ترك كما هو"/>
+		<item id="593" text="حذف"/>
+		<item id="594" text="هل تريد فعلا دمج وحذف الملاحظات في هذه الوثيقة؟"/>
+		<item id="595" text="%1 : دمج وحذف الملاحظات"/>
+		<item id="596" text="هل تريد حذف جميع اشرطة الأدوات عند الاسترجاع للوضع الاصلي؟ اضغط &quot;لا&quot; لابقائها."/>
+		<item id="597" text="%1 : حذف اشرطة الأدوات"/>
+		<item id="598" text="خطا عند استخراج الصفحات من &quot;%1&quot; :&#10;%2"/>
+		<item id="599" text="%1 : استخراج صفحات"/>
+		<item id="600" text="خطأ في دمج الملاحظات&quot;%1&quot; :&#10;%2"/>
+		<item id="601" text="خطأ في ادخال الصفحات&quot;%1&quot; :&#10;%2"/>
+		<item id="602" text="خطأ في حذف الصفحات&quot;%1&quot; :&#10;%2"/>
+		<item id="603" text="تحميل البيانات...."/>
+		<item id="604" text="%1 تحميل"/>
+		<item id="605" text="تحميل وثيقة ..."/>
+		<item id="606" text="حفظ وثيقة ..."/>
+		<item id="607" text="%1 من %2 تم حفظ"/>
+		<item id="608" text="فتح وثيقة ..."/>
+		<item id="609" text="لا تسأل في المرات القادمة"/>
+		<item id="610" text="هل تريد نسخ %1 صفحة/صفحات من  &quot;%2&quot; الى  &quot;%3&quot; ؟"/>
+		<item id="611" text="هل تريد نقل %1 صفحة/صفحات من  &quot;%2&quot; الى  &quot;%3&quot; ؟"/>
+		<item id="612" text="روابط"/>
+		<item id="613" text="قياس"/>
+		<item id="614" text="خصائص اداة القياس"/>
+		<item id="615" text="خصائص اداة القياس"/>
+		<item id="616" text="خصائص اداة المساحة"/>
+		<item id="617" text="خصائص قياس الخط"/>
+		<item id="618" text="خصائص قياس المتعدد الاضلاع"/>
+		<item id="619" text="خصائص قياس المتعدد الاضلاع"/>
+		<item id="620" text="خصائص محرر الروابط"/>
+		<item id="621" text="خصائص الروابط"/>
+		<item id="622" text="غير محدد"/>
+		<item id="623" text="قلب"/>
+		<item id="624" text="تحديد"/>
+		<item id="625" text="ابراز"/>
+		<item id="626" text="ملاحظات"/>
+		<item id="627" text="%1 : تلخيص الملاحظات"/>
+		<item id="628" text="خطأ عند تلخيص الملاحظات&quot;%1&quot; : &#10;%2"/>
+		<item id="629" text="تلخيص الملاحظات. الرجاء الانتظار...."/>
+		<item id="630" text="استخراج الملاحظات. الرجاء الانتظار...."/>
+		<item id="631" text="%1 : استخراج الملاحظات"/>
+		<item id="632" text="خطأ عند استخراج الملاحظات&quot;%1&quot; : &#10;%2"/>
+		<item id="633" text="تصدير الملاحظات"/>
+		<item id="634" text="Fichiers ADOBE XFDF (*.xfdf)"/>
+		<item id="635" text="صفحة"/>
+		<item id="636" text="نوع"/>
+		<item id="637" text="المؤلف"/>
+		<item id="638" text="التاريخ"/>
+		<item id="639" text="الترتيب"/>
+		<item id="640" text="وثيقة بي دي اف (*.pdf)"/>
+		<item id="641" text="Rich Txt Format (*.rtf)"/>
+		<item id="642" text="Plain Text (*.txt)"/>
+		<item id="643" text="Web Page, complete (*.html)"/>
+		<item id="644" text="الملاحظات فقط"/>
+		<item id="645" text="الوثيقة والملاحظات في صفحة واحدة مع خطوط رابطة"/>
+		<item id="646" text="الوثيقة والملاحظات في صفحة واحدة بارقام تسلسلية"/>
+		<item id="647" text="الوثيقة والملاحظات في صفحة واحدة"/>
+		<item id="648" text="الوثيقة والملاحظات في صفحات متعددة مع خطوط رابطة"/>
+		<item id="649" text="الوثيقة والملاحظات في صفحات متعددة بارقام تسلسلية"/>
+		<item id="650" text="الوثيقة والملاحظات في صفحات متعددة "/>
+		<item id="651" text="اختر مجلدا للملفات الجديدة"/>
+		<item id="652" text="ترتيب الملاحظات"/>
+		<item id="653" text="انشائ وثيقة جديدة..."/>
+		<item id="654" text="نشخ الصفحات من الوثيقة الاصلية"/>
+		<item id="655" text="انشاء صفحة ويب"/>
+		<item id="656" text="اعادة تسمية شريط ادوات"/>
+		<item id="657" text="اداة القياس"/>
+		<item id="658" text="قياس المحيط"/>
+		<item id="659" text="قياس المساحة"/>
+		<item id="660" text="هل تريد حذف هذه الروابط؟"/>
+		<item id="661" text="%1 : حذف الروابط"/>
+		<item id="662" text="%1 : ادراج صفحات فارغة"/>
+		<item id="663" text="تلقائي"/>
+		<item id="664" text="المسافة :"/>
+		<item id="665" text="مقياس"/>
+		<item id="666" text="مساحة ك"/>
+		<item id="667" text="زاوية :"/>
+		<item id="668" text="ΔX :"/>
+		<item id="669" text="ΔY :"/>
+		<item id="670" text="نسبة مقياس :"/>
+		<item id="671" text="معلومات المسافة"/>
+		<item id="672" text="معلومات المقاييس"/>
+		<item id="673" text="معلومات المساحة"/>
+		<item id="674" text="خط سفلي"/>
+		<item id="675" text="معلومات الرابط"/>
+		<item id="676" text="معلومات الروابط"/>
+		<item id="677" text="ft"/>
+		<item id="678" text="yd"/>
+		<item id="679" text="m"/>
+		<item id="680" text="km"/>
+		<item id="681" text="mi"/>
+		<item id="682" text="custom"/>
+		<item id="683" text="sq cm"/>
+		<item id="684" text="sq in"/>
+		<item id="685" text="sq mm"/>
+		<item id="686" text="sq p"/>
+		<item id="687" text="sq pt"/>
+		<item id="688" text="sq ft"/>
+		<item id="689" text="sq yd"/>
+		<item id="690" text="sq m"/>
+		<item id="691" text="sq km"/>
+		<item id="692" text="sq mi"/>
+		<item id="693" text="استخراج القياسات. الرجاء الانتظار...."/>
+		<item id="694" text="%1 : استخراج القياسات"/>
+		<item id="695" text="خطأ في استخراج القياسات من &quot;%1&quot; : &#10;%2"/>
+		<item id="696" text="تصدير المقاييس"/>
+		<item id="697" text="الرجاء اضافة أمر"/>
+		<item id="698" text="انشاء وثيقة جديدة"/>
+		<item id="699" text="انشاء وثيقة جديدة، الرجاء الانتظار..."/>
+		<item id="700" text="علامة نهايو السطر تبدأ قطعة جديدة"/>
+		<item id="701" text="علامة نهاية السطر المكررة تبدأ قطعة جديدة، الغير مكررة تهمل."/>
+		<item id="702" text="علامة نهاية السطر المكررة تبدأ قطعة جديدة، الغير مكررة تحول الى مسافة عادية."/>
+		<item id="703" text="العنوان"/>
+		<item id="704" text="خصائص الوثيقة"/>
+		<item id="705" text="النتقال بين الصفحات"/>
+		<item id="706" text="اتجاه الصفحات"/>
+		<item id="707" text="عرض وثيقة"/>
+		<item id="708" text="عنوان"/>
+		<item id="709" text="الامتداد"/>
+		<item id="710" text="الموقع"/>
+		<item id="711" text="الحجم"/>
+		<item id="712" text="تاريخ التعديل"/>
+		<item id="713" text="انشاء وثيقة جديدة ..."/>
+		<item id="714" text="اختر المجلد المحتوي للملفات"/>
+		<item id="715" text="البحث في المجلدات الداخلية؟"/>
+		<item id="716" text="متقدم"/>
+		<item id="717" text="الاعمدة"/>
+		<item id="718" text="اعدادات الاعمدة"/>
+		<item id="719" text="خيارات الملف"/>
+		<item id="720" text="خيارات الملف"/>
+		<item id="721" text="ابدأ كل وثيقة بقطعة جديدة"/>
+		<item id="722" text="ابدأ كل وثيقة بصفحة جديدة"/>
+		<item id="723" text="متقدم"/>
+		<item id="724" text="اتجاه"/>
+		<item id="725" text="عرض الصور"/>
+		<item id="726" text="تصغير العينات"/>
+		<item id="727" text="خيارات تصغير العينات"/>
+		<item id="728" text="فوق"/>
+		<item id="729" text="تحت"/>
+		<item id="730" text="يسار"/>
+		<item id="731" text="يمين"/>
+		<item id="732" text="وسط"/>
+		<item id="733" text="عدم تصغير"/>
+		<item id="734" text="تصغير خطي"/>
+		<item id="735" text="تصغير ثنائي"/>
+		<item id="736" text="تصغير ثلاثي"/>
+		<item id="737" text="بدون تحويل"/>
+		<item id="738" text="تحول الى لون رصاصي"/>
+		<item id="739" text="تحول الى لون احادي "/>
+		<item id="740" text="تحويل الى ابيض واسود"/>
+		<item id="741" text="تناسب الحجم"/>
+		<item id="742" text="معلومات الوثيقة"/>
+		<item id="743" text="متقدم"/>
+		<item id="744" text="تركيب معلومات الوثيقة"/>
+		<item id="745" text="تركيب[%2] : صفحة &apos;%1&apos;"/>
+		<item id="746" text="px"/>
+		<item id="747" text="تحليل..."/>
+		<item id="748" text="قراءة الصورة"/>
+		<item id="749" text="معلومات"/>
+		<item id="750" text="تشفير"/>
+		<item id="751" text="نوع : %1"/>
+		<item id="752" text="الصورة : %1"/>
+		<item id="753" text="صفحة : %1"/>
+		<item id="754" text="الورقة : %1, %2 المجموع"/>
+		<item id="755" text="ملفات %1 المجموع"/>
+		<item id="756" text="عرض عادي"/>
+		<item id="757" text="عرض مركب"/>
+		<item id="758" text="لصقات"/>
+		<item id="759" text="لصقات "/>
+		<item id="760" text="صفحة : &apos;%1&apos;"/>
+		<item id="761" text="صفحة  : %1 ( %2 من %3)"/>
+		<item id="762" text="افقي"/>
+		<item id="763" text="افقي معكوس"/>
+		<item id="764" text="عامودي"/>
+		<item id="765" text="عامودي معكوس"/>
+		<item id="766" text="مفصل"/>
+		<item id="767" text="عرض افقي (%1° CCW)"/>
+		<item id="768" text="تجاهل الكل"/>
+		<item id="769" text="بروشور"/>
+		<item id="770" text="كتاب"/>
+		<item id="771" text="الكل"/>
+		<item id="772" text="مقدمة"/>
+		<item id="773" text="مؤخرة"/>
+		<item id="774" text="كتيب"/>
+		<item id="775" text="لم تحدد اي صفحة"/>
+		<item id="776" text="خطأ في ادراج الصورة من&quot;%1&quot; :&#10;%2"/>
+		<item id="777" text="خطأ في ادراج الكتابة &quot;%1&quot; :&#10;%2"/>
+		<item id="778" text="dpi"/>
+		<item id="779" text="دقة الوضوح : %1 dpi"/>
+		<item id="780" text="دائما"/>
+		<item id="781" text="الخطوط المدمجة"/>
+		<item id="782" text="اكتشاف تلقائي"/>
+		<item id="783" text="(%1 المجموع, %2 مختارة)"/>
+		<item id="784" text="صفحة n°%1"/>
+		<item id="785" text="المجلد المستخدم حديثا"/>
+		<item id="786" text="المجلد الاصلي للوثيقة"/>
+		<item id="787" text="اختر مجلد لامر &quot;حفظ باسم&quot;"/>
+		<item id="788" text="هل تريد استرجاع الاعدادات للوضع الأصلي؟"/>
+		<item id="789" text="تبديل المستخدم"/>
+		<item id="790" text="تبديل لمالك"/>
+		<item id="791" text="خطأ في تغيير المستخدم &quot;%1&quot; :&#10;%2"/>
+		<item id="792" text="خطأ في تغيير المالك &quot;%1&quot; :&#10;%2"/>
+		<item id="793" text="الرجاء ادخال كلمة مرور صحيحة لتمكين جميع العمليات"/>
+		<item id="794" text="الرجاء ادخال كلمة مرور صحيحة لتمكين العمليات القياسية"/>
+		<item id="795" text="استيراد جميع الاعدادات"/>
+		<item id="796" text="تصدير جميع الاعدادات"/>
+		<item id="797" text="خطأ في فتح الاعدادات من ملف &quot;%1&quot;، لا يحتوي هذا الملف على اعدادات صحيحة %2"/>
+		<item id="798" text="خطأ في حفظ الاعدادات الى ملف &quot;%1&quot; :&#10;%2"/>
+		<item id="799" text="هل تريد انشاء اعدادات جديدة؟ سيتم فقد جميع الاعدادت السابقة."/>
+	</strings>
+</Localization>

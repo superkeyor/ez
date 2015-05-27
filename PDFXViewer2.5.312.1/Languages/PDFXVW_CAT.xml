@@ -1,0 +1,823 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+	<Product id="PXCView" version="1.0" productVersion="2.0.40.3" order"2"/>
+	<language eName="Catalan/Valencian" lName="Catalan (CA)" lcid="0x0403" prefFont="Tahoma"/>
+	<commands>
+		<item id="32316" title="Arrere" tooltip="Arrere" status="" short=""/>
+		<item id="32317" title="Avant" tooltip="Avant" status="" short=""/>
+		<item id="32609" title="&amp;Lupa" tooltip="Eina Lupa" status="Eina Lupa" short=""/>
+		<item id="32610" title="Augmenta Zoom" tooltip="Eina per a augmentar Zoom" status="Eina per a augmentar Zoom" short="Augmenta Zoom"/>
+		<item id="32611" title="Disminuïx Zoom" tooltip="Eina per a disminuir Zoom" status="Eina per a disminuir Zoom" short="Disminuïx Zoom"/>
+		<item id="32613" title="&amp;Mà" tooltip="Eina de Desplaçament" status="Eina de Desplaçament" short=""/>
+		<item id="32614" title="&amp;Instantània" tooltip="Eina d&apos;Instantània" status="Eina d&apos;Instantània" short=""/>
+		<item id="32620" title="Se&amp;lecció" tooltip="Eina de Selecció de Text/Objectes" status="Eina de Selecció de Text/Objectes" short=""/>
+		<item id="32884" title="&amp;Vés A" tooltip="" status="" short=""/>
+		<item id="32885" title="&amp;Primera Pàgina" tooltip="Vés a la Primera Pàgina" status="Vés a la Primera Pàgina" short=""/>
+		<item id="32886" title="Pàgina &amp;Anterior" tooltip="Vés a la Pàgina Anterior" status="Vés a la Pàgina Anterior" short=""/>
+		<item id="32887" title="Pàgina &amp;Següent" tooltip="Vés a la Pàgina Següent" status="Vés a la Pàgina Següent" short=""/>
+		<item id="32888" title="&amp;Darrera Pàgina" tooltip="Vés a la Darrera Pàgina" status="Vés a la Darrera Pàgina" short=""/>
+		<item id="32889" title="Pà&amp;gina..." tooltip="" status="" short=""/>
+		<item id="32890" title="Vista Anterior" tooltip="Vés a la Vista Anterior" status="" short=""/>
+		<item id="32891" title="Vista Següent" tooltip="Vés a la Vista Següent" status="" short=""/>
+		<item id="32892" title="Document Anterior" tooltip="" status="" short=""/>
+		<item id="32893" title="Document Següent" tooltip="" status="" short=""/>
+		<item id="32895" title="Una &amp;Sola Pàgina" tooltip="Una Sola Pàgina" status="" short=""/>
+		<item id="32896" title="&amp;Continu" tooltip="Continu" status="" short=""/>
+		<item id="32897" title="&amp;Doble Pàgina" tooltip="Doble Pàgina" status="" short=""/>
+		<item id="32898" title="Doble Pàgina - C&amp;ontinu" tooltip="Doble Pàgina - Continu" status="" short=""/>
+		<item id="32899" title="Amplia/Reduïx..." tooltip="Selecciona el Nivell de Zoom del Document Actiu" status="Selecciona el Nivell de Zoom del Document Actiu" short=""/>
+		<item id="32900" title="Mida &amp;Actual" tooltip="Mostra la Mida de Pàgina Actual (100%)" status="Mostra la Mida de Pàgina Actual (100%)" short=""/>
+		<item id="32901" title="Ajusta a la &amp;Pàgina" tooltip="Ajusta la Vista Actual a la Mida de Pàgina" status="Ajusta la Vista Actual a la Mida de Pàgina" short=""/>
+		<item id="32902" title="Ajusta l&apos;&amp;Ample" tooltip="Ajusta la Vista Actual a l&apos;Ample de Pàgina" status="Ajusta la Vista Actual a l&apos;Ample de Pàgina" short=""/>
+		<item id="32904" title="Amplia" tooltip="Amplia" status="Amplia" short=""/>
+		<item id="32905" title="Reduïx" tooltip="Reduïx" status="Reduïx" short=""/>
+		<item id="32906" title="Preferè&amp;ncies..." tooltip="Mostra les Preferències de l&apos;Aplicació..." status="Mostra les Preferències de l&apos;Aplicació..." short=""/>
+		<item id="32907" title="" tooltip="Mostra el nombre de Pàgines del Document" status="" short=""/>
+		<item id="32908" title="Barra d&apos;Eines &amp;Fitxer" tooltip="Mostra/Oculta la Barra d&apos;Eines Fitxer" status="Mostra/Oculta la Barra d&apos;Eines Fitxer" short=""/>
+		<item id="32910" title="&amp;Marques del Document" tooltip="Mostra/Oculta les Marques del Document" status="Mostra/Oculta les Marques del Document" short=""/>
+		<item id="32912" title="&amp;Miniatures de Pàgines" tooltip="Mostra/Oculta el Panell de Miniatures de Pàgines" status="Mostra/Oculta el Panell de Miniatures de Pàgines" short=""/>
+		<item id="32924" title="Barra d&apos;Eines E&amp;Estàndard" tooltip="Mostra/Oculta la Barra d&apos;Eines Estàndard" status="Mostra/Oculta la Barra d&apos;Eines Estàndard" short=""/>
+		<item id="32925" title="Barra d&apos;Eines de &amp;Zoom" tooltip="Mostra/Oculta la Barra d&apos;Eines de Zoom" status="Mostra/Oculta la Barra d&apos;Eines de Zoom" short=""/>
+		<item id="32929" title="Barra d&apos;Eines de &amp;Rota Vista" tooltip="Mostra/Oculta la Barra d&apos;Eines de Rotar Vista" status="Mostra/Oculta la Barra d&apos;Eines de Rotar Vista" short=""/>
+		<item id="32936" title="Mostra Totes les Pestanyes" tooltip="Mostra Totes les Pestanyes" status="" short=""/>
+		<item id="32937" title="Tanca la Pestanya Activa" tooltip="Tanca la Pestanya Activa" status="" short=""/>
+		<item id="32938" title="Mostra Totes les Pestanyes en Miniatures" tooltip="Mostra Totes les Pestanyes en Miniatures" status="" short=""/>
+		<item id="32940" title="Pestanyes de &amp;Navegació" tooltip="Mostra/Oculta les Pestanyes de Navegació" status="Mostra/Oculta les Pestanyes de Navegació" short=""/>
+		<item id="32942" title="Tanca &amp;Tots els Documents" tooltip="" status="" short=""/>
+		<item id="32944" title="Expo&amp;rta" tooltip="" status="" short=""/>
+		<item id="32945" title="Exporta a Imatge..." tooltip="" status="" short=""/>
+		<item id="32987" title="&amp;Recerca (avançada)" tooltip="Mostra el Quadre de Recerca Completa" status="Mostra el Quadre de Recerca Completa" short=""/>
+		<item id="32991" title="Cerca Anterior" tooltip="Cerca l&apos;Ocurrència Anterior" status="Cerca l&apos;Ocurrència Anterior" short=""/>
+		<item id="32992" title="Cerca Següent" tooltip="Cerca l&apos;Ocurrència Següent" status="Cerca l&apos;Ocurrència Següent" short=""/>
+		<item id="32993" title="Opcions de Recerca" tooltip="Opcions de Recerca" status="Opcions de Recerca" short=""/>
+		<item id="32994" title="Només Paraules Completes" tooltip="Cerca Només Paraules Completes" status="Cerca solament ocurrències de la paraula completa que escrigueu" short=""/>
+		<item id="32995" title="Distingix Majúscules-Minúscules" tooltip="Recerca Distingint Majúscules i Minúscules" status="Cerca només ocurrències de les paraules que coincidixquen amb les majúscules-minúscules que escrigueu" short=""/>
+		<item id="32996" title="Inclou Comentaris" tooltip="Cerca el Text en qualsevol Comentari afegit al PDF" status="Cerca el Text en qualsevol Comentari afegit al PDF, tal com apareixen en el Panell de Comentaris" short=""/>
+		<item id="32997" title="Inclou Marques" tooltip="Cerca el Text en qualsevol Marca" status="Cerca el text de qualsevol marca del Document, tal com apareixen en el Panell de Marques" short=""/>
+		<item id="33000" title="Barra d&apos;Eines de Recerca" tooltip="Mostra/Oculta la Barra d&apos;Eines de Recerca" status="Mostra/Oculta la Barra d&apos;Eines de Recerca" short=""/>
+		<item id="33006" title="&amp;Capes" tooltip="Mostra/Oculta el Panell de Capes" status="Mostra/Oculta el Panell de Capes" short=""/>
+		<item id="33008" title="Camp&amp;s" tooltip="Mostra/Oculta el Panell de Camps" status="Mostra/Oculta el Panell de Camps" short=""/>
+		<item id="33014" title="Pantalla Com&amp;pleta" tooltip="Pantalla Completa" status="Pantalla Completa" short=""/>
+		<item id="33015" title="Mostra/Oculta Totes les Barres" tooltip="Mostra/Oculta Totes les Barres" status="Mostra/Oculta Totes les Barres" short="Mostra/Oculta Totes les Barres"/>
+		<item id="33018" title="Resalta Tots els Camps del Formulari" tooltip="El Document Conté Formulari; Polseu Ací per a Resaltar Tots els Camps del Formulari" status="El Document Conté Formulari; Polseu Ací per a Resaltar Tots els Camps del Formulari" short="Resalta Camps"/>
+		<item id="33038" title="Tanca Tots" tooltip="Tanca Tots els Documents Oberts" status="Tanca Tots els Documents Oberts" short=""/>
+		<item id="33073" title="E&amp;xporta Dades de Formulari..." tooltip="" status="" short=""/>
+		<item id="33074" title="Importa &amp;Dades al Formulari..." tooltip="" status="" short=""/>
+		<item id="33075" title="&amp;Rota Vista" tooltip="" status="" short=""/>
+		<item id="33078" title="&amp;Dreta" tooltip="Gira a la Dreta" status="Gira a la Dreta" short=""/>
+		<item id="33079" title="&amp;Esquerra" tooltip="Gira a l&apos;Esquerra" status="Gira a l&apos;Esquerra" short=""/>
+		<item id="33080" title="&amp;Rotació de Pàgines..." tooltip="" status="" short=""/>
+		<item id="33081" title="&amp;Elimina Pàgines..." tooltip="" status="" short=""/>
+		<item id="33082" title="Re&amp;talla Pàgines..." tooltip="" status="" short=""/>
+		<item id="33103" title="&amp;Panoràmica i Ampliació" tooltip="Eina de Panoràmica i Ampliació" status="Eina Panoràmica i Ampliació" short="Panoràmica i Ampliació"/>
+		<item id="33104" title="Negreta" tooltip="Negreta" status="" short=""/>
+		<item id="33105" title="Cursiva" tooltip="Cursiva" status="" short=""/>
+		<item id="33106" title="Subratllada" tooltip="Subratllada" status="" short=""/>
+		<item id="33107" title="Ratllada" tooltip="Ratllada" status="" short=""/>
+		<item id="33108" title="Alinea a l&apos;Esquerra" tooltip="Alinea a l&apos;Esquerra" status="" short=""/>
+		<item id="33109" title="Alinea al Centre" tooltip="Alinea al Centre" status="" short=""/>
+		<item id="33110" title="Alinea a la Dreta" tooltip="Alinea a la Dreta" status="" short=""/>
+		<item id="33115" title="Línia &amp;Inclinada" tooltip="Línia Inclinada" status="" short=""/>
+		<item id="33116" title="&amp;Propietats..." tooltip="Més Propietats..." status="" short=""/>
+		<item id="33118" title="&amp;Configura les Propietats Actuals com a Per Defecte" tooltip="Configura les Propietats Actuals com a Per Defecte" status="" short=""/>
+		<item id="33121" title="Esbo&amp;rra Ubicació de Nota Emergent" tooltip="Esborra Ubicació de Nota Emergent" status="" short=""/>
+		<item id="33122" title="&amp;Obri Nota Emergent" tooltip="Obri Nota Emergent" status="" short=""/>
+		<item id="33123" title="&amp;Fletxa" tooltip="Fletxa" status="" short="Fletxa"/>
+		<item id="33124" title="&amp;Línia" tooltip="Línia" status="" short="Línia"/>
+		<item id="33125" title="&amp;Rectangle" tooltip="Rectangle" status="" short="Rectangle"/>
+		<item id="33126" title="&amp;El·lipse" tooltip="El·lipse" status="" short="El·lipse"/>
+		<item id="33127" title="Polí&amp;gon" tooltip="Polígon" status="" short="Polígon"/>
+		<item id="33128" title="Línia Pol&amp;igonal" tooltip="Línia Poligonal" status="" short="Línia Poligonal"/>
+		<item id="33129" title="&amp;Llapis" tooltip="Llapis" status="" short="Llapis"/>
+		<item id="33130" title="&amp;Núvol" tooltip="Núvol" status="" short="Núvol"/>
+		<item id="33132" title="&amp;Notes" tooltip="Eina de Notes" status="" short="Nota"/>
+		<item id="33133" title="Vista &amp;Preliminar" tooltip="Vista Preliminar" status="" short=""/>
+		<item id="33134" title="Aplica les Propietats per &amp;Defecte" tooltip="Aplica les Propietats per Defecte" status="" short=""/>
+		<item id="33135" title="Afegix Nota" tooltip="Afegix Nota" status="" short=""/>
+		<item id="33136" title="Elimina" tooltip="Elimina" status="" short=""/>
+		<item id="33138" title="Barra d&apos;Eines de &amp;Comentaris i Marca" tooltip="Mostra/Oculta Barra d&apos;Eines de Comentaris i Marca" status="Mostra/Oculta Barra d&apos;Eines de Comentaris i Marca" short=""/>
+		<item id="33139" title="Cancel·la" tooltip="Cancel·la" status="" short=""/>
+		<item id="33140" title="Completa" tooltip="Completa" status="" short=""/>
+		<item id="33141" title="&amp;Pàgina d&apos;Inici" tooltip="" status="" short=""/>
+		<item id="33145" title="&amp;Contingut" tooltip="" status="" short=""/>
+		<item id="33146" title="&amp;Informa d&apos;un Problema..." tooltip="" status="" short=""/>
+		<item id="33147" title="&amp;Fòrum de Suport" tooltip="" status="" short=""/>
+		<item id="33168" title="Esborra Format de Text" tooltip="Esborra Format de Text" status="" short=""/>
+		<item id="33170" title="Superíndex" tooltip="Superíndex" status="" short=""/>
+		<item id="33171" title="Subíndex" tooltip="Subíndex" status="" short=""/>
+		<item id="33179" title="Cerca Actualitzacions..." tooltip="" status="" short=""/>
+		<item id="33182" title="&amp;Copia com a Només Text" tooltip="Copia com a Només Text" status="" short=""/>
+		<item id="33183" title="Copia com a Text amb Format" tooltip="Copia com a Text amb Format" status="" short=""/>
+		<item id="33184" title="Copia com a Format Enriquit" tooltip="Copia com a Format Enriquit" status="" short=""/>
+		<item id="33201" title="Cri&amp;des" tooltip="Eina de Crides" status="" short="Crida"/>
+		<item id="33202" title="Caixa de Te&amp;xt" tooltip="Eina de Caixa de Text" status="" short="Caixa de Text"/>
+		<item id="33204" title="&amp;Comentaris" tooltip="Mostra/Oculta el Panell de Comentaris" status="Mostra/Oculta el Panell de Comentaris" short=""/>
+		<item id="33206" title="&amp;Resalta Text" tooltip="Resalta Text" status="" short=""/>
+		<item id="33207" title="Afegix &amp;Nota al Text" tooltip="Afegix Nota al Text" status="" short=""/>
+		<item id="33208" title="&amp;Subratlla Text" tooltip="Subratlla Text" status="" short=""/>
+		<item id="33209" title="&amp;Ratlla Text" tooltip="Ratlla Text" status="" short=""/>
+		<item id="33210" title="&amp;Reemplaça Text" tooltip="Reemplaça Text" status="" short=""/>
+		<item id="33221" title="Resalta Text" tooltip="Eina per a Resaltar el Text Seleccionat" status="Eina per a Resaltar el Text Seleccionat" short="Resalta Text"/>
+		<item id="33222" title="Subratlla Text" tooltip="Subratlla el Text Seleccionat" status="Subratlla el Text Seleccionat" short="Subratlla Text"/>
+		<item id="33223" title="Ratlla Text" tooltip="Ratlla el Text Seleccionat" status="Ratlla el Text Seleccionat" short="Ratlla Text"/>
+		<item id="33225" title="Barra d&apos;Eines de &amp;Propietats" tooltip="Mostra/Oculta la Barra d&apos;Eines de Propietats" status="Mostra/Oculta la Barra d&apos;Eines de Propietats" short=""/>
+		<item id="33226" title="&amp;Escriptura" tooltip="Eina d&apos;Escriptura" status="" short="Escriu"/>
+		<item id="33228" title="&amp;Mostra Segells Predefinits" tooltip="" status="" short=""/>
+		<item id="33229" title="Mantín l&apos;Eina Seleccionada" tooltip="Mantín l&apos;Eina Seleccionada" status="" short=""/>
+		<item id="33232" title="Per &amp;Pàgina" tooltip="Agrupa els Comentaris per Pàgina" status="" short=""/>
+		<item id="33233" title="Per &amp;Tipus" tooltip="Agrupa els Comentaris per Tipus" status="" short=""/>
+		<item id="33234" title="Per &amp;Autor" tooltip="Agrupa els Comentaris per Autor" status="" short=""/>
+		<item id="33235" title="Per &amp;Data" tooltip="Agrupa els Comentaris per Data" status="" short=""/>
+		<item id="33238" title="Següent" tooltip="Comentari Següent" status="" short=""/>
+		<item id="33239" title="Anterior" tooltip="Comentari Anterior" status="" short=""/>
+		<item id="33240" title="Elimina" tooltip="Elimina Comentari" status="" short=""/>
+		<item id="33241" title="Col·lapsa Tot" tooltip="Col·lapsa Tots els Comentaris" status="" short=""/>
+		<item id="33242" title="Expandix Tot" tooltip="Expandix Tots els Comentaris" status="" short=""/>
+		<item id="33243" title="Agrupa Per" tooltip="Agrupa Per" status="" short=""/>
+		<item id="33248" title="No S&amp;elecciones Cap" tooltip="No Selecciones Cap" status="" short=""/>
+		<item id="33255" title="Tanca les Altres Pestanyes" tooltip="Tanca les Altres Pestanyes" status="" short=""/>
+		<item id="33256" title="Tanca la Pestanya" tooltip="Tanca la Pestanya" status="" short=""/>
+		<item id="33257" title="Copia el &amp;Nom Complet del Document" tooltip="Copia el Nom Complet del Document Actiu al Porta-retalls" status="Copia el Nom Complet del Document Actiu al Porta-retalls" short=""/>
+		<item id="33258" title="Obri Carpeta Ac&amp;tual..." tooltip="Obri la Carpeta del Document Actiu" status="Obri la Carpeta del Document Actiu" short=""/>
+		<item id="33259" title="Convertix el Format de Text Actual en el Per Defecte" tooltip="Convertix el Format de Text Actual en el Per Defecte" status="" short=""/>
+		<item id="33260" title="Aplica el Format de Text Per Defecte" tooltip="Aplica el Format de Text Per Defecte" status="" short=""/>
+		<item id="33261" title="Color del Text" tooltip="Color del Text" status="" short=""/>
+		<item id="33262" title="Barra d&apos;Eines d&apos;&amp;Opcions del Document" tooltip="Mostra/Oculta la Barra d&apos;Eines d&apos;Opcions del Document" status="Mostra/Oculta la Barra d&apos;Eines d&apos;Opcions del Document" short=""/>
+		<item id="33263" title="Barra d&apos;Eines de &amp;Navegació de Pàgines" tooltip="Mostra/Oculta la Barra d&apos;Eines de Navegació de Pàgines" status="Mostra/Oculta la Barra d&apos;Eines de Navegació de Pàgines" short=""/>
+		<item id="33264" title="Barra d&apos;Eines de &amp;Disseny de Pàgines" tooltip="Mostra/Oculta la Barra d&apos;Eines de Disseny de Pàgines" status="Mostra/Oculta la Barra d&apos;Eines de Disseny de Pàgines" short=""/>
+		<item id="33265" title="Barra d&apos;Eines d&apos;&amp;Aplicacions" tooltip="Mostra/Oculta la Barra d&apos;Eines d&apos;Arrancada d&apos;Aplicacions" status="Mostra/Oculta la Barra d&apos;Eines d&apos;Arrancada d&apos;Aplicacions" short=""/>
+		<item id="33267" title="&amp;Fitxer" tooltip="" status="" short=""/>
+		<item id="33268" title="&amp;Fitxers Recents" tooltip="" status="" short=""/>
+		<item id="33269" title="For&amp;mulari de Dades" tooltip="" status="" short=""/>
+		<item id="33270" title="Propietats del &amp;Document..." tooltip="Mostra les Propietats del Document Actiu" status="Mostra les Propietats del Document Actiu" short=""/>
+		<item id="33280" title="&amp;Edita" tooltip="" status="" short=""/>
+		<item id="33290" title="&amp;Visualització" tooltip="" status="" short=""/>
+		<item id="33291" title="&amp;Barres d&apos;Eines" tooltip="" status="" short=""/>
+		<item id="33292" title="Altres Panells" tooltip="" status="" short=""/>
+		<item id="33293" title="&amp;Presentació de Pàgina" tooltip="" status="" short=""/>
+		<item id="33300" title="&amp;Document" tooltip="" status="" short=""/>
+		<item id="33310" title="&amp;Eines" tooltip="" status="" short=""/>
+		<item id="33311" title="Eines &amp;Bàsiques" tooltip="" status="" short=""/>
+		<item id="33313" title="Eines de &amp;Zoom" tooltip="" status="" short=""/>
+		<item id="33314" title="Eines de Comentaris i Marques" tooltip="" status="" short=""/>
+		<item id="33339" title="Mostra la Barra de Comentaris i Marques" tooltip="" status="" short=""/>
+		<item id="33340" title="Mostra Llista de Comentaris" tooltip="Mostra/Oculta Llista de Comentaris" status="Mostra/Oculta Llista de Comentaris" short=""/>
+		<item id="33350" title="&amp;Finestra" tooltip="" status="" short=""/>
+		<item id="33370" title="Opcions del Document" tooltip="Conté la Vista, Edició, Manipulació, etc. de les Opcions del Document" status="Conté la Vista, Edició, Manipulació, etc. de les Opcions del Document" short="Opcions"/>
+		<item id="33371" title="Mostra Panell de Capes" tooltip="El Document Conté Capes; Polseu Ací per a Mostrar/Ocultar el Panell de Capes" status="El Document Conté Capes; Polseu Ací per a Mostrar/Ocultar el Panell de Capes" short="Mostra Capes"/>
+		<item id="33372" title="Mostra el Panell de Camps" tooltip="El Document Conté Formulari; Polseu Ací per a Mostrar/Ocultar el Panell de Camps del Formulari" status="El Document Conté Formulari; Polseu Ací per a Mostrar/Ocultar el Panell de Camps del Formulari" short="Mostra Camps"/>
+		<item id="33373" title="Sense Propietats" tooltip="No hi ha seleccionat cap Objecte amb Propietats" status="No hi ha seleccionat cap Objecte amb Propietats" short=""/>
+		<item id="33379" title="Opacitat" tooltip="Opacitat" status="" short=""/>
+		<item id="33382" title="Mostra/Oculta la Barra d&apos;Eines de Format de Text" tooltip="Mostra/Oculta la Barra d&apos;Eines de Format de Text" status="" short=""/>
+		<item id="33383" title="Copia Selecció de Pàgines" tooltip="Copia Selecció de Pàgines" status="" short=""/>
+		<item id="33384" title="Selecciona Pàgina Sencera" tooltip="Selecciona Pàgina Sencera" status="" short=""/>
+		<item id="57601" title="&amp;Obri" tooltip="Obri un Document Existent..." status="Obri un Document Existent" short=""/>
+		<item id="57602" title="&amp;Tanca" tooltip="Tanca el Document Actiu" status="Tanca el Document Actiu" short=""/>
+		<item id="57603" title="&amp;Desa" tooltip="Desa el Document Actiu" status="Desa el Document Actiu" short=""/>
+		<item id="57604" title="Anomena i &amp;desa" tooltip="Desa el Document Actiu amb nom nou..." status="Desa el Document Actiu amb nom nou." short=""/>
+		<item id="57607" title="Im&amp;primix..." tooltip="Imprimix el Document Actiu" status="Imprimix el Document Actiu" short=""/>
+		<item id="57611" title="Desa una cò&amp;pia com a" tooltip="Desa còpia del Document Actiu a un nou fitxer" status="Desa còpia del Document Actiu a un nou fitxer" short=""/>
+		<item id="57612" title="Envia per &amp;E-mail" tooltip="Adjunta el Document Actiu a un Nou Missatge de Correu Electrònic." status="Adjunta el Document Actiu a un Nou Missatge de Correu Electrònic." short=""/>
+		<item id="57634" title="&amp;Copia" tooltip="Copia la Selecció i Posa-la en el Porta-retalls" status="Copia la Selecció i la Posa al Porta-retalls" short=""/>
+		<item id="57635" title="&amp;Retalla" tooltip="Retalla la Selecció i Posa-la al Porta-retalls" status="Retalla la Selecció i la Posa al Porta-retalls" short=""/>
+		<item id="57636" title="&amp;Recerca (simple)" tooltip="Cerca el Text Especificat" status="Cerca el Text Especificat" short=""/>
+		<item id="57637" title="&amp;Enganxa" tooltip="Enganxa el Contingut del Porta-retalls" status="Enganxa el Contingut del Porta-retalls" short=""/>
+		<item id="57642" title="Se&amp;lecciona Totes" tooltip="Selecciona Totes" status="" short=""/>
+		<item id="57643" title="&amp;Desfés" tooltip="Desfés la Darrera Acció" status="Desfà la Darrera Acció" short=""/>
+		<item id="57644" title="&amp;Repetix" tooltip="Repetix l&apos;Acció Anterior" status="Repetix l&apos;Acció Anterior" short=""/>
+		<item id="57649" title="Ordena &amp;Icones" tooltip="Ordena Icones Dalt de la Finestra" status="Ordena Icones Dalt de la Finestra" short=""/>
+		<item id="57650" title="&amp;Cascada" tooltip="Ordena les Finestres Superposant-les" status="Ordena les Finestres Superposant-les" short=""/>
+		<item id="57651" title="Mosaic &amp;Horitzontal" tooltip="Ordena les Finestres en Mosaic No-Superposat" status="Ordena les Finestres en Mosaic No-Superposat" short=""/>
+		<item id="57652" title="Mosaic &amp;Vertical" tooltip="Ordena les Finestres en Mosaic No-Superposat" status="Ordena les Finestres en Mosaic No-Superposat" short=""/>
+		<item id="57653" title="&amp;Dividix" tooltip="Dividix la Finestra Activa en Panells" status="Dividix la Finestra Activa en Panells" short=""/>
+		<item id="57664" title="&amp;Quant a PDF-XChange Viewer..." tooltip="Mostra Informació del Programa, Versió i Copyright" status="Mostra Informació del Programa, Versió i Copyright" short=""/>
+		<item id="57665" title="&amp;Ix" tooltip="Tanca l&apos;Aplicació, Pregunta si Desa els Canvis dels Documents" status="Tanca l&apos;Aplicació, Pregunta si Desa els Canvis dels Documents" short=""/>
+		<item id="57670" title="&amp;Ajuda" tooltip="" status="" short=""/>
+		<item id="57718" title="Desplaçar a l&apos;Esquerra" tooltip="Desplaçar a l&apos;Esquerra" status="" short=""/>
+		<item id="57719" title="Desplaçar a la Dreta" tooltip="Desplaçar a la Dreta" status="" short=""/>
+		<item id="59393" title="Barra d&apos;E&amp;stat" tooltip="Mostra/Oculta la Barra d&apos;Estat" status="Mostra/Oculta la Barra d&apos;Estat" short=""/>
+	</commands>
+	<dialogs>
+		<dialog id="203" text="Preferències">
+			<item id="1" text="Accepta" tooltip=""/>
+			<item id="2" text="Cancel·la" tooltip=""/>
+			<item id="3" text="Aplica" tooltip=""/>
+		</dialog>
+		<dialog id="204" text="">
+			<item id="1004" text="&amp;Preferència de l&apos;Eixida sobre els espais de treball" tooltip=""/>
+			<item id="1008" text="Usa Compensació de Punt Negre" tooltip=""/>
+			<item id="1038" text="Colors i Opcions" tooltip=""/>
+			<item id="1039" text="&amp;RGB" tooltip=""/>
+			<item id="1040" text="&amp;CMYK" tooltip=""/>
+			<item id="1041" text="&amp;Escala de Grissos" tooltip=""/>
+			<item id="1042" text="Motor" tooltip=""/>
+			<item id="1200" text="Espais de Treball" tooltip=""/>
+			<item id="1201" text="Opcions de Conversió" tooltip=""/>
+		</dialog>
+		<dialog id="207" text="">
+			<item id="1009" text="Nombre &amp;Màxim de Documents en la Llista Recent" tooltip=""/>
+			<item id="1014" text="Mostrar Pantalla d&apos;Inici" tooltip=""/>
+			<item id="1015" text="Permet Instàncies Múltiples" tooltip=""/>
+			<item id="1032" text="Documents en Pestanyes" tooltip=""/>
+			<item id="1033" text="&amp;Documents Múltiples" tooltip=""/>
+			<item id="1035" text="Mostra Botó de tancament per a Cada Pestanya" tooltip=""/>
+			<item id="1036" text="&amp;Un sol Document" tooltip=""/>
+			<item id="1038" text="Mètode de desamment" tooltip=""/>
+			<item id="1198" text="Inici de l&apos;Aplicació" tooltip=""/>
+			<item id="1200" text="Disseny de Documents" tooltip=""/>
+			<item id="1201" text="Obri Documents" tooltip=""/>
+			<item id="1202" text="Desa Documents" tooltip=""/>
+		</dialog>
+		<dialog id="212" text="Introducció de Clau del Document">
+			<item id="1" text="Accepta" tooltip=""/>
+			<item id="2" text="Cancel·la" tooltip=""/>
+			<item id="1039" text="Per favor, introduïu un usuari vàlid o la clau del propietari del Document:" tooltip=""/>
+		</dialog>
+		<dialog id="213" text="Propietats del Document">
+			<item id="1" text="Accepta" tooltip=""/>
+			<item id="2" text="Cancel·la" tooltip=""/>
+			<item id="3" text="Aplica" tooltip=""/>
+		</dialog>
+		<dialog id="214" text="">
+			<item id="1038" text="Nom del Fitxer:" tooltip=""/>
+			<item id="1039" text="Ubicació:" tooltip=""/>
+			<item id="1040" text="Data de Creació:" tooltip=""/>
+			<item id="1041" text="Data de Modificació:" tooltip=""/>
+			<item id="1042" text="Mida del Fitxer:" tooltip=""/>
+			<item id="1043" text="&amp;Títol:" tooltip=""/>
+			<item id="1044" text="&amp;Autor:" tooltip=""/>
+			<item id="1200" text="&amp;Informació del Fitxer" tooltip=""/>
+			<item id="1201" text="&amp;Informació del Document" tooltip=""/>
+			<item id="1203" text="&amp;Assumpte:" tooltip=""/>
+			<item id="1204" text="&amp;Paraules Clau:" tooltip=""/>
+			<item id="1205" text="Creador del PDF:" tooltip=""/>
+			<item id="1206" text="Aplicació:" tooltip=""/>
+			<item id="1207" text="Versión de PDF:" tooltip=""/>
+			<item id="1208" text="Nombre de Pàgines:" tooltip=""/>
+			<item id="1209" text="Metadades Adicionals..." tooltip=""/>
+		</dialog>
+		<dialog id="220" text="">
+			<item id="1038" text="Impressió:" tooltip=""/>
+			<item id="1039" text="Modifica Document:" tooltip=""/>
+			<item id="1040" text="Còpia o Extracció de Continguts:" tooltip=""/>
+			<item id="1041" text="Comentaris de l&apos;Autor i Camps de Formulari:" tooltip=""/>
+			<item id="1042" text="Signatura o Introducció de Camps de Formulari:" tooltip=""/>
+			<item id="1043" text="Habilita Accessibilitat de Continguts:" tooltip=""/>
+			<item id="1044" text="Muntatge del Document:" tooltip=""/>
+			<item id="1200" text="Seguretat del Document" tooltip=""/>
+			<item id="1201" text="Permissos del Document Detallats" tooltip=""/>
+			<item id="1203" text="El Mètode de Seguretat restringix què pot fer-se amb el Document." tooltip=""/>
+			<item id="1204" text="&amp;Mètode de Seguretat:" tooltip=""/>
+			<item id="1205" text="Nivell d&apos;Encriptació:" tooltip=""/>
+			<item id="1206" text="Clau de Lectura:" tooltip=""/>
+			<item id="1207" text="Clau de Permissos:" tooltip=""/>
+			<item id="1210" text="&amp;Modifica Opcions..." tooltip=""/>
+		</dialog>
+		<dialog id="221" text="Exporta a Imatge">
+			<item id="1" text="E&amp;xporta..." tooltip=""/>
+			<item id="2" text="Cancel·la" tooltip=""/>
+			<item id="4" text="&amp;Examina..." tooltip=""/>
+			<item id="6" text="&amp;Macros" tooltip=""/>
+			<item id="7" text="&amp;Opcions..." tooltip=""/>
+			<item id="1040" text="Carpeta &amp;Destinació:" tooltip=""/>
+			<item id="1041" text="&amp;Nom del Fitxer:" tooltip=""/>
+			<item id="1042" text="&amp;Format d&apos;Imatge:" tooltip=""/>
+			<item id="1043" text="&amp;Mode d&apos;Exportació:" tooltip=""/>
+			<item id="1044" text="&amp;Resolució:" tooltip=""/>
+			<item id="1201" text="Desa com a" tooltip=""/>
+			<item id="1202" text="Gràfics" tooltip=""/>
+			<item id="1203" text="Fons de Pàgina:" tooltip=""/>
+			<item id="1204" text="Rang de Pàgines" tooltip=""/>
+			<item id="1330" text="&amp;Totes" tooltip=""/>
+			<item id="1331" text="Pàgines Selecciona&amp;des" tooltip=""/>
+			<item id="1332" text="&amp;Pàgina Actual" tooltip=""/>
+			<item id="1333" text="Pà&amp;gines:" tooltip=""/>
+			<item id="1335" text="&amp;Subconjunt:" tooltip=""/>
+			<item id="1339" text="&amp;Vista Actual" tooltip=""/>
+			<item id="1341" text="Orde In&amp;vers" tooltip=""/>
+			<item id="1387" text="Introduïu números de Pàgina i/o rangs separats per comes comptant des del principi del Document.  Per exemple, escrigueu 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="222" text="Opcions Desa Imatge">
+			<item id="1" text="Accepta" tooltip=""/>
+			<item id="2" text="Cancel·la" tooltip=""/>
+		</dialog>
+		<dialog id="223" text="">
+			<item id="1071" text="Cancel·la" tooltip=""/>
+			<item id="1072" text="Salta" tooltip=""/>
+		</dialog>
+		<dialog id="224" text="">
+			<item id="1038" text="&amp;Vista de Pàgina per Defecto:" tooltip=""/>
+			<item id="1039" text="&amp;Disseny de Pàgina per Defecte:" tooltip=""/>
+			<item id="1040" text="&amp;Zoom per Defecte:" tooltip=""/>
+			<item id="1041" text="&amp;Resolució:" tooltip=""/>
+			<item id="1042" text="Punts per polzada" tooltip=""/>
+			<item id="1073" text="Mostra dibuixos, adorns, marcs amb sagnia" tooltip=""/>
+			<item id="1074" text="Mostra quadrícula transparent" tooltip=""/>
+			<item id="1083" text="Mostra imàtgens grans" tooltip=""/>
+			<item id="1200" text="Mostra Pàgina" tooltip=""/>
+		</dialog>
+		<dialog id="227" text="Confirma Reemplaçar Fitxer">
+			<item id="2" text="Cancel·la" tooltip=""/>
+			<item id="6" text="Sí" tooltip=""/>
+			<item id="7" text="No" tooltip=""/>
+			<item id="100" text="Sí a Tot" tooltip=""/>
+			<item id="101" text="No a Tot" tooltip=""/>
+			<item id="102" text="Automàtic" tooltip=""/>
+			<item id="103" text="Desa com a" tooltip=""/>
+			<item id="1040" text="Sobreescriu este Fitxer?" tooltip=""/>
+			<item id="1041" text="Pot usar la generació automàtica per a assignar un  únic de Fitxer:" tooltip=""/>
+		</dialog>
+		<dialog id="228" text="Error escrivint Fitxer">
+			<item id="3" text="Cancel·la" tooltip=""/>
+			<item id="4" text="Reintenta" tooltip=""/>
+			<item id="5" text="Ignora" tooltip=""/>
+			<item id="103" text="Desa com a" tooltip=""/>
+		</dialog>
+		<dialog id="229" text="Imprimix">
+			<item id="1" text="Accepta" tooltip=""/>
+			<item id="2" text="Cancel·la" tooltip=""/>
+			<item id="1038" text="Copias:" tooltip=""/>
+			<item id="1041" text="Tipus d&apos;Escalat:" tooltip=""/>
+			<item id="1043" text="&amp;Nom:" tooltip=""/>
+			<item id="1044" text="Estat:" tooltip=""/>
+			<item id="1086" text="&amp;Propietats..." tooltip=""/>
+			<item id="1087" text="Imprimix en Fitxer" tooltip=""/>
+			<item id="1094" text="Ordenar còpies" tooltip=""/>
+			<item id="1096" text="Imprimix en escala de grissos" tooltip=""/>
+			<item id="1127" text="Escalat de Pàgina" tooltip=""/>
+			<item id="1200" text="Impressora" tooltip=""/>
+			<item id="1201" text="Rang de Pàgines" tooltip=""/>
+			<item id="1203" text="Tipus:" tooltip=""/>
+			<item id="1204" text="Comentaris:" tooltip=""/>
+			<item id="1330" text="&amp;Totes" tooltip=""/>
+			<item id="1331" text="Pàgines &amp;Seleccionades" tooltip=""/>
+			<item id="1332" text="&amp;Pàgina Actual" tooltip=""/>
+			<item id="1333" text="Pà&amp;ginas:" tooltip=""/>
+			<item id="1335" text="&amp;Subconjunt:" tooltip=""/>
+			<item id="1339" text="&amp;Vista Actual" tooltip=""/>
+			<item id="1341" text="Orde Invers" tooltip=""/>
+			<item id="1387" text="Introduïu números de Pàgina i/o rangs separats per comes comptant des del principi del Document.  Per exemple, escrigueu 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="230" text="">
+			<item id="1116" text="Elegix origen de paper segons mida de Pàgina PDF" tooltip=""/>
+			<item id="1120" text="Rota Automáticament" tooltip=""/>
+			<item id="1121" text="Centra Automáticament" tooltip=""/>
+		</dialog>
+		<dialog id="231" text="">
+			<item id="1038" text="Pàgines per full:" tooltip=""/>
+			<item id="1039" text="Orde de Pàgines" tooltip=""/>
+			<item id="1108" text="Imprimix borde de Pàgina" tooltip=""/>
+			<item id="1120" text="Rota Pàgines automàticament" tooltip=""/>
+			<item id="1128" text="per" tooltip=""/>
+		</dialog>
+		<dialog id="232" text="">
+			<item id="1038" text="Escala de títol:" tooltip=""/>
+			<item id="1040" text="Superposició:" tooltip=""/>
+			<item id="1118" text="Etiquetes" tooltip=""/>
+		</dialog>
+		<dialog id="236" text="Vés a la Pàgina">
+			<item id="1" text="Accepta" tooltip=""/>
+			<item id="2" text="Cancel·la" tooltip=""/>
+			<item id="1038" text="Introduïu el número de Pàgina:" tooltip=""/>
+		</dialog>
+		<dialog id="237" text="Zoom">
+			<item id="1" text="Accepta" tooltip=""/>
+			<item id="2" text="Cancel·la" tooltip=""/>
+			<item id="1038" text="Ampliació/Reducció:" tooltip=""/>
+		</dialog>
+		<dialog id="244" text="">
+			<item id="1038" text="¿Quina paraula o frase us agradaria cercar?" tooltip=""/>
+			<item id="1039" text="¿On desitgeu cercar?" tooltip=""/>
+			<item id="1040" text="Ordena per:" tooltip=""/>
+			<item id="1099" text="Opcions" tooltip=""/>
+			<item id="1139" text="Cerca Ara" tooltip=""/>
+			<item id="1142" text="Neteja" tooltip=""/>
+		</dialog>
+		<dialog id="245" text="Opcions de Recerca">
+			<item id="1" text="Accepta" tooltip=""/>
+			<item id="2" text="Cancel·la" tooltip=""/>
+			<item id="1038" text="Usa proximitat:" tooltip=""/>
+			<item id="1126" text="Distingix majúscules/minúscules" tooltip=""/>
+			<item id="1128" text="Inclou comentaris" tooltip=""/>
+			<item id="1129" text="Inclou marques" tooltip=""/>
+			<item id="1130" text="Cerca en subcarpetes" tooltip=""/>
+			<item id="1131" text="Inclou adjunts" tooltip=""/>
+			<item id="1145" text="Només Paraules Completes" tooltip=""/>
+			<item id="1193" text="Cerca" tooltip=""/>
+			<item id="1194" text="En la Pàgina" tooltip=""/>
+			<item id="1195" text="En el Document" tooltip=""/>
+			<item id="1200" text="Criteris Adicionals:" tooltip=""/>
+		</dialog>
+		<dialog id="246" text="Recerca Avançada">
+			<item id="1" text="Accepta" tooltip=""/>
+			<item id="2" text="Cancel·la" tooltip=""/>
+			<item id="1038" text="amb totes les paraules:" tooltip=""/>
+			<item id="1039" text="amb la frase exacta:" tooltip=""/>
+			<item id="1040" text="amb almenys una de les paraules:" tooltip=""/>
+			<item id="1041" text="sense les paraules:" tooltip=""/>
+			<item id="1200" text="La Recerca ha de ser:" tooltip=""/>
+		</dialog>
+		<dialog id="247" text="">
+			<item id="1038" text="Ús de memòria del sistema en percentatge:" tooltip=""/>
+			<item id="1039" text="Fils màxims per a presentació de Pàgines:" tooltip=""/>
+			<item id="1040" text="Fils màxims per a la creació de miniatures de Pàgina:" tooltip=""/>
+			<item id="1041" text="Nombre màxim de fils de treball:" tooltip=""/>
+			<item id="1200" text="Utilització de Memòria" tooltip=""/>
+			<item id="1201" text="Fils utilitzats" tooltip=""/>
+		</dialog>
+		<dialog id="257" text="Rotació de Pàgines">
+			<item id="1" text="Accepta" tooltip=""/>
+			<item id="2" text="Cancel·la" tooltip=""/>
+			<item id="1038" text="Rota:" tooltip=""/>
+			<item id="1039" text="Introduïu números de Pàgina i/o rangs separats per comes comptant des del principi del Document.  Per exemple, escrigueu 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="&amp;Direcció:" tooltip=""/>
+			<item id="1164" text="&amp;Totes" tooltip=""/>
+			<item id="1165" text="&amp;Pàgines Seleccionades" tooltip=""/>
+			<item id="1166" text="Pàgina &amp;Actual" tooltip=""/>
+			<item id="1167" text="Pá&amp;gines:" tooltip=""/>
+			<item id="1200" text="Rang de Pàgines" tooltip=""/>
+		</dialog>
+		<dialog id="258" text="Esborra Pàgines">
+			<item id="1" text="Accepta" tooltip=""/>
+			<item id="2" text="Cancel·la" tooltip=""/>
+			<item id="1039" text="Introduïu números de Pàgina i/o rangs separats per comes comptant des del principi del Document.  Per exemple, escrigueu 1, 3, 5-12" tooltip=""/>
+			<item id="1165" text="Pàgines &amp;Seleccionades" tooltip=""/>
+			<item id="1166" text="Pàgina &amp;Actual" tooltip=""/>
+			<item id="1167" text="Pàgines:" tooltip=""/>
+			<item id="1200" text="Rang de Pàgines" tooltip=""/>
+		</dialog>
+		<dialog id="265" text="Propietats">
+			<item id="1" text="Accepta" tooltip=""/>
+			<item id="2" text="Cancel·la" tooltip=""/>
+			<item id="3" text="&amp;Aplica" tooltip=""/>
+			<item id="1180" text="A&amp;vançades" tooltip=""/>
+		</dialog>
+		<dialog id="266" text="">
+			<item id="1038" text="Començament:" tooltip=""/>
+			<item id="1039" text="Fi:" tooltip=""/>
+			<item id="1040" text="Estil:" tooltip=""/>
+			<item id="1041" text="Grossària:" tooltip=""/>
+			<item id="1042" text="Color:" tooltip=""/>
+			<item id="1043" text="Color d&apos;Emplenament:" tooltip=""/>
+			<item id="1044" text="Opacitat:" tooltip=""/>
+			<item id="1200" text="Estils d&apos;Acabat" tooltip=""/>
+			<item id="1201" text="Vora" tooltip=""/>
+		</dialog>
+		<dialog id="268" text="">
+			<item id="1038" text="Autor:" tooltip=""/>
+			<item id="1039" text="Assumpte:" tooltip=""/>
+			<item id="1040" text="Creat:" tooltip=""/>
+			<item id="1041" text="Modificat:" tooltip=""/>
+		</dialog>
+		<dialog id="272" text="">
+			<item id="1038" text="Estil:" tooltip=""/>
+			<item id="1039" text="Grossària:" tooltip=""/>
+			<item id="1040" text="Color:" tooltip=""/>
+			<item id="1041" text="Color d&apos;Emplenament:" tooltip=""/>
+			<item id="1042" text="Opacitat:" tooltip=""/>
+			<item id="1200" text="Vora" tooltip=""/>
+		</dialog>
+		<dialog id="273" text="">
+			<item id="1038" text="Grossària:" tooltip=""/>
+			<item id="1039" text="Color:" tooltip=""/>
+			<item id="1040" text="Opacitat:" tooltip=""/>
+			<item id="1200" text="Vora" tooltip=""/>
+		</dialog>
+		<dialog id="274" text="">
+			<item id="1038" text="Especifiqueu les unitats que s&apos;utilizaran per a mostrar regles, mida de Pàgina, qadrícula, guies, etc.:" tooltip=""/>
+			<item id="1200" text="Unitats" tooltip=""/>
+		</dialog>
+		<dialog id="278" text="Comuniqueu un Problema...">
+			<item id="1" text="&amp;Següent" tooltip=""/>
+			<item id="2" text="Cancel·la" tooltip=""/>
+			<item id="4" text="&amp;Examina..." tooltip=""/>
+			<item id="1038" text="El missatge serà enviat per correu electrònic - podeu modificar-lo abans d&apos;enviar-lo." tooltip=""/>
+			<item id="1039" text="Per favor, seleccioneu el &amp;tipus de problema:" tooltip=""/>
+			<item id="1040" text="&amp;Descripció (escrigueu una  descripció breu del problema):" tooltip=""/>
+			<item id="1041" text="¿Adjunta un Fitxer (Document PDF) al missatge?" tooltip=""/>
+			<item id="1126" text="Inclou informació de les &amp;lletres instal·lades i perfils de color" tooltip=""/>
+			<item id="1127" text="Inclou informació de les im&amp;pressores instal·lades i les opcions" tooltip=""/>
+			<item id="1128" text="Inclou informació de la versió del sistema operatiu" tooltip=""/>
+			<item id="1183" text="Inclou informació de la versió i preferències de l&apos;aplicació" tooltip=""/>
+		</dialog>
+		<dialog id="279" text="">
+			<item id="1038" text="Icona:" tooltip=""/>
+			<item id="1039" text="Color:" tooltip=""/>
+			<item id="1040" text="Opacitat:" tooltip=""/>
+			<item id="1200" text="Aparença" tooltip=""/>
+		</dialog>
+		<dialog id="282" text="Consola Java">
+			<item id="1" text="&amp;Executa" tooltip=""/>
+			<item id="2" text="Tanca" tooltip=""/>
+			<item id="1200" text="Script" tooltip=""/>
+			<item id="1201" text="Eixida" tooltip=""/>
+		</dialog>
+		<dialog id="283" text="">
+			<item id="1038" text="Final de línia:" tooltip=""/>
+			<item id="1039" text="Estil:" tooltip=""/>
+			<item id="1040" text="Grossària:" tooltip=""/>
+			<item id="1041" text="Color de Pinzell:" tooltip=""/>
+			<item id="1042" text="Color d&apos;Emplenament:" tooltip=""/>
+			<item id="1043" text="Opacitat:" tooltip=""/>
+			<item id="1200" text="Estils d&apos;Acabat" tooltip=""/>
+			<item id="1201" text="Vora" tooltip=""/>
+		</dialog>
+		<dialog id="284" text="">
+			<item id="1038" text="Color:" tooltip=""/>
+			<item id="1039" text="Opacitat:" tooltip=""/>
+			<item id="1200" text="Aparença" tooltip=""/>
+		</dialog>
+		<dialog id="290" text="Segells">
+		</dialog>
+		<dialog id="291" text="">
+			<item id="1038" text="Establir PDF-XChange com a Visor de PDF per Defecte:" tooltip=""/>
+			<item id="1039" text="Restaura una aplicació associada prèviament com a Visor PDF per defecte (si encara está instal·lada):" tooltip=""/>
+			<item id="1127" text="Mostra PDf en el Navegador" tooltip=""/>
+			<item id="1162" text="Visor PDF per Defecte" tooltip=""/>
+			<item id="1197" text="Restaura Associació de Fitxers" tooltip=""/>
+			<item id="1200" text="Fitxers Associats" tooltip=""/>
+		</dialog>
+		<dialog id="292" text="">
+			<item id="1038" text="Opacitat:" tooltip=""/>
+			<item id="1200" text="Aparença" tooltip=""/>
+		</dialog>
+		<dialog id="295" text="">
+			<item id="1038" text="Nombre de &amp;Usuario:" tooltip=""/>
+			<item id="1039" text="&amp;Nom:" tooltip=""/>
+			<item id="1040" text="&amp;Càrrec:" tooltip=""/>
+			<item id="1041" text="&amp;Empresa:" tooltip=""/>
+			<item id="1042" text="&amp;Departament:" tooltip=""/>
+			<item id="1043" text="&amp;Correu Electrònic:" tooltip=""/>
+			<item id="1044" text="La informació sobre la vostra identitat pot ser utilitzada en comentaris, revisions i signatures digitals.  La informació introduïda només serà utilitzada per l&apos;aplicació i no serà transmesa fora sense el vostre coneixement." tooltip=""/>
+			<item id="1200" text="Identitat" tooltip=""/>
+		</dialog>
+		<dialog id="296" text="">
+			<item id="1038" text="Per favor, seleccioneu l&apos;idioma preferit:" tooltip=""/>
+			<item id="1200" text="Idiomes" tooltip=""/>
+			<item id="1219" text="Utilitza Preferències Regionals de l&apos;Usuari" tooltip=""/>
+			<item id="1220" text="Elegix Idioma Personalitzat" tooltip=""/>
+			<item id="1221" text="Utilitza Idioma per Defecte de l&apos;Aplicació" tooltip=""/>
+		</dialog>
+	</dialogs>
+	<strings count="259">
+		<item id="0" text="90 graus a la dreta"/>
+		<item id="1" text="90 graus a la esquerra"/>
+		<item id="2" text="180 graus"/>
+		<item id="3" text="Totes les Pàgines"/>
+		<item id="4" text="Només Pàgines Parelles"/>
+		<item id="5" text="Només Pàgines Imparelles"/>
+		<item id="6" text="Pàgines en qualsevol orientació"/>
+		<item id="7" text="Pàgines Verticals"/>
+		<item id="8" text="Pàgines Horitzontals"/>
+		<item id="9" text="Nom Estàndard"/>
+		<item id="10" text="Nom Local"/>
+		<item id="11" text="General"/>
+		<item id="12" text="Opcions Generals"/>
+		<item id="13" text="Ajusts de Color"/>
+		<item id="14" text="Configura Ajusts de Color"/>
+		<item id="15" text="Visualitza Pàgina"/>
+		<item id="16" text="Opcions de Visualització de Pàgina"/>
+		<item id="17" text="Rendiment"/>
+		<item id="18" text="Opcions de Rendiment"/>
+		<item id="19" text="Messures"/>
+		<item id="20" text="Actualment no hi ha Visors alternatius"/>
+		<item id="21" text="Identitat"/>
+		<item id="22" text="Opcions d&apos;Identitat"/>
+		<item id="23" text="Internacional"/>
+		<item id="24" text="Opcions Internacionals"/>
+		<item id="25" text="Associacions de Fitxers"/>
+		<item id="26" text="Configuració d&apos;Associacions de Fitxers"/>
+		<item id="27" text="Categories"/>
+		<item id="28" text="Preferències..."/>
+		<item id="29" text="Propietats del Document..."/>
+		<item id="30" text="Propietats de les Notes..."/>
+		<item id="31" text="Desament Complet o Desament Incremental per a Signatura Digital"/>
+		<item id="32" text="Sempre Desament Complet"/>
+		<item id="33" text="Sempre Desament Incremental"/>
+		<item id="34" text="Desa per a Visió Ràpida en Web"/>
+		<item id="35" text="Automàtica"/>
+		<item id="36" text="Només Pàgina"/>
+		<item id="37" text="Pàgina i Panell de Marques"/>
+		<item id="38" text="Pàgina i Panell de Miniatures"/>
+		<item id="39" text="Vista utilitzada per Darrera vegada"/>
+		<item id="40" text="Una sola Pàgina"/>
+		<item id="41" text="Continu"/>
+		<item id="42" text="Doble Pàgina"/>
+		<item id="43" text="Continu - Doble Pàgina"/>
+		<item id="44" text="Mida Actual"/>
+		<item id="45" text="Ajustar a la Pàgina"/>
+		<item id="46" text="Ajustar a l&apos;Amplària de la Pàgina"/>
+		<item id="47" text="Ajustar perquè siga Visible"/>
+		<item id="48" text="Memòria física (RAM): %1 total, %2 pot utilitzar-se en pics"/>
+		<item id="49" text="Memòria física (RAM): %1 total"/>
+		<item id="50" text="El Sistema té %1 CPU"/>
+		<item id="51" text="cm"/>
+		<item id="52" text="centímetre"/>
+		<item id="53" text="centímetres"/>
+		<item id="54" text="en"/>
+		<item id="55" text="polzada"/>
+		<item id="56" text="polzades"/>
+		<item id="57" text="mm"/>
+		<item id="58" text="milímetre"/>
+		<item id="59" text="milímetres"/>
+		<item id="60" text="p"/>
+		<item id="61" text="pica"/>
+		<item id="62" text="piques"/>
+		<item id="63" text="pt"/>
+		<item id="64" text="punt"/>
+		<item id="65" text="punts"/>
+		<item id="66" text="Arranca &apos;%1&apos;"/>
+		<item id="67" text="Actualment no hi ha Visors alternatius"/>
+		<item id="68" text="(total %1 Pàgines)"/>
+		<item id="69" text="El Document &quot;%1&quot; està protegit amb clau"/>
+		<item id="70" text="Pàgines del rang"/>
+		<item id="71" text="Pàgines imparelles"/>
+		<item id="72" text="Pàgines parelles"/>
+		<item id="73" text="Cap"/>
+		<item id="74" text="Ajusta als màrgens de la impressora"/>
+		<item id="75" text="Reduïx als màrgens de la impressora"/>
+		<item id="76" text="Organitza les Pàgines llargues"/>
+		<item id="77" text="Organitza todas les Pàgines"/>
+		<item id="78" text="Pàgines Múltiples per full"/>
+		<item id="79" text="En un sol Fitxer d&apos;imatge de diverses Pàgines"/>
+		<item id="80" text="Cada rang en diferents Fitxers d&apos;imàtgens"/>
+		<item id="81" text="Cada Pàgina en diferent Fitxer d&apos;imatge"/>
+		<item id="82" text="La carpeta &quot;%1&quot; ja conté el Fitxer &quot;%2&quot;"/>
+		<item id="83" text="Mida: %1&#10;Modificat: %2"/>
+		<item id="84" text="No ha estat possible escriure el Fitxer &quot;%1&quot;:"/>
+		<item id="85" text="Accepta"/>
+		<item id="86" text="Cancel·la"/>
+		<item id="87" text="Sí"/>
+		<item id="88" text="No"/>
+		<item id="89" text="Cancel·la"/>
+		<item id="90" text="Reintenta"/>
+		<item id="91" text="Ignora"/>
+		<item id="92" text="Intenta"/>
+		<item id="93" text="Continua"/>
+		<item id="94" text="Sí a Tot"/>
+		<item id="95" text="No a Tot"/>
+		<item id="96" text="No ha estat possible crear la carpeta &quot;%1&quot;:"/>
+		<item id="97" text="El Document &quot;%1&quot; ha estat modificat.&#10;&#10;¿Desitgeu desar els canvis abanss de tancar?"/>
+		<item id="98" text="El Document &quot;%1&quot; conté una signatura digital.&#10;La signatura digital es perdrà en desar el Document.&#10;El desament incremental del Document pot evitar-ho però augmentarà la mida del Document.&#10;&#10;¿Desitgeu utilitzar el desament incremental?"/>
+		<item id="99" text="Resum: seleccionades %1 de %2 Pàgines"/>
+		<item id="100" text="Error en imprimir el Document &quot;%1&quot;:&#10;%2"/>
+		<item id="101" text="Nom"/>
+		<item id="102" text="El·lipse"/>
+		<item id="103" text="Enllestit"/>
+		<item id="104" text="Apagada"/>
+		<item id="105" text="Obrint..."/>
+		<item id="106" text="Paper: %1"/>
+		<item id="107" text="Full: %1"/>
+		<item id="108" text="Pàgina: %1"/>
+		<item id="109" text="Pàgines: %1, %2,..."/>
+		<item id="110" text="&lt;En Document actiu (%1)&gt;"/>
+		<item id="111" text="&lt;Examina...&gt;"/>
+		<item id="112" text="&lt;Avançat...&gt;"/>
+		<item id="113" text="Atura Recerca"/>
+		<item id="114" text="Cerca Ara"/>
+		<item id="115" text="Desant imatge en el Fitxer &quot;%1&quot;..."/>
+		<item id="116" text="Creant imatge..."/>
+		<item id="117" text="Exportant a Imatge..."/>
+		<item id="118" text="Processant Pàgina #%1..."/>
+		<item id="119" text="Imprimint..."/>
+		<item id="120" text="Imprimint full #%1..."/>
+		<item id="121" text="Imprimint Pàgina #%1..."/>
+		<item id="122" text="Aturant..."/>
+		<item id="123" text="Preparant..."/>
+		<item id="124" text="Cercant &quot;%1&quot;..."/>
+		<item id="125" text="Resultat de la Recerca: %1 Documents, %2 coincidències"/>
+		<item id="126" text="cancel·lant"/>
+		<item id="127" text="&quot;%1&quot;: obrint..."/>
+		<item id="128" text="&quot;%1&quot;: Pàgina #%2..."/>
+		<item id="129" text="Pàgina #%1..."/>
+		<item id="130" text="Recursos insuficients del sistema per a obrir el Document &quot;%1&quot;:&#10;¡MASSA OBJECTES GDI/USUARI utilitzats per altres aplicacions!&#10;&#10;Per favor, tanqueu altres aplicacions (o Documents d&apos;esta)&#10;per a alliberar recursos del sistema, i inténteu-ho novament..."/>
+		<item id="131" text="Error guardant el Document en &quot;%1&quot;:&#10;%2"/>
+		<item id="132" text="Error obrint el Document &quot;%1&quot;:&#10;%2"/>
+		<item id="133" text="Error obrint el Document:&#10;%1"/>
+		<item id="134" text="¿Desitgeu realment eliminar %1 comentari(s)?"/>
+		<item id="135" text="%1: Comentaris Eliminats"/>
+		<item id="136" text="Elimina sense confirmació en el futur"/>
+		<item id="137" text="Configura esta aplicació com a visor PDF per defecte"/>
+		<item id="138" text="Configura esta aplicació com a visor PDF per defecte i permet mostrar PDF en el navegador"/>
+		<item id="139" text="¿Desitgeu permetre que esta aplicació mostre els PDF en el navegador?"/>
+		<item id="140" text="No preguntes en el futur"/>
+		<item id="141" text="No ha estat possible obrir el &quot;%1&quot;:&#10;%2"/>
+		<item id="142" text="No existix l&apos;adreça"/>
+		<item id="143" text="No ha estat possible executar l&apos;acció &quot;%1&quot; per &quot;%2&quot;:&#10;%3"/>
+		<item id="144" text="L&apos;aplicació està intentant obrir el lloc:&#10;&quot;%1&quot;&#10;&#10;¿És un lloc de confiança?"/>
+		<item id="145" text="%1: Advertiment d&apos;Obertura de Lloc"/>
+		<item id="146" text="Recordar l&apos;elecció per a este lloc"/>
+		<item id="147" text="L&apos;aplicació &quot;%1&quot; serà arrancada per este Fitxer PDF.&#10;El Fitxer podria contindre programes, macros o virus que podrien danyar l&apos;ordinador.&#10;Obriu el Fitxer només si teniu la certesa que és segur.&#10;&#10;Si el posà una persona o programa de confiança, podeu polsar Obri per a  visualitzar el Fitxer."/>
+		<item id="148" text="Arranca: %1"/>
+		<item id="149" text="No mostres més este missatge"/>
+		<item id="150" text="Pàgina %1"/>
+		<item id="151" text="Menú"/>
+		<item id="152" text="Fitxer"/>
+		<item id="153" text="Estàndard"/>
+		<item id="154" text="Zoom"/>
+		<item id="155" text="Vista girada"/>
+		<item id="156" text="Troba"/>
+		<item id="157" text="Comentaris i marques"/>
+		<item id="158" text="Propietats"/>
+		<item id="159" text="Propietats de l&apos;Eina Fletxa"/>
+		<item id="160" text="Propietats de l&apos;Eina Línia"/>
+		<item id="161" text="Propietats de l&apos;Eina Rectángulo"/>
+		<item id="162" text="Propietats de l&apos;Eina El·lipse"/>
+		<item id="163" text="Propietats de l&apos;Eina Polígono"/>
+		<item id="164" text="Propietats de l&apos;Eina Línia Poligonal"/>
+		<item id="165" text="Propietats de l&apos;Eina Llapis"/>
+		<item id="166" text="Propietats de l&apos;Eina Núvol"/>
+		<item id="167" text="Propietats de l&apos;Eina Segell"/>
+		<item id="168" text="Propietats de l&apos;Eina Escriptura"/>
+		<item id="169" text="Propietats de l&apos;Eina Quadre de Text"/>
+		<item id="170" text="Propietats de l&apos;Eina Llamada"/>
+		<item id="171" text="Propietats de l&apos;Eina Nota"/>
+		<item id="172" text="Propietats de l&apos;Eina Resalta Text"/>
+		<item id="173" text="Propietats de l&apos;Eina Subratlla Text"/>
+		<item id="174" text="Propietats de l&apos;Eina Ratlla Text"/>
+		<item id="175" text="Propietats de l&apos;Eina Reemplaça Text"/>
+		<item id="176" text="Propietats de Fletxa"/>
+		<item id="177" text="Propietats de Línia"/>
+		<item id="178" text="Propietats de Rectangle"/>
+		<item id="179" text="Propietats de El·lipse"/>
+		<item id="180" text="Propietats de Polígon"/>
+		<item id="181" text="Propietats de Línia Poligonal"/>
+		<item id="182" text="Propietats de Llapis"/>
+		<item id="183" text="Propietats de Núvol"/>
+		<item id="184" text="Propietats de Segell"/>
+		<item id="185" text="Propietats d&apos;Escriptura"/>
+		<item id="186" text="Propietats de Quadre de Text"/>
+		<item id="187" text="Propietats de Crida"/>
+		<item id="188" text="Propietats de Nota"/>
+		<item id="189" text="Propietats de Resalta Text"/>
+		<item id="190" text="Propietats de Subratlla Text"/>
+		<item id="191" text="Propietats de Ratlla Text"/>
+		<item id="192" text="Propietats de Reemplaça Text"/>
+		<item id="193" text="Fletxa"/>
+		<item id="194" text="Línia"/>
+		<item id="195" text="Rectangle"/>
+		<item id="196" text="El·lipse"/>
+		<item id="197" text="Polígon"/>
+		<item id="198" text="Línia Poligonal"/>
+		<item id="199" text="Llapis"/>
+		<item id="200" text="Núvol"/>
+		<item id="201" text="Segell"/>
+		<item id="202" text="Circumflex"/>
+		<item id="203" text="Quadre de Text"/>
+		<item id="204" text="Nota"/>
+		<item id="205" text="Resaltar"/>
+		<item id="206" text="Subratllar"/>
+		<item id="207" text="Ratlla"/>
+		<item id="208" text="Fitxer Adjunt"/>
+		<item id="209" text="So"/>
+		<item id="210" text="Format de Text"/>
+		<item id="211" text="Sense Emplenament"/>
+		<item id="212" text="Sense Traç"/>
+		<item id="213" text="Més Colors..."/>
+		<item id="214" text="Indeterminat"/>
+		<item id="215" text="Indefinit"/>
+		<item id="216" text="Color"/>
+		<item id="217" text="Propietats..."/>
+		<item id="218" text="No Reconegut"/>
+		<item id="219" text="Desconegut"/>
+		<item id="220" text="Cap"/>
+		<item id="221" text="Sense Títol"/>
+		<item id="222" text="Aparença"/>
+		<item id="223" text="Opcions d&apos;Aparença"/>
+		<item id="224" text="Descripció"/>
+		<item id="225" text="Informació de la Descripció"/>
+		<item id="226" text="Tipus de lletres"/>
+		<item id="227" text="Tipus de lletres Utilitzats en el Document"/>
+		<item id="228" text="Seguretat"/>
+		<item id="229" text="Seguretat i Restriccions del Document"/>
+		<item id="230" text="Clau de Seguretat"/>
+		<item id="231" text="No Permés"/>
+		<item id="232" text="Resolució Baixa"/>
+		<item id="233" text="Resolució Alta"/>
+		<item id="234" text="Permés"/>
+		<item id="235" text="Carregant recursos..."/>
+		<item id="236" text="Inicialitzant..."/>
+		<item id="237" text="Res"/>
+		<item id="238" text="Quadrat"/>
+		<item id="239" text="Cercle"/>
+		<item id="240" text="Rombe"/>
+		<item id="241" text="Fletxa Oberta"/>
+		<item id="242" text="Fletxa Tancada"/>
+		<item id="243" text="Extrem"/>
+		<item id="244" text="Fletxa Oberta (inversa)"/>
+		<item id="245" text="Fletxa Tancada (inversa)"/>
+		<item id="246" text="Barra Obliqua"/>
+		<item id="247" text="Marques"/>
+		<item id="248" text="Pàgines"/>
+		<item id="249" text="Camps"/>
+		<item id="250" text="Capes"/>
+		<item id="251" text="Comentaris"/>
+		<item id="252" text="Tanca la Pestanya"/>
+		<item id="253" text="%1 Tipus de lletres Trobades"/>
+		<item id="254" text="de %1"/>
+		<item id="255" text="%1&#10;&#10;Títol: %2&#10;&#10;Autor: %3&#10;&#10;Assumpte: %4&#10;&#10;Paraules Clau: %5&#10;&#10;Pàgines: %6"/>
+		<item id="256" text="Pàgina #%1"/>
+		<item id="257" text="Pàgina #%1:&#10;%2"/>
+		<item id="258" text="Cerca PDF"/>
+	</strings>
+</Localization>

@@ -1,0 +1,111 @@
+﻿TeamViewer® End-User License Agreement
+ 
+
+This End-user License Agreement including its Annex (“EULA”) applies to you and TeamViewer GmbH (“TeamViewer” or “We”) for the licensing and use of our software, which includes the TeamViewer software and all versions, features, applications and modules thereto (“Software”). This EULA also covers any associated media, printed materials and electronic documentation that we make available to you (with our Software and “Product”). Future releases of our Product may warrant amendments to this EULA.
+
+BY CLICKING “I ACCEPT” DOWNLOADING OR OTHERWISE USING OUR SOFTWARE, YOU AGREE TO ALL TERMS AND CONDITIONS OF THIS EULA. IF YOU DO NOT AGREE TO ANY OF THE TERMS OF THIS EULA, PLEASE IMMEDIATELY RETURN, DELETE OR DESTROY ALL COPIES OF OUR SOFTWARE IN YOUR POSSESSION.
+
+1. LICENSE GRANT
+We hereby grant you a license to use the Product during the license term that is indicated on your software order form (“Software Order Form”). The license granted is non-exclusive, non-transferable and its scope is dependent on the type of license you purchase and whether you use the Software for personal or commercial use. Details are set out in your Product Documentation. “Product Documentation” means your Software Order Form, the pricing terms published by us on www.teamviewer.com or any written communication you have received from us regarding your license.
+
+If your license is limited to a certain number of workstations, virtualized desktops or computers or other hardware running multiple operating systems shall each be counted as individual workstations towards the total count. Moving the Software onto another workstation is limited and only intended for replacement. If installed in a Terminal Server environment, the license is user based, a separate license for each user is required.
+
+If you want to use the Software with several users concurrently, each user requires the respective additional license.
+
+2. RESTRICTIONS
+Unless expressly provided in this EULA, you may not directly or indirectly:
+
+(i) 	
+Transfer, assign or sub-license your license rights to any other person or entity, or use or permit our Software to be used for third-party services. (You acknowledge that any attempted transfer, assignment, sub-license or use will be void.)
+
+(ii) 	
+Make error corrections to or otherwise modify or adapt the Product or decompile, decrypt, disassemble, reverse engineer or attempt to reconstruct or discover any source code or underlying ideas, algorithms, file formats or programming or interoperability interfaces of the Product or of any files contained in or generated using the Product or otherwise reduce the Product to human-readable form.
+
+(iii) 	
+Circumvent or provide a method to circumvent any Technological Protection Measures (TPM) in the Product.
+
+(iv) 	
+Use the Product in any manner that we do not expressly authorize in this Eula.
+
+3. APPLICATION PROGRAMMING INTERFACES / THIRD PARTY SOFTWARE
+We might offer you Application Programming Interfaces or other software interfaces (“API”) that enable you to interact with Software via applications or other software of you or third parties (“Third Party Software”). This shall not constitute a legal claim to such service offered, we may also cease to provide such service at any time. As far as this API is provided by TeamViewer, such API shall constitute a Product for the purpose of this EULA. In case you use such Third Party Software, such use shall not be governed by this EULA. TeamViewer is not responsible for any Third Party Software or any interfaces of you or third parties, unless provided for under applicable mandatory law.
+
+4. CONFIDENTIALITY
+Our Product includes significant elements (e.g., organization, algorithms, logic) that we maintain as confidential information; it is a trade secret of and proprietary to us, our suppliers or licensors, including the specific internal design and structure of individual programs and associated interface information. You must maintain our Product in confidence and prevent disclosure of its confidential aspects. Our Product is protected by US, EU and international patent, copyright, or other laws and treaties.
+
+5. RESERVATION OF RIGHTS
+You acknowledge that all intellectual property rights in our Product belong to us and our licensors. Rights in our Product are licensed (not sold). You have no right or title in our Product other than the limited right granted under this EULA. We, and our licensors, retain ownership of all copies of our Product and reserve all rights not expressly granted to you under this EULA.
+
+6. DATA PROTECTION
+TeamViewer and you shall comply with the provisions of applicable data protection laws. TeamViewer takes the protection of your personal data very seriously and strictly abides by the data protection laws that apply to it. TeamViewer collects, processes and uses your data for the implementation and processing of the contractual relation with you, in particular for successfully establishing connections over the Internet. Your data will not be shared with third-party advertisers without your prior consent. Non-personal or anonymous data may be collected automatically to improve functionality and your experience with our Product, in particular to facilitate and improve the provision of software updates, Support, Content, TPM and other services. You agree that any non-personal or anonymous data collected may be sent to any of our worldwide offices or affiliates for processing.
+
+In case you use any Third Party Software, TeamViewer is not responsible for any data you share with Third Party Software. In such case, your relationship with the Third Party Software will govern the protection of your data.
+
+7. CONTENT UPDATES, TPMs
+Automatic synchronization or updates with our servers or systems is sometimes required to ensure optimum use (“Content”). Such content may periodically be provided to you in various formats. Our products may also contain TPMs such as a license key or code preventing unlimited copying, or limiting time of use or functionality based on the license you purchased. You also agree to let our Product automatically contact us to receive Content.
+
+8. FEES/TAXES (in cases of commercial use only)
+You agree to pay us all fees detailed on your Software Order Form in accordance with the agreed upon payment terms. Fees do not include sales, use, value added or other taxes (including applicable withholding taxes), all of which are your responsibility. Bank and credit card charges at your expense. All fees are payable in the currency indicated on your Software Order Form, within 14 days after the date of our invoice. Overdue amounts may be subject to a service charge of 1.5% per month, but no more than the amount allowed by law.
+
+9. TERM AND TERMINATION
+You may cancel your purchase of our Product within 7 days from the date of purchase by sending an email or letter to the address shown in section 17.
+
+With a subscription license, your right to use the product ends immediately upon expiration of the license term noted on your Software Order Form. Subscription licenses for one month periods shall renew automatically for another one month period upon expiration of each month, unless you cancel by written notice to us no later than 14 days before expiration of the then current month. Subscription licenses for one year periods shall renew automatically for another one year period upon expiration of each year, unless you cancel by written notice to us no later than 28 days before expiration of the then current year. We may increase the prices for subscription licenses at any time after we have notified you by email at least 14 days in advance. You may cancel your subscription in writing before the new price becomes effective. If you are a private user, either party may terminate the license granted at any time.
+
+We may immediately terminate, wholly or partly, this EULA and your right to use our Product and seek other remedies if you breach any of your obligations. Upon termination, you must cease all use of our Product, destroy all copies of our Product and all of its component parts, or, at our request, return such copies and parts to us.
+
+Important note: Sections 2, 3, 4, 5, 7, 8, 9 and 12-18 of this EULA remain enforceable after termination.
+
+10. EXPORT CONTROLS
+You agree that our Product will not be used, shipped, transferred or exported into any country or to anyone in violation of EU or US export control regulations or in any manner prohibited by the EU Common Foreign and Security Policy or the United States Export Administration Act. Using our Product is acknowledgement that you are not located in, a resident of or under the control of any such country. Furthermore, you take complete responsibility for use of our Product.
+
+11. WARRANTY
+We warrant to our commercial users that our Product is free from material defects for a period equal to the lesser of your license term set forth on your applicable Software Order Form or two years from the date you received our Product.
+
+A warranty for defects is not provided to private users, unless the defect was maliciously concealed. Any supplements or updates to our Product, including any service packs, patches or fixes provided to you and any third-party proprietary or open source software contained in our Software are not covered by any warranty. They are provided “as is”. This warranty is specifically for you and cannot be transferred.
+
+The above regulations will not affect any other rights you have by law. Rectification is free of charge for you. Warranty claims are excluded, if failure of our Product results from accident, abuse, misapplication, abnormal use, a virus, or use after an upgrade was made available to you.
+
+EXCEPT AS OUTLINED ABOVE, OUR PRODUCT IS PROVIDED TO THE USER “AS IS”. WE DO NOT GUARANTEE THAT THE SPECIFICATIONS OR FUNCTIONS CONTAINED IN OUR PRODUCT WILL MEET YOUR REQUIREMENTS, THAT THE OPERATION OF OUR PRODUCT WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS IN OUR PRODUCT WILL BE CORRECTED. WE DO NOT GUARANTEE THAT THE PRODUCT WILL WORK WITH THIRD-PARTY SOFTWARE OR OTHER PRODUCTS. FURTHERMORE, WE DO NOT GUARANTEE THAT THE PRODUCT OR SPECIFICALLY DESIGNED VERSIONS WILL CONTINUE TO BE AVAILABLE THROUGH THIRD-PARTY ONLINE STORES OR MARKETS, OR FOR SPECIFIC DEVICES OR SYSTEMS MANUFACTURED BY THIRD PARTIES.
+
+12. LIMITATION OF LIABILITY
+Unless otherwise noted in this EULA, TeamViewer shall be liable in case of breach of contractual and non-contractual obligations as provided for under applicable law. We are liable for damages – for whatever legal reason – only in cases of intent or gross negligence. We are also liable for damages to commercial users in cases of simple negligence resulting in injury to life, body or health, or resulting in a breach of an essential contractual obligation. In that case, however, liability shall be limited to replacement of the foreseeable, typical damage. In no event are we liable for any special, incidental, indirect or consequential damages whatsoever. The above limitations of liability do not apply if we maliciously concealed a defect or assumed liability for the condition of the goods. The same will not apply to your claims under the German Product Liability Act, if this EULA is subject to German law pursuant to section 14. You may terminate or rescind this EULA due to breach of obligation that does not constitute a defect, only if TeamViewer is responsible for such breach of obligation. Any other ordinary right of termination shall be excluded for you. Unless provided for under applicable mandatory law, we have no liability for Third Party Software and your use of Third Party Software.
+
+13. INDEMNIFICATION
+You agree to indemnify and hold TeamViewer, its parent, partner, or subsidiary organizations, officers, agents and employees, harmless from any claim, loss, demand, or damage, including reasonable attorneys' fees, asserted by any third party resulting from your breach of any provision of this EULA, your negligent or wrongful acts, and/or your violation of any applicable laws.
+
+14. ENTIRE AGREEMENT
+This EULA (including your Software Order Form, each as amended from time to time) is the entire agreement relating to our Product; it supersedes all prior or contemporaneous oral or written communications, proposals and representations with respect to our Product. This EULA prevails over any conflicting or additional terms of any purchase order, ordering document, acknowledgement, confirmation or other document issued by you – even if signed and returned by us, or if such a purchase order or other document issued by you contains language to the contrary. To the extent the terms of any TeamViewer Terms of Sale, frequently asked questions (FAQs), policies or programs conflict with the terms of this EULA, the terms of this EULA will prevail and control.
+
+15. GOVERNING LAW
+If you obtained our Product in or are habitually resident anywhere other than the USA, South America or Canada, this EULA is governed by the laws of Germany. The parties, in turn, unconditionally and irrevocably consent to the exclusive jurisdiction of the courts in Göppingen, Germany. If you obtained our Product in or are habitually resident within the USA, South America or Canada, this EULA is governed by the laws of the State of New York, US, excluding its conflict of laws provisions (and excluding the Uniform Commercial Code) and the parties unconditionally and irrevocably consent to the exclusive jurisdiction of the courts in Manhattan, New York. The parties waive any objection with respect to the above, for the purpose of any action, suit or proceeding that relates to this EULA.
+
+16. COMMERCIAL SOFTWARE
+If you are obtaining software on behalf of any part of the United States government, our Product is be deemed "commercial software" and "commercial computer software documentation", respectively, pursuant to DFAR Section 227.7202 and FAR 12.212 and 52.227-19, as applicable. Any use, modification, reproduction, release, performance, display or disclosure of our Product is governed solely by the terms of this EULA, and is prohibited except to the extent expressly permitted by the terms of this EULA.
+
+17. MISCELLANEOUS
+(i) 	
+In the event this EULA or any part thereof is found illegal, invalid or unenforceable, the parties shall agree on a provision that best reflects the respective clause and that is legal, valid and enforceable.
+
+(ii) 	
+Nothing in this EULA, express or implied, is intended to infringe on the legal rights of any other person or entity.
+
+(iii) 	
+You may assign, pledge or otherwise transfer this EULA, or any rights or obligations hereunder to a third party only with our prior written approval.
+
+(iv) 	
+Headings are solely for convenience; they serve no other purpose and should not be interpreted.
+
+18. NOTICES
+All notices must be made in writing. An email is sufficient. All notices must be addressed to:
+
+TeamViewer GmbH
+Legal Department
+C/O: General Manager
+Jahnstr. 30
+73037 Göppingen
+Email: legal@teamviewer.com
+
+Copyright © 2014 TeamViewer GmbH. All rights reserved. All trademarks belong to their respective owners.
+
+Windows® is a trademark of the Microsoft group of companies. iPhone® and iPad® are trademarks of Apple Inc., registered in the U.S. and other countries. Android™ is a trademark of Google Inc.

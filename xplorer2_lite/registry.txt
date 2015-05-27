@@ -1,0 +1,208 @@
+
+--------------------------------------------------------
+                     ***WARNING***
+EDITING THE REGISTRY CAN RENDER YOUR COMPUTER UNUSABLE. 
+UNLESS YOU ARE 100% CERTAIN YOU KNOW WHAT YOU ARE DOING, 
+YOU ARE ADVICED NOT TO MODIFY IT IN ANY WAY.
+--------------------------------------------------------
+
+
+A. HOW TO MAKE XPLORER² YOUR DEFAULT FOLDER APPLICATION
+
+see this blog post
+http://zabkat.com/blog/replace-explorer-2.5.htm
+
+
+
+B. TWEAKING ADVANCED SETTINGS FOR XPLORER²
+
+--------------------------------------------------------------------------
+NOTE: There is a GUI tool that allows you to edit all these options so you
+	don't need to hack your registry. Check your installation folder for
+	x2SettingsEditor (or use the Start menu shortcut). 
+	Or use Tools > Advanced options menu command. This is how it looks:
+	http://zabkat.com/pic/guireg.png
+
+	x2SettingsEditor /A to edit the ANSI/lite options
+--------------------------------------------------------------------------
+
+
+The main registry key is: HKEY_CURRENT_USER\Software\ZabaraKatranemia Plc\xplorer2 — or xplorer2_UC if you have the unicode version installed. Whenever you want to change a value, follow these steps:
+
+* EXIT all running instances of xplorer² (this is essential)
+* Start regedit using Start | Run (or equivalent)
+* Locate the main key where xplorer² keeps its settings
+* Double-click on a "variable" name to change its value
+
+Most options have self-descriptive names, so it shouldn't be hard to imagine what each variable does. As a general further hint, names that begin with 'b' (e.g. bUnderline) refer to on/off (boolean) settings. Setting the value to 0 turns the option off, any other value enables it. Names starting with 'n' imply a number of some sort, and those with 'sz' are strings. Hungarian people talk like that, alledgedly <g>.
+
+Names that start with "bin" imply values that are made up as the sum of individual bits. Please sum up all the numbers representing the options you want and set this total number to the "bin" value.
+
+Values that correspond to time intervals are measured in milli-seconds. So if you want to set one to 2 sec, set it to 2000.
+
+
+Here's a description of settings you may want to experiment with, organized by subkey. A [*] next to a value below stands for the default setting. Whenever you want to reset a value, just delete it altogether. When changing values, make sure you switch to decimal (not hex) input mode in regedit.
+
+
+[xplorer2(_UC).global] ///////////////
+
+szAudioExtList  comma separated list of extensions for "exotic" audio files, e.g. "foo,bar,wm4"
+szVideoExtList  comma separated list of extensions for "exotic" video files, e.g. "ogg,bar,wmdd4"
+nCustMenuIcons  20[*] how many bookmarks, user commands etc that can be placed on toolbars (5-100)
+nMenuBreak      0[*] optional column break for long menus every X commands (X=25-50)
+szAltBrowser    path to your preferred browser (eg c:\pathto\firefox.exe) used for on-board HTML help
+nUnbufferedCopyMB 1024[*] Files bigger than this limit are (robust) copied without buffering
+szSystemPropsList comma-separated list of system properties to extend the detailed columns 
+
+binLogs -> progress logging control bits [default = all on(-1)]
+	DOLOG_FSEARCH  1 /* log during file search */
+	DOLOG_ROBACOPY 2 /* log during robust copy */
+	DOLOG_ROBADEL  4 /* log during robust delete */
+
+binMiscOptions -> miscellaneous options [default = 0]
+	GAOPT_NOBGTHUMBS 64 /* no background threading for thumbnails, saves custom DLL GPFs */
+	GAOPT_NOCUSTOMICONS 256 /* stops extracting custom drive icons (for non-standard >32x32 icon sizes) */
+	GAOPT_THREADEDPDF   512 /* allow pdf text background extraction (requires Adobe Reader 7+) */
+	GAOPT_NOVISTAGLASS 1024 /* disable fancy selection bars etc in vista, make it look like XP */
+	GAOPT_VISTADDICONES 2048 /* show images while drag drop (default=OFF since it crashes some vistas) */
+	GAOPT_FOLLOWJUNCTIONS 4096 /* treat junctions as normal folders for search, flatten etc */
+	GAOPT_COLCALWAYS   8192 /* filename color coding applied even in inactive views */
+	GAOPT_NOCASCADEFRW 32768 /* don't open new frame windows cascaded (displaced bottom/right) */
+	GAOPT_IGNOREADSERR 65536 /* robust copy operations won't complain for file stream loss for FAT32 */
+	GAOPT_NOREPLACETSR 262144 /* in explorer replacement mode don't remain resident after all windows are closed */
+	GAOPT_NOBROWSECPAN 524288 /* don't browse control panel, leave for windows explorer */
+	GAOPT_NOROBUSTDEL 1048576 /* don't use robust delete engine, everything goes through windows explorer */
+	GAOPT_SAVEUNICODETXT 8388608 /* paste text in folder (x2scrap.txt) saved as unicode file */
+	GAOPT_NOTHUMBCACHE 16777216 /* don't use windows XP thumbs.db thumbnail cache */
+	GAOPT_NOX2SHCMENU 33554432 /* don't add xplorer2 items in shell context menu */
+	GAOPT_NODESKSEARCH 67108864 /* disable desktop search */
+
+File types
+List of comma-separated wildcards that correspond to each file type, e.g. audio, video etc. You can extend a category by editing its content and adding (or removing) the wildcards to taste. You can even add categories of your own; just add a new string (REG_SZ) value, give it a descriptive name and fill it with the wildcards that define it.
+
+Find Blacklist
+Full paths to folders you want excluded from being searched by "Find files" — they won't be flattened either. You can add extra trouble-making folders as necessary. If you remove any folders, please make sure the remaining list has consecutive folder numbering. The easiest solution is to rename the last folder to the ordinal of the folder you deleted.
+
+Transformation rules
+If you want more default rules for Mark | Check build, please add them here.
+
+Regex abbrevs
+List of regular expression abbreviations. Name is the single letter of the abbreviation and content is the equivalent regular expression
+
+
+[xplorer2(_UC)] //////////////////////
+
+NAME              VALUE
+---------------------------------------------------------------------
+nKBSizeDecimals   1[*] How many decimals to show for compressed mode sizes, eg 1.01kb vs 1.006kb
+bSortZipAsFiles   0: as folders 1: as files[*] (when zipfolders are supported)
+nFocusTimeoutMS   500[*] timeout (in millisec) affecting the previewer and tree autoupdates
+                  The default is to wait 0.5 sec before e.g loading a file's preview, giving
+                  you time to scroll without loading previews for each file you come across.
+nHoverTimeoutMS   1000[*] likewise this is the time you have to hover on a tab or tree node
+                  while dragging, before x2 automatically opens the tab or tree node.
+nRefreshTimeoutMS 500[*] delay between receipt of filesystem change and actual pane refresh
+                  too small values will wastefully refresh views too often bogging down the CPU
+nCopyThrottleMS   0[*] optional MS delay introduced to slow down robust transfers
+                  saves on system resource use but makes copies slower; small values (<500) recommended
+rgbFolderLinkcol  RGB color for hilighting the active subpath in pane titlebars [-1 for default]
+rgbActiveBgcol    RGB color overriding the white background of active folder panes [-1 for default]
+rgbFilterBgcol    RGB color override for folder panes with an active visual filter [-1 for default]
+nToolFont100      90[*] percent increase (e.g. 110) or decrease (e.g. 90) for toolbar font size
+szEditor2Path     path for editor2, the preferred viewer association (automatically set by x2)
+szExtFindFiles    path for external find files program [default is explorer] e.g. c:\tools\finder "%s"
+                  "%s" should be included; the current folder path is passed as an argument there
+                  (this option is only available for the lite version)
+bSingleWindow     0[*] If 1 then only one window is used for all folders, even when you launch/clone
+                  a separate x2 instance. If set to 2, then a new tab will be opened.
+                  (if this value doesn't exist just create it as a REG_DWORD)
+binFileOpFlags    0[*] bitfield with options for file copies initiated through drag-drop or Paste
+                  FOF_NOCONFIRMATION would result in no file overwrite warnings etc
+szNewFileExt      Optional extension for NewFile (F7) command, e.g. "txt" will create text files
+nThumbSpacing     3[*] How many pixels to leave between each thumbnail; set 0 for default spacing
+nThumbMini100     60[*] How much % smaller is the mini-thumb compared to the normal thumbnail view mode
+nCodePage         1253[*] Custom codepage for text file encoding used for Mark > Containing text menu
+nMaxTButWidth     64[*] Maximum toolbar button width affecting text labels
+szFastSearchProps Comma separated list of system properties to use for Fast Search command (default all)
+nCharsAutoFilter  3[*] Number of characters typed in the active pane in quick succession that activate  
+                  the automatic jump to the filter box, for easy visual filtering. 0 to disable.
+szCustomDateFormat show the date columns in a custom format (other than the default in control panel)
+szCustomTimeFormat ditto for time formatting
+szQVDraftExtList  comma separated list of extensions that are allowed to be previewed in DRAFT mode
+                  (default all file types previewed, set to "txt,jpg" to only allow txt & jpg files)
+szQVNativeExtList ditto for NATIVE preview mode (quick previewer tab)
+nMarkNewFileMS    Time in milliseconds to wait for new files arriving after a paste operation and
+                  mark (select) them. Set to 0 to disable this "mark new items" feature
+
+binMiscOptions -> miscellaneous options [default = 0]
+	GIOPT_NOED209      1 /* don't use editor2 at all */
+	GIOPT_ALTAREFRESH  4 /* backup autorefresh mechanizm */
+	GIOPT_SAVEF5DIRS  16 /* save all copy target folders in F5 dialog history */
+	GIOPT_SHOWALLHIDDEN 256 /* when hidden files enabled show superhidden too (protected OS) */
+	GIOPT_NOKEYSENDMS 1024 /* disallow <Ctrl+S> sending items to mini-scrap pane */
+	GIOPT_NOPOSHREFRESH 4096 /* turn off the "modern" refresh system; should be used with GIOPT_ALTAREFRESH */
+	GIOPT_ADDRBARENDOK 8192 /* addressbar will activate as you select an item from history list (ENTER not required) */
+	GIOPT_DIREXTENSIONS 16384 /* enables filename "extensions" for folders (past the dot) */
+	GIOPT_PROTECT1SEL 65536 /* "eat first click" option will protect even single item selections */
+	GIOPT_ROBUSTPASTE 131072 /* implement Edit | Paste command robustly, no explorer */
+	GIOPT_CACHETHUMBS 524288 /* items cache their preview bitmaps (not recommended!) */
+	GIOPT_NOLEFTDND 4194304 /* disable LEFT drag-drop to avoid move accidents (right-drag still works) */
+	GIOPT_NOCOLCACHE 16777216 /* don't cache shell column information (for CVS users) */
+	GIOPT_RENFULLNAME 33554432 /* F2 selects all filename, including the extension before rename */
+	GIOPT_NODIRTHUMBS 134217728 /* don't extract folder thumbnails in XP (can get slow) */
+	GIOPT_ROBUSTMOVE 268435456 /* F6 move command done robust even in same partition (slow!) */
+	GIOPT_PACKEDTHUMBS 536870912 /* tight thumbnail spacing mode; no room for name underneath */
+
+
+bSantasLittleHelper
+This controls whether x2 uses a background thread to do time-consuming tasks like thumbnail extraction etc. To turn it off set it to 0 (not recommended). A value of 2 (default) uses the background thread but running at a lower priority so as not to interfere with the main program. If you find that the columns take ages to fill up (especially when other programs are running) you may set bSantasLittleHelper to 1 and it will run at the same priority level as the main program.
+
+
+[MainFrame Settings] ////////////
+binDualPaneFlags [default = 9]
+	DPF_SHOWHEADERS         8 /* show titlebar for each view pane */
+	DPF_NOHEADERSUBPATHS  128 /* they exist but ain't clickable */
+	DPF_X2TITLETRAIL     4096 /* mainframe shows xplorer2 LAST in titlebar */
+	DPF_MINIMIZE2TRAY    8192 /* main window minimizes to tray (use in conjunction with bSingleWindow) */
+	DPF_CASCADECRUMBS   16384 /* breadcrumb menu shows popups with complete folder hierarchy */
+	DPF_XPTABHILITE     32768 /* active tab has an orange tinge like in XP */
+	DPF_SHOW1TAB        65536 /* forces tab strip visibility even when only one tab is available */
+	DPF_NOMIDDLECLOSE  131072 /* mouse middle/double click won't close tabs */
+	DPF_NOMENU         262144 /* no main menu bar shown, commands from toolbars */
+
+msFreeSpaceUpdateInterval 20000[*] if you want to have the disk free space shown on the status bar, set this to a non-zero value. E.g. 5000 means "check the free space every 5 seconds". Set to 0 to omit the indicator altogether
+
+Recent Document List\DocumentCount [4] increase if you want to see more recently used documents in mini scrap context menu
+
+binTreeOptions [default = 3]
+	FTCOPT_OPENSUBFOLDERS 64 /* when synchronizing with view, expand subtree of active node */
+
+
+
+[xxx pane settings] /////////////
+(similar settings for both left/right, mini and scrap panes)
+
+binMiscOptions    a value made up of any of the next "bits" added up
+	CLVOPT_DISABLEAUTOREFRESH 1 /* patch/efficiency improvement for multi-folder views */
+	CLVOPT_NAGGINGSCRAP       64 /* scrap frames always asking to save contents */
+	CLVOPT_ARROWTABPANE      256 /* use left/right arrows to switch panes in detailed view */
+	CLVOPT_MINIVNONAGS      8192 /* opposite to nagging scrap, never prompts to save changes */
+	CLVOPT_AUTOSAVESCRAP   32768 /* automatically save contents in CIDA file, even without filename */
+	CLVOPT_NOSELCOLLAPSED 262144 /* don't allow items to be selected in collapsed group */
+
+
+[CommandFrame Settings] /////////
+
+This is the console used for DOS command execution, if enabled. 
+nConsoleMaxChars is the upper limit on characters. If reached, some of the older data in the window will start getting deleted.
+
+
+[QuickView] /////////////////////
+
+binRELangOptions 
+If you find that the text previewer gets its fonts mixed up or misbehaves (especially in east european countries), try setting this value to 0. You can also use any of the richedit IMF_xxx constants. If you make things worse you can always set it back to the default [-1].
+
+
+------------------------------------------------------------------------
+WWW:    http://www.zabkat.com/
+Forum:  http://www.netez.com/bbs/

@@ -1,0 +1,3221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+	<Product id="PXCView" version="1.0" productVersion="2.5.0206.0000" order""/>
+	<language eName="Chinese (Taiwan)" lName="正體中文 (台灣)" lcid="0x0404" prefFont="微軟正黑體"/>
+	<commands>
+		<item id="80" title="" tooltip="" status="檔案(&amp;F)" short=""/>
+		<item id="32316" title="返回" tooltip="返回" status="" short=""/>
+		<item id="32317" title="前進" tooltip="前進" status="" short=""/>
+		<item id="32609" title="放大鏡工具(&amp;L)" tooltip="放大鏡工具" status="放大鏡工具" short=""/>
+		<item id="32610" title="放大工具(&amp;I)" tooltip="放大工具" status="放大工具" short="放大工具"/>
+		<item id="32611" title="縮小工具(&amp;O)" tooltip="縮小工具" status="縮小工具" short="縮小工具"/>
+		<item id="32613" title="手形工具(&amp;H)" tooltip="手形工具" status="手形工具" short=""/>
+		<item id="32614" title="快照工具(&amp;S)" tooltip="快照工具" status="快照工具" short=""/>
+		<item id="32620" title="選取工具(&amp;L)" tooltip="選取文字/物件工具" status="選取文字/物件工具" short=""/>
+		<item id="32884" title="前往(&amp;G)" tooltip="" status="" short=""/>
+		<item id="32885" title="第一頁(&amp;F)" tooltip="轉到第一頁" status="轉到第一頁" short=""/>
+		<item id="32886" title="上一頁(&amp;P)" tooltip="轉到上一頁" status="轉到上一頁" short=""/>
+		<item id="32887" title="下一頁(&amp;N)" tooltip="轉到下一頁" status="轉到下一頁" short=""/>
+		<item id="32888" title="最末頁(&amp;L)" tooltip="轉到最末頁" status="轉到最末頁" short=""/>
+		<item id="32889" title="頁面(&amp;G)..." tooltip="" status="" short=""/>
+		<item id="32890" title="上一檢視" tooltip="轉到上一檢視" status="" short=""/>
+		<item id="32891" title="下一檢視" tooltip="轉到下一檢視" status="" short=""/>
+		<item id="32892" title="上一文件" tooltip="" status="" short=""/>
+		<item id="32893" title="下一文件" tooltip="" status="" short=""/>
+		<item id="32895" title="單頁(&amp;S)" tooltip="單頁" status="" short=""/>
+		<item id="32896" title="連續(&amp;C)" tooltip="連續" status="" short=""/>
+		<item id="32897" title="對開(&amp;F)" tooltip="對開" status="" short=""/>
+		<item id="32898" title="連續 - 對開(&amp;O)" tooltip="連續 - 對開" status="" short=""/>
+		<item id="32899" title="縮放至..." tooltip="選擇此文件的縮放比例" status="選擇此文件的縮放比例" short=""/>
+		<item id="32900" title="實際大小(&amp;A)" tooltip="顯示實際頁面大小" status="顯示實際頁面大小" short=""/>
+		<item id="32901" title="符合頁面(&amp;P)" tooltip="符合頁面到目前檢視" status="符合頁面到目前檢視" short=""/>
+		<item id="32902" title="符合寬度(&amp;P)" tooltip="符合寬度到目前檢視" status="符合寬度到目前檢視" short=""/>
+		<item id="32903" title="符合可見區域(&amp;V)" tooltip="符合寬度到可見區域" status="符合寬度到可見區域" short=""/>
+		<item id="32904" title="放大" tooltip="放大" status="放大" short=""/>
+		<item id="32905" title="縮小" tooltip="縮小" status="縮小" short=""/>
+		<item id="32906" title="參數設定(&amp;N)..." tooltip="顯示程式的參數設定..." status="顯示程式的參數設定..." short=""/>
+		<item id="32907" title="" tooltip="顯示此文件的頁面總計" status="" short=""/>
+		<item id="32908" title="檔案工具列(&amp;F)" tooltip="顯示/隱藏檔案工具列" status="顯示/隱藏檔案工具列" short=""/>
+		<item id="32909" title="" tooltip="頁碼" status="" short="頁碼:"/>
+		<item id="32910" title="書籤(&amp;B)" tooltip="顯示/隱藏書籤窗格" status="顯示/隱藏書籤窗格" short=""/>
+		<item id="32912" title="頁面縮圖(&amp;T)" tooltip="顯示/隱藏頁面縮圖窗格" status="顯示/隱藏頁面縮圖窗格" short=""/>
+		<item id="32924" title="標準工具列(&amp;S)" tooltip="顯示/隱藏標準工具列" status="顯示/隱藏標準工具列" short=""/>
+		<item id="32925" title="縮放工具列(&amp;Z)" tooltip="顯示/隱藏縮放工具列" status="顯示/隱藏縮放工具列" short=""/>
+		<item id="32929" title="旋轉檢視工具列(&amp;R)" tooltip="顯示/隱藏旋轉檢視工具列" status="顯示/隱藏旋轉檢視工具列" short=""/>
+		<item id="32936" title="顯示所有標籤" tooltip="顯示所有標籤" status="" short=""/>
+		<item id="32937" title="關閉使用中標籤" tooltip="關閉使用中標籤" status="" short=""/>
+		<item id="32938" title="顯示所有標籤縮圖" tooltip="顯示所有標籤縮圖" status="" short=""/>
+		<item id="32940" title="標籤列(&amp;N)" tooltip="顯示/隱藏標籤列" status="顯示/隱藏標籤列" short=""/>
+		<item id="32942" title="關閉所有文件(&amp;L)" tooltip="" status="" short=""/>
+		<item id="32944" title="匯出(&amp;R)" tooltip="" status="" short=""/>
+		<item id="32945" title="匯出為圖像..." tooltip="匯出頁面為圖像..." status="匯出動作的文件到圖像..." short=""/>
+		<item id="32946" title="文件名稱" tooltip="" status="" short=""/>
+		<item id="32947" title="文件編號" tooltip="" status="" short=""/>
+		<item id="32948" title="文件標題" tooltip="" status="" short=""/>
+		<item id="32949" title="頁碼" tooltip="" status="" short=""/>
+		<item id="32950" title="頁" tooltip="" status="" short=""/>
+		<item id="32951" title="頁數" tooltip="" status="" short=""/>
+		<item id="32952" title="檔案名稱" tooltip="" status="" short=""/>
+		<item id="32953" title="日期 (MM-DD-YYYY)" tooltip="" status="" short=""/>
+		<item id="32954" title="年" tooltip="" status="" short=""/>
+		<item id="32955" title="月" tooltip="" status="" short=""/>
+		<item id="32956" title="日" tooltip="" status="" short=""/>
+		<item id="32957" title="時間 (HH-MM-SS)" tooltip="" status="" short=""/>
+		<item id="32958" title="小時" tooltip="" status="" short=""/>
+		<item id="32959" title="分鐘" tooltip="" status="" short=""/>
+		<item id="32960" title="秒" tooltip="" status="" short=""/>
+		<item id="32961" title="自動編號" tooltip="" status="" short=""/>
+		<item id="32974" title="開始/停止完整搜尋" tooltip="開始/停止完整搜尋" status="" short=""/>
+		<item id="32975" title="完整搜尋選項" tooltip="完整搜尋選項" status="完整搜尋選項" short="選項"/>
+		<item id="32976" title="停止完整搜尋" tooltip="" status="" short=""/>
+		<item id="32977" title="開始完整搜尋" tooltip="" status="" short=""/>
+		<item id="32978" title="轉到上一個" tooltip="轉到上一個" status="轉到上一個" short=""/>
+		<item id="32979" title="轉到下一個" tooltip="轉到下一個" status="轉到下一個" short=""/>
+		<item id="32987" title="搜尋(&amp;S)" tooltip="顯示完整搜尋窗格" status="顯示完整搜尋窗格" short=""/>
+		<item id="32990" title="" tooltip="尋找指定的文字" status="" short="尋找:"/>
+		<item id="32991" title="上一個" tooltip="尋找上一個" status="尋找上一個" short=""/>
+		<item id="32992" title="下一個" tooltip="尋找下一個" status="尋找下一個" short=""/>
+		<item id="32993" title="尋找選項" tooltip="尋找選項" status="尋找選項" short=""/>
+		<item id="32994" title="相符整個字串" tooltip="僅尋找相符整個字串" status="僅尋找完全相符文字框中輸入的字串" short=""/>
+		<item id="32995" title="區分大小寫" tooltip="區分大小寫搜尋" status="僅尋找大小寫相符輸入的字串" short=""/>
+		<item id="32996" title="包括註解" tooltip="在 PDF 內的所有註解中搜尋文字" status="在 PDF 內的所有註解窗格內的可見註解中搜尋文字" short=""/>
+		<item id="32997" title="包括書籤" tooltip="在所有書籤中搜尋文字" status="在書籤窗格內的可見書籤中搜尋文字" short=""/>
+		<item id="32998" title="搜尋所選文字" tooltip="為所選文字顯示/隱藏完整搜尋面板" status="為所選文字顯示/隱藏完整搜尋面板" short=""/>
+		<item id="33000" title="尋找工具列(&amp;D)" tooltip="顯示/隱藏尋找工具列" status="顯示/隱藏尋找工具列" short=""/>
+		<item id="33003" title="頁面屬性..." tooltip="顯示選擇的頁面屬性" status="顯示選擇的頁面屬性" short="編輯"/>
+		<item id="33006" title="圖層(&amp;L)" tooltip="顯示/隱藏圖層窗格" status="顯示/隱藏圖層窗格" short=""/>
+		<item id="33008" title="欄位(&amp;I)" tooltip="顯示/隱藏欄位窗格" status="顯示/隱藏欄位窗格" short=""/>
+		<item id="33009" title="選單列(&amp;M)" tooltip="顯示/隱藏 選單列" status="顯示/隱藏 選單列" short=""/>
+		<item id="33014" title="全螢幕(&amp;U)" tooltip="將視窗放到最大至全螢幕" status="將視窗放到最大至全螢幕" short=""/>
+		<item id="33015" title="顯示/隱藏所有列" tooltip="顯示/隱藏所有列" status="顯示/隱藏所有列" short="切換所有列"/>
+		<item id="33016" title="顯示/隱藏所有工具列" tooltip="顯示/隱藏所有工具列" status="顯示/隱藏所有工具列" short="切換所有工具列"/>
+		<item id="33018" title="高亮欄位" tooltip="此文件包括表單; 按此高亮欄位" status="此文件包括表單; 按此高亮欄位" short="高亮欄位"/>
+		<item id="33020" title="退出全螢幕(&amp;U)" tooltip="從全螢幕還原視窗" status="從全螢幕還原視窗" short=""/>
+		<item id="33032" title="公分" tooltip="公分" status="" short=""/>
+		<item id="33033" title="英吋" tooltip="英吋" status="" short=""/>
+		<item id="33034" title="公釐" tooltip="公釐" status="" short=""/>
+		<item id="33035" title="像素" tooltip="像素" status="" short=""/>
+		<item id="33036" title="點" tooltip="點" status="" short=""/>
+		<item id="33038" title="全部關閉" tooltip="關閉所有開啟的文件" status="關閉所有開啟的文件" short=""/>
+		<item id="33054" title="6400%" tooltip="" status="" short=""/>
+		<item id="33055" title="3200%" tooltip="" status="" short=""/>
+		<item id="33056" title="2400%" tooltip="" status="" short=""/>
+		<item id="33057" title="1200%" tooltip="" status="" short=""/>
+		<item id="33058" title="800%" tooltip="" status="" short=""/>
+		<item id="33059" title="400%" tooltip="" status="" short=""/>
+		<item id="33060" title="200%" tooltip="" status="" short=""/>
+		<item id="33061" title="150%" tooltip="" status="" short=""/>
+		<item id="33062" title="100%" tooltip="" status="" short=""/>
+		<item id="33063" title="75%" tooltip="" status="" short=""/>
+		<item id="33064" title="50%" tooltip="" status="" short=""/>
+		<item id="33065" title="25%" tooltip="" status="" short=""/>
+		<item id="33073" title="從表單匯出資料(&amp;X)..." tooltip="" status="" short=""/>
+		<item id="33074" title="匯入資料到表單(&amp;D)..." tooltip="" status="" short=""/>
+		<item id="33075" title="旋轉檢視(&amp;V)" tooltip="" status="" short=""/>
+		<item id="33078" title="順時針(&amp;C)" tooltip="以順時針旋轉檢視" status="以順時針旋轉檢視" short=""/>
+		<item id="33079" title="逆時針(&amp;W)" tooltip="以逆時針旋轉檢視" status="以逆時針旋轉檢視" short=""/>
+		<item id="33080" title="旋轉頁面(&amp;R)..." tooltip="" status="" short=""/>
+		<item id="33081" title="刪除頁面(&amp;D)..." tooltip="" status="" short=""/>
+		<item id="33082" title="剪裁頁面(&amp;C)..." tooltip="" status="" short=""/>
+		<item id="33103" title="平板縮放視窗(&amp;P)" tooltip="平板縮放視窗" status="平板縮放視窗" short="平板縮放"/>
+		<item id="33104" title="粗體" tooltip="粗體" status="" short=""/>
+		<item id="33105" title="斜體" tooltip="斜體" status="" short=""/>
+		<item id="33106" title="底線" tooltip="底線" status="" short=""/>
+		<item id="33107" title="刪除線" tooltip="刪除線" status="" short=""/>
+		<item id="33108" title="左對齊" tooltip="左對齊" status="" short=""/>
+		<item id="33109" title="置中" tooltip="置中" status="" short=""/>
+		<item id="33110" title="右對齊" tooltip="右對齊" status="" short=""/>
+		<item id="33115" title="翻轉線(&amp;F)" tooltip="翻轉線" status="" short=""/>
+		<item id="33116" title="屬性(&amp;P)..." tooltip="更多屬性..." status="" short=""/>
+		<item id="33118" title="設定目前屬性為預設(&amp;M)" tooltip="設定目前屬性為預設" status="" short=""/>
+		<item id="33119" title="回覆(&amp;Y)" tooltip="回覆" status="" short=""/>
+		<item id="33121" title="重設彈出式備註位置(&amp;R)" tooltip="重設彈出式備註位置" status="" short=""/>
+		<item id="33122" title="開啟彈出式備註(&amp;O)" tooltip="開啟彈出式備註" status="" short=""/>
+		<item id="33123" title="箭頭工具(&amp;A)" tooltip="箭頭工具" status="" short="箭頭"/>
+		<item id="33124" title="線條工具(&amp;L)" tooltip="線條工具" status="" short="線條"/>
+		<item id="33125" title="矩形工具(&amp;R)" tooltip="矩形工具" status="" short="矩形"/>
+		<item id="33126" title="橢圓形工具(&amp;O)" tooltip="橢圓形工具" status="" short="橢圓形"/>
+		<item id="33127" title="多邊形工具(&amp;Y)" tooltip="多邊形工具" status="" short="多邊形"/>
+		<item id="33128" title="多邊形線條工具(&amp;G)" tooltip="多邊形線條工具" status="" short="多邊形線條"/>
+		<item id="33129" title="鉛筆工具(&amp;P)" tooltip="鉛筆工具" status="" short="鉛筆"/>
+		<item id="33130" title="雲狀工具(&amp;C)" tooltip="雲狀工具" status="" short="雲狀"/>
+		<item id="33131" title="戳記(&amp;S)" tooltip="戳記" status="" short="戳記:"/>
+		<item id="33132" title="便利貼工具(&amp;N)" tooltip="便利貼工具" status="" short="便利貼"/>
+		<item id="33133" title="預覽(&amp;P)" tooltip="預覽" status="" short=""/>
+		<item id="33134" title="應用預設屬性(&amp;D)" tooltip="應用預設屬性" status="" short=""/>
+		<item id="33135" title="加入備註" tooltip="加入備註" status="" short=""/>
+		<item id="33136" title="刪除(&amp;D)" tooltip="刪除選擇區域" status="刪除選擇區域" short=""/>
+		<item id="33138" title="註解和標記工具列(&amp;C)" tooltip="顯示/隱藏註解和標記工具列" status="顯示/隱藏註解和標記工具列" short=""/>
+		<item id="33139" title="取消" tooltip="取消" status="" short=""/>
+		<item id="33140" title="完成" tooltip="完成" status="" short=""/>
+		<item id="33141" title="首頁(&amp;H)" tooltip="" status="" short=""/>
+		<item id="33145" title="內容(&amp;C)" tooltip="" status="" short=""/>
+		<item id="33146" title="報告問題(&amp;R)..." tooltip="" status="" short=""/>
+		<item id="33147" title="支援論壇(&amp;S)" tooltip="" status="" short=""/>
+		<item id="33168" title="清除文字格式" tooltip="清除文字格式" status="" short=""/>
+		<item id="33170" title="上標" tooltip="上標" status="" short=""/>
+		<item id="33171" title="下標" tooltip="下標" status="" short=""/>
+		<item id="33174" title="加入回覆(&amp;Y)" tooltip="加入回覆" status="" short=""/>
+		<item id="33176" title="刪除回覆(&amp;D)" tooltip="刪除回覆" status="" short=""/>
+		<item id="33179" title="檢查更新..." tooltip="" status="" short=""/>
+		<item id="33182" title="複製純文字(&amp;C)" tooltip="複製純文字" status="" short=""/>
+		<item id="33183" title="複製含格式文字" tooltip="複製含格式文字" status="" short=""/>
+		<item id="33184" title="複製 Rich 屬性" tooltip="複製 Rich 屬性" status="" short=""/>
+		<item id="33187" title="JavaScript 控制台(&amp;J)" tooltip="顯示/隱藏 JavaScript 控制台" status="顯示/隱藏 JavaScript 控制台" short=""/>
+		<item id="33197" title="搜尋子資料夾" tooltip="" status="" short=""/>
+		<item id="33201" title="對應文字工具(&amp;T)" tooltip="對應文字工具" status="" short="對應文字"/>
+		<item id="33202" title="文字方塊工具(&amp;X)" tooltip="文字方塊工具" status="" short="文字方塊"/>
+		<item id="33204" title="註解(&amp;C)" tooltip="顯示/隱藏註解窗格" status="顯示/隱藏註解窗格" short=""/>
+		<item id="33205" title="附件(&amp;A)" tooltip="顯示/隱藏附件窗格" status="顯示/隱藏附件窗格" short=""/>
+		<item id="33206" title="高亮文字(&amp;H)" tooltip="高亮文字" status="" short=""/>
+		<item id="33207" title="加入備註到文字(&amp;N)" tooltip="加入備註到文字" status="" short=""/>
+		<item id="33208" title="底線文字(&amp;U)" tooltip="底線文字" status="" short=""/>
+		<item id="33209" title="刪除線文字(&amp;C)" tooltip="刪除線文字" status="" short=""/>
+		<item id="33210" title="取代文字(&amp;R)" tooltip="取代文字" status="" short=""/>
+		<item id="33221" title="高亮文字工具" tooltip="高亮選取文字" status="高亮選取文字" short="高亮文字"/>
+		<item id="33222" title="底線文字工具" tooltip="加入底線到選取文字" status="加入底線到選取文字" short="底線文字"/>
+		<item id="33223" title="刪除線文字工具" tooltip="加入刪除線到選取文字" status="加入刪除線到選取文字" short="刪除線文字"/>
+		<item id="33224" title="檔案附件工具" tooltip="加入檔案作為註解.&#10;點擊頁面固定檔案附件到頁面上." status="" short="附件"/>
+		<item id="33225" title="屬性工具列(&amp;P)" tooltip="顯示/隱藏屬性工具列" status="顯示/隱藏屬性工具列" short=""/>
+		<item id="33226" title="打字機工具(&amp;W)" tooltip="打字機工具" status="" short="打字機"/>
+		<item id="33228" title="顯示戳記色盤(&amp;S)" tooltip="" status="" short=""/>
+		<item id="33229" title="保留選取的工具" tooltip="保留選取的工具" status="" short=""/>
+		<item id="33231" title="字型大小" tooltip="字型大小" status="" short="字型大小:"/>
+		<item id="33232" title="按頁碼(&amp;P)" tooltip="按頁碼分組註解" status="" short=""/>
+		<item id="33233" title="按類型(&amp;T)" tooltip="按類型分組註解" status="" short=""/>
+		<item id="33234" title="按作者(&amp;A)" tooltip="按作者分組註解" status="" short=""/>
+		<item id="33235" title="按修改日期(&amp;D)" tooltip="按修改日期分組註解" status="" short=""/>
+		<item id="33236" title="按顏色(&amp;C)" tooltip="按顏色分組註解" status="" short=""/>
+		<item id="33237" title="按建立日期(&amp;C)" tooltip="按建立日期分組註解" status="" short=""/>
+		<item id="33238" title="下一個" tooltip="下一個註解" status="" short=""/>
+		<item id="33239" title="上一個" tooltip="上一個註解" status="" short=""/>
+		<item id="33240" title="刪除" tooltip="刪除註解" status="" short=""/>
+		<item id="33241" title="折疊全部" tooltip="折疊全部註解" status="" short=""/>
+		<item id="33242" title="展開全部" tooltip="展開全部註解" status="" short=""/>
+		<item id="33243" title="群組依" tooltip="群組依" status="" short=""/>
+		<item id="33244" title="屬性..." tooltip="註解屬性..." status="" short=""/>
+		<item id="33245" title="加入回覆" tooltip="加入回覆到註解" status="" short=""/>
+		<item id="33246" title="按主題(&amp;S)" tooltip="按主題分組註解" status="" short=""/>
+		<item id="33248" title="全否(&amp;E)" tooltip="全否" status="" short=""/>
+		<item id="33255" title="關閉此標籤外的所有標籤" tooltip="關閉此標籤外的所有標籤" status="" short=""/>
+		<item id="33256" title="關閉此標籤" tooltip="關閉此標籤" status="" short=""/>
+		<item id="33257" title="複製完整檔案名稱(&amp;N)" tooltip="複製使用中文件的完整檔案名稱" status="複製使用中文件的完整檔案名稱" short=""/>
+		<item id="33258" title="開啟所在資料夾(&amp;F)..." tooltip="開啟使用中文件的所在資料夾" status="開啟使用中文件的所在資料夾" short=""/>
+		<item id="33259" title="將目前文字格式作為預設" tooltip="儲存選擇的文字格式 (字型, 大小, 顏色, 排列等) 為此註解樣式.&#10;儲存的文字格式將被作為新註解的預設註解樣式." status="" short="設為預設"/>
+		<item id="33260" title="應用預設文字格式" tooltip="應用預設文字格式" status="" short=""/>
+		<item id="33261" title="文字顏色" tooltip="文字顏色" status="" short="顏色:"/>
+		<item id="33262" title="文件選項工具列(&amp;O)" tooltip="顯示/隱藏文件選項工具列" status="顯示/隱藏文件選項工具列" short=""/>
+		<item id="33263" title="頁面導覽工具列(&amp;N)" tooltip="顯示/隱藏頁面導覽工具列" status="顯示/隱藏頁面工具列" short=""/>
+		<item id="33264" title="頁面佈局工具列(&amp;L)" tooltip="顯示/隱藏頁面佈局工具列" status="顯示/隱藏頁面佈局工具列" short=""/>
+		<item id="33265" title="執行工具列(&amp;A)" tooltip="顯示/隱藏執行程式工具列" status="顯示/隱藏執行程式工具列" short=""/>
+		<item id="33267" title="檔案(&amp;F)" tooltip="" status="" short=""/>
+		<item id="33268" title="最近的檔案(&amp;F)" tooltip="" status="" short=""/>
+		<item id="33269" title="表單資料(&amp;M)" tooltip="" status="" short=""/>
+		<item id="33270" title="文件屬性(&amp;D)" tooltip="顯示動作文件的屬性" status="顯示動作文件的屬性" short="屬性..."/>
+		<item id="33272" title="開啟 URL(&amp;U)..." tooltip="從 URL 開啟檔案..." status="從 URL 開啟檔案" short=""/>
+		<item id="33274" title="壓縮並用 Email 傳送(&amp;E)..." tooltip="將動作的文件壓縮成 ZIP 並附加到新的 Email 中" status="將動作的文件壓縮成 ZIP 並附加到新的 Email 中" short=""/>
+		<item id="33280" title="編輯(&amp;E)" tooltip="" status="" short=""/>
+		<item id="33281" title="刪除(&amp;D)" tooltip="刪除此選取項" status="刪除此選取項" short=""/>
+		<item id="33290" title="檢視(&amp;V)" tooltip="" status="" short=""/>
+		<item id="33291" title="工具列(&amp;T)" tooltip="" status="" short=""/>
+		<item id="33292" title="其它窗格" tooltip="" status="" short=""/>
+		<item id="33293" title="頁面設定(&amp;L)" tooltip="" status="" short=""/>
+		<item id="33300" title="文件(&amp;D)" tooltip="" status="" short=""/>
+		<item id="33310" title="工具(&amp;T)" tooltip="" status="" short=""/>
+		<item id="33311" title="基本工具(&amp;B)" tooltip="" status="" short=""/>
+		<item id="33313" title="縮放工具" tooltip="" status="" short=""/>
+		<item id="33314" title="註解和標記(&amp;C)" tooltip="" status="" short=""/>
+		<item id="33316" title="測量工具(&amp;M)" tooltip="" status="" short=""/>
+		<item id="33317" title="連結工具(&amp;L)" tooltip="" status="" short=""/>
+		<item id="33339" title="顯示註解和標記工具列" tooltip="" status="" short=""/>
+		<item id="33340" title="顯示註解列表" tooltip="顯示/隱藏註解列表" status="顯示/隱藏註解列表" short=""/>
+		<item id="33350" title="視窗(&amp;W)" tooltip="" status="" short=""/>
+		<item id="33369" title="顯示損壞資訊" tooltip="已文件已損壞; 點擊此處顯示詳細資訊" status="已文件已損壞; 點擊此處顯示詳細資訊" short="損壞資訊"/>
+		<item id="33370" title="文件選項" tooltip="包括此文件的檢視、編輯、管理等選項" status="包括此文件的檢視、編輯、管理等選項" short="選項"/>
+		<item id="33371" title="顯示圖層窗格" tooltip="此文件包括圖層; 按此顯示/隱藏圖層窗格" status="此文件包括圖層; 按此顯示/隱藏圖層窗格" short="顯示圖層"/>
+		<item id="33372" title="顯示欄位窗格" tooltip="此文件包括表單; 按此顯示/隱藏欄位窗格" status="此文件包括表單; 按此顯示/隱藏欄位窗格" short="顯示欄位"/>
+		<item id="33373" title="無屬性" tooltip="目前沒有含屬性的物件被選取" status="目前沒有含屬性的物件被選取" short=""/>
+		<item id="33374" title="顯示 PDF/A 資訊" tooltip="此文件是 PDF/A 相容檔案; 點擊這裡顯示詳細資訊" status="此文件是 PDF/A 相容檔案; 點擊這裡顯示詳細資訊" short="PDF/A 資訊"/>
+		<item id="33375" title="顯示 XFA 資訊" tooltip="此文件包含 XFA 表單; 點擊這裡顯示詳細資訊" status="此文件包含 XFA 表單" short="XFA 資訊"/>
+		<item id="33376" title="線條樣式" tooltip="線條樣式" status="" short=""/>
+		<item id="33377" title="線條粗細" tooltip="線條粗細" status="" short=""/>
+		<item id="33378" title="箭頭樣式" tooltip="箭頭樣式" status="" short=""/>
+		<item id="33379" title="不透明度" tooltip="不透明度" status="" short="不透明度:"/>
+		<item id="33380" title="圖示" tooltip="圖示樣式" status="" short=""/>
+		<item id="33381" title="顏色" tooltip="顏色" status="" short=""/>
+		<item id="33382" title="顯示/隱藏文字格式工具列" tooltip="顯示/隱藏文字格式工具列" status="" short=""/>
+		<item id="33383" title="複製頁選取範圍" tooltip="複製頁選取範圍" status="" short=""/>
+		<item id="33384" title="選擇整頁" tooltip="選擇整頁" status="" short=""/>
+		<item id="33410" title="註解(&amp;M)" tooltip="註解" status="" short=""/>
+		<item id="33411" title="文字格式" tooltip="文字格式" status="" short=""/>
+		<item id="33412" title="製作快照" tooltip="製作快照" status="" short=""/>
+		<item id="33413" title="放大" tooltip="放大縮圖" status="放大縮圖" short=""/>
+		<item id="33414" title="縮小" tooltip="縮小縮圖" status="縮小縮圖" short=""/>
+		<item id="33416" title="加入書籤" tooltip="" status="" short=""/>
+		<item id="33420" title="加入連結(&amp;L)" tooltip="" status="" short=""/>
+		<item id="33421" title="左邊緣對齊" tooltip="左邊緣對齊" status="" short=""/>
+		<item id="33422" title="右邊緣對齊" tooltip="右邊緣對齊" status="" short=""/>
+		<item id="33423" title="上邊緣對齊" tooltip="上邊緣對齊" status="" short=""/>
+		<item id="33424" title="下邊緣對齊" tooltip="下邊緣對齊" status="" short=""/>
+		<item id="33425" title="水平置中對齊" tooltip="水平置中對齊" status="" short=""/>
+		<item id="33426" title="垂直置中對齊" tooltip="垂直置中對齊" status="" short=""/>
+		<item id="33427" title="水平分佈" tooltip="水平分佈" status="" short=""/>
+		<item id="33428" title="垂直分佈" tooltip="垂直分佈" status="" short=""/>
+		<item id="33429" title="使寬度相同" tooltip="使寬度相同" status="" short=""/>
+		<item id="33430" title="使高度相同" tooltip="使高度相同" status="" short=""/>
+		<item id="33431" title="使大小相同" tooltip="使大小相同" status="" short=""/>
+		<item id="33432" title="將目前外觀設定為預設值" tooltip="將目前外觀設定為預設值" status="將目前外觀設定為預設值" short=""/>
+		<item id="33433" title="應用預設外觀" tooltip="為選擇的連結應用預設外觀" status="為選擇的連結應用預設外觀" short=""/>
+		<item id="33438" title="自訂使用者介面..." tooltip="允許自訂顯示的對話框的使用者介面外觀 (顏色, 字型, 主背景)..." status="允許自訂顯示的對話框的使用者介面外觀 (顏色, 字型, 主背景)..." short="自訂使用者介面..."/>
+		<item id="33800" title="還原標題位置" tooltip="還原標題位置" status="" short=""/>
+		<item id="33801" title="刪除標籤" tooltip="刪除標籤" status="" short=""/>
+		<item id="33802" title="編輯標籤" tooltip="編輯標籤" status="" short=""/>
+		<item id="33805" title="變更比例尺" tooltip="變更比例尺" status="" short=""/>
+		<item id="33806" title="變更標記標籤" tooltip="變更標記標籤" status="" short=""/>
+		<item id="33807" title="顯示測量資訊視窗" tooltip="顯示測量資訊視窗" status="" short=""/>
+		<item id="33808" title="標尺" tooltip="標尺" status="" short=""/>
+		<item id="33809" title="取消測量" tooltip="取消測量" status="" short=""/>
+		<item id="33810" title="完成測量" tooltip="完成測量" status="" short=""/>
+		<item id="33811" title="匯出測量到 CSV 檔案" tooltip="匯出測量到" status="" short=""/>
+		<item id="33812" title="開啟嵌入檔案(&amp;O)..." tooltip="開啟嵌入檔案" status="開啟嵌入檔案" short="開啟..."/>
+		<item id="33813" title="儲存嵌入檔案到磁碟(&amp;S)..." tooltip="儲存嵌入檔案到磁碟" status="儲存嵌入檔案到磁碟" short="儲存..."/>
+		<item id="33814" title="編輯描述(&amp;E)..." tooltip="編輯描述" status="編輯嵌入檔案描述" short="編輯描述"/>
+		<item id="33815" title="附加檔案(&amp;F)..." tooltip="附加檔案" status="附加外部檔案到文件" short="附加檔案..."/>
+		<item id="33816" title="旋轉選擇的頁面 90°" tooltip="" status="" short="旋轉 90°"/>
+		<item id="33817" title="旋轉選擇的頁面 180°" tooltip="" status="" short="旋轉 180°"/>
+		<item id="33818" title="旋轉選擇的頁面 270°" tooltip="" status="" short="旋轉 270°"/>
+		<item id="33819" title="刪除選擇的頁面(&amp;S)" tooltip="" status="" short=""/>
+		<item id="33820" title="移除空白" tooltip="移除空白" status="移除文件頁面空白 (外邊緣)" short="移除空白"/>
+		<item id="36000" title="自訂..." tooltip="顯示自訂工具列對話框..." status="顯示自訂工具列對話框..." short=""/>
+		<item id="36001" title="已鎖定" tooltip="已鎖定" status="" short=""/>
+		<item id="36004" title="放大" tooltip="放大書籤" status="放大書籤" short=""/>
+		<item id="36005" title="縮小" tooltip="縮小書籤" status="縮小書籤" short=""/>
+		<item id="36006" title="刪除書籤" tooltip="刪除已選擇的書籤" status="刪除已選擇的書籤" short="刪除"/>
+		<item id="36007" title="書籤屬性..." tooltip="顯示已選擇的書籤屬性" status="顯示已選擇的書籤屬性" short="編輯"/>
+		<item id="36008" title="新增書籤" tooltip="建立一個新書籤" status="建立一個新書籤" short="新增"/>
+		<item id="36009" title="保證對應的書籤可見" tooltip="保證對應的書籤可見" status="保證對應的書籤可見" short=""/>
+		<item id="36010" title="轉到書籤" tooltip="轉到書籤" status="轉到書籤所在頁" short=""/>
+		<item id="36011" title="更新書籤樹" tooltip="更新書籤樹" status="更新書籤樹" short=""/>
+		<item id="36012" title="加入..." tooltip="顯示加入新動作對話框" status="顯示加入新動作對話框" short=""/>
+		<item id="36013" title="刪除" tooltip="刪除已選擇的動作" status="刪除已選擇的動作" short=""/>
+		<item id="36014" title="上移" tooltip="在執行時順序中將選擇的項目向上移動一位" status="在執行時順序中將選擇的項目向上移動一位" short=""/>
+		<item id="36015" title="下移" tooltip="在執行時順序中將選擇的項目向下移動一位" status="在執行時順序中將選擇的項目向下移動一位" short=""/>
+		<item id="36016" title="編輯..." tooltip="編輯已選擇的動作屬性..." status="編輯已選擇的動作屬性..." short=""/>
+		<item id="36017" title="測試已選擇" tooltip="測試已選擇的動作..." status="點擊以測試已選擇的動作..." short=""/>
+		<item id="36018" title="測試所有" tooltip="測試所有動作..." status="點擊以測試所有動作..." short=""/>
+		<item id="36019" title="重設" tooltip="重設列表中的動作, 變更將遺失" status="重設列表中的動作, 變更將遺失" short=""/>
+		<item id="36023" title="重新命名(&amp;R)" tooltip="重新命名已選擇的書籤" status="重新命名已選擇的書籤" short=""/>
+		<item id="36024" title="設定目前版面為預設" tooltip="設定目前版面為預設" status="設定目前版面為預設" short=""/>
+		<item id="36025" title="換行顯示過長書籤標題" tooltip="換行顯示過長書籤標題" status="換行顯示過長書籤標題" short=""/>
+		<item id="36026" title="應用預設版面" tooltip="為選擇的書籤應用預設版面" status="為選擇的書籤應用預設版面" short=""/>
+		<item id="36027" title="執行" tooltip="執行指令碼" status="" short=""/>
+		<item id="36028" title="清空" tooltip="清空控制台輸出" status="" short=""/>
+		<item id="36035" title="轉到行..." tooltip="" status="" short=""/>
+		<item id="36036" title="JavaScript 選項" tooltip="顯示 JavaScript 選項" status="顯示 JavaScript 選項..." short=""/>
+		<item id="36037" title="插入頁面(&amp;I)..." tooltip="" status="" short=""/>
+		<item id="36038" title="提取頁面(&amp;E)..." tooltip="" status="" short=""/>
+		<item id="36039" title="取代頁面(&amp;R)..." tooltip="" status="" short=""/>
+		<item id="36040" title="頁面轉換(&amp;T)..." tooltip="" status="" short=""/>
+		<item id="36048" title="設定目的(&amp;A)" tooltip="設定目的" status="設定目前檢視為目的" short=""/>
+		<item id="36049" title="" tooltip="字型" status="" short="字型:"/>
+		<item id="36250" title="高亮樣式" tooltip="高亮樣式" status="" short="高亮"/>
+		<item id="36252" title="全字拼寫須符合" tooltip="僅尋找全字" status="僅尋找與文字框中輸入的單詞完全相符的內容" short=""/>
+		<item id="36253" title="區分大小寫" tooltip="搜尋對大小敏感" status="僅尋找與輸入的內容大小寫一致的內容" short=""/>
+		<item id="36254" title="包含註解" tooltip="搜尋 PDF 檔案中中的註解" status="搜尋 PDF 檔案中中的註解, 即註解面板中的內容" short=""/>
+		<item id="36255" title="包含書籤" tooltip="搜尋書籤中的文字" status="搜尋書籤中的文字, 即書籤面板中的內容" short=""/>
+		<item id="36256" title="顯示書籤圖示" tooltip="顯示/隱藏書籤圖示" status="顯示/隱藏書籤圖示" short=""/>
+		<item id="36257" title="編輯主題..." tooltip="為選擇的註解樣式編輯初始主題" status="" short=""/>
+		<item id="36258" title="清空搜尋結果" tooltip="清空搜尋結果" status="" short="清除結果"/>
+		<item id="36260" title="1600%" tooltip="" status="" short=""/>
+		<item id="36262" title="12.5%" tooltip="" status="" short=""/>
+		<item id="36263" title="8.33%" tooltip="" status="" short=""/>
+		<item id="36264" title="縮放&quot;" tooltip="" status="" short="縮放&quot;:"/>
+		<item id="36273" title="填充顏色" tooltip="填充顏色" status="" short="填充顏色:"/>
+		<item id="36274" title="筆劃顏色" tooltip="筆劃顏色" status="" short="筆劃顏色:"/>
+		<item id="36276" title="註解圖示" tooltip="註解圖示" status="" short="圖示:"/>
+		<item id="36277" title="縮放" tooltip="縮放" status="" short="縮放"/>
+		<item id="36279" title="邊框樣式" tooltip="邊框樣式" status="" short="邊框:"/>
+		<item id="36281" title="邊框寬度" tooltip="邊框寬度" status="" short="寬:"/>
+		<item id="36287" title="線條結束樣式" tooltip="線條結束樣式" status="" short="線條終點:"/>
+		<item id="36289" title="線條起始樣式" tooltip="線條起始樣式" status="" short="線條起點:"/>
+		<item id="36291" title="放大" tooltip="放大縮圖" status="放大縮圖" short=""/>
+		<item id="36292" title="縮小" tooltip="減小縮圖" status="減小縮圖" short=""/>
+		<item id="36293" title="從剪貼簿建立" tooltip="從剪貼簿圖像建立戳記" status="從剪貼簿圖像建立戳記" short="從剪貼簿"/>
+		<item id="36294" title="刪除戳記" tooltip="刪除選擇的戳記" status="刪除選擇的戳記" short="刪除"/>
+		<item id="36295" title="插入戳記..." tooltip="插入戳記..." status="插入戳記..." short=""/>
+		<item id="36296" title="刪除合集" tooltip="刪除選擇的合集" status="刪除選擇的合集" short="刪除"/>
+		<item id="36297" title="建立新的合集..." tooltip="建立新的戳記合集..." status="建立新的戳記合集..." short="新增..."/>
+		<item id="36298" title="編輯戳記..." tooltip="編輯選擇的戳記..." status="編輯選擇的戳記..." short="編輯..."/>
+		<item id="36299" title="編輯合集..." tooltip="編輯選擇的合集..." status="編輯選擇的合集..." short="編輯..."/>
+		<item id="36300" title="擦除工具(&amp;E)" tooltip="擦除工具" status="擦除工具" short="擦除工具"/>
+		<item id="36301" title="直徑" tooltip="擦除工具直徑" status="" short="直徑:"/>
+		<item id="36303" title="從 PDF 建立..." tooltip="從 PDF 文件建立戳記..." status="從 PDF 文件建立戳記..." short="來自 PDF..."/>
+		<item id="36304" title="從圖像建立..." tooltip="從圖像建立戳記..." status="從圖像建立戳記..." short="來自圖像..."/>
+		<item id="36305" title="插入空白頁面..." tooltip="" status="" short=""/>
+		<item id="36306" title="展開所有書籤" tooltip="展開所有書籤" status="" short="全部展開"/>
+		<item id="36307" title="折疊所有書籤" tooltip="折疊所有書籤" status="" short="全部折疊"/>
+		<item id="36308" title="文字屬性..." tooltip="顯示文字屬性..." status="顯示所選文字的屬性對話框" short="文字屬性..."/>
+		<item id="36309" title="重設工具列" tooltip="重設此工具列到預設" status="重設此工具列到預設" short="重設工具列"/>
+		<item id="36313" title="" tooltip="重設快速鍵" status="" short=""/>
+		<item id="36314" title="" tooltip="清除快速鍵" status="" short=""/>
+		<item id="36315" title="重設選單列" tooltip="重設選單列到預設" status="重設選單列到預設" short="重設選單列"/>
+		<item id="36316" title="重設彈出選單" tooltip="重設此彈出選單到預設" status="重設此彈出選單到預設" short="重設彈出選單"/>
+		<item id="36324" title="選擇圖像" tooltip="" status="" short=""/>
+		<item id="36326" title="重設" tooltip="" status="" short=""/>
+		<item id="36327" title="刪除" tooltip="" status="" short=""/>
+		<item id="36328" title="預設樣式" tooltip="" status="" short=""/>
+		<item id="36329" title="顯示圖像" tooltip="" status="" short=""/>
+		<item id="36330" title="顯示文字" tooltip="" status="" short=""/>
+		<item id="36331" title="在前面插入分隔字元" tooltip="" status="" short=""/>
+		<item id="36332" title="在後面插入分隔字元" tooltip="" status="" short=""/>
+		<item id="36333" title="屬性..." tooltip="" status="" short=""/>
+		<item id="36334" title="顯示預覽" tooltip="" status="" short=""/>
+		<item id="36335" title="顯示主題" tooltip="顯示註解主題" status="顯示註解主題" short=""/>
+		<item id="36336" title="顯示作者" tooltip="顯示註解作者" status="顯示註解作者" short=""/>
+		<item id="36337" title="顯示日期" tooltip="顯示註解的修改日期" status="顯示註解的修改日期" short=""/>
+		<item id="36338" title="顯示文字" tooltip="顯示註解文字" status="顯示註解文字" short=""/>
+		<item id="36339" title="顯示顏色" tooltip="顯示註解顏色" status="顯示註解顏色" short=""/>
+		<item id="36340" title="合併註解(&amp;F)..." tooltip="" status="" short=""/>
+		<item id="36341" title="清除尋找列表" tooltip="清除尋找列表" status="" short="清除尋找列表"/>
+		<item id="36342" title="連結編輯器工具列(&amp;L)" tooltip="顯示/隱藏連結編輯器工具列" status="顯示/隱藏連結編輯器工具列" short=""/>
+		<item id="36343" title="矩形連結工具(&amp;R)" tooltip="矩形連結工具" status="" short="連結"/>
+		<item id="36344" title="四邊形連結工具(&amp;Q)" tooltip="四邊形連結工具" status="" short="連結"/>
+		<item id="36345" title="測量工具列(&amp;M)" tooltip="顯示/隱藏測量工具列" status="顯示/隱藏測量工具列" short=""/>
+		<item id="36346" title="距離工具(&amp;P)" tooltip="距離工具, 用於測量兩點間距離" status="" short="距離"/>
+		<item id="36347" title="周長工具(&amp;P)" tooltip="周長工具, 用於測量物體周長" status="" short="周長"/>
+		<item id="36348" title="面積工具(&amp;A)" tooltip="面積工具, 用於測量物體面積" status="" short="面積"/>
+		<item id="36349" title="註解(&amp;C)" tooltip="" status="" short=""/>
+		<item id="36350" title="總括註解(&amp;S)..." tooltip="" status="" short=""/>
+		<item id="36351" title="匯出註解到(&amp;E)..." tooltip="" status="" short=""/>
+		<item id="36352" title="顯示頁面間間距" tooltip="顯示頁面間間距" status="" short="顯示間距"/>
+		<item id="36353" title="在對開模式顯示封面" tooltip="顯示封面" status="" short="顯示封面"/>
+		<item id="36355" title="比例值 (從)" tooltip="比例值 (從)" status="" short="從:"/>
+		<item id="36356" title="比例值 (到)" tooltip="比例值 (到)" status="" short="到:"/>
+		<item id="36357" title="比例單位 (從)" tooltip="比例單位 (從)" status="" short="從:"/>
+		<item id="36359" title="比例單位 (到)" tooltip="比例單位 (到)" status="" short="到:"/>
+		<item id="36362" title="加入 &quot;轉到指定檔案位置&quot;..." tooltip="加入 &quot;轉到指定檔案位置&quot;..." status="加入 &quot;轉到指定檔案位置&quot;, 顯示加入新動作對話框..." short=""/>
+		<item id="36363" title="加入 &quot;開啟網頁連結&quot;..." tooltip="加入 &quot;開啟網頁連結&quot;..." status="加入 &quot;開啟網頁連結&quot;, 顯示加入新動作對話框..." short=""/>
+		<item id="36364" title="從空白頁..." tooltip="從空白頁..." status="建立新的包含空白頁面的 PDF 檔案..." short=""/>
+		<item id="36365" title="從文字檔案..." tooltip="從文字檔案..." status="從已存在的文字檔案建立新的 PDF 檔案..." short=""/>
+		<item id="36366" title="還原(&amp;U)" tooltip="" status="" short=""/>
+		<item id="36367" title="重做(&amp;R)" tooltip="" status="" short=""/>
+		<item id="36368" title="剪下(&amp;T)" tooltip="" status="" short=""/>
+		<item id="36369" title="複製(&amp;C)" tooltip="" status="" short=""/>
+		<item id="36370" title="貼上(&amp;P)" tooltip="" status="" short=""/>
+		<item id="36371" title="刪除(&amp;D)" tooltip="" status="" short=""/>
+		<item id="36372" title="全選(&amp;A)" tooltip="" status="" short=""/>
+		<item id="36373" title="鎖定/解鎖所有命令列" tooltip="鎖定/解鎖所有命令列" status="鎖定/解鎖所有命令列:停用自訂及變更位置" short="鎖定工具列"/>
+		<item id="36374" title="重設所有設定到預設值..." tooltip="重設程式的所有設定到預設值..." status="重設程式的所有設定到預設值..." short=""/>
+		<item id="36375" title="從圖像檔案..." tooltip="從圖像檔案..." status="從已存在的圖像檔案建立新的 PDF 檔案..." short=""/>
+		<item id="36408" title="從資料檔案匯入所有設定..." tooltip="從資料檔案匯入所有程式設定..." status="從外部資料檔案匯入所有程式設定..." short=""/>
+		<item id="36409" title="匯出所有設定到資料檔案..." tooltip="匯出所有程式設定到資料檔案..." status="匯出所有程式設定到外部資料檔案..." short=""/>
+		<item id="36415" title="顯示" tooltip="" status="" short=""/>
+		<item id="36416" title="關於" tooltip="" status="" short=""/>
+		<item id="36417" title="退出" tooltip="" status="" short=""/>
+		<item id="36418" title="顯示註解樣式..." tooltip="" status="" short=""/>
+		<item id="36420" title="顯示註解樣式色盤" tooltip="" status="" short=""/>
+		<item id="36434" title="檢視註解" tooltip="" status="" short=""/>
+		<item id="36435" title="隱藏所有註解" tooltip="" status="" short=""/>
+		<item id="36436" title="顯示所有註解" tooltip="" status="" short=""/>
+		<item id="36437" title="按類型顯示" tooltip="" status="" short=""/>
+		<item id="36438" title="開啟所有彈出式備註" tooltip="" status="" short=""/>
+		<item id="36439" title="關閉所有彈出式備註" tooltip="" status="" short=""/>
+		<item id="36440" title="所有類型" tooltip="" status="" short=""/>
+		<item id="36441" title="註解" tooltip="" status="" short=""/>
+		<item id="36442" title="繪製標記" tooltip="" status="" short=""/>
+		<item id="36443" title="文字編輯標記" tooltip="" status="" short=""/>
+		<item id="36444" title="戳記" tooltip="" status="" short=""/>
+		<item id="36445" title="附件" tooltip="" status="" short=""/>
+		<item id="36446" title="字元到/從十六進制代碼" tooltip="翻譯選擇的字元到/從十六進制代碼" status="" short=""/>
+		<item id="36447" title="字元到/從 Glyph Index" tooltip="翻譯選擇的字元到/從 Glyph Index" status="" short=""/>
+		<item id="36457" title="底線樣式" tooltip="底線樣式" status="" short="樣式:"/>
+		<item id="36459" title="將目前外觀設為預設" tooltip="儲存此外觀  (顏色, 邊框樣式, 透明度等) 為目前註解樣式.&#10;儲存的外觀將被用作新註解的預設樣式." status="" short=""/>
+		<item id="36460" title="應用預設外觀" tooltip="從目前註解樣式應用儲存的外觀 (顏色, 邊框樣式, 透明度等) " status="" short=""/>
+		<item id="36461" title="已鎖定" tooltip="已鎖定" status="" short=""/>
+		<item id="36462" title="從掃瞄器..." tooltip="從掃瞄器..." status="從掃瞄器建立新的 PDF 檔案..." short=""/>
+		<item id="36463" title="所有欄位" tooltip="點擊這裡高亮所有表單欄位" status="點擊這裡高亮所有表單欄位" short=""/>
+		<item id="36464" title="組合框" tooltip="點擊這裡高亮所有組合框" status="點擊這裡高亮所有組合框" short=""/>
+		<item id="36465" title="複選框" tooltip="點擊這裡高亮所有複選框" status="點擊這裡高亮所有複選框" short=""/>
+		<item id="36466" title="列表框" tooltip="點擊這裡高亮所有列表框" status="點擊這裡高亮所有列表框" short=""/>
+		<item id="36467" title="按鈕" tooltip="點擊這裡高亮所有按鈕" status="點擊這裡高亮所有按鈕" short=""/>
+		<item id="36468" title="單選按鈕" tooltip="點擊這裡高亮所有單選按鈕" status="點擊這裡高亮所有單選按鈕" short=""/>
+		<item id="36469" title="文字框" tooltip="點擊這裡高亮所有文字框" status="點擊這裡高亮所有文字框" short=""/>
+		<item id="36470" title="簽章欄位" tooltip="點擊這裡高亮所有簽章欄位" status="點擊這裡高亮所有簽章欄位" short=""/>
+		<item id="36471" title="僅必需的欄位" tooltip="點擊這裡僅高亮必需的欄位" status="點擊這裡僅高亮必需的欄位" short=""/>
+		<item id="36472" title="放大" tooltip="放大" status="" short=""/>
+		<item id="36473" title="縮小" tooltip="縮小" status="" short=""/>
+		<item id="36474" title="垂直翻轉" tooltip="垂直翻轉" status="" short=""/>
+		<item id="36475" title="水平翻轉" tooltip="水平翻轉" status="" short=""/>
+		<item id="36476" title="適合" tooltip="適合" status="" short=""/>
+		<item id="36477" title="逆時針旋轉 90°" tooltip="逆時針旋轉 90°" status="" short=""/>
+		<item id="36478" title="順時針旋轉 90°" tooltip="順時針旋轉 90°" status="" short=""/>
+		<item id="36479" title="旋轉 180°" tooltip="旋轉 180°" status="" short=""/>
+		<item id="36481" title="複製連結(&amp;C)" tooltip="複製連結" status="" short=""/>
+		<item id="36482" title="在瀏覽器中開啟 URL(&amp;O)" tooltip="在瀏覽器中開啟 URL" status="" short=""/>
+		<item id="36483" title="線條粗細" tooltip="所有線條以像素大小顯示, 而不考慮縮放等級" status="所有線條以像素大小顯示, 而不考慮縮放等級" short=""/>
+		<item id="36485" title="重設註解" tooltip="重設選擇的註解.&#10;所有自訂註解樣式將被移除, 僅儲存預設樣式" status="" short="重設"/>
+		<item id="36486" title="仿製註解樣式" tooltip="仿製選擇的註解樣式" status="" short="仿製"/>
+		<item id="36487" title="刪除註解樣式" tooltip="重設選擇的註解樣式" status="" short="刪除"/>
+		<item id="36488" title="重設註解樣式" tooltip="重設選擇的註解樣式" status="" short="重設"/>
+		<item id="36489" title="重新命名註解樣式" tooltip="重新命名選擇的註解樣式" status="" short="重新命名"/>
+		<item id="36493" title="從富文字格式 (RTF) 檔案..." tooltip="從富文字格式 (RTF) 檔案..." status="從已存在的富文字格式 (RTF) 檔案建立新的 PDF 檔案..." short=""/>
+		<item id="36494" title="取消" tooltip="取消此操作" status="取消此操作" short=""/>
+		<item id="36496" title="加入 &quot;轉到另一文件中的頁面&quot;..." tooltip="加入 &quot;轉到另一文件中的頁面&quot;..." status="加入 &quot;轉到另一文件中的頁面&quot;, 顯示加入新動作對話框..." short=""/>
+		<item id="36497" title="加入 &quot;開啟一個檔案&quot;..." tooltip="加入 &quot;開啟一個檔案&quot;..." status="加入 &quot;開啟一個檔案&quot;, 顯示加入新動作對話框..." short=""/>
+		<item id="36498" title="覆蓋文件顏色" tooltip="切換覆蓋檔案顏色選項" status="切換覆蓋檔案顏色選項" short=""/>
+		<item id="36500" title="管理最近使用列表..." tooltip="管理最近使用列表..." status="" short=""/>
+		<item id="36501" title="在瀏覽器新標籤中開啟 URL" tooltip="在瀏覽器新標籤中開啟 URL" status="" short=""/>
+		<item id="36502" title="在瀏覽器新視窗中開啟 URL" tooltip="在瀏覽器新視窗中開啟 URL" status="" short=""/>
+		<item id="36503" title="匯入註解..." tooltip="" status="" short=""/>
+		<item id="36511" title="搜尋" tooltip="用搜尋引擎搜尋文字" status="用 Internet 搜尋引擎搜尋選擇的文字" short=""/>
+		<item id="36513" title="管理搜尋引擎" tooltip="管理搜尋引擎" status="" short=""/>
+		<item id="36514" title="線上搜尋" tooltip="使用 Internet 搜尋引擎搜尋指定的文字" status="使用 Internet 搜尋引擎搜尋指定的文字" short=""/>
+		<item id="36515" title="簽章(&amp;S)" tooltip="" status="" short=""/>
+		<item id="36516" title="簽章文件(&amp;S)" tooltip="對文件進行數位簽章" status="對文件進行數位簽章" short="簽章"/>
+		<item id="36517" title="放置簽章(&amp;P)" tooltip="放置簽章" status="在文件中放置簽章" short="放置簽章"/>
+		<item id="36518" title="驗證所有簽章(&amp;V)" tooltip="驗證所有簽章" status="驗證文件中的所有簽章" short="驗證簽章"/>
+		<item id="36519" title="顯示標籤縮圖(&amp;T)" tooltip="顯示標籤縮圖" status="啟用/停用顯示標籤預覽" short=""/>
+		<item id="36520" title="顯示網格" tooltip="" status="" short=""/>
+		<item id="36521" title="顯示輔助線" tooltip="" status="" short=""/>
+		<item id="36522" title="顯示標尺" tooltip="" status="" short=""/>
+		<item id="36523" title="加入新頁面輔助線..." tooltip="加入新頁面輔助線..." status="" short=""/>
+		<item id="36524" title="刪除目前頁面輔助線" tooltip="刪除目前頁面輔助線" status="" short=""/>
+		<item id="36525" title="刪除所有頁面輔助線" tooltip="刪除所有頁面輔助線" status="" short=""/>
+		<item id="36527" title="設定測試..." tooltip="設定測試..." status="" short=""/>
+		<item id="36529" title="貼齊到網格" tooltip="" status="" short=""/>
+		<item id="36530" title="貼齊到輔助線" tooltip="" status="" short=""/>
+		<item id="36531" title="貼齊到物件" tooltip="" status="" short=""/>
+		<item id="36532" title="貼齊" tooltip="貼齊 開/關" status="" short=""/>
+		<item id="36533" title="開啟" tooltip="開啟選擇的附件" status="" short=""/>
+		<item id="36534" title="儲存..." tooltip="儲存選擇的附件為外部檔案..." status="" short=""/>
+		<item id="36535" title="加入..." tooltip="加入新附件..." status="" short=""/>
+		<item id="36536" title="刪除" tooltip="刪除選擇的附件" status="" short=""/>
+		<item id="36537" title="編輯描述..." tooltip="編輯描述..." status="" short=""/>
+		<item id="36538" title="顯示附件窗格" tooltip="此文件包含附件; 點擊這裡顯示/隱藏附件面板" status="此文件包含附件; 點擊這裡顯示/隱藏附件面板" short="顯示附件"/>
+		<item id="36539" title="顯示所有已開啟檔案的縮圖" tooltip="以縮圖形式檢視所有已開啟檔案" status="" short="顯示文件"/>
+		<item id="36542" title="混合模式" tooltip="混合模式" status="" short="混合模式:"/>
+		<item id="36543" title="到前台(&amp;F)" tooltip="移到前台" status="" short=""/>
+		<item id="36544" title="到背景(&amp;B)" tooltip="移到背景" status="" short=""/>
+		<item id="36545" title="向前一位(&amp;O)" tooltip="向前一位" status="" short=""/>
+		<item id="36546" title="向後一位(&amp;N)" tooltip="向後一位" status="" short=""/>
+		<item id="36547" title="順序(&amp;R)" tooltip="" status="" short=""/>
+		<item id="36548" title="高亮可見區域" tooltip="高亮目前頁面的可見區域" status="在縮圖中高亮目前頁面的可見區域" short=""/>
+		<item id="36549" title="交互式高亮區域" tooltip="啟用/停用交互式高亮區域" status="啟用/停用縮圖中交互式高亮區域" short=""/>
+		<item id="36551" title="設定初始縮放比例..." tooltip="為新的 &quot;轉到文件中的頁面&quot; 動作設定初始縮放比例..." status="為新的 &quot;轉到文件中的頁面&quot; 設定初始縮放比例..." short="設定初始縮放..."/>
+		<item id="36552" title="包括頁面內容" tooltip="搜尋所有頁面文字" status="搜尋所有頁面文字" short=""/>
+		<item id="36553" title="包括頁面內容" tooltip="搜尋所有頁面文字" status="搜尋所有頁面文字" short=""/>
+		<item id="36554" title="包括文件資訊" tooltip="搜尋文件資訊文字 (標題, 主題, 作者, 關鍵字 等)" status="搜尋文件資訊文字 (標題, 主題, 作者, 關鍵字 等)" short=""/>
+		<item id="36556" title="顯示所有列" tooltip="顯示所有列" status="顯示所有列" short=""/>
+		<item id="36557" title="隱藏所有列" tooltip="隱藏所有列" status="隱藏所有列" short=""/>
+		<item id="36558" title="按作者顯示" tooltip="" status="" short=""/>
+		<item id="36559" title="所有作者" tooltip="" status="" short=""/>
+		<item id="36560" title="選擇作者..." tooltip="" status="" short=""/>
+		<item id="36562" title="還原上次會話..." tooltip="重新開啟上次會話中的所有文件..." status="重新開啟上次會話中的所有文件..." short=""/>
+		<item id="36563" title="開啟群組的彈出" tooltip="開啟所有群組的彈出" status="" short=""/>
+		<item id="36564" title="關閉群組的彈出" tooltip="關閉所有群組的彈出" status="" short=""/>
+		<item id="36569" title="輸入序號..." tooltip="" status="" short=""/>
+		<item id="36570" title="辨識頁面..." tooltip="使用OCR辨識文字...." status="使用OCR辨識文字...." short="OCR"/>
+		<item id="57600" title="新增文件(&amp;N)..." tooltip="" status="" short=""/>
+		<item id="57601" title="開啟(&amp;O)..." tooltip="開啟已存在的文件..." status="開啟已存在的文件" short=""/>
+		<item id="57602" title="關閉(&amp;C)" tooltip="關閉使用中文件" status="關閉使用中文件" short=""/>
+		<item id="57603" title="儲存(&amp;S)" tooltip="儲存使用中文件" status="儲存使用中文件" short=""/>
+		<item id="57604" title="另存為(&amp;A)" tooltip="將使用中文件以新名稱儲存" status="將使用中文件以新名稱儲存" short=""/>
+		<item id="57607" title="列印(&amp;P)" tooltip="列印使用中文件" status="列印使用中文件" short=""/>
+		<item id="57611" title="另存為副本(&amp;P)" tooltip="儲存使用中文件到新檔案" status="儲存使用中文件到新檔案" short=""/>
+		<item id="57612" title="經郵件傳送(&amp;E)" tooltip="附加使用中文件到新郵件" status="附加使用中文件到新郵件" short=""/>
+		<item id="57632" title="清除(&amp;E)" tooltip="擦除選擇區域" status="擦除選擇區域" short=""/>
+		<item id="57634" title="複製(&amp;C)" tooltip="複製選擇項並把它放到剪貼簿" status="複製選擇項並把它放到剪貼簿" short=""/>
+		<item id="57635" title="剪下(&amp;T)" tooltip="剪下選擇項並把它放到剪貼簿" status="剪下選擇項並把它放到剪貼簿" short=""/>
+		<item id="57636" title="尋找(&amp;F)" tooltip="尋找指定的文字" status="尋找指定的文字" short=""/>
+		<item id="57637" title="貼上(&amp;P)" tooltip="插入剪貼簿內容" status="插入剪貼簿內容" short=""/>
+		<item id="57642" title="全選(&amp;L)" tooltip="選擇全部" status="" short=""/>
+		<item id="57643" title="還原(&amp;U)" tooltip="還原上次的動作" status="還原上次的動作" short=""/>
+		<item id="57644" title="重做(&amp;R)" tooltip="重做上次還原的動作" status="重做上次還原的動作" short=""/>
+		<item id="57649" title="排列圖示(&amp;I)" tooltip="在視窗底部排列圖示" status="在視窗底部排列圖示" short=""/>
+		<item id="57650" title="重疊(&amp;C)" tooltip="重疊方式排列視窗" status="重疊方式排列視窗" short=""/>
+		<item id="57651" title="水平並排(&amp;H)" tooltip="以水平互不重疊方式排列視窗" status="以水平互不重疊方式排列視窗" short=""/>
+		<item id="57652" title="垂直並排(&amp;V)" tooltip="以垂直互不重疊方式排列視窗" status="以垂直互不重疊方式排列視窗" short=""/>
+		<item id="57653" title="分割(&amp;S)" tooltip="分割動作視窗到數個窗格" status="分割動作視窗到數個窗格" short=""/>
+		<item id="57664" title="關於 PDF-XChange Viewer(&amp;A)..." tooltip="顯示程式資訊, 版本號碼以及著作權資訊" status="顯示程式資訊, 版本號碼以及著作權資訊" short=""/>
+		<item id="57665" title="退出(&amp;X)" tooltip="退出應用程式; 提示儲存已變更文件" status="退出應用程式; 提示儲存已變更文件" short=""/>
+		<item id="57670" title="幫助(&amp;H)" tooltip="" status="" short=""/>
+		<item id="57718" title="向左捲動" tooltip="向左捲動" status="" short=""/>
+		<item id="57719" title="向右捲動" tooltip="向右捲動" status="" short=""/>
+		<item id="59393" title="狀態列(&amp;S)" tooltip="顯示/隱藏狀態列" status="顯示/隱藏狀態列" short=""/>
+		<item id="9383416" title="另存為" tooltip="另存為" status="" short="另存為"/>
+		<item id="9383660" title="" tooltip="儲存" status="儲存" short=""/>
+		<item id="9383840" title="從 URL 開啟檔案" tooltip="" status="開啟 URL" short=""/>
+		<item id="1073742336" title="開啟已存在的檔案..." tooltip="開啟已存在的檔案" status="" short="開啟"/>
+	</commands>
+	<dialogs>
+		<dialog id="203" text="參數設定">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="3" text="應用" tooltip=""/>
+		</dialog>
+		<dialog id="204" text="">
+			<item id="1004" text="輸出意向優先於工作區(&amp;O)" tooltip=""/>
+			<item id="1008" text="使用黑點補償(&amp;U)" tooltip=""/>
+			<item id="1038" text="顏色設定(&amp;S):" tooltip=""/>
+			<item id="1039" text="RGB(&amp;R):" tooltip=""/>
+			<item id="1040" text="CMYK(&amp;C):" tooltip=""/>
+			<item id="1041" text="灰階(&amp;G):" tooltip=""/>
+			<item id="1042" text="引擎(&amp;E):" tooltip=""/>
+			<item id="1200" text="工作區" tooltip=""/>
+			<item id="1201" text="轉換選項" tooltip=""/>
+		</dialog>
+		<dialog id="207" text="">
+			<item id="4" text="瀏覽..." tooltip=""/>
+			<item id="5" text="瀏覽..." tooltip=""/>
+			<item id="1009" text="最近檔案列表的最大數目(&amp;N):" tooltip=""/>
+			<item id="1012" text="文件被加密時總是詢問密碼(&amp;A)" tooltip=""/>
+			<item id="1013" text="重新開啟最後檢視的文件" tooltip=""/>
+			<item id="1014" text="顯示版權頁" tooltip=""/>
+			<item id="1015" text="允許多重實例" tooltip=""/>
+			<item id="1016" text="最小化到系統匣" tooltip=""/>
+			<item id="1017" text="關閉到系統匣" tooltip=""/>
+			<item id="1032" text="標籤文件" tooltip=""/>
+			<item id="1033" text="多個文件(&amp;M)" tooltip=""/>
+			<item id="1035" text="於每個標籤顯示關閉按鈕" tooltip=""/>
+			<item id="1036" text="單一文件(&amp;S)" tooltip=""/>
+			<item id="1037" text="只有一個文件時隱藏標籤列" tooltip=""/>
+			<item id="1038" text="使用儲存方式:" tooltip=""/>
+			<item id="1039" text="下載檔案的存放目錄:" tooltip=""/>
+			<item id="1040" text="文件 &apos;另存為&apos; 存放目錄:" tooltip=""/>
+			<item id="1198" text="程式啟動" tooltip=""/>
+			<item id="1199" text="應用程式" tooltip=""/>
+			<item id="1200" text="文件版面" tooltip=""/>
+			<item id="1201" text="開啟文件" tooltip=""/>
+			<item id="1202" text="儲存文件" tooltip=""/>
+			<item id="1227" text="清除列表" tooltip=""/>
+			<item id="1228" text="管理..." tooltip=""/>
+			<item id="1450" text="程式啟動後還原最後開啟的檔案" tooltip=""/>
+			<item id="1451" text="使用後刪除下載的檔案" tooltip=""/>
+		</dialog>
+		<dialog id="212" text="輸入文件密碼">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1039" text="請輸入有效的使用者名稱或授權密碼:" tooltip=""/>
+		</dialog>
+		<dialog id="213" text="文件屬性">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="3" text="應用" tooltip=""/>
+		</dialog>
+		<dialog id="214" text="">
+			<item id="1038" text="檔案名稱:" tooltip=""/>
+			<item id="1039" text="位置:" tooltip=""/>
+			<item id="1040" text="建立日期:" tooltip=""/>
+			<item id="1041" text="修改時間:" tooltip=""/>
+			<item id="1042" text="檔案大小:" tooltip=""/>
+			<item id="1043" text="標題(&amp;T):" tooltip=""/>
+			<item id="1044" text="作者(&amp;A):" tooltip=""/>
+			<item id="1200" text="檔案資訊(&amp;F)" tooltip=""/>
+			<item id="1201" text="文件資訊(&amp;D)" tooltip=""/>
+			<item id="1203" text="主題(&amp;S):" tooltip=""/>
+			<item id="1204" text="關鍵詞(&amp;K):" tooltip=""/>
+			<item id="1205" text="PDF 製作者:" tooltip=""/>
+			<item id="1206" text="應用程式:" tooltip=""/>
+			<item id="1207" text="PDF 版本:" tooltip=""/>
+			<item id="1208" text="頁面數目:" tooltip=""/>
+			<item id="1209" text="附加元資料(&amp;M)..." tooltip=""/>
+			<item id="1210" text="PDF 檢視器:" tooltip=""/>
+		</dialog>
+		<dialog id="220" text="">
+			<item id="1038" text="列印:" tooltip=""/>
+			<item id="1039" text="修改檔案:" tooltip=""/>
+			<item id="1040" text="複製或提取內容:" tooltip=""/>
+			<item id="1041" text="授權註解或表單欄位:" tooltip=""/>
+			<item id="1042" text="填寫表單欄位或簽章:" tooltip=""/>
+			<item id="1043" text="允許存取內容:" tooltip=""/>
+			<item id="1044" text="檔案彙編:" tooltip=""/>
+			<item id="1045" text="提取頁面:" tooltip=""/>
+			<item id="1047" text="簽章:" tooltip=""/>
+			<item id="1049" text="建立模組頁面:" tooltip=""/>
+			<item id="1200" text="文件安全性" tooltip=""/>
+			<item id="1201" text="文件權限詳情" tooltip=""/>
+			<item id="1203" text="文件的安全方式限制文件可進行的操作" tooltip=""/>
+			<item id="1204" text="安全方式(&amp;M):" tooltip=""/>
+			<item id="1205" text="加密等級:" tooltip=""/>
+			<item id="1206" text="開啟密碼:" tooltip=""/>
+			<item id="1207" text="權限密碼:" tooltip=""/>
+			<item id="1210" text="變更設定(&amp;C)..." tooltip=""/>
+			<item id="1212" text="顯示詳細資訊..." tooltip=""/>
+		</dialog>
+		<dialog id="221" text="匯出為圖像">
+			<item id="1" text="匯出(&amp;X)..." tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="4" text="瀏覽(&amp;W)..." tooltip=""/>
+			<item id="6" text="巨集(&amp;M)" tooltip=""/>
+			<item id="7" text="選項(&amp;O)..." tooltip=""/>
+			<item id="1038" text="輸入頁碼和/或範圍, 從文件開頭計起, 用 &quot;,&quot; 分隔. 例如, 輸入 1, 3, 5-12" tooltip=""/>
+			<item id="1039" text="子集(&amp;S):" tooltip=""/>
+			<item id="1040" text="目的資料夾(&amp;F):" tooltip=""/>
+			<item id="1041" text="檔案名稱(&amp;N):" tooltip=""/>
+			<item id="1042" text="圖像類型(&amp;T):" tooltip=""/>
+			<item id="1043" text="匯出模式(&amp;M):" tooltip=""/>
+			<item id="1044" text="解析度(&amp;R):" tooltip=""/>
+			<item id="1045" text="全部(&amp;A)" tooltip=""/>
+			<item id="1046" text="目前頁(&amp;E)" tooltip=""/>
+			<item id="1047" text="選取頁(&amp;D)" tooltip=""/>
+			<item id="1048" text="目前檢視(&amp;V)" tooltip=""/>
+			<item id="1049" text="頁(&amp;G):" tooltip=""/>
+			<item id="1050" text="已選擇的圖像(&amp;G)" tooltip=""/>
+			<item id="1060" text="透明(&amp;P)" tooltip=""/>
+			<item id="1061" text="基本色(&amp;D)" tooltip=""/>
+			<item id="1088" text="反向順序" tooltip=""/>
+			<item id="1200" text="頁面範圍" tooltip=""/>
+			<item id="1201" text="另存為" tooltip=""/>
+			<item id="1202" text="圖形" tooltip=""/>
+			<item id="1203" text="頁面背景:" tooltip=""/>
+			<item id="1204" text="頁面範圍" tooltip=""/>
+			<item id="1206" text="頁面縮放:" tooltip=""/>
+			<item id="1330" text="全部(&amp;A)" tooltip=""/>
+			<item id="1331" text="選擇的頁面(&amp;S)" tooltip=""/>
+			<item id="1332" text="目前頁面(&amp;R)" tooltip=""/>
+			<item id="1333" text="頁面(&amp;G):" tooltip=""/>
+			<item id="1335" text="子集:" tooltip=""/>
+			<item id="1339" text="目前檢視(&amp;V)" tooltip=""/>
+			<item id="1340" text="選擇的圖形(&amp;G)" tooltip=""/>
+			<item id="1341" text="反向順序" tooltip=""/>
+			<item id="1387" text="輸入頁碼和/或範圍, 從文件開頭計起, 用 &quot;,&quot; 分隔. 例如, 輸入 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="222" text="圖像儲存選項">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+		</dialog>
+		<dialog id="223" text="">
+			<item id="1071" text="取消" tooltip=""/>
+			<item id="1072" text="略過" tooltip=""/>
+		</dialog>
+		<dialog id="224" text="">
+			<item id="1038" text="預設檢視(&amp;V):" tooltip=""/>
+			<item id="1039" text="預設頁面設定(&amp;L):" tooltip=""/>
+			<item id="1040" text="預設縮放(&amp;Z):" tooltip=""/>
+			<item id="1041" text="使用解析度(&amp;R):" tooltip=""/>
+			<item id="1042" text="像素每英吋" tooltip=""/>
+			<item id="1073" text="顯示美工、修整、裁剪工具方塊" tooltip=""/>
+			<item id="1074" text="顯示透明性網格" tooltip=""/>
+			<item id="1076" text="平滑文字" tooltip=""/>
+			<item id="1077" text="平滑藝術線條" tooltip=""/>
+			<item id="1078" text="平滑圖像" tooltip=""/>
+			<item id="1079" text="檔案內的 URL 可被點擊" tooltip=""/>
+			<item id="1080" text="忽略 &apos;IP&apos;, 僅 URL 連結&#10;(例如: 無 HTTP:// 前綴)" tooltip=""/>
+			<item id="1083" text="顯示大型圖像" tooltip=""/>
+			<item id="1084" text="展開文字副本上的原始連字" tooltip=""/>
+			<item id="1126" text="開啟檔案時還原最後使用的文件檢視 (自訂的版面組態及是否可見)" tooltip=""/>
+			<item id="1200" text="頁面顯示" tooltip=""/>
+			<item id="1201" text="初始顯示方式" tooltip=""/>
+			<item id="1202" text="初始檢視" tooltip=""/>
+			<item id="1228" text="開啟檔案時還原最後使用的檢視組態及頁面縮放比例" tooltip=""/>
+			<item id="1523" text="執行 &apos;轉到目的&apos; 動作時停用更新目前縮放比例 (此動作可能來自書籤, 超連結, Javascript)." tooltip=""/>
+		</dialog>
+		<dialog id="227" text="檔案取代確認">
+			<item id="2" text="取消" tooltip=""/>
+			<item id="6" text="是" tooltip=""/>
+			<item id="7" text="否" tooltip=""/>
+			<item id="100" text="全是" tooltip=""/>
+			<item id="101" text="全否" tooltip=""/>
+			<item id="102" text="自動" tooltip=""/>
+			<item id="103" text="另存為..." tooltip=""/>
+			<item id="1040" text="覆蓋此檔案嗎?" tooltip=""/>
+			<item id="1041" text="您可以使用自動檔案命名建立一個唯一的目的檔案名稱:" tooltip=""/>
+		</dialog>
+		<dialog id="228" text="寫入檔案錯誤">
+			<item id="2" text="取消" tooltip=""/>
+			<item id="3" text="中斷" tooltip=""/>
+			<item id="4" text="重試" tooltip=""/>
+			<item id="5" text="忽略" tooltip=""/>
+			<item id="103" text="另存為..." tooltip=""/>
+		</dialog>
+		<dialog id="229" text="列印">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="份數:" tooltip=""/>
+			<item id="1039" text="輸入頁碼和/或範圍, 從文件開頭計起, 用 &quot;,&quot; 分隔. 例如, 輸入 1, 3, 5-12" tooltip=""/>
+			<item id="1040" text="子集(&amp;S):" tooltip=""/>
+			<item id="1041" text="縮放類型:" tooltip=""/>
+			<item id="1042" text="紙張:" tooltip=""/>
+			<item id="1043" text="名稱(&amp;N):" tooltip=""/>
+			<item id="1044" text="狀態:" tooltip=""/>
+			<item id="1045" text="全部(&amp;A)" tooltip=""/>
+			<item id="1046" text="目前頁(&amp;E)" tooltip=""/>
+			<item id="1047" text="選取頁(&amp;D)" tooltip=""/>
+			<item id="1048" text="目前檢視(&amp;V)" tooltip=""/>
+			<item id="1049" text="頁(&amp;G):" tooltip=""/>
+			<item id="1050" text="已選擇的圖像(&amp;G)" tooltip=""/>
+			<item id="1086" text="屬性(&amp;P)" tooltip=""/>
+			<item id="1087" text="列印到檔案" tooltip=""/>
+			<item id="1088" text="反向順序" tooltip=""/>
+			<item id="1094" text="自動分頁" tooltip=""/>
+			<item id="1096" text="列印為灰階" tooltip=""/>
+			<item id="1097" text="列印為圖像" tooltip=""/>
+			<item id="1099" text="選項..." tooltip=""/>
+			<item id="1127" text="列印縮放" tooltip=""/>
+			<item id="1200" text="印表機" tooltip=""/>
+			<item id="1201" text="頁面範圍" tooltip=""/>
+			<item id="1202" text="特殊列印" tooltip=""/>
+			<item id="1203" text="類型:" tooltip=""/>
+			<item id="1204" text="列印選項" tooltip=""/>
+			<item id="1205" text="註解和表單:" tooltip=""/>
+			<item id="1206" text="%" tooltip=""/>
+			<item id="1207" text="比例:" tooltip=""/>
+			<item id="1330" text="全部(&amp;A)" tooltip=""/>
+			<item id="1331" text="選擇的頁面(&amp;S)" tooltip=""/>
+			<item id="1332" text="目前頁(&amp;R)" tooltip=""/>
+			<item id="1333" text="頁面(&amp;G):" tooltip=""/>
+			<item id="1335" text="子集:" tooltip=""/>
+			<item id="1339" text="目前檢視(&amp;V)" tooltip=""/>
+			<item id="1340" text="選擇的圖形(&amp;G)" tooltip=""/>
+			<item id="1341" text="反向順序" tooltip=""/>
+			<item id="1343" text="進階..." tooltip=""/>
+			<item id="1387" text="輸入頁碼和/或範圍, 從文件開頭計起, 用 &quot;,&quot; 分隔. 例如, 輸入 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="230" text="">
+			<item id="1038" text="頁面縮放:" tooltip=""/>
+			<item id="1116" text="依 PDF 頁面大小選擇紙張來源" tooltip=""/>
+			<item id="1120" text="自動旋轉" tooltip=""/>
+			<item id="1121" text="自動置中" tooltip=""/>
+		</dialog>
+		<dialog id="231" text="">
+			<item id="1038" text="每張紙頁數:" tooltip=""/>
+			<item id="1039" text="頁面順序:" tooltip=""/>
+			<item id="1108" text="列印頁邊框" tooltip=""/>
+			<item id="1120" text="自動旋轉頁面" tooltip=""/>
+			<item id="1121" text="頁面自動置中" tooltip=""/>
+			<item id="1128" text="由" tooltip=""/>
+		</dialog>
+		<dialog id="232" text="">
+			<item id="1038" text="頁面縮放:" tooltip=""/>
+			<item id="1039" text="%" tooltip=""/>
+			<item id="1040" text="重疊:" tooltip=""/>
+			<item id="1041" text="pt" tooltip=""/>
+			<item id="1042" text="剪下標記:" tooltip=""/>
+			<item id="1110" text="顯示剪下標記" tooltip=""/>
+			<item id="1118" text="標籤" tooltip=""/>
+			<item id="1120" text="自動旋轉頁面" tooltip=""/>
+			<item id="1121" text="頁面自動置中" tooltip=""/>
+		</dialog>
+		<dialog id="236" text="轉到頁面">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="輸入頁號:" tooltip=""/>
+		</dialog>
+		<dialog id="237" text="縮放至">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="輸入縮放比例:" tooltip=""/>
+		</dialog>
+		<dialog id="244" text="">
+			<item id="1038" text="您要搜尋什麼字或詞?" tooltip=""/>
+			<item id="1039" text="您要搜尋哪裡?" tooltip=""/>
+			<item id="1040" text="排序依:" tooltip=""/>
+			<item id="1099" text="選項" tooltip=""/>
+			<item id="1139" text="立即搜尋" tooltip=""/>
+			<item id="1142" text="清除" tooltip=""/>
+		</dialog>
+		<dialog id="245" text="搜尋選項">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="使用相近度:" tooltip=""/>
+			<item id="1126" text="全字拼寫須符合 " tooltip=""/>
+			<item id="1128" text="包括註解" tooltip=""/>
+			<item id="1129" text="包括書籤" tooltip=""/>
+			<item id="1130" text="尋找子資料夾" tooltip=""/>
+			<item id="1131" text="包括附件" tooltip=""/>
+			<item id="1145" text="符合整個字串" tooltip=""/>
+			<item id="1193" text="最近" tooltip=""/>
+			<item id="1194" text="頁內" tooltip=""/>
+			<item id="1195" text="文件內" tooltip=""/>
+			<item id="1200" text="使用這些附加準則:" tooltip=""/>
+		</dialog>
+		<dialog id="246" text="進階搜尋">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="包括所有以下字詞:" tooltip=""/>
+			<item id="1039" text="包括和以下完全一樣的字詞:" tooltip=""/>
+			<item id="1040" text="包括至少其中一個以下字詞:" tooltip=""/>
+			<item id="1041" text="不含以下字詞:" tooltip=""/>
+			<item id="1200" text="搜尋結果須為:" tooltip=""/>
+		</dialog>
+		<dialog id="247" text="">
+			<item id="1038" text="系統記憶體使用率百份比:" tooltip=""/>
+			<item id="1039" text="用於演算上色頁面的最大執行序:" tooltip=""/>
+			<item id="1040" text="用於建立頁面縮圖的最大執行序:" tooltip=""/>
+			<item id="1041" text="最大工作執行序:" tooltip=""/>
+			<item id="1200" text="記憶體使用率" tooltip=""/>
+			<item id="1201" text="執行序使用率" tooltip=""/>
+			<item id="1525" text="使用同步模式演算上色頁面 (可能會減緩程式反應)" tooltip=""/>
+			<item id="1553" text="使用系統記憶體量 MB" tooltip=""/>
+		</dialog>
+		<dialog id="257" text="旋轉頁面">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="旋轉(&amp;T):" tooltip=""/>
+			<item id="1039" text="輸入頁碼和/或範圍, 從文件開頭計起, 用 &quot;,&quot; 分隔. 例如, 輸入 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="方向(&amp;D):" tooltip=""/>
+			<item id="1164" text="全部(&amp;A)" tooltip=""/>
+			<item id="1165" text="選擇的頁面(&amp;S)" tooltip=""/>
+			<item id="1166" text="目前頁面(&amp;R)" tooltip=""/>
+			<item id="1167" text="頁面(&amp;G):" tooltip=""/>
+			<item id="1200" text="頁面範圍" tooltip=""/>
+		</dialog>
+		<dialog id="258" text="刪除頁面">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="刪除(&amp;L):" tooltip=""/>
+			<item id="1039" text="輸入頁碼和/或範圍, 從文件開頭計起, 用 &quot;,&quot; 分隔. 例如, 輸入 1, 3, 5-12" tooltip=""/>
+			<item id="1165" text="選擇的頁面(&amp;S)" tooltip=""/>
+			<item id="1166" text="目前頁(&amp;R)" tooltip=""/>
+			<item id="1167" text="頁面(&amp;G):" tooltip=""/>
+			<item id="1200" text="頁面範圍" tooltip=""/>
+		</dialog>
+		<dialog id="265" text="屬性">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="3" text="應用(&amp;A)" tooltip=""/>
+			<item id="1180" text="進階(&amp;A)" tooltip=""/>
+		</dialog>
+		<dialog id="266" text="">
+			<item id="1038" text="開始:" tooltip=""/>
+			<item id="1039" text="結束:" tooltip=""/>
+			<item id="1040" text="樣式:" tooltip=""/>
+			<item id="1041" text="粗細:" tooltip=""/>
+			<item id="1042" text="顏色:" tooltip=""/>
+			<item id="1043" text="填充顏色:" tooltip=""/>
+			<item id="1044" text="不透明度:" tooltip=""/>
+			<item id="1200" text="結束樣式" tooltip=""/>
+			<item id="1201" text="邊框" tooltip=""/>
+		</dialog>
+		<dialog id="268" text="">
+			<item id="1038" text="作者:" tooltip=""/>
+			<item id="1039" text="主題:" tooltip=""/>
+			<item id="1040" text="建立日期:" tooltip=""/>
+			<item id="1041" text="修改時間:" tooltip=""/>
+		</dialog>
+		<dialog id="272" text="">
+			<item id="1038" text="樣式:" tooltip=""/>
+			<item id="1039" text="粗細:" tooltip=""/>
+			<item id="1040" text="顏色:" tooltip=""/>
+			<item id="1041" text="填充顏色:" tooltip=""/>
+			<item id="1042" text="不透明度:" tooltip=""/>
+			<item id="1200" text="邊框" tooltip=""/>
+		</dialog>
+		<dialog id="273" text="">
+			<item id="1038" text="粗細:" tooltip=""/>
+			<item id="1039" text="顏色:" tooltip=""/>
+			<item id="1040" text="不透明度:" tooltip=""/>
+			<item id="1200" text="邊框" tooltip=""/>
+		</dialog>
+		<dialog id="274" text="">
+			<item id="1038" text="指定的單位會被整個程式用來顯示頁面尺寸, 頁面大小, 網格, 輔助線, 提示等:" tooltip=""/>
+			<item id="1039" text="網格線條間寬度(&amp;W):" tooltip=""/>
+			<item id="1040" text="網格線條間高度(&amp;W):" tooltip=""/>
+			<item id="1041" text="網格距左邊緣距離(&amp;W):" tooltip=""/>
+			<item id="1042" text="網格距上邊緣距離(&amp;W):" tooltip=""/>
+			<item id="1043" text="網格細分(&amp;S):" tooltip=""/>
+			<item id="1045" text="網格樣式(&amp;U):" tooltip=""/>
+			<item id="1046" text="輔助線樣式(&amp;U):" tooltip=""/>
+			<item id="1047" text="細分記號(&amp;D):" tooltip=""/>
+			<item id="1200" text="單位" tooltip=""/>
+			<item id="1201" text="網格和輔助線" tooltip=""/>
+			<item id="1483" text="顯示網格" tooltip=""/>
+			<item id="1484" text="顯示輔助線" tooltip=""/>
+			<item id="1490" text="顯示標尺(&amp;R)" tooltip=""/>
+			<item id="1491" text="顯示分數(&amp;F)" tooltip=""/>
+			<item id="1499" text="自訂..." tooltip=""/>
+			<item id="1502" text="使用貼齊 (貼齊到網格, 輔助線, 物件)" tooltip=""/>
+		</dialog>
+		<dialog id="278" text="報告問題...">
+			<item id="1" text="下一步(&amp;X)..." tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="4" text="瀏覽(&amp;B)..." tooltip=""/>
+			<item id="1038" text="您的資訊會經郵件傳送 - 您可在傳送前編輯資訊." tooltip=""/>
+			<item id="1039" text="請選擇問題的標題:" tooltip=""/>
+			<item id="1040" text="描述 (輸入簡單的問題描述):" tooltip=""/>
+			<item id="1041" text="附加檔案 (PDF 文件) 到此資訊?" tooltip=""/>
+			<item id="1126" text="包括有關安裝的字型和顏色設定的資訊" tooltip=""/>
+			<item id="1127" text="包括有關安裝的印表機及設定的資訊" tooltip=""/>
+			<item id="1128" text="包括有關作業系統版本的資訊" tooltip=""/>
+			<item id="1183" text="包括有關程式的版本和設定的資訊" tooltip=""/>
+			<item id="1524" text="包括此處理程序中所有載入的模組 (DLL 等) (推薦)" tooltip=""/>
+		</dialog>
+		<dialog id="279" text="">
+			<item id="1038" text="圖示:" tooltip=""/>
+			<item id="1039" text="顏色:" tooltip=""/>
+			<item id="1040" text="不透明度:" tooltip=""/>
+			<item id="1200" text="外觀" tooltip=""/>
+		</dialog>
+		<dialog id="282" text="JavaScript 控制台">
+			<item id="1" text="執行(&amp;R)" tooltip=""/>
+			<item id="2" text="關閉" tooltip=""/>
+			<item id="1200" text="指令碼" tooltip=""/>
+			<item id="1201" text="輸出" tooltip=""/>
+		</dialog>
+		<dialog id="283" text="">
+			<item id="1038" text="線結束:" tooltip=""/>
+			<item id="1039" text="樣式:" tooltip=""/>
+			<item id="1040" text="粗細:" tooltip=""/>
+			<item id="1041" text="筆劃顏色:" tooltip=""/>
+			<item id="1042" text="填充顏色:" tooltip=""/>
+			<item id="1043" text="不透明度:" tooltip=""/>
+			<item id="1200" text="結束樣式" tooltip=""/>
+			<item id="1201" text="邊框" tooltip=""/>
+		</dialog>
+		<dialog id="284" text="">
+			<item id="1038" text="顏色:" tooltip=""/>
+			<item id="1039" text="不透明度:" tooltip=""/>
+			<item id="1200" text="外觀" tooltip=""/>
+		</dialog>
+		<dialog id="290" text="戳記">
+		</dialog>
+		<dialog id="291" text="">
+			<item id="1038" text="將 PDF-XChange 設為預設的 PDF 閱讀器:" tooltip=""/>
+			<item id="1039" text="還原上一個關聯的程式為預設 PDF 閱讀器 (如果未被移除):" tooltip=""/>
+			<item id="1127" text="在瀏覽器中顯示 PDF" tooltip=""/>
+			<item id="1162" text="設為預設的 PDF 閱讀器" tooltip=""/>
+			<item id="1197" text="還原檔案關聯" tooltip=""/>
+			<item id="1200" text="檔案關聯" tooltip=""/>
+		</dialog>
+		<dialog id="292" text="">
+			<item id="1038" text="不透明度:" tooltip=""/>
+			<item id="1200" text="外觀" tooltip=""/>
+		</dialog>
+		<dialog id="295" text="">
+			<item id="1038" text="登錄名稱(&amp;L):" tooltip=""/>
+			<item id="1039" text="名稱(&amp;N):" tooltip=""/>
+			<item id="1040" text="頭銜(&amp;T):" tooltip=""/>
+			<item id="1041" text="組織名稱(&amp;O):" tooltip=""/>
+			<item id="1042" text="組織單位(&amp;U):" tooltip=""/>
+			<item id="1043" text="Email 位址(&amp;E):" tooltip=""/>
+			<item id="1044" text="您的身份資訊可能用於註解, 檢查和數位簽章. 在此輸入的資訊僅用於本程式, 且僅在您允許的情況下才會被傳送." tooltip=""/>
+			<item id="1200" text="身份" tooltip=""/>
+		</dialog>
+		<dialog id="296" text="">
+			<item id="1038" text="請選擇介面顯示語言:" tooltip=""/>
+			<item id="1200" text="語言" tooltip=""/>
+			<item id="1219" text="使用使用者區域設定" tooltip=""/>
+			<item id="1220" text="選擇自訂語言" tooltip=""/>
+			<item id="1221" text="使用程式預設語言" tooltip=""/>
+		</dialog>
+		<dialog id="297" text="從 URL 開啟檔案">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="輸入檔案的 URL:" tooltip=""/>
+		</dialog>
+		<dialog id="298" text="自訂">
+			<item id="1" text="關閉" tooltip=""/>
+			<item id="1230" text="鍵盤..." tooltip=""/>
+			<item id="1316" text="全部重設" tooltip=""/>
+		</dialog>
+		<dialog id="299" text="">
+			<item id="1039" text="工具列" tooltip=""/>
+			<item id="1234" text="重設" tooltip=""/>
+			<item id="1235" text="重新命名" tooltip=""/>
+			<item id="1237" text="新增..." tooltip=""/>
+			<item id="1250" text="刪除" tooltip=""/>
+			<item id="-1" text="工具列" tooltip=""/>
+		</dialog>
+		<dialog id="300" text="">
+			<item id="1038" text="要加入一個命令, 請從命令列表中拖動命令並放到目的工具列或選單上." tooltip=""/>
+			<item id="1039" text="分類:" tooltip=""/>
+			<item id="1040" text="命令:" tooltip=""/>
+			<item id="1314" text="在命令列表, 選單和工具列中顯示受限制的, 專業版的命令" tooltip=""/>
+			<item id="1320" text="新增..." tooltip=""/>
+			<item id="1321" text="屬性" tooltip=""/>
+			<item id="-1" text="要加入一個命令, 請將命令從自訂列表中拖曳出來, 放到目的工具列或選單上" tooltip=""/>
+		</dialog>
+		<dialog id="301" text="">
+			<item id="1038" text="選單和工具列字型" tooltip=""/>
+			<item id="1039" text="通用 UI 字型 (用於所有檢視和對話框)" tooltip=""/>
+			<item id="1233" text="顯示工具列氣泡提示" tooltip=""/>
+			<item id="1234" text="氣泡提示中顯示快速鍵" tooltip=""/>
+			<item id="1235" text="選單中顯示快速鍵" tooltip=""/>
+			<item id="1236" text="為工具列啟用3D外觀" tooltip=""/>
+			<item id="1237" text="工具列間顯示分隔字元" tooltip=""/>
+			<item id="1261" text="使用者介面字型" tooltip=""/>
+			<item id="1536" text="應用" tooltip=""/>
+		</dialog>
+		<dialog id="302" text="">
+			<item id="1038" text="頁面背景:" tooltip=""/>
+			<item id="1039" text="填充顏色:" tooltip=""/>
+			<item id="1040" text="筆劃顏色:" tooltip=""/>
+			<item id="1126" text="文字顏色:" tooltip=""/>
+			<item id="1127" text="藝術線條:" tooltip=""/>
+			<item id="1128" text="僅變更黑色文要或藝術線條的顏色." tooltip=""/>
+			<item id="1200" text="文件顏色選項" tooltip=""/>
+			<item id="1220" text="使用自訂顏色主題(&amp;C):" tooltip=""/>
+			<item id="1235" text="使用 Windows 顏色主題(&amp;W)" tooltip=""/>
+			<item id="1236" text="使用預定義的高對比度顏色主題(&amp;H):" tooltip=""/>
+			<item id="1240" text="忽略文件顏色" tooltip=""/>
+			<item id="1241" text="變更藝術線條和文字的顏色." tooltip=""/>
+		</dialog>
+		<dialog id="303" text="">
+			<item id="1038" text="背景色(&amp;B):" tooltip=""/>
+			<item id="1200" text="全螢幕外觀" tooltip=""/>
+			<item id="1239" text="滑鼠游標(&amp;C):" tooltip=""/>
+			<item id="1530" text="啟用幻燈片模式" tooltip=""/>
+			<item id="1540" text="顯示主背景" tooltip=""/>
+			<item id="1551" text="顯示導覽列" tooltip=""/>
+			<item id="1552" text="保持目前頁面檢視 (頁面佈局,縮放,視點)" tooltip=""/>
+		</dialog>
+		<dialog id="304" text="">
+			<item id="1038" text="解析度(&amp;R):" tooltip=""/>
+			<item id="1039" text="DPI " tooltip=""/>
+			<item id="1096" text="擷圖使用灰階" tooltip=""/>
+			<item id="1200" text="擷圖選項" tooltip=""/>
+			<item id="1201" text="擷圖音效" tooltip=""/>
+			<item id="1242" text="使用固定的解析度擷圖(&amp;F):" tooltip=""/>
+			<item id="1244" text="擷圖時不播放聲音" tooltip=""/>
+		</dialog>
+		<dialog id="305" text="">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+		</dialog>
+		<dialog id="306" text="">
+			<item id="1038" text="標題文字:" tooltip=""/>
+			<item id="1039" text="樣式:" tooltip=""/>
+			<item id="1040" text="顏色:" tooltip=""/>
+		</dialog>
+		<dialog id="307" text="">
+			<item id="1038" text="您可以加入新的動作或編輯列表中已存在的動作. 您也可以拖曳動作重新組織其順序." tooltip=""/>
+			<item id="1039" text="選擇觸發器(&amp;T):" tooltip=""/>
+		</dialog>
+		<dialog id="308" text="">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="3" text="加入目前檢視" tooltip=""/>
+			<item id="4" text="..." tooltip=""/>
+			<item id="5" text="刪除" tooltip=""/>
+			<item id="1038" text="您可以選擇下面的 &apos;使用目前檢視&apos; 按鈕指定一個新的目的:" tooltip=""/>
+			<item id="1039" text="檔案名稱:" tooltip=""/>
+			<item id="1040" text="頁:" tooltip=""/>
+			<item id="1041" text="X:" tooltip=""/>
+			<item id="1042" text="Y:" tooltip=""/>
+			<item id="1043" text="寬:" tooltip=""/>
+			<item id="1044" text="高:" tooltip=""/>
+			<item id="1045" text="在...中開啟(&amp;O):" tooltip=""/>
+			<item id="1066" text="預覽" tooltip=""/>
+			<item id="1067" text="固定" tooltip=""/>
+			<item id="1126" text="繼承" tooltip=""/>
+			<item id="1127" text="繼承" tooltip=""/>
+			<item id="1200" text="目的屬性" tooltip=""/>
+			<item id="1252" text="使用縮放等級:" tooltip=""/>
+			<item id="1253" text="使用矩形:" tooltip=""/>
+			<item id="1261" text="目的文件" tooltip=""/>
+			<item id="1271" text="放大" tooltip=""/>
+			<item id="1272" text="縮小" tooltip=""/>
+			<item id="1275" text="使用目前檢視" tooltip=""/>
+			<item id="1435" text="使用頁碼" tooltip=""/>
+			<item id="1436" text="使用命名後的目的" tooltip=""/>
+		</dialog>
+		<dialog id="309" text="">
+			<item id="1039" text="姓名(&amp;N):" tooltip=""/>
+			<item id="1041" text="組織名稱(&amp;O):" tooltip=""/>
+			<item id="1043" text="Email 位址(&amp;E):" tooltip=""/>
+			<item id="1045" text="註冊碼(&amp;R):" tooltip=""/>
+			<item id="1200" text="註冊資訊" tooltip=""/>
+			<item id="1274" text="在免費的版本中隱藏受限制的專業功能" tooltip=""/>
+			<item id="1282" text="隱藏廣告列" tooltip=""/>
+		</dialog>
+		<dialog id="310" text="">
+			<item id="1038" text="字型(&amp;F):" tooltip=""/>
+			<item id="1044" text="字型大小(&amp;S):" tooltip=""/>
+			<item id="1200" text="JavaScript" tooltip=""/>
+			<item id="1201" text="JavaScript 控制台" tooltip=""/>
+			<item id="1276" text="啟用 JavaScript 動作(&amp;J)" tooltip=""/>
+			<item id="1277" text="啟用 JavaScript 交互控制台(&amp;C)" tooltip=""/>
+			<item id="1278" text="出現錯誤和彈出訊息時顯示控制台(&amp;E)" tooltip=""/>
+			<item id="1279" text="執行 JavaScript 動作時顯示警告(&amp;W)" tooltip=""/>
+		</dialog>
+		<dialog id="311" text="轉到行">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="行數:" tooltip=""/>
+		</dialog>
+		<dialog id="312" text="裁剪頁面">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="應用於(&amp;Y):" tooltip=""/>
+			<item id="1039" text="輸入頁碼和/或範圍, 從文件開頭計起, 用 &quot;,&quot; 分隔. 例如, 輸入 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="方框(&amp;B):" tooltip=""/>
+			<item id="1042" text="左(&amp;L):" tooltip=""/>
+			<item id="1043" text="右(&amp;L):" tooltip=""/>
+			<item id="1044" text="上(&amp;T):" tooltip=""/>
+			<item id="1045" text="下(&amp;M):" tooltip=""/>
+			<item id="1046" text="單位(&amp;U):" tooltip=""/>
+			<item id="1126" text="設為空白外邊框(&amp;W)" tooltip=""/>
+			<item id="1127" text="移除空白(&amp;V)" tooltip=""/>
+			<item id="1129" text="鎖定比例" tooltip=""/>
+			<item id="1164" text="全部(&amp;A)" tooltip=""/>
+			<item id="1165" text="選取頁(&amp;S)" tooltip=""/>
+			<item id="1166" text="目前頁(&amp;R)" tooltip=""/>
+			<item id="1167" text="頁(&amp;G):" tooltip=""/>
+			<item id="1200" text="頁面範圍" tooltip=""/>
+			<item id="1201" text="裁剪外邊框" tooltip=""/>
+			<item id="1202" text="外邊框控制" tooltip=""/>
+			<item id="1285" text="顯示所有" tooltip=""/>
+			<item id="1290" text="設為零(&amp;Z)" tooltip=""/>
+			<item id="1291" text="恢復到原始值(&amp;O)" tooltip=""/>
+		</dialog>
+		<dialog id="313" text="插入頁面">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="4" text="瀏覽..." tooltip=""/>
+			<item id="1038" text="插入:" tooltip=""/>
+			<item id="1039" text="輸入頁碼和/或範圍, 從文件開頭計起, 用 &quot;,&quot; 分隔. 例如, 輸入 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="檔案:" tooltip=""/>
+			<item id="1042" text="位置:" tooltip=""/>
+			<item id="1164" text="全部(&amp;A)" tooltip=""/>
+			<item id="1167" text="頁(&amp;P):" tooltip=""/>
+			<item id="1200" text="來源頁面範圍" tooltip=""/>
+			<item id="1201" text="來源" tooltip=""/>
+			<item id="1202" text="目的" tooltip=""/>
+			<item id="1292" text="從檔案" tooltip=""/>
+			<item id="1293" text="從已開啟的文件" tooltip=""/>
+			<item id="1295" text="第一頁" tooltip=""/>
+			<item id="1296" text="最末頁" tooltip=""/>
+			<item id="1297" text="頁:" tooltip=""/>
+		</dialog>
+		<dialog id="314" text="提取頁面">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="4" text="瀏覽(&amp;W)..." tooltip=""/>
+			<item id="6" text="巨集(&amp;M)" tooltip=""/>
+			<item id="1038" text="應用於:" tooltip=""/>
+			<item id="1039" text="輸入頁碼和/或範圍, 從文件開頭計起, 用 &quot;,&quot; 分隔. 例如, 輸入 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="檔案名稱(&amp;N):" tooltip=""/>
+			<item id="1043" text="目的資料夾(&amp;F):" tooltip=""/>
+			<item id="1126" text="提取頁面為單個的檔案(&amp;E)" tooltip=""/>
+			<item id="1127" text="儲存提取的頁面到新檔案(&amp;P)" tooltip=""/>
+			<item id="1164" text="全部(&amp;A)" tooltip=""/>
+			<item id="1165" text="選擇的頁面(&amp;S)" tooltip=""/>
+			<item id="1166" text="目前頁(&amp;R)" tooltip=""/>
+			<item id="1167" text="頁面(&amp;G):" tooltip=""/>
+			<item id="1200" text="頁面範圍" tooltip=""/>
+			<item id="1201" text="選項" tooltip=""/>
+			<item id="1202" text="另存為" tooltip=""/>
+			<item id="1299" text="提取後刪除頁面(&amp;D)" tooltip=""/>
+		</dialog>
+		<dialog id="315" text="">
+			<item id="1200" text="註解選項" tooltip=""/>
+			<item id="1201" text="檢視註解選項" tooltip=""/>
+			<item id="1234" text="啟動氣泡提示" tooltip=""/>
+			<item id="1235" text="在註解彈出框中顯示主題標籤" tooltip=""/>
+			<item id="1236" text="在註解彈出框和氣泡中顯示作者標籤" tooltip=""/>
+			<item id="1237" text="在註解彈出框中顯示修改日期" tooltip=""/>
+			<item id="1302" text="複製周圍的文字到彈出的註解框(&amp;Y)" tooltip=""/>
+			<item id="1303" text="複製選擇的文字到彈出的高亮, 加刪除線和下拉線的註解框(&amp;X)" tooltip=""/>
+			<item id="1304" text="貼上註解到滑鼠位置(&amp;P)" tooltip=""/>
+			<item id="1354" text="顯示文字提示" tooltip=""/>
+			<item id="1507" text="簡單焦點外觀" tooltip=""/>
+			<item id="1538" text="啟用註解工具獨佔模式:&#10;- 阻止滑鼠存取註解, 要存取必須使用 Shift 鍵" tooltip=""/>
+			<item id="1540" text="非註解工具啟用獨佔模式, 例如手形工具, 縮放工具, 選擇工具等:&#10;- 阻止滑鼠存取註解, 除非使用 Shift 鍵" tooltip=""/>
+			<item id="1548" text="啟用非註解工具獨佔模式, 例如手形, 縮放, 選擇等:&#10;- 阻止滑鼠存取註解, 要存取必須使用 Shift 鍵" tooltip=""/>
+		</dialog>
+		<dialog id="316" text="插入空白頁">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1039" text="方向:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="數目" tooltip=""/>
+			<item id="1042" text="位置:" tooltip=""/>
+			<item id="1200" text="頁面大小" tooltip=""/>
+			<item id="1202" text="目的" tooltip=""/>
+			<item id="1292" text="標準:" tooltip=""/>
+			<item id="1293" text="自訂:" tooltip=""/>
+			<item id="1295" text="第一頁" tooltip=""/>
+			<item id="1296" text="最末頁" tooltip=""/>
+			<item id="1297" text="頁:" tooltip=""/>
+			<item id="1304" text="豎直" tooltip=""/>
+			<item id="1305" text="水平" tooltip=""/>
+		</dialog>
+		<dialog id="317" text="重新命名戳記">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="請輸入新的戳記名稱." tooltip=""/>
+		</dialog>
+		<dialog id="318" text="插入戳記">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="4" text="瀏覽(&amp;B)..." tooltip=""/>
+			<item id="1039" text="檔案(&amp;F):" tooltip=""/>
+			<item id="1041" text="頁面(&amp;P):" tooltip=""/>
+			<item id="1042" text="標題(&amp;T):" tooltip=""/>
+			<item id="1200" text="來源" tooltip=""/>
+			<item id="1201" text="戳記資訊" tooltip=""/>
+		</dialog>
+		<dialog id="321" text="文字屬性">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="3" text="應用" tooltip=""/>
+		</dialog>
+		<dialog id="322" text="">
+			<item id="1313" text="複製到剪貼簿" tooltip=""/>
+		</dialog>
+		<dialog id="324" text="命令屬性">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="圖像:" tooltip=""/>
+			<item id="1039" text="標題:" tooltip=""/>
+			<item id="1040" text="氣泡提示:" tooltip=""/>
+			<item id="1041" text="狀態列提示:" tooltip=""/>
+			<item id="1042" text="標題縮寫:" tooltip=""/>
+			<item id="1043" text="ID:" tooltip=""/>
+			<item id="1044" text="名稱:" tooltip=""/>
+			<item id="1126" text="由 JavaScript 勾選:" tooltip=""/>
+			<item id="1127" text="由 JavaScript 啟用:" tooltip=""/>
+			<item id="1198" text="命令動作:" tooltip=""/>
+			<item id="1200" text="身份資訊:" tooltip=""/>
+			<item id="1201" text="快速鍵:" tooltip=""/>
+			<item id="1202" text="狀態決定:" tooltip=""/>
+			<item id="1203" text="Adobe 中名稱:" tooltip=""/>
+			<item id="1204" text="鍵:" tooltip=""/>
+			<item id="1205" text="用於:" tooltip=""/>
+			<item id="1206" text="使用者:" tooltip=""/>
+			<item id="1261" text="外觀:" tooltip=""/>
+			<item id="1292" text="預定義動作:" tooltip=""/>
+			<item id="1293" text="執行 JavaScript:" tooltip=""/>
+			<item id="1324" text="編輯..." tooltip=""/>
+			<item id="1325" text="編輯..." tooltip=""/>
+			<item id="1326" text="編輯..." tooltip=""/>
+		</dialog>
+		<dialog id="325" text="">
+			<item id="1039" text="文字 Gamma 值(&amp;G):" tooltip=""/>
+			<item id="1076" text="平滑文字" tooltip=""/>
+			<item id="1077" text="平滑藝術線條" tooltip=""/>
+			<item id="1078" text="平滑圖像" tooltip=""/>
+			<item id="1200" text="文字演算上色" tooltip=""/>
+			<item id="1202" text="平滑" tooltip=""/>
+		</dialog>
+		<dialog id="326" text="新增工具列">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="工具列標題:" tooltip=""/>
+		</dialog>
+		<dialog id="327" text="合併註解">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="應用到:" tooltip=""/>
+			<item id="1039" text="輸入頁碼和/或範圍, 從文件開頭計起, 用 &quot;,&quot; 分隔. 例如, 輸入 1, 3, 5-12" tooltip=""/>
+			<item id="1041" text="非列印:" tooltip=""/>
+			<item id="1042" text="表單欄位:" tooltip=""/>
+			<item id="1164" text="全部(&amp;A)" tooltip=""/>
+			<item id="1165" text="選擇的頁面(&amp;D)" tooltip=""/>
+			<item id="1166" text="目前頁(&amp;E)" tooltip=""/>
+			<item id="1167" text="頁面(&amp;G):" tooltip=""/>
+			<item id="1200" text="頁面範圍" tooltip=""/>
+			<item id="1201" text="選項" tooltip=""/>
+		</dialog>
+		<dialog id="328" text="總括註解">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="分組:" tooltip=""/>
+			<item id="1039" text="輸入頁碼和/或範圍, 從文件開頭計起, 用 &quot;,&quot; 分隔. 例如, 輸入 1, 3, 5-12" tooltip=""/>
+			<item id="1040" text="排列:" tooltip=""/>
+			<item id="1041" text="類型:" tooltip=""/>
+			<item id="1126" text="不包括回覆" tooltip=""/>
+			<item id="1200" text="頁面範圍" tooltip=""/>
+			<item id="1201" text="輸出" tooltip=""/>
+			<item id="1202" text="選項" tooltip=""/>
+			<item id="1261" text="一般" tooltip=""/>
+			<item id="1330" text="全部(&amp;A)" tooltip=""/>
+			<item id="1331" text="選擇的頁面(&amp;S)" tooltip=""/>
+			<item id="1332" text="目前頁(&amp;E)" tooltip=""/>
+			<item id="1333" text="頁面(&amp;C)" tooltip=""/>
+			<item id="1335" text="子集:" tooltip=""/>
+			<item id="1341" text="包括不可見註解" tooltip=""/>
+			<item id="1356" text="建立後檢視新文件" tooltip=""/>
+			<item id="1387" text="輸入頁碼和/或範圍, 從文件開頭計起, 用 &quot;,&quot; 分隔. 例如, 輸入 1, 3, 5-12" tooltip=""/>
+		</dialog>
+		<dialog id="329" text="">
+			<item id="1038" text="佈局:" tooltip=""/>
+			<item id="1039" text="紙張:" tooltip=""/>
+			<item id="1343" text="進階" tooltip=""/>
+			<item id="1351" text="每個群組放在單獨的頁面上" tooltip=""/>
+			<item id="1352" text="跳過不" tooltip=""/>
+		</dialog>
+		<dialog id="332" text="">
+			<item id="4" text="瀏覽..." tooltip=""/>
+			<item id="6" text="巨集" tooltip=""/>
+			<item id="1038" text="目的資料夾名稱:" tooltip=""/>
+			<item id="1039" text="檔案名稱:" tooltip=""/>
+		</dialog>
+		<dialog id="333" text="">
+			<item id="4" text="瀏覽..." tooltip=""/>
+			<item id="6" text="巨集" tooltip=""/>
+			<item id="1038" text="目的資料夾名稱:" tooltip=""/>
+			<item id="1039" text="檔案名稱:" tooltip=""/>
+			<item id="1041" text="紙張:" tooltip=""/>
+			<item id="1351" text="每個群組放在單獨的頁面上" tooltip=""/>
+		</dialog>
+		<dialog id="334" text="">
+			<item id="4" text="瀏覽..." tooltip=""/>
+			<item id="6" text="巨集" tooltip=""/>
+			<item id="1038" text="目的資料夾名稱:" tooltip=""/>
+			<item id="1039" text="檔案名稱:" tooltip=""/>
+			<item id="1261" text="文字編碼" tooltip=""/>
+			<item id="1292" text="Unicode" tooltip=""/>
+			<item id="1293" text="MS-DOS" tooltip=""/>
+			<item id="1294" text="Windows" tooltip=""/>
+			<item id="1355" text="其它:" tooltip=""/>
+		</dialog>
+		<dialog id="335" text="">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1180" text="進階(&amp;A)" tooltip=""/>
+		</dialog>
+		<dialog id="336" text="">
+			<item id="1038" text="邊框樣式:" tooltip=""/>
+			<item id="1039" text="邊框粗細:" tooltip=""/>
+			<item id="1040" text="邊框顏色:" tooltip=""/>
+			<item id="1041" text="高亮模式:" tooltip=""/>
+		</dialog>
+		<dialog id="337" text="測量標籤">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="測量標記標籤:" tooltip=""/>
+		</dialog>
+		<dialog id="341" text="新增空白文件">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1039" text="方向" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="數目:" tooltip=""/>
+			<item id="1200" text="頁面" tooltip=""/>
+			<item id="1292" text="標準:" tooltip=""/>
+			<item id="1293" text="自訂:" tooltip=""/>
+			<item id="1304" text="縱向" tooltip=""/>
+			<item id="1305" text="橫向" tooltip=""/>
+		</dialog>
+		<dialog id="342" text="">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="輸入 URL:" tooltip=""/>
+		</dialog>
+		<dialog id="343" text="屬性">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1039" text="列數目:" tooltip=""/>
+			<item id="1040" text="兩列間隔:" tooltip=""/>
+			<item id="1041" text="單位:" tooltip=""/>
+			<item id="1042" text="風格:" tooltip=""/>
+			<item id="1043" text="粗細:" tooltip=""/>
+			<item id="1044" text="顏色:" tooltip=""/>
+			<item id="1367" text="兩列間界線" tooltip=""/>
+		</dialog>
+		<dialog id="344" text="進階">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+		</dialog>
+		<dialog id="345" text="對話框">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="4" text="瀏覽..." tooltip=""/>
+			<item id="1039" text="方向:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1041" text="新段落模式:" tooltip=""/>
+			<item id="1042" text="左(&amp;L):" tooltip=""/>
+			<item id="1043" text="右(&amp;H):" tooltip=""/>
+			<item id="1044" text="上(&amp;T):" tooltip=""/>
+			<item id="1045" text="下(&amp;M):" tooltip=""/>
+			<item id="1046" text="新段落模式:" tooltip=""/>
+			<item id="1075" text="檢視..." tooltip=""/>
+			<item id="1099" text="選項..." tooltip=""/>
+			<item id="1198" text="外邊框" tooltip=""/>
+			<item id="1200" text="頁面大小" tooltip=""/>
+			<item id="1202" text="來源文字檔案" tooltip=""/>
+			<item id="1203" text="文字編碼:" tooltip=""/>
+			<item id="1292" text="標準:" tooltip=""/>
+			<item id="1293" text="自訂:" tooltip=""/>
+			<item id="1304" text="縱向" tooltip=""/>
+			<item id="1305" text="橫向" tooltip=""/>
+			<item id="1343" text="進階..." tooltip=""/>
+			<item id="1376" text="加入檔案..." tooltip=""/>
+			<item id="1377" text="加入資料夾..." tooltip=""/>
+			<item id="1378" text="移除" tooltip=""/>
+			<item id="1379" text="上移" tooltip=""/>
+			<item id="1380" text="下移" tooltip=""/>
+		</dialog>
+		<dialog id="346" text="">
+			<item id="1038" text="起始:" tooltip=""/>
+			<item id="1039" text="結尾:" tooltip=""/>
+			<item id="1040" text="樣式:" tooltip=""/>
+			<item id="1041" text="粗細:" tooltip=""/>
+			<item id="1042" text="顏色:" tooltip=""/>
+			<item id="1043" text="填充顏色:" tooltip=""/>
+			<item id="1044" text="不透明度:" tooltip=""/>
+			<item id="1045" text="長度:" tooltip=""/>
+			<item id="1046" text="偏移:" tooltip=""/>
+			<item id="1047" text="擴展:" tooltip=""/>
+			<item id="1200" text="結尾樣式" tooltip=""/>
+			<item id="1201" text="邊框" tooltip=""/>
+			<item id="1202" text="引線" tooltip=""/>
+			<item id="1203" text="文字" tooltip=""/>
+			<item id="1362" text="線上條上顯示文字" tooltip=""/>
+		</dialog>
+		<dialog id="347" text="重設所有設定">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="您想要重設程式的所有設定到預設值碼?" tooltip=""/>
+			<item id="1126" text="保留已知網站列表: 保留對所有已知的網站的選擇." tooltip=""/>
+			<item id="1128" text="保留提示列表: 保留對警告, 確認和提示對話框的選擇" tooltip=""/>
+			<item id="1129" text="保留介面語言" tooltip=""/>
+			<item id="1373" text="保留最近的檔案列表: 保留所有最近的文件." tooltip=""/>
+		</dialog>
+		<dialog id="348" text="文件元資料">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+		</dialog>
+		<dialog id="351" text="">
+			<item id="6" text="巨集(&amp;M):" tooltip=""/>
+			<item id="1039" text="放置模式" tooltip=""/>
+			<item id="1040" text="風格:" tooltip=""/>
+			<item id="1041" text="粗細:" tooltip=""/>
+			<item id="1042" text="顏色:" tooltip=""/>
+			<item id="1044" text="背景色:" tooltip=""/>
+			<item id="1128" text="在頭部上方繪製線條" tooltip=""/>
+			<item id="1200" text="檔案頭" tooltip=""/>
+			<item id="1381" text="繪製線條" tooltip=""/>
+			<item id="1385" text="使用標題頭部" tooltip=""/>
+			<item id="1388" text="格式..." tooltip=""/>
+		</dialog>
+		<dialog id="352" text="從圖像新增檔案">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1039" text="方向:" tooltip=""/>
+			<item id="1040" text="x" tooltip=""/>
+			<item id="1042" text="左(&amp;L):" tooltip=""/>
+			<item id="1043" text="右(&amp;H):" tooltip=""/>
+			<item id="1044" text="上(&amp;T):" tooltip=""/>
+			<item id="1045" text="下(&amp;M):" tooltip=""/>
+			<item id="1099" text="選項..." tooltip=""/>
+			<item id="1198" text="外邊框" tooltip=""/>
+			<item id="1200" text="頁面大小" tooltip=""/>
+			<item id="1202" text="來源圖像檔案" tooltip=""/>
+			<item id="1251" text="編輯..." tooltip=""/>
+			<item id="1292" text="標準:" tooltip=""/>
+			<item id="1293" text="自訂:" tooltip=""/>
+			<item id="1304" text="縱向" tooltip=""/>
+			<item id="1305" text="橫向" tooltip=""/>
+			<item id="1343" text="進階..." tooltip=""/>
+			<item id="1376" text="加入檔案..." tooltip=""/>
+			<item id="1377" text="加入資料夾..." tooltip=""/>
+			<item id="1378" text="移除" tooltip=""/>
+			<item id="1379" text="上移" tooltip=""/>
+			<item id="1380" text="下移" tooltip=""/>
+			<item id="1406" text="匯入..." tooltip=""/>
+		</dialog>
+		<dialog id="353" text="進階">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+		</dialog>
+		<dialog id="354" text="">
+			<item id="1039" text="水平計數:" tooltip=""/>
+			<item id="1040" text="垂直計數:" tooltip=""/>
+			<item id="1041" text="水平間隔:" tooltip=""/>
+			<item id="1042" text="垂直間隔:" tooltip=""/>
+			<item id="1043" text="水平排列:" tooltip=""/>
+			<item id="1044" text="垂直排列:" tooltip=""/>
+			<item id="1200" text="佈局規則" tooltip=""/>
+			<item id="1201" text="排列圖像" tooltip=""/>
+		</dialog>
+		<dialog id="355" text="">
+			<item id="1039" text="以上圖像:" tooltip=""/>
+			<item id="1040" text="像素每英吋" tooltip=""/>
+			<item id="1041" text="像素每英吋" tooltip=""/>
+			<item id="1042" text="以上圖像:" tooltip=""/>
+			<item id="1043" text="像素每英吋" tooltip=""/>
+			<item id="1044" text="像素每英吋" tooltip=""/>
+			<item id="1126" text="使用抖動" tooltip=""/>
+			<item id="1200" text="彩色/灰階圖像" tooltip=""/>
+			<item id="1201" text="索引圖像" tooltip=""/>
+			<item id="1202" text="單色圖像" tooltip=""/>
+			<item id="1203" text="以上圖像:" tooltip=""/>
+			<item id="1204" text="像素每英吋" tooltip=""/>
+			<item id="1205" text="像素每英吋" tooltip=""/>
+			<item id="1206" text="閾值:" tooltip=""/>
+			<item id="1401" text="使用抖動" tooltip=""/>
+		</dialog>
+		<dialog id="362" text="">
+			<item id="6" text="巨集" tooltip=""/>
+			<item id="1039" text="背景色:" tooltip=""/>
+			<item id="1128" text="在圖像上放置標籤" tooltip=""/>
+			<item id="1200" text="圖像標籤" tooltip=""/>
+			<item id="1388" text="格式..." tooltip=""/>
+			<item id="1407" text="為每個圖像使用特殊文字標籤" tooltip=""/>
+		</dialog>
+		<dialog id="363" text="編輯圖像">
+		</dialog>
+		<dialog id="364" text="">
+			<item id="1038" text="側邊:" tooltip=""/>
+			<item id="1039" text="槽:" tooltip=""/>
+			<item id="1040" text="簽章:" tooltip=""/>
+			<item id="1041" text="類型:" tooltip=""/>
+			<item id="1120" text="自動旋轉頁面" tooltip=""/>
+			<item id="1121" text="頁面自動置中" tooltip=""/>
+			<item id="1414" text="右側裝訂" tooltip=""/>
+		</dialog>
+		<dialog id="365" text="進階列印設定">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="列印為圖像的最高解析度:" tooltip=""/>
+			<item id="1039" text="漸進填充解析度:" tooltip=""/>
+			<item id="1040" text="彎曲列印文字:" tooltip=""/>
+			<item id="1041" text="彈出視窗不透明度:" tooltip=""/>
+			<item id="1416" text="列印註解及" tooltip=""/>
+		</dialog>
+		<dialog id="366" text="輸入文件密碼">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+		</dialog>
+		<dialog id="369" text="屬性">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1180" text="進階(&amp;A)" tooltip=""/>
+		</dialog>
+		<dialog id="371" text="">
+			<item id="1038" text="作者:" tooltip=""/>
+			<item id="1039" text="主題:" tooltip=""/>
+			<item id="1040" text="建立日期:" tooltip=""/>
+			<item id="1041" text="修改日期:" tooltip=""/>
+		</dialog>
+		<dialog id="372" text="">
+			<item id="1045" text="長度:" tooltip=""/>
+			<item id="1046" text="偏移:" tooltip=""/>
+			<item id="1047" text="擴展:" tooltip=""/>
+			<item id="1362" text="在一行中顯示文字" tooltip=""/>
+		</dialog>
+		<dialog id="373" text="新檔案來自掃瞄">
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1039" text="選擇用於取得圖像的掃瞄器:" tooltip=""/>
+			<item id="1423" text="掃瞄..." tooltip=""/>
+			<item id="1424" text="更新" tooltip=""/>
+		</dialog>
+		<dialog id="374" text="">
+			<item id="1038" text="填充顏色:" tooltip=""/>
+			<item id="1039" text="邊框顏色:" tooltip=""/>
+			<item id="1126" text="開啟文件時為表單欄位使用初始高亮模式" tooltip=""/>
+			<item id="1128" text="高亮所有表單欄位" tooltip=""/>
+			<item id="1129" text="組合框" tooltip=""/>
+			<item id="1130" text="複選框" tooltip=""/>
+			<item id="1131" text="列表框" tooltip=""/>
+			<item id="1132" text="按鈕" tooltip=""/>
+			<item id="1133" text="單選按鈕" tooltip=""/>
+			<item id="1134" text="文字框" tooltip=""/>
+			<item id="1135" text="簽章" tooltip=""/>
+			<item id="1136" text="僅高亮必需的欄位" tooltip=""/>
+			<item id="1200" text="一般" tooltip=""/>
+			<item id="1201" text="高亮表單欄位" tooltip=""/>
+			<item id="1425" text="從欄位自動計算" tooltip=""/>
+			<item id="1426" text="顯示焦點矩形" tooltip=""/>
+		</dialog>
+		<dialog id="376" text="">
+			<item id="1039" text="x" tooltip=""/>
+			<item id="1040" text="方向:" tooltip=""/>
+			<item id="1041" text="左:" tooltip=""/>
+			<item id="1042" text="上:" tooltip=""/>
+			<item id="1043" text="右:" tooltip=""/>
+			<item id="1044" text="下:" tooltip=""/>
+			<item id="1200" text="外邊框" tooltip=""/>
+			<item id="1292" text="標準:" tooltip=""/>
+			<item id="1293" text="自訂" tooltip=""/>
+			<item id="1304" text="豎直" tooltip=""/>
+			<item id="1305" text="水平" tooltip=""/>
+		</dialog>
+		<dialog id="377" text="">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+		</dialog>
+		<dialog id="378" text="">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="4" text="瀏覽(&amp;R)..." tooltip=""/>
+			<item id="5" text="瀏覽(&amp;W)..." tooltip=""/>
+			<item id="1039" text="在...中開啟(&amp;I):" tooltip=""/>
+			<item id="1040" text="操作(&amp;O):" tooltip=""/>
+			<item id="1043" text="檔案(&amp;F):" tooltip=""/>
+			<item id="1044" text="目錄(&amp;D):" tooltip=""/>
+			<item id="1045" text="參數(&amp;P)..." tooltip=""/>
+			<item id="1201" text="目的" tooltip=""/>
+			<item id="1202" text="選項" tooltip=""/>
+		</dialog>
+		<dialog id="380" text="">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+		</dialog>
+		<dialog id="381" text="">
+			<item id="1200" text="選擇頁面中物件的 Tab 順序" tooltip=""/>
+			<item id="1441" text="不指定(&amp;U)" tooltip=""/>
+			<item id="1442" text="使用行順序(&amp;R)" tooltip=""/>
+			<item id="1443" text="使用列順序(&amp;C)" tooltip=""/>
+			<item id="1444" text="使用文件結構(&amp;S)" tooltip=""/>
+		</dialog>
+		<dialog id="382" text="">
+			<item id="1038" text="導覽檢視(&amp;N)" tooltip=""/>
+			<item id="1039" text="頁面佈局(&amp;L):" tooltip=""/>
+			<item id="1040" text="放大(&amp;M):" tooltip=""/>
+			<item id="1041" text="開啟到頁面(&amp;P):" tooltip=""/>
+			<item id="1043" text="標題中顯示(&amp;S):" tooltip=""/>
+			<item id="1200" text="佈局和放大" tooltip=""/>
+			<item id="1201" text="視窗選項" tooltip=""/>
+			<item id="1202" text="使用者介面選項" tooltip=""/>
+			<item id="36507" text="以全螢幕模式開啟(&amp;F)" tooltip=""/>
+			<item id="36508" text="隱藏選單列(&amp;E)" tooltip=""/>
+			<item id="36509" text="隱藏工具列(&amp;T)" tooltip=""/>
+			<item id="36510" text="隱藏視窗控制項(&amp;W)" tooltip=""/>
+		</dialog>
+		<dialog id="383" text="">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+		</dialog>
+		<dialog id="384" text="快速鍵衝突">
+			<item id="2" text="關閉" tooltip=""/>
+		</dialog>
+		<dialog id="389" text="">
+			<item id="1038" text="您已安裝下列搜尋引擎:" tooltip=""/>
+			<item id="1443" text="上移" tooltip=""/>
+			<item id="1444" text="下移" tooltip=""/>
+			<item id="1445" text="移除..." tooltip=""/>
+			<item id="1446" text="加入..." tooltip=""/>
+			<item id="1509" text="允許從 Internet 下載搜尋引擎圖示" tooltip=""/>
+			<item id="1510" text="關閉所有搜尋引擎" tooltip=""/>
+		</dialog>
+		<dialog id="390" text="加入新搜尋引擎">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1017" text="建立搜尋引擎" tooltip=""/>
+			<item id="1040" text="透過以下步驟加入新的搜尋引擎:" tooltip=""/>
+			<item id="1041" text="1. 在瀏覽器中存取需要的搜尋引擎." tooltip=""/>
+			<item id="1042" text="2. 使用搜尋引擎搜尋 TEST (區分大小寫)." tooltip=""/>
+			<item id="1043" text="3. 貼上此搜尋結果頁面 URL 到 URL 欄位." tooltip=""/>
+			<item id="1044" text="4. 填寫此表單並點擊確定." tooltip=""/>
+			<item id="1200" text="提供程式資訊" tooltip=""/>
+			<item id="1203" text="URL(&amp;U):" tooltip=""/>
+			<item id="1204" text="名稱(&amp;N):" tooltip=""/>
+			<item id="1205" text="描述(&amp;D):" tooltip=""/>
+			<item id="1206" text="編碼(&amp;E):" tooltip=""/>
+		</dialog>
+		<dialog id="391" text="對話框">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+		</dialog>
+		<dialog id="392" text="密碼安全 - 設定">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="元件:" tooltip=""/>
+			<item id="1041" text="變更權限密碼:" tooltip=""/>
+			<item id="1042" text="相容性:" tooltip=""/>
+			<item id="1043" text="加密等級:" tooltip=""/>
+			<item id="1045" text="列印許可(&amp;P):" tooltip=""/>
+			<item id="1046" text="變更許可(&amp;H):" tooltip=""/>
+			<item id="1050" text="確認變更權限密碼:" tooltip=""/>
+			<item id="1126" text="需要密碼來變更文件權限" tooltip=""/>
+			<item id="1200" text="選擇要加密的檔案元件" tooltip=""/>
+			<item id="1201" text="密碼及權限" tooltip=""/>
+			<item id="1450" text="為視覺障礙人士允許螢幕閱讀裝置存取文字" tooltip=""/>
+			<item id="1451" text="需要密碼來開啟檔案(&amp;O)" tooltip=""/>
+		</dialog>
+		<dialog id="393" text="文件安全性">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="1038" text="列印:" tooltip=""/>
+			<item id="1039" text="修改檔案:" tooltip=""/>
+			<item id="1040" text="註解:" tooltip=""/>
+			<item id="1041" text="複製內容:" tooltip=""/>
+			<item id="1042" text="填寫表單欄位或簽章:" tooltip=""/>
+			<item id="1043" text="允許存取內容:" tooltip=""/>
+			<item id="1044" text="檔案彙編:" tooltip=""/>
+			<item id="1045" text="安全方式:" tooltip=""/>
+			<item id="1046" text="開啟密碼:" tooltip=""/>
+			<item id="1047" text="權限密碼:" tooltip=""/>
+			<item id="1048" text="加密等級:" tooltip=""/>
+			<item id="1049" text="提取頁面:" tooltip=""/>
+		</dialog>
+		<dialog id="394" text="簽章文件">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="4" text="瀏覽(&amp;B)..." tooltip=""/>
+			<item id="1038" text="發行:" tooltip=""/>
+			<item id="1039" text="檔案名稱(&amp;N):" tooltip=""/>
+			<item id="1040" text="簽章原因(&amp;A):" tooltip=""/>
+			<item id="1041" text="位置(&amp;L):" tooltip=""/>
+			<item id="1042" text="聯絡資訊(&amp;I):" tooltip=""/>
+			<item id="1043" text="簽章範本(&amp;T):" tooltip=""/>
+			<item id="1044" text="** 點擊上面的預覽區域, 可以變更此數位簽章的外觀." tooltip=""/>
+			<item id="1132" text="管理(&amp;M)..." tooltip=""/>
+			<item id="1200" text="1. 選擇憑證 (數位 ID):" tooltip=""/>
+			<item id="1201" text="2. 設定簽章的詳細資訊和外觀" tooltip=""/>
+			<item id="1452" text="使用系統中儲存的憑證(&amp;S):" tooltip=""/>
+			<item id="1453" text="使用檔案中的憑證(&amp;F):" tooltip=""/>
+			<item id="1456" text="瀏覽(&amp;W)..." tooltip=""/>
+			<item id="1457" text="檢視憑證(&amp;V)..." tooltip=""/>
+			<item id="1458" text="建立憑證(&amp;C)..." tooltip=""/>
+			<item id="1513" text="管理(&amp;M)..." tooltip=""/>
+			<item id="1514" text="使用時間伺服器(&amp;U):" tooltip=""/>
+		</dialog>
+		<dialog id="395" text="數位簽章外觀範本">
+			<item id="1" text="關閉(&amp;L)" tooltip=""/>
+			<item id="1234" text="重設(&amp;R)" tooltip=""/>
+			<item id="1250" text="刪除(&amp;D)..." tooltip=""/>
+			<item id="1251" text="編輯(&amp;E)..." tooltip=""/>
+			<item id="1374" text="按兩下下面的列表, 選擇數位簽章的範本:" tooltip=""/>
+			<item id="1459" text="複製(&amp;C)" tooltip=""/>
+		</dialog>
+		<dialog id="396" text="編輯數位簽章範本">
+			<item id="1" text="確定(&amp;O)" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1039" text="範本名稱(&amp;N):" tooltip=""/>
+			<item id="1040" text="文字方向(&amp;X)" tooltip=""/>
+			<item id="1126" text="原因(&amp;R)" tooltip=""/>
+			<item id="1127" text="名稱(&amp;M)" tooltip=""/>
+			<item id="1128" text="日期(&amp;E)" tooltip=""/>
+			<item id="1129" text="唯一辨識名稱(&amp;I)" tooltip=""/>
+			<item id="1130" text="標籤(&amp;B)" tooltip=""/>
+			<item id="1131" text="主題(&amp;S)" tooltip=""/>
+			<item id="1201" text="顯示圖像:" tooltip=""/>
+			<item id="1202" text="顯示文字:" tooltip=""/>
+			<item id="1462" text="無圖示(&amp;O)" tooltip=""/>
+			<item id="1463" text="名稱作為圖示(&amp;A)" tooltip=""/>
+			<item id="1464" text="自訂圖示(&amp;C):" tooltip=""/>
+			<item id="1466" text="位置(&amp;T)" tooltip=""/>
+			<item id="1468" text="顯示標誌(&amp;L)" tooltip=""/>
+			<item id="1469" text="選擇(&amp;H)..." tooltip=""/>
+		</dialog>
+		<dialog id="397" text="建立自我簽章數位 ID">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="建立自我簽章數位 ID 可以免費對 PDF 文件進行數位簽章. 但這不適合用於有第三方需要進行驗證的情形." tooltip=""/>
+			<item id="1040" text="名稱(&amp;N):" tooltip=""/>
+			<item id="1041" text="組織單位(&amp;U):" tooltip=""/>
+			<item id="1042" text="組織名稱(&amp;O):" tooltip=""/>
+			<item id="1043" text="Email 位址(&amp;E):" tooltip=""/>
+			<item id="1044" text="國家/地區(&amp;C):" tooltip=""/>
+			<item id="1045" text="您的數位 ID 將被儲存在 Windows 憑證儲存區, 放在這裡, 其它程式也可以使用此憑證. 數位 ID 將由 Windows 登錄系統進行保護." tooltip=""/>
+			<item id="1046" text="使用 PKCS#12 格式建立新的密碼儲存數位 ID 檔案. 此通用數位 ID 檔案格式被大多數安全軟體所支援, 包括各個主串流瀏覽器. PKCS#12 檔案以 .pfx 或 .p12 作為副檔名." tooltip=""/>
+			<item id="1200" text="數位 ID 屬性:" tooltip=""/>
+			<item id="1201" text="在哪裡儲存您的自我簽章數位 ID?" tooltip=""/>
+			<item id="1203" text="金鑰算法(&amp;A):" tooltip=""/>
+			<item id="1205" text="密碼(&amp;P):" tooltip=""/>
+			<item id="1206" text="確認密碼(&amp;O):" tooltip=""/>
+			<item id="1208" text="ASCII" tooltip=""/>
+			<item id="1292" text="Unicode" tooltip=""/>
+			<item id="1476" text="Windows 憑證儲存區(&amp;W)" tooltip=""/>
+			<item id="1477" text="新增 PKCS#12 數位 ID 檔案(&amp;F)" tooltip=""/>
+		</dialog>
+		<dialog id="398" text="輸入密碼">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="請輸入密碼:" tooltip=""/>
+		</dialog>
+		<dialog id="399" text="">
+			<item id="1038" text="簽章:" tooltip=""/>
+			<item id="1039" text="原因:" tooltip=""/>
+			<item id="1040" text="位置:" tooltip=""/>
+			<item id="1041" text="日期" tooltip=""/>
+			<item id="1042" text="聯絡資訊:" tooltip=""/>
+			<item id="1043" text="建立者:" tooltip=""/>
+			<item id="1200" text="簽章資訊" tooltip=""/>
+			<item id="1201" text="有效性摘要" tooltip=""/>
+			<item id="1481" text="檢視憑證(&amp;V)..." tooltip=""/>
+		</dialog>
+		<dialog id="400" text="簽章屬性">
+			<item id="1" text="關閉(&amp;C)" tooltip=""/>
+		</dialog>
+		<dialog id="401" text="加入頁面輔助線">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="頁面上位置:" tooltip=""/>
+			<item id="1039" text="每頁面數目:" tooltip=""/>
+			<item id="1040" text="間距:" tooltip=""/>
+			<item id="1200" text="頁面範圍" tooltip=""/>
+			<item id="1201" text="頁面輔助線" tooltip=""/>
+			<item id="1330" text="全部(&amp;A)" tooltip=""/>
+			<item id="1331" text="選擇的頁面(&amp;S)" tooltip=""/>
+			<item id="1332" text="目前頁面(&amp;R)" tooltip=""/>
+			<item id="1333" text="頁面(&amp;G):" tooltip=""/>
+			<item id="1335" text="子集:" tooltip=""/>
+			<item id="1387" text="輸入頁碼和/或範圍, 從文件開頭計起, 用 &quot;,&quot; 分隔. 例如, 輸入 1, 3, 5-12" tooltip=""/>
+			<item id="1492" text="水平" tooltip=""/>
+			<item id="1493" text="垂直" tooltip=""/>
+		</dialog>
+		<dialog id="402" text="自訂貼齊">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="閾值(&amp;T):" tooltip=""/>
+			<item id="1039" text="閾值(&amp;H):" tooltip=""/>
+			<item id="1040" text="閾值(&amp;R):" tooltip=""/>
+			<item id="1041" text="貼齊到(&amp;N):" tooltip=""/>
+			<item id="1127" text="貼齊到物件(&amp;O)" tooltip=""/>
+			<item id="1200" text="輔助線" tooltip=""/>
+			<item id="1201" text="物件" tooltip=""/>
+			<item id="1261" text="網格" tooltip=""/>
+			<item id="1485" text="貼齊到網格(&amp;G)" tooltip=""/>
+			<item id="1486" text="貼齊到輔助線(&amp;U)" tooltip=""/>
+			<item id="1501" text="顯示貼齊位置標記(&amp;M)" tooltip=""/>
+			<item id="1504" text="全選(&amp;S)" tooltip=""/>
+			<item id="1505" text="全否(&amp;D)" tooltip=""/>
+			<item id="1506" text="僅貼齊到註解" tooltip=""/>
+		</dialog>
+		<dialog id="403" text="編輯附件描述">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="描述:" tooltip=""/>
+		</dialog>
+		<dialog id="404" text="管理最近使用列表">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1009" text="列表中項目的最大數目:" tooltip=""/>
+			<item id="1126" text="退出時清空列表" tooltip=""/>
+			<item id="1127" text="顯示延伸提示" tooltip=""/>
+			<item id="1128" text="啟動時移除所有中斷的項目&#10;注意: 這可能會增加啟動時間" tooltip=""/>
+			<item id="1227" text="清空..." tooltip=""/>
+			<item id="1510" text="移除列表中所有固定項目" tooltip=""/>
+			<item id="1512" text="從列表中移除時需要確認" tooltip=""/>
+		</dialog>
+		<dialog id="405" text="">
+			<item id="1038" text="可以為新增的文件指定 PDF 規範版本" tooltip=""/>
+			<item id="1200" text="可以為新增的文件指定 PDF 規範版本" tooltip=""/>
+		</dialog>
+		<dialog id="406" text="">
+			<item id="1" text="確定" tooltip=""/>
+		</dialog>
+		<dialog id="407" text="">
+			<item id="1038" text="允許載入動作:" tooltip=""/>
+			<item id="1039" text="允許檔案附件開啟:" tooltip=""/>
+			<item id="1200" text="時間戳記" tooltip=""/>
+			<item id="1201" text="檔案開啟和程式載入選項" tooltip=""/>
+			<item id="1513" text="管理(&amp;M)..." tooltip=""/>
+			<item id="1514" text="使用時間伺服器(&amp;U):" tooltip=""/>
+			<item id="1552" text="開啟文件中的連結時不提示" tooltip=""/>
+		</dialog>
+		<dialog id="408" text="時間伺服器">
+			<item id="1" text="關閉" tooltip=""/>
+			<item id="1247" text="加入..." tooltip=""/>
+			<item id="1251" text="編輯..." tooltip=""/>
+			<item id="1445" text="移除" tooltip=""/>
+		</dialog>
+		<dialog id="409" text="">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="名稱(&amp;N):" tooltip=""/>
+			<item id="1039" text="伺服器位址(&amp;U):" tooltip=""/>
+			<item id="1040" text="使用者名稱(&amp;U):" tooltip=""/>
+			<item id="1041" text="密碼(&amp;P)" tooltip=""/>
+			<item id="1261" text="伺服器設定:" tooltip=""/>
+			<item id="1517" text="伺服器需要授權(&amp;A)" tooltip=""/>
+		</dialog>
+		<dialog id="410" text="編輯註解樣式的初始主題">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1038" text="您可以設定所有新註解的初始主題, 可使用下列樣式建立:" tooltip=""/>
+			<item id="1293" text="使用自訂主題:" tooltip=""/>
+			<item id="1520" text="使用一般主題:" tooltip=""/>
+		</dialog>
+		<dialog id="411" text="設定初始縮放">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+		</dialog>
+		<dialog id="413" text="">
+			<item id="1" text="關閉(&amp;C)" tooltip=""/>
+			<item id="1531" text="傳送報告(&amp;R)..." tooltip=""/>
+		</dialog>
+		<dialog id="414" text="註解作者">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1039" text="啟用過濾, 從列表中希望檢視的選擇一個或多個註解作者. 其它註解將被隱藏." tooltip=""/>
+			<item id="1261" text="設定過濾" tooltip=""/>
+			<item id="1532" text="全選(&amp;A)" tooltip=""/>
+			<item id="1533" text="全否(&amp;C)" tooltip=""/>
+			<item id="1534" text="按作者顯示註解:" tooltip=""/>
+		</dialog>
+		<dialog id="422" text="">
+			<item id="2" text="取消(&amp;C)" tooltip=""/>
+			<item id="3" text="嘗試獨佔方式開啟(&amp;X)" tooltip=""/>
+			<item id="4" text="重試(&amp;T)" tooltip=""/>
+			<item id="1038" text="非獨佔模式下開啟&quot;%1&quot;檔案失敗:&#10;%2&#10;&#10;您希望怎麼辦?" tooltip=""/>
+		</dialog>
+		<dialog id="509" text="">
+			<item id="1038" text="選單和工具列字型:" tooltip=""/>
+			<item id="1039" text="通用 UI 字型 (用於所有檢視和對話框):" tooltip=""/>
+			<item id="1040" text="字型:" tooltip=""/>
+			<item id="1041" text="選擇:" tooltip=""/>
+			<item id="1042" text="高亮:" tooltip=""/>
+			<item id="1043" text="文字:" tooltip=""/>
+			<item id="1044" text="視窗:" tooltip=""/>
+			<item id="1200" text="顏色:" tooltip=""/>
+			<item id="1201" text="主背景樣式" tooltip=""/>
+			<item id="1203" text="背景色:" tooltip=""/>
+			<item id="1261" text="字型" tooltip=""/>
+			<item id="1541" text="重設為預設" tooltip=""/>
+			<item id="1549" text="顯示漸變陰影" tooltip=""/>
+		</dialog>
+		<dialog id="510" text="辨識頁面">
+			<item id="1" text="確定" tooltip=""/>
+			<item id="2" text="取消" tooltip=""/>
+			<item id="1041" text="主語言" tooltip=""/>
+			<item id="1042" text="更多語言" tooltip=""/>
+			<item id="1043" text="圖像品質" tooltip=""/>
+			<item id="1044" text="dpi" tooltip=""/>
+			<item id="1045" text="精確度" tooltip=""/>
+			<item id="1200" text="頁面範圍" tooltip=""/>
+			<item id="1202" text="輸出" tooltip=""/>
+			<item id="1203" text="PDF 輸出類型" tooltip=""/>
+			<item id="1204" text="辨識" tooltip=""/>
+			<item id="1330" text="全部" tooltip=""/>
+			<item id="1331" text="選擇的頁面" tooltip=""/>
+			<item id="1332" text="目前頁面" tooltip=""/>
+			<item id="1333" text="頁面" tooltip=""/>
+			<item id="1387" text="頁面數字和頁面範圍用逗號分隔，例如，輸入 1, 3, 5-12" tooltip=""/>
+		</dialog>
+	</dialogs>
+	<strings count="1248">
+		<item id="0" text="順時針轉 90 度"/>
+		<item id="1" text="逆時針轉 90 度"/>
+		<item id="2" text="180 度"/>
+		<item id="3" text="全部頁面"/>
+		<item id="4" text="僅雙數頁"/>
+		<item id="5" text="僅單數頁"/>
+		<item id="6" text="任何方向的頁面"/>
+		<item id="7" text="豎直的頁面"/>
+		<item id="8" text="水平的頁面"/>
+		<item id="9" text="標準名稱"/>
+		<item id="10" text="高亮"/>
+		<item id="11" text="一般"/>
+		<item id="12" text="一般選項"/>
+		<item id="13" text="顏色管理"/>
+		<item id="14" text="顏色管理設定"/>
+		<item id="15" text="頁面顯示"/>
+		<item id="16" text="頁面顯示選項"/>
+		<item id="17" text="效能"/>
+		<item id="18" text="效能選項"/>
+		<item id="19" text="度量"/>
+		<item id="20" text="單位、網路、尺寸選項"/>
+		<item id="21" text="身份"/>
+		<item id="22" text="身份選項"/>
+		<item id="23" text="語言"/>
+		<item id="24" text="選擇介面語言"/>
+		<item id="25" text="檔案關聯"/>
+		<item id="26" text="檔案關聯設定"/>
+		<item id="27" text="分類"/>
+		<item id="28" text="面積測量"/>
+		<item id="29" text="文件屬性..."/>
+		<item id="30" text="便利貼屬性..."/>
+		<item id="31" text="為有數位簽章的文件完整儲存或增量儲存 "/>
+		<item id="32" text="總是完整儲存"/>
+		<item id="33" text="總是增量儲存"/>
+		<item id="34" text="快速網頁檢視儲存"/>
+		<item id="35" text="自動"/>
+		<item id="36" text="僅頁面"/>
+		<item id="37" text="書籤面板和頁面"/>
+		<item id="38" text="縮圖面板和頁面"/>
+		<item id="39" text="最後使用的檢視"/>
+		<item id="40" text="單頁"/>
+		<item id="41" text="連續"/>
+		<item id="42" text="對開"/>
+		<item id="43" text="連續 - 對開"/>
+		<item id="44" text="實際大小"/>
+		<item id="45" text="符合頁面"/>
+		<item id="46" text="符合寬度"/>
+		<item id="47" text="符合視覺"/>
+		<item id="48" text="實體記憶體 (RAM): 總計 %1 , 最大使用量可用 %2"/>
+		<item id="49" text="實體記憶體 (RAM): 總計 %1 "/>
+		<item id="50" text="系統包含 %1 個 CPU"/>
+		<item id="51" text="公分"/>
+		<item id="52" text="公分"/>
+		<item id="53" text="公分"/>
+		<item id="54" text="英吋"/>
+		<item id="55" text="英吋"/>
+		<item id="56" text="英吋"/>
+		<item id="57" text="公釐"/>
+		<item id="58" text="公釐"/>
+		<item id="59" text="公釐"/>
+		<item id="60" text="像素"/>
+		<item id="61" text="像素"/>
+		<item id="62" text="像素"/>
+		<item id="63" text="點"/>
+		<item id="64" text="點"/>
+		<item id="65" text="點"/>
+		<item id="66" text="執行 &apos;%1&apos;"/>
+		<item id="67" text="目前沒有其它 PDF 閱讀器"/>
+		<item id="68" text="(總計 %1 頁)"/>
+		<item id="69" text="文件 &quot;%1&quot; 受密碼保護."/>
+		<item id="70" text="範圍中的所有頁面"/>
+		<item id="71" text="單數頁"/>
+		<item id="72" text="雙數頁"/>
+		<item id="73" text="無"/>
+		<item id="74" text="符合印表機邊界"/>
+		<item id="75" text="縮小至印表機邊界"/>
+		<item id="76" text="並排大型頁面"/>
+		<item id="77" text="並排所有頁面"/>
+		<item id="78" text="每張紙多個頁面"/>
+		<item id="79" text="置放所有頁於一個多頁圖像檔案"/>
+		<item id="80" text="儲存每個頁範圍於不同的多頁圖像檔案"/>
+		<item id="81" text="儲存每個頁於不同的圖像檔案"/>
+		<item id="82" text="資料夾 &quot;%1&quot; 已經包含檔案 &quot;%2&quot;"/>
+		<item id="83" text="大小: %1&#10;修改日期: %2"/>
+		<item id="84" text="無法寫入檔案 &quot;%1&quot;:"/>
+		<item id="85" text="確定"/>
+		<item id="86" text="取消"/>
+		<item id="87" text="是"/>
+		<item id="88" text="否"/>
+		<item id="89" text="中斷"/>
+		<item id="90" text="重試"/>
+		<item id="91" text="忽略"/>
+		<item id="92" text="嘗試"/>
+		<item id="93" text="繼續"/>
+		<item id="94" text="全是"/>
+		<item id="95" text="全否"/>
+		<item id="96" text="無法建立目的資料夾 &quot;%1&quot;:"/>
+		<item id="97" text="文件 &quot;%1&quot; 已被變更. &#10;&#10;關閉前您要儲存變更嗎?"/>
+		<item id="98" text="文件 &apos;%1&apos; 包括數位簽章. &#10;在完整儲存文件時數位簽章會遺失. &#10;使用增量儲存可保留數位簽章, 但會增加檔案大小. &#10;&#10;您是否要使用增量儲存?"/>
+		<item id="99" text="摘要: %1 已選取, 總計 %2 頁"/>
+		<item id="100" text="列印文件時出現錯誤 &quot;%1&quot;:&#10;%2"/>
+		<item id="101" text="名稱"/>
+		<item id="102" text="不可用"/>
+		<item id="103" text="就緒"/>
+		<item id="104" text="離線"/>
+		<item id="105" text="正在開啟..."/>
+		<item id="106" text="紙張: %1"/>
+		<item id="107" text="紙張: %1"/>
+		<item id="108" text="頁: %1"/>
+		<item id="109" text="頁: %1, %2,..."/>
+		<item id="110" text="&lt;開啟的文件 (%1)&gt;"/>
+		<item id="111" text="&lt;瀏覽...&gt;"/>
+		<item id="112" text="&lt;進階...&gt;"/>
+		<item id="113" text="停止搜尋"/>
+		<item id="114" text="立即搜尋"/>
+		<item id="115" text="正在儲存圖像到檔案 &quot;%1&quot;..."/>
+		<item id="116" text="正在建立圖像..."/>
+		<item id="117" text="正在匯出到圖像..."/>
+		<item id="118" text="正在處理頁 #%1..."/>
+		<item id="119" text="正在列印..."/>
+		<item id="120" text="正在列印紙張 #%1..."/>
+		<item id="121" text="正在列印頁 #%1..."/>
+		<item id="122" text="正在停止..."/>
+		<item id="123" text="正在準備..."/>
+		<item id="124" text="正在尋找 &quot;%1&quot;..."/>
+		<item id="125" text="搜尋摘要: %1 文件, %2 項"/>
+		<item id="126" text="中斷"/>
+		<item id="127" text="&quot;%1&quot;: 正在開啟..."/>
+		<item id="128" text="&quot;%1&quot;: 頁 #%2..."/>
+		<item id="129" text="頁 #%1..."/>
+		<item id="130" text="無法取得系統資源來開啟 &apos;%1&apos; 文件:&#10;太多 USER/GDI 物件被其它程式使用!&#10;&#10;請關閉一些程式 (或此的文件)&#10;以釋放系統資源, 然後重試..."/>
+		<item id="131" text="儲存文件 &quot;%1&quot; 時出現錯誤:&#10;%2"/>
+		<item id="132" text="開啟文件 &quot;%1&quot; 時出現錯誤:&#10;%2"/>
+		<item id="133" text="開啟文件時出現錯誤:&#10;%1"/>
+		<item id="134" text="您確認要刪除 %1 註解嗎?"/>
+		<item id="135" text="%1: 註解刪除"/>
+		<item id="136" text="以後刪除無需確認"/>
+		<item id="137" text="將此程式設為預設 PDF 閱讀器?"/>
+		<item id="138" text="將此程式設為預設 PDF 閱讀器並允許它在瀏覽器顯示 PDF?"/>
+		<item id="139" text="您想要用此程式在瀏覽器顯示 PDF 嗎?"/>
+		<item id="140" text="以後不再提示"/>
+		<item id="141" text="無法開啟 &quot;%1&quot;:&#10;%2"/>
+		<item id="142" text="路徑不存在"/>
+		<item id="143" text="無法執行命令 &quot;%1&quot; 為 &quot;%2&quot;:&#10;%3"/>
+		<item id="144" text="程式嘗試開啟網站:&#10;&apos;%1&apos;&#10;&#10;您信任此網站嗎?"/>
+		<item id="145" text="%1: 開啟網站警告"/>
+		<item id="146" text="記住我對此網站的選擇"/>
+		<item id="147" text="程式被設為 &quot;%s&quot; 以此 PDF 檔案啟動. &#10;此檔案可能包括程式, 巨集或病毒, 可能會危害您的電腦. &#10;僅在您確認檔案是安全的時候才開啟它. &#10;&#10;若檔案是來自信任的人員或程式, 您可以點擊檢視此檔案."/>
+		<item id="148" text="執行: %1"/>
+		<item id="149" text="不再顯示此資訊"/>
+		<item id="150" text="頁 %1"/>
+		<item id="151" text="選單"/>
+		<item id="152" text="檔案"/>
+		<item id="153" text="標準"/>
+		<item id="154" text="縮放"/>
+		<item id="155" text="旋轉檢視"/>
+		<item id="156" text="尋找"/>
+		<item id="157" text="註解和標記"/>
+		<item id="158" text="屬性"/>
+		<item id="159" text="箭頭工具屬性"/>
+		<item id="160" text="線條工具屬性"/>
+		<item id="161" text="矩形工具屬性"/>
+		<item id="162" text="橢圓形工具屬性"/>
+		<item id="163" text="多邊形工具屬性"/>
+		<item id="164" text="多邊形線條工具屬性"/>
+		<item id="165" text="鉛筆工具屬性"/>
+		<item id="166" text="雲狀工具屬性"/>
+		<item id="167" text="戳記工具屬性"/>
+		<item id="168" text="打字機工具屬性"/>
+		<item id="169" text="文字方塊工具屬性"/>
+		<item id="170" text="對應文字工具屬性"/>
+		<item id="171" text="便利貼工具屬性"/>
+		<item id="172" text="高亮文字工具屬性"/>
+		<item id="173" text="底線文字工具屬性"/>
+		<item id="174" text="刪除線文字工具屬性"/>
+		<item id="175" text="取代文字工具屬性"/>
+		<item id="176" text="箭頭屬性"/>
+		<item id="177" text="線條屬性"/>
+		<item id="178" text="矩形屬性"/>
+		<item id="179" text="橢圓形屬性"/>
+		<item id="180" text="多邊形屬性"/>
+		<item id="181" text="多邊形線條屬性"/>
+		<item id="182" text="鉛筆屬性"/>
+		<item id="183" text="雲狀屬性"/>
+		<item id="184" text="戳記屬性"/>
+		<item id="185" text="打字機屬性"/>
+		<item id="186" text="文字方塊屬性"/>
+		<item id="187" text="對應文字屬性"/>
+		<item id="188" text="便利貼屬性"/>
+		<item id="189" text="高亮文字屬性"/>
+		<item id="190" text="底線文字屬性"/>
+		<item id="191" text="刪除線文字屬性"/>
+		<item id="192" text="取代文字屬性"/>
+		<item id="193" text="箭頭"/>
+		<item id="194" text="線條"/>
+		<item id="195" text="矩形"/>
+		<item id="196" text="橢圓形"/>
+		<item id="197" text="多邊形"/>
+		<item id="198" text="多邊形線條"/>
+		<item id="199" text="鉛筆"/>
+		<item id="200" text="雲狀"/>
+		<item id="201" text="戳記"/>
+		<item id="202" text="脫字元"/>
+		<item id="203" text="文字方塊"/>
+		<item id="204" text="便利貼"/>
+		<item id="205" text="高亮"/>
+		<item id="206" text="底線"/>
+		<item id="207" text="刪除線"/>
+		<item id="208" text="檔案附件"/>
+		<item id="209" text="聲音"/>
+		<item id="210" text="文字格式化"/>
+		<item id="211" text="無填充"/>
+		<item id="212" text="無筆劃"/>
+		<item id="213" text="更多顏色..."/>
+		<item id="214" text="無法確定"/>
+		<item id="215" text="未定義"/>
+		<item id="216" text="顏色"/>
+		<item id="217" text="屬性..."/>
+		<item id="218" text="未分類"/>
+		<item id="219" text="未知"/>
+		<item id="220" text="無"/>
+		<item id="221" text="無標題"/>
+		<item id="222" text="外觀"/>
+		<item id="223" text="外觀選項"/>
+		<item id="224" text="描述"/>
+		<item id="225" text="描述資訊"/>
+		<item id="226" text="字型"/>
+		<item id="227" text="此文件使用的字型"/>
+		<item id="228" text="安全"/>
+		<item id="229" text="文件安全性和限制"/>
+		<item id="230" text="密碼安全"/>
+		<item id="231" text="不允許"/>
+		<item id="232" text="低解析度"/>
+		<item id="233" text="高解析度"/>
+		<item id="234" text="允許"/>
+		<item id="235" text="正在載入資源..."/>
+		<item id="236" text="正在初始化..."/>
+		<item id="237" text="無"/>
+		<item id="238" text="方形"/>
+		<item id="239" text="圓形"/>
+		<item id="240" text="菱形"/>
+		<item id="241" text="開箭頭"/>
+		<item id="242" text="閉箭頭"/>
+		<item id="243" text="粗頭"/>
+		<item id="244" text="開箭頭(反向)"/>
+		<item id="245" text="閉箭頭(反向)"/>
+		<item id="246" text="斜線"/>
+		<item id="247" text="書籤"/>
+		<item id="248" text="頁面"/>
+		<item id="249" text="欄位"/>
+		<item id="250" text="圖層"/>
+		<item id="251" text="註解"/>
+		<item id="252" text="關閉此標籤"/>
+		<item id="253" text="找到 %1 個字型"/>
+		<item id="254" text="總計 %1"/>
+		<item id="255" text="%1&#10;&#10;標題: %2&#10;&#10;作者: %3&#10;&#10;主題: %4&#10;&#10;關鍵字: %5&#10;頁數: %6"/>
+		<item id="256" text="頁 #%1"/>
+		<item id="257" text="頁 #%1: &#10;%2"/>
+		<item id="258" text="搜集 PDF"/>
+		<item id="259" text="文件"/>
+		<item id="260" text="文件和標記"/>
+		<item id="261" text="文件和戳記"/>
+		<item id="262" text="僅表單欄位資料"/>
+		<item id="263" text="平移與縮放"/>
+		<item id="264" text="放大鏡"/>
+		<item id="265" text="檔案儲存確認"/>
+		<item id="266" text="檔案增量儲存確認"/>
+		<item id="267" text="一般資訊"/>
+		<item id="268" text="名稱"/>
+		<item id="269" text="類型"/>
+		<item id="270" text="資料夾"/>
+		<item id="271" text="路徑"/>
+		<item id="272" text="檔案大小"/>
+		<item id="273" text="%1 位元組"/>
+		<item id="274" text="修改時間"/>
+		<item id="275" text="PDF 資訊"/>
+		<item id="276" text="PDF 版本"/>
+		<item id="277" text="頁數"/>
+		<item id="278" text="標題"/>
+		<item id="279" text="主題"/>
+		<item id="280" text="作者"/>
+		<item id="281" text="關鍵字"/>
+		<item id="282" text="建立者"/>
+		<item id="283" text="製作者"/>
+		<item id="284" text="加密資訊"/>
+		<item id="285" text="%1 位 AES"/>
+		<item id="286" text="%1 位 RC4"/>
+		<item id="287" text="等級"/>
+		<item id="288" text="全部允許"/>
+		<item id="289" text="列印"/>
+		<item id="290" text="修改檔案"/>
+		<item id="291" text="複製或提取內容"/>
+		<item id="292" text="授權註解或表單欄位"/>
+		<item id="293" text="填寫表單欄位或簽章"/>
+		<item id="294" text="允許存取內容"/>
+		<item id="295" text="檔案彙編"/>
+		<item id="296" text="正在開啟檔案, 請稍等..."/>
+		<item id="297" text="正在開啟 &quot;%1&quot;..."/>
+		<item id="298" text="正在下載 &quot;%1&quot;..."/>
+		<item id="299" text="已下載 %1, 共 %2"/>
+		<item id="300" text="正在儲存檔案, 請稍等..."/>
+		<item id="301" text="儲存到 &quot;%1&quot;..."/>
+		<item id="302" text="正在應用變更..."/>
+		<item id="303" text="正在準備寫入檔案..."/>
+		<item id="304" text="正在寫入檔案"/>
+		<item id="305" text="正在取得頁面..."/>
+		<item id="306" text="正在收集頁面資訊..."/>
+		<item id="307" text="正在收集註解..."/>
+		<item id="308" text="選擇新圖像存放目錄:"/>
+		<item id="309" text="選擇下載檔案存放目錄:"/>
+		<item id="310" text="選擇要搜尋的檔案目錄:"/>
+		<item id="311" text="圖像"/>
+		<item id="312" text="回形針"/>
+		<item id="313" text="附件"/>
+		<item id="314" text="標籤"/>
+		<item id="315" text="耳朵"/>
+		<item id="316" text="麥克風"/>
+		<item id="317" text="聲音"/>
+		<item id="318" text="核取記號"/>
+		<item id="319" text="圓圈"/>
+		<item id="320" text="註解"/>
+		<item id="321" text="十字"/>
+		<item id="322" text="幫助"/>
+		<item id="323" text="插入文字"/>
+		<item id="324" text="鑰匙"/>
+		<item id="325" text="多邊形線條"/>
+		<item id="326" text="文字註記"/>
+		<item id="327" text="段落"/>
+		<item id="328" text="向右箭頭"/>
+		<item id="329" text="向右指針"/>
+		<item id="330" text="星號"/>
+		<item id="331" text="向上箭頭"/>
+		<item id="332" text="左上前頭"/>
+		<item id="333" text="便利貼"/>
+		<item id="334" text="高亮"/>
+		<item id="335" text="文字註解"/>
+		<item id="336" text="底線"/>
+		<item id="337" text="刪除線"/>
+		<item id="338" text="取代文字"/>
+		<item id="339" text="標注"/>
+		<item id="340" text="文字方塊"/>
+		<item id="341" text="打字機"/>
+		<item id="342" text="註解"/>
+		<item id="343" text="線條"/>
+		<item id="344" text="矩形"/>
+		<item id="345" text="橢圓形"/>
+		<item id="346" text="雲狀"/>
+		<item id="347" text="多邊形線條"/>
+		<item id="348" text="多邊形"/>
+		<item id="349" text="鉛筆"/>
+		<item id="350" text="頁面: %1 / %2"/>
+		<item id="351" text="縮放: %1"/>
+		<item id="352" text="您要清空最近的檔案列表嗎?"/>
+		<item id="353" text="安全"/>
+		<item id="354" text="開啟"/>
+		<item id="355" text="儲存"/>
+		<item id="356" text="另存為"/>
+		<item id="357" text="另存為副本"/>
+		<item id="358" text="列印到檔案"/>
+		<item id="359" text="存取"/>
+		<item id="360" text="存取選項"/>
+		<item id="361" text="綠色文字, 黑色背景"/>
+		<item id="362" text="黃色文字, 黑色背景"/>
+		<item id="363" text="白色文字, 黑色背景"/>
+		<item id="364" text="黑色文字, 白色背景"/>
+		<item id="365" text="全螢幕"/>
+		<item id="366" text="全螢幕選項"/>
+		<item id="367" text="延時後隱藏"/>
+		<item id="368" text="總是可見"/>
+		<item id="369" text="總是隱藏"/>
+		<item id="370" text="擷圖工具"/>
+		<item id="371" text="擷圖工具選項"/>
+		<item id="372" text="文件 &quot;%1&quot; 已損壞.&#10;&#10;程式偵測到一些錯誤:&#10;%2&#10;&#10;推薦重新儲存此文件."/>
+		<item id="373" text="一個或多個 XREF 區塊沒有被找到."/>
+		<item id="374" text="偵測到 XREF 表中存在錯誤."/>
+		<item id="375" text="給在任何 XREF 區塊中都沒有描述的物件加入索引."/>
+		<item id="376" text="載入物件發生錯誤: 無效的物件結構."/>
+		<item id="377" text="載入物件發生錯誤: 物件未對齊."/>
+		<item id="378" text="無效 Objstream."/>
+		<item id="379" text="需要的值在最後一個尾記錄中沒有被找到."/>
+		<item id="380" text="需要的值在尾記錄中沒有被找到."/>
+		<item id="381" text="在目前及上一個區塊中均沒有描述物件, 但在下一個區塊找到了物件的描述(對線性的檔案有效)."/>
+		<item id="382" text="來源文件 &quot;%1&quot; 已損壞.&#10;程式無法對此文件使用增量儲存.&#10;您想要使用非增量儲存嗎(警告: 數位簽章將會遺失, 若存在的話)?"/>
+		<item id="383" text="未加標籤"/>
+		<item id="384" text="匿名"/>
+		<item id="385" text="&lt;未知作者&gt; (%1)"/>
+		<item id="386" text="&lt;未知日期&gt; (%1)"/>
+		<item id="387" text="頁 %1 (%2)"/>
+		<item id="388" text="%1 (%2)"/>
+		<item id="389" text="無效值: 必須大於或等於 %s."/>
+		<item id="390" text="無效值: 必須大於或等於 %s 並小於或等於 %s."/>
+		<item id="391" text="無效值: 必須小於或等於 %s."/>
+		<item id="392" text="** 無效 **"/>
+		<item id="393" text="無效的日期/時間: 請保證日期/時間存在. 欄位 %field% 必須符合格式 %format%."/>
+		<item id="394" text="輸入的值不符合欄位 %s 的格式."/>
+		<item id="395" text="AM"/>
+		<item id="396" text="PM"/>
+		<item id="397" text="您真的要刪除 %1 個書籤及其子書籤嗎?"/>
+		<item id="398" text="您真的要刪除 %1 個書籤嗎?"/>
+		<item id="399" text="%1: 書籤刪除"/>
+		<item id="400" text="以後刪除時不再提醒"/>
+		<item id="401" text="書籤屬性"/>
+		<item id="402" text="多個書籤屬性"/>
+		<item id="403" text="動作"/>
+		<item id="404" text="動作列表"/>
+		<item id="405" text="正常"/>
+		<item id="406" text="粗體"/>
+		<item id="407" text="斜體"/>
+		<item id="408" text="粗斜體"/>
+		<item id="409" text="未知動作"/>
+		<item id="410" text="轉到此文件的頁面"/>
+		<item id="411" text="轉到另一文件的頁面"/>
+		<item id="412" text="轉到內嵌文件的頁面"/>
+		<item id="413" text="開啟檔案"/>
+		<item id="414" text="讀取文章"/>
+		<item id="415" text="開啟網頁連結"/>
+		<item id="416" text="播放聲音"/>
+		<item id="417" text="播放影片"/>
+		<item id="418" text="顯示/隱藏註解欄位"/>
+		<item id="419" text="執行已命名的命令"/>
+		<item id="420" text="提交表單"/>
+		<item id="421" text="重設表單"/>
+		<item id="422" text="從資料匯入"/>
+		<item id="423" text="執行 JavaScript"/>
+		<item id="424" text="設定圖層可見"/>
+		<item id="425" text="多媒體控制"/>
+		<item id="426" text="頁面更新及轉換"/>
+		<item id="427" text="轉到 3D 檢視"/>
+		<item id="428" text="縮放"/>
+		<item id="429" text="繼承"/>
+		<item id="430" text="寬"/>
+		<item id="431" text="度"/>
+		<item id="432" text="適應高度"/>
+		<item id="433" text="適應可見寬度"/>
+		<item id="434" text="適應可見高度"/>
+		<item id="435" text="檔案"/>
+		<item id="436" text="操作"/>
+		<item id="437" text="參數"/>
+		<item id="438" text="您不能刪除文件的所有頁面. 至少得保留一個頁面."/>
+		<item id="439" text="您真的要從文件中刪除 %1 個頁面嗎?"/>
+		<item id="440" text="%1: 頁面刪除"/>
+		<item id="441" text="新增動作"/>
+		<item id="442" text="編輯動作"/>
+		<item id="443" text="您真的要刪除 %1 個動作嗎?"/>
+		<item id="444" text="%1: 動作刪除"/>
+		<item id="445" text="以後刪除時不再提醒"/>
+		<item id="446" text="JavaScript"/>
+		<item id="447" text="JavaScript 選項"/>
+		<item id="448" text="註冊"/>
+		<item id="449" text="註冊參數"/>
+		<item id="450" text="行: %1"/>
+		<item id="451" text="行: %2"/>
+		<item id="452" text="插入"/>
+		<item id="453" text="覆蓋"/>
+		<item id="454" text="此文件包含 JavaScript. 您想要在些文件中啟用所有的 JavaScript 動作嗎?&#10;如果停用 JavaScript, 文件顯示可能會不正確."/>
+		<item id="455" text="停用此訊息 - 直到文件被重新開啟"/>
+		<item id="456" text="JavaScript: %1"/>
+		<item id="457" text="Viewer PRO 功能 -?需要許可註冊碼?- 檢視幫助"/>
+		<item id="458" text="自訂比例"/>
+		<item id="459" text="&apos;專業&apos; 功能警告"/>
+		<item id="460" text="這是 PDF-XChange Viewer PRO 的功能.&#10;您可以在免費版本中使用它 - 但僅僅是個體驗版本. 儲存檔案時書籤會儲存到 PDF 頁面中.&#10;要避免此 - 請升級許可為 &apos;專業&apos; 版本 - 取得更多資訊請檢視幫助檔案或存取我們的網站.&#10;&#10;您確定要使用此功能嗎?"/>
+		<item id="461" text="您確定要移動這 %1 個頁面嗎?"/>
+		<item id="462" text="%1: 頁面正在移動"/>
+		<item id="463" text="檔案"/>
+		<item id="464" text="編輯"/>
+		<item id="465" text="檢視"/>
+		<item id="466" text="文件"/>
+		<item id="467" text="工具"/>
+		<item id="468" text="視窗"/>
+		<item id="469" text="幫助"/>
+		<item id="470" text="使用者"/>
+		<item id="471" text="鋸嚙方框"/>
+		<item id="472" text="滲透式邊框"/>
+		<item id="473" text="整齊的方框"/>
+		<item id="474" text="藝術方框"/>
+		<item id="475" text="鋸嚙方框大小: %1"/>
+		<item id="476" text="滲透方框大小: %1"/>
+		<item id="477" text="整齊的方框大小: %1"/>
+		<item id="478" text="藝術方框大小: %1"/>
+		<item id="479" text="預覽無效"/>
+		<item id="480" text="正在載入預覽資訊, 請稍等..."/>
+		<item id="481" text="已加密"/>
+		<item id="482" text="文件 &quot;%1&quot; 受到保護. 您沒有權限使用它進行此操作."/>
+		<item id="483" text="%1: 插入頁面"/>
+		<item id="484" text="固定此文件於最近的檔案列表中 (不移除此項目, 但移除所有項目不受此限制)"/>
+		<item id="485" text="取消固定此文件於最近的檔案列表中 (可移除此項目, 移除所有項目不受此限制)"/>
+		<item id="486" text="最近使用的字型"/>
+		<item id="487" text="所有字型"/>
+		<item id="488" text="縮放等級"/>
+		<item id="489" text="縮放模式"/>
+		<item id="490" text="之前"/>
+		<item id="491" text="之後"/>
+		<item id="492" text="標準顏色"/>
+		<item id="493" text="自訂顏色"/>
+		<item id="494" text="黑色"/>
+		<item id="495" text="褐色"/>
+		<item id="496" text="深橄欖綠"/>
+		<item id="497" text="深綠色"/>
+		<item id="498" text="深水鴨色"/>
+		<item id="499" text="深藍色"/>
+		<item id="500" text="靛青"/>
+		<item id="501" text="深灰色"/>
+		<item id="502" text="深紅色"/>
+		<item id="503" text="橙色"/>
+		<item id="504" text="深黃色"/>
+		<item id="505" text="綠色"/>
+		<item id="506" text="水鴨色"/>
+		<item id="507" text="藍色"/>
+		<item id="508" text="藍灰色"/>
+		<item id="509" text="灰色 - 40%"/>
+		<item id="510" text="紅色"/>
+		<item id="511" text="淺橙色"/>
+		<item id="512" text="酸橙色"/>
+		<item id="513" text="海洋綠"/>
+		<item id="514" text="水綠色"/>
+		<item id="515" text="淺藍色"/>
+		<item id="516" text="紫羅蘭"/>
+		<item id="517" text="灰色 - 50%"/>
+		<item id="518" text="粉紅色"/>
+		<item id="519" text="金色"/>
+		<item id="520" text="黃色"/>
+		<item id="521" text="亮綠色"/>
+		<item id="522" text="綠寶石"/>
+		<item id="523" text="天藍色"/>
+		<item id="524" text="紫紅色"/>
+		<item id="525" text="淺灰色"/>
+		<item id="526" text="玫瑰紅"/>
+		<item id="527" text="黃褐色"/>
+		<item id="528" text="淺黃色"/>
+		<item id="529" text="淡綠色"/>
+		<item id="530" text="淡綠寶石"/>
+		<item id="531" text="淡藍色"/>
+		<item id="532" text="淡紫色"/>
+		<item id="533" text="白色"/>
+		<item id="534" text="註解"/>
+		<item id="535" text="註解選項"/>
+		<item id="536" text="正在刪除頁面, 請稍等..."/>
+		<item id="537" text="正在移動頁面, 請稍等..."/>
+		<item id="538" text="正在插入頁面, 請稍等..."/>
+		<item id="539" text="正在提取頁面, 請稍等..."/>
+		<item id="540" text="您確定要複製這 %1 個頁面嗎?"/>
+		<item id="541" text="%1: 頁面正在複製"/>
+		<item id="542" text="擦除工具屬性"/>
+		<item id="543" text="戳記色盤"/>
+		<item id="544" text="新戳記"/>
+		<item id="545" text="新合集"/>
+		<item id="546" text="此合集仍包含戳記. 您確定要刪除它嗎?"/>
+		<item id="547" text="%1: 戳記合集正在被刪除"/>
+		<item id="548" text="清除最近的檔案列表"/>
+		<item id="549" text="您想要移除最近的檔案列表中的所有項目嗎?"/>
+		<item id="550" text="所有未固定的項目"/>
+		<item id="551" text="文字屬性"/>
+		<item id="552" text="內容"/>
+		<item id="553" text="文字內容: 純文字"/>
+		<item id="554" text="格式化"/>
+		<item id="555" text="格式化文字: 字型, 標尺, 樣式等."/>
+		<item id="556" text="字型"/>
+		<item id="557" text="字型大小"/>
+		<item id="558" text="水平標尺"/>
+		<item id="559" text="準線偏移"/>
+		<item id="560" text="載入物件警告: 物件已損壞."/>
+		<item id="561" text="工具列"/>
+		<item id="562" text="命令"/>
+		<item id="563" text="選項"/>
+		<item id="564" text="格式"/>
+		<item id="565" text="全局"/>
+		<item id="566" text="文件"/>
+		<item id="567" text="頁面檢視"/>
+		<item id="568" text="縮圖檢視"/>
+		<item id="569" text="書籤檢視"/>
+		<item id="570" text="註解檢視"/>
+		<item id="571" text="圖層檢視"/>
+		<item id="572" text="欄位檢視"/>
+		<item id="573" text="附件檢視"/>
+		<item id="574" text="文字編輯器"/>
+		<item id="575" text="戳記色盤"/>
+		<item id="576" text="搜尋檢視"/>
+		<item id="577" text="JavaScript 控制台"/>
+		<item id="578" text="放大鏡視窗"/>
+		<item id="579" text="平板縮放視窗"/>
+		<item id="580" text="預設"/>
+		<item id="581" text="無快速鍵."/>
+		<item id="582" text="此快速鍵可用."/>
+		<item id="583" text="此快速鍵已被其它命令使用."/>
+		<item id="584" text="此快速鍵已被命令 %1 使用."/>
+		<item id="585" text="演算上色"/>
+		<item id="586" text="演算上色選項"/>
+		<item id="587" text="自訂"/>
+		<item id="588" text="輸入文字..."/>
+		<item id="589" text="在 XREF 表中偵測到非致命錯誤."/>
+		<item id="590" text="正在合併/移除註解, 請稍等..."/>
+		<item id="591" text="合併"/>
+		<item id="592" text="保留"/>
+		<item id="593" text="移除"/>
+		<item id="594" text="您確定要合併/移除此文件中的註解嗎?"/>
+		<item id="595" text="%1:  合併/移除註解"/>
+		<item id="596" text="您確定要使用重設操作, 刪除所有自訂工具列和選單嗎? 點擊 &apos;否&apos; 不刪除它們"/>
+		<item id="597" text="%1: 刪除自訂工具列"/>
+		<item id="598" text="從 &quot;%1&quot; 中提取頁面發生錯誤:&#10;%2"/>
+		<item id="599" text="%1: 提取頁面"/>
+		<item id="600" text="從 &quot;%1&quot; 中合併註解發生錯誤:&#10;%2"/>
+		<item id="601" text="插入頁面到 &quot;%1&quot; 發生錯誤:&#10;%2"/>
+		<item id="602" text="從 &quot;%1&quot; 中刪除頁面發生錯誤:&#10;%2"/>
+		<item id="603" text="正在從串流載入資料..."/>
+		<item id="604" text="已載入 %1"/>
+		<item id="605" text="正在從串流開啟檔案..."/>
+		<item id="606" text="儲存檔案到串流..."/>
+		<item id="607" text="已儲存 %1 共 %2"/>
+		<item id="608" text="正在開啟檔案..."/>
+		<item id="609" text="以後不再詢問"/>
+		<item id="610" text="您真的要將這 %1 個頁面從 &quot;%2&quot; 複製到 &quot;%3&quot; 嗎?"/>
+		<item id="611" text="您真的要將這 %1 個頁面從 &quot;%2&quot; 移到 &quot;%3&quot; 嗎?"/>
+		<item id="612" text="連結"/>
+		<item id="613" text="測量"/>
+		<item id="614" text="距離工具屬性"/>
+		<item id="615" text="周長工具屬性"/>
+		<item id="616" text="面積工具屬性"/>
+		<item id="617" text="線條屬性"/>
+		<item id="618" text="折線屬性"/>
+		<item id="619" text="多邊形屬性"/>
+		<item id="620" text="連結編輯工具屬性"/>
+		<item id="621" text="連結屬性"/>
+		<item id="622" text="無"/>
+		<item id="623" text="反轉"/>
+		<item id="624" text="外形"/>
+		<item id="625" text="凹陷"/>
+		<item id="626" text="註解"/>
+		<item id="627" text="%1: 總括註解"/>
+		<item id="628" text="從 &quot;%1&quot; 總括註解發生錯誤:&#10;%2"/>
+		<item id="629" text="正在總括註解, 請稍等..."/>
+		<item id="630" text="正在匯出註解, 請稍等..."/>
+		<item id="631" text="%1: 匯出註解"/>
+		<item id="632" text="從 &quot;%1&quot; 匯出註解發生錯誤:&#10;%2"/>
+		<item id="633" text="匯出註解"/>
+		<item id="634" text="Adobe XFDF 檔案 (*.xfdf)"/>
+		<item id="635" text="頁面"/>
+		<item id="636" text="類型"/>
+		<item id="637" text="作者"/>
+		<item id="638" text="日期"/>
+		<item id="639" text="排序"/>
+		<item id="640" text="PDF 檔案 (*.pdf)"/>
+		<item id="641" text="富檔案文件 (*.rtf)"/>
+		<item id="642" text="純文字 (*.txt)"/>
+		<item id="643" text="網頁, 全部 (*.html)"/>
+		<item id="644" text="僅註解"/>
+		<item id="645" text="文件及包含連接線的註解位於同一個頁面"/>
+		<item id="646" text="文件及含有序號的註解位於同一個頁面"/>
+		<item id="647" text="文件及註解位於同一個頁面"/>
+		<item id="648" text="文件及含連接線的註解位於單獨的頁面"/>
+		<item id="649" text="文件及含有序號的註解位於單獨的頁面"/>
+		<item id="650" text="文件及註解位於單獨的頁面"/>
+		<item id="651" text="為新檔案選擇目的資料夾:"/>
+		<item id="652" text="正在排序註解..."/>
+		<item id="653" text="正在組建新檔案..."/>
+		<item id="654" text="正在從原始檔案複製頁面..."/>
+		<item id="655" text="正在組建新網頁..."/>
+		<item id="656" text="重新命名工具列"/>
+		<item id="657" text="距離測量"/>
+		<item id="658" text="周長測量"/>
+		<item id="659" text="面積測量"/>
+		<item id="660" text="您真的要刪除選擇的連結嗎?"/>
+		<item id="661" text="%1: 刪除連結"/>
+		<item id="662" text="%1: 插入空頁面"/>
+		<item id="663" text="自動"/>
+		<item id="664" text="距離:"/>
+		<item id="665" text="周長:"/>
+		<item id="666" text="面積:"/>
+		<item id="667" text="角度:"/>
+		<item id="668" text="ΔX:"/>
+		<item id="669" text="ΔY:"/>
+		<item id="670" text="比例尺:"/>
+		<item id="671" text="距離資訊"/>
+		<item id="672" text="周長資訊"/>
+		<item id="673" text="面積資訊"/>
+		<item id="674" text="底線"/>
+		<item id="675" text="連結屬性"/>
+		<item id="676" text="多個連結屬性"/>
+		<item id="677" text="英尺"/>
+		<item id="678" text="碼"/>
+		<item id="679" text="米"/>
+		<item id="680" text="千米"/>
+		<item id="681" text="英里"/>
+		<item id="682" text="自訂"/>
+		<item id="683" text="平方公分"/>
+		<item id="684" text="平方英吋"/>
+		<item id="685" text="平方公釐"/>
+		<item id="686" text="平方像素"/>
+		<item id="687" text="平方點"/>
+		<item id="688" text="平方英尺"/>
+		<item id="689" text="平方英碼"/>
+		<item id="690" text="平方米"/>
+		<item id="691" text="平方千米"/>
+		<item id="692" text="平方英里"/>
+		<item id="693" text="正在匯出測量, 請稍等..."/>
+		<item id="694" text="%1: 匯出測量"/>
+		<item id="695" text="從 &quot;%1&quot; 匯出測量發生錯誤:&#10;%2"/>
+		<item id="696" text="匯出測量標記"/>
+		<item id="697" text="請加入一個動作..."/>
+		<item id="698" text="建立新文件"/>
+		<item id="699" text="正在建立新文件, 請稍等..."/>
+		<item id="700" text="每個新行字元開始一個新段落"/>
+		<item id="701" text="每兩個新行字元開始一個新段落, 單個忽略"/>
+		<item id="702" text="每兩個新行字元開始一個新段落, 單個轉換為空白"/>
+		<item id="703" text="主題"/>
+		<item id="704" text="文件選項"/>
+		<item id="705" text="頁面導覽"/>
+		<item id="706" text="頁面佈局"/>
+		<item id="707" text="載入文件"/>
+		<item id="708" text="標題"/>
+		<item id="709" text="副檔名"/>
+		<item id="710" text="位置"/>
+		<item id="711" text="大小"/>
+		<item id="712" text="修改日期"/>
+		<item id="713" text="建立新文件..."/>
+		<item id="714" text="選擇來源檔案所在資料夾:"/>
+		<item id="715" text="尋找子資料夾?"/>
+		<item id="716" text="進階"/>
+		<item id="717" text="列"/>
+		<item id="718" text="列"/>
+		<item id="719" text="檔案選項"/>
+		<item id="720" text="檔案選項"/>
+		<item id="721" text="每個新段落開始一個新檔案"/>
+		<item id="722" text="每個新頁面開始一個新檔案"/>
+		<item id="723" text="進階"/>
+		<item id="724" text="佈局"/>
+		<item id="725" text="圖像佈局選項"/>
+		<item id="726" text="延伸/轉換"/>
+		<item id="727" text="圖像延伸/轉換選項"/>
+		<item id="728" text="上"/>
+		<item id="729" text="下"/>
+		<item id="730" text="左"/>
+		<item id="731" text="右"/>
+		<item id="732" text="中"/>
+		<item id="733" text="無延伸"/>
+		<item id="734" text="線性延伸"/>
+		<item id="735" text="雙線性延伸"/>
+		<item id="736" text="雙三次延伸"/>
+		<item id="737" text="無轉換"/>
+		<item id="738" text="轉換為灰階"/>
+		<item id="739" text="轉換為單色"/>
+		<item id="740" text="轉換為黑白"/>
+		<item id="741" text="適合"/>
+		<item id="742" text="文件元資料"/>
+		<item id="743" text="進階"/>
+		<item id="744" text="文件元資料結構"/>
+		<item id="745" text="組合[%2]: 紙張 &apos;%1&apos;"/>
+		<item id="746" text="像素"/>
+		<item id="747" text="正在掃瞄..."/>
+		<item id="748" text="掃瞄圖像 %1"/>
+		<item id="749" text="資訊"/>
+		<item id="750" text="編碼"/>
+		<item id="751" text="類型: %1"/>
+		<item id="752" text="圖像: %1"/>
+		<item id="753" text="頁面: %1"/>
+		<item id="754" text="紙張: %1, %2 總計"/>
+		<item id="755" text="總計 %1 個檔案"/>
+		<item id="756" text="普通檢視"/>
+		<item id="757" text="組合檢視"/>
+		<item id="758" text="標籤"/>
+		<item id="759" text="圖像標籤選項"/>
+		<item id="760" text="紙張: &apos;%1&apos;"/>
+		<item id="761" text="頁面: %1 ()"/>
+		<item id="762" text="水平"/>
+		<item id="763" text="反向水平"/>
+		<item id="764" text="垂直"/>
+		<item id="765" text="反向垂直"/>
+		<item id="766" text="自訂"/>
+		<item id="767" text="橫向 (%1 逆時針)"/>
+		<item id="768" text="全部忽略"/>
+		<item id="769" text="小冊子"/>
+		<item id="770" text="書"/>
+		<item id="771" text="兩者"/>
+		<item id="772" text="前面"/>
+		<item id="773" text="後面"/>
+		<item id="774" text="小冊子"/>
+		<item id="775" text="未選擇任何頁面"/>
+		<item id="776" text="從 &quot;%1&quot; 放置圖像發生錯誤:&#10;%2"/>
+		<item id="777" text="從 &quot;%1&quot; 放置文字發生錯誤:&#10;%2"/>
+		<item id="778" text="DPI"/>
+		<item id="779" text="解析度: %1 DPI"/>
+		<item id="780" text="總是"/>
+		<item id="781" text="嵌入的字型"/>
+		<item id="782" text="自動偵測"/>
+		<item id="783" text="(%1 總計, %2 已選擇)"/>
+		<item id="784" text="頁面 #%1"/>
+		<item id="785" text="上次使用的目錄"/>
+		<item id="786" text="原始文件目錄"/>
+		<item id="787" text="選擇文件 &apos;另存為&apos; 的存放目錄:"/>
+		<item id="788" text="您真的要重設所有程式設定到預設值嗎?"/>
+		<item id="789" text="切換到使用者"/>
+		<item id="790" text="切換到所有者"/>
+		<item id="791" text="切換到使用者發生錯誤 &quot;%1&quot;:&#10;%2"/>
+		<item id="792" text="切換到所有者發生錯誤 &quot;%1&quot;:&#10;%2"/>
+		<item id="793" text="請輸入所有者密碼以進入完全存取模式:"/>
+		<item id="794" text="請輸入使用者密碼以進入許可模式:"/>
+		<item id="795" text="匯入所有設定"/>
+		<item id="796" text="匯出所有設定"/>
+		<item id="797" text="從檔案 &quot;%1&quot; 開啟儲存的設定發生錯誤, 此檔案包含的設定有錯誤:&#10;%2"/>
+		<item id="798" text="儲存所有程式設定到檔案 &quot;%1&quot; 發生錯誤:&#10;%2"/>
+		<item id="799" text="您真的要為使用全新的設定嗎? 目前的設定將被取代並遺失."/>
+		<item id="800" text="%1 仍在執行中."/>
+		<item id="801" text="要檢視程式視窗, 請點擊 %1 的圖示."/>
+		<item id="802" text="預設樣式"/>
+		<item id="803" text="新樣式"/>
+		<item id="804" text="%1 已複製"/>
+		<item id="805" text="仿製"/>
+		<item id="806" text="仿製選擇的樣式"/>
+		<item id="807" text="重設"/>
+		<item id="808" text="重設選擇的樣式到預設值"/>
+		<item id="809" text="刪除"/>
+		<item id="810" text="刪除選擇的樣式"/>
+		<item id="811" text="紙張參數無效. 請檢查並重試."/>
+		<item id="812" text="直的底線"/>
+		<item id="813" text="彎曲的底線"/>
+		<item id="814" text="正在處理圖像..."/>
+		<item id="815" text="多項註解屬性"/>
+		<item id="816" text="邊框樣式:"/>
+		<item id="817" text="邊框寬度:"/>
+		<item id="818" text="線條起始樣式:"/>
+		<item id="819" text="線條結束樣式:"/>
+		<item id="820" text="筆劃顏色:"/>
+		<item id="821" text="填充顏色:"/>
+		<item id="822" text="不透明度:"/>
+		<item id="823" text="註解圖示:"/>
+		<item id="824" text="底線樣式:"/>
+		<item id="825" text="高亮模式:"/>
+		<item id="826" text="指引線"/>
+		<item id="827" text="指引線選項"/>
+		<item id="828" text="製造商:"/>
+		<item id="829" text="類型:"/>
+		<item id="830" text="無法從掃瞄器建立新檔案:&#10;%1"/>
+		<item id="831" text="無法從圖像建立新檔案:&#10;%1"/>
+		<item id="832" text="無法從文字建立新檔案:&#10;%1"/>
+		<item id="833" text="表單"/>
+		<item id="834" text="表單選項"/>
+		<item id="835" text="回覆屬性"/>
+		<item id="836" text="正在準備解碼圖像, 請稍等..."/>
+		<item id="837" text="正在解碼圖像..."/>
+		<item id="838" text="矩形"/>
+		<item id="839" text="多邊形線條"/>
+		<item id="840" text="距離"/>
+		<item id="841" text="打字機"/>
+		<item id="842" text="標注"/>
+		<item id="843" text="周長"/>
+		<item id="844" text="面積"/>
+		<item id="845" text="雲狀"/>
+		<item id="846" text="取代"/>
+		<item id="847" text="紙張"/>
+		<item id="848" text="紙張選項"/>
+		<item id="849" text="註解樣式色盤"/>
+		<item id="850" text="匯出表單資料為"/>
+		<item id="851" text="Adobe FDF 檔案 (*.fdf)"/>
+		<item id="852" text="文字檔案 (*.txt)"/>
+		<item id="853" text="無法建立新註解樣式: 已有太多註解樣式.&#10;請先移除無需要的註解樣式."/>
+		<item id="854" text="重新命名註解樣式"/>
+		<item id="855" text="請為註解樣式輸入一個新名稱:"/>
+		<item id="856" text="您真的要刪除選擇的註解樣式嗎?"/>
+		<item id="857" text="您真的要重設選擇的註解樣式嗎?"/>
+		<item id="858" text="您真的要重設選擇的註解樣式嗎?&#10;所有自訂樣式將被移除, 僅保留預設樣式."/>
+		<item id="859" text="文件"/>
+		<item id="860" text="其它"/>
+		<item id="861" text="無視窗"/>
+		<item id="862" text="從資料中選擇檔案容器"/>
+		<item id="863" text="目的檔案名稱"/>
+		<item id="864" text="使用者設定的視窗"/>
+		<item id="865" text="已存在的視窗"/>
+		<item id="866" text="新視窗"/>
+		<item id="867" text="所有檔案 (*.*)"/>
+		<item id="868" text="選擇 &quot;開啟檔案&quot; 操作的預設資料夾:"/>
+		<item id="869" text="儲存文件到外部儲存設定發生錯誤.&#10;&quot;%1&quot;"/>
+		<item id="870" text="正在處理註解..."/>
+		<item id="871" text="重新命名戳記"/>
+		<item id="872" text="請輸出新的戳記名稱:"/>
+		<item id="873" text="您真的要刪除選擇的戳記嗎?"/>
+		<item id="874" text="您真的要關閉所有開啟的文件麼?"/>
+		<item id="875" text="%1 / %2"/>
+		<item id="876" text="未知操作"/>
+		<item id="877" text="混合操作"/>
+		<item id="878" text="修改"/>
+		<item id="879" text="修改註解"/>
+		<item id="880" text="修改註解"/>
+		<item id="881" text="修改書籤"/>
+		<item id="882" text="修改書籤"/>
+		<item id="883" text="刪除註解"/>
+		<item id="884" text="刪除書籤"/>
+		<item id="885" text="插入文字"/>
+		<item id="886" text="刪除文字"/>
+		<item id="887" text="貼上文字"/>
+		<item id="888" text="修改文字格式"/>
+		<item id="889" text="修改文字字型"/>
+		<item id="890" text="修改文字大小"/>
+		<item id="891" text="修改文字顏色"/>
+		<item id="892" text="修改段落格式"/>
+		<item id="893" text="修改段落對齊"/>
+		<item id="894" text="設定文字及段落格式"/>
+		<item id="895" text="清除文字及段落格式"/>
+		<item id="896" text="檔案附件"/>
+		<item id="897" text="無動作"/>
+		<item id="898" text="匯入註解"/>
+		<item id="899" text="%1: 匯入註解"/>
+		<item id="900" text="從&quot;%1&quot; 匯入註解發生錯誤:&#10;%2"/>
+		<item id="901" text="是"/>
+		<item id="902" text="否"/>
+		<item id="903" text="JavaScript 控制台"/>
+		<item id="904" text="註解樣式色盤"/>
+		<item id="905" text="開發"/>
+		<item id="906" text="警告:  此命令的快速鍵與其它命令的快速鍵衝突.&#10;仍要對此命令使用該快速鍵嗎 (將移除其它衝突的快速鍵)?"/>
+		<item id="907" text="偵測到衝突.&#10;點擊這裡檢視詳細資訊."/>
+		<item id="908" text="沒有偵測到衝突."/>
+		<item id="909" text="註解參數設定對話框"/>
+		<item id="910" text="註解樣式色盤"/>
+		<item id="911" text="工具"/>
+		<item id="912" text="頁面屬性..."/>
+		<item id="913" text="頁面屬性..."/>
+		<item id="914" text="Tab 順序"/>
+		<item id="915" text="頁面 Tab 順序"/>
+		<item id="916" text="滑鼠進入"/>
+		<item id="917" text="滑鼠離開"/>
+		<item id="918" text="滑鼠按下"/>
+		<item id="919" text="滑鼠鬆開"/>
+		<item id="920" text="取得焦點"/>
+		<item id="921" text="失去焦點"/>
+		<item id="922" text="頁面已開啟"/>
+		<item id="923" text="頁面已關閉"/>
+		<item id="924" text="頁面可見"/>
+		<item id="925" text="頁面不可見"/>
+		<item id="926" text="開啟頁面"/>
+		<item id="927" text="關閉頁面"/>
+		<item id="928" text="按鍵"/>
+		<item id="929" text="格式欄位"/>
+		<item id="930" text="驗證欄位"/>
+		<item id="931" text="計算欄位"/>
+		<item id="932" text="關閉前"/>
+		<item id="933" text="儲存前"/>
+		<item id="934" text="儲存後"/>
+		<item id="935" text="列印前"/>
+		<item id="936" text="列印後"/>
+		<item id="937" text="初始檢視"/>
+		<item id="938" text="文件初始檢視"/>
+		<item id="939" text="找到一個衝突:&#10;%1"/>
+		<item id="940" text="附件面板及頁面"/>
+		<item id="941" text="圖層面板及頁面"/>
+		<item id="942" text="檔案名稱"/>
+		<item id="943" text="文件標題"/>
+		<item id="944" text="刪除註解"/>
+		<item id="945" text="修改文件屬性"/>
+		<item id="946" text="加入新註解"/>
+		<item id="947" text="搜尋引擎"/>
+		<item id="948" text="管理搜尋引擎"/>
+		<item id="949" text="加入新註解"/>
+		<item id="950" text="無法加入搜尋引擎.&#10;搜尋結果 URL 必須包含單詞 TEST. 請檢查此 URL.&#10;也可能此工具無法用來建立此搜尋引擎的查詢字串."/>
+		<item id="951" text="無法加入搜尋引擎.&#10;無法儲存搜尋引擎定義到檔案."/>
+		<item id="952" text="您確定要刪除此搜尋引擎的定義嗎? 操作無法被還原."/>
+		<item id="953" text="搜尋引擎"/>
+		<item id="954" text="加入回覆"/>
+		<item id="955" text="修改表單欄位"/>
+		<item id="956" text="修改表單"/>
+		<item id="957" text="重設表單"/>
+		<item id="958" text="無安全"/>
+		<item id="959" text="請輸入此檔案的有效的使用者或所有者密碼:"/>
+		<item id="960" text="請輸入此檔案的有效的所有者密碼:"/>
+		<item id="961" text="請輸入有效的內嵌檔案密碼:"/>
+		<item id="962" text="修改連結"/>
+		<item id="963" text="修改連結"/>
+		<item id="964" text="加入新連結"/>
+		<item id="965" text="加入新連結"/>
+		<item id="966" text="刪除連結"/>
+		<item id="967" text="刪除連結"/>
+		<item id="968" text="修改回覆"/>
+		<item id="969" text="Acrobat %1 或更高"/>
+		<item id="970" text="所有文件內容"/>
+		<item id="971" text="除無資料外的所有檔案內容"/>
+		<item id="972" text="僅檔案附件"/>
+		<item id="973" text="40-bit RC4"/>
+		<item id="974" text="128-bit RC4"/>
+		<item id="975" text="128-bit AES"/>
+		<item id="976" text="256-bit AES"/>
+		<item id="977" text="此文件的所有內容將被加密, 搜尋引擎將無法存取此文件的元資料."/>
+		<item id="978" text="此文件的所有內容將被加密, 但搜尋引擎仍能存取此文件的元資料."/>
+		<item id="979" text="只加密檔案中的附件. 文件的其它部分將不加密."/>
+		<item id="980" text="附件開啟密碼(&amp;S):"/>
+		<item id="981" text="檔案開啟密碼:"/>
+		<item id="982" text="需要密碼來開啟檔案附件(&amp;O)"/>
+		<item id="983" text="需要密碼來開啟檔案(&amp;O)"/>
+		<item id="984" text="為視覺障礙人士允許文字, 圖像, 及其它內容的存取"/>
+		<item id="985" text="允許複製文字, 圖像, 及其它內容"/>
+		<item id="986" text="註解, 填寫表單, 在簽章欄位簽章"/>
+		<item id="987" text="頁面佈局, 填寫表單, 在簽章欄位簽章"/>
+		<item id="988" text="任何除提取頁面"/>
+		<item id="989" text="插入, 刪除, 旋轉頁面"/>
+		<item id="990" text="填寫表單, 在簽章欄位簽章"/>
+		<item id="991" text="您確定要移除此檔案的安全性嗎?"/>
+		<item id="992" text="您確定要變更此檔案的安全性嗎?"/>
+		<item id="993" text="輸入檔案開啟密碼或權限密碼.&#10;&#10;要移除安全密碼, 請在密碼安全及設定對話框上點擊取消, 並設定安全方式為無安全."/>
+		<item id="994" text="請取消勾選 &apos;需要密碼來開啟檔案&apos; 選項或輸入一個密碼."/>
+		<item id="995" text="請取消勾選 &apos;需要密碼來變更文件權限&apos; 選項或輸入一個密碼."/>
+		<item id="996" text="文件的開啟密碼和權限密碼不能相同. 請在某個密碼欄位中輸入不同的密碼."/>
+		<item id="997" text="請輸入檔案附件開啟密碼."/>
+		<item id="998" text="加入新便利貼"/>
+		<item id="999" text="刪除書籤"/>
+		<item id="1000" text="加入新書籤"/>
+		<item id="1001" text="移動書籤"/>
+		<item id="1002" text="移動書籤"/>
+		<item id="1003" text="按兩下這裡開啟文件..."/>
+		<item id="1004" text="無法儲存所有設定到檔案: &quot;%1&quot;."/>
+		<item id="1005" text="無法用 Email 傳送此檔案.&#10;&#10;%1"/>
+		<item id="1006" text="使用 &quot;%1&quot; 搜尋文字"/>
+		<item id="1007" text="請輸入要線上搜尋的文字."/>
+		<item id="1008" text="一些文件正在等待被開啟..."/>
+		<item id="1009" text="從剪貼簿貼上註解"/>
+		<item id="1010" text="從剪貼簿貼上註解"/>
+		<item id="1011" text="加入新書籤"/>
+		<item id="1012" text="從剪貼簿貼上書籤"/>
+		<item id="1013" text="從剪貼簿貼上書籤"/>
+		<item id="1014" text="您已經使用了某些 &apos;PRO&apos; 功能,&#10;但您使用的是免費版本的  PDF-XChange Viewer, 儲存操作時將在文件的每一頁上加入 DEMO(!) 標籤.&#10;要不加入標籤 - 請升級此程式到授權的 &apos;PRO&apos; 版本, 檢視幫助檔案或存取我們的網站取得更多資訊.&#10;&#10;您確定要儲存此檔案並在每頁中加入 DEMO(!) 標籤嗎?"/>
+		<item id="1015" text="請等待預覽..."/>
+		<item id="1016" text="&lt;無&gt;"/>
+		<item id="1017" text="我是此文件的作者"/>
+		<item id="1018" text="我同意此文件中的某些部分"/>
+		<item id="1019" text="我已複查此文件"/>
+		<item id="1020" text="我已批准此文件"/>
+		<item id="1021" text="我證明此文件的正確和完整"/>
+		<item id="1022" text="我同意此文件簽章中定義的條款"/>
+		<item id="1023" text="自動"/>
+		<item id="1024" text="從左到右 (LTR)"/>
+		<item id="1025" text="從右到左 (RTL)"/>
+		<item id="1026" text="1024 位 RSA"/>
+		<item id="1027" text="2048 位 RSA"/>
+		<item id="1028" text="不合適的密碼.&#10;密碼至少需要 6 位."/>
+		<item id="1029" text="密碼不相符.&#10;請重新輸入密碼."/>
+		<item id="1030" text="您確定要刪除 %1 的簽章範本嗎?"/>
+		<item id="1031" text="%1: 正在刪除簽章範本"/>
+		<item id="1032" text="此文件包含多個未簽章欄位. 要進行簽章, 點擊要進行簽寫的簽章欄位."/>
+		<item id="1033" text="正在對文件簽章"/>
+		<item id="1034" text="簽章文件 &quot;%1&quot; 發生錯誤 :&#10;%2&#10;&#10;文件未簽章."/>
+		<item id="1035" text="未簽章欄位 (點擊簽章)"/>
+		<item id="1036" text="簽章未驗證"/>
+		<item id="1037" text="簽章無效"/>
+		<item id="1038" text="驗證簽章"/>
+		<item id="1039" text="驗證簽章"/>
+		<item id="1040" text="需要一個名稱來建立自我簽章數位 ID."/>
+		<item id="1041" text="需要一個 Unicode 名稱來建立自我簽章數位 ID."/>
+		<item id="1042" text="需要一個 Email 位址來建立自我簽章數位 ID."/>
+		<item id="1043" text="請輸入正確的 Email 位址 (例如: john@gmail.com)."/>
+		<item id="1044" text="&apos;%1&apos; 欄位限制為 ASCII 字元.&#10;僅允許使用下列字元: 空格 a-z A-Z 0-9 &apos; ( ) + , - . / : = ?"/>
+		<item id="1045" text="簽章屬性"/>
+		<item id="1046" text="摘要"/>
+		<item id="1047" text="簽章摘要"/>
+		<item id="1048" text="不可用"/>
+		<item id="1049" text="在此簽章應用後, 文件沒有被修改."/>
+		<item id="1050" text="此文件的修訂版, 原文件的簽章未經變更. 然而, 此文件可能已經有了一系列的變更."/>
+		<item id="1051" text="在此簽章應用後, 文件已被修改或破壞."/>
+		<item id="1052" text="簽章有效性未知."/>
+		<item id="1053" text="簽章有效. 由 %1 簽章."/>
+		<item id="1054" text="簽章無效."/>
+		<item id="1055" text="僅未固定"/>
+		<item id="1056" text="僅已損壞"/>
+		<item id="1057" text="全部"/>
+		<item id="1058" text="刪除頁面輔助線"/>
+		<item id="1059" text="刪除頁面輔助線"/>
+		<item id="1060" text="修改頁面輔助線"/>
+		<item id="1061" text="加入新頁面輔助線"/>
+		<item id="1062" text="加入新頁面輔助線"/>
+		<item id="1063" text="頁面完全適應於輔助線"/>
+		<item id="1064" text="檔案附件"/>
+		<item id="1065" text="檔案附件工具屬性"/>
+		<item id="1066" text="檔案附件屬性"/>
+		<item id="1067" text="低"/>
+		<item id="1068" text="中"/>
+		<item id="1069" text="高"/>
+		<item id="1070" text="終點"/>
+		<item id="1071" text="邊緣"/>
+		<item id="1072" text="中點"/>
+		<item id="1073" text="置中"/>
+		<item id="1074" text="相交"/>
+		<item id="1075" text="附件"/>
+		<item id="1076" text="附件列表"/>
+		<item id="1077" text="描述"/>
+		<item id="1078" text="已修改"/>
+		<item id="1079" text="大小"/>
+		<item id="1080" text="壓縮後大小"/>
+		<item id="1081" text="位置"/>
+		<item id="1082" text="加入檔案"/>
+		<item id="1083" text="變更附件描述"/>
+		<item id="1084" text="加入附件"/>
+		<item id="1085" text="儲存附件"/>
+		<item id="1086" text="從 &quot;%1&quot; 提取附件發生錯誤:&#10;%2"/>
+		<item id="1087" text="%1: 儲存附件"/>
+		<item id="1088" text="%1: 開啟附件"/>
+		<item id="1089" text="附件似乎已損壞 - 提取的檔案檢驗值與原始值不同.&#10;確定要繼續嗎?"/>
+		<item id="1090" text="刪除附件"/>
+		<item id="1091" text="刪除附件"/>
+		<item id="1092" text="確定要刪除這 %1 個附件嗎?"/>
+		<item id="1093" text="%1: 正在刪除檔案附件"/>
+		<item id="1094" text="您想要在載入 &apos;%1&apos; 前&#10;關閉此文件嗎?"/>
+		<item id="1095" text="以後無需確認直接關閉文件"/>
+		<item id="1096" text="尋找編輯框"/>
+		<item id="1097" text="從最近開啟的文件列表中移除此條目"/>
+		<item id="1098" text="您確定要從最近開啟的文件列表中移除條目 &quot;%1&quot; 嗎?"/>
+		<item id="1099" text="以後無需確認直接移除"/>
+		<item id="1100" text="無最近使用條目"/>
+		<item id="1101" text="文件 &quot;%2&quot; 中的檔案 &quot;%1&quot; 已不可用, 將被關閉.&#10;請檢查您的網路情況或資料儲存情況."/>
+		<item id="1102" text="XFA 結構"/>
+		<item id="1103" text="一般"/>
+		<item id="1104" text="多重"/>
+		<item id="1105" text="螢幕"/>
+		<item id="1106" text="覆蓋"/>
+		<item id="1107" text="變暗"/>
+		<item id="1108" text="變亮"/>
+		<item id="1109" text="顏色減淡"/>
+		<item id="1110" text="顏色加深"/>
+		<item id="1111" text="強光"/>
+		<item id="1112" text="弱光"/>
+		<item id="1113" text="差異"/>
+		<item id="1114" text="%1 中註解概要"/>
+		<item id="1115" text="色調"/>
+		<item id="1116" text="飽和度"/>
+		<item id="1117" text="彩色"/>
+		<item id="1118" text="發光"/>
+		<item id="1119" text="可分離"/>
+		<item id="1120" text="不可分離(HSL)"/>
+		<item id="1121" text="混合模式:"/>
+		<item id="1122" text="新文件"/>
+		<item id="1123" text="建立新文件選項"/>
+		<item id="1124" text="無法從 RTF 建立新檔案:&#10;%1"/>
+		<item id="1125" text="&lt;在所有開啟的文件中 (%1)&gt;"/>
+		<item id="1126" text="重排序註解"/>
+		<item id="1127" text="在此簽章"/>
+		<item id="1128" text="作者"/>
+		<item id="1129" text="主題"/>
+		<item id="1130" text="頁數"/>
+		<item id="1131" text="日期"/>
+		<item id="1132" text="類型"/>
+		<item id="1133" text="數字"/>
+		<item id="1134" text="&lt;無&gt;"/>
+		<item id="1135" text="&lt;未定義&gt;"/>
+		<item id="1136" text="%1 中註解概要"/>
+		<item id="1137" text="重新開啟"/>
+		<item id="1138" text="僅標記"/>
+		<item id="1139" text="正在搜尋書籤..."/>
+		<item id="1140" text="程式已完成搜尋檔案:&#10;&quot;%1&quot;.&#10;&#10;沒有找到相符."/>
+		<item id="1141" text="安全"/>
+		<item id="1142" text="安全選項"/>
+		<item id="1143" text="URL"/>
+		<item id="1144" text="加入時間伺服器"/>
+		<item id="1145" text="編輯時間伺服器"/>
+		<item id="1146" text="唯讀"/>
+		<item id="1147" text="確認檔案附件開啟密碼:"/>
+		<item id="1148" text="確認文件開啟密碼:"/>
+		<item id="1149" text="確認密碼不相符. 請重新輸入密碼."/>
+		<item id="1150" text="脫字號"/>
+		<item id="1151" text="聲音"/>
+		<item id="1152" text="使用預設主題: &quot;%1&quot;"/>
+		<item id="1153" text="新已命名目的"/>
+		<item id="1154" text="為新目的輸入一個唯一的名稱:"/>
+		<item id="1155" text="您真的確定要刪除選擇的名為 &quot;%1&quot; 的目的嗎?&#10;刪除操作不能被還原."/>
+		<item id="1156" text="名稱為 &quot;%1&quot; 的目的已存在.&#10;請為目的輸入一個不同的名稱."/>
+		<item id="1157" text="文件 &quot;%1&quot; 已被外部程式變更."/>
+		<item id="1158" text="您想要重新載入嗎?"/>
+		<item id="1159" text="您想要重新載入並放棄所有變更嗎?"/>
+		<item id="1160" text="為此文件記住我的選擇"/>
+		<item id="1161" text="文件 &quot;%1&quot; 是 PDF/A 相容.&#10;&#10;儲存變更到此檔案可以會加入不支援的內容 - 不再將它標記為 PDA/A 相容."/>
+		<item id="1162" text="檔案 &quot;%1&quot; 包含 XFA 表單.&#10;&#10;XFA 表單是 PDF 標準的一個可選子格式, 目前  PDF-XChange Viewer 僅部分支援. XFA 的完整支援將在 2010 年的 PDF-XChange Viewer 版本 3 中實現."/>
+		<item id="1163" text="文件:&#10;&quot;%1&quot;&#10;- PDF/A 相容.&#10;&#10;儲存操作可能會加入不支援的內容 - 使文件不再 PDF/A 相容.&#10;&#10;您希望儲存此文件嗎?"/>
+		<item id="1164" text="目前"/>
+		<item id="1165" text="請為新的 &quot; 轉到文件中的頁面&quot; 動作指定初始縮放比例 (可用於書籤和建立的連結):"/>
+		<item id="1166" text="搜尋選項錯誤.&#10;&#10;請檢查搜尋選項選單, 並至少選擇一處或多處搜尋區域 (例如 頁面內容, 書籤, 註解 等)."/>
+		<item id="1167" text="顯示詳情"/>
+		<item id="1168" text="隱藏詳情"/>
+		<item id="1169" text="載入的檔案:"/>
+		<item id="1170" text="載入參數"/>
+		<item id="1171" text="僅用於 PDF 文件"/>
+		<item id="1172" text="僅對於非 PDF 總是詢問 (安全, 推薦)"/>
+		<item id="1173" text="對於任何檔案類型 (不安全, 不推薦)"/>
+		<item id="1174" text="從未"/>
+		<item id="1175" text="注意: 來原格式似乎不是 PDF"/>
+		<item id="1176" text="它似乎是 HTML 文件"/>
+		<item id="1177" text="正在下載完整幫助檔案, 請稍等..."/>
+		<item id="1178" text="注意: 此功能將旋轉頁面, 僅在本會話內生效 - 不會變更原檔案. 要永久儲存, 請使用 &apos;文件&apos; 選單下的 &apos;旋轉頁面&apos; 功能."/>
+		<item id="1179" text="傳送資料到 %1"/>
+		<item id="1180" text="&lt;無主題&gt; (%1)"/>
+		<item id="1181" text="%1: 提交表單"/>
+		<item id="1182" text="提交時出現錯誤:&#10;&#10;%2"/>
+		<item id="1183" text="表單已返回: %1"/>
+		<item id="1184" text="表單已返回: %1&#10;&#10;附件為填寫的表格. 請開啟並檢查資料."/>
+		<item id="1185" text="上次會話中所有命令列 (選單和工具列) 已被隱藏.&#10;要立即還原它們嗎?"/>
+		<item id="1186" text="注意: 您可以按 %1 還原所有命令列."/>
+		<item id="1187" text="程式已完成文件搜尋, 搜尋字串:&#10;&quot;%1&quot;.&#10;&#10;沒的找到更多的相符."/>
+		<item id="1188" text="簽章後文件已被更新,"/>
+		<item id="1189" text="您選擇的檔案格式不支援透明背景."/>
+		<item id="1190" text="您為此檔案選擇的格式不支援透明背景.&#10;&#10;您想要自動變更選項, 以建立帶透明背景的圖像嗎?"/>
+		<item id="1191" text="您想要搜尋什麼詞或短語?"/>
+		<item id="1192" text="您想要搜尋什麼?"/>
+		<item id="1193" text="清空尋找列表"/>
+		<item id="1194" text="就緒"/>
+		<item id="1195" text="自訂使用者介面"/>
+		<item id="1196" text="自訂使用者介面外觀"/>
+		<item id="1197" text="XFA 表單"/>
+		<item id="1198" text="靜態"/>
+		<item id="1199" text="動態"/>
+		<item id="1200" text="自動"/>
+		<item id="1201" text="自動 (外觀顏色陰影)"/>
+		<item id="1202" text="固實"/>
+		<item id="1203" text="預設背景"/>
+		<item id="1204" text="垂直條紋"/>
+		<item id="1205" text="點"/>
+		<item id="1206" text="圓環"/>
+		<item id="1207" text="小方塊"/>
+		<item id="1208" text="波浪方塊"/>
+		<item id="1209" text="不規則鋸齒"/>
+		<item id="1210" text="Chess-2"/>
+		<item id="1211" text="Chess-4"/>
+		<item id="1212" text="此檔案包括靜態 XFA 表單.&#10;&#10;XFA 表單基於 Adobe 的 XML 表單架構, 目前這些表單僅被極少數 PDF 相關軟體支援."/>
+		<item id="1213" text="此檔案包括動態 XFA 表單.&#10;&#10;XFA 表單基於 Adobe 的 XML 表單架構, 目前這些表單僅被極少數 PDF 相關軟體支援. 由於動態 XFA 的天然特性, 文件中的大部分操作 (如註解, 頁面處理等) 都被停用."/>
+		<item id="1214" text="此檔案不包括動態 XFA 表單.&#10;&#10;您想在Adobe Live Cycle裡開啟這個文件嗎?"/>
+		<item id="1215" text="此文件限制了一些在AdobeR Reader中允許的擴展特性的操作."/>
+		<item id="1216" text="您不能變更此文件的安全因為此文件經過簽章或論證."/>
+		<item id="1217" text="XML檔案(*.xml)"/>
+		<item id="1218" text="XML資料包文件(*.xdp)"/>
+		<item id="1219" text="MB"/>
+		<item id="1220" text="此文件不能被儲存. 此檔案可能是唯讀的, 或者另一個程式/使用者已經開啟它. 您可以用另一個檔案名稱或者另一個資料夾來儲存此文件."/>
+		<item id="1221" text="另存為(&amp;S)"/>
+		<item id="1222" text="警告: 打散註解將使它們不可選和不可編輯."/>
+		<item id="1223" text="一些頁面不會被完全列印由於他們在可列印區域外."/>
+		<item id="1224" text="繼續列印?"/>
+		<item id="1225" text="在列印前嘗試設定&quot;%1&quot;選項"/>
+		<item id="1226" text="或/和設定&quot;%1&quot;選項"/>
+		<item id="1227" text="從印表機設定裡另外選擇更適合列印這些頁面的紙張大小"/>
+		<item id="1228" text="非獨佔"/>
+		<item id="1229" text="保留原內容&amp;加入文字層"/>
+		<item id="1230" text="僅轉換頁面內容為圖像－加入文字層"/>
+		<item id="1231" text="低"/>
+		<item id="1232" text="中"/>
+		<item id="1233" text="高"/>
+		<item id="1234" text="%1： 辨識頁面"/>
+		<item id="1235" text="辨識頁面錯誤在第%頁：&#10;%2"/>
+		<item id="1236" text="正在處理頁面，請等待..."/>
+		<item id="1237" text="處理第%1頁，共%2頁：點陣化文字"/>
+		<item id="1238" text="處理第%1頁，共%2頁：辨識文字"/>
+		<item id="1239" text="處理第%1頁，共%2頁：產生文字"/>
+		<item id="1240" text="該檔案被外部程式開啟，嵌入過程中可能被修改，您確定要繼續嗎？"/>
+		<item id="1241" text="依短邊"/>
+		<item id="1242" text="依長邊"/>
+		<item id="1243" text="從最近的文件列表中移除中斷的項目......"/>
+		<item id="1244" text="此憑證不能用於簽章文件。請選擇另一個憑證。"/>
+		<item id="1245" text="該憑證已過期或尚未有效。"/>
+		<item id="1246" text="該憑證已被撤銷。"/>
+		<item id="1247" text="時間戳記產生失敗：&#10;%1&#10;數位簽章將不包含時間戳記。"/>
+	</strings>
+</Localization>

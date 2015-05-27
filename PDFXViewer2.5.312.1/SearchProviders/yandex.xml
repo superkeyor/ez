@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>Yandex.RU</ShortName>
+	<Description>Yandex.RU provider</Description>
+	<InputEncoding>UTF-8</InputEncoding><Url type="text/html" template="http://yandex.ru/yandsearch?text={searchTerms}&amp;stpar2=%2Fh1%2Ftm3%2Fs1&amp;stpar4=%2Fs1&amp;stpar1=%2Fu0&amp;lr=187"/>
+	<Image width="16" height="16" type="image/vnd.microsoft.icon">http://yandex.ru/favicon.ico</Image>
+</OpenSearchDescription>

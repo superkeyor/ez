@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>Wikipedia (en)</ShortName> 
+	<Description>Wikipedia provider</Description> 
+	<InputEncoding>UTF-8</InputEncoding> 
+	<Url type="text/html" template="http://en.wikipedia.org/w/index.php?title=Special:Search&amp;search={searchTerms}" /> 
+	<Image width="16" height="16" type="image/vnd.microsoft.icon">http://en.wikipedia.org/favicon.ico</Image>
+</OpenSearchDescription>

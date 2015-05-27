@@ -1,0 +1,875 @@
+------------------
+XPLORER² CHANGELOG
+http://zabkat.com
+------------------
+
+Here you will find a brief list of items added in each consecutive build.
+For more information please refer to the updated full documentation.
+
+NOTE: Items marked with [P] are only in the professional version and [U] for the ultimate version (whatever is [P] is also for [U])
+
+
+[2.5.0.4] 20 Jun 14 ----------------
+
+* registry setting GAOPT_HOOKWINKEY (=536,870,912) installs a global hook to start xplorer2 with WIN+E key IF xplorer² is set to replace windows explorer. Note that you must leave the background xplorer² process running for this to work. Once you quit with <Alt+X> this shortcut key will open windows explorer. As with all hooks this will somehow impact your computer's performance. This does NOT work if you are using a 32 bit xplorer² on 64 bit windows (explorer replacement doesn't work altogether...)
+
+
+[2.5.0.0] 13 Apr 14 ----------------
+
+* registry setting GAOPT_NOBROWSECPAN (=524288) controlling whether xplorer² browses into control panel items or not. For windows vista and later these "folders" are better handled by windows explorer
+
+* Edit > Copy names command works in the folder tree too. This in addition to <CTRL+P> command that copies all the active tree branch to the clipboard.
+
+* [P] docking panes have context menu (right click on titlebar) for various operations (dock/float/hide etc)
+
+* custom drive icons are read from AUTORUN.INF files (if present for removable drives)
+
+* corrected PDF text extraction for windows 8.1
+
+* repaired removable media EJECT command from shell context menu 
+
+* picture thumbnails extracted from phones and cameras (thumbnail view and draft QV tab)
+
+* [U] running the professional version in parallel to ultimate doesn't disable fast desktop search
+
+* various small bugs fixed
+
+* [P] robust copy correctly handles file symbolic links (copies the link not the file). Sadly like all symlink operations you must be running as full administrator otherwise you get a funny error message.
+
+* [P] registry setting nUnbufferedCopyMB (default=1GB) sets a size limit above which robust copy is done without buffering. That supposedly fixes problems where your RAM is clogged by extremely huge file copying.
+
+* [P] When robust delete dialog encounters some reparse point (e.g. folder junction or symbolic link) only deletes the reparse information, without touching the target folder. This makes the "confirm folder junctions" checkbox in the dialog rather irrelevant.
+
+* More consistent handling of symbolic links, now you can see previews of them (text or pics) and even search for text in them (in the actual file target)
+
+* New files inserted in a pane (e.g. pasted or dropped) are marked (selected). This lets you see which files were newly added. This feature is controlled by local registry setting variable nMarkNewFileMS which is the time (in milliseconds) xplorer² waits after a file operation is initiated to mark added files. Set this to 0 to disable this new marking feature. If a pane contains a prior selection (>=2 selected items) then this feature is suppressed.
+
+* [U] Global registry value szSystemPropsList is a comma separated list of system properties to extend the file column and search attribute system. See here for the list of available properties: http://msdn.microsoft.com/en-us/library/dd561977(v=vs.85).aspx . Some of them are already available as shell folder columns but some are only available through this route. Requires windows VISTA or later.
+
+* in explorer replacement mode, "Open containing folder" menu command from 3rd party programs (e.g. Google Chrome, Firefox) will correctly open and select items in xplorer². This is by far the most time consuming (wasted?) feature added in xplorer² in terms of development resources, enjoy!
+
+* When you opt to replace windows explorer with xplorer² during installation, you get more folder types handled (including "virtuals" like MyComputer). Installer allows you to replace explorer for the current user or for all users with a tickbox. xplorer² is configured to automatically run when you boot up windows (silently).
+
+* In the rare occasions when xplorer² cannot read a special folder (e.g. some items in control panel), you get the option to read it with windows explorer instead.
+
+
+[2.4.0.1] 12 Nov 13 ----------------
+
+* fixed some problems with windows 8.1 compatibility
+* the poorly documented registry options szCustomDateFormat and szCustomTimeFormat (strings for date/time formatting different than that defined in control panel) are added to the advanced settings editor
+* lengthy split/merge file operations (Actions menu) get a more responsive progress dialog (you still have to wait ages though :)
+* Optional registry options szQVDraftExtList and szQVNativeExtList (see REGISTRY.TXT) control what extensions will get previewed for the Draft and Native preview tab respectively. So if you want to get just previews of JPG and TXT files in draft mode set szQVDraftExtList to "jpg,txt" (comma separated list of extensions, NO wildcards). These are layout specific, not for the global section. You can even have exclusion lists, e.g. "-jpg,-txt" will preview anything BUT jpg/txt.
+* editor² gives a clearer warning when saving on a readonly file
+
+
+[2.4.0.0] 6 Sep 13 ----------------
+
+* [P] robust MOVE now works even if you are moving to the same partition (drive letter), as long as you specify a filter in the <F6> dialog. Supply a fake filter like "*" if you don't really need filtering but you need robustness. Note that this kind of Move operation is going to be SLOWER than a simple drag-drop on the same partition -- but you asked for it :)
+
+* [P] registry option GIOPT_ROBUSTMOVE (=268435456) makes F6 move commands always go "robust" but at the great expense of speed. Available through Tools > Advanced options menu command (Layout page).
+
+* [P] Robust file operations in silent mode are not halted for any messages as long as there are queued jobs waiting. This means you can queue jobs and go away. At the very end you will see a summary of errors (if any).
+
+* Mark > Sync wizard dialog has a field to ignore a prescribed date difference (it applies when modification date is used for comparisons). Tick it to consider files within the specified date range as identical, or clear the checkbox to use the default +/- 2 seconds tolerance.
+
+* [P] When using robust copy <F5>, if there is a filename collision (target file exists), you get a chance to supply a different filename so you can "manually" rename and keep the old target file or folder. Just type in the new filename (no path) and click on YES button. You don't need to type the extension even! The rename opportunity is offered when the copy options are set to "Ask confirmation" for overwriting existing objects.
+
+* [P] Docking panes like tree have a PIN icon on their titlebar. If you click on the pin you toggle the autohide/docked mode. When set to autohide the panel is minimized, brought into view by hovering the mouse over the panel button (or clicking on the minimized button). Click on the titlebar pin again to fix the panel in docked (expanded) mode.
+
+* Text extraction (search for keywords) works for PDF documents even if you have the latest Adobe reader — but it is recommended you switched to PDF X-change viewer especially if you are on 64 bit windows.
+
+* Background context menu menu (when you click on empty space) on some virtual folders includes an NSE submenu that routes to some special namespace extension commands, e.g. add new secure FTP connection. Several special folders have such commands (requires windows Vista or later)
+
+* [U] Tools > Fast search command more flexible when started from local folders outside the system index like C:\. It will search whatever folders are in the system index, under the current folder.
+
+* Various small bugs fixed
+
+* Quickviewer (Native mode) won't get in the way when renaming or deleting items; console window likewise won't block folder delete/rename operations
+
+* Right click on a USB drive icon (e.g. on the drivebar or tree) and use EJECT context menu command to safely remove it. This ensures that xplorer² at least won't be locking it (but it could be locked by other applications on your system, try the Safe device removal icon on the taskbar notification area too)
+
+* [P] AddressBar filter box works in miniscrap pane too (filter and select modes only), e.g. start typing a filename while the miniscrap has the focus and see what happens.
+
+* Default document categories e.g. {pictures} are recognized as quick filters in the addressbar
+
+* Symbolic links inherit the actual file dates at the time of creation (note the modification dates will diverge in the future)
+
+* Subfolder sizes are calculated automatically (if relevant advanced option is set) even when you aren't in detailed view mode
+
+* [P] Window > Set title menu command in scrap containers can be used to supply a custom titlebar name. You can also type your text in the addressbar as an alternative means of identification. Useful for multiple scrap windows.
+
+
+[2.3.0.0] 1 Mar 13 ----------------
+
+* Tools > Options menu, Advanced page has a button to access control panel's folder options. Note that some of these options have no effect on xplorer²
+
+* Tools > Map network drive menu offers quick access to the respective windows function (also available by right clicking on My Computer icon)
+
+* Tools > Options menu, Advanced page has a tickbox to make network access faster (plain icons, no overlays/tooltips/folder sizes, partial tree expansion). Combines the old advanced registry options GAOPT_TREENONETENUM and GAOPT_ECONOMYNETWD.
+
+* [U] Tools > Fast search menu takes advantage of WDS v4.0 capability to search remote computers, if invoked while browsing some network folder. Likewise the Find Files command <ctrl+F> uses the remote computer search index if available. The remote folders must be shared.
+
+* Right click menu in Draft quick viewer has option to show the end (tail) of files instead of the beginning. Only applies to plain text files
+
+* If you don't have the NAME column first, the rename command <F2> uses a dialog window instead of failing.
+
+* [P] Tools > Fuzzy groups menu command in a scrap window organizes the contents in groups according to how similar are their names (or any other text attribute). It can be used for fuzzy duplicate checking, e.g. how many folders you have that share a common artist name. For best results fiddle the fuzzy factor up/down.
+
+* New filter box next to the addressbar allows quick selecting, filtering or [P] searching in the current view. Use the drop-down button menu to switch among the available modes and to fine-tune the operation. Press <ALT+Return> to operate on the inactive (dual) view. For more information please refer to the quickstart guide.
+
+* registry option nCharsAutoFilter (available through the advanced settings editor: Layout settings > General). If your filter box is set to plain filename filtering, this setting controls after how many characters typed the focus will jump in the filter box, for easier visual filtering. Set to 0 to disable this function.
+
+* Use the advanced registry settings editor (Layout settings > Main frame) to choose the relative size (percent) of the filter box in the addressbar. Set to 0 if you don't want the filter box.
+
+* [P] smarter registration: if you copy the xplorer² unlock key from the email you receive when you buy xplorer², it will be automatically inserted in the registration dialog.
+
+* Installer has option to add xplorer² to your folders' context menu. This can used as a soft alterative to replacing your windows explorer with xplorer².
+
+* Double click on the filter icon on the statusbar to toggle the active filter. Double click on the "show hidden" status bar pane to toggle showing hidden files and folders.
+
+
+[2.2.0.2] 14 Nov 12 ----------------
+
+* Russian translation restored
+* Fixed drivebar bug
+
+
+[2.2.0.1] 6 Oct 12 ----------------
+
+* [P] check duplicates command gets a prominent progressbar, useful for long file comparison operations
+
+* [P] Customize > Keyboard hotkey control allows more key combinations to be used as accelerators (<Tab> etc). Navigating this dialog with the keyboard is a bit harder, sorry!
+
+* Added new file attributes I for NOT content indexed (not that interesting :) and P for sParse files
+
+* New tips: 4a, 27b, 46a, 124b, 125a, 161a, 167, 168, 169, 170
+
+* [U] Tools > Find files menu command will use windows desktop search if available (requires windows XP with desktop search 4 installed). This will dramatically improve the search speed in indexed folders. For more accurate results use CLICK FOR ROBUST SEARCH button after the end of the quick search.
+If you don't have desktop search, please download it from here: 
+http://www.microsoft.com/en-us/download/details.aspx?id=23
+
+* [U] registry tweak GAOPT_NODESKSEARCH disables desktop search, xplorer² operates only with 'slow' search as it used to (available through Options > Advanced settings menu, Global page)
+
+* [U] Tools > Fast search menu will do a simple desktop search under the current folder. Instead of defining complex search rules, just give it a keyword (whole word) to find either in the file contents, filename or some other file property. AQS syntax isn't supported, just plain text.
+
+* [P] Tools > Save search (in a scrap window) saves the last search parameters (filter and location, not the results) to a file. Repeat an older search using Tools > Recent search menu. To start a saved search from the command line use the arguments /F:1 /L:path_to_saved_search.x2fnd (or double click on a *.x2fnd file)
+
+* [P] Drag-drop a file on a filter window (e.g. find files dialog) and its details (name/date/size) are used to define a filter. Useful for locating renamed pictures from a camera.
+
+* Edit > Copy to <F5> command offers to create a folder for the HERE field if it doesn't exist
+
+* [P] Last complex filter (e.g. for <Alt+G> command remembered between sessions
+
+* Tools > Options menu, Advanced page, has a tickbox for preserving file dates when setting comments with <Alt+Z>
+
+* [P] Searches are now possible within external devices like phones and cameras
+
+* [P] Drivebar won't show letters for empty card reader slots
+
+* [P] Better estimation of time remaining for robust copy and delete commands
+
+
+[2.1.0.2] 17 Apr 12 ----------------
+
+* A few corrections for windows 8 compatibility
+
+
+[2.1.0.1] 27 Mar 12 ----------------
+
+* [U] Actions > Export settings menu asks you whether you want to export to INI (for portability) or to REG file. If you want to export the registry make sure you save settings in the registry (from Tools > Options > General)
+* [P] Robust deletion dialog shows the path of the first few files/folders selected for deletion
+* [P] You can click on the SHORTCUT TO property in the Details pane (if a link file is selected) to browse the target item
+
+
+[2.1.0.0] 4 Mar 12 ----------------
+
+* Added Downloads folder to system folders list (Goto > Special folders)
+* [P] Right click menu in scrap containers includes command to Open file location (container folder) and one to remove items from view (equivalent to <DEL>).
+* Tree option FTCOPT_AUTOCOLLAPSE (=256) collapses open branches before opening new ones - so that you don't end up with too many open branches during browsing
+* Searching for text in files in RAW encoding mode preselects the case sensitive and search all files options, so that you can make the most of its powers (e.g. you can search for $EF$BB$BF to find all files that have the UTF-8 BOM marker).
+* [P] double click on a dock pane's titlebar to make it float (toggle).
+* Actions > Export settings and other similar input boxes have a [...] button that allow you easy path selection. Note that path autocompletion works there too.
+* [P] Find files and similar dialogs allow regular expressions for filenames too (NAMED field). Set the fuzzines indicator to 0 (usually 100) to enable the regexp mode. For syntax see http://zabkat.com/x2h_2.htm#table1a
+* [U] Tools > Options > General, save program state on exit possible to go to an INI file (instead of registry) for portability. The default location is the user settings folder (e.g. C:\Users\<you>\AppData\Roaming\zabkat. It could also be placed next to the program but make sure the folder is writeable (i.e. not while installed under C:\program files\zabkat). The /I: command line switch mainly caters for INI files, but it also supports REG files for compatibility with older xplorer² versions.
+* [U] Advanced options editor can work with INI settings file, if passed as a command line argument, e.g. x2SettingsEditor.exe "C:\x2settings.ini" 
+* Actions > Folder settings > Default menu command will fix the pane style, sort order, columns and grouping for all folders according to the current settings. Untick to revert to the classic 'last setting used is the default' mode. When the default mode is active, if you make any changes in some folder (e.g. switch to thumbnails) these will turn back to default once you browse some other folder.
+* [P] show in groups mode now supports collapsible groups (windows vista and later), use the little group header icons to collapse and expand a group. WARNING: items in collapsed groups remain selected so be careful if you delete after collapsing a group!. To collapse/expand a group with the keyboard, select the group header then press left or right arrow keys respectively.
+* registry setting CLVOPT_NOSELCOLLAPSED (=262144) forbids item selection when its group header is collapsed (see registry.txt)
+* [P] <Ctrl+Shift+Left> arrow key collapses all groups (windows vista or later). To expand all groups press <Ctrl+R> to refresh the folder.
+* editor² checks if a ED2.INI file exists next to the program (portable mode) and uses it automatically instead of registry. You can pass any custom settings file using the /I: option as before.
+* Actions > Set comment menu command gets its own dialog. When you select multiple files to set, you have the option to either replace the existing comment verbatim, or you can just enter one word (tag) to add or remove from the existing comment
+* [P] Plain text rules in hyperfilters support regular expressions if the relevant option is ticked.
+* [P] View > Details pane menu command opens an information pane like that one in windows explorer, showing extended information on the focused item. This is a combination of quick content preview and file attributes, depending on the current file type. You can edit many properties 'in-place' by clicking on the IE-like anchor links. NOTE: this pane won't work perfectly if you have internet explorer 5 or earlier.
+* Better icons for executable files and folders in thumbnail view mode
+* [U] in portable trim, put a CIDA file next to the xplorer² executable to use it as the default contents file for the miniscrap pane.
+* New demo videos added in Help > How do I? pane. Marked with NEW they hilight the biggest new additions
+* New detail column (attribute) for MD5 file checksums (<Alt+K> command). The old plain checksum column works but it isn't very reliable identifying small differences. If you want to calculate MD5 sums of large files you may have to increase the relevant bytesize limit from Tools > Options, General page (near the bottom). Sorry, not working in windows 9x!
+* [P] To customize the attributes that appear in View > Details pane put a HTML file called "X2DETAILS.HTM" in the installation folder. NOTE: this is an advanced operation for experienced users only.
+* All program icons can be customized using the "translation" trick mentioned here:
+	http://netez.com/bbs/viewtopic.php?t=8379
+
+
+[2.0.0.2] 25 Oct 11 ----------------
+
+* a few small bugs fixed
+
+
+[2.0.0.1] 20 Sep 11 ----------------
+
+* registry tweak GAOPT_NOX2SHCMENU stops xplorer² adding its own menu items in the standard shell context menu (available through Options > Advanced settings, Global page)
+* fixed a couple of bugs e.g. infotip formatting
+
+
+[2.0.0.0] 22 July 11 ----------------
+
+* [P] Native tab in quick previewer utilizes the windows vista/7 preview handlers for office/PDF/etc document preview (a lifesaver if you have the buggy Adobe X)
+	download preview handler extensions http://www.smartftp.com/client/addons/sourcepreview/
+* [P] Native preview automatically resizes images and text
+* fast thumbnails for windows XP/2000 utilizing thumbs.db system cache (note: thumbnail size must be fixed to 96 pixels, see Tools > Options > General)
+* option for large icons in folder tree (right click nowhere in tree and pick command from menu)
+* large toolbar icons supported, create an alpha-transparent bitmap called x2skin_XL.PNG and put it in the  installation folder, see http://zabkat.com/x2skin.htm. Recommended icon sizes in range [24,48].
+* when item icons are set to PLAIN (Tools > Options > General) there are no icon overlays extracted (shortcut, shared, TSVN etc)
+* network folder access speed with tree-autosync enabled improved dramatically; make sure you have GAOPT_TREENONETENUM enabled from Tools > Advanced options (global page: tree only partially expands network folders)
+* [P] Bookmarks > Dual submenu can save folders left/right (top/bottom) to be restored later as a set
+* [P] Autofilters now hide folders in general, a separate menu command shows only folders
+* Various list Organize dialogs are now resizable
+* [P] infotip information available as a stock column too. Convenient for showing file type specific information (e.g. dimension for images, duration for music etc). Use <Alt+K> to place it on detailed view mode or on an infobar with right-click. Recommendation: use this as the ONLY piece of information on your infobars, removing all other columns.
+* [P] robust copy and delete dialogs use checkbox to quickly activate last filter used (if any)
+* [P] robust copy option to preserve all file/folder dates after copying (created etc). Normally only the last modified date is preserved.
+* [P] shell context menu includes a custom xplorer² submenu where you can put any menu command to suit your needs (use Organize menu)
+* Link icon overlays shown in thumbnail view mode too
+* First stage (name parsing) of network reads also escapable (press ESC key if it takes too long)
+* User command token $> for the odd (sic) need to pass all selected items through a list file. This is equivalent to $A token but the paths are saved to the file %TEMP%\x2tmpList.txt, then this file is used as the $> argument. Useful for situations where you need to pass too many files to some external tool.
+* Toolbar context menu has switch whether to use small or large icons (if XL skin available)
+* Improved handling of phones and digital cameras, now you can see thumnnails in such folders
+* If in single pane mode, xplorer² window title shows the full folder path
+* [P] Global registry setting nMenuBreak=X causes long menus e.g. Bookmarks to split vertically in columns every X items. To be used along nCustMenuIcons registry setting
+* editor² optionally saves settings in a .INI file (instead of the registry) if you use the /I command line switch with a .INI filename
+	Also loader automatically detects common unicode and UTF8 text files without a BOM
+* [P] Actions > Folder settings > Save and Clear menu commands ask if you want to apply the same settings to all subfolders
+* Search for text in plain text files (<ctrl+G>, Find files and similar commands) automatically detects unicode and UTF8 files even without a BOM (encoding identification)
+* File > New tab opens all the selected items/folders in separate tabs
+* Right click on a tab to lock it (toggle). Locked tabs stay put and any browsing in them results in opening a new tab.
+* [P] all view panes (tree, quickviewer etc) are dockable. You can rearrange them by drag-drop to any side of the main window or have them floating (detached). Hold down <CTRL> while dragging to float a pane
+* [P] View > Toolbars > Lock dock sites command fixes the arrangement of docking panes so that they cannot be moved. Dock bars also lose their titlebars if you long the way the old splitter panes looked like!
+* [P] Clear contents context menu command in miniscrap pane deletes the default content file.
+* [P] Free trial extended to 31 days (last 10 days have more nags/delays)
+* [P] Your old xplorer² license key won't work but you may be entitled to a free or discounted upgrade, use the PURCHASE button in Help > About box to find out. If you bought xplorer² more than 2 years ago you'll need a new purchase.
+
+
+[1.8.1.4] 24 Apr 11 ----------------
+
+* slow startup on account of digital signature check eliminated
+* added easter eggs -- only joking :)
+
+
+[1.8.1.3] 6 Mar 11 ----------------
+
+* [P] Help > Activate with key menu command easy way to use your unlock key to activate xplorer². This menu is disabled if you are already registered.
+* Folder deletion from the tree got easier, now you don't have to activate the confusing 'Don't lock browsed folder' advanced option.
+* Hide protected operating system files policy from Folder Options (Control panel) is observed, unless you use the registry tweak GIOPT_SHOWALLHIDDEN(=256) — then xplorer² will behave like it always had. (it only makes a difference for windows 7 and later)
+* various small bugfixes (e.g. symbolic links)
+
+
+[1.8.1.2] 25 Jan 11 ----------------
+
+* added french translation - thanks to Denis Neuhart
+* added spanish translation - thanks to Pablo Torralba Fernandez
+* added brazilian translation - thanks to Emre Akkas [http://globalme.net]
+
+
+[1.8.1.1] 21 Dec 10 ----------------
+
+* bugfix for editor² UTF-8 file handling 
+* hires toolbar skin available for editor² click here http://zabkat.com/skins/ed2skin.png
+	(place the PNG file in xplorer² installation folder)
+* fixed handling of $xx escape sequences in xplorer² find in files command <ctrl+G> etc
+
+
+[1.8.1.0] 4 Dec 10 ----------------
+
+* updated lists of recognized audio/video formats for WMP
+* High color PNG toolbar skins supported, see several new skins available at http://zabkat.com/x2skin.htm
+* /I: command line option for PORTABLE edition can take a standard INI (instead of REG) file so you can have your settings kept in a file without a round trip to windows registry
+* Actions > Export settings menu command exports all the keys under HKEY_CURRENT_USER\Software\ZabaraKatranemia Plc to minimize on UAC confirmations
+* [P] View > Visual filter > Autofilter command works in scrap windows too (for generic filters)
+* registry option GIOPT_CACHETHUMBS(=524288) forces items to cache their bitmaps (not recommended!)
+* vista/7 drag-drop images and labels closer to windows explorer format
+* [P] robust copy shows progress on windows 7 taskbar button too (whoopy!)
+* [P] drivebar supports right click context menu for all items (root drives)
+* fast and sleek thumbnails for windows vista/7 using shell icon cache
+* better appearence for windows vista/7 menu icons
+* Help > Tell a friend menu command now leverages your social networking powers to spread the word on xplorer² (thanks! :)
+* Help > Online support and Crash information now send emails to customer support
+* [P] text rules in filters (e.g. Keywords) allow for ? and * wildcard characters, e.g. "ab?d" will match abCd, ab1d and abd.
+* [P] Text filter rule dialog has a Verbatim checkbox; tick it to cancel wildcards, commas etc (find exactly what you type)
+* numerous small bugs fixed and annoyances removed
+* paste text and images in folder now creates unique names (x2scrap2.PNG etc)
+* [P] Edit > Extract text command extracts plain unformatted text from documents, e.g. for a file called LETTER.DOC it will create LETTER.TXT with just the text contents. (windowsXP or later)
+* registry option GAOPT_SAVEUNICODETXT available through registry settings editor (used for extract text and paste text as file commands)
+* [P] new column for authenticode digital signature for executable files downloaded from the internet
+* [P] Infobars (View > Toolbars menu) now support a Selection [S] column like the main statusbar, enable it by right clicking. Thus each pane can have its own selection information
+
+
+[1.8.0.14] 20 Aug 10 ----------------
+
+* fixed 64 bit version demo videos (Help > How do I? menu command)
+
+
+[1.8.0.13] 3 Aug 10 ----------------
+
+* a few translations updated (Russian)
+* editor² gets Edit > Insert tag menu command for HTML/XML tags
+
+
+[1.8.0.12] 14 May 10 ----------------
+
+* xplorer² is now digitally signed by Nikolaos Bozinis (me)
+* editor² upgraded to match HTML tags (Search > Match tag menu)
+
+
+[1.8.0.10] 6 April 10 ----------------
+
+* Improved memory handling for browsing large folders
+* registry option GAOPT_SAVEUNICODETXT(=8388608) paste text in folder (x2scrap.txt) saved as unicode file
+
+
+[1.8.0.7] 23 February 10 ----------------
+
+* quicker startup times (network folder icons for the tree done in background thread)
+
+
+[1.8.0.5] 11 February 10 ----------------
+
+* new status bar indicator for 'show hidden files' state
+* more windows 7 warts eradicated
+* keyboard only command <ctrl+alt+shift+H> to toggle show/hide hidden files (menuhack ID=33163)
+* non-standard layouts easier to recognize from window title
+* Window > Administrator menu command easy access to run xplorer² elevated when you need to write in C:\Program files and other locations normally blocked by UAC
+* [P] column handlers like TSVN and audioshell now work for vista and windows 7!
+* View > Select columns menu command has a filter box for easier column selection (for the 300-odd columns in W7!)
+* [P] Additional rules definition (eg for <ctrl+F> find dialog) property is now combobox with autocomplete, e.g. type SVN and hit up-arrow to find a column that contains SVN in its name
+* Explorer replacement mode (if selected from the installer) takes over HKCU\directory\shell\open key so more programs will use xplorer² for folders
+
+
+[1.8.0.0] 25 November 09 ----------------
+
+* Mark > Sticky selection now compatible with lasso mouse selection mode
+* PNG, AVI and such files now can have comments attached (workaround); also commenting doesn't change file dates
+* Goto > Special folders > Compatibility files (vista or later) jumps to the folder containing any "compatibility files" in the current folder (written by legacy applications without sufficient access rights)
+* View > Tile horizontally easy access command to switch dual panes from left-right to top-bottom
+* [P] Edit > Paste (Ctrl+V) in scrap windows and the mini-scrap accepts file paths (text from clipboard) to import items. Separate multiple items in separate lines
+* [P] Edit > Copy columns includes group header titles, if any (if you are showing in groups from Arrange by menu)
+* [P] Customize > User commands > Add current menu command adds a tool based on the selected EXEcutable item in the active folder
+* advanced settings editor (Tools menu) can now edit lists like File Types (see Global property page). Clear a checkbox to "delete" an entry, click "Add new" to add a new one
+* Tools > Options > Advanced page has a button to cancel xplorer² replacing windows explorer (so that you don't need to uninstall xplorer²)
+* [P] Help > About shows installation date and licence key date under the reference number
+* Goto > Special folders includes links to My pictures and My music folders
+* Actions > Split file dialog includes a standard size for RapidShare uploads (100MB)
+* New tips: 2a, 49a, 56a, 74c, 81a, 102a, 166
+* Tab context menu includes a "Move across" command which sends the tab to the other (inactive) pane
+* external registry settings editor offers to close xplorer² if found running
+* installer asks if you want separate window/layout (NOT recommended!) when xplorer² replaces windows explorer
+* [P] file copy overwrite confirmation dialog shows item icon and information about the new item (bigger/smaller, newer/older)
+* windows 7 libraries are enumerated just like in windows explorer
+* registry option nMaxTButWidth sets the maximum width for text-enabled toolbar buttons
+* [P] robust copy <F5> option to overwrite existing folders at destination; this means that if you copy a folder and its target already exists, it will be deleted first then the source folder will go on top, effectively removing all old items at the destination. Overwrite confirmations will follow whatever policy you have for files (Existing objects overwrite section)
+* [P] Bookmarks and user commands on toolbars are valid drop targets (e.g. drag-drop a file on a bookmark to copy/move a file in the bookmarked folder)
+* sticky selection now works in Vista/win7 too
+* Actions > Split file shows estimated file pieces and Merge files restores the original modification date
+* Use drag-drop to rearrange folder tabs
+* Help > How do I? menu command opens pane with on-board tutorials for common file management tasks (requires internet connection)
+* Tools > Options > Advanced "Quick view docked to the right" means to the right of window, not tree
+* right-click on folder tree background to select sorting by date or name menu commands
+* Help > Tell a friend menu command for those who like xplorer² enough to recommend it to their pals :)
+* Mark > Sync wizard can now check file metadata (column). Unless the column is a date, the comparison is in the sense identical/different, similar to comparison by Name only
+* [P] Tools > Check duplicates can also check for any file metadata (e.g. find pictures that have the same "date picture taken")
+* [P] Autofilter categories can be used as components in comma-separated wildcards e.g. -{documents},-{source code}. They are valid in the addressbar too.
+* Tools > Advanced options launches the GUI registry settings editor (and quits xplorer²)
+* Help > Crash information locates the crash minidump file (if there were any recorded program crashes). You can then drag-drop it to an email and send it as attachment to xplorer² customer support.
+* [P] Customize > Color coding now supports checkboxes so that you can turn individual color filters on/off. Right click to tick/untick all checkboxes
+* Edit > Paste commands also accept images and text from clipboard; they create picture or text files from clipboard content, respectively, called x2scrap.*
+* Actions > Change attributes includes a checkbox to change the security of selected items so that everyone is granted full read/write access. WARNING: this totally whacks all prior security information!
+* [P] special paste commands Multi Paste and Sync-o-paste offer to suppress any overwrite confirmation dialogs (XP or later)
+* [P] Edit > Copy to dialog, the queue option is now a persistent tickbox called "Use queue"
+* Script wizard dialog box is resizable like mass rename wizard
+* FTP folder file dates are properly DST and timezone adjusted and refreshed... not sure if that's any good though :(
+* Every 3 months xplorer² will prompt you to check if there are program updates to download
+* File > Mass rename command doesn't stop if errors are experienced, renames as many items as possible
+* Tools > Options > Advanced has tickbox for automatically resizing the Name column in detailed view mode
+* [P] All permanent delete/trash <Shift+Del> commands go through the new robust delete dialog that continues after errors, has silent mode etc. All delete operations are queued and executed sequentially
+* [P] registry tweak GAOPT_NOROBUSTDEL(=1048576) disable robust delete, all deletions through explorer
+* Help > Command finder locates menu commands using a keyword, if it matches the menu command's text or its description
+* [P] Mark > Quick search understands global saved hyperfilters e.g. :{earlier_saved_filter} such as you saved e.g. in Find Files dialog (predefined)
+
+
+[1.7.2.7] 28 June 09 ----------------
+
+* registry setting GAOPT_ECONOMYNETWD(=524288) disables network drive icon extraction, combating the slow startup of some Vistas
+* added trialpay option for xplorer² lite (get xplorer² as a free gift, see http://zabkat.com/x2-trialpay.htm)
+
+
+[1.7.2.5] 3 June 09 ----------------
+
+* windows 7 compatibility
+* Help > Check for updates online more user friendly
+
+
+[1.7.2.4] 17 April 09 ----------------
+
+* small but important bugfix for search text in files affecting non-english locales
+* greek translation (finally!)
+
+
+[1.7.2.3] 26 February 09 ----------------
+
+* added UndoFolderAssociation.REG file in the installation folder for people that want to undo folder association to xplorer² without uninstalling the program. See this page for more information: http://zabkat.com/blog/11Jan09-default-folder-association.htm
+
+
+[1.7.2.2] 6 January 09 ----------------
+
+* find blacklist now supports wildcards, e.g. add "*.svn" under registry key HKEY_CURRENT_USER\Software\ZabaraKatranemia Plc\xplorer2_UC.global\Find Blacklist to exclude all folders with .svn in their name from <ctrl+F> searches. Separate multiple exclusion filters by commas.
+
+
+[1.7.2.1] 13 December 08 ----------------
+
+* registry setting DPF_NOMENU=262144 hide main window menu bar. Issue commands through toolbars or keyboard shortcuts
+
+
+[1.7.2.0] 23 November 08 ----------------
+
+* [P] improved color coding performance (Customize menu) in large folders
+* Added 48x48 program icon
+* "Don't lock browsed folder" advanced option now allows easier folder deletion
+* Full manual and help updated
+* registry option FTCOPT_OPENSUBFOLDERS=64 (for binTreeOptions) tree expands branch of active node when synchronizing with the active folder
+* user commands and those from the addressbar can be applied to ALL selected items if you use a double prompt e.g. >> or $$. Single prompt characters will apply the command only to the focused item as usual.
+* installer asks you (via a checkbox in Additional Tasks page) whether to associate xplorer² with folders so it will open when you click on folders on your desktop etc. This does not include virtual folders like "recycle bin", "my computer" etc.
+* [P] Global registry option nCustMenuIcons how many bookmarks, user commands etc that can be placed on toolbars (5-100)
+* Settings editor modified to accept plain numbers as well as slider bar control
+* [P] xplorer² registration information shared so you can have both 32/64 bit running on the same PC. The program settings are shared too.
+* Mass rename wizard dialog made X-resizable
+* editor² v2.9 with x64 compatibility and some bug fixes
+* [P] 64 bit compatibility; to download the separate 64 bit version see http://zabkat.com/x2-64bit.htm
+* registry option GAOPT_NOMINIDUMP=16384 don't install crash handler and no minidump generated
+	otherwise in case of program crash %TEMP%\x2minidump.mdmp is written in the temp folder to aid remote debugging
+* registry option DPF_NOMIDDLECLOSE=131072 middle/double click won't close tabs
+* registry option GAOPT_NOCASCADEFRW=32768 don't open new frame windows cascaded (displaced bottom/right)
+* [P] registry option GAOPT_IGNOREADSERR=65536, robust copy operations won't complain for file stream loss — use at own risk!
+* registry option FTCOPT_SORTBYDATE=32 (for binTreeOptions) sorts tree nodes by date modified
+* mass renamer removes illegal characters from filenames (e.g. those introduced by ID3 tags) for _underscores
+* added environmental variable X2DIR=xplorer2 executable folder, useful for portable runs. You can set tool paths relative to xplorer2 and use them in custom user commands, e.g. %X2DIR%..\yourTool.exe $n (note backslash included)
+* Actions > Export settings now writes instructions in REG file to remove old registry information first
+* Going up folder (Goto > Up a level) always selects the folder you came out of
+* /N command line switch makes xplorer² not read network and other slow folders on startup, in case they are unavailable
+* middle mouse button toggles the selection status of the item under cursor, good for vista where sticky selection doesn't work. If you don't have middle mouse button just press left & right simultaneously or click the scrollwheel
+* registry field nCodePage (under main key) adds custom code page in various text file encoding drop-down lists, e.g. a value of 1253 will add Greek codepage and you can search for greek text in plain text files easier.
+* Documents without image preview get a large icon in thumbnail view, like windows explorer does it
+* various bugfixes
+
+
+[1.7.1.1] 29 February 08 ----------------
+
+* new tip 5a advertising the skins available for download: http://zabkat.com/x2skin.htm
+* addressbar can parse webfolder http:// addresses
+* polish and bulgarian translations updated
+
+
+[1.7.1.0] 14 February 08 ----------------
+
+* right click "<<" symbol in pane titlebars to breadcrumb "My computer" (access root drives)
+	left click takes you to My Computer
+* ctrl+F2 allows to rename files and folders starting with a . (dot) eg .svn
+* registry option rgbActiveBgcol (if defined) also provides background color for tree pane
+* global registry option GAOPT_COLCALWAYS=8192 filename color coding applied on inactive views too
+* mirror scrolling tries to keep the two views alinged (if they have same pane style), even with scrollbars
+* registry key binFileOpFlags controls confirmations for file operations initiated by drag-drop or Paste
+	this is a boon for commands like Sync-o-Paste and MultiPaste
+	NOTE: requires windows XP or later
+* Goto | Drop target browse the folder that accepted the last drag-drop operation
+	next best thing for "undoing" accidental drops, especially when moving items on the same partition
+* [P] registry option nCopyThrottleMS optionally introduces a delay (milliseconds) in robust transfers so that your system resources aren't drained (but copy speed drops!)
+* Middle mouse button over a folder pane opens new tab; if on a tab it closes said tab
+* [P] Actions > Folder settings > Save includes custom grouping information (Arrange By > Show in groups) IFF the group is a named (saved) one under Customize menu
+* webfolder/webdav access a bit more bearable (albeit at the expense of date/time information)
+	For best results access these folders from a shortcut NOT under "my network places" (http:// path in the addressbar)
+* [P] color coding includes "italic" font style (note: either bold or italic, not both!)
+* Command in Help menu allows turning the GUI translation (if any) from english <-> local language
+* [P] pushpin button in quick previewer tab strip for more convenient access to View | Lock viewer command
+* toolbar skins supported; just drop a bitmap file called x2skin.bmp in the installation folder (x2skinBW.bmp for disabled icons)
+	If you want to redesign buttons on your own you need this http://zabkat.com/skinz.zip (includes instructions)
+	At present only 16x16 pixel buttons are supported
+	Here's a list of available skins: http://zabkat.com/x2skin.htm
+* support for showing headers in all view modes, convenient for sorting UI (vista only)
+	(checkbox available in Tools | Options | Advanced)
+* registry setting nRefreshTimeoutMS controls how long panels delay till they refresh themselves after receiving a filesystem change notification
+* Additional checks and improvements for Windows Vista compatibility
+* editor² v2.8 improvements:
+	Edit > (Un)Comment to (un)comment out a selected block with adjustable comment lead string
+	Warning issued when attempting to load a large binary file
+	Partially aware of changes (saved) in the active document made outside editor²
+	TopMost command in system (corner) menu to pin it above other windows
+	keyboard-only command <alt+pageUp> scrolls current line to the top of the window
+* [P] various Organize dialogs (bookmarks, folder groups etc) allow selection of custom icon for menus and toolbars
+	defaults for bookmarks and user commands available; icons can be in DLLs or ICO files
+* [P] Tools | Folder statistics loads in a separate thread so you can continue using the main window while it is gathering folder data
+* support for Vista's symbolic links (Edit | Paste special menu), a cross between hard links and shortcuts
+	IMPORTANT: UAC blocks this command so you have to Run As administrator!
+* Goto | Find target command and "Shortcut to" column are aware of junctions and symbolic links
+* registry flag GAOPT_FOLLOWJUNCTIONS=4096 to treat junctions as normal folders for search, flatten etc
+* various bugs fixed
+* registry setting DPF_SHOW1TAB=65536 forces tab strip visibility even when only one tab is available
+* global registry string "szAltBrowser" can contain path for browser executable other than the default internet explorer
+* [P] robust transfer will not jump the queue if there's already an active copy operation
+	also more details are available for queued operations (Edit | Queue status)
+* [P] improved loading speed for CIDA files; keyboard ESCapable too!
+* GUI registry settings editor updated for all new registry settings above
+
+
+[1.7.0.3] 23 June 07 ----------------
+
+* full help file updated for v1.7
+* registry option GAOPT_NOVISTAGLASS=1024, disable fancy selection bars etc in vista, make it look like XP
+* registry option GAOPT_VISTADDICONES=2048 show images while drag drop (default=OFF since it crashes some vistas)
+* registry option DPF_XPTABHILITE=32768 gives active tab an orange tinge like in XP
+* "New" shell context menu within folder background menu now works
+* <ctrl+C> in all "Organize" dialogs (bookmarks etc) copies the full text in the clipboard (copy button too)
+* command line option /I:settings.REG forces xplorer2 to use alternative settings file (portability)
+	best to place the REG file in the same folder as the executable
+* command line option /W allows writing to registry even in portable mode
+* registry setting DPF_CASCADECRUMBS=16384 puts all folder hierarchy in breadcrumbs in cascading submenus
+	(sadly it only works with the mouse)
+* right click on a subpath in each pane's titlebar to see a menu of its subfolders (breadcrumb-esque)
+	to access the old "recent folder history" hold down <ctrl> while right-clicking (or use <alt+F2>)
+* improved sorting speed for explorer (non-stock) columns
+* registry option DPF_MINIMIZE2TRAY=8192 forces main window to minimize to tray (only if a single instance is present)
+* <F8> creates new folder even if tree has the focus (under hilighted node)
+* [P] scrap shell context menu works for all selections, even those with multiple folders involved
+* [P] registry option GAOPT_THREADEDPDF=512, enables pdf text background thread extraction (requires Adobe Reader 7+)
+* x2SettingsEditor.exe now part of the distribution, no more registry hacking for xplorer2 advanced options
+	(you will find this in the program's installation folder c:\program files\zabkat\xplorer2)
+* registry option GIOPT_PROTECT1SEL=65536 if you want to protect single item "selections" under Eat first click policy
+* [P] quick previewer now shows items from mini-scrap
+* [P] mini scrap is a valid source of command scripts
+* All "log" windows (including Keyboard Use) have Find command in context menu to search for text (or <ctrl+F>)
+* Each pane has folder icon on its titlebar; right click on it to access folder background menu
+* New tips: 1b, 6a, 9e, 26a, 33a, 61a, 62, 74b, 98b, 157a
+* fixed multimonitor window positioning quirks (?)
+* "shortcut to" column also shows target of internet shortcuts (.URL)
+* editor2 upgraded to v2.7 featuring better visuals as well as:
+	/M command line switch similar to xplorer2 (ensure window will not open minimized)
+	when file is modified a [*] sign appears on the titlebar
+	various small bugs fixed
+* quickviewer (text preview) hilights and executes URLs with your internet browser
+* Actions | ADS | Split streams menu command extracts secondary streams in separate files
+* in thumbnail view, left-right arrows will (mostly) scroll as expected when at the end of line
+* Mouse-friendly "GO" button to the right of addressbar
+* registry option GIOPT_ADDRBARENDOK=8192 allows addressbar to activate as you select an item from history list (ENTER not required)
+* keyboard-only command ctrl+Y repeats the last menu command executed (extra arguments may be required)
+* added friendly date category "last hour" for recently modified files (and group)
+* Mark | Selection | Show brings as many of the selected items in view as possible (also used for "scroll to top")
+* registry option GIOPT_DIREXTENSIONS=16384 enables filename "extensions" for folders (past the dot)
+* [P] when in Quicksearch, press <shift+enter> in the addressbar to show only the matching files (filter visibility)
+* new split dialog preset category for DVDs (just how big are your files? :)
+* [P] stream loss warning during robust copy can be supressed for the remaining files clicking "Yes to All"
+* [P] Customize | Keyboard menu allows modifying the keyboard shortcuts for most xplorer2 commands.
+* [P] Customize | "Keyboard use" updated to show all keyboard assignments to commands
+* more fine tuning for windows vista
+* When "Don't lock browsed folder" advanced setting is checked, current directory is set prior to command/script execution to active folder
+* Actions | Set comment allows multiline comments (will look a bit weird in the single-line column!)
+* Tab-strip right click menu has command to save all paths in a comma separated list (try pasting in a scrap :)
+
+
+[1.6.5.2] 1 December 06 ----------------
+
+* full manual available for downloading
+* fixed large icon (48x48) bug with custom drive icons
+* registry option GAOPT_NOCUSTOMICONS (==256) stops extracting custom drive icons (for non-standard >32x32 icon sizes)
+
+
+[1.6.5.0] 9 November 06 ----------------
+
+* /M command line option forces xplorer2 window to open (i.e. not be minimized) when the program starts
+* new "D" attribute for directories useful for folder detection in hyperfilters
+* addressbar understands bookmark names for browsing folders; use up/down arrow for autocompletion
+* Ctrl+Alt+F10 repeats last shell context menu command on selection (keyboard only command), makes sense only for similar selections!
+* fixed drawing bug with XP gridlines
+* tips & tricks dialog is modeless, allowing you to test its recommendations while it's being shown
+* toolbar context menu has option to "Lock toolbars"
+* [P] custom groups are automatically reinstated on startup, IF last group was in the saved list (Customize menu)
+* [P] fuzzy filename matching with % tolerance in search etc dialogs: 100% exact match, 90% fuzzier, etc
+* [P] generic document categories (images, music, text etc) can be used as filename filters, autofilters etc. You can amend the extension list under global registry key "File types" to taste
+* [P] View | Pane style | Mini thumbs for 2nd (smaller by default) thumbnail size
+* registry variable "nThumbMini100" controls how much % smaller (or larger) is mini-thumb from normal thumbnail
+* registry variable GIOPT_PACKEDTHUMBS=536870912 for tight vertical bunching of thumbnails
+* [P] Mark | Quicksearch will mark files that contain the text in _any_ column, even dates etc
+* [P] File | Clear removes all contents from scrap panes (also available from mini-scrap context menu)
+* Help | What's new? command offers access to "changes.txt" in the installation folder
+* improved windows vista compatibility
+* [P] when showing in groups, shift+column click on the major column will do a secondary sort on it within the group
+* registry setting GAOPT_TREENONETENUM=128 causes the tree not to exhaustively enumerate all network contents (computer names) during <alt+T>. Manual expansion still enumerates everything though.
+* [P] right-drag a folder to a scrap and there will be a context menu option to flatten it for subfolders (instead of the usual files)
+* new tips: 1a, 12b, 63a, 71a, 98a, 124a, 124b, 134a, 144a, 144b
+* [P] View | Mini scrap, enjoy all (most) amenities of a scrap container in the main window
+	<Ctrl+Alt+TAB> to jump into it from a view; load/save contents with context menu
+	mini scrap automatically saves its contents when you close it (that's controlled through CLVOPT_AUTOSAVESCRAP registry option)
+	context menu contains command "save as" to change CIDA filenames on the fly
+	<ctrl+S> from a normal pane sends items to mini-scrap IFF there's no other scrap window open (registry GIOPT_NOKEYSENDMS to disable this)
+* editor2 now understands code pages (/C:nnn command line option & View menu)
+* more extensive use of keyboard application buttons 
+* advanced option to close old window after cloning a new layout (different registry key)
+* some obscure GIOPT_xxx constants moved to a different registry key (see registry.txt)
+* [P] Tools | Check duplicates now behaves as "check for duplicates under this folder"
+* [P] Group view now supports Name as a column, doing A-Z grouping of file names
+
+
+[1.6.0.1] 25 June 06 ----------------
+
+* registry option DPF_X2TITLETRAIL forces xplorer2 to appear last in titlebar
+	(see registry.txt; if set you lose dirkey compatibility)
+
+
+[1.6.0.0] 5 June 06 ----------------
+
+* Alt+Shift+GRAY_+ select all files with basenames same as the one in focus
+	(GRAY_- to unselect)
+* New tips (see x2tips.txt in installation folder): 75a, 152c, 155a, 160a
+* [P] View | Raw contents can be used for filesystem folders too
+* [P] Folder groups now save any fixed tab names too
+* [P] Customize | Color coding sets up text attributes for certain file types (hyperfilters)
+* registry option GIOPT_QSNOFCONTENT (=268435456) stops quicksearch looking in file contents
+	(only scan text in columns/details shown)
+* [P] Robust transfer options can be saved & restored for common scenarios
+* Improved icon overlay extraction for TortoiseCVS etc
+* View | Lock viewer freezes quickview to whatever item it is currently showing
+* [P] View | Arrange by | Custom groups to organize a pane's content using your own hyperfilters (winXP)
+* [P] Customize | Custom groups submenu to manage such custom categories
+* registry option nThumbSpacing for tighter icon spacing in thumbnail view mode (recommended: 3 pixels)
+* Edit | Duplicate now allows you to rename the new item (if single)
+* dragging/opening from a single folder respects the visible item order
+* filter, group and other view changes preserve the old selection status
+* Help | Licence agreement shows the small print associated with program usage
+* Edit | Paste special new submenu to handle NTFS folder junctions
+* Goto | Find target now traces junction targets as well as regular shortcuts
+* Generic text input dialog is now resizable
+
+
+[1.5.0.1] 02 March 2006 -------
+
+* full manual published
+* registry option GIOPT_NODIRTHUMBS=134217728 stops extracting folder thumbnails in XP
+
+
+[1.5.0.0] 06 February 2006 -------
+
+* registry option szNewFileExt provides extension for NewFile (F7) command
+	e.g. set it to txt to create text files
+* [P] date rules in hyperfilters now can count in years too
+* [P] Ctrl+Alt+Up/Down goto next/previous group
+* updated quickstart guide & new tips: 19a, 27a, 47a, 108a, 152b, 159a
+* [P] Mark | Quicksearch marks items searching for text in _any_ text column shown & in file contents
+	(you can also type the wanted phrase in the addressbar using ':' as a prompt)
+* [P] Show in groups (Arrange by menu), requires winXP
+	secondary in-group sorting by shift-clicking on column header
+* Ctrl+Shift+Up/Down move focused item up/down in the listing (override sort order)
+* Mark | Total size, marks items summing up to "Total size" for subsequent copy (approximate)
+* Ctrl+Alt+Shift+Grey+ select current group (- to unselect)
+* [P] robust copy with hyper filters (only for filesystem source+targets)
+	Filter in F5 dialog can be just a wildcard you type, e.g. "*.cpp,*.h"
+* [P] new transfer options for robust copy: clear "A" source attribute and copy only existing files
+* [P] 20 icons in bookmarks and customize menu (more items can go on toolbars)
+* [P] paste special | Multi paste drops same copy on all selected folders (always copy, not move!)
+* Ctrl+Alt+C copies selected paths as a comma separated list (useful for searching in multiple folders)
+* Advanced option for user-friendly date columns (today/yesterday/...)
+* [P] stock column for shortcut target path
+* size on disk column now shows ADS (streams) size too
+* folder thumbnails shown properly (winXP)
+* added UNC path $U token for network-wide file access
+* ctrl+alt+P copies only active column (main sort)
+* status bar pane for item index
+* statusbar tooltips
+* registry option GIOPT_NOCOLCACHE(=16777216) don't cache column information (for CVS users)
+* registry option GIOPT_RENFULLNAME(=33554432) F2 selects all filename, including the extension
+* [P] folder context menu (right click "nowhere") contains explorer commands too
+* [P] scrap optionally saves CIDA file with UNC names for PC-independent access (use Save as type in SaveAs)
+* [P] recent file list in scrap windows (CIDA files accessed) Actions menu
+* Brazilian translation
+
+
+[1.4.0.1] 20 October 2005 -------
+
+* "extension" in folder names is now ignored when sorting by type
+* indonesian translation
+
+
+[1.4.0.0] 12 October 2005 -------
+
+* ctrl+E toggles equal/maximal panes
+* Ctrl+U swaps all tabs; Ctrl+O will keep the second view folders if that's active
+* new tips: 12a, 82a, 99a (see x2tips.rtf in installation folder)
+* left/rightFolder command line arguments can also be the name of a saved folder group
+	(Customize menu) to set on startup
+* more options in Advanced page (previously available through registry editing)
+* drivebar (view | toolbars)
+* copy queue (F5/F6 dialogs and Edit | Queue status)
+* alt+enter gives preference to item properties whenever possible
+* search text in files with regular expressions (grep/filters/file search)
+	for syntax see http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vclib/html/vclrfcatlregexp.asp
+* multi-way sort (shift+click column header)
+* added a couple of file version stock columns for win98
+* topmost toggle in system menu pins any x2 window above other windows
+* GIOPT_NOLEFTDND=4194304 to disable left drag-drop (see registry.txt)
+* GIOPT_SHELLAUTOCOMP=8388608 autocomplete path fields explorer style, not with F1
+	(available from advanced options)
+* tooltips for infobars
+* a few bugfixes
+* a few translations NOT updated (chinese)
+
+
+[1.3.0.0] 6 June 2005 -------
+
+* Last active complex visual filter (Alt+H) saved and is available on restart with Ctrl+J
+* registry setting "nHoverTimeoutMS" controls delay before hover auto-expansion
+	of tabs or tree nodes during dragging. In millisecons (1sec == 1000ms)
+* new stock column: Streams counts files' ADS (see tip #165)
+* Most customized icons are now read properly
+* New tips: 9d, 88a, 88b, 93a, 152a, 156a, 162-164, 165
+* File | Browse can open multiple selected items (asks confirmation)
+* right click to rename a tab (semi-permanent)
+* View | Visual filter | Auto-filter filters one particular file type
+	out of those available in the folder
+* % progress display for robust copy & resizable dialog
+* fixed bug with MP3 comments
+* settings saved properly during windows shutdown
+* Raw "encoding" for file text search (FindFiles command too) to search file
+	raw bytes without interpreting text content in any way (e.g. BOMs or text
+	filters are ignored). Makes all searches binary & case sensitive.
+* Text encoding settings available in find files dialog
+* possible to change folder time/date with Actions | change attributes (not for 98)
+* Tools | compare subfolders automates the tedium of creating dual-pane flat
+	scrap windows for comparison/synchronization of folder hierarchies.
+* <ctrl+F9> Sync wizard: "Loose name matching" option matches items by name
+	ignoring their relative position in the folder hierarchy. Useful for dual
+	scrap windows, but note you can't sync-o-paste the results of such a comparison
+* "scenario" combo box in Ctrl+F9 dialog offers easy access to typical
+	synchronization scenaria
+* quickviewer gets extra tab "Normal" showing the exact preview of the focused item
+	(ActiveX) for word, excel etc documents. "Draft" preview is the traditional
+	quick mode for text, graphics and media. You can even edit word documents(!)
+	<Alt+Q> to switch between normal/draft modes
+* registry option "rgbActiveBgcol" to set background color of active folder
+* "rgbFilterBgcol" registry option changes bg color when a visual filter is 
+	active, hiding some of the items in a folder pane
+* new media-related stock columns for detailed view (most for windows XP only)
+* all filesystem columns available for selection in scrap windows
+	(may cause confusion if any non filesystem items are present)
+* "autosize columns" added to the context menu of infobars
+* new translations: Swedish, Hungarian and Chinese simplified
+
+
+[1.2.0.1] 30 March 2005 -------
+* batch files get CMD extension if running under NT
+* spanish translation
+
+
+[1.2.0.0] 12 March 2005 -------
+(sadly we lost some translations since some translators didn't respond to my call)
+
+* PDF, office document etc searching & previewing via IFilter (win2000 and later)
+	now quick preview shows text (unformatted) and you can also search within such
+	"binary" files for contained text. For PDFs you need this add-on:
+	http://www.adobe.com/support/salesdocs/1004717.html
+	Additional filters from: http://www.ifilter.org/Links.htm
+* editor2 [2.6.0.6] copies only text in clipboard
+* Actions | ADS | (un)bundle: pack all selected files' streams for transport.
+	This helps preserve file comments and other ADS when you copy on floppy disks etc
+	Unbundling command is for extracting all the original streams (for NTFS partitions)
+* Actions | ADS | view streams: inspect alternate streams e.g. comments
+	(mainly for the curious, no real utility :)
+* help button [?] for dialogs sends to bitesize help
+* new stock column: contents: # of subitems (useful for locating empty folders)
+* sorted out webfolders a little, still suck compared to ftp
+* "bSingleWindow" registry option for single instance/window operation (see registry.txt)
+* Tools | Options | Advanced option to calculate subfolder sizes automatically
+	(subfolder size _not_ automatically calculated for root or network drives)
+* enabled column selection in virtual folders
+* new file attributes: O-offline files, J-junctions/reparse points
+* new advanced property page in Tools | Options
+* new command tokens: ${column_name} is substituted with the contents of column_name
+	for each selected item (useful for batch files or/and mass renaming)
+	$? command/script token asks for user input
+* Actions | Export settings to save registry key info to a file
+	You can import the .REG file on another computer to have the same settings there.
+* copy option: rename target instead of overwriting
+	another one to calculate the size upfront and warn about free space
+* when doing folder groups, extra tabs are closed
+* double-click on a tab to close it, on some empty space to get a new tab
+* ctrl+alt+ins opens tab in inactive pane
+* view | toolbars | info bars, customizable status bar for each pane
+	(right-click to select columns)
+* Easier access to duplicates finder from main window (Tools | Check duplicates)
+* new advanced option for custom icon overlays (e.g Tortoise CVS)
+* free space status bar pane also shows percent free
+* tree now shows zipfolders if forced with Alt+T
+
+
+[1.1.0.3] 27 December 2004 -------
+* folder icons in tabs
+* <ctrl+alt+GreyPlus> select items with same extension as focus (see tip #155)
+* bXPNumberSort (see registry.txt) allows "friendly" numeric sorting of filenames
+* <alt+enter> in scrap windows flattens all selected folders (see tip #156)
+* fixed the odd bug
+* new language: chinese
+
+
+[1.1.0.2] 23 November 2004 -------
+* small bugfix
+* new languages added: french & japanese
+
+
+[1.1.0.0] 3 November 2004 -------
+* folder tabs (File | New tab) allowing many folders for each pane; use Window menu to close tabs
+* saving tabs (Customize | Folder groups)
+* robust copy operations with additional options for overwrite confirmations and
+	error handling (see Edit | Copy to dialog)
+* registry tweak: GIOPT_ROBUSTPASTE(=131072) to decide if Edit | Paste goes robust (default=explorer paste)
+* Edit | Duplicate (creates "copy of" file)
+* /T commandline option NOT to restore tabs
+* tabs move left/right with context menu
+* tabbed folders included as targets in F5 copy dialog
+* Actions | Folder settings | Suspend temporarily custom folder settings
+* File | Trash (toolbar button only): delete permanently (like shift+delete)
+* More translations
+
+
+[1.0.0.3] 8 August 2004 -------
+* fixed bug with WMP9 locking x2's process after exit
+* registry tweaks for various 2x-friendly titlebar settings (see registry.txt)
+
+
+[1.0.0.2] 12 July 2004 -------
+* GUI translated to various languages (external resource DLLs)
+	(actually just German for the moment, a few others under way)
+* console2 now properly handles unix (LF) text output
+* tree/quick viewer can be tiled vertically: see nTreeQVTileVertical in registry.txt
+* keyboard shortcuts for toolbar buttons in Find and Organize dialogs
+* flyby text showing the path for back/forward navigation and quick-bookmark
+* View | Visual Filter | Rule based (hyperfiltering for visibility)
+	"Same filter" forces the active pane filter to the inactive pane
+* Actions | Import clipboard for scrap windows: insert items from text paths in 
+  clipboard; one FULL path per line, no quotes or comma separators
+  Useful for importing from other apps like PIMs
+* sorted out UTF-8 bugs in editor2
+
+
+[1.0.0.1] 21 June 2004 -------
+* faster reading for large FAT32 folders
+* Tools | Options | Window: new options for setting the background color of the
+  inactive browser panel and checkbox for track (hover) select view mode
+* status bar panel to show free disk space; refresh rate controlled via
+  "msFreeSpaceUpdateInterval"; set to 0 to disable the feature (see registry.txt)
+* quickview szAudioExtList/szVideoExtList moved to xplorer2.global registry key
+* full manual now available for downloading
+
+
+[1.0.0.0] 10 June 2004: Initial release

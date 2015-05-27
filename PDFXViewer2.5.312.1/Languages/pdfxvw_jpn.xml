@@ -1,0 +1,3131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+	<Product id="PXCView" version="1.0" productVersion="2.5.0201.0000" order""/>
+	<language eName="Japanese" lName="日本語" lcid="0x0411" prefFont=""/>
+	<commands>
+		<item id="32316" title="戻る" tooltip="戻る" status="" short=""/>
+		<item id="32317" title="進む" tooltip="進む" status="" short=""/>
+		<item id="32609" title="拡大鏡ツール(&amp;L)" tooltip="拡大鏡ツールです" status="拡大鏡ツール" short=""/>
+		<item id="32610" title="拡大ツール(&amp;I)" tooltip="拡大ツールです" status="拡大ツール" short="拡大"/>
+		<item id="32611" title="縮小ツール(&amp;O)" tooltip="縮小ツールです" status="縮小ツール" short="縮小"/>
+		<item id="32613" title="ハンド ツール(&amp;H)" tooltip="ハンド ツールです" status="ハンド ツール" short=""/>
+		<item id="32614" title="スナップショット ツール(&amp;S)" tooltip="スナップショット ツールです" status="スナップショット ツール" short=""/>
+		<item id="32620" title="選択ツール(&amp;L)" tooltip="テキスト/オブジェクトの選択ツールです" status="テキスト/オブジェクトの選択ツール" short=""/>
+		<item id="32884" title="移動(&amp;G)" tooltip="" status="" short=""/>
+		<item id="32885" title="最初のページ(&amp;F)" tooltip="最初のページへ移動します" status="最初のページへ移動します" short=""/>
+		<item id="32886" title="前のページ(&amp;P)" tooltip="前のページへ移動します" status="前のページへ移動します" short=""/>
+		<item id="32887" title="次のページ(&amp;N)" tooltip="次のページへ移動します" status="次のページへ移動します" short=""/>
+		<item id="32888" title="最後のページ(&amp;L)" tooltip="最後のページへ移動します" status="最後のページへ移動します" short=""/>
+		<item id="32889" title="ページ指定(&amp;G)..." tooltip="" status="" short=""/>
+		<item id="32890" title="前の表示" tooltip="前の表示へ移動します" status="" short=""/>
+		<item id="32891" title="次の表示" tooltip="次の表示へ移動します" status="" short=""/>
+		<item id="32892" title="前のドキュメント" tooltip="" status="" short=""/>
+		<item id="32893" title="次のドキュメント" tooltip="" status="" short=""/>
+		<item id="32895" title="単一のページ(&amp;S)" tooltip="単一のページ表示にします" status="" short=""/>
+		<item id="32896" title="連続(&amp;C)" tooltip="連続表示にします" status="" short=""/>
+		<item id="32897" title="見開き(&amp;F)" tooltip="見開き表示にします" status="" short=""/>
+		<item id="32898" title="連続 - 見開き(&amp;O)" tooltip="連続 - 見開き表示にします" status="" short=""/>
+		<item id="32899" title="ズーム..." tooltip="アクティブなドキュメントの拡大率を選択します" status="アクティブなドキュメントの拡大率を選択します" short=""/>
+		<item id="32900" title="実際のサイズ(&amp;A)" tooltip="実際のページ サイズ (100%) を表示します" status="実際のページ サイズ (100%) を表示します" short=""/>
+		<item id="32901" title="ページに合わせる(&amp;P)" tooltip="現在の表示にページを合わせます" status="現在の表示にページを合わせます" short=""/>
+		<item id="32902" title="幅に合わせる" tooltip="現在の表示にページの幅を合わせます" status="現在の表示にページの幅を合わせます" short=""/>
+		<item id="32903" title="表示に合わせる(&amp;V)" tooltip="表示中のコンテンツにページを合わせます" status="表示中のコンテンツにページを合わせます" short=""/>
+		<item id="32904" title="拡大" tooltip="拡大します" status="拡大" short=""/>
+		<item id="32905" title="縮小" tooltip="縮小します" status="縮小" short=""/>
+		<item id="32906" title="環境設定(&amp;N)..." tooltip="アプリケーションの環境設定を表示します..." status="アプリケーションの環境設定を表示します..." short=""/>
+		<item id="32907" title="" tooltip="このドキュメントのページ数を表示します" status="" short=""/>
+		<item id="32908" title="ファイル ツール バー(&amp;F)" tooltip="ファイル ツール バーの表示/非表示を切り替えます" status="ファイル ツール バーの表示/非表示を切り替えます" short=""/>
+		<item id="32909" title="" tooltip="ページ" status="" short="ページ"/>
+		<item id="32910" title="ブックマーク(&amp;B)" tooltip="ブックマーク ペインの表示/非表示を切り替えます" status="ブックマーク ペインの表示/非表示を切り替えます" short=""/>
+		<item id="32912" title="ページ サムネイル(&amp;T)" tooltip="ページ サムネイル ペインの表示/非表示を切り替えます" status="ページ サムネイル ペインの表示/非表示を切り替えます" short=""/>
+		<item id="32924" title="標準ツール バー(&amp;S)" tooltip="標準ツール バーの表示/非表示を切り替えます" status="標準ツール バーの表示/非表示を切り替えます" short=""/>
+		<item id="32925" title="ズームツール バー(&amp;Z)" tooltip="ズームツール バーの表示/非表示を切り替えます" status="ズームツール バーの表示/非表示を切り替えます" short=""/>
+		<item id="32929" title="表示の回転ツール バー(&amp;R)" tooltip="表示の回転ツール バーの表示/非表示を切り替えます" status="表示の回転ツール バーの表示/非表示を切り替えます" short=""/>
+		<item id="32936" title="すべてのタブを表示" tooltip="すべてのタブを表示します" status="" short=""/>
+		<item id="32937" title="アクティブなタブを閉じる" tooltip="アクティブなタブを閉じます" status="" short=""/>
+		<item id="32938" title="すべてのタブ サムネイルを表示" tooltip="すべてのタブ サムネイルを表示します" status="" short=""/>
+		<item id="32940" title="ナビゲーション タブ(&amp;N)" tooltip="ナビゲーション タブの表示/非表示を切り替えます" status="ナビゲーション タブの表示/非表示を切り替えます" short=""/>
+		<item id="32942" title="すべてのドキュメントを閉じる(&amp;L)" tooltip="" status="" short=""/>
+		<item id="32944" title="エクスポート(&amp;R)" tooltip="" status="" short=""/>
+		<item id="32945" title="イメージへエクスポート..." tooltip="ページをイメージとしてエクスポートします..." status="ページをイメージとしてエクスポートします..." short=""/>
+		<item id="32946" title="ドキュメント名" tooltip="" status="" short=""/>
+		<item id="32947" title="ドキュメント番号" tooltip="" status="" short=""/>
+		<item id="32948" title="ドキュメントのタイトル" tooltip="" status="" short=""/>
+		<item id="32949" title="ページ番号" tooltip="" status="" short=""/>
+		<item id="32950" title="ページ" tooltip="" status="" short=""/>
+		<item id="32951" title="ページ" tooltip="" status="" short=""/>
+		<item id="32952" title="ファイル名" tooltip="" status="" short=""/>
+		<item id="32953" title="日付 (MM-DD-YYYY)" tooltip="" status="" short=""/>
+		<item id="32954" title="年" tooltip="" status="" short=""/>
+		<item id="32955" title="月" tooltip="" status="" short=""/>
+		<item id="32956" title="日" tooltip="" status="" short=""/>
+		<item id="32957" title="時間 (HH-MM-SS)" tooltip="" status="" short=""/>
+		<item id="32958" title="時" tooltip="" status="" short=""/>
+		<item id="32959" title="分" tooltip="" status="" short=""/>
+		<item id="32960" title="秒" tooltip="" status="" short=""/>
+		<item id="32961" title="自動採番" tooltip="" status="" short=""/>
+		<item id="32974" title="全検索の開始／終了" tooltip="全検索の開始／終了" status="" short=""/>
+		<item id="32975" title="全検索のオプション" tooltip="全検索のオプション" status="全検索のオプション" short="オプション"/>
+		<item id="32976" title="全検索を停止" tooltip="" status="" short=""/>
+		<item id="32977" title="全検索を開始" tooltip="" status="" short=""/>
+		<item id="32978" title="前の検索結果へ移動します" tooltip="前の検索結果へ移動します" status="前の検索結果へ移動します" short=""/>
+		<item id="32979" title="次の検索結果へ移動します" tooltip="次の検索結果へ移動します" status="次の検索結果へ移動します" short=""/>
+		<item id="32987" title="検索ペイン(&amp;S)" tooltip="詳細検索ペインの表示／非表示を切り替えます" status="詳細検索ペインの表示／非表示を切り替えます" short=""/>
+		<item id="32990" title="検索" tooltip="指定したテキストを検索します" status="" short="検索"/>
+		<item id="32991" title="前を検索" tooltip="前を検索します" status="前を検索します" short=""/>
+		<item id="32992" title="次を検索" tooltip="次を検索します" status="次を検索します" short=""/>
+		<item id="32993" title="検索のオプション" tooltip="検索のオプション" status="検索のオプション" short=""/>
+		<item id="32994" title="完全に一致する単語のみ" tooltip="完全に一致する単語のみ検索します" status="テキスト ボックスに入力した単語と完全に一致する単語のみ検索します" short=""/>
+		<item id="32995" title="大文字と小文字を区別" tooltip="大文字と小文字を区別して検索します" status="入力した大文字と小文字に一致する単語のみ検索します" short=""/>
+		<item id="32996" title="コメントを含める" tooltip="PDF に追加されたすべてのコメントのテキストを検索します" status="[コメント] パネルに表示されている、PDF に追加されているすべてのコメントのテキストを検索します" short=""/>
+		<item id="32997" title="ブックマークを含める" tooltip="すべてのブックマークのテキストを検索します" status="[ブックマーク] パネルに表示されている、すべてのブックマークのテキストを検索します" short=""/>
+		<item id="32998" title="選択テキストの検索" tooltip="選択テキストに対する検索ペインの表示/非表示を切り替えます" status="選択テキストに対する検索ペインの表示/非表示を切り替えます" short=""/>
+		<item id="33000" title="検索ツール バー(&amp;D)" tooltip="検索ツール バーの表示/非表示を切り替えます" status="検索ツール バーの表示/非表示を切り替えます" short=""/>
+		<item id="33003" title="ページのプロパティ..." tooltip="選択したページのプロパティを表示します" status="選択したページのプロパティを表示します" short="編集"/>
+		<item id="33006" title="レイヤ(&amp;L)" tooltip="レイヤ ペインの表示/非表示を切り替えます" status="レイヤ ペインの表示/非表示を切り替えます" short=""/>
+		<item id="33008" title="フィールド(&amp;I)" tooltip="フィールド ペインの表示/非表示を切り替えます" status="フィールド ペインの表示/非表示を切り替えます" short=""/>
+		<item id="33009" title="メニュー バー(&amp;M)" tooltip="メニュー バーの表示/非表示を切り替えます" status="メニュー バーの表示/非表示を切り替えます" short=""/>
+		<item id="33014" title="全画面表示(&amp;U)" tooltip="ウィンドウを全画面表示します" status="ウィンドウを全画面表示します" short=""/>
+		<item id="33015" title="すべてのバーの表示/非表示の切り替え" tooltip="すべてのバーの表示/非表示を切り替えます" status="すべてのバーの表示/非表示を切り替えます" short="すべてのバーの切り替え"/>
+		<item id="33016" title="すべてのツールバーの表示/非表示の切り替え" tooltip="すべてのツールバーの表示/非表示を切り替えます" status="すべてのツールバーの表示/非表示を切り替えます" short="すべてのツールバーの切り替え"/>
+		<item id="33018" title="フィールドをすべて強調表示" tooltip="このドキュメントはフォームを含みます; すべてのフォーム フィールドを強調表示するにはここをクリックします" status="このドキュメントはフォームを含みます; すべてのフォーム フィールドを強調表示するにはここをクリックします" short="フィールドの強調"/>
+		<item id="33020" title="全画面表示を終了(&amp;U)" tooltip="全画面表示から元の表示に戻します" status="全画面表示から元の表示に戻します" short=""/>
+		<item id="33032" title="センチメートル" tooltip="センチメートル" status="" short=""/>
+		<item id="33033" title="インチ" tooltip="インチ" status="" short=""/>
+		<item id="33034" title="ミリメートル" tooltip="ミリメートル" status="" short=""/>
+		<item id="33035" title="パイカ" tooltip="パイカ" status="" short=""/>
+		<item id="33036" title="ポイント" tooltip="ポイント" status="" short=""/>
+		<item id="33038" title="すべて閉じる" tooltip="すべての開かれているドキュメントを閉じます" status="すべての開かれているドキュメントを閉じます" short=""/>
+		<item id="33054" title="6400%" tooltip="" status="" short=""/>
+		<item id="33055" title="3200%" tooltip="" status="" short=""/>
+		<item id="33056" title="2400%" tooltip="" status="" short=""/>
+		<item id="33057" title="1200%" tooltip="" status="" short=""/>
+		<item id="33058" title="800%" tooltip="" status="" short=""/>
+		<item id="33059" title="400%" tooltip="" status="" short=""/>
+		<item id="33060" title="200%" tooltip="" status="" short=""/>
+		<item id="33061" title="150%" tooltip="" status="" short=""/>
+		<item id="33062" title="100%" tooltip="" status="" short=""/>
+		<item id="33063" title="75%" tooltip="" status="" short=""/>
+		<item id="33064" title="50%" tooltip="" status="" short=""/>
+		<item id="33065" title="25%" tooltip="" status="" short=""/>
+		<item id="33073" title="フォームからデータをエクスポート(&amp;X)..." tooltip="" status="" short=""/>
+		<item id="33074" title="フォームへデータをインポート(&amp;D)..." tooltip="" status="" short=""/>
+		<item id="33075" title="表示の回転(&amp;R)" tooltip="" status="" short=""/>
+		<item id="33078" title="時計回り(&amp;C)" tooltip="表示を時計回りに回転します" status="表示を時計回りに回転します" short=""/>
+		<item id="33079" title="反時計回り(&amp;W)" tooltip="表示を反時計回りに回転します" status="表示を反時計回りに回転します" short=""/>
+		<item id="33080" title="ページの回転(&amp;R)..." tooltip="" status="" short=""/>
+		<item id="33081" title="ページの削除(&amp;D)..." tooltip="" status="" short=""/>
+		<item id="33082" title="ページの切り抜き(&amp;C)..." tooltip="" status="" short=""/>
+		<item id="33103" title="領域指定ズーム(&amp;Z)" tooltip="ページ上で領域を指定してズームすることができます" status="領域指定ズーム" short="領域指定ズーム"/>
+		<item id="33104" title="太字" tooltip="太字にします" status="" short=""/>
+		<item id="33105" title="斜体" tooltip="斜体にします" status="" short=""/>
+		<item id="33106" title="下線" tooltip="下線を表示します" status="" short=""/>
+		<item id="33107" title="打ち消し線" tooltip="打ち消し線を表示します" status="" short=""/>
+		<item id="33108" title="左揃え" tooltip="左揃えにします" status="" short=""/>
+		<item id="33109" title="中央揃え" tooltip="中央揃えにします" status="" short=""/>
+		<item id="33110" title="右揃え" tooltip="右揃えにします" status="" short=""/>
+		<item id="33115" title="罫線の反転(&amp;F)" tooltip="罫線を反転します" status="" short=""/>
+		<item id="33116" title="プロパティ(&amp;P)..." tooltip="より多くのプロパティを表示します" status="" short=""/>
+		<item id="33118" title="現在の表示設定を既定とする" tooltip="現在の表示設定（色、枠のスタイル、透明度等）を既定のスタイルとして保存します。&#10;保存した表示設定は既定のスタイルとして新しいコメントに適用されます。" status="" short=""/>
+		<item id="33121" title="ポップアップコメントの位置をリセット(&amp;R)" tooltip="ポップアップコメントの位置をリセットします" status="" short=""/>
+		<item id="33122" title="ポップアップコメントを開く(&amp;O)" tooltip="ポップアップコメントを開きます" status="" short=""/>
+		<item id="33123" title="矢印ツール(&amp;A)" tooltip="矢印ツールです" status="" short="矢印"/>
+		<item id="33124" title="直線ツール(&amp;L)" tooltip="直線ツールです" status="" short="直線"/>
+		<item id="33125" title="四角形ツール(&amp;R)" tooltip="四角形ツールです" status="" short="四角形"/>
+		<item id="33126" title="楕円ツール(&amp;O)" tooltip="楕円ツールです" status="" short="楕円"/>
+		<item id="33127" title="多角形ツール(&amp;Y)" tooltip="多角形ツールです" status="" short="多角形"/>
+		<item id="33128" title="折れ線ツール(&amp;G)" tooltip="折れ線ツールです" status="" short="折れ線"/>
+		<item id="33129" title="鉛筆ツール(&amp;P)" tooltip="鉛筆ツールです" status="" short="鉛筆"/>
+		<item id="33130" title="雲形ツール(&amp;C)" tooltip="雲形ツールです" status="" short="雲形"/>
+		<item id="33131" title="スタンプツール(&amp;S)" tooltip="スタンプツールです" status="" short="スタンプ"/>
+		<item id="33132" title="コメントツール(&amp;N)" tooltip="コメントツールです" status="" short="コメント"/>
+		<item id="33133" title="プレビュー(&amp;P)" tooltip="プレビューを表示します" status="" short=""/>
+		<item id="33134" title="既定の表示設定の適用" tooltip="保存されている表示設定（色、枠のスタイル、透明度等）を適用します" status="" short=""/>
+		<item id="33135" title="コメントの追加" tooltip="コメントを追加します" status="" short=""/>
+		<item id="33136" title="削除(&amp;D)" tooltip="選択範囲を削除します" status="選択範囲を削除します" short=""/>
+		<item id="33138" title="コメントとマークアップ ツール バー(&amp;C)" tooltip="コメントとマークアップ ツール バーの表示/非表示を切り替えます" status="コメントとマークアップ ツール バーの表示/非表示を切り替えます" short=""/>
+		<item id="33139" title="キャンセル" tooltip="キャンセル" status="" short=""/>
+		<item id="33140" title="完了" tooltip="完了" status="" short=""/>
+		<item id="33141" title="ホーム ページ(&amp;H)" tooltip="" status="" short=""/>
+		<item id="33145" title="目次(&amp;C)" tooltip="" status="" short=""/>
+		<item id="33146" title="問題の報告(&amp;R)..." tooltip="" status="" short=""/>
+		<item id="33147" title="サポート フォーラム(&amp;S)" tooltip="" status="" short=""/>
+		<item id="33168" title="テキストフォーマットのクリア" tooltip="テキストフォーマットをクリアします" status="" short=""/>
+		<item id="33170" title="上付き文字" tooltip="上付き文字にします" status="" short=""/>
+		<item id="33171" title="下付き文字" tooltip="下付き文字にします" status="" short=""/>
+		<item id="33174" title="返信の追加(&amp;Y)" tooltip="返信を追加します" status="" short=""/>
+		<item id="33176" title="返信の削除(&amp;D)" tooltip="返信を削除します" status="" short=""/>
+		<item id="33179" title="更新のチェック..." tooltip="" status="" short=""/>
+		<item id="33182" title="プレーン テキストとしてコピー(&amp;C)" tooltip="プレーン テキストとしてコピー" status="" short=""/>
+		<item id="33183" title="フォーマット テキストとしてコピー" tooltip="フォーマット テキストとしてコピー" status="" short=""/>
+		<item id="33184" title="リッチ コンテントとしてコピー" tooltip="リッチ コンテントとしてコピー" status="" short=""/>
+		<item id="33187" title="JavaScript コンソール(&amp;J)" tooltip="JavaScript コンソールの表示/非表示を切り替えます" status="JavaScript コンソールの表示/非表示を切り替えます" short=""/>
+		<item id="33197" title="サブフォルダも対象" tooltip="" status="" short=""/>
+		<item id="33201" title="吹き出しツール(&amp;T)" tooltip="吹き出しツールです" status="" short="吹き出し"/>
+		<item id="33202" title="テキスト ボックス ツール(&amp;X)" tooltip="テキスト ボックス ツールです" status="" short="テキスト ボックス"/>
+		<item id="33204" title="コメント(&amp;C)" tooltip="コメント ペインの表示/非表示を切り替えます" status="コメント ペインの表示/非表示を切り替えます" short=""/>
+		<item id="33205" title="添付ファイル（&amp;A）" tooltip="添付ファイルペインの表示/非表示を切り替えます" status="添付ファイルペインの表示/非表示を切り替えます" short=""/>
+		<item id="33206" title="テキストを強調表示(&amp;H)" tooltip="テキストを強調表示します" status="" short=""/>
+		<item id="33207" title="コメントをテキストに追加(&amp;N)" tooltip="コメントをテキストに追加します" status="" short=""/>
+		<item id="33208" title="下線表示(&amp;U)" tooltip="下線のついたテキストを表示します" status="" short=""/>
+		<item id="33209" title="打ち消し表示(&amp;C)" tooltip="打ち消し線のついたテキストを表示します" status="" short=""/>
+		<item id="33210" title="置換(&amp;R)" tooltip="テキストを置換します" status="" short=""/>
+		<item id="33221" title="テキストの強調 ツール" tooltip="選択されたテキストを強調します" status="選択されたテキストを強調します" short="テキストのハイライト"/>
+		<item id="33222" title="テキストの下線付けツール" tooltip="選択されたテキストに下線を付けます" status="選択されたテキストに下線を付けます" short="テキストの下線付け"/>
+		<item id="33223" title="テキストの打ち消しツール" tooltip="選択されたテキストを打ち消します" status="選択されたテキストを打ち消します" short="テキストの打ち消し"/>
+		<item id="33224" title="ファイル添付ツール" tooltip="コメントとしてファイルを添付します&#10;ファイルを添付する場所をクリックしてください" status="" short="添付"/>
+		<item id="33225" title="プロパティ ツール バー(&amp;P)" tooltip="プロパティ ツール バーの表示/非表示を切り替えます" status="プロパティ ツール バーの表示/非表示を切り替えます" short=""/>
+		<item id="33226" title="タイプライタ ツール(&amp;W)" tooltip="タイプライター ツールです" status="" short="タイプライター"/>
+		<item id="33228" title="スタンプ パレットの表示(&amp;S)" tooltip="" status="" short=""/>
+		<item id="33229" title="ツール選択状態の保持" tooltip="ツールの選択状態を保持します" status="" short=""/>
+		<item id="33231" title="フォントサイズ" tooltip="フォントサイズ" status="" short="フォントサイズ:"/>
+		<item id="33232" title="ページ(&amp;P)" tooltip="ページでコメントをグループ化します" status="" short=""/>
+		<item id="33233" title="種類(&amp;T)" tooltip="種類でコメントをグループ化します" status="" short=""/>
+		<item id="33234" title="作者(&amp;A)" tooltip="作者でコメントをグループ化します" status="" short=""/>
+		<item id="33235" title="更新日時(&amp;D)" tooltip="更新日時でコメントをグループ化します" status="" short=""/>
+		<item id="33236" title="色(&amp;C)" tooltip="色でコメントをグループ化します" status="" short=""/>
+		<item id="33237" title="作成日時（&amp;C）" tooltip="作成日時でコメントをグループ化します" status="" short=""/>
+		<item id="33238" title="次へ" tooltip="次のコメント" status="" short=""/>
+		<item id="33239" title="前へ" tooltip="前のコメント" status="" short=""/>
+		<item id="33240" title="削除" tooltip="コメントを削除します" status="" short=""/>
+		<item id="33241" title="すべて折りたたむ" tooltip="すべてのコメントを折りたたみます" status="" short=""/>
+		<item id="33242" title="すべて展開" tooltip="すべてのコメントを展開します" status="" short=""/>
+		<item id="33243" title="グループ化" tooltip="グループ化します" status="" short=""/>
+		<item id="33244" title="プロパティ..." tooltip="コメントのプロパティ..." status="" short=""/>
+		<item id="33245" title="返信の追加" tooltip="コメントに返信を追加します" status="" short=""/>
+		<item id="33246" title="標題(&amp;S)" tooltip="標題でコメントをグループ化します" status="" short=""/>
+		<item id="33248" title="すべて選択解除(&amp;E)" tooltip="すべての選択を解除します" status="" short=""/>
+		<item id="33255" title="他のタブをすべて閉じる" tooltip="現在のアクティブなタブを除くすべてのタブを閉じます" status="" short=""/>
+		<item id="33256" title="このタブを閉じる" tooltip="このタブを閉じます" status="" short=""/>
+		<item id="33257" title="フルパスのコピー(&amp;N)" tooltip="クリップボードへアクティブなドキュメントの完全なファイル名をコピーします" status="クリップボードへアクティブなドキュメントの完全なファイル名をコピーします" short=""/>
+		<item id="33258" title="フォルダを開く(&amp;F)..." tooltip="アクティブなドキュメントを含むフォルダを開きます" status="アクティブなドキュメントを含むフォルダを開きます" short=""/>
+		<item id="33259" title="現在のテキストフォーマットを既定とする" tooltip="現在のテキストフォーマット（フォント、フォントサイズ、色、文字揃え等）を既定のスタイルとして保存します。&#10;保存したテキストフォーマットは既定のスタイルとして新しいコメントに適用されます。" status="" short="既定値に設定"/>
+		<item id="33260" title="既定のテキストフォーマットの適用" tooltip="保存されているテキストフォーマット（フォント、フォントサイズ、色、文字揃え等）を適用します" status="" short=""/>
+		<item id="33261" title="テキストの色" tooltip="テキストの色" status="" short="テキストの色:"/>
+		<item id="33262" title="ドキュメントオプション ツール バー(&amp;O)" tooltip="ドキュメントオプション ツール バーの表示/非表示を切り替えます" status="ドキュメントオプション ツール バーの表示/非表示を切り替えます" short=""/>
+		<item id="33263" title="ページ ナビゲーション ツール バー(&amp;N)" tooltip="ページ ナビゲーション ツール バーの表示/非表示を切り替えます" status="ページ ナビゲーション ツール バーの表示/非表示を切り替えます" short=""/>
+		<item id="33264" title="ページ レイアウト ツール バー(&amp;L)" tooltip="ページ レイアウト ツール バーの表示/非表示を切り替えます" status="ページ レイアウト ツール バーの表示/非表示を切り替えます" short=""/>
+		<item id="33265" title="起動ツール バー(&amp;A)" tooltip="アプリケーション起動ツール バーの表示/非表示を切り替えます" status="アプリケーション起動ツール バーの表示/非表示を切り替えます" short=""/>
+		<item id="33267" title="ファイル(&amp;F)" tooltip="" status="" short=""/>
+		<item id="33268" title="最近使用したドキュメント(&amp;F)" tooltip="" status="" short=""/>
+		<item id="33269" title="フォーム データ(&amp;M)" tooltip="" status="" short=""/>
+		<item id="33270" title="ドキュメントのプロパティ(&amp;D)..." tooltip="アクティブなドキュメントのプロパティを表示します" status="アクティブなドキュメントのプロパティを表示します" short="プロパティ..."/>
+		<item id="33272" title="URL から開く(&amp;U)" tooltip="URL からドキュメントを開きます..." status="URL からドキュメントを開きます" short=""/>
+		<item id="33274" title="ZIPファイルでメール送信(&amp;E)" tooltip="アクティブなドキュメントを（圧縮して）新規メールに添付します" status="アクティブなドキュメントを（圧縮して）新規メールに添付します" short=""/>
+		<item id="33280" title="編集(&amp;E)" tooltip="" status="" short=""/>
+		<item id="33290" title="表示(&amp;V)" tooltip="" status="" short=""/>
+		<item id="33291" title="ツール バー(&amp;T)" tooltip="" status="" short=""/>
+		<item id="33292" title="他のペイン" tooltip="" status="" short=""/>
+		<item id="33293" title="ページ レイアウト(&amp;L)" tooltip="" status="" short=""/>
+		<item id="33300" title="ドキュメント(&amp;D)" tooltip="" status="" short=""/>
+		<item id="33310" title="ツール(&amp;T)" tooltip="" status="" short=""/>
+		<item id="33311" title="基本ツール(&amp;B)" tooltip="" status="" short=""/>
+		<item id="33313" title="ズームツール(&amp;Z)" tooltip="" status="" short=""/>
+		<item id="33314" title="コメントとマークアップ ツール(&amp;C)" tooltip="" status="" short=""/>
+		<item id="33316" title="測定ツール(&amp;M)" tooltip="" status="" short=""/>
+		<item id="33317" title="リンクツール(&amp;L)" tooltip="" status="" short=""/>
+		<item id="33339" title="コメントとマークアップ ツール バーを表示" tooltip="" status="" short=""/>
+		<item id="33340" title="コメントの一覧を表示" tooltip="コメントの一覧の表示/非表示を切り替えます" status="コメントの一覧の表示/非表示を切り替えます" short=""/>
+		<item id="33350" title="ウィンドウ(&amp;W)" tooltip="" status="" short=""/>
+		<item id="33369" title="破損情報の表示" tooltip="このドキュメントは破損しています; 詳細を表示するにはここをクリックします" status="このドキュメントは破損しています; 詳細を表示するにはここをクリックします" short="破損情報"/>
+		<item id="33370" title="ドキュメントのオプション" tooltip="表示、編集、操作、などを含むこのドキュメントのオプションです" status="表示、編集、操作、などを含むこのドキュメントのオプションです" short="オプション"/>
+		<item id="33371" title="レイヤペインの表示" tooltip="このドキュメントはレイヤを含みます; レイヤ ペインの表示/非表示を切り替えるにはここをクリックします" status="このドキュメントはレイヤを含みます; レイヤ ペインの表示/非表示を切り替えるにはここをクリックします" short="レイヤの表示"/>
+		<item id="33372" title="フィールドペインの表示" tooltip="このドキュメントはフォームを含みます; フォーム フィールド ペインの表示/非表示を切り替えるにはここをクリックします" status="このドキュメントはフォームを含みます; フォーム フィールド ペインの表示/非表示を切り替えるにはここをクリックします" short="フィールドの表示"/>
+		<item id="33373" title="プロパティなし" tooltip="プロパティのあるオブジェクトは現在 1 つも選択されていません" status="プロパティのあるオブジェクトは現在 1 つも選択されていません" short=""/>
+		<item id="33374" title="PDF/A 情報を表示" tooltip="このドキュメントは PDF/A に準拠しています&#10;詳細はここをクリックしてください" status="このドキュメントは PDF/A に準拠しています&#10;詳細はここをクリックしてください" short="PDF/A 情報"/>
+		<item id="33375" title="XFA 情報を表示" tooltip="このドキュメントは XFA フォームを含んでいます&#10;詳細はここをクリックしてください" status="このドキュメントは XFA フォームを含んでいます&#10;詳細はここをクリックしてください" short="XFA 情報"/>
+		<item id="33379" title="不透過度" tooltip="不透過度" status="" short="不透過度:"/>
+		<item id="33382" title="テキストフォーマット ツール バーの表示/非表示の切り替え" tooltip="テキストフォーマット ツール バーの表示/非表示の切り替え" status="" short=""/>
+		<item id="33383" title="選択範囲のコピー" tooltip="選択範囲をコピーします" status="" short=""/>
+		<item id="33384" title="ページ全体を選択" tooltip="ページ全体を選択します" status="" short=""/>
+		<item id="33410" title="コメント(&amp;M)" tooltip="コメントを表示します" status="" short=""/>
+		<item id="33411" title="テキストフォーマット" tooltip="テキストフォーマット" status="" short=""/>
+		<item id="33412" title="スナップショットを作成" tooltip="スナップショットを作成します" status="" short=""/>
+		<item id="33413" title="サムネイルの拡大" tooltip="サムネイルを拡大します" status="サムネイルを拡大します" short=""/>
+		<item id="33414" title="サムネイルの縮小" tooltip="サムネイルを縮小します" status="サムネイルを縮小します" short=""/>
+		<item id="33416" title="ブックマークを追加(&amp;B)" tooltip="" status="" short=""/>
+		<item id="33420" title="リンクを追加(&amp;L)" tooltip="" status="" short=""/>
+		<item id="33421" title="左端揃え" tooltip="左端揃えします" status="" short=""/>
+		<item id="33422" title="右端揃え" tooltip="右端揃えします" status="" short=""/>
+		<item id="33423" title="上端揃え" tooltip="上端揃えします" status="" short=""/>
+		<item id="33424" title="下端揃え" tooltip="下端揃えします" status="" short=""/>
+		<item id="33425" title="左右中央揃え" tooltip="左右中央揃えします" status="" short=""/>
+		<item id="33426" title="上下中央揃え" tooltip="上下中央揃えします" status="" short=""/>
+		<item id="33427" title="水平方向に整列" tooltip="水平方向に並べます" status="" short=""/>
+		<item id="33428" title="垂直方向に整列" tooltip="垂直方向に並べます" status="" short=""/>
+		<item id="33429" title="等幅にする" tooltip="同じ幅に揃えます" status="" short=""/>
+		<item id="33430" title="等高にする" tooltip="同じ高さに揃えます" status="" short=""/>
+		<item id="33431" title="等サイズにする" tooltip="同じサイズに揃えます" status="" short=""/>
+		<item id="33432" title="現在の表示設定を既定とする" tooltip="現在の表示設定を既定の設定にします" status="現在の表示設定を既定の設定にします" short=""/>
+		<item id="33433" title="既定の表示設定の適用" tooltip="選択されたリンクに対して既定の表示設定を適用します" status="選択されたリンクに対して既定の表示設定を適用します" short=""/>
+		<item id="33438" title="ユーザーインターフェイスのカスタマイズ..." tooltip="ユーザーインターフェイス（色、フォント、メインウィンドウの背景）をカスタマイズするダイアログを表示します" status="ユーザーインターフェイス（色、フォント、メインウィンドウの背景）をカスタマイズするダイアログを表示します" short="UIのカスタマイズ"/>
+		<item id="33800" title="注釈の位置を復元" tooltip="注釈の位置を復元します" status="" short=""/>
+		<item id="33801" title="ラベルの削除" tooltip="ラベルを削除します" status="" short=""/>
+		<item id="33802" title="ラベルの編集" tooltip="ラベルを編集します" status="" short=""/>
+		<item id="33805" title="スケール率の変更" tooltip="スケール率を変更します" status="" short=""/>
+		<item id="33806" title="マークアップラベルを変更" tooltip="マークアップラベルを変更します" status="" short=""/>
+		<item id="33807" title="測定情報ウィンドウを表示" tooltip="測定情報ウィンドウを表示します" status="" short=""/>
+		<item id="33808" title="直行モードを有効" tooltip="直行モードを有効にします" status="" short=""/>
+		<item id="33809" title="測定をキャンセル" tooltip="測定をキャンセルします" status="" short=""/>
+		<item id="33810" title="測定を完了" tooltip="測定を完了します" status="" short=""/>
+		<item id="33811" title="測定結果をCSVファイルにエクスポート" tooltip="測定結果をエクスポートします" status="" short=""/>
+		<item id="33812" title="添付ファイルを開く（&amp;O）..." tooltip="添付ファイルを開きます" status="添付ファイルを開きます" short="開く..."/>
+		<item id="33813" title="添付ファイルをディスクに保存（&amp;S）..." tooltip="添付ファイルをディスクに保存します" status="添付ファイルをディスクに保存します" short="ディスクに保存..."/>
+		<item id="33814" title="説明を編集（&amp;E）..." tooltip="添付ファイルの説明を編集します" status="添付ファイルの説明を編集します" short="説明の編集"/>
+		<item id="33815" title="ファイルの添付..." tooltip="ファイルを添付します" status="ファイルをドキュメントに添付します" short="ファイルの添付..."/>
+		<item id="33816" title="選択したページを90度回転" tooltip="" status="" short="90度回転"/>
+		<item id="33817" title="選択したページを180度回転" tooltip="" status="" short="180度回転"/>
+		<item id="33818" title="選択したページを270度回転" tooltip="" status="" short="270度回転"/>
+		<item id="33819" title="選択したページを削除(&amp;S)" tooltip="" status="" short=""/>
+		<item id="33820" title="空白を削除" tooltip="ページ内の空白を削除します" status="ページ内の空白を削除します" short="空白を削除"/>
+		<item id="36000" title="カスタマイズ..." tooltip="バーをカスタマイズするダイアログを表示します" status="バーをカスタマイズするダイアログを表示します" short=""/>
+		<item id="36001" title="固定" tooltip="スタイルを固定します" status="" short=""/>
+		<item id="36004" title="ブックマークの拡大" tooltip="ブックマークを拡大します" status="ブックマークを拡大します" short=""/>
+		<item id="36005" title="ブックマークの縮小" tooltip="ブックマークを縮小します" status="ブックマークを縮小します" short=""/>
+		<item id="36006" title="ブックマークの削除" tooltip="選択したブックマークを削除します" status="選択したブックマークを削除します" short="削除"/>
+		<item id="36007" title="ブックマークのプロパティ..." tooltip="選択したブックマークのプロパティを表示します" status="選択したブックマークのプロパティを表示します" short="編集"/>
+		<item id="36008" title="ブックマークの新規作成" tooltip="新しいブックマークを作成します" status="新しいブックマークを作成します" short="新規作成"/>
+		<item id="36009" title="該当するブックマークの表示" tooltip="該当するブックマークを見えるようにします" status="該当するブックマークを見えるようにします" short=""/>
+		<item id="36010" title="ブックマークに移動" tooltip="ブックマークに移動" status="ページビューでブックマークが見えるようにします" short=""/>
+		<item id="36011" title="ブックマークツリーの更新" tooltip="ブックマークのツリー表示を更新します" status="ブックマークのツリー表示を更新します" short=""/>
+		<item id="36012" title="追加" tooltip="新しいアクションを追加します" status="新しいアクションを追加します" short=""/>
+		<item id="36013" title="削除" tooltip="選択したアクションを削除します" status="選択したアクションを削除します" short=""/>
+		<item id="36014" title="上へ" tooltip="一時的に選択したアイテムを上に移動します" status="一時的に選択したアイテムを上に移動します" short=""/>
+		<item id="36015" title="下へ" tooltip="一時的に選択したアイテムを下に移動します" status="一時的に選択したアイテムを下に移動します" short=""/>
+		<item id="36016" title="編集..." tooltip="選択したアクションのプロパティを編集します" status="選択したアクションのプロパティを編集します" short=""/>
+		<item id="36017" title="テスト" tooltip="選択したアクションをテストします" status="選択したアクションをテストするにはボタンを押下してください" short=""/>
+		<item id="36018" title="すべてテスト" tooltip="すべてのアクションをテストします" status="すべてのアクションをテストするにはボタンを押下してください" short=""/>
+		<item id="36019" title="リセット" tooltip="アクションの一覧をリセットします。すべての変更は失われます。" status="アクションの一覧をリセットします。すべての変更は失われます。" short=""/>
+		<item id="36023" title="名前の変更(&amp;R)" tooltip="選択したブックマークの名前を変更します" status="選択したブックマークの名前を変更します" short=""/>
+		<item id="36024" title="現在の表示設定を既定とする" tooltip="現在の表示設定を既定の設定にします" status="現在の表示設定を既定の設定にします" short=""/>
+		<item id="36025" title="長いブックマークタイトルを省略" tooltip="長いブックマークのタイトルを短縮して表示します" status="長いブックマークのタイトルを短縮して表示します" short=""/>
+		<item id="36026" title="既定の表示設定の適用" tooltip="選択したブックマークに既定の表示設定を適用します" status="選択したブックマークに既定の表示設定を適用します" short=""/>
+		<item id="36027" title="実行" tooltip="スクリプトを実行します" status="" short=""/>
+		<item id="36028" title="クリア" tooltip="コンソール画面をクリアします" status="" short=""/>
+		<item id="36035" title="指定行に移動..." tooltip="" status="" short=""/>
+		<item id="36036" title="JavaScriptオプション" tooltip="JavaScriptのオプションを表示します" status="JavaScriptのオプションを表示します" short=""/>
+		<item id="36037" title="ページの挿入(&amp;I)..." tooltip="" status="" short=""/>
+		<item id="36038" title="ページの抽出(&amp;E)..." tooltip="" status="" short=""/>
+		<item id="36039" title="ページの置換(&amp;R)..." tooltip="" status="" short=""/>
+		<item id="36040" title="ページの移動(&amp;T)..." tooltip="" status="" short=""/>
+		<item id="36048" title="対象をセット(&amp;A)" tooltip="対象をセットします" status="現在の表示を対象としてセットします" short=""/>
+		<item id="36049" title="フォント" tooltip="フォント" status="" short="フォント:"/>
+		<item id="36250" title="強調表示のスタイル" tooltip="強調表示のスタイルです" status="" short="強調表示"/>
+		<item id="36252" title="完全に一致する単語のみ" tooltip="完全に一致する単語のみ検索します" status="テキスト ボックスに入力した単語と完全に一致する単語のみ検索します" short=""/>
+		<item id="36253" title="大文字と小文字を区別" tooltip="大文字と小文字を区別して検索します" status="入力した大文字と小文字に一致する単語のみ検索します" short=""/>
+		<item id="36254" title="コメントを含める" tooltip="PDF に追加されたすべてのコメントのテキストを検索します" status="[コメント] パネルに表示されている、PDF に追加されているすべてのコメントのテキストを検索します" short=""/>
+		<item id="36255" title="ブックマークを含める" tooltip="すべてのブックマークのテキストを検索します" status="[ブックマーク] パネルに表示されている、すべてのブックマークのテキストを検索します" short=""/>
+		<item id="36256" title="ブックマークのアイコンを表示" tooltip="ブックマークのアイコンの表示／非表示を切り替えます" status="ブックマークのアイコンの表示／非表示を切り替えます" short=""/>
+		<item id="36257" title="標題を編集..." tooltip="選択したコメントスタイルの標題を編集します" status="" short=""/>
+		<item id="36258" title="検索結果をクリア" tooltip="検索結果をクリアします" status="" short="結果をクリア"/>
+		<item id="36260" title="1600%" tooltip="" status="" short=""/>
+		<item id="36262" title="12.5%" tooltip="" status="" short=""/>
+		<item id="36263" title="8.33%" tooltip="" status="" short=""/>
+		<item id="36264" title="ズーム" tooltip="" status="" short="ズーム:"/>
+		<item id="36273" title="塗りつぶし色" tooltip="塗りつぶし色" status="" short="塗りつぶし色:"/>
+		<item id="36274" title="輪郭色" tooltip="輪郭の色" status="" short="輪郭色:"/>
+		<item id="36276" title="コメントのアイコン" tooltip="コメントのアイコン" status="" short="アイコン:"/>
+		<item id="36277" title="ズーム" tooltip="ズーム" status="" short="ズーム:"/>
+		<item id="36279" title="枠のスタイル" tooltip="枠のスタイル" status="" short="枠のスタイル:"/>
+		<item id="36281" title="枠の幅" tooltip="枠の幅" status="" short="枠の幅:"/>
+		<item id="36287" title="線の終点のスタイル" tooltip="線の終点のスタイル" status="" short="終点のスタイル:"/>
+		<item id="36289" title="線の開始点のスタイル" tooltip="線の開始点のスタイル" status="" short="開始点のスタイル:"/>
+		<item id="36291" title="拡大" tooltip="サムネイルを拡大します" status="サムネイルを拡大します" short=""/>
+		<item id="36292" title="縮小" tooltip="サムネイルを縮小します" status="サムネイルを縮小します" short=""/>
+		<item id="36293" title="クリップボードから作成" tooltip="クリップボードのイメージからスタンプを作成します" status="クリップボードのイメージからスタンプを作成します" short="クリップボードから"/>
+		<item id="36294" title="スタンプを削除" tooltip="選択したスタンプを削除します" status="選択したスタンプを削除します" short="削除"/>
+		<item id="36296" title="コレクションを削除" tooltip="選択したコレクションを削除します" status="選択したコレクションを削除します" short="削除"/>
+		<item id="36297" title="新しいコレクションを作成..." tooltip="新しいスタンプコレクションを作成します" status="新しいスタンプコレクションを作成します" short="新規作成"/>
+		<item id="36298" title="スタンプの名前を変更..." tooltip="選択したスタンプの名前を変更します" status="選択したスタンプの名前を変更します" short="変更"/>
+		<item id="36299" title="コレクションの名前を変更..." tooltip="選択したコレクションの名前を変更します" status="選択したコレクションの名前を変更します" short="変更"/>
+		<item id="36300" title="消しゴムツール" tooltip="鉛筆ツールで描いたオブジェクトのみ消すことができます" status="鉛筆ツールで描いたオブジェクトのみ消すことができます" short="消しゴム"/>
+		<item id="36301" title="直径" tooltip="消しゴムの直径" status="" short="直径"/>
+		<item id="36303" title="PDFから作成..." tooltip="PDFドキュメントからスタンプを作成します" status="PDFドキュメントからスタンプを作成します" short="PDFから"/>
+		<item id="36304" title="画像ファイルから作成..." tooltip="画像ファイルからスタンプを作成します" status="画像ファイルからスタンプを作成します" short="画像ファイルから"/>
+		<item id="36305" title="空白のページを挿入..." tooltip="" status="" short=""/>
+		<item id="36306" title="すべてのブックマークを展開" tooltip="すべてのブックマークを展開します" status="" short="すべて展開"/>
+		<item id="36307" title="すべてのブックマークを折りたたむ" tooltip="すべてのブックマークを折りたたみます" status="" short="すべて折りたたむ"/>
+		<item id="36308" title="テキストのプロパティ..." tooltip="テキストのプロパティを表示します" status="選択したテキストのプロパティをダイアログで表示します" short="テキストのプロパティ"/>
+		<item id="36309" title="このツールバーをリセット" tooltip="このツールバーを既定の設定にリセットします" status="このツールバーを既定の設定にリセットします" short="ツールバーをリセット"/>
+		<item id="36313" title="ショートカットをリセット" tooltip="ショートカットをリセット" status="" short=""/>
+		<item id="36314" title="ショートカットをクリア" tooltip="ショートカットをクリア" status="" short=""/>
+		<item id="36315" title="メニューバーをリセット" tooltip="メニューバーを既定の設定にリセットします" status="メニューバーを既定の設定にリセットします" short="メニューバーをリセット"/>
+		<item id="36316" title="このポップアップメニューをリセット" tooltip="このポップアップメニューを既定の設定にリセットします" status="このポップアップメニューを既定の設定にリセットします" short="ポップアップメニューをリセット"/>
+		<item id="36324" title="イメージを選択" tooltip="" status="" short=""/>
+		<item id="36326" title="リセット" tooltip="" status="" short=""/>
+		<item id="36327" title="削除" tooltip="" status="" short=""/>
+		<item id="36328" title="既定のスタイル" tooltip="" status="" short=""/>
+		<item id="36329" title="イメージを表示" tooltip="" status="" short=""/>
+		<item id="36330" title="テキストを表示" tooltip="" status="" short=""/>
+		<item id="36331" title="この前にセパレータを挿入" tooltip="" status="" short=""/>
+		<item id="36332" title="この後にセパレータを挿入" tooltip="" status="" short=""/>
+		<item id="36333" title="プロパティ" tooltip="" status="" short=""/>
+		<item id="36334" title="プレビューを表示" tooltip="" status="" short=""/>
+		<item id="36335" title="標題を表示" tooltip="コメントの標題を表示します" status="コメントの標題を表示します" short=""/>
+		<item id="36336" title="作者を表示" tooltip="コメントの作者を表示します" status="コメントの作者を表示します" short=""/>
+		<item id="36337" title="日付を表示" tooltip="コメントの日付を表示します" status="コメントの日付を表示します" short=""/>
+		<item id="36338" title="テキストを表示" tooltip="コメントのテキストを表示します" status="コメントのテキストを表示します" short=""/>
+		<item id="36339" title="色を表示" tooltip="コメントの色を表示します" status="コメントの色を表示します" short=""/>
+		<item id="36340" title="コメントの削除(&amp;F)..." tooltip="" status="" short=""/>
+		<item id="36341" title="検索結果をクリア" tooltip="検索結果をクリア" status="" short="検索結果をクリア"/>
+		<item id="36342" title="リンクエディタツールバー(&amp;L)" tooltip="リンクエディタツール バーの表示/非表示を切り替えます" status="リンクエディタツール バーの表示/非表示を切り替えます" short=""/>
+		<item id="36343" title="矩形リンクツール(&amp;R)" tooltip="矩形リンクツール" status="" short="矩形リンク"/>
+		<item id="36344" title="四辺形リンクツール(&amp;Q)" tooltip="四辺形リンクツール" status="" short="四辺形リンク"/>
+		<item id="36345" title="測定ツールバー(&amp;M)" tooltip="測定ツール バーの表示/非表示を切り替えます" status="測定ツール バーの表示/非表示を切り替えます" short=""/>
+		<item id="36346" title="直線測定ツール" tooltip="直線の長さを測定するツールです" status="" short="直線測定"/>
+		<item id="36347" title="折れ線測定ツール(&amp;P)" tooltip="折れ線の長さを測定するツールです" status="" short="折れ線測定"/>
+		<item id="36348" title="面積測定ツール(&amp;A)" tooltip="オブジェクトの面積を測定するツールです" status="" short="面積測定"/>
+		<item id="36349" title="コメント(&amp;C)" tooltip="" status="" short=""/>
+		<item id="36350" title="コメントの要約(&amp;S)..." tooltip="" status="" short=""/>
+		<item id="36351" title="コメントをファイルにエクスポート(&amp;E)..." tooltip="" status="" short=""/>
+		<item id="36352" title="ページ間にギャップを表示" tooltip="ページ間にギャップを表示します" status="" short="ギャップ表示"/>
+		<item id="36353" title="見開きモードでカバーページを表示" tooltip="見開きモードでカバーページを表示します" status="" short="カバーページ表示"/>
+		<item id="36355" title="比率の値 (From)" tooltip="比率の値 (From)" status="" short="値 (From)"/>
+		<item id="36356" title="比率の値 (To)" tooltip="比率の値 (To)" status="" short="値 (To)"/>
+		<item id="36357" title="比率の単位 (From)" tooltip="比率の単位 (From)" status="" short="単位 (From)"/>
+		<item id="36359" title="比率の単位 (To)" tooltip="比率の単位 (To)" status="" short="単位 (To)"/>
+		<item id="36362" title="「このドキュメント内のページに行く」を追加..." tooltip="「このドキュメント内のページに行く」コマンドを追加します" status="「このドキュメント内のページに行く」コマンドを追加し、新しいアクションのためにダイアログを表示します" short=""/>
+		<item id="36363" title="「Webリンクを開く」を追加..." tooltip="「Webリンクを開く」コマンドを追加します" status="「Webリンクを開く」コマンドを追加し、新しいアクションのためにダイアログを表示します" short=""/>
+		<item id="36364" title="空白ページ" tooltip="空白ページの新規ドキュメントを生成します" status="空白ページの新規ドキュメントを作成します" short=""/>
+		<item id="36365" title="テキストファイルから生成" tooltip="テキストファイルから新規ドキュメントを生成します" status="既存のテキストファイルからPDFドキュメントを生成します" short=""/>
+		<item id="36366" title="元に戻す(&amp;U)" tooltip="" status="" short=""/>
+		<item id="36367" title="やり直し(&amp;R)" tooltip="" status="" short=""/>
+		<item id="36368" title="切り取り(&amp;T)" tooltip="" status="" short=""/>
+		<item id="36369" title="コピー(&amp;C)" tooltip="" status="" short=""/>
+		<item id="36370" title="貼り付け(&amp;P)" tooltip="" status="" short=""/>
+		<item id="36371" title="削除(&amp;D)" tooltip="" status="" short=""/>
+		<item id="36372" title="すべて選択(&amp;A)" tooltip="" status="" short=""/>
+		<item id="36373" title="すべてのコマンドバーの固定／解除" tooltip="すべてのコマンドバーの固定／固定解除を設定します" status="すべてのコマンドバーの固定／固定解除を設定します：カスタマイズや再配置は一切できなくなります" short="バーを固定"/>
+		<item id="36374" title="すべての設定をデフォルトにリセット" tooltip="すべてのアプリケーション設定をデフォルト設定にリセットします" status="すべてのアプリケーション設定をデフォルト設定にリセットします" short=""/>
+		<item id="36375" title="イメージファイルから生成" tooltip="イメージファイルから新規ドキュメントを生成します" status="既存の画像ファイルからPDFドキュメントを生成します" short=""/>
+		<item id="36408" title="すべての設定をデータファイルからインポート" tooltip="すべてのアプリケーション設定をデータファイルからインポートします" status="すべてのアプリケーション設定をデータファイルからインポートします" short=""/>
+		<item id="36409" title="すべての設定をデータファイルにエクスポート" tooltip="すべてのアプリケーション設定をデータファイルにエクスポートします" status="すべてのアプリケーション設定をデータファイルにエクスポートします" short=""/>
+		<item id="36415" title="表示" tooltip="" status="" short=""/>
+		<item id="36416" title="このアプリケーションについて" tooltip="" status="" short=""/>
+		<item id="36417" title="終了" tooltip="" status="" short=""/>
+		<item id="36418" title="コメントのスタイルを表示..." tooltip="" status="" short=""/>
+		<item id="36420" title="コメントのスタイルパレットを表示" tooltip="" status="" short=""/>
+		<item id="36434" title="コメントの表示" tooltip="" status="" short=""/>
+		<item id="36435" title="すべてのコメントを非表示" tooltip="" status="" short=""/>
+		<item id="36436" title="すべてのコメントを表示" tooltip="" status="" short=""/>
+		<item id="36437" title="種類を選択して表示" tooltip="" status="" short=""/>
+		<item id="36438" title="すべてのポップアップを表示" tooltip="" status="" short=""/>
+		<item id="36439" title="すべてのポップアップを非表示" tooltip="" status="" short=""/>
+		<item id="36440" title="すべて" tooltip="" status="" short=""/>
+		<item id="36441" title="コメント" tooltip="" status="" short=""/>
+		<item id="36442" title="描画オブジェクト" tooltip="" status="" short=""/>
+		<item id="36443" title="テキスト編集" tooltip="" status="" short=""/>
+		<item id="36444" title="スタンプ" tooltip="" status="" short=""/>
+		<item id="36445" title="添付" tooltip="" status="" short=""/>
+		<item id="36446" title="Hexコード変換" tooltip="選択した文字列をHexコードに変換もしくはHexコードから変換します" status="" short=""/>
+		<item id="36447" title="Glighインデックス変換" tooltip="選択した文字列をGliphインデックスに変換もしくはGliphインデックスから変換します" status="" short=""/>
+		<item id="36457" title="下線のスタイル" tooltip="下線のスタイル" status="" short="下線のスタイル:"/>
+		<item id="36459" title="現在の表示設定を既定とする" tooltip="現在の表示設定（色、枠のスタイル、透明度等）を既定のスタイルとして保存します。&#10;保存した表示設定は既定のスタイルとして新しいコメントに適用されます。" status="" short=""/>
+		<item id="36460" title="既定の表示設定の適用" tooltip="保存されている表示設定（色、枠のスタイル、透明度等）を適用します" status="" short=""/>
+		<item id="36461" title="固定" tooltip="スタイルを固定します" status="" short=""/>
+		<item id="36462" title="スキャナから生成" tooltip="スキャナから新規ドキュメントを生成します" status="スキャナからイメージデータを取り込んでPDFドキュメントを生成します" short=""/>
+		<item id="36463" title="すべてのフィールド" tooltip="すべてのフォームフィールドを強調表示するにはここをクリックします" status="すべてのフォームフィールドを強調表示するにはここをクリックします" short=""/>
+		<item id="36464" title="コンボボックス" tooltip="すべてのコンボボックスを強調表示するにはここをクリックします" status="すべてのコンボボックスを強調表示するにはここをクリックします" short=""/>
+		<item id="36465" title="チェックボックス" tooltip="すべてのチェックボックスを強調表示するにはここをクリックします" status="すべてのチェックボックスを強調表示するにはここをクリックします" short=""/>
+		<item id="36466" title="リストボックス" tooltip="すべてのリストボックスを強調表示するにはここをクリックします" status="すべてのリストボックスを強調表示するにはここをクリックします" short=""/>
+		<item id="36467" title="ボタン" tooltip="すべてのボタンを強調表示するにはここをクリックします" status="すべてのボタンを強調表示するにはここをクリックします" short=""/>
+		<item id="36468" title="ラジオボタン" tooltip="すべてのラジオボタンを強調表示するにはここをクリックします" status="すべてのラジオボタンを強調表示するにはここをクリックします" short=""/>
+		<item id="36469" title="テキストボックス" tooltip="すべてのテキストボックスを強調表示するにはここをクリックします" status="すべてのテキストボックスを強調表示するにはここをクリックします" short=""/>
+		<item id="36470" title="署名フィールド" tooltip="すべての署名フィールドを強調表示するにはここをクリックします" status="すべての署名フィールドを強調表示するにはここをクリックします" short=""/>
+		<item id="36471" title="必須入力のみ" tooltip="必須入力フィールドのみ強調表示するにはここをクリックします" status="必須入力フィールドのみ強調表示するにはここをクリックします" short=""/>
+		<item id="36472" title="拡大" tooltip="拡大します" status="" short=""/>
+		<item id="36473" title="縮小" tooltip="縮小します" status="" short=""/>
+		<item id="36474" title="縦にめくる" tooltip="ページを縦にめくります" status="" short=""/>
+		<item id="36475" title="横にめくる" tooltip="ページを横にめくります" status="" short=""/>
+		<item id="36476" title="ページ合わせる" tooltip="表示をページに合わせます" status="" short=""/>
+		<item id="36477" title="反時計回りに90°回転" tooltip="反時計回りに90°回転します" status="" short=""/>
+		<item id="36478" title="時計回りに90°回転" tooltip="時計回りに90°回転します" status="" short=""/>
+		<item id="36479" title="180°回転" tooltip="180°回転します" status="" short=""/>
+		<item id="36481" title="リンクの位置をコピー(&amp;C)" tooltip="リンクの位置をコピーします" status="" short=""/>
+		<item id="36482" title="ブラウザでURLを開く(&amp;O)" tooltip="ブラウザでURLを開きます" status="" short=""/>
+		<item id="36483" title="線の太さを固定" tooltip="拡大率によらず、常に１ピクセルの太さですべての線を表示します" status="拡大率によらず、常に１ピクセルの太さですべての線を表示します" short=""/>
+		<item id="36485" title="コメントをリセット" tooltip="選択したコメントをリセットします。&#10;選択したコメントの種類のすべてのカスタムスタイルは削除されて既定のスタイルで表示されます。" status="" short="コメントのリセット"/>
+		<item id="36486" title="コメントのスタイルを複製" tooltip="選択したコメントスタイルを複製します" status="" short="複製"/>
+		<item id="36487" title="コメントのスタイルを削除" tooltip="選択したコメントスタイルを削除します" status="" short="削除"/>
+		<item id="36488" title="コメントのスタイルをリセット" tooltip="選択したコメントスタイルをリセットします" status="" short="リセット"/>
+		<item id="36489" title="コメントのスタイルの名前を変更" tooltip="選択したコメントスタイルの名前を変更します" status="" short="名前の変更"/>
+		<item id="36493" title="リッチテキストファイルから生成" tooltip="リッチテキストファイルから新規ドキュメントを生成します" status="既存のリッチテキストファイルからPDFドキュメントを生成します" short=""/>
+		<item id="36496" title="「別のドキュメント内のページに行く」を追加..." tooltip="「別のドキュメント内のページに行く」コマンドを追加します" status="「別のドキュメント内のページに行く」コマンドを追加し、新しいアクションのためにダイアログを表示します" short=""/>
+		<item id="36497" title="「ファイルを開く」を追加..." tooltip="「ファイルを開く」コマンドを追加します" status="「ファイルを開く」コマンドを追加し、新しいアクションのためにダイアログを表示します" short=""/>
+		<item id="36498" title="ドキュメントの配色を上書き" tooltip="ドキュメントの配色を上書きするオプションの有効／無効を切り替えます" status="ドキュメントの配色を上書きするオプションの有効／無効を切り替えます" short=""/>
+		<item id="36500" title="最近の一覧を管理..." tooltip="最近開いたファイルの一覧を管理します" status="" short=""/>
+		<item id="36501" title="新しいブラウザのタブで開く" tooltip="新しいブラウザのタブで開きます" status="" short=""/>
+		<item id="36502" title="新しいブラウザのウィンドウで開く" tooltip="新しいブラウザのウィンドウで開きます" status="" short=""/>
+		<item id="36503" title="コメントのインポート..." tooltip="" status="" short=""/>
+		<item id="36511" title="検索プロバイダで検索" tooltip="検索プロバイダを使って検索します" status="選択中の文字列をインターネット検索プロバイダを使って検索します" short=""/>
+		<item id="36513" title="検索プロバイダの管理" tooltip="検索プロバイダの管理" status="" short=""/>
+		<item id="36514" title="オンライン検索" tooltip="入力した文字列をインターネット検索プロバイダを使って検索します" status="入力した文字列をインターネット検索プロバイダを使って検索します" short=""/>
+		<item id="36515" title="署名(&amp;S)" tooltip="" status="" short=""/>
+		<item id="36516" title="ドキュメントへの署名(&amp;S)" tooltip="ドキュメントにデジタル署名をします" status="ドキュメントにデジタル署名をします" short="署名"/>
+		<item id="36517" title="署名の埋め込み(&amp;P)" tooltip="ドキュメントに署名を埋め込みます" status="ドキュメントに署名を埋め込みます" short="署名の埋め込み"/>
+		<item id="36518" title="すべての署名を検証(&amp;V)" tooltip="すべての署名を検証します" status="ドキュメント内のすべての署名を検証します" short="署名の検証"/>
+		<item id="36519" title="タブ サムネイルを表示（&amp;T）" tooltip="タブ サムネイルを表示します" status="タブのプレビュー表示/非表示を切り替えます" short=""/>
+		<item id="36520" title="グリッドを表示" tooltip="" status="" short=""/>
+		<item id="36521" title="ガイドを表示" tooltip="" status="" short=""/>
+		<item id="36522" title="ルーラーを表示" tooltip="" status="" short=""/>
+		<item id="36523" title="ガイドを新規追加..." tooltip="新しいガイドをページに追加します" status="" short=""/>
+		<item id="36524" title="現在のページ上のガイドを削除" tooltip="現在選択しているページ上のガイドを削除します" status="" short=""/>
+		<item id="36525" title="すべてのページ上のガイドを削除" tooltip="すべてのページ上のガイドを削除します" status="" short=""/>
+		<item id="36527" title="測定の設定..." tooltip="測定の設定画面を表示します" status="" short=""/>
+		<item id="36529" title="グリッドにスナップ" tooltip="" status="" short=""/>
+		<item id="36530" title="ガイドにスナップ" tooltip="" status="" short=""/>
+		<item id="36531" title="オブジェクトにスナップ" tooltip="" status="" short=""/>
+		<item id="36532" title="スナップの切り替え" tooltip="スナップの ON/OFF を切り替えます" status="" short=""/>
+		<item id="36533" title="開く" tooltip="選択した添付ファイルを開きます" status="" short=""/>
+		<item id="36534" title="保存..." tooltip="選択した添付ファイルをファイルに保存します" status="" short=""/>
+		<item id="36535" title="新規追加..." tooltip="添付ファイルを新規追加します" status="" short=""/>
+		<item id="36536" title="削除" tooltip="選択した添付ファイルを削除します" status="" short=""/>
+		<item id="36537" title="説明を編集..." tooltip="説明を編集します" status="" short=""/>
+		<item id="36538" title="添付ファイルペインの表示" tooltip="このドキュメントは添付ファイルを含みます; 添付ファイルペインの表示/非表示を切り替えるにはここをクリックします" status="このドキュメントは添付ファイルを含みます; 添付ファイルペインの表示/非表示を切り替えるにはここをクリックします" short="添付ファイルの表示"/>
+		<item id="36539" title="すべてのドキュメントをサムネイル表示" tooltip="すべての開いているドキュメントをサムネイルで表示します" status="" short="ドキュメントの表示"/>
+		<item id="36542" title="重ね合わせ" tooltip="重ね合わせ" status="" short="重ね合わせ"/>
+		<item id="36543" title="最前面に移動（&amp;F）" tooltip="最前面に移動します" status="" short=""/>
+		<item id="36544" title="最背面に移動（&amp;B）" tooltip="最背面に移動します" status="" short=""/>
+		<item id="36545" title="前面に移動（&amp;O）" tooltip="前面に移動します" status="" short=""/>
+		<item id="36546" title="背面に移動（&amp;N）" tooltip="背面に移動します" status="" short=""/>
+		<item id="36547" title="表示順（&amp;D）" tooltip="" status="" short=""/>
+		<item id="36548" title="表示領域を強調表示" tooltip="現在のページの表示領域を強調表示します" status="サムネイルで現在のページの表示領域を強調表示します" short=""/>
+		<item id="36549" title="強調領域の操作" tooltip="強調領域の操作の有効／無効を切り替えます" status="サムネイルで強調領域の操作の有効／無効を切り替えます" short=""/>
+		<item id="36551" title="拡大率の設定..." tooltip="「このドキュメント内のページに行く」アクション作成時のデフォルト拡大率を設定します" status="「このドキュメント内のページに行く」アクション作成時のデフォルト拡大率を設定します" short="拡大率の設定"/>
+		<item id="36552" title="ページ内コンテンツを検索" tooltip="すべてのページのテキストを検索します" status="すべてのページのテキストを検索します" short=""/>
+		<item id="36553" title="ページ内コンテンツを検索" tooltip="すべてのページのテキストを検索します" status="すべてのページのテキストを検索します" short=""/>
+		<item id="36554" title="ドキュメント情報を含める" tooltip="ドキュメント情報 （タイトル、標題、作者、キーワード等） のテキストを検索します" status="ドキュメント情報 （タイトル、標題、作者、キーワード等） のテキストを検索します" short=""/>
+		<item id="36556" title="すべてのバーを表示" tooltip="すべてのバーを表示します" status="すべてのバーを表示します" short=""/>
+		<item id="36557" title="すべてのバーを非表示" tooltip="すべてのバーを非表示にします" status="すべてのバーを非表示にします" short=""/>
+		<item id="36558" title="作成者で表示" tooltip="" status="" short=""/>
+		<item id="36559" title="すべての作成者" tooltip="" status="" short=""/>
+		<item id="36560" title="作成者を選択..." tooltip="" status="" short=""/>
+		<item id="36562" title="直前のセッションを再開..." tooltip="直前のセッションからすべてのドキュメントを開きます..." status="直前のセッションからすべてのドキュメントを開きます..." short=""/>
+		<item id="36563" title="グループ化したポップアップを開く" tooltip="グループ化したすべてのポップアップを開きます" status="" short=""/>
+		<item id="36564" title="グループ化したポップアップを閉じる" tooltip="グループ化したすべてのポップアップを閉じます" status="" short=""/>
+		<item id="36569" title="シリアルキーを入力..." tooltip="" status="" short=""/>
+		<item id="36570" title="ページをOCR解析..." tooltip="OCRを使ってページ上のテキストを認識します..." status="OCRを使ってページ上のテキストを認識します..." short="OCR"/>
+		<item id="57600" title="新規ドキュメント(&amp;N)..." tooltip="" status="" short=""/>
+		<item id="57601" title="開く(&amp;O)..." tooltip="ドキュメントを開きます..." status="ドキュメントを開きます" short=""/>
+		<item id="57602" title="閉じる(&amp;C)" tooltip="アクティブなドキュメントを閉じます" status="アクティブなドキュメントを閉じます" short=""/>
+		<item id="57603" title="上書き保存(&amp;S)" tooltip="アクティブなドキュメントを保存します" status="アクティブなドキュメントを保存します" short=""/>
+		<item id="57604" title="名前を付けて保存(&amp;A)" tooltip="新しい名前でアクティブなドキュメントを保存します" status="新しい名前でアクティブなドキュメントを保存します" short=""/>
+		<item id="57607" title="印刷(&amp;P)..." tooltip="アクティブなドキュメントを印刷します" status="アクティブなドキュメントを印刷します" short=""/>
+		<item id="57611" title="名前を付けてコピーを保存(&amp;P)" tooltip="新しいファイルにアクティブなドキュメントを保存します" status="新しいファイルにアクティブなドキュメントを保存します" short=""/>
+		<item id="57612" title="電子メールで送信(&amp;E)" tooltip="電子メールにアクティブなドキュメントを添付します" status="電子メールにアクティブなドキュメントを添付します" short=""/>
+		<item id="57632" title="クリア(&amp;L)" tooltip="選択範囲を消去します" status="選択範囲を消去します" short=""/>
+		<item id="57634" title="コピー(&amp;C)" tooltip="選択範囲をコピーしてクリップボードに転送します" status="選択範囲をコピーしてクリップボードに転送します" short=""/>
+		<item id="57635" title="切り取り(&amp;C)" tooltip="選択範囲を切り取ってクリップボードに転送します" status="選択範囲を切り取ってクリップボードに転送します" short=""/>
+		<item id="57636" title="検索(&amp;F)" tooltip="指定されたテキストを検索します" status="指定されたテキストを検索します" short=""/>
+		<item id="57637" title="貼り付け(&amp;P)" tooltip="クリップボードの内容を挿入します" status="クリップボードの内容を挿入します" short=""/>
+		<item id="57642" title="すべて選択(&amp;L)" tooltip="すべて選択します" status="" short=""/>
+		<item id="57643" title="元に戻す(&amp;U)" tooltip="直前の操作を取り消します" status="直前の操作を取り消します" short=""/>
+		<item id="57644" title="やり直し(&amp;R)" tooltip="取り消した操作を再実行します" status="取り消した操作を再実行します" short=""/>
+		<item id="57649" title="アイコンの配置(&amp;I)" tooltip="ウィンドウの下にアイコンを配置します" status="ウィンドウの下にアイコンを配置します" short=""/>
+		<item id="57650" title="重ねて表示(&amp;C)" tooltip="ウィンドウを重ねて表示します" status="ウィンドウを重ねて表示します" short=""/>
+		<item id="57651" title="縦に並べる(&amp;H)" tooltip="並べてウィンドウを配置します" status="並べてウィンドウを配置します" short=""/>
+		<item id="57652" title="横に並べる(&amp;V)" tooltip="並べてウィンドウを配置します" status="並べてウィンドウを配置します" short=""/>
+		<item id="57653" title="ウィンドウの分割(&amp;S)" tooltip="アクティブなウィンドウを分割します" status="アクティブなウィンドウを分割します" short=""/>
+		<item id="57664" title="PDF-XChange Viewer について(&amp;A)..." tooltip="プログラム情報、バージョン番号および著作権を表示します" status="プログラム情報、バージョン番号および著作権を表示します" short=""/>
+		<item id="57665" title="終了(&amp;X)" tooltip="ドキュメントの変更内容の保存を確認後、アプリケーションを終了します" status="ドキュメントの変更内容の保存を確認後、アプリケーションを終了します" short=""/>
+		<item id="57670" title="ヘルプ(&amp;H)" tooltip="" status="" short=""/>
+		<item id="57718" title="左にスクロール" tooltip="左にスクロールします" status="" short=""/>
+		<item id="57719" title="右にスクロール" tooltip="右にスクロールします" status="" short=""/>
+		<item id="59393" title="ステータス バー(&amp;S)" tooltip="ステータス バーの表示/非表示を切り替えます" status="ステータス バーの表示/非表示を切り替えます" short=""/>
+	</commands>
+	<dialogs>
+		<dialog id="203" text="環境設定">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="3" text="適用" tooltip=""/>
+		</dialog>
+		<dialog id="204" text="">
+			<item id="1004" text="出力設定を作業領域の設定よりも優先する(&amp;O)" tooltip=""/>
+			<item id="1008" text="Black Point 補償を使用する(&amp;U)" tooltip=""/>
+			<item id="1038" text="色の設定(&amp;S):" tooltip=""/>
+			<item id="1039" text="RGB(&amp;R):" tooltip=""/>
+			<item id="1040" text="CMYK(&amp;C):" tooltip=""/>
+			<item id="1041" text="グレースケール(&amp;G):" tooltip=""/>
+			<item id="1042" text="エンジン(&amp;E):" tooltip=""/>
+			<item id="1200" text="作業領域" tooltip=""/>
+			<item id="1201" text="変換のオプション" tooltip=""/>
+		</dialog>
+		<dialog id="207" text="">
+			<item id="4" text="参照..." tooltip=""/>
+			<item id="5" text="参照..." tooltip=""/>
+			<item id="1009" text="最近の一覧のドキュメントの最大数(&amp;N):" tooltip=""/>
+			<item id="1014" text="スプラッシュ画面を表示する" tooltip=""/>
+			<item id="1015" text="複数の起動を許可する" tooltip=""/>
+			<item id="1016" text="最小化時にタスクトレイに表示" tooltip=""/>
+			<item id="1017" text="終了時にタスクトレイに表示" tooltip=""/>
+			<item id="1032" text="タブ付きドキュメント" tooltip=""/>
+			<item id="1033" text="複数のドキュメント(&amp;M)" tooltip=""/>
+			<item id="1035" text="それぞれのタブに [閉じる] ボタンを表示する" tooltip=""/>
+			<item id="1036" text="単一のドキュメント(&amp;S)" tooltip=""/>
+			<item id="1037" text="単一のドキュメントはタブバーを表示しない" tooltip=""/>
+			<item id="1038" text="ドキュメントを保存するときの保存方法を指定:" tooltip=""/>
+			<item id="1039" text="URL からのダウンロード先のフォルダ:" tooltip=""/>
+			<item id="1040" text="「名前を付けて保存」の既定の保存先を選択:" tooltip=""/>
+			<item id="1198" text="アプリケーションの起動" tooltip=""/>
+			<item id="1199" text="アプリケーション" tooltip=""/>
+			<item id="1200" text="ドキュメントのレイアウト" tooltip=""/>
+			<item id="1201" text="ドキュメントを開く" tooltip=""/>
+			<item id="1202" text="ドキュメントの保存" tooltip=""/>
+			<item id="1227" text="一覧のクリア" tooltip=""/>
+			<item id="1228" text="詳細..." tooltip=""/>
+			<item id="1450" text="アプリケーション開始時に直前の状態を復元する" tooltip=""/>
+			<item id="1451" text="利用後にダウンロードしたファイルを削除する" tooltip=""/>
+		</dialog>
+		<dialog id="212" text="ドキュメントのパスワードの入力">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1039" text="有効なドキュメントのユーザーまたは所有者のパスワードを入力してください:" tooltip=""/>
+		</dialog>
+		<dialog id="213" text="ドキュメントのプロパティ">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="3" text="適用" tooltip=""/>
+		</dialog>
+		<dialog id="214" text="">
+			<item id="1038" text="ファイル名:" tooltip=""/>
+			<item id="1039" text="場所:" tooltip=""/>
+			<item id="1040" text="作成日:" tooltip=""/>
+			<item id="1041" text="変更日:" tooltip=""/>
+			<item id="1042" text="ファイル サイズ:" tooltip=""/>
+			<item id="1043" text="タイトル(&amp;T):" tooltip=""/>
+			<item id="1044" text="作者(&amp;A):" tooltip=""/>
+			<item id="1200" text="ファイル情報(&amp;F)" tooltip=""/>
+			<item id="1201" text="ドキュメント情報(&amp;D)" tooltip=""/>
+			<item id="1203" text="サブタイトル(&amp;S):" tooltip=""/>
+			<item id="1204" text="キーワード(&amp;K):" tooltip=""/>
+			<item id="1205" text="作成者:" tooltip=""/>
+			<item id="1206" text="アプリケーション:" tooltip=""/>
+			<item id="1207" text="PDF のバージョン:" tooltip=""/>
+			<item id="1208" text="ページ数:" tooltip=""/>
+			<item id="1209" text="詳細情報(&amp;M)..." tooltip=""/>
+			<item id="1210" text="PDF ビューア:" tooltip=""/>
+		</dialog>
+		<dialog id="220" text="">
+			<item id="1038" text="印刷:" tooltip=""/>
+			<item id="1039" text="ドキュメントの変更:" tooltip=""/>
+			<item id="1040" text="コンテンツのコピー:" tooltip=""/>
+			<item id="1041" text="コメント:" tooltip=""/>
+			<item id="1042" text="フォーム フィールドの記入:" tooltip=""/>
+			<item id="1043" text="アクセシビリティのためのコンテンツのコピー:" tooltip=""/>
+			<item id="1044" text="ドキュメント アセンブリ:" tooltip=""/>
+			<item id="1045" text="ページの抽出:" tooltip=""/>
+			<item id="1047" text="署名:" tooltip=""/>
+			<item id="1049" text="テンプレートページの作成:" tooltip=""/>
+			<item id="1200" text="ドキュメントのセキュリティ" tooltip=""/>
+			<item id="1201" text="セキュリティ設定の詳細" tooltip=""/>
+			<item id="1203" text="ドキュメントのセキュリティ設定を行うことによってユーザーのドキュメント操作を制限します。" tooltip=""/>
+			<item id="1204" text="セキュリティ設定(&amp;M):" tooltip=""/>
+			<item id="1205" text="暗号化レベル:" tooltip=""/>
+			<item id="1206" text="ドキュメントを開くパスワード:" tooltip=""/>
+			<item id="1207" text="設定変更を許可するパスワード:" tooltip=""/>
+			<item id="1210" text="設定の変更(&amp;C)..." tooltip=""/>
+			<item id="1212" text="詳細..." tooltip=""/>
+		</dialog>
+		<dialog id="221" text="イメージへエクスポート">
+			<item id="1" text="エクスポート(&amp;X)..." tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="4" text="参照..." tooltip=""/>
+			<item id="6" text="マクロ" tooltip=""/>
+			<item id="7" text="オプション..." tooltip=""/>
+			<item id="1040" text="保存先のフォルダ:" tooltip=""/>
+			<item id="1041" text="ファイル名:" tooltip=""/>
+			<item id="1042" text="イメージの種類:" tooltip=""/>
+			<item id="1043" text="エクスポートの方法:" tooltip=""/>
+			<item id="1044" text="解像度:" tooltip=""/>
+			<item id="1201" text="名前を付けて保存" tooltip=""/>
+			<item id="1202" text="グラフィック" tooltip=""/>
+			<item id="1203" text="ページの背景:" tooltip=""/>
+			<item id="1204" text="ページ範囲" tooltip=""/>
+			<item id="1206" text="ズーム:" tooltip=""/>
+			<item id="1330" text="すべて(&amp;A)" tooltip=""/>
+			<item id="1331" text="選択されたページ(&amp;S)" tooltip=""/>
+			<item id="1332" text="現在のページ(&amp;R)" tooltip=""/>
+			<item id="1333" text="ページ指定(&amp;G):" tooltip=""/>
+			<item id="1335" text="サブセット:" tooltip=""/>
+			<item id="1339" text="現在の表示(&amp;V)" tooltip=""/>
+			<item id="1340" text="選択された画像(&amp;G)" tooltip=""/>
+			<item id="1341" text="降順で出力" tooltip=""/>
+			<item id="1387" text="ドキュメントの始めから数えてコンマで区切られたページ番号またはページ範囲を入力します。例えば、1, 3, 5-12 と入力します。" tooltip=""/>
+		</dialog>
+		<dialog id="222" text="イメージの保存のオプション">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+		</dialog>
+		<dialog id="223" text="">
+			<item id="1071" text="キャンセル" tooltip=""/>
+			<item id="1072" text="スキップ" tooltip=""/>
+		</dialog>
+		<dialog id="224" text="">
+			<item id="1038" text="既定の表示(&amp;V):" tooltip=""/>
+			<item id="1039" text="既定のページレイアウト(&amp;L):" tooltip=""/>
+			<item id="1040" text="既定のズーム設定(&amp;Z):" tooltip=""/>
+			<item id="1041" text="使用する解像度(&amp;R):" tooltip=""/>
+			<item id="1042" text="ピクセル" tooltip=""/>
+			<item id="1073" text="アート、トリム、ブリード ボックスを表示する" tooltip=""/>
+			<item id="1074" text="透過グリッドを表示する" tooltip=""/>
+			<item id="1079" text="URL からリンクを作成する" tooltip=""/>
+			<item id="1080" text="IPアドレスだけのURLを無視する&#10;" tooltip=""/>
+			<item id="1083" text="大きいイメージを表示する" tooltip=""/>
+			<item id="1126" text="開くときに最後に表示されたドキュメントの表示設定 (カスタム レイアウトとドキュメントのペインの可視性) を復元する。" tooltip=""/>
+			<item id="1200" text="ページの表示" tooltip=""/>
+			<item id="1201" text="初期表示" tooltip=""/>
+			<item id="1202" text="初期表示" tooltip=""/>
+			<item id="1228" text="開くときに最近の一覧から最後に使用されたレイアウトとページの拡大と縮小を復元する。" tooltip=""/>
+			<item id="1523" text="指定位置にジャンプするコマンドの実行中は現在の表示倍率変更を禁止する&#10;（このコマンドはブックマーク、ハイパーリンクやJavaScriptから実行されます）" tooltip=""/>
+		</dialog>
+		<dialog id="227" text="ファイルの置換の確認">
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="6" text="はい" tooltip=""/>
+			<item id="7" text="いいえ" tooltip=""/>
+			<item id="100" text="すべてはい" tooltip=""/>
+			<item id="101" text="すべていいえ" tooltip=""/>
+			<item id="102" text="ファイル名を生成" tooltip=""/>
+			<item id="103" text="保存..." tooltip=""/>
+			<item id="1040" text="このファイルを上書きしますか?" tooltip=""/>
+			<item id="1041" text="自動的に固有のファイル名を  &#10;生成することができます:" tooltip=""/>
+		</dialog>
+		<dialog id="228" text="ファイルの書き込みエラー">
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="3" text="中止" tooltip=""/>
+			<item id="4" text="再試行" tooltip=""/>
+			<item id="5" text="無視" tooltip=""/>
+			<item id="103" text="保存..." tooltip=""/>
+		</dialog>
+		<dialog id="229" text="印刷">
+			<item id="1" text="印刷..." tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="部数:" tooltip=""/>
+			<item id="1041" text="縮尺の種類:" tooltip=""/>
+			<item id="1043" text="名前(&amp;N):" tooltip=""/>
+			<item id="1044" text="状態:" tooltip=""/>
+			<item id="1086" text="プロパティ(&amp;P)..." tooltip=""/>
+			<item id="1087" text="ファイルへ印刷" tooltip=""/>
+			<item id="1088" text="両面印刷" tooltip=""/>
+			<item id="1094" text="部単位で印刷" tooltip=""/>
+			<item id="1096" text="グレースケールで印刷する" tooltip=""/>
+			<item id="1097" text="イメージとして印刷する" tooltip=""/>
+			<item id="1127" text="ページの縮尺" tooltip=""/>
+			<item id="1200" text="プリンタ" tooltip=""/>
+			<item id="1201" text="ページ範囲" tooltip=""/>
+			<item id="1203" text="種類:" tooltip=""/>
+			<item id="1204" text="印刷オプション" tooltip=""/>
+			<item id="1206" text="印刷対象:" tooltip=""/>
+			<item id="1207" text="印刷するシート:" tooltip=""/>
+			<item id="1330" text="すべて(&amp;A)" tooltip=""/>
+			<item id="1331" text="選択されたページ(&amp;S)" tooltip=""/>
+			<item id="1332" text="現在のページ(&amp;R)" tooltip=""/>
+			<item id="1333" text="ページ指定(&amp;G):" tooltip=""/>
+			<item id="1335" text="サブセット:" tooltip=""/>
+			<item id="1339" text="現在の表示(&amp;V)" tooltip=""/>
+			<item id="1340" text="選択された画像(&amp;G)" tooltip=""/>
+			<item id="1341" text="降順で出力" tooltip=""/>
+			<item id="1343" text="詳細..." tooltip=""/>
+			<item id="1387" text="ドキュメントの始めから数えてコンマで区切られたページ番号またはページ範囲を入力します。例えば、1, 3, 5-12 と入力します。" tooltip=""/>
+		</dialog>
+		<dialog id="230" text="">
+			<item id="1038" text="ズーム:" tooltip=""/>
+			<item id="1116" text="PDF ページのサイズにあわせて用紙選択する" tooltip=""/>
+			<item id="1120" text="用紙の向きを自動的に回転する" tooltip=""/>
+			<item id="1121" text="用紙の中央に配置する" tooltip=""/>
+		</dialog>
+		<dialog id="231" text="">
+			<item id="1038" text="1枚あたりの頁数" tooltip=""/>
+			<item id="1039" text="ページの並べ方" tooltip=""/>
+			<item id="1108" text="ページの枠を印刷する" tooltip=""/>
+			<item id="1120" text="ページを自動回転する" tooltip=""/>
+			<item id="1121" text="ページを枠の中央に配置する" tooltip=""/>
+			<item id="1128" text="頁を" tooltip=""/>
+		</dialog>
+		<dialog id="232" text="">
+			<item id="1038" text="ズーム:" tooltip=""/>
+			<item id="1040" text="オーバーラップ:" tooltip=""/>
+			<item id="1110" text="切り取り線を表示する" tooltip=""/>
+			<item id="1118" text="ラベルを表示する" tooltip=""/>
+			<item id="1120" text="内容に応じて用紙を自動的に回転する" tooltip=""/>
+			<item id="1121" text="内容に応じてページの中央に配置する" tooltip=""/>
+		</dialog>
+		<dialog id="236" text="指定ページに移動">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="ページ番号を入力してください:" tooltip=""/>
+		</dialog>
+		<dialog id="237" text="拡大と縮小">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="拡大率を選択してください:" tooltip=""/>
+		</dialog>
+		<dialog id="244" text="">
+			<item id="1038" text="検索する単語またはフレーズを入力してください" tooltip=""/>
+			<item id="1039" text="検索対象を選択してください" tooltip=""/>
+			<item id="1040" text="ソート:" tooltip=""/>
+			<item id="1099" text="オプション" tooltip=""/>
+			<item id="1139" text="今すぐ検索" tooltip=""/>
+			<item id="1142" text="クリア" tooltip=""/>
+		</dialog>
+		<dialog id="245" text="検索のオプション">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="検索範囲の設定:" tooltip=""/>
+			<item id="1126" text="大文字と小文字を区別する" tooltip=""/>
+			<item id="1128" text="コメントを含める" tooltip=""/>
+			<item id="1129" text="ブックマークを含める" tooltip=""/>
+			<item id="1130" text="サブディレクトリを検索する" tooltip=""/>
+			<item id="1131" text="添付を含める" tooltip=""/>
+			<item id="1145" text="完全に一致する単語のみ" tooltip=""/>
+			<item id="1193" text="最も近い範囲" tooltip=""/>
+			<item id="1194" text="ページ内" tooltip=""/>
+			<item id="1195" text="ドキュメント内" tooltip=""/>
+			<item id="1200" text="追加オプションの使用:" tooltip=""/>
+		</dialog>
+		<dialog id="246" text="高度な検索">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="次の単語をすべて含む:" tooltip=""/>
+			<item id="1039" text="次のフレーズに完全一致する:" tooltip=""/>
+			<item id="1040" text="次の単語のいずれかに一致する:" tooltip=""/>
+			<item id="1041" text="次の単語を含まない:" tooltip=""/>
+			<item id="1200" text="検索方法の指定:" tooltip=""/>
+		</dialog>
+		<dialog id="247" text="">
+			<item id="1038" text="システムメモリの使用量 (パーセント):" tooltip=""/>
+			<item id="1039" text="ページ描画の最大スレッド数:" tooltip=""/>
+			<item id="1040" text="サムネイル作成の最大スレッド数:" tooltip=""/>
+			<item id="1041" text="作業スレッドの最大数:" tooltip=""/>
+			<item id="1200" text="メモリ使用量" tooltip=""/>
+			<item id="1201" text="スレッド使用量" tooltip=""/>
+			<item id="1525" text="同期モードでページ描画する （アプリケーションの速度が低下する可能性があります）" tooltip=""/>
+			<item id="1553" text="システムメモリの使用量 (MB):" tooltip=""/>
+		</dialog>
+		<dialog id="257" text="ページの回転">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="回転(&amp;T):" tooltip=""/>
+			<item id="1039" text="ドキュメントの始めから数えてコンマで区切られたページ番号またはページ範囲を入力します。例えば、1, 3, 5-12 と入力します。" tooltip=""/>
+			<item id="1041" text="方向(&amp;D):" tooltip=""/>
+			<item id="1164" text="すべて(&amp;A)" tooltip=""/>
+			<item id="1165" text="選択されたページ(&amp;S)" tooltip=""/>
+			<item id="1166" text="現在のページ(&amp;R)" tooltip=""/>
+			<item id="1167" text="ページ指定(&amp;G):" tooltip=""/>
+			<item id="1200" text="適用するページ" tooltip=""/>
+		</dialog>
+		<dialog id="258" text="ページの削除">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="削除するページ(&amp;L):" tooltip=""/>
+			<item id="1039" text="ドキュメントの始めから数えてコンマで区切られたページ番号またはページ範囲を入力します。例えば、1, 3, 5-12 と入力します。" tooltip=""/>
+			<item id="1165" text="選択されたページ(&amp;S)" tooltip=""/>
+			<item id="1166" text="現在のページ(&amp;R)" tooltip=""/>
+			<item id="1167" text="ページ指定(&amp;G):" tooltip=""/>
+			<item id="1200" text="適用するページ" tooltip=""/>
+		</dialog>
+		<dialog id="265" text="プロパティ">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="3" text="適用" tooltip=""/>
+			<item id="1180" text="詳細設定(&amp;A)" tooltip=""/>
+		</dialog>
+		<dialog id="266" text="">
+			<item id="1038" text="開始点:" tooltip=""/>
+			<item id="1039" text="終点:" tooltip=""/>
+			<item id="1040" text="スタイル:" tooltip=""/>
+			<item id="1041" text="厚さ:" tooltip=""/>
+			<item id="1042" text="色:" tooltip=""/>
+			<item id="1043" text="塗りつぶしの色:" tooltip=""/>
+			<item id="1044" text="不透過度:" tooltip=""/>
+			<item id="1200" text="端点のスタイル" tooltip=""/>
+			<item id="1201" text="枠" tooltip=""/>
+		</dialog>
+		<dialog id="268" text="">
+			<item id="1038" text="作者:" tooltip=""/>
+			<item id="1039" text="サブタイトル:" tooltip=""/>
+			<item id="1040" text="作成日:" tooltip=""/>
+			<item id="1041" text="変更日:" tooltip=""/>
+		</dialog>
+		<dialog id="272" text="">
+			<item id="1038" text="スタイル:" tooltip=""/>
+			<item id="1039" text="厚さ:" tooltip=""/>
+			<item id="1040" text="色:" tooltip=""/>
+			<item id="1041" text="塗りつぶしの色:" tooltip=""/>
+			<item id="1042" text="不透過度:" tooltip=""/>
+			<item id="1200" text="枠" tooltip=""/>
+		</dialog>
+		<dialog id="273" text="">
+			<item id="1038" text="厚さ:" tooltip=""/>
+			<item id="1039" text="色:" tooltip=""/>
+			<item id="1040" text="不透過度:" tooltip=""/>
+			<item id="1200" text="枠" tooltip=""/>
+		</dialog>
+		<dialog id="274" text="">
+			<item id="1038" text="指定された単位は、ページのルーラー、ページ サイズ、グリッド、ガイド、ツールチップ等、アプリケーション全般で使用されます:" tooltip=""/>
+			<item id="1039" text="グリッド間の幅（&amp;W）:" tooltip=""/>
+			<item id="1040" text="グリッド間の高さ（&amp;H）:" tooltip=""/>
+			<item id="1041" text="左端のオフセット（&amp;L）:" tooltip=""/>
+			<item id="1042" text="上端のオフセット（&amp;T）:" tooltip=""/>
+			<item id="1043" text="サブ目盛りの分割（&amp;S）:" tooltip=""/>
+			<item id="1045" text="グリッド（&amp;G）:" tooltip=""/>
+			<item id="1046" text="ガイド（&amp;U）:" tooltip=""/>
+			<item id="1047" text="目盛りの分割（&amp;D）:" tooltip=""/>
+			<item id="1200" text="単位" tooltip=""/>
+			<item id="1201" text="グリッドとガイド" tooltip=""/>
+			<item id="1483" text="グリッドを表示" tooltip=""/>
+			<item id="1484" text="ガイドを表示" tooltip=""/>
+			<item id="1490" text="ルーラーを表示（&amp;R）" tooltip=""/>
+			<item id="1491" text="端数を表示（&amp;F）" tooltip=""/>
+			<item id="1499" text="カスタマイズ..." tooltip=""/>
+			<item id="1502" text="スナップを使用（グリッド、ガイド、オブジェクト）" tooltip=""/>
+		</dialog>
+		<dialog id="278" text="問題の報告">
+			<item id="1" text="次へ(&amp;X)..." tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="4" text="参照(&amp;B)..." tooltip=""/>
+			<item id="1038" text="メッセージは電子メールで送信されます - 送信前に編集することができます" tooltip=""/>
+			<item id="1039" text="問題の種類を選択してください(&amp;H):" tooltip=""/>
+			<item id="1040" text="説明 (問題の具体的な内容を入力してください)(&amp;D):" tooltip=""/>
+			<item id="1041" text="添付ファイル (PDF ドキュメント) を送信する場合は選択してください" tooltip=""/>
+			<item id="1126" text="インストールされているフォントとカラー プロファイルについての情報を含める (推奨)" tooltip=""/>
+			<item id="1127" text="インストールされているプリンタとその設定情報を含める (推奨)" tooltip=""/>
+			<item id="1128" text="オペレーティング システムのバージョン情報を含める (推奨)" tooltip=""/>
+			<item id="1183" text="PDF-XChangeビューアのバージョン情報を含める (推奨)" tooltip=""/>
+			<item id="1524" text="このプロセスで使用しているDLLを含むすべてのモジュールの一覧を含める （推奨）" tooltip=""/>
+		</dialog>
+		<dialog id="279" text="">
+			<item id="1038" text="アイコン:" tooltip=""/>
+			<item id="1039" text="色:" tooltip=""/>
+			<item id="1040" text="不透過度:" tooltip=""/>
+			<item id="1200" text="外観" tooltip=""/>
+		</dialog>
+		<dialog id="282" text="JavaScript コンソール">
+			<item id="1" text="実行(&amp;R)" tooltip=""/>
+			<item id="2" text="閉じる" tooltip=""/>
+			<item id="1200" text="スクリプト" tooltip=""/>
+			<item id="1201" text="出力" tooltip=""/>
+		</dialog>
+		<dialog id="283" text="">
+			<item id="1038" text="線の終点:" tooltip=""/>
+			<item id="1039" text="スタイル:" tooltip=""/>
+			<item id="1040" text="厚さ:" tooltip=""/>
+			<item id="1041" text="ストロークの色:" tooltip=""/>
+			<item id="1042" text="塗りつぶしの色:" tooltip=""/>
+			<item id="1043" text="不透過度:" tooltip=""/>
+			<item id="1200" text="端点のスタイル" tooltip=""/>
+			<item id="1201" text="枠" tooltip=""/>
+		</dialog>
+		<dialog id="284" text="">
+			<item id="1038" text="色:" tooltip=""/>
+			<item id="1039" text="不透過度:" tooltip=""/>
+			<item id="1200" text="外観" tooltip=""/>
+		</dialog>
+		<dialog id="290" text="スタンプ">
+		</dialog>
+		<dialog id="291" text="">
+			<item id="1038" text="PDF-XChange を既定の PDF ビューアにする:" tooltip=""/>
+			<item id="1039" text="既定の PDF ビューアとして以前に関連付けされていたアプリケーションを復元する&#10; (まだインストールされている場合):" tooltip=""/>
+			<item id="1127" text="ブラウザで PDF を表示する" tooltip=""/>
+			<item id="1162" text="既定の PDF ビューアにする" tooltip=""/>
+			<item id="1197" text="ファイルの関連付けの削除" tooltip=""/>
+			<item id="1200" text="ファイルの関連付け" tooltip=""/>
+		</dialog>
+		<dialog id="292" text="">
+			<item id="1038" text="不透過度:" tooltip=""/>
+			<item id="1200" text="外観" tooltip=""/>
+		</dialog>
+		<dialog id="295" text="">
+			<item id="1038" text="ログイン名(&amp;L):" tooltip=""/>
+			<item id="1039" text="名前(&amp;N):" tooltip=""/>
+			<item id="1040" text="タイトル(&amp;T):" tooltip=""/>
+			<item id="1041" text="組織名(&amp;O):" tooltip=""/>
+			<item id="1042" text="組織単位(&amp;U):" tooltip=""/>
+			<item id="1043" text="電子メール アドレス(&amp;E):" tooltip=""/>
+			<item id="1044" text="識別情報はコメント、レビューおよびデジタル署名で使用される可能性があります。ここで入力された情報はアプリケーションによってのみ使用され、知らないうちに送信されることはありません。" tooltip=""/>
+			<item id="1200" text="識別" tooltip=""/>
+		</dialog>
+		<dialog id="296" text="">
+			<item id="1038" text="利用する言語を選択してください:" tooltip=""/>
+			<item id="1200" text="言語" tooltip=""/>
+			<item id="1219" text="ユーザーの地域設定を使用する" tooltip=""/>
+			<item id="1220" text="カスタム言語を選択する" tooltip=""/>
+			<item id="1221" text="アプリケーションの既定の言語を使用する" tooltip=""/>
+		</dialog>
+		<dialog id="297" text="URL からドキュメントを開く">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="ドキュメントの URL を入力します:" tooltip=""/>
+		</dialog>
+		<dialog id="298" text="カスタマイズ">
+			<item id="1" text="閉じる" tooltip=""/>
+			<item id="1316" text="すべてリセット" tooltip=""/>
+		</dialog>
+		<dialog id="299" text="">
+			<item id="1039" text="ツールバー:" tooltip=""/>
+			<item id="1234" text="リセット" tooltip=""/>
+			<item id="1235" text="名前を変更" tooltip=""/>
+			<item id="1237" text="新規..." tooltip=""/>
+			<item id="1250" text="削除" tooltip=""/>
+		</dialog>
+		<dialog id="300" text="">
+			<item id="1038" text="コマンドを追加するには、コマンドリストからコマンドをドラッグし、目的のツールバーまたはメニューにドロップしてください" tooltip=""/>
+			<item id="1039" text="カテゴリー:" tooltip=""/>
+			<item id="1040" text="コマンド:" tooltip=""/>
+			<item id="1314" text="コマンドリスト、メニューおよびツールバーで、PRO版限定のコマンドを表示" tooltip=""/>
+			<item id="1320" text="新規..." tooltip=""/>
+			<item id="1321" text="プロパティ" tooltip=""/>
+		</dialog>
+		<dialog id="301" text="">
+			<item id="1038" text="メニュー／ツールバー:" tooltip=""/>
+			<item id="1039" text="共通フォント（すべての表示とダイアログで使用）:" tooltip=""/>
+			<item id="1233" text="ツール バーにスクリーンチップを表示する" tooltip=""/>
+			<item id="1234" text="スクリーンチップにショートカットを表示する" tooltip=""/>
+			<item id="1235" text="メニューにショートカットを表示する" tooltip=""/>
+			<item id="1236" text="ツールバーの3D表示を有効にする" tooltip=""/>
+			<item id="1237" text="ツールバー間にセパレータを表示する" tooltip=""/>
+			<item id="1261" text="画面フォント" tooltip=""/>
+			<item id="1536" text="適用" tooltip=""/>
+		</dialog>
+		<dialog id="302" text="">
+			<item id="1038" text="ページの背景:" tooltip=""/>
+			<item id="1039" text="塗りつぶしの色:" tooltip=""/>
+			<item id="1040" text="ストロークの色:" tooltip=""/>
+			<item id="1126" text="テキストの色:" tooltip=""/>
+			<item id="1127" text="ライン アート:" tooltip=""/>
+			<item id="1128" text="黒文字またはライン アートの色のみ変更する" tooltip=""/>
+			<item id="1200" text="ドキュメントの配色のオプション" tooltip=""/>
+			<item id="1220" text="カスタムの配色を使用する(&amp;C):" tooltip=""/>
+			<item id="1235" text="Windows の配色を使用する(&amp;W)" tooltip=""/>
+			<item id="1236" text="高コントラスト配色のプリセットから選択する(&amp;H):" tooltip=""/>
+			<item id="1240" text="ドキュメントの配色の設定を上書きする" tooltip=""/>
+			<item id="1241" text="テキストと同様にライン アートの色を変更する" tooltip=""/>
+		</dialog>
+		<dialog id="303" text="">
+			<item id="1038" text="背景色(&amp;B):" tooltip=""/>
+			<item id="1200" text="全画面表示の外観" tooltip=""/>
+			<item id="1239" text="マウスカーソル(&amp;C):" tooltip=""/>
+			<item id="1530" text="プレゼンテーションモードを有効にする" tooltip=""/>
+			<item id="1540" text="メインウィンドウの背景を表示" tooltip=""/>
+			<item id="1551" text="ナビゲーションバーを表示する" tooltip=""/>
+			<item id="1552" text="現在の表示設定（ページ、レイアウト、倍率、表示方法）を保持する" tooltip=""/>
+		</dialog>
+		<dialog id="304" text="">
+			<item id="1038" text="解像度(&amp;R):" tooltip=""/>
+			<item id="1039" text="dpi" tooltip=""/>
+			<item id="1096" text="スナップショット イメージをグレースケールにする" tooltip=""/>
+			<item id="1200" text="スナップショット イメージのオプション" tooltip=""/>
+			<item id="1201" text="スナップショットのサウンド" tooltip=""/>
+			<item id="1242" text="スナップショット イメージに固定解像度を使用する(&amp;F):" tooltip=""/>
+			<item id="1244" text="特殊なスナップショットのサウンドを再生しない" tooltip=""/>
+		</dialog>
+		<dialog id="305" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+		</dialog>
+		<dialog id="306" text="">
+			<item id="1038" text="タイトルテキスト:" tooltip=""/>
+			<item id="1039" text="スタイル:" tooltip=""/>
+			<item id="1040" text="色:" tooltip=""/>
+		</dialog>
+		<dialog id="307" text="">
+			<item id="1038" text="新しいアクションを追加したり、リストに存在するアクションを編集することができます。またドラッグ&amp;ドロップでアクションの順序を変更することも可能です。" tooltip=""/>
+			<item id="1039" text="トリガを選択(&amp;T):" tooltip=""/>
+		</dialog>
+		<dialog id="308" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="3" text="現在の表示設定を追加" tooltip=""/>
+			<item id="4" text="..." tooltip=""/>
+			<item id="5" text="削除" tooltip=""/>
+			<item id="1038" text="「現在の表示設定を使用」ボタンを選択して、新しい定義を作成することができます" tooltip=""/>
+			<item id="1039" text="ファイル名:" tooltip=""/>
+			<item id="1040" text="ページ:" tooltip=""/>
+			<item id="1041" text="X:" tooltip=""/>
+			<item id="1042" text="Y:" tooltip=""/>
+			<item id="1043" text="幅:" tooltip=""/>
+			<item id="1044" text="高さ:" tooltip=""/>
+			<item id="1045" text="表示先(&amp;O):" tooltip=""/>
+			<item id="1066" text="プレビュー" tooltip=""/>
+			<item id="1067" text="決定" tooltip=""/>
+			<item id="1126" text="継承" tooltip=""/>
+			<item id="1127" text="継承" tooltip=""/>
+			<item id="1200" text="定義情報" tooltip=""/>
+			<item id="1252" text="ズームを使用" tooltip=""/>
+			<item id="1253" text="矩形を使用" tooltip=""/>
+			<item id="1261" text="対象のドキュメント" tooltip=""/>
+			<item id="1271" text="拡大" tooltip=""/>
+			<item id="1272" text="縮小" tooltip=""/>
+			<item id="1275" text="現在の表示設定を使用" tooltip=""/>
+			<item id="1435" text="ページ番号を使用" tooltip=""/>
+			<item id="1436" text="すでに存在する定義情報を使用" tooltip=""/>
+		</dialog>
+		<dialog id="309" text="">
+			<item id="1039" text="氏名(&amp;N):" tooltip=""/>
+			<item id="1041" text="組織名(&amp;O):" tooltip=""/>
+			<item id="1043" text="メールアドレス(&amp;E):" tooltip=""/>
+			<item id="1045" text="登録キー(&amp;R):" tooltip=""/>
+			<item id="1200" text="登録情報" tooltip=""/>
+			<item id="1274" text="フリー版でPRO版の機能を表示しない" tooltip=""/>
+			<item id="1282" text="広告を表示しない" tooltip=""/>
+		</dialog>
+		<dialog id="310" text="">
+			<item id="1038" text="フォント(&amp;F):" tooltip=""/>
+			<item id="1044" text="フォントサイズ(&amp;S):" tooltip=""/>
+			<item id="1200" text="JavaScript" tooltip=""/>
+			<item id="1201" text="JavaScript コンソール" tooltip=""/>
+			<item id="1276" text="JavaScript の実行を許可する (&amp;J)" tooltip=""/>
+			<item id="1277" text="JavaScript の対話的なコンソールの使用を許可する (&amp;C)" tooltip=""/>
+			<item id="1278" text="エラーやメッセージをコンソールに表示 (&amp;E)" tooltip=""/>
+			<item id="1279" text="JavaScript を実行するときに警告を表示する (&amp;W)" tooltip=""/>
+		</dialog>
+		<dialog id="311" text="指定行に移動">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="行番号:" tooltip=""/>
+		</dialog>
+		<dialog id="312" text="ページのトリミング">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="適用先(&amp;Y):" tooltip=""/>
+			<item id="1039" text="ドキュメントの始めから数えてコンマで区切られたページ番号またはページ範囲を入力します。例えば、1, 3, 5-12 と入力します。" tooltip=""/>
+			<item id="1041" text="ボックス(&amp;B):" tooltip=""/>
+			<item id="1042" text="左(&amp;L):" tooltip=""/>
+			<item id="1043" text="右(&amp;H):" tooltip=""/>
+			<item id="1044" text="上(&amp;T):" tooltip=""/>
+			<item id="1045" text="下(&amp;M):" tooltip=""/>
+			<item id="1046" text="単位(&amp;U):" tooltip=""/>
+			<item id="1126" text="安全な余白を設定(&amp;W)" tooltip=""/>
+			<item id="1127" text="安全な空白を取り除く(&amp;V)" tooltip=""/>
+			<item id="1129" text="比率を維持する" tooltip=""/>
+			<item id="1164" text="すべて(&amp;A)" tooltip=""/>
+			<item id="1165" text="選択したページ(&amp;S)" tooltip=""/>
+			<item id="1166" text="現在のページ(&amp;R)" tooltip=""/>
+			<item id="1167" text="ページ番号(&amp;G):" tooltip=""/>
+			<item id="1200" text="ページの範囲" tooltip=""/>
+			<item id="1201" text="余白のトリミング" tooltip=""/>
+			<item id="1202" text="余白の調整" tooltip=""/>
+			<item id="1285" text="すべてのボックスを表示(&amp;X)" tooltip=""/>
+			<item id="1290" text="ゼロに設定(&amp;Z)" tooltip=""/>
+			<item id="1291" text="元に戻す(&amp;O)" tooltip=""/>
+		</dialog>
+		<dialog id="313" text="ページの挿入">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="4" text="参照..." tooltip=""/>
+			<item id="1038" text="ページの種類" tooltip=""/>
+			<item id="1039" text="ドキュメントの始めから数えてコンマで区切られたページ番号またはページ範囲を入力します。例えば、1, 3, 5-12 と入力します。" tooltip=""/>
+			<item id="1042" text="位置:" tooltip=""/>
+			<item id="1164" text="すべて(&amp;A)" tooltip=""/>
+			<item id="1167" text="ページ番号(&amp;G):" tooltip=""/>
+			<item id="1200" text="元のページ範囲" tooltip=""/>
+			<item id="1201" text="元のデータ" tooltip=""/>
+			<item id="1202" text="挿入先" tooltip=""/>
+			<item id="1292" text="ファイルから" tooltip=""/>
+			<item id="1293" text="既に開いているドキュメントから" tooltip=""/>
+			<item id="1295" text="最初のページ" tooltip=""/>
+			<item id="1296" text="最後のページ" tooltip=""/>
+			<item id="1297" text="ページ番号:" tooltip=""/>
+		</dialog>
+		<dialog id="314" text="ページの抽出">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="4" text="参照..." tooltip=""/>
+			<item id="6" text="マクロ(&amp;M)" tooltip=""/>
+			<item id="1038" text="適用先:" tooltip=""/>
+			<item id="1039" text="ドキュメントの始めから数えてコンマで区切られたページ番号またはページ範囲を入力します。例えば、1, 3, 5-12 と入力します。" tooltip=""/>
+			<item id="1041" text="ファイル名(&amp;N):" tooltip=""/>
+			<item id="1043" text="保存するフォルダを選択(&amp;F):" tooltip=""/>
+			<item id="1126" text="抽出したページを別のファイルに保存する(&amp;E)" tooltip=""/>
+			<item id="1127" text="抽出したページを新しいファイルに保存する(&amp;P)" tooltip=""/>
+			<item id="1164" text="すべて(&amp;A)" tooltip=""/>
+			<item id="1165" text="選択したページ(&amp;S)" tooltip=""/>
+			<item id="1166" text="現在のページ(&amp;R)" tooltip=""/>
+			<item id="1167" text="ページ番号(&amp;G):" tooltip=""/>
+			<item id="1200" text="ページの範囲" tooltip=""/>
+			<item id="1201" text="オプション" tooltip=""/>
+			<item id="1202" text="保存先" tooltip=""/>
+			<item id="1299" text="抽出後にページを削除する(&amp;D)" tooltip=""/>
+		</dialog>
+		<dialog id="315" text="">
+			<item id="1200" text="コメント作成オプション" tooltip=""/>
+			<item id="1201" text="コメント表示オプション" tooltip=""/>
+			<item id="1234" text="ツールチップを有効にする" tooltip=""/>
+			<item id="1235" text="コメントのポップアップにタイトルを表示する" tooltip=""/>
+			<item id="1236" text="コメントのポップアップとツールチップに作成者を表示する" tooltip=""/>
+			<item id="1237" text="コメントのポップアップに更新日時を表示する" tooltip=""/>
+			<item id="1302" text="コメントのポップアップに囲み文字をコピーする(&amp;Y)" tooltip=""/>
+			<item id="1303" text="選択したテキストを強調、斜体、下線のコメントポップアップにコピーする(&amp;X)" tooltip=""/>
+			<item id="1304" text="マウスの位置にコメントを貼りつけ（&amp;P）" tooltip=""/>
+			<item id="1354" text="テキストインジケーターを表示する" tooltip=""/>
+			<item id="1507" text="シンプルなフォーカス表示" tooltip=""/>
+			<item id="1538" text="コメントツールの排他モードを有効にする&#10;- SHIFTキーが押下されなければコメントへのマウスアクセスをブロックします" tooltip=""/>
+			<item id="1540" text="コメントツール以外（選択ツール、拡大ツール等）の排他モードを有効にする&#10;- SHIFTキーが押下されなければコメントへのマウスアクセスをブロックします" tooltip=""/>
+			<item id="1548" text="コメントツール以外（選択ツール、拡大ツール等）の排他モードを有効にする&#10;- SHIFTキーが押下されなければコメントへのマウスアクセスをブロックします" tooltip=""/>
+		</dialog>
+		<dialog id="316" text="空白ページの挿入">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1039" text="ページの向き:" tooltip=""/>
+			<item id="1040" text="×" tooltip=""/>
+			<item id="1041" text="ページ数:" tooltip=""/>
+			<item id="1042" text="挿入位置:" tooltip=""/>
+			<item id="1200" text="ページ設定" tooltip=""/>
+			<item id="1202" text="挿入先" tooltip=""/>
+			<item id="1292" text="既定のサイズ:" tooltip=""/>
+			<item id="1293" text="カスタムサイズ:" tooltip=""/>
+			<item id="1295" text="最初のページ" tooltip=""/>
+			<item id="1296" text="最後のページ" tooltip=""/>
+			<item id="1297" text="ページ番号:" tooltip=""/>
+			<item id="1304" text="縦" tooltip=""/>
+			<item id="1305" text="横" tooltip=""/>
+		</dialog>
+		<dialog id="317" text="スタンプの名称変更">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="新しい名称を入力してください" tooltip=""/>
+		</dialog>
+		<dialog id="318" text="スタンプの追加">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="4" text="参照(&amp;B)..." tooltip=""/>
+			<item id="1039" text="ファイル名(&amp;F):" tooltip=""/>
+			<item id="1041" text="ページ番号(&amp;P):" tooltip=""/>
+			<item id="1042" text="タイトル(&amp;T):" tooltip=""/>
+			<item id="1200" text="元のデータ" tooltip=""/>
+			<item id="1201" text="スタンプ情報" tooltip=""/>
+		</dialog>
+		<dialog id="321" text="テキストのプロパティ">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="3" text="適用" tooltip=""/>
+		</dialog>
+		<dialog id="322" text="">
+			<item id="1313" text="クリップボードにコピー" tooltip=""/>
+		</dialog>
+		<dialog id="324" text="コマンドのプロパティ">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="イメージ:" tooltip=""/>
+			<item id="1039" text="タイトル:" tooltip=""/>
+			<item id="1040" text="ツールチップ:" tooltip=""/>
+			<item id="1041" text="ステータス:" tooltip=""/>
+			<item id="1042" text="省略タイトル:" tooltip=""/>
+			<item id="1043" text="ID:" tooltip=""/>
+			<item id="1044" text="名前:" tooltip=""/>
+			<item id="1126" text="JavaScript でチェックする" tooltip=""/>
+			<item id="1127" text="JavaScript で有効にする" tooltip=""/>
+			<item id="1198" text="コマンドのアクション:" tooltip=""/>
+			<item id="1200" text="識別情報:" tooltip=""/>
+			<item id="1201" text="ショートカット:" tooltip=""/>
+			<item id="1202" text="実行方法の設定:" tooltip=""/>
+			<item id="1203" text="名前(Adobe):" tooltip=""/>
+			<item id="1204" text="キー:" tooltip=""/>
+			<item id="1205" text="使用先:" tooltip=""/>
+			<item id="1206" text="使用者:" tooltip=""/>
+			<item id="1261" text="表示:" tooltip=""/>
+			<item id="1292" text="既定のアクション:" tooltip=""/>
+			<item id="1293" text="JavaScript を実行:" tooltip=""/>
+			<item id="1324" text="編集..." tooltip=""/>
+			<item id="1325" text="編集..." tooltip=""/>
+			<item id="1326" text="編集..." tooltip=""/>
+		</dialog>
+		<dialog id="325" text="">
+			<item id="1039" text="テキストのガンマ値(&amp;G):" tooltip=""/>
+			<item id="1076" text="テキストをスムージングする" tooltip=""/>
+			<item id="1077" text="ラインをスムージングする" tooltip=""/>
+			<item id="1078" text="イメージをスムージングする" tooltip=""/>
+			<item id="1200" text="テキストのレンダリング" tooltip=""/>
+			<item id="1202" text="スムージング" tooltip=""/>
+		</dialog>
+		<dialog id="326" text="新規ツールバー">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="ツールバーのタイトル:" tooltip=""/>
+		</dialog>
+		<dialog id="327" text="注釈の削除">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="適用先:" tooltip=""/>
+			<item id="1039" text="ドキュメントの始めから数えてコンマで区切られたページ番号またはページ範囲を入力します。例えば、1, 3, 5-12 と入力します。" tooltip=""/>
+			<item id="1041" text="印刷非対象:" tooltip=""/>
+			<item id="1042" text="フォームフィールド:" tooltip=""/>
+			<item id="1164" text="すべて(&amp;A)" tooltip=""/>
+			<item id="1165" text="選択したページ(&amp;S)" tooltip=""/>
+			<item id="1166" text="現在のページ(&amp;R)" tooltip=""/>
+			<item id="1167" text="ページ番号(&amp;G):" tooltip=""/>
+			<item id="1200" text="ページの範囲" tooltip=""/>
+			<item id="1201" text="オプション" tooltip=""/>
+		</dialog>
+		<dialog id="328" text="コメントの要約">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="グループ化:" tooltip=""/>
+			<item id="1040" text="ソート:" tooltip=""/>
+			<item id="1041" text="ファイルの種類:" tooltip=""/>
+			<item id="1126" text="返信コメントを除外する" tooltip=""/>
+			<item id="1200" text="ページの範囲" tooltip=""/>
+			<item id="1201" text="出力" tooltip=""/>
+			<item id="1202" text="オプション" tooltip=""/>
+			<item id="1261" text="一般" tooltip=""/>
+			<item id="1330" text="すべて(&amp;A)" tooltip=""/>
+			<item id="1331" text="選択したページ(&amp;S)" tooltip=""/>
+			<item id="1332" text="現在のページ(&amp;R)" tooltip=""/>
+			<item id="1333" text="ページ番号(&amp;G):" tooltip=""/>
+			<item id="1335" text="適用先:" tooltip=""/>
+			<item id="1341" text="非表示のコメントを含める" tooltip=""/>
+			<item id="1356" text="作成後に新しいドキュメントを表示する" tooltip=""/>
+			<item id="1387" text="ドキュメントの始めから数えてコンマで区切られたページ番号またはページ範囲を入力します。例えば、1, 3, 5-12 と入力します。" tooltip=""/>
+		</dialog>
+		<dialog id="329" text="">
+			<item id="1038" text="レイアウト:" tooltip=""/>
+			<item id="1039" text="用紙サイズ:" tooltip=""/>
+			<item id="1343" text="詳細設定" tooltip=""/>
+			<item id="1351" text="グループごとに別々のページに配置する" tooltip=""/>
+			<item id="1352" text="コメントのないページをスキップする" tooltip=""/>
+		</dialog>
+		<dialog id="332" text="">
+			<item id="4" text="参照..." tooltip=""/>
+			<item id="6" text="マクロ" tooltip=""/>
+			<item id="1038" text="出力先フォルダ:" tooltip=""/>
+			<item id="1039" text="ファイル名:" tooltip=""/>
+		</dialog>
+		<dialog id="333" text="">
+			<item id="4" text="参照..." tooltip=""/>
+			<item id="6" text="マクロ" tooltip=""/>
+			<item id="1038" text="出力先フォルダ:" tooltip=""/>
+			<item id="1039" text="ファイル名:" tooltip=""/>
+			<item id="1041" text="用紙サイズ:" tooltip=""/>
+			<item id="1351" text="グループごとに別々のページに配置する" tooltip=""/>
+		</dialog>
+		<dialog id="334" text="">
+			<item id="4" text="参照..." tooltip=""/>
+			<item id="6" text="マクロ" tooltip=""/>
+			<item id="1038" text="出力先フォルダ:" tooltip=""/>
+			<item id="1039" text="ファイル名:" tooltip=""/>
+			<item id="1261" text="テキストのエンコード" tooltip=""/>
+			<item id="1292" text="Unicode" tooltip=""/>
+			<item id="1293" text="MS-DOS" tooltip=""/>
+			<item id="1294" text="Windows" tooltip=""/>
+			<item id="1355" text="その他:" tooltip=""/>
+		</dialog>
+		<dialog id="335" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1180" text="詳細(&amp;A)" tooltip=""/>
+		</dialog>
+		<dialog id="336" text="">
+			<item id="1038" text="枠線のスタイル:" tooltip=""/>
+			<item id="1039" text="枠線の太さ:" tooltip=""/>
+			<item id="1040" text="枠線の色:" tooltip=""/>
+			<item id="1041" text="強調のスタイル:" tooltip=""/>
+		</dialog>
+		<dialog id="337" text="測定ラベル">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="ラベルに追加する文字列:" tooltip=""/>
+		</dialog>
+		<dialog id="341" text="新規の空白ドキュメント">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1039" text="ページの向き:" tooltip=""/>
+			<item id="1040" text="×" tooltip=""/>
+			<item id="1041" text="ページ数:" tooltip=""/>
+			<item id="1200" text="ページ" tooltip=""/>
+			<item id="1292" text="既定のサイズ:" tooltip=""/>
+			<item id="1293" text="カスタムサイズ:" tooltip=""/>
+			<item id="1304" text="縦" tooltip=""/>
+			<item id="1305" text="横" tooltip=""/>
+		</dialog>
+		<dialog id="342" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="URLを入力してください" tooltip=""/>
+		</dialog>
+		<dialog id="343" text="">
+			<item id="1039" text="列数:" tooltip=""/>
+			<item id="1040" text="列間のスペース:" tooltip=""/>
+			<item id="1041" text="単位:" tooltip=""/>
+			<item id="1042" text="スタイル:" tooltip=""/>
+			<item id="1043" text="太さ:" tooltip=""/>
+			<item id="1044" text="色:" tooltip=""/>
+			<item id="1367" text="列間に線を引く" tooltip=""/>
+		</dialog>
+		<dialog id="344" text="オプション">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+		</dialog>
+		<dialog id="345" text="テキストファイルから新規ドキュメントを作成">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1040" text="テキストのエンコード:" tooltip=""/>
+			<item id="1041" text="段落の判定:" tooltip=""/>
+			<item id="1042" text="ファイルの配置方法:" tooltip=""/>
+			<item id="1075" text="表示..." tooltip=""/>
+			<item id="1099" text="オプション..." tooltip=""/>
+			<item id="1200" text="選択ファイルのオプション" tooltip=""/>
+			<item id="1202" text="元のテキストファイル" tooltip=""/>
+			<item id="1376" text="ファイルを追加..." tooltip=""/>
+			<item id="1377" text="フォルダを追加..." tooltip=""/>
+			<item id="1378" text="削除" tooltip=""/>
+			<item id="1379" text="上へ" tooltip=""/>
+			<item id="1380" text="下へ" tooltip=""/>
+		</dialog>
+		<dialog id="346" text="">
+			<item id="1038" text="開始:" tooltip=""/>
+			<item id="1039" text="終了:" tooltip=""/>
+			<item id="1040" text="スタイル:" tooltip=""/>
+			<item id="1041" text="太さ:" tooltip=""/>
+			<item id="1042" text="色:" tooltip=""/>
+			<item id="1043" text="塗りつぶしの色:" tooltip=""/>
+			<item id="1044" text="不透明度:" tooltip=""/>
+			<item id="1045" text="長さ:" tooltip=""/>
+			<item id="1046" text="オフセット:" tooltip=""/>
+			<item id="1047" text="延長:" tooltip=""/>
+			<item id="1200" text="編集のスタイル" tooltip=""/>
+			<item id="1201" text="枠" tooltip=""/>
+			<item id="1202" text="引き出し線" tooltip=""/>
+			<item id="1203" text="テキスト" tooltip=""/>
+			<item id="1362" text="線の中にテキストを表示する" tooltip=""/>
+		</dialog>
+		<dialog id="347" text="すべての設定をリセット">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="本当にすべての設定情報をデフォルトにリセットしますか？" tooltip=""/>
+			<item id="1126" text="確認済みサイトの履歴を残す：確認済みサイトとして選択した情報を保持します" tooltip=""/>
+			<item id="1128" text="問い合わせ結果の履歴を残す：警告、確認等のダイアログで選択した内容を&#10;保持します" tooltip=""/>
+			<item id="1129" text="言語選択を保持する" tooltip=""/>
+			<item id="1373" text="「最近使用したドキュメント」の一覧を保持する" tooltip=""/>
+		</dialog>
+		<dialog id="348" text="ドキュメントの詳細情報">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+		</dialog>
+		<dialog id="351" text="">
+			<item id="6" text="マクロ(&amp;M)" tooltip=""/>
+			<item id="1040" text="スタイル:" tooltip=""/>
+			<item id="1041" text="太さ:" tooltip=""/>
+			<item id="1042" text="色:" tooltip=""/>
+			<item id="1044" text="背景色:" tooltip=""/>
+			<item id="1128" text="ヘッダーの上に罫線を配置する" tooltip=""/>
+			<item id="1381" text="罫線を引く" tooltip=""/>
+			<item id="1385" text="タイトルヘッダーを使用する" tooltip=""/>
+			<item id="1388" text="フォーマット..." tooltip=""/>
+		</dialog>
+		<dialog id="352" text="画像ファイルから新規ドキュメントを作成">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1099" text="オプション" tooltip=""/>
+			<item id="1202" text="元の画像ファイル" tooltip=""/>
+			<item id="1251" text="編集..." tooltip=""/>
+			<item id="1376" text="ファイルを追加..." tooltip=""/>
+			<item id="1377" text="フォルダを追加..." tooltip=""/>
+			<item id="1378" text="削除" tooltip=""/>
+			<item id="1379" text="上へ" tooltip=""/>
+			<item id="1380" text="下へ" tooltip=""/>
+			<item id="1406" text="インポート..." tooltip=""/>
+		</dialog>
+		<dialog id="353" text="オプション">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+		</dialog>
+		<dialog id="354" text="">
+			<item id="1039" text="列数:" tooltip=""/>
+			<item id="1040" text="行数:" tooltip=""/>
+			<item id="1041" text="列間のスペース:" tooltip=""/>
+			<item id="1042" text="行間のスペース:" tooltip=""/>
+			<item id="1043" text="水平方向:" tooltip=""/>
+			<item id="1044" text="垂直方向:" tooltip=""/>
+			<item id="1200" text="イメージのレイアウト" tooltip=""/>
+			<item id="1201" text="イメージの整列" tooltip=""/>
+		</dialog>
+		<dialog id="355" text="">
+			<item id="1039" text="右値以上に適用:" tooltip=""/>
+			<item id="1040" text="ピクセル" tooltip=""/>
+			<item id="1041" text="ピクセル" tooltip=""/>
+			<item id="1042" text="右値以上に適用:" tooltip=""/>
+			<item id="1043" text="ピクセル" tooltip=""/>
+			<item id="1044" text="ピクセル" tooltip=""/>
+			<item id="1126" text="ディザ補正を使用" tooltip=""/>
+			<item id="1200" text="ハイカラー／グレースケール画像" tooltip=""/>
+			<item id="1201" text="インデックスカラー画像" tooltip=""/>
+			<item id="1202" text="モノクロ画像" tooltip=""/>
+			<item id="1203" text="右値以上に適用:" tooltip=""/>
+			<item id="1204" text="ピクセル" tooltip=""/>
+			<item id="1205" text="ピクセル" tooltip=""/>
+			<item id="1206" text="しきい値:" tooltip=""/>
+			<item id="1401" text="ディザ補正を使用" tooltip=""/>
+		</dialog>
+		<dialog id="362" text="">
+			<item id="6" text="マクロ" tooltip=""/>
+			<item id="1039" text="背景色:" tooltip=""/>
+			<item id="1128" text="イメージ上にラベルを配置する" tooltip=""/>
+			<item id="1200" text="イメージラベル" tooltip=""/>
+			<item id="1388" text="フォーマット..." tooltip=""/>
+			<item id="1407" text="それぞれの画像に別々のテキストラベルを使用する" tooltip=""/>
+		</dialog>
+		<dialog id="363" text="イメージの編集">
+		</dialog>
+		<dialog id="364" text="">
+			<item id="1038" text="サイド:" tooltip=""/>
+			<item id="1039" text="余白:" tooltip=""/>
+			<item id="1040" text="折丁中のシート数:" tooltip=""/>
+			<item id="1041" text="タイプ:" tooltip=""/>
+			<item id="1120" text="自動的に向きを回転する" tooltip=""/>
+			<item id="1121" text="自動的に中央揃えにする" tooltip=""/>
+			<item id="1414" text="右端で折り返す" tooltip=""/>
+		</dialog>
+		<dialog id="365" text="詳細な印刷設定">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="イメージのプリンタ出力最高解像度:" tooltip=""/>
+			<item id="1039" text="グラデーションの解像度:" tooltip=""/>
+			<item id="1040" text="テキストを図形として出力:" tooltip=""/>
+			<item id="1041" text="ポップアップの透明度:" tooltip=""/>
+			<item id="1416" text="コメントとポップアップを印刷する" tooltip=""/>
+		</dialog>
+		<dialog id="366" text="ドキュメントのパスワードを入力してください">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+		</dialog>
+		<dialog id="369" text="プロパティ">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1180" text="詳細(&amp;A)" tooltip=""/>
+		</dialog>
+		<dialog id="371" text="">
+			<item id="1038" text="作者:" tooltip=""/>
+			<item id="1039" text="タイトル:" tooltip=""/>
+			<item id="1040" text="作成日:" tooltip=""/>
+			<item id="1041" text="更新日:" tooltip=""/>
+		</dialog>
+		<dialog id="372" text="">
+			<item id="1045" text="長さ:" tooltip=""/>
+			<item id="1046" text="オフセット:" tooltip=""/>
+			<item id="1047" text="延長:" tooltip=""/>
+			<item id="1362" text="線の中にテキストを表示する" tooltip=""/>
+		</dialog>
+		<dialog id="373" text="スキャナから新規ドキュメントを作成">
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1039" text="イメージを取り込むスキャナを選択:" tooltip=""/>
+			<item id="1423" text="スキャン..." tooltip=""/>
+			<item id="1424" text="更新" tooltip=""/>
+		</dialog>
+		<dialog id="374" text="">
+			<item id="1038" text="塗りつぶし色:" tooltip=""/>
+			<item id="1039" text="枠の色:" tooltip=""/>
+			<item id="1126" text="ドキュメントを開いたときにフォーム領域のデフォルト強調設定を使用する" tooltip=""/>
+			<item id="1128" text="すべてのフォーム領域を強調する" tooltip=""/>
+			<item id="1129" text="コンボボックス" tooltip=""/>
+			<item id="1130" text="チェックボックス" tooltip=""/>
+			<item id="1131" text="リストボックス" tooltip=""/>
+			<item id="1132" text="ボタン" tooltip=""/>
+			<item id="1133" text="ラジオボタン" tooltip=""/>
+			<item id="1134" text="テキストボックス" tooltip=""/>
+			<item id="1135" text="署名" tooltip=""/>
+			<item id="1136" text="必須入力のみ強調する" tooltip=""/>
+			<item id="1200" text="一般" tooltip=""/>
+			<item id="1201" text="強調するフォーム領域" tooltip=""/>
+			<item id="1425" text="領域から自動計算する" tooltip=""/>
+			<item id="1426" text="フォーカスを示す矩形を表示する" tooltip=""/>
+		</dialog>
+		<dialog id="376" text="">
+			<item id="1039" text="×" tooltip=""/>
+			<item id="1040" text="ページの向き:" tooltip=""/>
+			<item id="1041" text="左:" tooltip=""/>
+			<item id="1042" text="上:" tooltip=""/>
+			<item id="1043" text="右:" tooltip=""/>
+			<item id="1044" text="下:" tooltip=""/>
+			<item id="1200" text="余白" tooltip=""/>
+			<item id="1292" text="既定のサイズ:" tooltip=""/>
+			<item id="1293" text="カスタムサイズ" tooltip=""/>
+			<item id="1304" text="縦" tooltip=""/>
+			<item id="1305" text="横" tooltip=""/>
+		</dialog>
+		<dialog id="377" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+		</dialog>
+		<dialog id="378" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="4" text="参照(&amp;R)..." tooltip=""/>
+			<item id="5" text="参照(&amp;W)..." tooltip=""/>
+			<item id="1039" text="適用先(&amp;I):" tooltip=""/>
+			<item id="1040" text="操作(&amp;O):" tooltip=""/>
+			<item id="1043" text="ファイル(&amp;F):" tooltip=""/>
+			<item id="1044" text="ディレクトリ(&amp;D):" tooltip=""/>
+			<item id="1045" text="パラメータ(&amp;P):" tooltip=""/>
+			<item id="1201" text="適用先" tooltip=""/>
+			<item id="1202" text="オプション" tooltip=""/>
+		</dialog>
+		<dialog id="380" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+		</dialog>
+		<dialog id="381" text="">
+			<item id="1200" text="ページ上のアイテムのタブオーダーを選択" tooltip=""/>
+			<item id="1441" text="指定なし(&amp;U)" tooltip=""/>
+			<item id="1442" text="行単位(&amp;R)" tooltip=""/>
+			<item id="1443" text="列単位(&amp;C)" tooltip=""/>
+			<item id="1444" text="ドキュメント構造(&amp;S)" tooltip=""/>
+		</dialog>
+		<dialog id="382" text="">
+			<item id="1038" text="ナビゲーションビュー(&amp;N):" tooltip=""/>
+			<item id="1039" text="ページレイアウト(&amp;L):" tooltip=""/>
+			<item id="1040" text="拡大率(&amp;M):" tooltip=""/>
+			<item id="1041" text="開くページ(&amp;P):" tooltip=""/>
+			<item id="1043" text="タイトルバーに表示(&amp;S):" tooltip=""/>
+			<item id="1200" text="レイアウトと拡大率" tooltip=""/>
+			<item id="1201" text="ウィンドウ オプション" tooltip=""/>
+			<item id="1202" text="ユーザーインターフェイス オプション" tooltip=""/>
+			<item id="36507" text="全画面モードで開く(&amp;F)" tooltip=""/>
+			<item id="36508" text="メニューバーを非表示(&amp;E)" tooltip=""/>
+			<item id="36509" text="ツールバーを非表示(&amp;T)" tooltip=""/>
+			<item id="36510" text="コントロールボタンを非表示(&amp;W)" tooltip=""/>
+		</dialog>
+		<dialog id="383" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+		</dialog>
+		<dialog id="384" text="ショートカットの競合">
+			<item id="2" text="閉じる" tooltip=""/>
+		</dialog>
+		<dialog id="389" text="">
+			<item id="1038" text="以下の検索プロバイダがインストールされています" tooltip=""/>
+			<item id="1443" text="上に移動" tooltip=""/>
+			<item id="1444" text="下に移動" tooltip=""/>
+			<item id="1445" text="削除" tooltip=""/>
+			<item id="1446" text="新規追加" tooltip=""/>
+			<item id="1509" text="検索プロバイダのアイコンを取得するためにインターネットに接続することを許可する" tooltip=""/>
+			<item id="1510" text="すべての検索プロバイダを無効にする" tooltip=""/>
+		</dialog>
+		<dialog id="390" text="新しい検索プロバイダの追加">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1017" text="検索プロバイダの作成" tooltip=""/>
+			<item id="1040" text="以下の手順で検索プロバイダを追加します" tooltip=""/>
+			<item id="1041" text="1. ブラウザに追加する検索エンジンを表示" tooltip=""/>
+			<item id="1042" text="2. 「TEST」というキーワードを入力して検索実行（大文字で入力）" tooltip=""/>
+			<item id="1043" text="3. 検索結果のURLをコピーして、「URL」フィールドにペースト" tooltip=""/>
+			<item id="1044" text="4. 残りのフィールドを入力して「OK」ボタンを押下" tooltip=""/>
+			<item id="1200" text="プロバイダ情報" tooltip=""/>
+			<item id="1203" text="URL(&amp;U):" tooltip=""/>
+			<item id="1204" text="名称(&amp;N):" tooltip=""/>
+			<item id="1205" text="説明(&amp;D):" tooltip=""/>
+			<item id="1206" text="エンコードの種類(&amp;E):" tooltip=""/>
+		</dialog>
+		<dialog id="391" text="ダイアログ">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+		</dialog>
+		<dialog id="392" text="パスワード セキュリティ - 設定">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="対象:" tooltip=""/>
+			<item id="1041" text="権限変更のためのパスワード:" tooltip=""/>
+			<item id="1042" text="互換性:" tooltip=""/>
+			<item id="1043" text="暗号化レベル:" tooltip=""/>
+			<item id="1045" text="印刷を許可(&amp;P):" tooltip=""/>
+			<item id="1046" text="変更を許可(&amp;H):" tooltip=""/>
+			<item id="1050" text="パスワードの再入力:" tooltip=""/>
+			<item id="1126" text="ドキュメントの権限を変更するためのパスワードを要求" tooltip=""/>
+			<item id="1200" text="暗号化する対象を選択" tooltip=""/>
+			<item id="1201" text="パスワードと権限" tooltip=""/>
+			<item id="1450" text="読み上げデバイスがテキストにアクセスできるようにする" tooltip=""/>
+			<item id="1451" text="ドキュメントを開くときにパスワードを要求(&amp;O)" tooltip=""/>
+		</dialog>
+		<dialog id="393" text="ドキュメント セキュリティ">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="1038" text="印刷:" tooltip=""/>
+			<item id="1039" text="ドキュメントの変更:" tooltip=""/>
+			<item id="1040" text="コメント:" tooltip=""/>
+			<item id="1041" text="コンテンツのコピー:" tooltip=""/>
+			<item id="1042" text="フォームフィールドの入力または署名:" tooltip=""/>
+			<item id="1043" text="コンテンツのアクセシビリティの有効:" tooltip=""/>
+			<item id="1044" text="ドキュメント アセンブリ:" tooltip=""/>
+			<item id="1045" text="セキュリティの方法:" tooltip=""/>
+			<item id="1046" text="ドキュメントを開くパスワード:" tooltip=""/>
+			<item id="1047" text="権限変更のためのパスワード:" tooltip=""/>
+			<item id="1048" text="暗号化レベル:" tooltip=""/>
+			<item id="1049" text="ページの抽出:" tooltip=""/>
+		</dialog>
+		<dialog id="394" text="ドキュメントへの署名">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="4" text="参照(&amp;B)..." tooltip=""/>
+			<item id="1038" text="証明書(&amp;U):" tooltip=""/>
+			<item id="1039" text="ファイル名(&amp;N):" tooltip=""/>
+			<item id="1040" text="署名の理由(&amp;A):" tooltip=""/>
+			<item id="1041" text="場所(&amp;L):" tooltip=""/>
+			<item id="1042" text="コンタクト情報(&amp;I):" tooltip=""/>
+			<item id="1043" text="テンプレート(&amp;T):" tooltip=""/>
+			<item id="1044" text="** プレビューをクリックすると、デジタル署名のレイアウトを変更する画面を表示します" tooltip=""/>
+			<item id="1132" text="管理(&amp;M)..." tooltip=""/>
+			<item id="1200" text="1. 証明書を選択（デジタルID）" tooltip=""/>
+			<item id="1201" text="2. 詳細内容の設定" tooltip=""/>
+			<item id="1452" text="システムストアにある証明書を使用(&amp;S):" tooltip=""/>
+			<item id="1453" text="ファイルの証明書を使用(&amp;F):" tooltip=""/>
+			<item id="1456" text="参照(&amp;W)..." tooltip=""/>
+			<item id="1457" text="証明書を表示(&amp;V)..." tooltip=""/>
+			<item id="1458" text="証明書を作成(&amp;C)..." tooltip=""/>
+			<item id="1513" text="管理(&amp;M)..." tooltip=""/>
+			<item id="1514" text="タイムスタンプサーバー(&amp;U):" tooltip=""/>
+		</dialog>
+		<dialog id="395" text="デジタル署名のテンプレート">
+			<item id="1" text="閉じる(&amp;L)" tooltip=""/>
+			<item id="1234" text="リセット(&amp;R)" tooltip=""/>
+			<item id="1250" text="削除(&amp;D)" tooltip=""/>
+			<item id="1251" text="編集(&amp;E)..." tooltip=""/>
+			<item id="1374" text="以下のリストをダブルクリックして、テンプレートを変更することができます" tooltip=""/>
+			<item id="1459" text="コピー(&amp;C)" tooltip=""/>
+		</dialog>
+		<dialog id="396" text="デジタル署名のテンプレートを編集">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1039" text="テンプレート名(&amp;N):" tooltip=""/>
+			<item id="1040" text="テキストの向き(&amp;X):" tooltip=""/>
+			<item id="1126" text="理由(&amp;R)" tooltip=""/>
+			<item id="1127" text="発行者(&amp;M)" tooltip=""/>
+			<item id="1128" text="日付(&amp;E)" tooltip=""/>
+			<item id="1129" text="識別名(&amp;I)" tooltip=""/>
+			<item id="1130" text="ラベル(&amp;B)" tooltip=""/>
+			<item id="1131" text="標題(&amp;S)" tooltip=""/>
+			<item id="1201" text="グラフィックスの表示" tooltip=""/>
+			<item id="1202" text="テキストの表示" tooltip=""/>
+			<item id="1462" text="アイコンなし(&amp;O)" tooltip=""/>
+			<item id="1463" text="発行者を表示(&amp;A)" tooltip=""/>
+			<item id="1464" text="カスタム(&amp;C):" tooltip=""/>
+			<item id="1466" text="場所(&amp;T)" tooltip=""/>
+			<item id="1468" text="ロゴを表示(&amp;D)" tooltip=""/>
+			<item id="1469" text="選択(&amp;H)..." tooltip=""/>
+		</dialog>
+		<dialog id="397" text="自己証明書（自己発行デジタルID）の作成">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="自己証明書の作成は、PDFドキュメントへのデジタル署名を無償で実現する手段を提供しますが、サードパーティの妥当性チェックが要求されるような場面では不適切かもしれません" tooltip=""/>
+			<item id="1040" text="発行者(&amp;N):" tooltip=""/>
+			<item id="1041" text="組織単位(&amp;U):" tooltip=""/>
+			<item id="1042" text="組織名称(&amp;O):" tooltip=""/>
+			<item id="1043" text="Eメールアドレス(&amp;E):" tooltip=""/>
+			<item id="1044" text="国／地域(&amp;C):" tooltip=""/>
+			<item id="1045" text="あなたの証明書（デジタルID）はWindows証明書ストアに保存され、他のアプリケーションからも利用できます。証明書はWindowsログオンによって保護されます。" tooltip=""/>
+			<item id="1046" text="標準的なPKCS#12フォーマットのデジタルIDファイルを作成し、パスワードで保護します。このファイルフォーマットはWebブラウザを含む多くのセキュリティアプリケーションにサポートされています。PKCS#12ファイルは .pfx または .p12 というファイル拡張子がついています。" tooltip=""/>
+			<item id="1200" text="証明書（デジタルID）のプロパティ" tooltip=""/>
+			<item id="1201" text="自己証明書の保存先" tooltip=""/>
+			<item id="1203" text="キーのアルゴリズム(&amp;A):" tooltip=""/>
+			<item id="1205" text="パスワード(&amp;P):" tooltip=""/>
+			<item id="1206" text="パスワードの確認(&amp;O):" tooltip=""/>
+			<item id="1208" text="ASCIIコード" tooltip=""/>
+			<item id="1292" text="ユニコード" tooltip=""/>
+			<item id="1476" text="Windows証明書ストア(&amp;W)" tooltip=""/>
+			<item id="1477" text="PKCS#12 デジタルIDファイル(&amp;F)" tooltip=""/>
+		</dialog>
+		<dialog id="398" text="パスワードの入力">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="パスワードを入力してください" tooltip=""/>
+		</dialog>
+		<dialog id="399" text="">
+			<item id="1038" text="発行者:" tooltip=""/>
+			<item id="1039" text="理由:" tooltip=""/>
+			<item id="1040" text="場所:" tooltip=""/>
+			<item id="1041" text="日付:" tooltip=""/>
+			<item id="1042" text="コンタクト情報:" tooltip=""/>
+			<item id="1043" text="作成者:" tooltip=""/>
+			<item id="1200" text="署名情報" tooltip=""/>
+			<item id="1201" text="妥当性のサマリー" tooltip=""/>
+			<item id="1481" text="証明書を表示(&amp;V)" tooltip=""/>
+		</dialog>
+		<dialog id="400" text="署名のプロパティ">
+			<item id="1" text="閉じる(&amp;C)" tooltip=""/>
+		</dialog>
+		<dialog id="401" text="ガイドを追加">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="位置:" tooltip=""/>
+			<item id="1039" text="ガイドの数:" tooltip=""/>
+			<item id="1040" text="ガイドの間隔:" tooltip=""/>
+			<item id="1200" text="ページの範囲" tooltip=""/>
+			<item id="1201" text="ガイド" tooltip=""/>
+			<item id="1330" text="すべて（&amp;A）" tooltip=""/>
+			<item id="1331" text="選択したページ（&amp;S）" tooltip=""/>
+			<item id="1332" text="現在のページ（&amp;R）" tooltip=""/>
+			<item id="1333" text="ページ番号（&amp;G）:" tooltip=""/>
+			<item id="1335" text="ページの種類:" tooltip=""/>
+			<item id="1387" text="ドキュメントの始めから数えてコンマで区切られたページ番号またはページ範囲を入力します。例えば、1, 3, 5-12 と入力します。" tooltip=""/>
+			<item id="1492" text="横" tooltip=""/>
+			<item id="1493" text="縦" tooltip=""/>
+		</dialog>
+		<dialog id="402" text="スナップのカスタマイズ">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="感度（&amp;T）:" tooltip=""/>
+			<item id="1039" text="感度（&amp;H）:" tooltip=""/>
+			<item id="1040" text="感度（&amp;R）" tooltip=""/>
+			<item id="1041" text="スナップ先（&amp;N）:" tooltip=""/>
+			<item id="1127" text="オブジェクトにスナップする（&amp;O）" tooltip=""/>
+			<item id="1200" text="ガイド" tooltip=""/>
+			<item id="1201" text="オブジェクト" tooltip=""/>
+			<item id="1261" text="グリッド" tooltip=""/>
+			<item id="1485" text="グリッドにスナップする（&amp;G）" tooltip=""/>
+			<item id="1486" text="ガイドにスナップする（&amp;U）" tooltip=""/>
+			<item id="1501" text="スナップ位置を表示する（&amp;M）" tooltip=""/>
+			<item id="1504" text="すべて選択（&amp;S）" tooltip=""/>
+			<item id="1505" text="すべて非選択（&amp;D）" tooltip=""/>
+			<item id="1506" text="コメントだけを対象とする" tooltip=""/>
+		</dialog>
+		<dialog id="403" text="添付ファイルの説明を編集">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="説明:" tooltip=""/>
+		</dialog>
+		<dialog id="404" text="詳細設定">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1009" text="最近の一覧のドキュメントの最大数:" tooltip=""/>
+			<item id="1126" text="終了時にリストをクリア" tooltip=""/>
+			<item id="1127" text="詳細なツールチップを表示" tooltip=""/>
+			<item id="1227" text="クリア..." tooltip=""/>
+			<item id="1510" text="固定されたアイテムをリストのトップに表示" tooltip=""/>
+			<item id="1512" text="リストからアイテムを削除する前に確認する" tooltip=""/>
+		</dialog>
+		<dialog id="405" text="">
+			<item id="1038" text="新規作成時のPDFヴァージョンを指定します" tooltip=""/>
+			<item id="1200" text="PDFのヴァージョン" tooltip=""/>
+		</dialog>
+		<dialog id="406" text="">
+			<item id="1" text="OK" tooltip=""/>
+		</dialog>
+		<dialog id="407" text="">
+			<item id="1038" text="プログラム実行に対する許可:" tooltip=""/>
+			<item id="1039" text="添付ファイルの読み込みに対する許可:" tooltip=""/>
+			<item id="1200" text="タイムスタンプ" tooltip=""/>
+			<item id="1201" text="ファイルの読み込みとプログラム実行のオプション" tooltip=""/>
+			<item id="1513" text="管理(&amp;M)..." tooltip=""/>
+			<item id="1514" text="以下のタイムスタンプサーバーを使用:" tooltip=""/>
+			<item id="1552" text="ドキュメントを開くときに確認メッセージを表示しない" tooltip=""/>
+		</dialog>
+		<dialog id="408" text="タイムスタンプサーバー">
+			<item id="1" text="閉じる" tooltip=""/>
+			<item id="1247" text="追加..." tooltip=""/>
+			<item id="1251" text="編集..." tooltip=""/>
+			<item id="1445" text="削除" tooltip=""/>
+		</dialog>
+		<dialog id="409" text="">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="名前(&amp;N):" tooltip=""/>
+			<item id="1039" text="サーバーのURL(&amp;U):" tooltip=""/>
+			<item id="1040" text="ユーザー名(&amp;U):" tooltip=""/>
+			<item id="1041" text="パスワード(&amp;P):" tooltip=""/>
+			<item id="1261" text="サーバーの設定" tooltip=""/>
+			<item id="1517" text="サーバーの利用には認証が必要(&amp;A)" tooltip=""/>
+		</dialog>
+		<dialog id="410" text="標題の初期表示を編集">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1038" text="このスタイルを適用する新しいコメントに対して標題の初期表示を設定することができます" tooltip=""/>
+			<item id="1293" text="このスタイルのみに適用する標題を使用:" tooltip=""/>
+			<item id="1520" text="すべてのスタイルに適用する標題を使用:" tooltip=""/>
+		</dialog>
+		<dialog id="411" text="拡大率のデフォルト値を設定">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+		</dialog>
+		<dialog id="413" text="">
+			<item id="1" text="閉じる(&amp;C)" tooltip=""/>
+			<item id="1531" text="レポートの送信(&amp;R)" tooltip=""/>
+		</dialog>
+		<dialog id="414" text="コメント作成者の選択">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1039" text="表示したいコメント作成者をリストから選択してフィルタ表示することができます。他の作成者のコメントは非表示になります。&#10;&#10;注意：この表示設定はドキュメントに保存されません" tooltip=""/>
+			<item id="1261" text="フィルタの設定" tooltip=""/>
+			<item id="1532" text="すべて選択(&amp;S)" tooltip=""/>
+			<item id="1533" text="すべて解除(&amp;C)" tooltip=""/>
+			<item id="1534" text="以下のコメントのみ表示" tooltip=""/>
+		</dialog>
+		<dialog id="422" text="">
+			<item id="2" text="キャンセル(&amp;C)" tooltip=""/>
+			<item id="3" text="排他的にファイルを開く(&amp;X)" tooltip=""/>
+			<item id="4" text="再試行(&amp;T)" tooltip=""/>
+			<item id="1038" text="非ブロッキングモードでの &quot;%1&quot; ファイルオープン失敗：&#10;%2&#10;&#10;実行する処理を選択してください" tooltip=""/>
+		</dialog>
+		<dialog id="509" text="">
+			<item id="1038" text="メニュー／ツールバー:" tooltip=""/>
+			<item id="1039" text="共通UIフォント（すべての表示やダイアログで使用されます）" tooltip=""/>
+			<item id="1040" text="全体:" tooltip=""/>
+			<item id="1041" text="選択した部分:" tooltip=""/>
+			<item id="1042" text="強調表示:" tooltip=""/>
+			<item id="1043" text="テキスト:" tooltip=""/>
+			<item id="1044" text="ウィンドウ:" tooltip=""/>
+			<item id="1200" text="色" tooltip=""/>
+			<item id="1201" text="メインウィンドウの背景スタイル" tooltip=""/>
+			<item id="1203" text="背景色:" tooltip=""/>
+			<item id="1261" text="フォント" tooltip=""/>
+			<item id="1541" text="既定値に戻す" tooltip=""/>
+			<item id="1549" text="グラデーション表示" tooltip=""/>
+		</dialog>
+		<dialog id="510" text="ページのOCR解析">
+			<item id="1" text="OK" tooltip=""/>
+			<item id="2" text="キャンセル" tooltip=""/>
+			<item id="1041" text="優先する言語(&amp;L):" tooltip=""/>
+			<item id="1042" text="他の言語..." tooltip=""/>
+			<item id="1043" text="画像の品質(&amp;Q):" tooltip=""/>
+			<item id="1044" text="dpi" tooltip=""/>
+			<item id="1045" text="精度(&amp;C):" tooltip=""/>
+			<item id="1200" text="ページ範囲" tooltip=""/>
+			<item id="1202" text="出力(&amp;O)" tooltip=""/>
+			<item id="1203" text="PDF出力の種類(&amp;T):" tooltip=""/>
+			<item id="1204" text="認識オプション(&amp;G)" tooltip=""/>
+			<item id="1330" text="すべて(&amp;A)" tooltip=""/>
+			<item id="1331" text="選択したページ(&amp;S)" tooltip=""/>
+			<item id="1332" text="現在のページ(&amp;R)" tooltip=""/>
+			<item id="1333" text="ページ指定(&amp;G):" tooltip=""/>
+			<item id="1387" text="ドキュメントの始めから数えてコンマで区切られたページ番号またはページ範囲を入力します。例えば、1, 3, 5-12 と入力します。" tooltip=""/>
+		</dialog>
+	</dialogs>
+	<strings count="1241">
+		<item id="0" text="時計回りに 90 度"/>
+		<item id="1" text="反時計回りに 90 度"/>
+		<item id="2" text="180 度"/>
+		<item id="3" text="すべてのページ"/>
+		<item id="4" text="偶数のページのみ"/>
+		<item id="5" text="奇数のページのみ"/>
+		<item id="6" text="すべての向きのページ"/>
+		<item id="7" text="縦向きのページ"/>
+		<item id="8" text="横向きのページ"/>
+		<item id="9" text="標準の名前"/>
+		<item id="10" text="ローカル名"/>
+		<item id="11" text="一般"/>
+		<item id="12" text="一般の設定"/>
+		<item id="13" text="色の管理"/>
+		<item id="14" text="色の管理の設定"/>
+		<item id="15" text="ページの表示"/>
+		<item id="16" text="ページの表示のオプション"/>
+		<item id="17" text="パフォーマンス"/>
+		<item id="18" text="パフォーマンスのオプション"/>
+		<item id="19" text="測定"/>
+		<item id="20" text="単位、グリッド、ルーラーのオプション"/>
+		<item id="21" text="識別情報"/>
+		<item id="22" text="識別情報のオプション"/>
+		<item id="23" text="言語"/>
+		<item id="24" text="名前を付けて保存(&amp;S)..."/>
+		<item id="25" text="ファイルの関連付け"/>
+		<item id="26" text="ファイルの関連付けの設定"/>
+		<item id="27" text="カテゴリ"/>
+		<item id="28" text="(全体で %1 ページ)"/>
+		<item id="29" text="ドキュメントのプロパティ..."/>
+		<item id="30" text="コメントのプロパティ"/>
+		<item id="31" text="デジタル署名用の完全な保存または増分の保存"/>
+		<item id="32" text="常に完全な保存"/>
+		<item id="33" text="常に増分の保存"/>
+		<item id="34" text="高速な Web 表示用の保存"/>
+		<item id="35" text="自動"/>
+		<item id="36" text="ページのみ"/>
+		<item id="37" text="ブックマークパネルとページ"/>
+		<item id="38" text="サムネイルパネルとページ"/>
+		<item id="39" text="最後に使用された表示"/>
+		<item id="40" text="単一のページ"/>
+		<item id="41" text="連続"/>
+		<item id="42" text="見開き"/>
+		<item id="43" text="連続 - 見開き"/>
+		<item id="44" text="実際のサイズ"/>
+		<item id="45" text="ページに合わせる"/>
+		<item id="46" text="幅に合わせる"/>
+		<item id="47" text="表示領域に合わせる"/>
+		<item id="48" text="物理メモリ (RAM): 全体で %1、%2 がピーク時に使用可能"/>
+		<item id="49" text="物理メモリ (RAM): 全体で %1"/>
+		<item id="50" text="%1 CPU構成のシステム"/>
+		<item id="51" text="cm"/>
+		<item id="52" text="センチメートル"/>
+		<item id="53" text="センチメートル"/>
+		<item id="54" text="in"/>
+		<item id="55" text="インチ"/>
+		<item id="56" text="インチ"/>
+		<item id="57" text="mm"/>
+		<item id="58" text="ミリメートル"/>
+		<item id="59" text="ミリメートル"/>
+		<item id="60" text="p"/>
+		<item id="61" text="パイカ"/>
+		<item id="62" text="パイカ"/>
+		<item id="63" text="pt"/>
+		<item id="64" text="ポイント"/>
+		<item id="65" text="ポイント"/>
+		<item id="66" text="&apos;%1&apos; の起動"/>
+		<item id="67" text="他の PDF ビューアがありません"/>
+		<item id="68" text="(全体で %1 ページ)"/>
+		<item id="69" text="ドキュメント &quot;%1&quot; はパスワード保護されています。"/>
+		<item id="70" text="すべてのページ"/>
+		<item id="71" text="奇数のページ"/>
+		<item id="72" text="偶数のページ"/>
+		<item id="73" text="なし"/>
+		<item id="74" text="プリンタの余白に合わせる"/>
+		<item id="75" text="プリンタの余白まで縮小する"/>
+		<item id="76" text="大きいページを並べる"/>
+		<item id="77" text="すべてのページを並べる"/>
+		<item id="78" text="シートあたりの複数のページ"/>
+		<item id="79" text="すべてのページを単一のマルチページ イメージ ファイルに保存する"/>
+		<item id="80" text="それぞれのページ範囲を別々のマルチページ イメージ ファイルに保存する"/>
+		<item id="81" text="それぞれのページを別々の単一ページ イメージ ファイルに保存する"/>
+		<item id="82" text="ファイル &quot;%2&quot; はフォルダ &quot;%1&quot; 配下に存在し、すでに選択されています"/>
+		<item id="83" text="サイズ: %1&#10;変更日: %2"/>
+		<item id="84" text="ファイル &quot;%1&quot; を書き込めませんでした:"/>
+		<item id="85" text="OK"/>
+		<item id="86" text="キャンセル"/>
+		<item id="87" text="はい"/>
+		<item id="88" text="いいえ"/>
+		<item id="89" text="中止"/>
+		<item id="90" text="再試行"/>
+		<item id="91" text="無視"/>
+		<item id="92" text="試行"/>
+		<item id="93" text="続行"/>
+		<item id="94" text="すべてはい"/>
+		<item id="95" text="すべていいえ"/>
+		<item id="96" text="フォルダ &quot;%1&quot; を作成できませんでした:"/>
+		<item id="97" text="ドキュメント &quot;%1&quot; は変更されました。&#10;&#10;閉じる前に変更を保存しますか?"/>
+		<item id="98" text="ドキュメント &quot;%1&quot; はデジタル署名を含みます。&#10;デジタル署名はドキュメントを保存すると失われます。&#10;増分の保存を行うことによってデジタル署名を維持できますが、ファイル サイズは増加します。&#10;&#10;増分の保存を行いますか?"/>
+		<item id="99" text="サマリ: %2 ページ中 %1 ページ選択されています"/>
+		<item id="100" text="ドキュメント &quot;%1&quot; の印刷エラーです:&#10;%2"/>
+		<item id="101" text="名前"/>
+		<item id="102" text="利用できません"/>
+		<item id="103" text="レディ"/>
+		<item id="104" text="オフライン"/>
+		<item id="105" text="開いています..."/>
+		<item id="106" text="紙: %1"/>
+		<item id="107" text="シート: %1"/>
+		<item id="108" text="ページ: %1"/>
+		<item id="109" text="ページ: %1、%2..."/>
+		<item id="110" text="&lt;アクティブなドキュメント (%1)&gt;"/>
+		<item id="111" text="&lt;参照...&gt;"/>
+		<item id="112" text="&lt;詳細設定...&gt;"/>
+		<item id="113" text="検索の中止"/>
+		<item id="114" text="今すぐ検索"/>
+		<item id="115" text="ファイル &quot;%1&quot; へイメージを保存しています..."/>
+		<item id="116" text="イメージを作成しています..."/>
+		<item id="117" text="イメージをエクスポートしています..."/>
+		<item id="118" text="ページ #%1 を処理しています..."/>
+		<item id="119" text="印刷しています..."/>
+		<item id="120" text="シート #%1 を印刷しています..."/>
+		<item id="121" text="ページ #%1 を印刷しています..."/>
+		<item id="122" text="中止しています..."/>
+		<item id="123" text="準備しています..."/>
+		<item id="124" text="&quot;%1&quot; を検索しています..."/>
+		<item id="125" text="検索のサマリ: %1個のドキュメント、%2 個のエントリ"/>
+		<item id="126" text="中止されました"/>
+		<item id="127" text="&quot;%1&quot;: 開いています..."/>
+		<item id="128" text="&quot;%1&quot;: ページ #%2..."/>
+		<item id="129" text="ページ #%1..."/>
+		<item id="130" text="&quot;%1&quot; ドキュメントを開くためのシステムリソースを取得できませんでした:&#10;ユーザー/GDIオブジェクトが他のアプリケーションによって大量に使用されている可能性があります。&#10;&#10;システムリソースを開放するために、いくつか他のアプリケーションを閉じて&#10;（または開いているドキュメントを閉じて）、再試行してください..."/>
+		<item id="131" text="&quot;%1&quot; にドキュメントを保存するときにエラーが発生しました:&#10;%2"/>
+		<item id="132" text="&quot;%1&quot; のドキュメントを開くときにエラーが発生しました:&#10;%2"/>
+		<item id="133" text="ドキュメントを開くときにエラーが発生しました:&#10;%1"/>
+		<item id="134" text="本当に %1 個のコメントを削除しますか?"/>
+		<item id="135" text="%1: コメントの削除"/>
+		<item id="136" text="今後は確認しない"/>
+		<item id="137" text="このアプリケーションを既定の PDF ビューアにしますか?"/>
+		<item id="138" text="このアプリケーションを既定の PDF ビューアにしてブラウザでの PDF の表示を許可しますか?"/>
+		<item id="139" text="このアプリケーションによるブラウザでの PDF の表示を許可しますか?"/>
+		<item id="140" text="今後は確認しない"/>
+		<item id="141" text="&quot;%1&quot; を開けませんでした:&#10;%2"/>
+		<item id="142" text="パスが存在しません"/>
+		<item id="143" text="&quot;%2&quot; の動作 &quot;%1&quot; を実行できませんでした:&#10;%3"/>
+		<item id="144" text="アプリケーションは次のサイトを開くことを試みています:&#10;&quot;%1&quot;&#10;&#10;このサイトを信頼しますか?"/>
+		<item id="145" text="%1: サイトの開くことへの警告"/>
+		<item id="146" text="このサイトの選択を記憶する"/>
+		<item id="147" text="アプリケーション &quot;%1&quot; がこのPDFファイルから起動されるように設定されています。&#10;お使いのコンピュータに被害を与える可能性があるプログラム、マクロまたはウイルスを含む可能性があります。&#10;確実に安全な場合のみファイルを開いてください。&#10;&#10;このファイルが信頼されている人またはプログラムによって置かれたものであれば、「はい」を選択してファイルを表示してください。"/>
+		<item id="148" text="起動: %1"/>
+		<item id="149" text="再びこのメッセージを表示しない"/>
+		<item id="150" text="ページ %1"/>
+		<item id="151" text="メニュー"/>
+		<item id="152" text="ファイル"/>
+		<item id="153" text="標準"/>
+		<item id="154" text="拡大と縮小"/>
+		<item id="155" text="表示の回転"/>
+		<item id="156" text="検索"/>
+		<item id="157" text="コメントとマークアップ"/>
+		<item id="158" text="プロパティ"/>
+		<item id="159" text="矢印ツールのプロパティ"/>
+		<item id="160" text="直線ツールのプロパティ"/>
+		<item id="161" text="四角形ツールのプロパティ"/>
+		<item id="162" text="楕円ツールのプロパティ"/>
+		<item id="163" text="多角形ツールのプロパティ"/>
+		<item id="164" text="折れ線ツールのプロパティ"/>
+		<item id="165" text="鉛筆ツールのプロパティ"/>
+		<item id="166" text="雲形ツールのプロパティ"/>
+		<item id="167" text="スタンプ ツールのプロパティ"/>
+		<item id="168" text="タイプライタ ツールのプロパティ"/>
+		<item id="169" text="テキスト ボックス ツールのプロパティ"/>
+		<item id="170" text="吹き出しツールのプロパティ"/>
+		<item id="171" text="コメントツールのプロパティ"/>
+		<item id="172" text="テキストのハイライト ツールのプロパティ"/>
+		<item id="173" text="テキストの下線付けツールのプロパティ"/>
+		<item id="174" text="テキストの打ち消しツールのプロパティ"/>
+		<item id="175" text="テキストの置換ツールのプロパティ"/>
+		<item id="176" text="矢印のプロパティ"/>
+		<item id="177" text="直線のプロパティ"/>
+		<item id="178" text="四角形のプロパティ"/>
+		<item id="179" text="楕円のプロパティ"/>
+		<item id="180" text="多角形のプロパティ"/>
+		<item id="181" text="折れ線のプロパティ"/>
+		<item id="182" text="鉛筆のプロパティ"/>
+		<item id="183" text="雲形のプロパティ"/>
+		<item id="184" text="スタンプのプロパティ"/>
+		<item id="185" text="タイプライタのプロパティ"/>
+		<item id="186" text="テキスト ボックスのプロパティ"/>
+		<item id="187" text="吹き出しのプロパティ"/>
+		<item id="188" text="コメントのプロパティ"/>
+		<item id="189" text="テイストのハイライトのプロパティ"/>
+		<item id="190" text="テキストの下線付けのプロパティ"/>
+		<item id="191" text="テキストの打ち消しのプロパティ"/>
+		<item id="192" text="テキストの置換のプロパティ"/>
+		<item id="193" text="矢印"/>
+		<item id="194" text="直線"/>
+		<item id="195" text="四角形"/>
+		<item id="196" text="楕円"/>
+		<item id="197" text="多角形"/>
+		<item id="198" text="折れ線"/>
+		<item id="199" text="鉛筆"/>
+		<item id="200" text="雲形"/>
+		<item id="201" text="スタンプ"/>
+		<item id="202" text="キャレット"/>
+		<item id="203" text="テキスト ボックス"/>
+		<item id="204" text="コメント"/>
+		<item id="205" text="ハイライト"/>
+		<item id="206" text="下線付け"/>
+		<item id="207" text="打ち消し"/>
+		<item id="208" text="ファイルの添付"/>
+		<item id="209" text="サウンド"/>
+		<item id="210" text="テキスト フォーマット"/>
+		<item id="211" text="塗りつぶしなし"/>
+		<item id="212" text="ストロークなし"/>
+		<item id="213" text="さらなる色..."/>
+		<item id="214" text="不定"/>
+		<item id="215" text="未定義"/>
+		<item id="216" text="色"/>
+		<item id="217" text="プロパティ..."/>
+		<item id="218" text="未認識"/>
+		<item id="219" text="不明"/>
+		<item id="220" text="なし"/>
+		<item id="221" text="無題"/>
+		<item id="222" text="外観"/>
+		<item id="223" text="外観のオプション"/>
+		<item id="224" text="説明"/>
+		<item id="225" text="説明情報"/>
+		<item id="226" text="フォント"/>
+		<item id="227" text="このドキュメントで使用されているフォント"/>
+		<item id="228" text="セキュリティ"/>
+		<item id="229" text="ドキュメントのセキュリティと制限"/>
+		<item id="230" text="パスワード セキュリティ"/>
+		<item id="231" text="許可されていません"/>
+		<item id="232" text="低解像度"/>
+		<item id="233" text="高解像度"/>
+		<item id="234" text="許可されています"/>
+		<item id="235" text="リソースを読み込んでいます..."/>
+		<item id="236" text="初期化しています..."/>
+		<item id="237" text="なし"/>
+		<item id="238" text="四角形"/>
+		<item id="239" text="円形"/>
+		<item id="240" text="菱形"/>
+		<item id="241" text="開いた矢印"/>
+		<item id="242" text="閉じた矢印"/>
+		<item id="243" text="バット"/>
+		<item id="244" text="開いた矢印 (反転)"/>
+		<item id="245" text="閉じた矢印 (反転)"/>
+		<item id="246" text="スラッシュ"/>
+		<item id="247" text="ブックマーク"/>
+		<item id="248" text="ページ"/>
+		<item id="249" text="フィールド"/>
+		<item id="250" text="レイヤ"/>
+		<item id="251" text="コメント"/>
+		<item id="252" text="このタブを閉じる"/>
+		<item id="253" text="%1 個のフォントが見つかりました"/>
+		<item id="254" text="(全 %1 ページ)"/>
+		<item id="255" text="%1&#10;タイトル: %2&#10;作者: %3&#10;サブタイトル: %4&#10;キーワード: %5&#10;ページ: %6"/>
+		<item id="256" text="ページ #%1"/>
+		<item id="257" text="ページ #%1: &#10;%2"/>
+		<item id="258" text="PDF の検索"/>
+		<item id="259" text="ドキュメント"/>
+		<item id="260" text="ドキュメントとマークアップ"/>
+		<item id="261" text="ドキュメントとスタンプ"/>
+		<item id="262" text="フォーム フィールドのデータのみ"/>
+		<item id="263" text="領域指定ズーム"/>
+		<item id="264" text="拡大鏡"/>
+		<item id="265" text="ドキュメントの保存の確認"/>
+		<item id="266" text="ドキュメントの増分の保存の確認"/>
+		<item id="267" text="一般情報"/>
+		<item id="268" text="名前"/>
+		<item id="269" text="種類"/>
+		<item id="270" text="フォルダ"/>
+		<item id="271" text="パス"/>
+		<item id="272" text="ファイル サイズ"/>
+		<item id="273" text="%1 バイト"/>
+		<item id="274" text="変更日"/>
+		<item id="275" text="PDF 情報"/>
+		<item id="276" text="PDF のバージョン"/>
+		<item id="277" text="ページ"/>
+		<item id="278" text="タイトル"/>
+		<item id="279" text="サブタイトル"/>
+		<item id="280" text="作者"/>
+		<item id="281" text="キーワード"/>
+		<item id="282" text="作成者"/>
+		<item id="283" text="製作者"/>
+		<item id="284" text="暗号化情報"/>
+		<item id="285" text="%1 ビット AES"/>
+		<item id="286" text="%1 ビット RC4"/>
+		<item id="287" text="レベル"/>
+		<item id="288" text="完全に許可されています"/>
+		<item id="289" text="印刷"/>
+		<item id="290" text="ドキュメントの変更"/>
+		<item id="291" text="内容のコピーと展開"/>
+		<item id="292" text="コメントとフォーム フィールドの著作"/>
+		<item id="293" text="フォーム フィールドの記入または署名"/>
+		<item id="294" text="内容のユーザー補助が有効"/>
+		<item id="295" text="ドキュメント アセンブリ"/>
+		<item id="296" text="ドキュメントを開いています、お待ちください..."/>
+		<item id="297" text="&quot;%1&quot; を開いています..."/>
+		<item id="298" text="&quot;%1&quot; のダウンロード中..."/>
+		<item id="299" text="%2 中 %1 個ダウンロードしました"/>
+		<item id="300" text="ドキュメントを保存しています、お待ちください"/>
+		<item id="301" text="&quot;%1&quot; へ保存しています..."/>
+		<item id="302" text="変更を適用しています..."/>
+		<item id="303" text="ドキュメントの書き込みを準備しています..."/>
+		<item id="304" text="ドキュメントを書き込んでいます..."/>
+		<item id="305" text="ページを取得しています..."/>
+		<item id="306" text="ページ情報を収集しています..."/>
+		<item id="307" text="注釈を収集しています..."/>
+		<item id="308" text="新しいイメージのフォルダの選択:"/>
+		<item id="309" text="ファイルのダウンロード先のフォルダの選択:"/>
+		<item id="310" text="ドキュメントを検索するフォルダの選択:"/>
+		<item id="311" text="グラフ"/>
+		<item id="312" text="クリップ"/>
+		<item id="313" text="添付"/>
+		<item id="314" text="タグ"/>
+		<item id="315" text="イヤー"/>
+		<item id="316" text="マイク"/>
+		<item id="317" text="サウンド"/>
+		<item id="318" text="チェックマーク"/>
+		<item id="319" text="円"/>
+		<item id="320" text="コメント"/>
+		<item id="321" text="十字"/>
+		<item id="322" text="ヘルプ"/>
+		<item id="323" text="テキストの挿入"/>
+		<item id="324" text="キー"/>
+		<item id="325" text="新しい段落"/>
+		<item id="326" text="テキスト ノート"/>
+		<item id="327" text="段落"/>
+		<item id="328" text="右矢印"/>
+		<item id="329" text="右ポインタ"/>
+		<item id="330" text="星"/>
+		<item id="331" text="上矢印"/>
+		<item id="332" text="左上矢印"/>
+		<item id="333" text="コメント"/>
+		<item id="334" text="ハイライト"/>
+		<item id="335" text="テキストのコメント"/>
+		<item id="336" text="下線付け"/>
+		<item id="337" text="打ち消し"/>
+		<item id="338" text="テキストの置換"/>
+		<item id="339" text="吹き出し"/>
+		<item id="340" text="テキスト ボックス"/>
+		<item id="341" text="タイプライタ"/>
+		<item id="342" text="矢印"/>
+		<item id="343" text="直線"/>
+		<item id="344" text="四角形"/>
+		<item id="345" text="楕円"/>
+		<item id="346" text="雲形"/>
+		<item id="347" text="折れ線"/>
+		<item id="348" text="多角形"/>
+		<item id="349" text="鉛筆"/>
+		<item id="350" text="ページ: %2 ページ中 %1 ページ"/>
+		<item id="351" text="ズーム: %1"/>
+		<item id="352" text="最近の一覧をクリアしますか?"/>
+		<item id="353" text="安全"/>
+		<item id="354" text="開く"/>
+		<item id="355" text="上書き保存"/>
+		<item id="356" text="名前を付けて保存"/>
+		<item id="357" text="名前を付けてコピーを保存"/>
+		<item id="358" text="ファイルへ印刷"/>
+		<item id="359" text="ユーザー補助"/>
+		<item id="360" text="ユーザー補助のオプション"/>
+		<item id="361" text="黒地に緑文字"/>
+		<item id="362" text="黒地に黄文字"/>
+		<item id="363" text="黒地に白文字"/>
+		<item id="364" text="白地に黒文字"/>
+		<item id="365" text="全画面表示"/>
+		<item id="366" text="全画面表示のオプション"/>
+		<item id="367" text="一定時間経過後に非表示"/>
+		<item id="368" text="常に表示"/>
+		<item id="369" text="常に非表示"/>
+		<item id="370" text="スナップショット ツール"/>
+		<item id="371" text="スナップショット ツールのオプション"/>
+		<item id="372" text="ドキュメント &quot;%1&quot; は破損しています。&#10;&#10;いくつかの問題がアプリケーションによって検出されました:&#10;%2&#10;&#10;このドキュメントを再保存することをお勧めします。"/>
+		<item id="373" text="1 つ以上の XREF チャンクが見つかりませんでした。"/>
+		<item id="374" text="XREF テーブルでいくつかのエラーを検出しました。"/>
+		<item id="375" text="オブジェクトへの参照がどのXREFチャンクからも取得できません。"/>
+		<item id="376" text="オブジェクトの読み込みエラー: 不正なオブジェクトの構造です。"/>
+		<item id="377" text="オブジェクトの読み込みエラー: オブジェクトに不整合があります。"/>
+		<item id="378" text="不正な ObjStream です。"/>
+		<item id="379" text="要求された値は直近の記録から見つかりませんでした。"/>
+		<item id="380" text="要求された値は記録から見つかりませんでした。"/>
+		<item id="381" text="オブジェクトは現在または前のチャンクから取得できませんでしたが、次のチャンクから見つかりました (線形化ファイルとしては正しくありません)。"/>
+		<item id="382" text="元のドキュメント &quot;%1&quot; は破損しています。&#10;PDF-XChangeはこのドキュメントに対して増分の保存を実行できません。&#10;非増分の保存を実行しますか (警告: デジタル署名が存在する場合は失われます)?"/>
+		<item id="383" text="タグのない"/>
+		<item id="384" text="匿名"/>
+		<item id="385" text="&lt;不明な作者&gt; (%1)"/>
+		<item id="386" text="&lt;不明な日付&gt; (%1)"/>
+		<item id="387" text="ページ %1 (%2)"/>
+		<item id="388" text="%1 (%2)"/>
+		<item id="389" text="不正な値：%s と等しいか大きくなければいけません"/>
+		<item id="390" text="不正な値：%s と等しいか大きくなければいけない、もしくは %s と等しいか小さくなければいけません"/>
+		<item id="391" text="不正な値：%s と等しいか小さくなければいけません"/>
+		<item id="392" text="** 正しくありません **"/>
+		<item id="393" text="不正な日時：日時が存在することを確認してください。フィールド %field% はフォーマット %%format% に一致する必要があります。"/>
+		<item id="394" text="入力された値は %s のフォーマットに一致していません"/>
+		<item id="395" text="午前"/>
+		<item id="396" text="午後"/>
+		<item id="397" text="%1 ブックマークと配下のすべてのブックマークを本当に削除してもいいですか"/>
+		<item id="398" text="%1 ブックマークを本当に削除してもいいですか"/>
+		<item id="399" text="%1 ブックマークを削除しています..."/>
+		<item id="400" text="今後は確認しない"/>
+		<item id="401" text="ブックマークのプロパティ"/>
+		<item id="402" text="複数ブックマークのプロパティ"/>
+		<item id="403" text="アクション"/>
+		<item id="404" text="アクションリスト"/>
+		<item id="405" text="標準"/>
+		<item id="406" text="ボールド"/>
+		<item id="407" text="斜体"/>
+		<item id="408" text="ボールドおよび斜体"/>
+		<item id="409" text="不明なアクション"/>
+		<item id="410" text="このドキュメントのページに適用"/>
+		<item id="411" text="別のドキュメントのページに適用"/>
+		<item id="412" text="埋め込まれたドキュメントのページに適用"/>
+		<item id="413" text="ファイルを開く"/>
+		<item id="414" text="記事を読む"/>
+		<item id="415" text="Webリンクを開く"/>
+		<item id="416" text="サウンドを再生"/>
+		<item id="417" text="ムービーを再生"/>
+		<item id="418" text="コメントのフィールドを表示／非表示"/>
+		<item id="419" text="名前のついたコマンドを実行"/>
+		<item id="420" text="フォームを送信"/>
+		<item id="421" text="フォームをリセット"/>
+		<item id="422" text="データからインポート"/>
+		<item id="423" text="JavaScriptを実行"/>
+		<item id="424" text="レイヤを表示"/>
+		<item id="425" text="マルチメディアコントロール"/>
+		<item id="426" text="ページの更新と遷移"/>
+		<item id="427" text="3D表示する"/>
+		<item id="428" text="ズーム"/>
+		<item id="429" text="継承"/>
+		<item id="430" text="幅"/>
+		<item id="431" text="高さ"/>
+		<item id="432" text="高さに合わせる"/>
+		<item id="433" text="表示中の幅に合わせる"/>
+		<item id="434" text="表示中の高さに合わせる"/>
+		<item id="435" text="ファイル"/>
+		<item id="436" text="操作"/>
+		<item id="437" text="パラメータ"/>
+		<item id="438" text="ドキュメントからすべてのページを削除することはできません。少なくとも1ページは残す必要があります。"/>
+		<item id="439" text="%1 ページを本当に削除しますか?"/>
+		<item id="440" text="%1 ページを削除しています..."/>
+		<item id="441" text="新しいアクション"/>
+		<item id="442" text="アクションを編集する"/>
+		<item id="443" text="%1 アクションを本当に削除してもいいですか"/>
+		<item id="444" text="%1 アクションを削除しています..."/>
+		<item id="445" text="今後は確認しない"/>
+		<item id="446" text="JavaScript"/>
+		<item id="447" text="JavaScriptのオプション"/>
+		<item id="448" text="登録"/>
+		<item id="449" text="登録パラメータ"/>
+		<item id="450" text="行: %1"/>
+		<item id="451" text="行: %2"/>
+		<item id="452" text="挿入モード"/>
+		<item id="453" text="上書きモード"/>
+		<item id="454" text="このドキュメントはJavaScriptを含んでいます。このドキュメントでJavaScriptの実行を許可しますか？&#10;許可しない場合、このドキュメントは正しく動作しない可能性があります。"/>
+		<item id="455" text="このドキュメントが再読み込みされるまでこのメッセージを表示しない"/>
+		<item id="456" text="JavaScript: %1"/>
+		<item id="457" text="PRO版の機能です- ライセンスキーが必要です - ヘルプを参照してください"/>
+		<item id="458" text="カスタムスケール"/>
+		<item id="459" text="&apos;PRO&apos;版機能の警告"/>
+		<item id="460" text="これは PDF-XChange Viewer PRO の機能です。&#10;FREEヴァージョンでも使用できますが、ファイルに保存するとページに「DEMO!」ラベルが表示されます。&#10;これを避けるにはPRO版にアップグレードしてください。詳しくはヘルプファイルまたは弊社のWebサイトをご覧ください。&#10;&#10;あなたはこの機能を使用しますか？"/>
+		<item id="461" text="%1 ページを本当に移動しますか？"/>
+		<item id="462" text="%1 ページを移動しています..."/>
+		<item id="463" text="ファイル"/>
+		<item id="464" text="編集"/>
+		<item id="465" text="表示"/>
+		<item id="466" text="ドキュメント"/>
+		<item id="467" text="ツール"/>
+		<item id="468" text="ウィンドウ"/>
+		<item id="469" text="ヘルプ"/>
+		<item id="470" text="ユーザー"/>
+		<item id="471" text="トンボ全体が入る矩形"/>
+		<item id="472" text="外トンボが示す矩形"/>
+		<item id="473" text="内トンボが示す矩形"/>
+		<item id="474" text="版面"/>
+		<item id="475" text="ページサイズ: %1"/>
+		<item id="476" text="外トンボが示す矩形のサイズ: %1"/>
+		<item id="477" text="内トンボが示す矩形のサイズ: %1"/>
+		<item id="478" text="版面のサイズ: %1"/>
+		<item id="479" text="不正なプレビュー"/>
+		<item id="480" text="プレビュー情報をロードしています。お待ちください..."/>
+		<item id="481" text="暗号化"/>
+		<item id="482" text="ドキュメント %1 は保護されています。この操作を実行する権限がありません。"/>
+		<item id="483" text="ページの挿入: %1"/>
+		<item id="484" text="このドキュメントを最近使ったドキュメントリストに固定する（アイテム数が上限を超えても削除しない）"/>
+		<item id="485" text="このドキュメントを最近使ったドキュメントリストに固定しない（アイテム数が上限を超えたら削除する）"/>
+		<item id="486" text="最近使ったフォント"/>
+		<item id="487" text="すべてのフォント"/>
+		<item id="488" text="拡大率"/>
+		<item id="489" text="ズームの種類"/>
+		<item id="490" text="対象ページの前に挿入"/>
+		<item id="491" text="対象ページの後に挿入"/>
+		<item id="492" text="標準の色"/>
+		<item id="493" text="カスタム色"/>
+		<item id="494" text="ブラック"/>
+		<item id="495" text="ブラウン"/>
+		<item id="496" text="ダークオリーブグリーン"/>
+		<item id="497" text="ダークグリーン"/>
+		<item id="498" text="ダークティール"/>
+		<item id="499" text="ダークブルー"/>
+		<item id="500" text="インディゴ"/>
+		<item id="501" text="ダークグレー"/>
+		<item id="502" text="ダークレッド"/>
+		<item id="503" text="オレンジ"/>
+		<item id="504" text="ダークイエロー"/>
+		<item id="505" text="グリーン"/>
+		<item id="506" text="ティール"/>
+		<item id="507" text="ブルー"/>
+		<item id="508" text="ブルー／グレー"/>
+		<item id="509" text="グレー - 40%"/>
+		<item id="510" text="レッド"/>
+		<item id="511" text="ライトオレンジ"/>
+		<item id="512" text="ライム"/>
+		<item id="513" text="シーグリーン"/>
+		<item id="514" text="アクア"/>
+		<item id="515" text="ライトブルー"/>
+		<item id="516" text="バイオレット"/>
+		<item id="517" text="グレー - 50%"/>
+		<item id="518" text="ピンク"/>
+		<item id="519" text="ゴールド"/>
+		<item id="520" text="イエロー"/>
+		<item id="521" text="ブライトグリーン"/>
+		<item id="522" text="ターコイズ"/>
+		<item id="523" text="スカイブルー"/>
+		<item id="524" text="プラム"/>
+		<item id="525" text="ライトグレー"/>
+		<item id="526" text="ローズ"/>
+		<item id="527" text="タン"/>
+		<item id="528" text="ライトイエロー"/>
+		<item id="529" text="ペールグリーン"/>
+		<item id="530" text="ペールターコイズ"/>
+		<item id="531" text="ペールブルー"/>
+		<item id="532" text="ラベンダー"/>
+		<item id="533" text="ホワイト"/>
+		<item id="534" text="コメント"/>
+		<item id="535" text="コメントのオプション"/>
+		<item id="536" text="ページを削除しています。お待ちください..."/>
+		<item id="537" text="ページを移動しています。お待ちください..."/>
+		<item id="538" text="ページを挿入しています。お待ちください..."/>
+		<item id="539" text="ページを抽出しています。お待ちください..."/>
+		<item id="540" text="%1 ページを本当にコピーしますか?"/>
+		<item id="541" text="ページのコピー: %1"/>
+		<item id="542" text="消しゴムツールのプロパティ"/>
+		<item id="543" text="スタンプパレット"/>
+		<item id="544" text="新しいスタンプ"/>
+		<item id="545" text="新しいコレクション"/>
+		<item id="546" text="このコレクションにはまだスタンプが含まれています。&#10;本当に削除してよろしいですか？"/>
+		<item id="547" text="スタンプコレクションの削除: %1"/>
+		<item id="548" text="最近使用したドキュメントのリストをクリアする"/>
+		<item id="549" text="最近使用したドキュメントのリストをすべてクリアしてよろしいですか？"/>
+		<item id="550" text="すべてクリアすることに同意"/>
+		<item id="551" text="テキストのプロパティ"/>
+		<item id="552" text="コンテンツ"/>
+		<item id="553" text="テキストコンテンツ: プレーンテキスト"/>
+		<item id="554" text="フォーマット"/>
+		<item id="555" text="テキストフォーマット: フォント、スケーリング、スタイル等"/>
+		<item id="556" text="フォント"/>
+		<item id="557" text="フォントサイズ"/>
+		<item id="558" text="水平方向のスケーリング"/>
+		<item id="559" text="ベースラインのオフセット"/>
+		<item id="560" text="オブジェクトロードの警告: オブジェクトが壊れています"/>
+		<item id="561" text="ツールバー"/>
+		<item id="562" text="コマンド"/>
+		<item id="563" text="オプション"/>
+		<item id="564" text="フォーマット"/>
+		<item id="565" text="全体"/>
+		<item id="566" text="ドキュメント"/>
+		<item id="567" text="ページの表示"/>
+		<item id="568" text="サムネイルの表示"/>
+		<item id="569" text="ブックマークの表示"/>
+		<item id="570" text="コメントの表示"/>
+		<item id="571" text="レイヤーの表示"/>
+		<item id="572" text="フォームフィールドの表示"/>
+		<item id="573" text="添付資料の表示"/>
+		<item id="574" text="テキストエディタ"/>
+		<item id="575" text="スタンプのパレット"/>
+		<item id="576" text="検索の表示"/>
+		<item id="577" text="JavaScriptコンソール"/>
+		<item id="578" text="拡大ウィンドウ"/>
+		<item id="579" text="領域指定ズームウィンドウ"/>
+		<item id="580" text="デフォルト"/>
+		<item id="581" text="ショートカットはありません"/>
+		<item id="582" text="このショートカットは利用可能です"/>
+		<item id="583" text="このショートカットはすでに他のコマンドで使用されています"/>
+		<item id="584" text="このショートカットはすでに %1 コマンドで使用されています"/>
+		<item id="585" text="レンダリング"/>
+		<item id="586" text="レンダリングのオプション"/>
+		<item id="587" text="カスタム"/>
+		<item id="588" text="ここに検索する言葉を入力してください..."/>
+		<item id="589" text="XREFテーブルに致命的ではないエラーが見つかりました"/>
+		<item id="590" text="注釈を削除しています。お待ちください..."/>
+		<item id="591" text="クリアする"/>
+		<item id="592" text="そのまま残す"/>
+		<item id="593" text="削除する"/>
+		<item id="594" text="ドキュメントの注釈を本当に削除しますか？"/>
+		<item id="595" text="注釈の削除: %1"/>
+		<item id="596" text="ツールバー／メニューバーのカスタマイズをリセットしますか？ リセットしない場合は「いいえ」をクリックしてください。"/>
+		<item id="597" text="カスタムツールバーの削除: %1"/>
+		<item id="598" text="%1 からのページ抽出エラー:&#10;%2"/>
+		<item id="599" text="ページ抽出: %1"/>
+		<item id="600" text="%1 中の注釈削除エラー:&#10;%2"/>
+		<item id="601" text="%1 へのページ挿入エラー:&#10;%2"/>
+		<item id="602" text="%1 からのページ削除エラー:&#10;%2"/>
+		<item id="603" text="ストリームからデータをロードしています..."/>
+		<item id="604" text="%1 をロードしました"/>
+		<item id="605" text="ストリームからドキュメントをロードしています..."/>
+		<item id="606" text="ドキュメントをストリームに保存しています..."/>
+		<item id="607" text="%2 の %1 を保存しました"/>
+		<item id="608" text="ドキュメントを開いています..."/>
+		<item id="609" text="今後は確認しない"/>
+		<item id="610" text="%1 ページを %2 から %3 に本当にコピーしますか？"/>
+		<item id="611" text="%1 ページを %2 から %3 に本当に移動しますか？"/>
+		<item id="612" text="リンク"/>
+		<item id="613" text="測定"/>
+		<item id="614" text="直線測定ツールのプロパティ"/>
+		<item id="615" text="折れ線測定ツールのプロパティ"/>
+		<item id="616" text="面積測定ツールのプロパティ"/>
+		<item id="617" text="寸法線のプロパティ"/>
+		<item id="618" text="計測ポリラインのプロパティ"/>
+		<item id="619" text="計測ポリゴンのプロパティ"/>
+		<item id="620" text="リンクエディタツールのプロパティ"/>
+		<item id="621" text="リンクのプロパティ"/>
+		<item id="622" text="なし"/>
+		<item id="623" text="反転"/>
+		<item id="624" text="アウトライン"/>
+		<item id="625" text="差し込み"/>
+		<item id="626" text="コメント"/>
+		<item id="627" text="コメントの要約: %1"/>
+		<item id="628" text="%1 からのコメント要約エラー:&#10;%2"/>
+		<item id="629" text="コメントの要約を作成しています。お待ちください..."/>
+		<item id="630" text="コメントをエクスポートしています。お待ちください..."/>
+		<item id="631" text="コメントのエクスポート: %1"/>
+		<item id="632" text="%1 からのコメントエクスポートエラー:&#10;%2"/>
+		<item id="633" text="コメントのエクスポート"/>
+		<item id="634" text="Adobe XFDF ファイル (*.xfdf)"/>
+		<item id="635" text="ページ"/>
+		<item id="636" text="種類"/>
+		<item id="637" text="作者"/>
+		<item id="638" text="日付"/>
+		<item id="639" text="順序"/>
+		<item id="640" text="PDF ドキュメント (*.pdf)"/>
+		<item id="641" text="リッチテキスト (*.rtf)"/>
+		<item id="642" text="プレーンテキスト (*.txt)"/>
+		<item id="643" text="完全なWebページ (*.html)"/>
+		<item id="644" text="コメントのみ"/>
+		<item id="645" text="一つのページにドキュメントおよび引き出し線のついたコメント"/>
+		<item id="646" text="一つのページにドキュメントおよび番号を振ったコメント"/>
+		<item id="647" text="一つのページにドキュメントおよびコメント"/>
+		<item id="648" text="別々のページにドキュメントおよび引き出し線のついたコメント"/>
+		<item id="649" text="別々のページにドキュメントおよび番号を振ったコメント"/>
+		<item id="650" text="別々のページにドキュメントおよびコメント"/>
+		<item id="651" text="ファイルを保存するフォルダを選択してください"/>
+		<item id="652" text="コメントをソートしています..."/>
+		<item id="653" text="新しいドキュメントを生成しています..."/>
+		<item id="654" text="元のドキュメントからページをコピーしています..."/>
+		<item id="655" text="新しいWebページを生成しています..."/>
+		<item id="656" text="ツールバーのリネーム"/>
+		<item id="657" text="直線測定"/>
+		<item id="658" text="折れ線測定"/>
+		<item id="659" text="面積測定"/>
+		<item id="660" text="選択したリンクを削除しますか？"/>
+		<item id="661" text="リンクの削除: %1"/>
+		<item id="662" text="空のページ挿入: %1"/>
+		<item id="663" text="自動"/>
+		<item id="664" text="直線の長さ:"/>
+		<item id="665" text="折れ線の長さ:"/>
+		<item id="666" text="面積:"/>
+		<item id="667" text="角度:"/>
+		<item id="668" text="ΔX:"/>
+		<item id="669" text="ΔY:"/>
+		<item id="670" text="拡大率:"/>
+		<item id="671" text="直線の長さの情報:"/>
+		<item id="672" text="折れ線の長さの情報:"/>
+		<item id="673" text="面積の情報:"/>
+		<item id="674" text="下線"/>
+		<item id="675" text="リンクのプロパティ"/>
+		<item id="676" text="複数リンクのプロパティ"/>
+		<item id="677" text="フィート"/>
+		<item id="678" text="ヤード"/>
+		<item id="679" text="メートル"/>
+		<item id="680" text="キロメートル"/>
+		<item id="681" text="マイル"/>
+		<item id="682" text="カスタム"/>
+		<item id="683" text="平方センチメートル"/>
+		<item id="684" text="平方インチ"/>
+		<item id="685" text="平方ミリメートル"/>
+		<item id="686" text="平方パイカ"/>
+		<item id="687" text="平方ポイント"/>
+		<item id="688" text="平方フィート"/>
+		<item id="689" text="平方ヤード"/>
+		<item id="690" text="平方メートル"/>
+		<item id="691" text="平方キロメートル"/>
+		<item id="692" text="平方マイル"/>
+		<item id="693" text="測定結果をエクスポートしています。お待ちください..."/>
+		<item id="694" text="測定結果のエクスポート: %1"/>
+		<item id="695" text="%1 からの測定結果エクスポートエラー:&#10;%2"/>
+		<item id="696" text="測定情報をエクスポート"/>
+		<item id="697" text="アクションを追加してください"/>
+		<item id="698" text="新しいドキュメントの作成"/>
+		<item id="699" text="新しいドキュメントを作成しています。お待ちください..."/>
+		<item id="700" text="単一の改行文字で新しい段落を開始する"/>
+		<item id="701" text="2重の改行文字で新しい段落を開始し、単一の改行文字の場合は無視する"/>
+		<item id="702" text="2重の改行文字で新しい段落を開始し、単一の改行文字の場合はスペースに変換する"/>
+		<item id="703" text="題名"/>
+		<item id="704" text="ドキュメントのオプション"/>
+		<item id="705" text="ページナビゲーション"/>
+		<item id="706" text="ページレイアウト"/>
+		<item id="707" text="ドキュメントの開始"/>
+		<item id="708" text="タイトル"/>
+		<item id="709" text="拡張子"/>
+		<item id="710" text="場所"/>
+		<item id="711" text="サイズ"/>
+		<item id="712" text="更新日時"/>
+		<item id="713" text="新しいドキュメントの作成..."/>
+		<item id="714" text="元のファイルのフォルダを選択してください"/>
+		<item id="715" text="サブフォルダも対象"/>
+		<item id="716" text="オプション"/>
+		<item id="717" text="カラム"/>
+		<item id="718" text="カラムの設定"/>
+		<item id="719" text="ファイルヘッダー"/>
+		<item id="720" text="ファイルヘッダーのオプション"/>
+		<item id="721" text="ファイルごとに新しい段落として開始する"/>
+		<item id="722" text="ファイルごとに新しいページとして開始する"/>
+		<item id="723" text="オプション"/>
+		<item id="724" text="レイアウト"/>
+		<item id="725" text="レイアウトのオプション"/>
+		<item id="726" text="ダウンサンプリング／変換"/>
+		<item id="727" text="ダウンサンプリング／変換のオプション"/>
+		<item id="728" text="上"/>
+		<item id="729" text="下"/>
+		<item id="730" text="左"/>
+		<item id="731" text="右"/>
+		<item id="732" text="中央"/>
+		<item id="733" text="ダウンサンプリングしない"/>
+		<item id="734" text="ダウンサンプリング（リニア法）"/>
+		<item id="735" text="ダウンサンプリング（バイリニア法）"/>
+		<item id="736" text="ダウンサンプリング（バイキュービック法）"/>
+		<item id="737" text="変換しない"/>
+		<item id="738" text="グレースケールに変換"/>
+		<item id="739" text="モノクロに変換"/>
+		<item id="740" text="白黒に変換"/>
+		<item id="741" text="合わせる"/>
+		<item id="742" text="ドキュメントの属性情報"/>
+		<item id="743" text="詳細"/>
+		<item id="744" text="ドキュメントの属性情報の構成"/>
+		<item id="745" text="合成 [%2]: 用紙 &apos;%1&apos;"/>
+		<item id="746" text="ピクセル"/>
+		<item id="747" text="スキャンしています..."/>
+		<item id="748" text="スキャンした画像 %1"/>
+		<item id="749" text="情報"/>
+		<item id="750" text="エンコード"/>
+		<item id="751" text="種類: %1"/>
+		<item id="752" text="イメージ: %1"/>
+		<item id="753" text="ページ: %1"/>
+		<item id="754" text="シート: %1, トータル %2"/>
+		<item id="755" text="トータル %1 ファイル"/>
+		<item id="756" text="標準のビュー"/>
+		<item id="757" text="反転ビュー"/>
+		<item id="758" text="ラベル"/>
+		<item id="759" text="ラベルのオプション"/>
+		<item id="760" text="用紙: &apos;%1&apos;"/>
+		<item id="761" text="ページ: %1 (タイル %2 / %3)"/>
+		<item id="762" text="水平に"/>
+		<item id="763" text="逆水平に"/>
+		<item id="764" text="垂直に"/>
+		<item id="765" text="逆垂直に"/>
+		<item id="766" text="カスタム"/>
+		<item id="767" text="横向き (%1° 反時計回り)"/>
+		<item id="768" text="すべて無視"/>
+		<item id="769" text="冊子"/>
+		<item id="770" text="ブック"/>
+		<item id="771" text="両方"/>
+		<item id="772" text="前"/>
+		<item id="773" text="後"/>
+		<item id="774" text="ブックレット"/>
+		<item id="775" text="ページが選択されていません"/>
+		<item id="776" text="%1 からのイメージ認識エラー:&#10;%2"/>
+		<item id="777" text="%1 からのテキスト認識エラー:&#10;%2"/>
+		<item id="778" text="dpi"/>
+		<item id="779" text="解像度: %1 dpi"/>
+		<item id="780" text="常に"/>
+		<item id="781" text="埋め込みフォント用"/>
+		<item id="782" text="自動検出"/>
+		<item id="783" text="(トータル %1, 選択中 %2)"/>
+		<item id="784" text="ページ #%1"/>
+		<item id="785" text="最後に使ったフォルダ"/>
+		<item id="786" text="元のドキュメントのフォルダ"/>
+		<item id="787" text="ドキュメントの保存先フォルダを選択してください"/>
+		<item id="788" text="アプリケーションのすべての設定を既定の設定にリセットしてよろしいですか？"/>
+		<item id="789" text="ユーザーに切り替え"/>
+		<item id="790" text="所有者に切り替え"/>
+		<item id="791" text="%1 でのユーザーへの切り替えエラー:&#10;%2"/>
+		<item id="792" text="%1 での所有者への切り替えエラー:&#10;%2"/>
+		<item id="793" text="フルアクセスモードで実行するために正しい所有者パスワードを入力してください:"/>
+		<item id="794" text="許可モードで実行するために正しいユーザーパスワードを入力してください:"/>
+		<item id="795" text="すべての設定をインポートする"/>
+		<item id="796" text="すべての設定をエクスポートする"/>
+		<item id="797" text="ファイル %1 にあるストレージの設定を適用するときエラーが発生しました。このファイルのストレージ情報は正しくありません:&#10;%2"/>
+		<item id="798" text="ファイル %1 へのアプリケーション設定保存エラー:&#10;%2"/>
+		<item id="799" text="新しい設定を行いますか？現在の設定は置き換えられて破棄されます。"/>
+		<item id="800" text="%1 は実行中です"/>
+		<item id="801" text="プログラムウィンドウを見るためには %1 アイコンをクリックしてください"/>
+		<item id="802" text="既定のスタイル"/>
+		<item id="803" text="新しいスタイル"/>
+		<item id="804" text="%1 コピー"/>
+		<item id="805" text="複製"/>
+		<item id="806" text="選択したスタイルを複製する"/>
+		<item id="807" text="リセット"/>
+		<item id="808" text="選択したスタイルを既定のスタイルにリセットする"/>
+		<item id="809" text="削除"/>
+		<item id="810" text="選択したスタイルを削除する"/>
+		<item id="811" text="いくつかのオプションが無効もしくは矛盾しています。確認、修正してから再度実行してください。"/>
+		<item id="812" text="直線の下線"/>
+		<item id="813" text="波線の下線"/>
+		<item id="814" text="イメージの処理中です..."/>
+		<item id="815" text="マルチ注釈のプロパティ"/>
+		<item id="816" text="枠のスタイル:"/>
+		<item id="817" text="枠の幅:"/>
+		<item id="818" text="線の開始点のスタイル:"/>
+		<item id="819" text="線の終点のスタイル:"/>
+		<item id="820" text="輪郭の色:"/>
+		<item id="821" text="塗りつぶし色:"/>
+		<item id="822" text="透明度:"/>
+		<item id="823" text="コメントのアイコン:"/>
+		<item id="824" text="下線のスタイル:"/>
+		<item id="825" text="強調表示のモード:"/>
+		<item id="826" text="引き出し線"/>
+		<item id="827" text="引き出し線のオプション"/>
+		<item id="828" text="作成者:"/>
+		<item id="829" text="種類:"/>
+		<item id="830" text="スキャナから新しいドキュメントを作成できませんでした:&#10;%1"/>
+		<item id="831" text="イメージから新しいドキュメントを作成できませんでした:&#10;%1"/>
+		<item id="832" text="テキストから新しいドキュメントを作成できませんでした:&#10;%1"/>
+		<item id="833" text="フォーム"/>
+		<item id="834" text="フォームのオプション"/>
+		<item id="835" text="返信のプロパティ"/>
+		<item id="836" text="イメージをデコードする準備中です。お待ちください..."/>
+		<item id="837" text="イメージをデコードしています..."/>
+		<item id="838" text="矩形"/>
+		<item id="839" text="ポリライン"/>
+		<item id="840" text="距離"/>
+		<item id="841" text="タイプライター"/>
+		<item id="842" text="コールアウト"/>
+		<item id="843" text="折れ線の長さ"/>
+		<item id="844" text="面積"/>
+		<item id="845" text="雲形"/>
+		<item id="846" text="置換"/>
+		<item id="847" text="用紙"/>
+		<item id="848" text="用紙のオプション"/>
+		<item id="849" text="コメントスタイルパレット"/>
+		<item id="850" text="フォームデータのエクスポート形式"/>
+		<item id="851" text="名前を付けて保存"/>
+		<item id="852" text="テキストファイル (*.txt)"/>
+		<item id="853" text="新しいコメントスタイルを作成できませんでした: コメントスタイルの数が多すぎます&#10;以前の使用していないコメントスタイルを削除してください"/>
+		<item id="854" text="コメントスタイルの名前を変更"/>
+		<item id="855" text="コメントスタイルの新しい名前を入力してください:"/>
+		<item id="856" text="選択したコメントスタイルを本当に削除してよいですか？"/>
+		<item id="857" text="選択したコメントスタイルを本当にリセットしてよいですか？"/>
+		<item id="858" text="選択したコメントを本当にリセットしてよいですか？&#10;選択したコメントタイプのすべてのカスタムスタイルは削除され、デフォルトのスタイルのみ残されます。"/>
+		<item id="859" text="ドキュメント"/>
+		<item id="860" text="%2 の %1 を保存しました"/>
+		<item id="861" text="ウィンドウがありません"/>
+		<item id="862" text="フォームデータを含むファイルを選択してください"/>
+		<item id="863" text="対象の名前"/>
+		<item id="864" text="ユーザー定義が設定されたウィンドウ"/>
+		<item id="865" text="存在するウィンドウ"/>
+		<item id="866" text="新しいウィンドウ"/>
+		<item id="867" text="すべてのファイル (*.*)"/>
+		<item id="868" text="&quot;ファイルを開く&quot; アクションの既定のフォルダを選択してください"/>
+		<item id="869" text="外部ストレージへのドキュメントの保存でエラーが発生しました&#10;&quot;%1&quot;"/>
+		<item id="870" text="コメントの処理中です..."/>
+		<item id="871" text="スタンプの名前を変更"/>
+		<item id="872" text="スタンプの新しい名前を入力してください:"/>
+		<item id="873" text="選択したスタンプを本当に削除してよいですか？"/>
+		<item id="874" text="すべての開いているドキュメントを閉じてよいですか？"/>
+		<item id="875" text="%1 / %2"/>
+		<item id="876" text="不明な操作"/>
+		<item id="877" text="複合的な操作"/>
+		<item id="878" text="修正"/>
+		<item id="879" text="注釈の修正"/>
+		<item id="880" text="注釈の修正"/>
+		<item id="881" text="ブックマークの修正"/>
+		<item id="882" text="ブックマークの修正"/>
+		<item id="883" text="注釈の削除"/>
+		<item id="884" text="ブックマークの削除"/>
+		<item id="885" text="テキストの挿入"/>
+		<item id="886" text="テキストの削除"/>
+		<item id="887" text="テキストの貼りつけ"/>
+		<item id="888" text="テキストフォーマットの修正"/>
+		<item id="889" text="テキストフォントの修正"/>
+		<item id="890" text="テキストサイズの修正"/>
+		<item id="891" text="テキストの色を修正"/>
+		<item id="892" text="段落のフォーマットを修正"/>
+		<item id="893" text="段落の位置構造を修正"/>
+		<item id="894" text="テキストと段落のフォーマットの設定"/>
+		<item id="895" text="テキストと段落のフォーマット情報をクリア"/>
+		<item id="896" text="既定のテキストと段落のフォーマットを適用"/>
+		<item id="897" text="なし"/>
+		<item id="898" text="コメントのインポート"/>
+		<item id="899" text="%1: コメントのインポート"/>
+		<item id="900" text="%1からのコメントのインポートでエラーが発生しました&#10;%2"/>
+		<item id="901" text="はい"/>
+		<item id="902" text="いいえ"/>
+		<item id="903" text="Javaスクリプトコンソール"/>
+		<item id="904" text="コメントスタイルパレット"/>
+		<item id="905" text="開発"/>
+		<item id="906" text="警告：このコマンドに対するショートカットが他のコマンドと競合しています&#10;このショートカットを使用しますか? (他の競合するコマンドは削除されます)"/>
+		<item id="907" text="いくつかの競合が見つかりました&#10;詳しくはこちらをクリックしてください"/>
+		<item id="908" text="競合は見つかりませんでした"/>
+		<item id="909" text="注釈の設定ダイアログ"/>
+		<item id="910" text="コメントスタイルパレット"/>
+		<item id="911" text="ツール"/>
+		<item id="912" text="ページのプロパティ..."/>
+		<item id="913" text="ページのプロパティ..."/>
+		<item id="914" text="タブオーダー"/>
+		<item id="915" text="ページのタブオーダー"/>
+		<item id="916" text="カーソルが入ってきたとき"/>
+		<item id="917" text="カーソルが外れたとき"/>
+		<item id="918" text="マウスのボタンを押したとき"/>
+		<item id="919" text="マウスのボタンを離したとき"/>
+		<item id="920" text="フォーカスが入ったとき"/>
+		<item id="921" text="フォーカスが外れたとき"/>
+		<item id="922" text="ページを開いたとき"/>
+		<item id="923" text="ページを閉じたとき"/>
+		<item id="924" text="ページを表示したままにする"/>
+		<item id="925" text="ページを非表示のままにする"/>
+		<item id="926" text="ページを開く"/>
+		<item id="927" text="ページを閉じる"/>
+		<item id="928" text="キーストローク"/>
+		<item id="929" text="フォーマットフィールド"/>
+		<item id="930" text="検証フィールド"/>
+		<item id="931" text="計算フィールド"/>
+		<item id="932" text="閉じる前"/>
+		<item id="933" text="保存する前"/>
+		<item id="934" text="保存した後"/>
+		<item id="935" text="印刷する前"/>
+		<item id="936" text="印刷した後"/>
+		<item id="937" text="初期表示"/>
+		<item id="938" text="ドキュメントの初期表示"/>
+		<item id="939" text="競合が見つかりました&#10;%1"/>
+		<item id="940" text="添付ファイルのパネルとページ"/>
+		<item id="941" text="レイヤのパネルとページ"/>
+		<item id="942" text="ファイル名"/>
+		<item id="943" text="ドキュメントのタイトル"/>
+		<item id="944" text="注釈の削除"/>
+		<item id="945" text="ドキュメントのプロパティを修正"/>
+		<item id="946" text="新しい注釈の追加"/>
+		<item id="947" text="検索プロバイダ"/>
+		<item id="948" text="検索プロバイダの管理"/>
+		<item id="949" text="新しい注釈の追加"/>
+		<item id="950" text="検索プロバイダを追加できません&#10;検索結果のURLは「TEST」というキーワードを含んでいる必要があります。URLを確認してください。&#10;その検索エンジンに対して検索クエリを作成しないようにすることは可能です。"/>
+		<item id="951" text="検索プロバイダを追加できません&#10;新しい検索プロバイダの定義情報を含むファイルを保存できません"/>
+		<item id="952" text="この検索プロバイダの定義情報を本当に削除してよいですか？ （操作は中断できません）"/>
+		<item id="953" text="検索プロバイダ"/>
+		<item id="954" text="回答を追加"/>
+		<item id="955" text="フォームフィールドの修正"/>
+		<item id="956" text="フォームの修正"/>
+		<item id="957" text="フォームをリセット"/>
+		<item id="958" text="なし"/>
+		<item id="959" text="権限のあるユーザーもしくはドキュメント所有者のパスワードを入力してください"/>
+		<item id="960" text="権限のあるユーザーのパスワードを入力してください"/>
+		<item id="961" text="埋め込まれたファイルに対して権限のあるユーザーのパスワードを入力してください"/>
+		<item id="962" text="リンクを修正"/>
+		<item id="963" text="リンクを修正"/>
+		<item id="964" text="新しいリンクの追加"/>
+		<item id="965" text="新しいリンクの追加"/>
+		<item id="966" text="リンクの削除"/>
+		<item id="967" text="リンクの削除"/>
+		<item id="968" text="回答を修正"/>
+		<item id="969" text="Acrobat %1 以降"/>
+		<item id="970" text="すべてのコンテンツ"/>
+		<item id="971" text="メタデータを除くすべてのコンテンツ"/>
+		<item id="972" text="添付ファイルのみ"/>
+		<item id="973" text="40ビット RC4"/>
+		<item id="974" text="128ビット RC4"/>
+		<item id="975" text="128ビット AES"/>
+		<item id="976" text="256ビット AES"/>
+		<item id="977" text="ドキュメントのすべてのコンテンツが暗号化されるため、検索エンジンはドキュメントのメタデータにアクセスできません"/>
+		<item id="978" text="ドキュメントのすべてのコンテンツが暗号化されますが、検索エンジンはドキュメントのメタデータにアクセスできます"/>
+		<item id="979" text="このドキュメントの添付ファイルのみ暗号化されており、それ以外は暗号化されていません"/>
+		<item id="980" text="添付ファイルを開くパスワード(&amp;S):"/>
+		<item id="981" text="ドキュメントを開くパスワード:"/>
+		<item id="982" text="添付ファイルを開くときにパスワードを要求する"/>
+		<item id="983" text="ドキュメントを開くときにパスワードを要求する"/>
+		<item id="984" text="テキスト、イメージ、その他のコンテンツのコピーおよびアクセスを可能にする"/>
+		<item id="985" text="テキスト、イメージ、その他のコンテンツのコピーを可能にする"/>
+		<item id="986" text="コメント、フォームの入力内容と署名フィールド"/>
+		<item id="987" text="ページレイアウト、フォームの入力内容と署名フィールド"/>
+		<item id="988" text="ページ抽出以外のすべての操作"/>
+		<item id="989" text="ページの挿入、削除と回転"/>
+		<item id="990" text="フォームの入力内容と署名フィールド"/>
+		<item id="991" text="このドキュメントからセキュリティ情報を本当に削除してよいですか？"/>
+		<item id="992" text="このドキュメントのセキュリティ情報を本当に変更してよいですか？"/>
+		<item id="993" text="ドキュメントを開くパスワードか権限のいずれがが設定されています&#10;パスワードセキュリティを解除するには、パスワードセキュリティ設定ダイアログでキャンセルをクリックし、&#10;セキュリティ設定を「なし」にセットする必要があります"/>
+		<item id="994" text="「ドキュメントを開くときにパスワードを要求する」オプションをはずすか、パスワードを入力してください"/>
+		<item id="995" text="「ドキュメントの権限を変更するときにパスワードを要求する」オプションをはずすか、パスワードを入力してください"/>
+		<item id="996" text="ドキュメントを開くパスワードと権限を変更するパスワードは同一ではありません。パスワードフィールドに別のパスワードを入力してください。"/>
+		<item id="997" text="添付ファイルを開くためのパスワードを入力してください"/>
+		<item id="998" text="新しい付箋を追加"/>
+		<item id="999" text="ブックマークの削除"/>
+		<item id="1000" text="新しいブックマークを追加"/>
+		<item id="1001" text="ブックマークの移動"/>
+		<item id="1002" text="ブックマークの移動"/>
+		<item id="1003" text="ここをダブルクリックして既存のドキュメントを開くことができます"/>
+		<item id="1004" text="すべての設定をファイル %1 に保存できませんでした"/>
+		<item id="1005" text="ドキュメントを電子メールで送信できませんでした&#10;%1"/>
+		<item id="1006" text="%1 を使ってテキストを検索"/>
+		<item id="1007" text="オンライン検索するにはテキストを入力してください"/>
+		<item id="1008" text="いくつかのドキュメントが待機しています..."/>
+		<item id="1009" text="クリップボードから注釈を貼りつけ"/>
+		<item id="1010" text="クリップボードから注釈を貼りつけ"/>
+		<item id="1011" text="新しいブックマークを追加"/>
+		<item id="1012" text="クリップボードからブックマークを貼りつけ"/>
+		<item id="1013" text="クリップボードからブックマークを貼りつけ"/>
+		<item id="1014" text="これは PDF-XChange Viewer PRO の機能です。&#10;FREEヴァージョンでも使用できますが、ファイルに保存するとページに「DEMO!」ラベルが表示されます。&#10;これを避けるにはPRO版にアップグレードしてください。詳しくはヘルプファイルまたは弊社のWebサイトをご覧ください。&#10;&#10;あなたはこのドキュメントを保存しますか？"/>
+		<item id="1015" text="プレビューの準備をしています..."/>
+		<item id="1016" text="&lt;なし&gt;"/>
+		<item id="1017" text="私はこのドキュメントの作者です"/>
+		<item id="1018" text="私はこのドキュメントの指定箇所に同意します"/>
+		<item id="1019" text="私はレビューを完了しました"/>
+		<item id="1020" text="私はこのドキュメントを承認します"/>
+		<item id="1021" text="私はこのドキュメントの正確性と完全性を証明します"/>
+		<item id="1022" text="私はこのドキュメントにおける署名のプレースメントで定義された諸条件に同意します"/>
+		<item id="1023" text="自動"/>
+		<item id="1024" text="左から右（LTR）"/>
+		<item id="1025" text="右から左（RTL）"/>
+		<item id="1026" text="1024ビット RSA"/>
+		<item id="1027" text="2048ビット RSA"/>
+		<item id="1028" text="不十分なパスワードです&#10;パスワードは少なくとも6文字以上である必要があります"/>
+		<item id="1029" text="パスワードが一致しません&#10;再入力してください"/>
+		<item id="1030" text="%1 テンプレートを本当に削除してよいですか？"/>
+		<item id="1031" text="%1 テンプレートを削除しています"/>
+		<item id="1032" text="このドキュメントには一つ以上の未署名フィールドがあります。署名プロセスを開始するには署名したいフィールドをクリックしてください。"/>
+		<item id="1033" text="署名つきドキュメント"/>
+		<item id="1034" text="ドキュメントの署名でエラーが発生しました　%1&#10;%2&#10;&#10;ドキュメントは未署名の状態です"/>
+		<item id="1035" text="未署名のフィールド（署名するにはクリック）"/>
+		<item id="1036" text="未検証の署名"/>
+		<item id="1037" text="不正な署名"/>
+		<item id="1038" text="正しい署名"/>
+		<item id="1039" text="正しい署名"/>
+		<item id="1040" text="自己証明書（デジタルID）の作成には発行者名が必要です"/>
+		<item id="1041" text="自己証明書（デジタルID）の作成にはユニコードの発行者名が必要です"/>
+		<item id="1042" text="自己証明書（デジタルID）の作成にはEメールアドレスが必要です"/>
+		<item id="1043" text="正しいEメールアドレスを入力してください（例：john@mail.com）"/>
+		<item id="1044" text="%1 フィールドはASCIIコードに限定されています&#10;以下の文字のみ使用可能です：スペース a-z A-Z 0-9 &apos; ( ) + , - . / : = ?"/>
+		<item id="1045" text="署名のプロパティ"/>
+		<item id="1046" text="サマリー"/>
+		<item id="1047" text="署名のサマリー"/>
+		<item id="1048" text="利用不可"/>
+		<item id="1049" text="ドキュメントはこの署名のあとに修正されませんでした"/>
+		<item id="1050" text="この証明書のついたドキュメントのリビジョンは変更されていません。しかしながらドキュメントに対して次の変更点があります。"/>
+		<item id="1051" text="ドキュメントは署名が適用された時から改変または壊れています"/>
+		<item id="1052" text="署名の正当性が確認できません"/>
+		<item id="1053" text="%1 による署名の正当性が確認されました"/>
+		<item id="1054" text="署名は正しくありません"/>
+		<item id="1055" text="固定されていないアイテムのみ"/>
+		<item id="1056" text="ファイルが見つからないアイテムのみ"/>
+		<item id="1057" text="すべてのアイテム"/>
+		<item id="1058" text="ガイドを削除"/>
+		<item id="1059" text="ガイドを削除"/>
+		<item id="1060" text="ガイドを修正"/>
+		<item id="1061" text="ガイドを新規追加"/>
+		<item id="1062" text="ガイドを新規追加"/>
+		<item id="1063" text="可能な限りガイドを追加"/>
+		<item id="1064" text="ファイルの添付"/>
+		<item id="1065" text="ファイル添付ツールのプロパティ"/>
+		<item id="1066" text="添付ファイルのプロパティ"/>
+		<item id="1067" text="低"/>
+		<item id="1068" text="中"/>
+		<item id="1069" text="高"/>
+		<item id="1070" text="終点"/>
+		<item id="1071" text="端点"/>
+		<item id="1072" text="中間点"/>
+		<item id="1073" text="中央"/>
+		<item id="1074" text="交点"/>
+		<item id="1075" text="添付ファイル"/>
+		<item id="1076" text="添付ファイルリスト"/>
+		<item id="1077" text="説明"/>
+		<item id="1078" text="更新日時"/>
+		<item id="1079" text="サイズ"/>
+		<item id="1080" text="圧縮サイズ"/>
+		<item id="1081" text="場所"/>
+		<item id="1082" text="ファイルの添付"/>
+		<item id="1083" text="添付ファイルの説明を変更"/>
+		<item id="1084" text="添付ファイルを追加"/>
+		<item id="1085" text="添付ファイルを保存"/>
+		<item id="1086" text="%1 からの添付ファイル抽出でエラーが発生しました:&#10;%2"/>
+		<item id="1087" text="%1: 添付ファイルを保存しています"/>
+		<item id="1088" text="%1: 添付ファイルを開いています"/>
+		<item id="1089" text="添付ファイルが壊れている可能性があります - 抽出したファイルと元のチェックサムが異なっています&#10;処理を続けますか?"/>
+		<item id="1090" text="添付ファイルを削除"/>
+		<item id="1091" text="添付ファイルを削除"/>
+		<item id="1092" text="添付ファイル %1 を本当に削除してよろしいですか?"/>
+		<item id="1093" text="%1: 添付ファイルを削除しています"/>
+		<item id="1094" text="以下のプロセスが開始する前にドキュメントを閉じてもよろしいですか?&#10;%1"/>
+		<item id="1095" text="今後は確認しない"/>
+		<item id="1096" text="編集ボックスの検索"/>
+		<item id="1097" text="最近の一覧からこのアイテムを削除"/>
+		<item id="1098" text="最近の一覧から %1 を削除してもよろしいですか?"/>
+		<item id="1099" text="今後は確認しない"/>
+		<item id="1100" text="アイテムがありません"/>
+		<item id="1101" text="&amp;2 ドキュメントの %1 ファイルが利用不可になっているため、閉じられます。&#10;ネットワークまたはストレージの状態を確認してください。"/>
+		<item id="1102" text="XFA構造"/>
+		<item id="1103" text="標準"/>
+		<item id="1104" text="Multiply"/>
+		<item id="1105" text="Screen"/>
+		<item id="1106" text="Overlay"/>
+		<item id="1107" text="Darken"/>
+		<item id="1108" text="Lighten"/>
+		<item id="1109" text="Color Dodge"/>
+		<item id="1110" text="Color Burn"/>
+		<item id="1111" text="Hard Light"/>
+		<item id="1112" text="Soft Light"/>
+		<item id="1113" text="Difference"/>
+		<item id="1114" text="Exclusion"/>
+		<item id="1115" text="Hue"/>
+		<item id="1116" text="Saturation"/>
+		<item id="1117" text="Color"/>
+		<item id="1118" text="Luminosity"/>
+		<item id="1119" text="分離可能"/>
+		<item id="1120" text="分離不可（HSL）"/>
+		<item id="1121" text="重ね合わせ:"/>
+		<item id="1122" text="新規ドキュメント"/>
+		<item id="1123" text="新規ドキュメント作成オプション"/>
+		<item id="1124" text="RTFから新しいドキュメントを作成できませんでした:&#10;%1"/>
+		<item id="1125" text="&lt;すべての開いたドキュメント（%1）&gt;"/>
+		<item id="1126" text="コメントを並び替え"/>
+		<item id="1127" text="ここに署名"/>
+		<item id="1128" text="作者"/>
+		<item id="1129" text="タイトル"/>
+		<item id="1130" text="ページ"/>
+		<item id="1131" text="日付"/>
+		<item id="1132" text="種類"/>
+		<item id="1133" text="ページ数"/>
+		<item id="1134" text="&lt;なし&gt;"/>
+		<item id="1135" text="&lt;不明&gt;"/>
+		<item id="1136" text="%1 上のコメントの要約"/>
+		<item id="1137" text="再読み込み"/>
+		<item id="1138" text="マークアップのみ"/>
+		<item id="1139" text="ブックマークを検索しています..."/>
+		<item id="1140" text="以下のドキュメントの検索が完了しました&#10;&quot;%1&quot;&#10;&#10;一致するものは見つかりませんでした"/>
+		<item id="1141" text="セキュリティ"/>
+		<item id="1142" text="セキュリティのオプション"/>
+		<item id="1143" text="URL"/>
+		<item id="1144" text="新しいタイムスタンプサーバーを追加"/>
+		<item id="1145" text="タイムスタンプサーバーの設定を編集"/>
+		<item id="1146" text="読み取り専用"/>
+		<item id="1147" text="パスワードの再入力(&amp;S):"/>
+		<item id="1148" text="パスワードの再入力:"/>
+		<item id="1149" text="パスワードが一致しません。パスワードを再入力してください。"/>
+		<item id="1150" text="キャレット"/>
+		<item id="1151" text="音声"/>
+		<item id="1152" text="既定の標題を使用: %1"/>
+		<item id="1153" text="新しい移動先"/>
+		<item id="1154" text="新しい移動先に対する名称を入力:"/>
+		<item id="1155" text="選択した %1 を本当に削除してよろしいですか?&#10;この削除は元に戻せません"/>
+		<item id="1156" text="%1 という名称はすでに存在しています&#10;重複しない新しい名称を入力してください"/>
+		<item id="1157" text="他のアプリケーションで &quot;%1&quot; を修正しています"/>
+		<item id="1158" text="再読み込みしてよろしいですか？"/>
+		<item id="1159" text="再読み込みして変更を破棄してよろしいですか？"/>
+		<item id="1160" text="このドキュメントに対する操作を記憶する"/>
+		<item id="1161" text="ドキュメント:&#10;&quot;%1&quot;&#10;- PDF/Aに準拠しています&#10;&#10;変更を保存するとサポートされていないコンテンツが追加され、PDF/A に準拠しなくなります"/>
+		<item id="1162" text="ドキュメント:&#10;&quot;%1&quot;&#10;XFAフォームが含まれています&#10;&#10;XFAフォームは標準PDFのオプションフォーマットで、PDF-XChange Viewer では現在部分的にサポートされています。XFAフォームの完全サポートは2010年中にリリースされるヴァージョン3で実現する予定です。"/>
+		<item id="1163" text="ドキュメント:&#10;&quot;%1&quot;&#10;- PDF/Aに準拠しています&#10;&#10;変更を保存するとサポートされていないコンテンツが追加され、PDF/A に準拠しなくなるかもしれません&#10;&#10;このドキュメントを保存してもよろしいですか？"/>
+		<item id="1164" text="現在の表示"/>
+		<item id="1165" text="「このドキュメント内のページに行く」アクション （ブックマークやリンク作成時に使用されます） 作成時のデフォルトの拡大率を指定してください"/>
+		<item id="1166" text="検索オプションが正しくありません&#10;&#10;検索オプションメニューを開いて、1つ以上の範囲（ページ内コンテンツ、ブックマーク、コメント等）を指定してください"/>
+		<item id="1167" text="詳細を表示"/>
+		<item id="1168" text="詳細を非表示"/>
+		<item id="1169" text="実行するファイル:"/>
+		<item id="1170" text="実行時パラメータ:"/>
+		<item id="1171" text="PDFドキュメントのみ許可する"/>
+		<item id="1172" text="PDF以外のときは常に確認する（安全、推奨）"/>
+		<item id="1173" text="すべてのファイルの種類を許可する（危険、推奨しません）"/>
+		<item id="1174" text="すべて許可しない"/>
+		<item id="1175" text="注意 : ソースのフォーマットはPDFではありません"/>
+		<item id="1176" text="HTMLドキュメントのようです"/>
+		<item id="1177" text="完全版のヘルプファイルをダウンロードしています。お待ちください..."/>
+		<item id="1178" text="注意 : この機能はこの一連の作業のためだけにページの回転を行います－元のファイルに変更は保存されません　　変更を保存するには、&apos;ドキュメント&apos; メニュー内の &apos;ページの回転&apos; 機能を使用してください"/>
+		<item id="1179" text="データを %1 に送る"/>
+		<item id="1180" text="&lt;無題&gt; （%1）"/>
+		<item id="1181" text="%1: 標題フォーム"/>
+		<item id="1182" text="フォームの登録中にエラーが発生しました:&#10;&#10;%2"/>
+		<item id="1183" text="フォームの応答: %1"/>
+		<item id="1184" text="フォームの応答: %1&#10;&#10;添付ファイルは入力済フォームです。ファイルを開いて内容を確認してください。"/>
+		<item id="1185" text="すべてのコマンドバー（メニューとツールバー）が直前のセッションで非表示にされました。&#10;その状態で再開しますか？"/>
+		<item id="1186" text="注意: %1 を押すとすべてのコマンドバーを表示します"/>
+		<item id="1187" text="以下のキーワードに対するドキュメントの検索が完了しました:&#10;&quot;%1&quot;&#10;&#10;これ以上一致するものは見つかりません。"/>
+		<item id="1188" text="署名後にドキュメントが更新されています"/>
+		<item id="1189" text="選択したファイルフォーマットは背景の透過をサポートしていません"/>
+		<item id="1190" text="このファイルフォーマットに対して設定したオプションでは背景を透過することができません。&#10;&#10;背景を透過したイメージを作成するためにいくつかのオプションを自動的に変更してもよいですか？"/>
+		<item id="1191" text="検索する単語やフレーズを入力してください"/>
+		<item id="1192" text="検索対象を選択してください"/>
+		<item id="1193" text="リストをクリア"/>
+		<item id="1194" text="準備完了"/>
+		<item id="1195" text="UIのカスタマイズ"/>
+		<item id="1196" text="ユーザーインターフェイスのカスタマイズ"/>
+		<item id="1197" text="XFAフォーム"/>
+		<item id="1198" text="静的"/>
+		<item id="1199" text="動的"/>
+		<item id="1200" text="自動"/>
+		<item id="1201" text="自動"/>
+		<item id="1202" text="単色"/>
+		<item id="1203" text="デフォルト"/>
+		<item id="1204" text="縦縞"/>
+		<item id="1205" text="ドット"/>
+		<item id="1206" text="ドーナツ"/>
+		<item id="1207" text="小さな四角"/>
+		<item id="1208" text="波立つ四角"/>
+		<item id="1209" text="不規則なジグザグ"/>
+		<item id="1210" text="チェス-2"/>
+		<item id="1211" text="チェス-4"/>
+		<item id="1212" text="このドキュメントは静的なXFAフォームを含んでいます。&#10;&#10;XFAフォームは Adobe社のXMLフォームアーキテクチャに基づいていますが、現在はまだ非常に少数のPDFアプリケーションしか対応していません。"/>
+		<item id="1213" text="このドキュメントは動的なXFAフォームを含んでいます。&#10;&#10;XFAフォームは Adobe社のXMLフォームアーキテクチャに基づいていますが、現在はまだ非常に少数のPDFアプリケーションしか対応していません。動的XFAフォームの挙動によって、コメントやページ操作等のほとんどの操作を実行することができません。"/>
+		<item id="1214" text="このドキュメントはXFAフォームを含んでいません。&#10;&#10;Abobe Live Cycle製品でこのドキュメントを開きますか?"/>
+		<item id="1215" text="このドキュメントはAdobe® Readerの拡張機能に関するいくつかの操作が許可されていません"/>
+		<item id="1216" text="ドキュメントが署名または認証されているため、セキュリティ設定を変更できません"/>
+		<item id="1217" text="XML ファイル (*.xml)"/>
+		<item id="1218" text="XML データパッケージファイル (*.xdp)"/>
+		<item id="1219" text="MB"/>
+		<item id="1220" text="ドキュメントの保存ができません。ファイルが読み取り専用か、もしくは別のプログラム／ユーザーが開いている可能性があります。他の保存先や異なるファイル名で保存できる場合があります。"/>
+		<item id="1221" text="名前をつけて保存(&amp;S)..."/>
+		<item id="1222" text="警告: コメントを定着すると選択／編集することはできなくなります"/>
+		<item id="1223" text="いくつかのページは印刷可能範囲外のため正しく印刷されません&#10;Tips:"/>
+		<item id="1224" text="印刷を続けますか？"/>
+		<item id="1225" text="印刷の前に &quot;%1&quot; オプションを設定してください"/>
+		<item id="1226" text="もしくは／さらに &quot;%1&quot; オプションを設定してださい"/>
+		<item id="1227" text="プリンタのプロパティで適切な用紙サイズを選択してください"/>
+		<item id="1228" text="非ブロッキングモード"/>
+		<item id="1229" text="元のコンテンツを残して新たにテキストレイヤを追加(&amp;A)"/>
+		<item id="1230" text="ページコンテンツをイメージに変換 - テキストレイヤを追加"/>
+		<item id="1231" text="低"/>
+		<item id="1232" text="中"/>
+		<item id="1233" text="高"/>
+		<item id="1234" text="%1 : OCR解析"/>
+		<item id="1235" text="&quot;%1&quot; で ページのOCR解析でエラーが発生しました&#10;%2"/>
+		<item id="1236" text="処理中です。お待ちください..."/>
+		<item id="1237" text="%2 ページ中の %1 ページをラスタライズ中..."/>
+		<item id="1238" text="%2 ページ中の %1 ページを認識処理中..."/>
+		<item id="1239" text="%2 ページ中の %1 ページを生成中..."/>
+		<item id="1240" text="このファイルはほかのアプリケーションで開かれていて、追加の変更が可能な状態です。&#10;&#10;警告：PDFファイルの埋め込み処理中であっても、他のアプリケーションからファイルを利用することができます。"/>
+	</strings>
+</Localization>

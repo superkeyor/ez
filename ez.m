@@ -44,8 +44,8 @@ classdef ez
     %
     %       gmail(email, subject, content, sender, user, pass) 
     %
-    %       export(), capture()
-    %       ahk(), autohotkey()
+    %       export()
+    %       exe_   portable exe
     %
     %       backward compatabilities: union, unique, ismember, setdiff, intersect, setxor       
     %
@@ -1318,24 +1318,66 @@ classdef ez
             end % end subfunction
         end
 
-        function varargout = capture(varargin)
+        function varargout = exe_capture(varargin)
             % launch FastStone Capture (the last freeware version (v5.3)), Windows OS only
             % & = background running, matlab continues processing
             system([fileparts(mfilename('fullpath')) '\fscapture\FSCapture.exe &']);
         end
 
-        function varargout = ahk(varargin)
-            % launch AutoHotkey classic (1.0)
+        function varargout = exe_ahk(varargin)
+            % launch AutoHotkey classic (1.04805)
             % will also load Autohotkey.ahk in the same folder
             system([fileparts(mfilename('fullpath')) '\AutoHotkey104805\AutoHotkey.exe ' fileparts(mfilename('fullpath')) '\AutoHotkey104805\AutoHotkey.ahk' ' &']);
         end
 
-        function varargout = autohotkey(varargin)
-            % launch AutoHotkey classic (1.0)
-            % will also load Autohotkey.ahk in the same folder
-            system([fileparts(mfilename('fullpath')) '\AutoHotkey104805\AutoHotkey.exe ' fileparts(mfilename('fullpath')) '\AutoHotkey104805\AutoHotkey.ahk' ' &']);
+        function varargout = exe_pdfxviewer(varargin)
+            % launch pdf x change viewer
+            system([fileparts(mfilename('fullpath')) '\PDFXViewer2.5.312.1\PDFXCview.exe &']);
         end
 
+        function varargout = exe_imageviewer(varargin)
+            % launch FastStone image viewer
+            system([fileparts(mfilename('fullpath')) '\FSViewer53\FSViewer.exe &']);
+        end
+
+        function varargout = exe_text(varargin)
+            % launch sublimetext2.02
+            system([fileparts(mfilename('fullpath')) '\SublimeText2.0.2\sublime_text.exe &']);
+        end
+
+        function varargout = exe_xplorer2(varargin)
+            system([fileparts(mfilename('fullpath')) '\xplorer2_lite\xplorer2_lite.exe &']);
+        end
+
+        function varargout = exe_zip(varargin)
+            system([fileparts(mfilename('fullpath')) '\PeaZipPortable\PeaZipPortable.exe &']);
+        end
+        
+        function varargout = exe_clipboard(varargin)
+            system([fileparts(mfilename('fullpath')) '\DittoPortable\DittoPortable.exe &']);
+        end
+        
+        function varargout = exe_renamer(varargin)
+            system([fileparts(mfilename('fullpath')) '\AntRenamerPortable\AntRenamerPortable.exe &']);
+        end
+
+        function varargout = exe_note(varargin)
+            % sticky note
+            system([fileparts(mfilename('fullpath')) '\PNotesPortable\PNotesPortable.exe &']);
+        end
+              
+        function varargout = exe_teamviewer(varargin)
+            system([fileparts(mfilename('fullpath')) '\TeamViewerPortable\TeamViewerPortable.exe &']);
+        end
+
+        function varargout = exe_compare(varargin)
+            system([fileparts(mfilename('fullpath')) '\BeyondCompare\BCompare.exe &']);
+        end
+
+        function varargout = exe_subst(varargin)
+            system([fileparts(mfilename('fullpath')) '\VSubst\VSubst.exe &']);
+        end
+        
         % if matlab version >= 7.14 (2012a), add 'legacy' to the parameters, otherwise not
         % this way, maintain cross-matlab version compatability
         function varargout = unique(varargin)

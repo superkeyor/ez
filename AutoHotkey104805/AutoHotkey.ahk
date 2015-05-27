@@ -1,4 +1,4 @@
-#NoEnv ; For security
+#NoEnv ;For security
 #SingleInstance force
 ;#NoTrayIcon
 #InstallKeybdHook
@@ -7,12 +7,14 @@
 Process, Priority, , High
 DetectHiddenText, off
 SetTitleMatchMode 2
+SetWorkingDir %A_ScriptDir%
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;for reference ! Alt ^ Control + Shift # Windows
+;! Alt ^ Control + Shift # Windows
 ;for more check help->send
 ;http://www.autohotkey.com/docs/commands.htm
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;modify keys' behaviors
+
 ;suspend when necessary using pausebreak on the keyboard
 pause::suspend ;suspend hotkeys
 
@@ -26,6 +28,10 @@ send {tab}{up}
 sleep 500
 send {enter}
 return
+
+;mouse button: press/hold left then right
+~lbutton & rbutton:: run "AutoHotkey.chm",,max
+~rbutton & lbutton:: run "AutoScriptWriter\AutoScriptWriter.exe"
 
 ;disable shift+delete
 +sc153::return
@@ -84,7 +90,45 @@ Return
 
 #e::run "C:\Program Files (x86)\zabkat\xplorer2_lite\xplorer2_lite.exe"
 
-f1::winactivate MATLAB
+f1::
+ifwinexist MATLAB R20
+{
+	ifwinactive
+	{
+		send !{tab}
+		return
+	}
+	ifwinnotactive
+	{
+		winactivate
+		return
+	}
+}
+else
+{
+	run matlab.exe
+	return
+}
+
+f2::
+ifwinexist Mozilla Firefox
+{
+	ifwinactive
+	{
+		send !{tab}
+		return
+	}
+	ifwinnotactive
+	{
+		winactivate
+		return
+	}
+}
+else
+{
+	run firefox.exe
+	return
+}
 
 ; teamviewer
 #c::^c
@@ -101,30 +145,3 @@ f1::winactivate MATLAB
 #i::^i
 #p::^p
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;backup for reference
-
-;#ifwinactive TeXworks ahk_class QWidget
-;f5::^t
-;#ifwinactive ahk_class Rgui Workspace
-;f5::^r
-;#ifwinactive AutoMate.ahk - Notepad++ ahk_class Notepad++
-;f5::
-;send ^s
-;sleep 100
-;reload
-;#ifwinnotactive
-;return
-
-;f1::
-;sendplay {sc153}
-;ifwinexist Confirm deletion ahk_class #32770
-;{
-;winactivate Confirm deletion ahk_class #32770
-;winwaitactive Confirm deletion ahk_class #32770
-;sendplay {tab 5}
-;}
-;return
-
-;swap mouse press/hold left then right
-~lbutton & rbutton:: run "C:\Users\labguest\Desktop\JDN5\ez\AutoHotkey104805\AutoHotkey.chm",,max
-~rbutton & lbutton:: run "C:\Users\labguest\Desktop\JDN5\ez\AutoHotkey104805\license.txt",,max
