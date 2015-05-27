@@ -45,6 +45,7 @@ classdef ez
     %       gmail(email, subject, content, sender, user, pass) 
     %
     %       export(), capture()
+    %       ahk(), autohotkey()
     %
     %       backward compatabilities: union, unique, ismember, setdiff, intersect, setxor       
     %
@@ -1325,14 +1326,14 @@ classdef ez
 
         function varargout = ahk(varargin)
             % launch AutoHotkey classic (1.0)
-            % will load Autohotkey.ahk automatically (same name as AutoHotkey.exe)
-            system([fileparts(mfilename('fullpath')) '\AutoHotkey104805\AutoHotkey.exe &']);
+            % will also load Autohotkey.ahk in the same folder
+            system([fileparts(mfilename('fullpath')) '\AutoHotkey104805\AutoHotkey.exe ' fileparts(mfilename('fullpath')) '\AutoHotkey104805\AutoHotkey.ahk' ' &']);
         end
 
         function varargout = autohotkey(varargin)
             % launch AutoHotkey classic (1.0)
-            % will load Autohotkey.ahk automatically (same name as AutoHotkey.exe)
-            system([fileparts(mfilename('fullpath')) '\AutoHotkey104805\AutoHotkey.exe &']);
+            % will also load Autohotkey.ahk in the same folder
+            system([fileparts(mfilename('fullpath')) '\AutoHotkey104805\AutoHotkey.exe ' fileparts(mfilename('fullpath')) '\AutoHotkey104805\AutoHotkey.ahk' ' &']);
         end
 
         % if matlab version >= 7.14 (2012a), add 'legacy' to the parameters, otherwise not
