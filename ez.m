@@ -1323,6 +1323,18 @@ classdef ez
             system([fileparts(mfilename('fullpath')) '\fscapture\FSCapture.exe &']);
         end
 
+        function varargout = ahk(varargin)
+            % launch AutoHotkey classic (1.0)
+            % will load Autohotkey.ahk automatically (same name as AutoHotkey.exe)
+            system([fileparts(mfilename('fullpath')) '\AutoHotkey104805\AutoHotkey.exe &']);
+        end
+
+        function varargout = autohotkey(varargin)
+            % launch AutoHotkey classic (1.0)
+            % will load Autohotkey.ahk automatically (same name as AutoHotkey.exe)
+            system([fileparts(mfilename('fullpath')) '\AutoHotkey104805\AutoHotkey.exe &']);
+        end
+
         % if matlab version >= 7.14 (2012a), add 'legacy' to the parameters, otherwise not
         % this way, maintain cross-matlab version compatability
         function varargout = unique(varargin)
