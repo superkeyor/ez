@@ -88,9 +88,7 @@ Return
 #q::send !{F4}
 #w::send !{F4}
 
-#e::run "C:\Program Files (x86)\zabkat\xplorer2_lite\xplorer2_lite.exe"
-
-f1::
+f2::
 ifwinexist MATLAB R20
 {
 	ifwinactive
@@ -110,8 +108,8 @@ else
 	return
 }
 
-f2::
-ifwinexist Mozilla Firefox
+f1::
+ifwinexist xplore ahk_class ATL:ExplorerFrame
 {
 	ifwinactive
 	{
@@ -126,7 +124,7 @@ ifwinexist Mozilla Firefox
 }
 else
 {
-	run firefox.exe
+	run "C:\Program Files (x86)\zabkat\xplorer2_lite\xplorer2_lite.exe"
 	return
 }
 
