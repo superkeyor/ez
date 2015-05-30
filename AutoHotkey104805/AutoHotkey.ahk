@@ -29,10 +29,6 @@ sleep 500
 send {enter}
 return
 
-;mouse button: press/hold left then right
-~lbutton & rbutton:: run "AutoHotkey.chm",,max
-~rbutton & lbutton:: run "AutoScriptWriter\AutoScriptWriter.exe"
-
 ;disable shift+delete
 +sc153::return
 ;open recycle bin
@@ -46,9 +42,6 @@ sleep 100
 reload
 #ifwinnotactive
 return
-
-;switch applications
-f3::send !{tab}
 
 ;replace tilde with backspace, so that I can easily press backspace with my left hand.
 ;not applicable to latex editors, including texwork, lyx, texmaker
@@ -88,6 +81,72 @@ Return
 #q::send !{F4}
 #w::send !{F4}
 
+;mouse button: press/hold left then right
+~lbutton & rbutton:: run "AutoScriptWriter\AutoScriptWriter.exe"
+~rbutton & lbutton:: run "AutoHotkey.chm",,max
+
+AppsKey::
+ifwinactive PDF-XChange
+{
+	clipboard =  ; Start off empty to allow ClipWait to detect when the text has arrived.
+	Send ^c
+	ClipWait  ; Wait for the clipboard to contain text.
+	clip = %clipboard%  ; Get clipboard
+	StringReplace, clip, clip, `r`n, %A_Space%, All
+	;MsgBox Control-C copied the following contents to the clipboard:`n`n%clip%
+	FoundPos := RegExMatch(clip, "(s|S)et (\d+)( |; )IC (\d+)", SubPat)
+	clip = o %SubPat2% %SubPat4%
+	clipboard = %clip%
+
+	winactivate MATLAB R20
+	send ^v{Enter}
+}
+else
+{
+	winactivate PDF-XChange
+}
+return
+
+f4::
+ifwinexist PDF-XChange
+{
+	ifwinactive
+	{
+		send !{tab}
+		return
+	}
+	ifwinnotactive
+	{
+		winactivate
+		return
+	}
+}
+else
+{
+	run "..\PDFXViewer2.5.312.1\PDFXCview.exe"
+	return
+}
+
+f3::
+ifwinexist FastStone
+{
+	ifwinactive
+	{
+		send !{tab}
+		return
+	}
+	ifwinnotactive
+	{
+		winactivate
+		return
+	}
+}
+else
+{
+	run "..\FSViewer53\FSViewer.exe"
+	return
+}
+
 f2::
 ifwinexist MATLAB R20
 {
@@ -124,7 +183,7 @@ ifwinexist xplore ahk_class ATL:ExplorerFrame
 }
 else
 {
-	run "C:\Program Files (x86)\zabkat\xplorer2_lite\xplorer2_lite.exe"
+	run "..\xplorer2_lite\xplorer2_lite.exe"
 	return
 }
 
