@@ -101,9 +101,23 @@ ifwinactive PDF-XChange
 	winactivate MATLAB R20
 	send ^v{Enter}
 }
+ifwinactive ahk_class TFullScreenWindow
+{
+	MouseClick, right
+	send {up 6}{enter}
+	clipboard =  ; Start off empty to allow ClipWait to detect when the text has arrived.
+	Send ^c{enter}
+	ClipWait  ; Wait for the clipboard to contain text.
+	winactivate MATLAB R20
+	send d,size(EEG.icaweights,1),'^v'{Enter}
+	winwait pop_loadset()
+	send ^v.set{Enter}
+	send s,t,tt(20,15,2){enter}
+}
 else
 {
 	winactivate PDF-XChange
+	winactivate FastStone
 }
 return
 
