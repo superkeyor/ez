@@ -76,7 +76,9 @@ ClipBoard = %Clip0%           ; Restore original ClipBoard
 VarSetCapacity(Clip0, 0)      ; Free memory 
 Return
 
-^!a:: Winset, Alwaysontop, , A
+^+a::
+^!a::
+Winset, Alwaysontop, , A
 
 #q::send !{F4}
 #w::send !{F4}
