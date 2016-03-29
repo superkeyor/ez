@@ -1302,19 +1302,31 @@ classdef ez
             %
             % for publication, export as pdf (vector)
             %       export(), export('Fig'), export('Fig.pdf') --> all export as pdf
-            %       additionally accepts 'append' to export as a single pdf file
-            %       export('Fig.pdf','append') <-- .pdf must be explicitly specified
+            %       optional parameters:
+            %           additionally accepts 'append' to export as a single pdf file
+            %           export('Fig.pdf','append') <-- .pdf must be explicitly specified
+            %           
+            %           also accepts 'bookmark'--(use fig title as bookmark name), 'nocrop'
+            %           export('Fig.pdf','nocrop')
+            %           
+            %           multiple parameters acceptable
+            %           export('Fig.pdf','nocrop','bookmark')
             %       requires ghostscript
             %           windows/linux users: http://ghostscript.com/download/gsdnld.html
             %           mac users: download at http://pages.uoregon.edu/koch/
+            % 
             % for viewing, export as jpg
             %       export('Fig.jpg'), 
             %       export('Fig.jpg', 'm2.5', 'q50' ,'a1')
             %       m(magnify relative to the screen dimension), default m1
             %       q(0...100; 100=highest quality, largest filesize)
             %       a(1...4; 4=more anti-alias,larger filesize)
+            %
             % filename supports sprintf() if dynamically change names
+            %
             % size: adjust the matlab figure size/dimension manually, then export
+            %       manual adjustment: set(gcf, 'Position', [100 100 150 150]);
+            %
             % finally, accepts a figure handle(e.g. 1 2 3 etc), defaut to gcf. export('Fig.jpg', 3)
             % if the handle does not exist, use gcf
             %
