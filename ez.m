@@ -1298,7 +1298,7 @@ classdef ez
         end
 
         function varargout = export(varargin)
-            % export the current(last activated) figure in matlab to a file
+            % export the current(last activated) or specified figure in matlab to a file
             %
             % for publication, export as pdf (vector)
             %       export(), export('Fig'), export('Fig.pdf') --> all export as pdf
