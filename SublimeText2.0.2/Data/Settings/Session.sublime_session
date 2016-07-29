@@ -17,6 +17,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/C/Users/jerry/Desktop/AA2Jerry/01Import/diary",
+					"settings":
+					{
+						"buffer_size": 10048,
+						"line_ending": "Windows"
+					}
+				}
 			],
 			"build_system": "",
 			"command_palette":
@@ -76,8 +84,37 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/C/Users/jerry/Desktop/AA2Jerry/01Import/diary",
+							"settings":
+							{
+								"buffer_size": 10048,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4180,
+										4180
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2220.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -112,7 +149,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,1,-1,-1,-1,-1,763,225,225,881",
+			"position": "0,2,3,-1,-1,-1,-1,763,225,225,881",
 			"replace":
 			{
 				"height": 0.0
