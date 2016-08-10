@@ -21,6 +21,7 @@ classdef ez
     %       isdirlike(path), isfilelike(path), 
     %       isdir(path), isfile(path), exists(path)
     %       addpath(path), splitpath(path), joinpath(path1, path2), trimdir(path), cd(path)
+    %       stepfolder(step)
     % 
     %       typeof(sth), type(sth), str(sth), num(sth), len(sth)
     %       ls([[path, ]regex, fullpath]), fls([[path, ]regex]), lsd([[path, ]regex, fullpath])
@@ -372,6 +373,37 @@ classdef ez
             varExist = evalin('caller',sprintf('exist(''%s'',''var'')',variable));  % '' to escape
             if ~varExist
                 assignin('caller',variable,defaultValue);
+            end
+        end
+
+        function [folder, projFolder] = stepfolder(step)
+            % [folder, projFolder] = stepfolder(step)
+            % step: regex of folder, eg '01', if multiple match, return only the first matched
+            %       integer -1 (backward) +2 (forward) 2 (same as +2)
+            % folder: target folder path
+            % projFolder: project folder path
+            % 
+            % Usage:
+            %       Under a projFolder, there might be 01Original, 02Slicing, 03Motion...
+            %       Use this function to go to a specific "step folder"
+            try
+                theStacks = dbstack('-completenames');
+                theStack = theStacks(2);
+                csd = fileparts(theStack.file);
+            catch
+                csd = pwd;
+            end
+            projFolder = ez.parentdir(csd);
+            if isstr(step)
+                folder = ez.lsd(projFolder,step);
+                folder = folder{1};
+                folder = ez.joinpath(projFolder,folder);
+            elseif isnumeric(step)
+                steps = ez.lsd(projFolder,'^\d\d'); % a cell of all folders like 01Original, 06Set
+                [dummy, currentStep] = ez.splitpath(csd);
+                currentStepNum = find(strcmp(steps,currentStep));
+                if ~isempty(currentStepNum), targetStep = steps{currentStepNum+step}; else targetStep = currentStep; end
+                folder = ez.joinpath(projFolder,targetStep);
             end
         end
 
