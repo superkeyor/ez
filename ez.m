@@ -379,7 +379,7 @@ classdef ez
         function [folder, projFolder] = stepfolder(step)
             % [folder, projFolder] = stepfolder(step)
             % step: regex of folder, eg '01', if multiple match, return only the first matched
-            %       integer -1 (backward) +2 (forward) 2 (same as +2)
+            %       integer -1 (default, backward) +2 (forward) 2 (same as +2)
             % folder: target folder path
             % projFolder: project folder path
             % 
@@ -393,6 +393,9 @@ classdef ez
             catch
                 csd = pwd;
             end
+
+            if nargin<1, step=-1; end
+                
             projFolder = ez.parentdir(csd);
             if isstr(step)
                 folder = ez.lsd(projFolder,step);
