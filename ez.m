@@ -6,7 +6,7 @@ classdef ez
     % or ez.method without import: ez.GetDir()
     %
     % help method to see more information
-    %       clear(), clean()
+    %       clear(), clean(), view(var)
     %
     %       iff(test,s1,s2)
     %
@@ -112,6 +112,11 @@ classdef ez
             commandwindow; % refocus to command window
             
             warning('on','MATLAB:lang:cannotClearExecutingFunction');
+        end
+
+        function varargout = view(varargin)
+            % Open workspace variable in Variables editor or other graphical editing tool, a wrapper of openvar()
+            [varargout{1:nargout}] = openvar(varargin{:}); 
         end
 
         function result = iff(test,s1,s2)
