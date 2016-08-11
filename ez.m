@@ -83,6 +83,10 @@ classdef ez
     methods(Static)
 
         function clean()
+            % new version of matlab issues warning
+            % ez.m could not be cleared because it contains MATLAB code that is currently executing
+            warning('off','MATLAB:lang:cannotClearExecutingFunction');
+            
             % clear command window, all variables. close all figures. show workspace/variables window
             clc;         % clear command window
             clear all;   % clear workspace/variables
@@ -90,9 +94,15 @@ classdef ez
             close all;   % close all figures
             % workspace;   % show/activate workspace/variables window
             commandwindow; % refocus to command window
+            
+            warning('on','MATLAB:lang:cannotClearExecutingFunction');
         end
 
         function clear()
+            % new version of matlab issues warning
+            % ez.m could not be cleared because it contains MATLAB code that is currently executing
+            warning('off','MATLAB:lang:cannotClearExecutingFunction');
+            
             % clear command window, all variables. close all figures. show workspace/variables window
             clc;         % clear command window
             clear all;   % clear workspace/variables
@@ -100,6 +110,8 @@ classdef ez
             close all;   % close all figures
             % workspace;   % show/activate workspace/variables window
             commandwindow; % refocus to command window
+            
+            warning('on','MATLAB:lang:cannotClearExecutingFunction');
         end
 
         function result = iff(test,s1,s2)
