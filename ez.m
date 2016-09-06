@@ -1631,7 +1631,9 @@ classdef ez
     end % end static methods
 end % end class
 
-
+%%**************************************************.
+%%*ez.ls, fls.
+%%**************************************************.
 % modified from http://www.mathworks.com/matlabcentral/fileexchange/16216-regexpdir
 function dirlist = regexpdir(rootdir, expstr, recursive)
 % REGEXPDIR Gives a directory listing based on a regular expression
@@ -1703,7 +1705,9 @@ end
 % 20-09-2007 v1.01 (BCH)  Proper solution for persistent variable 'basedir'
 %==========================================================================
 
-
+%%**************************************************.
+%%*ez.pprint.
+%%**************************************************.
 % credits: http://www.mathworks.com/matlabcentral/fileexchange/24093-cprintf-display-formatted-colored-text-in-the-command-window
 function count = cprintf(style,format,varargin)
 % CPRINTF displays styled formatted text in the Command Window
@@ -2270,6 +2274,9 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%% End %%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+%%**************************************************.
+%%*ez.cell2csv.
+%%**************************************************.
 function cell2csvModified(fileName, cellArray, separator, excelYear, decimal)
 % % Writes cell array content into a *.csv file.
 % % 
@@ -2363,7 +2370,9 @@ function result = Stringize(x)
 end % end sub-function
 end % end function
 
-
+%%**************************************************.
+%%*ez.csv2cell.
+%%**************************************************.
 function data = csv2cellModified(varargin)
 % http://www.mathworks.com/matlabcentral/fileexchange/20836-csv2cell
 % CSV2CELL - parses a Windows CSV file into an NxM cell array, where N is
@@ -2518,7 +2527,9 @@ for lineNumber = 1:length(lines)
 end
 end % end function
 
-
+%%**************************************************.
+%%*ez.export, not used anymore.
+%%**************************************************.
 function p = genpath_exclude(d,excludeDirs)
 % http://www.mathworks.com/matlabcentral/fileexchange/22209-genpath-exclude
 % pathStr = genpath_exclude(basePath,ignoreDirs)
@@ -2609,7 +2620,9 @@ function p = genpath_exclude(d,excludeDirs)
     end
 end % end function
 
-
+%%**************************************************.
+%%*ez.unique, union etc.
+%%**************************************************.
 function result = legacize(theArg);
 % if matlab version >= 7.14 (2012a), add 'legacy' to the parameters, otherwise not
 % this way, maintain cross-matlab version compatability
@@ -2627,7 +2640,9 @@ if ~hasLegacy
 end;
 end  % end internal function
 
-
+%%**************************************************.
+%%*ez.WinTop.
+%%**************************************************.
 function WasOnTop = WinOnTop( FigureHandle, IsOnTop )
     % http://www.mathworks.com/matlabcentral/fileexchange/42252-winontop
     %WINONTOP allows to trigger figure's "Always On Top" state
@@ -2690,7 +2705,9 @@ function WasOnTop = WinOnTop( FigureHandle, IsOnTop )
     end
 end % end internal function
 
-
+%%**************************************************.
+%%*ez.compare.
+%%**************************************************.
 % STRUCTCMP True if two structures are equal.
 %     STRUCTCMP(A,B) returns logical 1 (TRUE) if structure A and B are the same
 %     size, contain the same field names (case sensitive), same field sorting, and same values;
@@ -2818,7 +2835,9 @@ end
 Lout = all(Lvalue);
 end % end internal function
 
-
+%%**************************************************.
+%%*ez.expand.
+%%**************************************************.
 function fn_structdisp(Xname)
 % function fn_structdisp Xname
 % function fn_structdisp(X)
@@ -2916,7 +2935,9 @@ for i=1:nsub
 end
 end % end this internal function
 
-
+%%**************************************************.
+%%*ez.join.
+%%**************************************************.
 function output = strjoin(input, separator)
 %STRJOIN Concatenate an array into a single string.
 %
@@ -2973,7 +2994,9 @@ function output = strjoin(input, separator)
   end
 end % end this internal function
 
-
+%%**************************************************.
+%%*ez.export.
+%%**************************************************.
 % export_fig func
 %APPEND_PDFS Appends/concatenates multiple PDF files
 %
@@ -5470,7 +5493,7 @@ end % end func
 % the end of export_fig functions
 
 %%**************************************************.
-%%*explore structure.
+%%*ez.explore.
 %%**************************************************.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % CRC - ExploreStruct v1.2, 
@@ -5777,3 +5800,7 @@ end
             return;
         end
     end
+
+%%**************************************************.
+%%*.
+%%**************************************************.    
