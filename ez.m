@@ -1578,22 +1578,23 @@ classdef ez
             result = structcmp(S1,S2,'report','on','EqualNans','on','IgnoreSorting','on','IsRecursiveCall','no');
         end
 
-        function expand(C)
-            % expand(C) expands a cell or structure to display its content
-            if strcmp(class(C),'cell')
-                celldisp(C);
+        function expand(S,CELLRECURSIVE)
+            % expand(S) expands a cell or structure to display its content
+            if strcmp(class(S),'cell')
+                celldisp(S);
             else
-                fn_structdisp(C);
+                if nargin < 2, CELLRECURSIVE = true; end
+                fn_structdisp(S,CELLRECURSIVE);
             end
         end
 
-        function explore(C)
-            % explore(C) explore a cell or structure to display its content
-            if strcmp(class(C),'cell')
-                celldisp(C);
+        function explore(S)
+            % explore(S) explore a cell or structure to display its content
+            if strcmp(class(S),'cell')
+                celldisp(S);
             else
                 theVarName = inputname(1);
-                explorestruct(C,theVarName);
+                explorestruct(S,theVarName);
             end
         end
 
@@ -2838,7 +2839,7 @@ end % end internal function
 %%**************************************************.
 %%*ez.expand.
 %%**************************************************.
-function fn_structdisp(Xname)
+function fn_structdisp(Xname,CELLRECURSIVE)
 % function fn_structdisp Xname
 % function fn_structdisp(X)
 %---
@@ -2863,10 +2864,10 @@ else
 end
 
 if ~isstruct(X), error('argument should be a structure or the name of a structure'), end
-rec_structdisp(Xname,X)
+rec_structdisp(Xname,X,CELLRECURSIVE)
 end % end main function
 %---------------------------------
-function rec_structdisp(Xname,X)
+function rec_structdisp(Xname,X,CELLRECURSIVE)
 %---
 
 %-- PARAMETERS (Edit this) --%
@@ -2877,7 +2878,7 @@ ARRAYMAXELEMS = 30;
 CELLMAXROWS = 10;
 CELLMAXCOLS = 10;
 CELLMAXELEMS = 30;
-CELLRECURSIVE = false;
+% CELLRECURSIVE = true;
 
 %----- PARAMETERS END -------%
 
@@ -2918,7 +2919,7 @@ for i=1:nsub
     a = Y{i};
     if isstruct(a) || isobject(a)
         if length(a)==1
-            rec_structdisp(subnames{i},a)
+            rec_structdisp(subnames{i},a,CELLRECURSIVE)
         else
             for k=1:length(a)
                 rec_structdisp([subnames{i} '(' num2str(k) ')'],a(k))
@@ -2926,7 +2927,7 @@ for i=1:nsub
         end
     elseif iscell(a)
         if size(a,1)<=CELLMAXROWS && size(a,2)<=CELLMAXCOLS && numel(a)<=CELLMAXELEMS
-            rec_structdisp(subnames{i},a)
+            rec_structdisp(subnames{i},a,CELLRECURSIVE)
         end
     elseif size(a,1)<=ARRAYMAXROWS && size(a,2)<=ARRAYMAXCOLS && numel(a)<=ARRAYMAXELEMS
         disp([subnames{i} ':'])
