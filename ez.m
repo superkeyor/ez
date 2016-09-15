@@ -727,6 +727,10 @@ classdef ez
             % if the dimension is >= 2, still perform length() but remind user
             
             % isvector works with cell too
+            % isvector() better serves the purpose here than ndims() 
+            %   because ndims([1]) or ndims([1 2 3]) returns 2!   
+            %   treating as 1xn array, so two dims
+            %   isemtpy() needed, because isvector([]) returns 0
             if (~isempty(varargin{:})) && (~isvector(varargin{:}))
                 %   if  warning will print out stack trace
                 %   which could be resouce-consuming if caught in a loop
