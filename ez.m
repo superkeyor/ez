@@ -722,11 +722,16 @@ classdef ez
         end
 
         function varargout = len(varargin)
-            % len(varargin)
+            % len(varargin), wrapper of length()
             % returns the len of an array
-            % this is tricky, if the dimension is >= 2
-            % therefore I issue a warning when ndims >=2
-            if ndims(varargin{:}) >=2, warning('length() called, but more than 2 dims found; make sure returned length is what you want in every situation'); end
+            % if the dimension is >= 2, still perform length() but remind user
+            
+            % isvector works with cell too
+            if (~isempty(varargin{:})) && (~isvector(varargin{:}))
+                %   if  warning will print out stack trace
+                %   which could be resouce-consuming if caught in a loop
+                warning('length() called, but more than 2 dims found; make sure returned length is what you want in every situation'); 
+            end
             [varargout{1:nargout}] = length(varargin{:}); 
         end
 
@@ -3446,7 +3451,7 @@ end
 % print?). This may not work perfectly in all cases. Also it can change the
 % figure layout if reverted, so use a copy.
 magnify = options.magnify * options.aa_factor;
-if isbitmap(options) && magnify ~= 1
+if isbitmap_customized(options) && magnify ~= 1
     fontu = findobj(fig, 'FontUnits', 'normalized');
     if ~isempty(fontu)
         % Some normalized font units found
@@ -3486,7 +3491,7 @@ switch options.renderer
         renderer = '-opengl'; % Default for bitmaps
 end
 % Do the bitmap formats first
-if isbitmap(options)
+if isbitmap_customized(options)
     % Get the background colour
     if options.transparent && (options.png || options.alpha)
         % Get out an alpha channel
@@ -3538,7 +3543,7 @@ if isbitmap(options)
         clear B
         % Convert to greyscale
         if options.colourspace == 2
-            A = rgb2grey(A);
+            A = rgb2grey_customized(A);
         end
         A = uint8(A);
         % Crop the background
@@ -3555,7 +3560,7 @@ if isbitmap(options)
             options.png = false;
         end
         % Return only one channel for greyscale
-        if isbitmap(options)
+        if isbitmap_customized(options)
             A = check_greyscale(A);
         end
         if options.alpha
@@ -3565,7 +3570,7 @@ if isbitmap(options)
             options.alpha = false;
         end
         % Get the non-alpha image
-        if isbitmap(options)
+        if isbitmap_customized(options)
             alph = alpha(:,:,ones(1, size(A, 3)));
             A = uint8(single(A) .* alph + 255 * (1 - alph));
             clear alph
@@ -3596,7 +3601,7 @@ if isbitmap(options)
         A = downsize(A, options.aa_factor);
         if options.colourspace == 2
             % Convert to greyscale
-            A = rgb2grey(A);
+            A = rgb2grey_customized(A);
         else
             % Return only one channel for greyscale
             A = check_greyscale(A);
@@ -3647,7 +3652,7 @@ if isbitmap(options)
     end
 end
 % Now do the vector formats
-if isvector(options)
+if isvector_customized(options)
     % Set the default renderer to painters
     if ~options.renderer
         renderer = '-painters';
@@ -3857,7 +3862,7 @@ if isempty(fig)
 end
 
 % Set the default format
-if ~isvector(options) && ~isbitmap(options)
+if ~isvector_customized(options) && ~isbitmap_customized(options)
     options.png = true;
 end
 
@@ -3868,7 +3873,7 @@ end
 
 % If requested, set the resolution to the native vertical resolution of the
 % first suitable image found
-if native && isbitmap(options)
+if native && isbitmap_customized(options)
     % Find a suitable image
     list = findobj(fig, 'Type', 'image', 'Tag', 'export_fig_native');
     if isempty(list)
@@ -3941,7 +3946,7 @@ end
 return
 end % end func
 
-function A = rgb2grey(A)
+function A = rgb2grey_customized(A)
 A = cast(reshape(reshape(single(A), [], 3) * single([0.299; 0.587; 0.114]), size(A, 1), size(A, 2)), class(A));
 return
 end % end func
@@ -4046,12 +4051,12 @@ fclose(fh);
 return
 end % end func
 
-function b = isvector(options)
+function b = isvector_customized(options)
 b = options.pdf || options.eps;
 return
 end % end func
 
-function b = isbitmap(options)
+function b = isbitmap_customized(options)
 b = options.png || options.tif || options.jpg || options.bmp || options.im || options.alpha;
 return
 end % end func
