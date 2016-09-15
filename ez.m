@@ -724,6 +724,9 @@ classdef ez
         function varargout = len(varargin)
             % len(varargin)
             % returns the len of an array
+            % this is tricky, if the dimension is >= 2
+            % therefore I issue a warning when ndims >=2
+            if ndims(varargin{:}) >=2, warning('length() called, but more than 2 dims found; make sure returned length is what you want in every situation'); end
             [varargout{1:nargout}] = length(varargin{:}); 
         end
 
