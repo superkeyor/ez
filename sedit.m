@@ -5,6 +5,6 @@ function varargout = main(varargin)
         !open -a 'Sublime Text 2' 
     else
         filename = varargin{:};
-        eval(['!open -a "Sublime Text 2" ' which(filename)])
+        eval(['!open -a "Sublime Text" ' which(filename)])
     end
 end
