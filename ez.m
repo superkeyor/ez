@@ -26,6 +26,7 @@ classdef ez
     %       typeof(sth), type(sth), str(sth), num(sth), len(sth)
     %       ls([[path, ]regex, fullpath]), fls([[path, ]regex]), lsd([[path, ]regex, fullpath])
     %
+    %       trim(str,how[,chars])
     %       join(sep,string1,string2) or join(sep,array)
     %       replace(cellArray, item, replacement)
     %
@@ -243,7 +244,7 @@ classdef ez
         end
 
         function result = csd()
-            % csd()
+            % csd() current script dir
             % returns the caller (current caller m script file)'s directory
             % see also http://www.mathworks.com/access/helpdesk/help/techdoc/ref/mfilename.html
             try
@@ -256,7 +257,7 @@ classdef ez
         end
 
         function result = csf()
-            % csf()
+            % csf() current script file
             % returns the caller (current caller m script file)'s name only (without filepath and fileext)
             try
                 theStacks = dbstack('-completenames');
@@ -512,6 +513,50 @@ classdef ez
             else
                 [varargout{1:nargout}] = fullfile(varargin{:}); 
             end
+        end
+
+
+        function result = trim(s,varargin)
+            % Merge multiple spaces to single space in the middle, and remove trailing/leading spaces
+            % trim(s [, how [,chars]])
+            %     s: a string 
+            %     how: a num 1=left only; 
+            %                2=right only; 
+            %                3=left and right; 
+            %                4 (default)=left and right and merge middle
+            %     chars: if not given (default), space
+            %              if given, remove consecutive character instead
+            % eg, 'Hi        buddy        what is up    Bro'  --> 'Hi buddy what's up bro'
+            %     trim(s,3,'\')
+            %     ' Hi        buddy        what is up    Bro\\' --> ' Hi        buddy        what's up    Bro'
+            % 
+            
+            % nargin refers to all incoming args, not just the ones in varargin
+            % in the case of (s), nargin = 1
+            if nargin == 1
+                how = 4;
+                chars = ' ';
+            elseif nargin == 2
+                how = varargin{1};
+                chars = ' ';
+            elseif nargin == 3
+                how = varargin{1};
+                chars = varargin{2};
+            end % end if nargin
+
+            if strcmp(chars,' '), chars='\s'; end
+
+            if how==1
+                expression = sprintf('^(%s)+',chars);
+            elseif how==2
+                expression = sprintf('(%s)+$',chars);
+            elseif how==3
+                expression = sprintf('^(%s)+|(%s)+$',chars,chars);
+            elseif how==4
+                expression = sprintf('(?<=[(%s)])(%s)*|^(%s)+|(%s)+$',chars,chars,chars,chars);
+            end % end if how
+
+            result = regexprep(s, expression, '');
         end
         
         function result = join(sep,varargin)
