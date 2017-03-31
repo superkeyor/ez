@@ -24,7 +24,7 @@ classdef ez
     %       stepfolder(step)
     % 
     %       typeof(sth), type(sth), str(sth), num(sth), len(sth)
-    %       ls([[path, ]regex, fullpath]), fls([[path, ]regex]), lsd([[path, ]regex, fullpath])
+    %       ls([[path, ]regex, fullpath, dotfile]), fls([[path, ]regex,dotf]), lsd([[path, ]regex, fullpath ,dotfolder])
     %
     %       trim(str,how[,chars])
     %       join(sep,string1,string2) or join(sep,array)
@@ -784,10 +784,11 @@ classdef ez
             [varargout{1:nargout}] = length(varargin{:}); 
         end
 
-        function result = ls(rootdir, expstr, fullpath)
-            % ls(), ls(path), ls(regex), ls(path, regex), ls(path, regex, fullpath)
+        function result = ls(rootdir, expstr, fullpath, dotfile)
+            % ls(), ls(path), ls(regex), ls(path, regex), ls(path, regex, fullpath), ls(rootdir, expstr, fullpath, dotfile)
             % if path is missing, refers to current working directory
-            % returns a nx1 cell of files in directory with fullpath (default fullpath=true)
+            % dotfile refers to a file whose name starts with a dot, eg, .DS_Store ._file
+            % returns a nx1 cell of files in directory with fullpath (default fullpath=true) and without dotfile (default dotfile=false)
             % ls(path,regex) regex is case sensitive by default
             switch nargin
                 case 0
@@ -795,6 +796,7 @@ classdef ez
                     expstr = '.*';
                     recursive = false;
                     fullpath = true;
+                    dotfile = false;
                 case 1
                     % the first arg is tenatively rootdir
                     % user passed an existing dir
@@ -808,16 +810,25 @@ classdef ez
                     end
                     recursive = false;
                     fullpath = true;
+                    dotfile = false;
                 case 2
                     rootdir = rootdir;
                     expstr = expstr;
                     recursive = false;
                     fullpath = true;
+                    dotfile = false;
                 case 3
                     rootdir = rootdir;
                     expstr = expstr;
                     recursive = false;
-                    fullpath = fullpath;                    
+                    fullpath = fullpath;
+                    dotfile = false;
+                case 4
+                    rootdir = rootdir;
+                    expstr = expstr;
+                    recursive = false;
+                    fullpath = fullpath;
+                    dotfile = dotfile;                    
             end
             result = regexpdir(rootdir, expstr, recursive);
 
@@ -826,18 +837,29 @@ classdef ez
                 parts = regexp(e,filesep,'split');
                 result = parts{end};
             end % end sub-function
+
+            % deal with dotfile posthoc
+            if ~dotfile, result = result(cell2mat(cellfun(@IsNotDotFile,result,'UniformOutput',false))); end
+            function res = IsNotDotFile(f)
+                % no matter whether f is fullpath or not
+                parts = regexp(f,filesep,'split');
+                fileName = parts{end};
+                res = ~strcmp(fileName(1),'.');
+            end % end sub-function    
         end
 
-        function result = fls(rootdir, expstr)
-            % fls(), fls(path), fls(regex), fls(path, regex)
+        function result = fls(rootdir, expstr, dotf)
+            % fls(), fls(path), fls(regex), fls(path, regex), fls(rootdir, expstr, dotf)
             % if path is missing, refers to current working directory
-            % returns a nx1 cell of files in directory with fullpath recursively
+            % dotf refers to a file/folder whose name starts with a dot, eg, .DS_Store ._file .ignore/ (default dotf=false)
+            % returns a nx1 cell of files in directory with fullpath recursively without dotf
             % fls(path,regex) regex is case sensitive by default
             switch nargin
                 case 0
                     rootdir = pwd;
                     expstr = '.*';
                     recursive = true;
+                    dotf = false;
                 case 1
                     % the first arg is tenatively rootdir
                     % user passed an existing dir
@@ -850,16 +872,32 @@ classdef ez
                         rootdir = pwd;
                     end
                     recursive = true;
+                    dotf = false;
                 case 2
                     rootdir = rootdir;
                     expstr = expstr;
                     recursive = true;
+                    dotf = false;
+                case 3
+                    rootdir = rootdir;
+                    expstr = expstr;
+                    recursive = true;
+                    dotf = dotf;
             end
             result = regexpdir(rootdir, expstr, recursive);
+
+            % deal with dotf posthoc
+            if ~dotf, result = result(cell2mat(cellfun(@IsNotDotF,result,'UniformOutput',false))); end
+            function res = IsNotDotF(f)
+                % no matter whether f is fullpath or not
+                parts = regexp(f,filesep,'split');
+                % use strncmpi instead of p(1) to avoid error when p=''; length >=2 to ignore '' or '.'
+                res = ~any(cell2mat(cellfun(@(p) (length(p)>=2)&&strncmpi(p,'.',1),parts,'UniformOutput',false)));
+            end % end sub-function    
         end
 
-        function result = lsd(path,regex,fullpath)
-            % ls directory, lsd(), lsd(path), lsd(regex), lsd(path, regex), lsd(path, regex, fullpath)
+        function result = lsd(path,regex,fullpath,dotfolder)
+            % ls directory, lsd(), lsd(path), lsd(regex), lsd(path, regex), lsd(path, regex, fullpath), lsd(path,regex,fullpath,dotfolder)
             % path defaults to pwd, not recursive; support case-sensitive regex, default .*
             % returns a nx1 cell with all subfolder's names (only names, sorted ascending), or an empty 0 x 1 cell.
             % fullpath defaults to false
@@ -868,6 +906,7 @@ classdef ez
                     path = pwd;
                     regex = '.*';
                     fullpath = false;
+                    dotfolder = false;
                 case 1
                     % the first arg is tenatively path
                     % user passed an existing dir
@@ -880,14 +919,22 @@ classdef ez
                         path = pwd;
                     end
                     fullpath = false;
+                    dotfolder = false;
                 case 2
                     path = path;
                     regex = regex;
                     fullpath = false;
+                    dotfolder = false;
                 case 3
                     path = path;
                     regex = regex;
                     fullpath = fullpath;
+                    dotfolder = false;
+                case 4
+                    path = path;
+                    regex = regex;
+                    fullpath = fullpath;
+                    dotfolder = dotfolder;
             end
             listing = dir(path);
             issub = [listing(:).isdir]; % returns logical vector
@@ -898,6 +945,15 @@ classdef ez
             result = sort(result); % ascending order
 
             if fullpath, result = cellfun(@(e) fullfile(path,e),result,'UniformOutput',false); end
+
+            % deal with dotfolder posthoc
+            if ~dotfolder, result = result(cell2mat(cellfun(@IsNotDotFolder,result,'UniformOutput',false))); end
+            function res = IsNotDotFolder(f)
+                % no matter whether f is fullpath or not
+                parts = regexp(f,filesep,'split');
+                % use strncmpi instead of p(1) to avoid error when p=''; length >=2 to ignore '' or '.'
+                res = ~any(cell2mat(cellfun(@(p) (length(p)>=2)&&strncmpi(p,'.',1),parts,'UniformOutput',false)));
+            end % end sub-function        
         end
 
         function status = mkdir(path)
