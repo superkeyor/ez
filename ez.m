@@ -893,7 +893,7 @@ classdef ez
                 % no matter whether f is fullpath or not
                 parts = regexp(f,filesep,'split');
                 % use strncmpi instead of p(1) to avoid error when p=''; length >=2 to ignore '' or '.'
-                res = ~any(cell2mat(cellfun(@(p) (length(p)>=2)&&strncmpi(p,'.',1)&&strcmp(p,'..'),parts,'UniformOutput',false)));
+                res = ~any(cell2mat(cellfun(@(p) (length(p)>=2)&&strncmpi(p,'.',1)&&~strcmp(p,'..'),parts,'UniformOutput',false)));
             end % end sub-function    
         end
 
@@ -953,7 +953,7 @@ classdef ez
                 % no matter whether f is fullpath or not
                 parts = regexp(f,filesep,'split');
                 % use strncmpi instead of p(1) to avoid error when p=''; length >=2 to ignore '' or '.'
-                res = ~any(cell2mat(cellfun(@(p) (length(p)>=2)&&strncmpi(p,'.',1)&&strcmp(p,'..'),parts,'UniformOutput',false)));
+                res = ~any(cell2mat(cellfun(@(p) (length(p)>=2)&&strncmpi(p,'.',1)&&~strcmp(p,'..'),parts,'UniformOutput',false)));
             end % end sub-function        
         end
 
