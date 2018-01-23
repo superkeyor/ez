@@ -17,10 +17,10 @@ classdef ez
     %
     %       moment()
     %
-    %       cwd(), pwd(), csd(), csf(), parentdir(path), whichdir(mfilename)
+    %       cwd(), pwd(), csd(), csf(), parentdir(path) pp(), whichdir(mfilename)
     %       isdirlike(path), isfilelike(path), 
     %       isdir(path), isfile(path), exists(path)
-    %       addpath(path), splitpath(path), joinpath(path1, path2), trimdir(path), cd(path)
+    %       addpath(path), splitpath(path) sp(), joinpath(path1, path2) jp(), trimdir(path), cd(path)
     %       stepfolder(step)
     % 
     %       typeof(sth), type(sth), str(sth), num(sth), len(sth)
@@ -326,6 +326,10 @@ classdef ez
             if isempty(result), result = pwd(); end
         end
 
+        function varargout = pp(varargin)
+            [varargout{1:nargout}] = parentdir(varargin{:}); 
+        end
+
         function result = isdirlike(path)
             % isdirlike(path)
             % returns whether the path is a folder or a file, 
@@ -476,6 +480,10 @@ classdef ez
             [varargout{1:nargout}] = fileparts(path); 
         end
 
+        function varargout = sp(varargin)
+            [varargout{1:nargout}] = splitpath(varargin{:}); 
+        end
+
         function varargout = joinpath(varargin)
             % joinpath(filepart1,...,filepartN)
             % conceptually equivalent to [filepart1 filesep filepart2 filesep ... filesep filepartN]
@@ -515,6 +523,9 @@ classdef ez
             end
         end
 
+        function varargout = jp(varargin)
+            [varargout{1:nargout}] = joinpath(varargin{:}); 
+        end
 
         function result = trim(s,varargin)
             % Merge multiple spaces to single space in the middle, and remove trailing/leading spaces
