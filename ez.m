@@ -327,7 +327,7 @@ classdef ez
         end
 
         function varargout = pr(varargin)
-            [varargout{1:nargout}] = parentdir(varargin{:}); 
+            [varargout{1:nargout}] = ez.parentdir(varargin{:}); 
         end
 
         function result = isdirlike(path)
@@ -481,7 +481,7 @@ classdef ez
         end
 
         function varargout = sp(varargin)
-            [varargout{1:nargout}] = splitpath(varargin{:}); 
+            [varargout{1:nargout}] = ez.splitpath(varargin{:}); 
         end
 
         function varargout = joinpath(varargin)
@@ -524,7 +524,7 @@ classdef ez
         end
 
         function varargout = jp(varargin)
-            [varargout{1:nargout}] = joinpath(varargin{:}); 
+            [varargout{1:nargout}] = ez.joinpath(varargin{:}); 
         end
 
         function result = trim(s,varargin)
