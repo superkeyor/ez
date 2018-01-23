@@ -17,7 +17,7 @@ classdef ez
     %
     %       moment()
     %
-    %       cwd(), pwd(), csd(), csf(), parentdir(path) pp(), whichdir(mfilename)
+    %       cwd(), pwd(), csd(), csf(), parentdir(path) pr(), whichdir(mfilename)
     %       isdirlike(path), isfilelike(path), 
     %       isdir(path), isfile(path), exists(path)
     %       addpath(path), splitpath(path) sp(), joinpath(path1, path2) jp(), trimdir(path), cd(path)
@@ -326,7 +326,7 @@ classdef ez
             if isempty(result), result = pwd(); end
         end
 
-        function varargout = pp(varargin)
+        function varargout = pr(varargin)
             [varargout{1:nargout}] = parentdir(varargin{:}); 
         end
 
