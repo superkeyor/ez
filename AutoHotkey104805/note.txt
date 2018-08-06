@@ -1,0 +1,1 @@
+run it to create and then copy autohotkey.ahk to documents

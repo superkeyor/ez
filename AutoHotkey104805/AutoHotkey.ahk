@@ -4,6 +4,7 @@
 #InstallKeybdHook
 #InstallMouseHook
 #Hotstring EndChars -()[]{}:;'"/\,.?! `n   ;disable tab key to avoid conflicts with another software I am using--typing assistant
+#UseHook		;directive prevents binds from triggering each other
 Process, Priority, , High
 DetectHiddenText, off
 SetTitleMatchMode 2
@@ -18,28 +19,47 @@ SetWorkingDir %A_ScriptDir%
 ;suspend when necessary using pausebreak on the keyboard
 pause::suspend ;suspend hotkeys
 
-LAlt::LCtrl
-LCtrl::LAlt
-
-mbutton::
-run rundll32.exe shell32.dll`,Control_RunDLL main.cpl @0
-winwait Mouse Properties ahk_class #32770
-winactivate Mouse Properties ahk_class #32770
-send {shift down}{tab}{shift up} {right 3}
-sleep 100
-send {tab}{up}
-sleep 500
-send {enter}
+; remap ctrl alt while keep alt+tab
+!a::Send ^a
+!b::Send ^b
+!c::Send ^c
+!d::Send ^d
+!f::Send ^f
+!g::Send ^g
+!i::Send ^i
+!l::DllCall("LockWorkStation")
+!m::WinMinimize,a
+!n::Send ^n
+!o::Send ^o
+!p::Send ^p
+!q::Send !{F4}
+!s::Send ^s
+!t::Send ^t
+!v::Send ^v
+!w::Send ^w
+!x::Send ^x
+!y::Send ^y
+!z::Send ^z
+!space::Send !{Shift}
+; open link in new tab (alt+click)
+#IfWinActive ahk_class Chrome_WidgetWin_1
+!LButton::Send ^{Click}
+!1::send ^+{tab}
+!2::send ^{tab}
+mbutton::Send {XButton1}
+;!1::Send, {XButton1}  ;backward
+;!2::Send, {XButton2}  ;forward
 return
+#IfWinActive
 
 ;disable shift+delete
 +sc153::return
 ;open recycle bin
 #sc153::Run ::{645ff040-5081-101b-9f08-00aa002f954e} 
 
-;f5
 #ifwinactive AutoHotkey.ahk
-f5::
+^r::
+!r::
 send ^s
 sleep 100
 reload
@@ -59,17 +79,17 @@ return
 Capslock::sc01C
 
 ;move carets to the up, down, left and right--ideas from emacs and joystick games.
-!i::send {up}
-!k::send {down}
-!j::send {left}
-!l::send {right} 
-!u::send {home}
-!o::send {end}
+!+i::send {up}
+!+k::send {down}
+!+j::send {left}
+!+l::send {right} 
+!+u::send {home}
+!+o::send {end}
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;global hotkeys
 
 ;paste plain texts
-#v::
+!+v::
 Clip0 = %ClipBoardAll% 
 Transform UC, Unicode         ; Save Unicode text 
 Transform Clipboard, Unicode, %UC% 
@@ -79,12 +99,9 @@ ClipBoard = %Clip0%           ; Restore original ClipBoard
 VarSetCapacity(Clip0, 0)      ; Free memory 
 Return
 
-^+a::
 ^!a::
 Winset, Alwaysontop, , A
-
-#q::send !{F4}
-#w::send !{F4}
+return
 
 ;mouse button: press/hold left then right
 ~lbutton & rbutton:: run "AutoScriptWriter\AutoScriptWriter.exe"
@@ -126,8 +143,8 @@ else
 }
 return
 
-f4::
-ifwinexist PDF-XChange
+f2::
+ifwinexist ahk_class Chrome_WidgetWin_1
 {
 	ifwinactive
 	{
@@ -142,11 +159,31 @@ ifwinexist PDF-XChange
 }
 else
 {
-	run "..\PDFXViewer2.5.312.1\PDFXCview.exe"
+	run chrome.exe
 	return
 }
 
 f3::
+ifwinexist xplore ahk_class ATL:ExplorerFrame
+{
+	ifwinactive
+	{
+		send !{tab}
+		return
+	}
+	ifwinnotactive
+	{
+		winactivate
+		return
+	}
+}
+else
+{
+	run "..\xplorer2_lite\xplorer2_lite.exe"
+	return
+}
+
+f4::
 ifwinexist FastStone
 {
 	ifwinactive
@@ -166,8 +203,8 @@ else
 	return
 }
 
-f2::
-ifwinexist MATLAB R20
+f5::
+ifwinexist ahk_class FastStoneScreenCapturePanel
 {
 	ifwinactive
 	{
@@ -182,12 +219,12 @@ ifwinexist MATLAB R20
 }
 else
 {
-	run matlab.exe
+	run "..\fscapture\FSCapture.exe"
 	return
 }
 
-f1::
-ifwinexist xplore ahk_class ATL:ExplorerFrame
+f6::
+ifwinexist ahk_class ahk_class thinlinc-client
 {
 	ifwinactive
 	{
@@ -202,7 +239,27 @@ ifwinexist xplore ahk_class ATL:ExplorerFrame
 }
 else
 {
-	run "..\xplorer2_lite\xplorer2_lite.exe"
+	run "tlclient.exe"
+	return
+}
+
+f7::
+ifwinexist PDF-XChange
+{
+	ifwinactive
+	{
+		send !{tab}
+		return
+	}
+	ifwinnotactive
+	{
+		winactivate
+		return
+	}
+}
+else
+{
+	run "..\PDFXViewer2.5.312.1\PDFXCview.exe"
 	return
 }
 
