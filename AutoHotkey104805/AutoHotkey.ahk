@@ -18,6 +18,9 @@ SetWorkingDir %A_ScriptDir%
 ;suspend when necessary using pausebreak on the keyboard
 pause::suspend ;suspend hotkeys
 
+LAlt::LCtrl
+LCtrl::LAlt
+
 mbutton::
 run rundll32.exe shell32.dll`,Control_RunDLL main.cpl @0
 winwait Mouse Properties ahk_class #32770
