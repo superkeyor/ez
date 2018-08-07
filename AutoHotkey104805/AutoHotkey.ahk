@@ -147,6 +147,22 @@ else
 }
 return
 
+;prevent sleep
+f1::
+Tooltip Preventing sleeping... Press Q to quit...
+SetTimer, PreventIdle, % 1*60*1000 ;%min*second*milisecond
+PreventIdle:
+    Send, {LShift Down}{LShift Up}
+Return
+#ifwinexist Preventing sleeping... Press Q to quit...
+q::
+SetTimer, PreventIdle, off
+tooltip
+reload
+return
+#ifwinnotexist
+return
+
 f2::
 ifwinexist ahk_class Chrome_WidgetWin_1
 {
