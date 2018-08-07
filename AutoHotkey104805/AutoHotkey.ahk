@@ -19,6 +19,8 @@ SetWorkingDir %A_ScriptDir%
 ;suspend when necessary using pausebreak on the keyboard
 pause::suspend ;suspend hotkeys
 
+#x::Send !+x   ;for ditto
+
 ; remap ctrl alt while keep alt+tab
 !a::Send ^a
 !b::Send ^b
@@ -34,7 +36,9 @@ pause::suspend ;suspend hotkeys
 !p::Send ^p
 !q::Send !{F4}
 !s::Send ^s
+!+s::Send ^+s
 !t::Send ^t
+!+t::Send ^+t
 !v::Send ^v
 !w::Send ^w
 !x::Send ^x
@@ -263,18 +267,4 @@ else
 	return
 }
 
-; teamviewer
-#c::^c
-#a::^a
-#s::^s
-#z::^z
-#x::^x
-#v::^v
-#y::^y
-#f::^f
-#n::^n
-#b::^b
-#o::^o
-#i::^i
-#p::^p
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
