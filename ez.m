@@ -197,7 +197,7 @@ classdef ez
         end
 
         function pprint(sth, color)
-            % print(sth[, color]), color is optional, default to 'purple'
+            % print(sth[, color]), color is optional, default to 'purple', auto append a new line
             % Display a message in the command window, supporting formating and color
             % color(case-insensitive): 'Black','Cyan','Magenta','Blue','Green','Red','Yellow','White'
             
