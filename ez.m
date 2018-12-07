@@ -1244,6 +1244,7 @@ classdef ez
 
         function updateself()
             system('bash ~/Dropbox/Apps/Matlab/ez/publish.sh','-echo');
+            system('bash ~/Dropbox/Apps/Matlab/SPM/publish.sh','-echo');
         end
 
         function open(path)
