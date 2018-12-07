@@ -969,7 +969,7 @@ classdef ez
             end % end sub-function        
         end
 
-        function status = mkdir(path)
+        function [path, status] = mkdir(path)
             % mkdir(path)
             % makes a new dir, path could be absolute or relative, returns true or false
             % creates all neccessay parent folders (e.g. 'a/b/c', creates a b for c)
