@@ -1243,8 +1243,17 @@ classdef ez
         end
 
         function updateself()
-            system('bash ~/Dropbox/Apps/Matlab/ez/publish.sh','-echo');
-            system('bash ~/Dropbox/Apps/Matlab/SPM/publish.sh','-echo');
+            if ismac 
+                system('bash ~/Dropbox/Apps/Matlab/ez/publish.sh','-echo');
+                system('bash ~/Dropbox/Apps/Matlab/SPM/publish.sh','-echo');
+            elseif isunix
+                oldpwd = pwd;
+                cd('/N/u/jz55/Carbonate/Documents/MATLAB/ez')
+                ! git pull origin master
+                cd('/N/u/jz55/Carbonate/Documents/MATLAB/SPMJobs12')
+                ! git pull origin master
+                cd(oldpwd)
+            end
         end
 
         function open(path)
