@@ -45,7 +45,7 @@ classdef ez
     %       result = csv2cell(csvFile)
     %       [raw,num,txt] = xls2cell_windows_w_excel(xlsFile)
     %
-    %       readx, savex
+    %       readx, savex, header, append
     %
     %       gmail(email, subject, content, sender, user, pass) 
     %
