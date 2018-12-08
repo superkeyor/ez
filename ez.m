@@ -1525,8 +1525,8 @@ classdef ez
         function res = header(VariableNames)
             % VariableNames: cell of str, {'col_cellstr','col_double','col_cellstr2'}
             % usage:
-            % res = ez.header({'col_cellstr','col_double','col_cellstr2'});
-            % res = ez.append(res, {'string',2,'[3,4]'});
+            % xlsx = ez.header({'col_cellstr','col_double','col_cellstr2'});
+            % xlsx = ez.append(xlsx, {'string',2,'[3,4]'});
             
             % https://www.mathworks.com/matlabcentral/answers/112462
             % https://www.mathworks.com/help/matlab/ref/table.html
@@ -1540,8 +1540,8 @@ classdef ez
             % rowcell: {'string',2,'[3,4]'}
             % col1,3 will be cellstr, col2 will be double
             % usage:
-            % res = ez.header({'col_cellstr','col_double','col_cellstr2'});
-            % res = ez.append(res, {'string',2,'[3,4]'});
+            % xlsx = ez.header({'col_cellstr','col_double','col_cellstr2'});
+            % xlsx = ez.append(xlsx, {'string',2,'[3,4]'});
             res = [res; rowcell];
         end
         
