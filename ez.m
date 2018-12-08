@@ -13,7 +13,7 @@ classdef ez
     %       sleep([seconds])
     %
     %       error(msg), print(sth), pprint(sth[, color])
-    %       writelog(line[,file]), log(line[,file])
+    %       writeline(line[,file]), writelog(line[,file])
     %
     %       moment()
     %
@@ -40,9 +40,12 @@ classdef ez
     %
     %       GetVal(baseVarName)
     %
+    %       obsolete as of Sat, Dec 08 2018: switching to Table i/o functions
     %       cell2csv(csvFile,cellArray)
     %       result = csv2cell(csvFile)
-    %       [raw,num,txt] = xls2cell(xlsFile)
+    %       [raw,num,txt] = xls2cell_windows_w_excel(xlsFile)
+    %
+    %       readx, savex
     %
     %       gmail(email, subject, content, sender, user, pass) 
     %
@@ -152,34 +155,33 @@ classdef ez
             [varargout{1:nargout}] = pause(varargin{:}); 
         end
 
-        function writelog(line,file)
-            % writelog(line[,file])
+        function writeline(line,file)
+            % (line[,file])
             % Inputs:
-            %   line, a record line in string type
-            %   file--optional, log file path, defaults to "Log.txt" in the current working directory
-            % Append a record line with timestamp to a log file and also display the message on screen
+            %   line, a line in string type  (num2str, mat2str)
+            %   file--optional, file path, defaults to "output.txt" in the current working directory
+            % Append a line to file and also display the line on screen
             % returns nothing
 
-            if ~exist('file','var'), file = 'Log.txt'; end
-            timestamp = datestr(now,'yyyy-mm-dd_HH-MM-SS-FFF');
+            if ~exist('file','var'), file = 'output.txt'; end
 
             fid = fopen(file,'a');
-            fprintf(fid,'%s,%s\n',timestamp,line);
+            fprintf(fid,'%s\n',line);
             fclose(fid);
 
             % show on screen
-            fprintf('%s,%s\n',timestamp,line);
+            fprintf('%s\n',line);
         end
 
-        function log(line,file)
-            % log(line[,file])
+        function writelog(line,file)
+            % (line[,file])
             % Inputs:
-            %   line, a record line in string type
-            %   file--optional, log file path, defaults to "Log.txt" in the current working directory
+            %   line, a record line in string type  (num2str, mat2str)
+            %   file--optional, log file path, defaults to "log.txt" in the current working directory
             % Append a record line with timestamp to a log file and also display the message on screen
             % returns nothing
 
-            if ~exist('file','var'), file = 'Log.txt'; end
+            if ~exist('file','var'), file = 'log.txt'; end
             timestamp = datestr(now,'yyyy-mm-dd_HH-MM-SS-FFF');
 
             fid = fopen(file,'a');
@@ -1437,6 +1439,7 @@ classdef ez
         end
 
         function cell2csv(csvFile,cellArray)
+            % obsolete as of Sat, Dec 08 2018: switching to Table i/o functions
             % cell2csv(csvFile,cellArray)
             % write the content of a cell array to a csv file, comma separated
             % works with empty cells, numeric, char, string, row vector, and logical cells. 
@@ -1446,6 +1449,7 @@ classdef ez
         end
 
         function result = csv2cell(csvFile)
+            % obsolete as of Sat, Dec 08 2018: switching to Table i/o functions
             % csv2cell(csvFile)
             % read csv into a cell
             % basically everything defaults to string,  However there are 2 exceptions:
@@ -1458,7 +1462,7 @@ classdef ez
             result = cellfun(@Numerize, tempResult, 'UniformOutput', false);
             function result = Numerize(x)
                 if isempty(str2num(x))
-                    if isempty(x), 
+                    if isempty(x)
                         result = []; 
                     else
                         result = x;
@@ -1469,7 +1473,8 @@ classdef ez
             end % end sub-function    
         end
 
-        function [raw,num,txt] = xls2cell(varargin)
+        function [raw,num,txt] = xls2cell_windows_w_excel(varargin)
+            % obsolete as of Sat, Dec 08 2018: switching to Table i/o functions
             % [raw,num,txt] = xls2cell(varargin), read XLS, XLSX, XLSM, XLTX, and XLTM into a cell
             % only works on Windows platform with/without Microsoft Excel installed
             % (filename)  % reads data from the first worksheet 
@@ -1495,6 +1500,51 @@ classdef ez
             [num,txt,raw] = xlsread(varargin{:});
         end
 
+        function varargout = readx(varargin)
+            % illegal char (eg, .) in variable names will be replace with _ (warning suppressed)
+            
+            % Variable names were modified to make them valid MATLAB identifiers. The original names are saved in the VariableDescriptions property.
+            S = warning('QUERY', 'MATLAB:table:ModifiedVarnames');
+            warning('OFF', 'MATLAB:table:ModifiedVarnames');
+            [varargout{1:nargout}] = readtable(varargin{:}); 
+            warning(S.state, 'MATLAB:table:ModifiedVarnames');
+        end
+        
+        function varargout = savex(varargin)
+            % underlying is writetable, but on Linux and Mac platforms, the xlsread function or the Import Tool cannot open spreadsheet files written by the writetable function.
+            % Resave the xlsx file with Excel
+            % (T,file)
+            % T: table with header
+            % file: file path with .xlsx (always overwrite file here; writetable only overwrites cells in excel )
+            if exist(path,'file')
+                delete(path);
+            end
+            [varargout{1:nargout}] = writetable(varargin{:}); 
+        end 
+        
+        function res = header(VariableNames)
+            % VariableNames: cell of str, {'col_cellstr','col_double','col_cellstr2'}
+            % usage:
+            % res = ez.header({'col_cellstr','col_double','col_cellstr2'});
+            % res = ez.append(res, {'string',2,'[3,4]'});
+            
+            % https://www.mathworks.com/matlabcentral/answers/112462
+            % https://www.mathworks.com/help/matlab/ref/table.html
+            res = cell2table(cell(0,numel(VariableNames)),'VariableNames',VariableNames);
+        end
+        
+        function res = append(res,rowcell)
+            % append a row (in cell) to table
+            % (res,rowcell)
+            % res: exisiting table
+            % rowcell: {'string',2,'[3,4]'}
+            % col1,3 will be cellstr, col2 will be double
+            % usage:
+            % res = ez.header({'col_cellstr','col_double','col_cellstr2'});
+            % res = ez.append(res, {'string',2,'[3,4]'});
+            res = [res; rowcell];
+        end
+        
         function gmail(email, subject, content, sender, user, pass)
             % e.g. gmail('a@b.com', 'greetings', ['line1' 10 'line2'], 'Sender Name <c@gmail.com>', 'c@gmail.com', 'password');
             setpref('Internet','E_mail',sender);
