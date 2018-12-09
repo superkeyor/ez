@@ -1237,10 +1237,11 @@ classdef ez
         end
 
         function [status,result] = execute(command)
-            % execute(command)
+            % [status,result] = execute(command)
             % execute operating system command and returns output
+            % also displays (echoes) the command output in the MATLAB® Command Window
 
-            % '-echo' also displays (echoes) the command output in the MATLAB® Command Window
+            % '-echo' also displays (echoes) the command output in the MATLAB Command Window
             [status,result] = system(command,'-echo');
         end
 
@@ -1543,6 +1544,13 @@ classdef ez
             % xlsx = ez.header({'col_cellstr','col_double','col_cellstr2'});
             % xlsx = ez.append(xlsx, {'string',2,'[3,4]'});
             res = [res; rowcell];
+        end
+        
+        function T = c2t(C)
+            % (C) to table
+            % C: cell with header
+            T = cell2table(C(2:end,:));
+            T.Properties.VariableNames = C(1,:);
         end
         
         function gmail(email, subject, content, sender, user, pass)
