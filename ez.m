@@ -1550,7 +1550,7 @@ classdef ez
             % (C) to table
             % C: cell with header
             T = cell2table(C(2:end,:));
-            T.Properties.VariableNames = C(1,:);
+            T.Properties.VariableNames = matlab.lang.makeValidName(C(1,:));
         end
         
         function gmail(email, subject, content, sender, user, pass)
