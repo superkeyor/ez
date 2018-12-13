@@ -1297,6 +1297,12 @@ fprintf(fid,' sync mirror:left->right \n');
                     cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu');
                     ! git clone https://github.com/jerryzhujian9/ez.git
                     ! git clone https://github.com/jerryzhujian9/SPMJobs12.git
+                    restoredefaultpath;
+                    clear RESTOREDEFAULTPATH_EXECUTED;
+                    addpath('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez');
+                    run('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12/ignite.m');
+                    f;
+                    spm('quit');
                     cd(oldpwd)
                 end
             end
