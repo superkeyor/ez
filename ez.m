@@ -1292,8 +1292,8 @@ fprintf(fid,' sync mirror:left->right \n');
                     cd(oldpwd)
                 else
                     oldpwd = pwd;
-                    ez.rm('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez');
-                    ez.rm('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12');
+                    rmdir('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12','s');
+                    rmdir('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez','s');
                     cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu');
                     ! git clone https://github.com/jerryzhujian9/ez.git
                     ! git clone https://github.com/jerryzhujian9/SPMJobs12.git
