@@ -1273,14 +1273,15 @@ fprintf(fid,' load "/Users/jerry/Dropbox/Apps/Matlab/SPM" "/Volumes/projects/Rad
 fprintf(fid,' sync mirror:left->right \n');
                     fclose(fid);
                     system(sprintf('/usr/local/bin/bcomp @''%s'' ', fn),'-echo');
+                    ez.rm(fn);
                 end
             elseif isunix
                 oldpwd = pwd;
-                cd('/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez')
+                cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez')
                 ! git fetch origin master
                 ! git reset --hard origin/master
                 ! git pull origin master
-                cd('/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12')
+                cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12')
                 ! git fetch origin master
                 ! git reset --hard origin/master
                 ! git pull origin master
