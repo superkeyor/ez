@@ -1291,6 +1291,7 @@ fprintf(fid,' sync mirror:left->right \n');
                     ! git pull origin master
                     cd(oldpwd)
                 else
+                    % todo: suppress warnings. but still ez.rm could not be removed because this function is being executed
                     oldpwd = pwd;
                     rmdir('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12','s');
                     rmdir('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez','s');
