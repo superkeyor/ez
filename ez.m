@@ -1245,7 +1245,10 @@ classdef ez
             [status,result] = system(command,'-echo');
         end
 
-        function updateself()
+        function updateself(force)
+            % force, only works for linux
+            if nargin<1, force=false; end
+
             if ismac 
                 system('bash ~/Dropbox/Apps/Matlab/ez/publish.sh','-echo');
                 system('bash ~/Dropbox/Apps/Matlab/SPM/publish.sh','-echo');
@@ -1276,16 +1279,26 @@ fprintf(fid,' sync mirror:left->right \n');
                     ez.rm(fn);
                 end
             elseif isunix
-                oldpwd = pwd;
-                cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez')
-                ! git fetch origin master
-                ! git reset --hard origin/master
-                ! git pull origin master
-                cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12')
-                ! git fetch origin master
-                ! git reset --hard origin/master
-                ! git pull origin master
-                cd(oldpwd)
+                if ~force
+                    oldpwd = pwd;
+                    cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez');
+                    ! git fetch origin master
+                    ! git reset --hard origin/master
+                    ! git pull origin master
+                    cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12');
+                    ! git fetch origin master
+                    ! git reset --hard origin/master
+                    ! git pull origin master
+                    cd(oldpwd)
+                else
+                    oldpwd = pwd;
+                    ez.rm('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez');
+                    ez.rm('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12');
+                    cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu');
+                    ! git clone https://github.com/jerryzhujian9/ez.git
+                    ! git clone https://github.com/jerryzhujian9/SPMJobs12.git
+                    cd(oldpwd)
+                end
             end
         end
 
