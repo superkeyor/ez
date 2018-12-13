@@ -1251,9 +1251,13 @@ classdef ez
                 system('bash ~/Dropbox/Apps/Matlab/SPM/publish.sh','-echo');
             elseif isunix
                 oldpwd = pwd;
-                cd('/N/u/jz55/Carbonate/Documents/MATLAB/ez')
+                cd('/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez')
+                ! git fetch origin master
+                ! git reset --hard origin/master
                 ! git pull origin master
-                cd('/N/u/jz55/Carbonate/Documents/MATLAB/SPMJobs12')
+                cd('/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12')
+                ! git fetch origin master
+                ! git reset --hard origin/master
                 ! git pull origin master
                 cd(oldpwd)
             end
