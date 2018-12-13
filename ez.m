@@ -1249,6 +1249,31 @@ classdef ez
             if ismac 
                 system('bash ~/Dropbox/Apps/Matlab/ez/publish.sh','-echo');
                 system('bash ~/Dropbox/Apps/Matlab/SPM/publish.sh','-echo');
+                try 
+                    fn = tempname;
+                    fid = fopen(fn,'w');
+fprintf(fid,' # how to run these commands \n');
+fprintf(fid,' # bcomp @''bcompsync.txt'' -silent  \n');
+fprintf(fid,' # for more help: bcomp -h \n');
+fprintf(fid,'  \n');
+fprintf(fid,' # log normal append:"bcompsync.log" \n');
+fprintf(fid,' option confirm:yes-to-all \n');
+fprintf(fid,' criteria timestamp size \n');
+fprintf(fid,'  \n');
+fprintf(fid,' filter "g0*.xlsx;*.m;*.mat;-._*;-.*;-*/" \n');
+fprintf(fid,' load "/Users/jerry/Dropbox/Work/Postdoc/IU/Data/nbk" "/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/nbk" \n');
+fprintf(fid,' sync mirror:left->right \n');
+fprintf(fid,'  \n');
+fprintf(fid,' filter "-.gitignore;-.DS_Store;-._*;-.*;-.ignore/;-.git/;-*/" \n');
+fprintf(fid,' load "/Users/jerry/Dropbox/Apps/Matlab/ez" "/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez" \n');
+fprintf(fid,' sync mirror:left->right \n');
+fprintf(fid,'  \n');
+fprintf(fid,' filter "-.gitignore;-.DS_Store;-._*;-.*;-jobmail.m;-./extensions/xjview96/example2.img;-./extensions/xjview96/example2.hdr;-./extensions/xjview96/example1.img;-./extensions/xjview96/example1.hdr;-./extensions/xjview96/ch2bet.img;-./extensions/xjview96/ch2bet.hdr;-./extensions/xjview96/ch2.img;-./extensions/xjview96/ch2.hdr;-./extensions/xjview96/brodmann.img;-./extensions/xjview96/brodmann.hdr;-./extensions/xjview96/aal.img;-./extensions/xjview96/aal.hdr;-.ignore/;-.git/;-./spms/;-./template/;-./extensions/Talairach/;-./extensions/WFU_PickAtlas_3.0.5b/;-./extensions/spunt-bspmview-5597721/;-./extensions/mricron_2015_06_01/;-./extensions/FITv2.0d/;-./extensions/afni_matlab/;-./extensions/marsbar-0.44/;-./extensions/BrainNetViewer_20150807/;-./extensions/BCT_2016_01_16/;-./extensions/BASCO2.0_modified/;-./homebrew/ROIs/" \n');
+fprintf(fid,' load "/Users/jerry/Dropbox/Apps/Matlab/SPM" "/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12" \n');
+fprintf(fid,' sync mirror:left->right \n');
+                    fclose(fid);
+                    system(sprintf('/usr/local/bin/bcomp @''%s'' ', fn),'-echo');
+                end
             elseif isunix
                 oldpwd = pwd;
                 cd('/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez')
