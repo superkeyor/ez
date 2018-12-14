@@ -36,7 +36,7 @@ classdef ez
     %       Alert(msg), result = Confirm(msg), results = Inputs(values[, defaults, title]), 
     %       GetDir([title, path]), 
     %       [result, pathName] = GetFile([pattern[, title, multiple]]), [result, pathName] = SetFile([defaultFileName[, title]])
-    %       WinTop([fig])
+    %       wintop([fig]), winclose, winfind
     %
     %       GetVal(baseVarName)
     %
@@ -1468,8 +1468,9 @@ fprintf(fid,' sync mirror:left->right \n');
             if (~result); error('MATLAB:UNIQUE:NotEnoughInputs','++++++++++++++++++++++++++++++++++++++++\nUser canceled. Raise error to stop script...\n++++++++++++++++++++++++++++++++++++++++'); end
         end
 
-        function WinTop(fig)
+        function wintop(fig)
             % toggle figure win (default=gcf) on top
+            % this is different from .WindowStyle='modal' where mouse cannot click elsewhere
             if ~exist('fig','var'), fig = gcf; end
             isOnTop  = WinOnTop(fig,[]);
             if isOnTop
@@ -1478,6 +1479,37 @@ fprintf(fid,' sync mirror:left->right \n');
                 WinOnTop(fig, true);
             end
         end % end function
+
+        function winclose(regexname)
+            % regexname: figure name in regex (case sensitive). 
+            % if not provided, close all force
+            % if not found, nothing happens
+            if ~exist('regexname','var'), 
+                close all force;
+            else 
+                % 0=root object (screen)
+                h = findall(0,'type','figure','-regexp','name',regexname);
+                close(h);  % h empty is fine
+            end
+        end
+
+        function h=winfind(regexname)
+            % regexname: figure name in regex (case sensitive)
+            % returns a Figure array (empty if not found), index using h(1)
+
+            % 0=root object (screen)
+            h = findall(0,'type','figure','-regexp','name',regexname);
+        end
+
+        function varargout = winmove(varargin)
+            % alias of movegui, move to the specified screen location and preserves the figure's size
+            % ([h,] position) 
+            % position: [left, top] or 'north', 'south', 'east', 'west', 'northeast', 'northwest', 'southeast', 'southwest', 'center', 'onscreen'
+            % Note: how to get screen size 
+            %       get(0,'units'); get(0,'screensize')
+            %       (On Windows systems, a pixel is 1/96th of an inch, 96DPI; Mac, 72DPI; Linux, determined by system resolution)
+            [varargout{1:nargout}] = movegui(varargin{:}); 
+        end
 
         function result = GetVal(baseVarName)
             % get a variable value from base workspace
