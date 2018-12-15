@@ -8,7 +8,7 @@ classdef ez
     % help method to see more information
     %       clear(), clean(), view(var)
     %
-    %       iff(test,s1,s2)
+    %       ifelse(test,s1,s2)
     %
     %       sleep([seconds])
     %
@@ -123,9 +123,9 @@ classdef ez
             [varargout{1:nargout}] = openvar(varargin{:}); 
         end
 
-        function result = iff(test,s1,s2)
+        function result = ifelse(test,s1,s2)
             % Usage:
-            %  >> result = iff(test, s1, s2);
+            %  >> result = ifelse(test, s1, s2);
             %
             % Input:
             %   test   - logical test with result 0 or 1
