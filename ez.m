@@ -987,16 +987,18 @@ classdef ez
             end % end sub-function        
         end
 
-        function [path, status] = mkdir(path)
+        function [path, status] = mkdir(path,print2screen)
             % mkdir(path)
             % makes a new dir, path could be absolute or relative, returns true or false
             % creates all neccessay parent folders (e.g. 'a/b/c', creates a b for c)
             % if folder exits, does nothing and returns success/true
+            
+            setdefault('print2screen',true);
             if isdir(path)
                 status = true;
             else
                 status = mkdir(path);
-                disp([path ' created']);
+                if print2screen, disp([path ' created']); end
             end
 
             % % mkdir(path)
@@ -1252,13 +1254,18 @@ classdef ez
             end
         end
 
-        function [status,result] = execute(command)
+        function [status,result] = execute(command,print2screen)
             % [status,result] = execute(command)
             % execute operating system command and returns output
             % also displays (echoes) the command output in the MATLAB® Command Window
 
-            % '-echo' also displays (echoes) the command output in the MATLAB Command Window
-            [status,result] = system(command,'-echo');
+            setdefault({'print2screen',true});
+            if print2screen
+                % '-echo' also displays (echoes) the command output in the MATLAB Command Window
+                [status,result] = system(command,'-echo');
+            else
+                [status,result] = system(command);
+            end
         end
 
         function updateself(force)
