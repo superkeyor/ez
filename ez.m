@@ -13,7 +13,7 @@ classdef ez
     %       sleep([seconds])
     %
     %       error(msg), print(sth), pprint(sth[, color])
-    %       writeline(line[,file]), writelog(line[,file])
+    %       writeline(line[,file]), logon, logoff
     %
     %       moment()
     %
@@ -173,23 +173,15 @@ classdef ez
             fprintf('%s\n',line);
         end
 
-        function writelog(line,file)
-            % (line[,file])
-            % Inputs:
-            %   line, a record line in string type  (num2str, mat2str)
-            %   file--optional, log file path, defaults to "log.txt" in the current working directory
-            % Append a record line with timestamp to a log file and also display the message on screen
-            % returns nothing
+        function logon(file)
+            if nargin<1, file='diary.log'; end
+            diary(file);
+            fprintf('log on at %s\n',ez.moment());
+        end
 
-            if ~exist('file','var'), file = 'log.txt'; end
-            timestamp = datestr(now,'yyyy-mm-dd_HH-MM-SS-FFF');
-
-            fid = fopen(file,'a');
-            fprintf(fid,'%s,%s\n',timestamp,line);
-            fclose(fid);
-
-            % show on screen
-            fprintf('%s,%s\n',timestamp,line);
+        function logoff()
+            fprintf('log off at %s\n',ez.moment());
+            diary off;
         end
         
         function varargout = print(varargin)
@@ -2016,7 +2008,7 @@ end % end ez class
 
 
                       %%**************************************************.
-                      %%*internal functions section.
+                      %%*start internal functions section.
                       %%**************************************************.
 %%**************************************************.
 %%*ez.ls, fls.
@@ -3288,12 +3280,15 @@ end % end of this internal function
 % ==========================================================================
 % SUBFUNCTIONS ------------------------------------------------------------=
 % ==========================================================================
+% usage:
+% if nargin < 3, mfile_showhelp; return; end
 function mfile_showhelp(varargin)
     % MFILE_SHOWHELP
     ST = dbstack('-completenames');
     if isempty(ST), fprintf('\nYou must call this within a function\n\n'); return; end
-    eval(sprintf('help %s', ST(2).file));
-    end
+    eval(sprintf('help %s', ST(2).name));
+end
+
 function argstruct = setargs(defaults, optargs)
     % SETARGS Name/value parsing and assignment of varargin with default values
     %
@@ -3344,7 +3339,7 @@ function argstruct = setargs(defaults, optargs)
     end
     for i = 1:size(defaults,1), assignin('caller', defaults{i,1}, defaults{i,2}); end
     if nargout>0, argstruct = cell2struct(defaults(:,2), defaults(:,1)); end
-    end
+end
 % ==========================================================================
 % ADAPTED FROM FROM STRUCDISP - fileexchange/13831-structure-display -------
 % ==========================================================================
