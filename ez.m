@@ -993,7 +993,7 @@ classdef ez
             % creates all neccessay parent folders (e.g. 'a/b/c', creates a b for c)
             % if folder exits, does nothing and returns success/true
             
-            setdefault('print2screen',true);
+            ez.setdefault('print2screen',true);
             if isdir(path)
                 status = true;
             else
@@ -1259,7 +1259,7 @@ classdef ez
             % execute operating system command and returns output
             % also displays (echoes) the command output in the MATLAB® Command Window
 
-            setdefault({'print2screen',true});
+            ez.setdefault({'print2screen',true});
             if print2screen
                 % '-echo' also displays (echoes) the command output in the MATLAB Command Window
                 [status,result] = system(command,'-echo');
