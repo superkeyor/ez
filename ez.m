@@ -1008,7 +1008,7 @@ classdef ez
             % creates all neccessay parent folders (e.g. 'a/b/c', creates a b for c)
             % if folder exits, does nothing and returns success/true
             
-            ez.setdefault('print2screen',true);
+            ez.setdefault({'print2screen',true});
             if isdir(path)
                 status = true;
             else
