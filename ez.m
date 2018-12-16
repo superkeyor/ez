@@ -6,6 +6,7 @@ classdef ez
     % or ez.method without import: ez.GetDir()
     %
     % help method to see more information
+    %       showhelp, setdefault
     %       clear(), clean(), view(var)
     %
     %       ifelse(test,s1,s2)
@@ -54,7 +55,7 @@ classdef ez
     %
     %       backward compatabilities: union, unique, ismember, setdiff, intersect, setxor       
     %
-    %       result = AreTheseToolboxesInstalled({,})
+    %       result = toolboxExists({,})
     %       result = compare(A,B)
     %       printstruct(S)
     %
@@ -85,6 +86,37 @@ classdef ez
 
 
     methods(Static)
+
+        function showhelp()
+            % show caller's help info
+            ST = dbstack('-completenames');
+            if isempty(ST), fprintf('\nYou must call this within a function\n\n'); return; end
+            eval(sprintf('help %s', ST(2).name));
+        end
+
+        function setdefault(paircell)
+            % setdefault(paircell)
+            % sets a default value for a variable, does not returns anything
+            % if an arg is passed a value, default value will be ignored
+            % useful for define a function as in the following example:
+            %
+            % function result = funcname(para1,para2,varargin)
+            %       setdefault({'para1',3,'para2','abc'});
+            %       % or (the ; could be , or omitted)
+            %       setdefault({'para1',3;
+            %                   'para2','abc'});
+            %       blabla...
+            % end
+            if (size(paircell,1)==1), paircell = reshape(paircell, 2, length(paircell)/2)'; end
+
+            for i = 1:size(paircell,1)
+                variable = paircell{i,1}; defaultValue = paircell{i,2};
+                varExist = evalin('caller',sprintf('exist(''%s'',''var'')',variable));  % '' to escape
+                if ~varExist
+                    assignin('caller',variable,defaultValue);
+                end
+            end
+        end
 
         function clean()
             % new version of matlab issues warning
@@ -372,24 +404,6 @@ classdef ez
                 result = true;
             else
                 result = false;
-            end
-        end
-
-        function setdefault(variable,defaultValue)
-            % setdefault(variable,defaultValue)
-            % sets a default value for a variable, does not returns anything
-            % useful for define a function as in the following example:
-            %
-            % function result = funcname(para,varargin)
-            %       setdefault('para',3)
-            %       blabla...
-            % end
-            %
-            % effectively the same as: 
-            % if ~exist('para','var'), para = 3; end
-            varExist = evalin('caller',sprintf('exist(''%s'',''var'')',variable));  % '' to escape
-            if ~varExist
-                assignin('caller',variable,defaultValue);
             end
         end
 
@@ -1509,7 +1523,7 @@ fprintf(fid,' sync mirror:left->right \n');
             %       (On Windows systems, a pixel is 1/96th of an inch, 96DPI; Mac, 72DPI; Linux, determined by system resolution)
             [varargout{1:nargout}] = movegui(varargin{:}); 
         end
-
+        
         function result = GetVal(baseVarName)
             % get a variable value from base workspace
             % if the variable does not exist, return ''
@@ -1962,9 +1976,9 @@ fprintf(fid,' sync mirror:left->right \n');
             end
         end % end fun
 
-        function tf = AreTheseToolboxesInstalled(requiredToolboxes)
-        %ARETHESETOOLBOXESINSTALLED takes a cell array of toolbox names and checks whether they are currently installed
-        % SYNOPSIS tf = AreTheseToolboxesInstalled(requiredToolboxes)
+        function tf = toolboxExists(requiredToolboxes)
+        %toolboxExists takes a cell array of toolbox names and checks whether they are currently installed
+        % SYNOPSIS tf = toolboxExists(requiredToolboxes)
         %
         % INPUT requiredToolboxes: cell array with toolbox names to test for. Eg. 
         %        {'MATLAB','Image Processing Toolbox'}
