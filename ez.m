@@ -190,6 +190,21 @@ classdef ez
             [varargout{1:nargout}] = pause(varargin{:}); 
         end
 
+        function lines = readlines(file)
+            % (file)
+            % read file into a nx1 cell
+            % line's trailing space trimmed and newline character removed
+            fid = fopen(file);
+            lines = {};
+            i = 1;
+            while ~feof(fid)
+                line = fgetl(fid); % read line by line
+                lines{i,1}=ez.trim(line,2);
+                i = i+1;
+            end
+            fclose(fid);
+        end
+
         function writeline(line,file)
             % (line[,file])
             % Inputs:
