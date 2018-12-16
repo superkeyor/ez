@@ -99,8 +99,11 @@ classdef ez
             % sets a default value for a variable, does not returns anything
             % if an arg is passed a value, default value will be ignored
             % useful for define a function as in the following example:
-            %
-            % function result = funcname(para1,para2,varargin)
+            % 
+            % value could be number, character, or even a function ez.ls('path/to/sth')
+            % do not have to list all args; not applicable to varargin
+            % 
+            % function result = funcname(para1,para2,para3,varargin)
             %       setdefault({'para1',3,'para2','abc'});
             %       % or (the ; could be , or omitted)
             %       setdefault({'para1',3;
