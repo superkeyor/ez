@@ -1272,7 +1272,7 @@ classdef ez
         function [status,result] = execute(command,print2screen)
             % [status,result] = execute(command)
             % execute operating system command and returns output
-            % also displays (echoes) the command output in the MATLAB® Command Window
+            % also displays (echoes) the command output in the MATLAB Command Window
 
             ez.setdefault({'print2screen',true});
             if print2screen
