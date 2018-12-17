@@ -1329,10 +1329,12 @@ fprintf(fid,' sync mirror:left->right \n');
                     ! git pull origin master
                     cd(oldpwd)
                 else
-                    % todo: suppress warnings. but still ez.rm could not be removed because this function is being executed
+                    % ez could not be removed because this function is being executed
                     oldpwd = pwd;
+                    warning('off','MATLAB:lang:cannotClearExecutingFunction');
                     rmdir('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12','s');
                     rmdir('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez','s');
+                    warning('on','MATLAB:lang:cannotClearExecutingFunction');
                     cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu');
                     ! git clone https://github.com/jerryzhujian9/ez.git
                     ! git clone https://github.com/jerryzhujian9/SPMJobs12.git
