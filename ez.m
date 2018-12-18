@@ -1648,6 +1648,7 @@ fprintf(fid,' sync mirror:left->right \n');
             try
                 if isempty(which('xlwrite'))
                     thePath = fullfile(fileparts(mfilename('fullpath')),'xlwrite');
+                    addpath(thePath);
                     % Add Java POI Libs to matlab javapath
                     javaaddpath(fullfile(thePath,'poi_library','poi-3.8-20120326.jar'));
                     javaaddpath(fullfile(thePath,'poi_library','poi-ooxml-3.8-20120326.jar'));
@@ -1657,7 +1658,7 @@ fprintf(fid,' sync mirror:left->right \n');
                     javaaddpath(fullfile(thePath,'poi_library','stax-api-1.0.1.jar'));
                 end
                 % xlwrite can only write cell, third para is sheet name or index
-                xlwrite(file,ez.t2c(T),1);
+                xlwrite(file,ez.t2c(T));
             catch
                 % [varargout{1:nargout}] = writetable(varargin{:}); 
                 writetable(T,file);
