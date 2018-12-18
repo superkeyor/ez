@@ -1647,8 +1647,7 @@ fprintf(fid,' sync mirror:left->right \n');
             end
             try
                 if isempty(which('xlwrite'))
-                    thePath = fileparts(mfilename('fullpath'));
-                    addpath(fullfile(thePath,'xlwrite'));
+                    thePath = fullfile(fileparts(mfilename('fullpath')),'xlwrite');
                     % Add Java POI Libs to matlab javapath
                     javaaddpath(fullfile(thePath,'poi_library','poi-3.8-20120326.jar'));
                     javaaddpath(fullfile(thePath,'poi_library','poi-ooxml-3.8-20120326.jar'));
