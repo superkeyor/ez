@@ -1633,16 +1633,27 @@ fprintf(fid,' sync mirror:left->right \n');
             warning(S.state, 'MATLAB:table:ModifiedVarnames');
         end
         
-        function varargout = savex(varargin)
-            % underlying is writetable, but on Linux and Mac platforms, the xlsread function or the Import Tool cannot open spreadsheet files written by the writetable function.
-            % Resave the xlsx file with Excel
+        function savex(T,file)
+            % underlying is java https://www.mathworks.com/matlabcentral/fileexchange/38591
             % (T,file)
             % T: table with header
-            % file: file path with .xlsx (always overwrite file here; writetable only overwrites cells in excel )
+            % file: file path with .xlsx (always overwrite file here)
             if exist(path,'file')
                 delete(path);
             end
-            [varargout{1:nargout}] = writetable(varargin{:}); 
+            if isempty(which('xlwrite')), addpath(fullfile(fileparts(mfilename('fullpath')),'xlwrite')); end
+            % Add Java POI Libs to matlab javapath
+            javaaddpath('poi_library/poi-3.8-20120326.jar');
+            javaaddpath('poi_library/poi-ooxml-3.8-20120326.jar');
+            javaaddpath('poi_library/poi-ooxml-schemas-3.8-20120326.jar');
+            javaaddpath('poi_library/xmlbeans-2.3.0.jar');
+            javaaddpath('poi_library/dom4j-1.6.1.jar');
+            javaaddpath('poi_library/stax-api-1.0.1.jar');
+            xlwrite(file,ez.t2c(T),1);
+            % % underlying is writetable, but on Linux and Mac platforms, the xlsread function or the Import Tool cannot open spreadsheet files written by the writetable function.
+            % % Resave the xlsx file with Excel
+            % % writetable only overwrites cells in excel 
+            % [varargout{1:nargout}] = writetable(varargin{:}); 
         end 
         
         function res = header(VariableNames)
@@ -1671,8 +1682,16 @@ fprintf(fid,' sync mirror:left->right \n');
         function T = c2t(C)
             % (C) to table
             % C: cell with header
+            if ~iscell(C), T=C; return; end
             T = cell2table(C(2:end,:));
             T.Properties.VariableNames = matlab.lang.makeValidName(C(1,:));
+        end
+        
+        function C = t2c(T)
+            % convert to cell with header
+            if ~istable(T), C=T; return; end
+            C = table2cell(T);
+            C = [T.Properties.VariableNames;C];
         end
         
         function gmail(email, subject, content, sender, user, pass)
