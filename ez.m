@@ -1302,15 +1302,15 @@ fprintf(fid,' option confirm:yes-to-all \n');
 fprintf(fid,' criteria timestamp:2sec size \n');
 fprintf(fid,'  \n');
 fprintf(fid,' filter "g0*.xlsx;*.m;*.mat;-._*;-.*;-*/" \n');
-fprintf(fid,' load "/Users/jerry/Dropbox/Work/Postdoc/IU/Data/nbk" "/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/nbk" \n');
+fprintf(fid,' load "/Users/jerry/Dropbox/Work/Postdoc/IU/Data/nbk" "/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/nbk" \n');
 fprintf(fid,' sync mirror:left->right \n');
 fprintf(fid,'  \n');
 fprintf(fid,' filter "-.gitignore;-.DS_Store;-._*;-.*;-.ignore/;-.git/;-*/" \n');
-fprintf(fid,' load "/Users/jerry/Dropbox/Apps/Matlab/ez" "/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez" \n');
+fprintf(fid,' load "/Users/jerry/Dropbox/Apps/Matlab/ez" "/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/ez" \n');
 fprintf(fid,' sync mirror:left->right \n');
 fprintf(fid,'  \n');
 fprintf(fid,' filter "-.gitignore;-.DS_Store;-._*;-.*;-jobmail.m;-./extensions/xjview96/example2.img;-./extensions/xjview96/*.mat;-./extensions/xjview96/example2.hdr;-./extensions/xjview96/example1.img;-./extensions/xjview96/example1.hdr;-./extensions/xjview96/ch2bet.img;-./extensions/xjview96/ch2bet.hdr;-./extensions/xjview96/ch2.img;-./extensions/xjview96/ch2.hdr;-./extensions/xjview96/brodmann.img;-./extensions/xjview96/brodmann.hdr;-./extensions/xjview96/aal.img;-./extensions/xjview96/aal.hdr;-.ignore/;-.git/;-./spms/;-./template/;-./extensions/Talairach/;-./extensions/WFU_PickAtlas_3.0.5b/;-./extensions/spunt-bspmview-5597721/;-./extensions/mricron_2015_06_01/;-./extensions/FITv2.0d/;-./extensions/afni_matlab/;-./extensions/marsbar-0.44/;-./extensions/BrainNetViewer_20150807/;-./extensions/BCT_2016_01_16/;-./extensions/BASCO2.0_modified/;-./homebrew/ROIs/" \n');
-fprintf(fid,' load "/Users/jerry/Dropbox/Apps/Matlab/SPM" "/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12" \n');
+fprintf(fid,' load "/Users/jerry/Dropbox/Apps/Matlab/SPM" "/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/SPMJobs12" \n');
 fprintf(fid,' sync mirror:left->right \n');
                     fclose(fid);
                     system(sprintf('/usr/local/bin/bcomp @''%s'' ', fn),'-echo');
@@ -1319,11 +1319,11 @@ fprintf(fid,' sync mirror:left->right \n');
             elseif isunix
                 if ~force
                     oldpwd = pwd;
-                    cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez');
+                    cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/ez');
                     ! git fetch origin master
                     ! git reset --hard origin/master
                     ! git pull origin master
-                    cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12');
+                    cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/SPMJobs12');
                     ! git fetch origin master
                     ! git reset --hard origin/master
                     ! git pull origin master
@@ -1332,16 +1332,16 @@ fprintf(fid,' sync mirror:left->right \n');
                     % ez could not be removed because this function is being executed
                     oldpwd = pwd;
                     warning('off','MATLAB:lang:cannotClearExecutingFunction');
-                    rmdir('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12','s');
-                    rmdir('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez','s');
+                    rmdir('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/SPMJobs12','s');
+                    rmdir('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/ez','s');
                     warning('on','MATLAB:lang:cannotClearExecutingFunction');
                     cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu');
                     ! git clone https://github.com/jerryzhujian9/ez.git
                     ! git clone https://github.com/jerryzhujian9/SPMJobs12.git
                     restoredefaultpath;
                     clear RESTOREDEFAULTPATH_EXECUTED;
-                    addpath('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/ez');
-                    run('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu/SPMJobs12/ignite.m');
+                    addpath('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/ez');
+                    run('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/SPMJobs12/ignite.m');
                     f;
                     spm('quit');
                     cd(oldpwd)
