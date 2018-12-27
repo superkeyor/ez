@@ -124,7 +124,7 @@ classdef ez
         function clean()
             % new version of matlab issues warning
             % ez.m could not be cleared because it contains MATLAB code that is currently executing
-            warning('off','MATLAB:lang:cannotClearExecutingFunction');
+            S = warning('off','MATLAB:lang:cannotClearExecutingFunction');
             
             % clear command window, all variables. close all figures. show workspace/variables window
             clc;         % clear command window
@@ -134,13 +134,13 @@ classdef ez
             % workspace;   % show/activate workspace/variables window
             commandwindow; % refocus to command window
             
-            warning('on','MATLAB:lang:cannotClearExecutingFunction');
+            warning(S.state,'MATLAB:lang:cannotClearExecutingFunction');
         end
 
         function clear()
             % new version of matlab issues warning
             % ez.m could not be cleared because it contains MATLAB code that is currently executing
-            warning('off','MATLAB:lang:cannotClearExecutingFunction');
+            S = warning('off','MATLAB:lang:cannotClearExecutingFunction');
             
             % clear command window, all variables. close all figures. show workspace/variables window
             clc;         % clear command window
@@ -150,7 +150,7 @@ classdef ez
             % workspace;   % show/activate workspace/variables window
             commandwindow; % refocus to command window
             
-            warning('on','MATLAB:lang:cannotClearExecutingFunction');
+            warning(S.state,'MATLAB:lang:cannotClearExecutingFunction');
         end
 
         function varargout = view(varargin)
@@ -1020,10 +1020,10 @@ classdef ez
             % % makes a new dir, path could be absolute or relative, returns true or false
             % % creates all neccessay parent folders (e.g. 'a/b/c', creates a b for c)
             % % if folder exits, still creates and returns success
-            % warning('off', 'MATLAB:MKDIR:DirectoryExists');
+            % S = warning('off', 'MATLAB:MKDIR:DirectoryExists');
             % status = mkdir(path);
             % disp([path ' created']);
-            % warning('on', 'MATLAB:MKDIR:DirectoryExists');
+            % warning(S.state, 'MATLAB:MKDIR:DirectoryExists');
         end
 
         function rm(path)
@@ -1331,10 +1331,10 @@ fprintf(fid,' sync mirror:left->right \n');
                 else
                     % ez could not be removed because this function is being executed
                     oldpwd = pwd;
-                    warning('off','MATLAB:lang:cannotClearExecutingFunction');
+                    S = warning('off','MATLAB:lang:cannotClearExecutingFunction');
                     rmdir('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/SPMJobs12','s');
                     rmdir('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/ez','s');
-                    warning('on','MATLAB:lang:cannotClearExecutingFunction');
+                    warning(S.state,'MATLAB:lang:cannotClearExecutingFunction');
                     cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu');
                     ! git clone https://github.com/jerryzhujian9/ez.git
                     ! git clone https://github.com/jerryzhujian9/SPMJobs12.git
@@ -1627,8 +1627,7 @@ fprintf(fid,' sync mirror:left->right \n');
             % illegal char (eg, .) in variable names will be replace with _ (warning suppressed)
             
             % Variable names were modified to make them valid MATLAB identifiers. The original names are saved in the VariableDescriptions property.
-            S = warning('QUERY', 'MATLAB:table:ModifiedVarnames');
-            warning('OFF', 'MATLAB:table:ModifiedVarnames');
+            S = warning('OFF', 'MATLAB:table:ModifiedVarnames');
             [varargout{1:nargout}] = readtable(varargin{:}); 
             warning(S.state, 'MATLAB:table:ModifiedVarnames');
         end
