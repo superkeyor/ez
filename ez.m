@@ -1301,7 +1301,7 @@ fprintf(fid,' # log normal append:"bcompsync.log" \n');
 fprintf(fid,' option confirm:yes-to-all \n');
 fprintf(fid,' criteria timestamp:2sec size \n');
 fprintf(fid,'  \n');
-fprintf(fid,' filter "g0*.xlsx;*.m;*.mat;-._*;-.*;-*/" \n');
+fprintf(fid,' filter "-._*;-.*;-*/;g0*.xlsx;*.m;*.mat" \n');
 fprintf(fid,' load "/Users/jerry/Dropbox/Work/Postdoc/IU/Data/nbk" "/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/nbk" \n');
 fprintf(fid,' sync mirror:left->right \n');
 fprintf(fid,'  \n');
