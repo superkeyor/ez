@@ -128,7 +128,6 @@ classdef ez
             
             % clear command window, all variables. close all figures. show workspace/variables window
             clc;         % clear command window
-            clear all;   % clear workspace/variables
             evalin('base','clear all');  % clear base workspace as well
             close all;   % close all figures
             % workspace;   % show/activate workspace/variables window
@@ -144,7 +143,6 @@ classdef ez
             
             % clear command window, all variables. close all figures. show workspace/variables window
             clc;         % clear command window
-            clear all;   % clear workspace/variables
             evalin('base','clear all');  % clear base workspace as well
             close all;   % close all figures
             % workspace;   % show/activate workspace/variables window
