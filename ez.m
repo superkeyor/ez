@@ -458,9 +458,7 @@ classdef ez
         end
 
         function varargout = abspath(varargin)
-            % addpath(varargin)
-            % Add a path to matlab search path, a wrapper of addpath()
-            % http://www.mathworks.com/help/matlab/ref/addpath.html
+            % abspath(varargin)
             [varargout{1:nargout}] = GetFullPath(varargin{:}); 
         end
 
