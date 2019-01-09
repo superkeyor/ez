@@ -312,6 +312,36 @@ classdef ez
             end
         end
 
+        function varargout = cd(varargin)
+            % cd(varargin)
+            % changes directory, the same as cd()
+            [varargout{1:nargout}] = cd(varargin{:}); 
+        end
+        
+        function ce()
+            % ez.cd(ez.csd())
+            try
+                theStacks = dbstack('-completenames');
+                theStack = theStacks(2);
+                result = fileparts(theStack.file);
+            catch
+                result = pwd;
+            end
+            cd(result); 
+        end
+
+        function cf()
+            % ez.cd(ez.csd())
+            try
+                theStacks = dbstack('-completenames');
+                theStack = theStacks(2);
+                result = fileparts(theStack.file);
+            catch
+                result = pwd;
+            end
+            cd(result); 
+        end
+
         function [dir] = whichdir(name)
             %   WHICHDIR  Returns directory name containing file in search path.
             %
@@ -765,12 +795,6 @@ classdef ez
                 % check the last char to see if it is a \w (alphabetic, numeric, or underscore); if it is \, / or other stuff regexp returns []
                 if isempty(regexp(result(end),'\w')), result = result(1:end-1); end
             end
-        end
-
-        function varargout = cd(varargin)
-            % cd(varargin)
-            % changes directory, the same as cd()
-            [varargout{1:nargout}] = cd(varargin{:}); 
         end
 
         function varargout = type(varargin)
