@@ -1339,11 +1339,11 @@ fprintf(fid,' sync mirror:left->right \n');
             elseif isunix
                 if ~force
                     oldpwd = pwd;
-                    cd('/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/ez');
+                    cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/ez');
                     ! git fetch origin master
                     ! git reset --hard origin/master
                     ! git pull origin master
-                    cd('/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/SPMJobs12');
+                    cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/SPMJobs12');
                     ! git fetch origin master
                     ! git reset --hard origin/master
                     ! git pull origin master
@@ -1352,16 +1352,16 @@ fprintf(fid,' sync mirror:left->right \n');
                     % ez could not be removed because this function is being executed
                     oldpwd = pwd;
                     S = warning('off','MATLAB:lang:cannotClearExecutingFunction');
-                    rmdir('/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/SPMJobs12','s');
-                    rmdir('/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/ez','s');
+                    rmdir('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/SPMJobs12','s');
+                    rmdir('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/ez','s');
                     warning(S.state,'MATLAB:lang:cannotClearExecutingFunction');
-                    cd('/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu');
+                    cd('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/zhu');
                     ! git clone https://github.com/jerryzhujian9/ez.git
                     ! git clone https://github.com/jerryzhujian9/SPMJobs12.git
                     restoredefaultpath;
                     clear RESTOREDEFAULTPATH_EXECUTED;
-                    addpath('/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/ez');
-                    run('/Volumes/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/SPMJobs12/ignite.m');
+                    addpath('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/ez');
+                    run('/gpfs/projects/RadImagSci/CFN/test-SDA-import/VTRAK4/xserveraids/vtrak4/mci/aging/task/SPMJobs12/ignite.m');
                     f;
                     spm('quit');
                     cd(oldpwd)
