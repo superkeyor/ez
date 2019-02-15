@@ -31,7 +31,7 @@ classdef ez
     %       join(sep,string1,string2) or join(sep,array)
     %       replace(cellArray, item, replacement)
     %
-    %       mkdir(path), rm(path), cp(src, dest), mv(src, dest), rn(src, dest), ln(src, dest)
+    %       mkdir(path), rm(path), cp(src, dest), mv(src, dest), rn(src, dest), lns(src, dest)
     %       execute(cmd), open(path)
     %
     %       Alert(msg), result = Confirm(msg), results = Inputs(values[, defaults, title]), 
@@ -1269,8 +1269,8 @@ classdef ez
             
         end
 
-        function [status,result] = ln(src,dest)
-            % ln(src,dest)
+        function [status,result] = lns(src,dest)
+            % lns(src,dest)
             % create a soft link
             % when src is a file, dest could be a target file or a target dir
             [status,result] = system(['ln -s ' src ' ' dest],'-echo');
