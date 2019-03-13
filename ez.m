@@ -58,6 +58,7 @@ classdef ez
     %       result = toolboxExists({,})
     %       result = compare(A,B)
     %       printstruct(S)
+    %       v2m()
     %
     % # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     % # file save routine
@@ -173,6 +174,11 @@ classdef ez
                 result = s2;
             end
             return;
+        end
+
+        function varargout = makenames(varargin)
+            % Construct valid MATLAB identifiers from input strings, alias of matlab.lang.makeValidName
+            [varargout{1:nargout}] = matlab.lang.makeValidName(varargin{:}); 
         end
 
         function varargout = error(varargin)
@@ -1968,6 +1974,15 @@ fprintf(fid,' sync mirror:left->right \n');
             result = structcmp(S1,S2,'report','on','EqualNans','on','IgnoreSorting','on','IsRecursiveCall','no');
         end
 
+        function varargout = v2m(varNameString)
+            % v2m(varNameString)
+            % Save a variable to .m file such that the script can re-generate the variable
+            ez.setdefault({'varNameString','matlabbatch'});
+            fileName = [tempname,'.m'];
+            [varargout{1:nargout}] = evalin('caller', sprintf('matlab.io.saveVariablesToScript(''%s'',''%s'')',fileName,varNameString)); 
+            edit(fileName);
+        end
+        
         function varargout = printstruct(S, varargin)
             % PRINTSTRUCT Recursively print hierarchical outline of structure contents
             % __________________________________________________________________________
