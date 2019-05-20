@@ -1667,6 +1667,8 @@ fprintf(fid,' sync mirror:left->right \n');
             % (T,file)
             % T: table with header
             % file: file path with .xlsx (always overwrite file here)
+            % 
+            % for cell, first convert to table: T = ez.c2t(['header';C])
             if exist(path,'file')
                 delete(path);
             end
