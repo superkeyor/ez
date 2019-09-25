@@ -1028,6 +1028,16 @@ classdef ez
             end % end sub-function        
         end
 
+        function [res] = matchn(nx1,indexn)
+           % reorder nx1 cell or matrix, originally designed for ez.lsd() results
+           % input: nx1 cell or matrix. 
+           %        indexn [1 4 2 3]
+           % Eg, 1 2 3 4 5 6 7 8 -> 1 4 2 3 5 8 6 7
+           ind = bsxfun(@plus,indexn',[1:length(indexn):length(nx1)]-1);
+           ind = ind(:);
+           res = nx1(ind);
+        end
+        
         function [path, status] = mkdir(path,print2screen)
             % mkdir(path)
             % makes a new dir, path could be absolute or relative, returns true or false
