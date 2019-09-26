@@ -1750,6 +1750,7 @@ fprintf(fid,' sync mirror:left->right \n');
         
         function gmail(email, subject, content, sender, user, pass)
             % e.g. gmail('a@b.com', 'greetings', ['line1' 10 'line2'], 'Sender Name <c@gmail.com>', 'c@gmail.com', 'password');
+            % gmail({'a@b.com','c@d.com'},'done')
             setpref('Internet','E_mail',sender);
             setpref('Internet','SMTP_Server','smtp.gmail.com');
             setpref('Internet','SMTP_Username',user);
